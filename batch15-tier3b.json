@@ -1,0 +1,802 @@
+{
+  "hepatic-tumor": {
+    "zh": "肝臟腫瘤",
+    "en": "Hepatic Tumor",
+    "definition": "原發或轉移性肝臟腫瘤，原發性包括肝細胞癌、膽管細胞癌及肉瘤等，轉移性腫瘤較原發性更為常見。",
+    "synonyms": ["肝臟癌", "肝腫瘤", "Liver Tumor", "Hepatic Neoplasia"],
+    "epidemiology": {
+      "species": "犬貓皆可發生",
+      "age": "老年動物（>10歲）",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["高齡", "慢性肝病", "黃麴毒素暴露", "其他部位原發腫瘤轉移"]
+    },
+    "clinicalPresentation": {
+      "history": ["食慾下降", "體重減輕", "嘔吐", "多飲多尿", "腹部膨大", "嗜睡"],
+      "physicalExam": ["肝臟腫大", "腹部觸診可及腫塊", "腹水", "黃疸", "前腹部疼痛", "黏膜蒼白（出血時）"]
+    },
+    "pathophysiology": "原發性肝細胞癌為犬最常見原發肝腫瘤，可呈巨塊型、結節型或瀰漫型。膽管細胞癌侵襲性強且轉移率高。轉移性腫瘤經由門脈或全身循環到達肝臟，常見來源為脾臟血管肉瘤、胰臟腫瘤及消化道腫瘤。",
+    "diagnosis": {
+      "overview": "結合影像學、實驗室檢查及組織病理學確診",
+      "differentials": ["肝臟結節性增生", "肝膿瘍", "肝囊腫", "肝血腫", "肉芽腫性肝炎"],
+      "initialDB": ["CBC/血液生化（ALT、ALP、GGT升高）", "腹部X光", "腹部超音波", "凝血功能檢查"],
+      "advanced": ["超音波引導細針抽吸或組織切片", "腹部CT掃描分期", "胸部X光（轉移評估）", "甲胎蛋白（AFP）檢測"]
+    },
+    "treatment": {
+      "overview": "巨塊型肝細胞癌手術切除為首選，轉移性或瀰漫型預後差",
+      "acute": ["穩定血流動力學", "輸血（破裂出血時）", "止痛", "術前評估與準備"],
+      "chronic": ["肝葉切除術（巨塊型）", "化療（膽管細胞癌或轉移性）", "支持性護理", "營養管理"]
+    },
+    "prognosis": "巨塊型肝細胞癌手術切除後中位存活超過1460天，預後良好。結節型和瀰漫型預後差，中位存活約270-428天。膽管細胞癌和轉移性腫瘤預後不佳。",
+    "pearls": ["巨塊型肝細胞癌是最常見的原發肝腫瘤且手術預後極佳", "肝臟結節性增生是良性病變，需與腫瘤區分", "犬肝臟可切除多達75%而維持功能", "轉移性腫瘤比原發性更常見，需全面分期檢查"],
+    "monitoring": ["肝臟酵素", "腹部超音波追蹤", "胸部X光", "臨床症狀"],
+    "reference": "Liptak JM: Hepatobiliary Tumors. In Vail DM et al: Withrow & MacEwen's Small Animal Clinical Oncology, 6th Ed. Elsevier, 2020"
+  },
+  "splenic-tumor": {
+    "zh": "脾臟腫瘤",
+    "en": "Splenic Tumor",
+    "definition": "原發於脾臟的腫瘤，最常見為血管肉瘤（惡性）和血腫/結節性增生（良性），約三分之二脾臟腫塊為惡性，其中血管肉瘤佔多數。",
+    "synonyms": ["脾臟腫塊", "脾臟癌", "Splenic Mass", "Splenic Neoplasia"],
+    "epidemiology": {
+      "species": "犬遠較貓常見",
+      "age": "中老年犬（8-12歲）",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["德國牧羊犬", "黃金獵犬", "拉布拉多犬", "大型犬種"]
+    },
+    "clinicalPresentation": {
+      "history": ["急性虛脫（腫瘤破裂）", "間歇性虛弱", "食慾下降", "腹部膨大", "運動不耐受", "體重減輕"],
+      "physicalExam": ["腹部可觸及腫塊", "腹水（血腹）", "黏膜蒼白", "心搏過速", "脾臟腫大", "休克徵象（破裂時）"]
+    },
+    "pathophysiology": "血管肉瘤起源於血管內皮細胞，具高度惡性及轉移傾向，常轉移至肝臟、心臟右心耳及肺臟。腫瘤血管結構脆弱，易發生自發性破裂導致腹腔出血及急性休克。良性腫塊包括血腫和結節性增生。",
+    "diagnosis": {
+      "overview": "影像學發現脾臟腫塊後需手術切除並送病理確診",
+      "differentials": ["脾臟血腫", "結節性增生", "脾臟扭轉", "脾臟膿瘍", "其他脾臟肉瘤"],
+      "initialDB": ["CBC（貧血、裂紅血球）", "血液生化", "凝血功能", "腹部超音波", "腹部X光"],
+      "advanced": ["胸部X光三視圖", "心臟超音波（右心耳腫塊）", "腹部CT", "腹腔穿刺液分析"]
+    },
+    "treatment": {
+      "overview": "脾臟切除術為首選，血管肉瘤術後輔以化療",
+      "acute": ["積極輸液復甦", "輸血（全血或pRBC）", "緊急脾臟切除術", "止痛"],
+      "chronic": ["脾臟切除術", "Doxorubicin為基礎的化療方案（血管肉瘤）", "I'm-Yunity蘑菇多醣體（輔助）", "定期分期檢查"]
+    },
+    "prognosis": "良性脾臟腫塊切除後預後極佳。血管肉瘤預後差：僅手術中位存活1-3個月，手術加化療中位存活約5-7個月。右心耳同時受累者預後更差。",
+    "pearls": ["犬脾臟腫塊約2/3為惡性，其中2/3為血管肉瘤", "急性血腹的老年大型犬應高度懷疑脾臟血管肉瘤", "裂紅血球和棘紅血球提示血管肉瘤", "心臟超音波檢查右心耳是分期必要步驟"],
+    "monitoring": ["腹部超音波", "胸部X光", "心臟超音波", "CBC追蹤", "臨床症狀"],
+    "reference": "Thamm DH: Hemangiosarcoma. In Vail DM et al: Withrow & MacEwen's Small Animal Clinical Oncology, 6th Ed. Elsevier, 2020"
+  },
+  "pulmonary-neoplasia": {
+    "zh": "肺腫瘤",
+    "en": "Pulmonary Neoplasia",
+    "definition": "原發性或轉移性肺臟腫瘤。原發性肺腫瘤以惡性上皮性腫瘤（肺腺癌）最為常見，轉移性肺腫瘤較原發性更為常見。",
+    "synonyms": ["肺癌", "肺部腫瘤", "Lung Tumor", "Lung Cancer"],
+    "epidemiology": {
+      "species": "犬較貓常見",
+      "age": "老年動物（平均10-11歲）",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["高齡", "都市環境", "二手菸暴露", "石綿暴露"]
+    },
+    "clinicalPresentation": {
+      "history": ["慢性咳嗽", "呼吸困難", "運動不耐受", "體重減輕", "食慾下降", "咳血", "跛行（肥大性骨病變或指端轉移）"],
+      "physicalExam": ["肺部聽診異常", "呼吸急促", "呼吸困難", "體重減輕", "指端腫脹（肥大性骨病變）", "胸水"]
+    },
+    "pathophysiology": "原發性肺腺癌起源於支氣管或肺泡上皮細胞，可為單一腫塊或多發結節。腫瘤生長導致氣道阻塞、肺實質破壞及胸腔積液。轉移性肺腫瘤經由血行途徑到達肺臟，常見來源包括骨肉瘤、乳腺腫瘤、甲狀腺癌等。",
+    "diagnosis": {
+      "overview": "胸部影像學發現肺部腫塊，組織病理學確診",
+      "differentials": ["肺炎", "肺膿瘍", "肺真菌感染", "肺肉芽腫", "其他部位腫瘤轉移"],
+      "initialDB": ["胸部X光三視圖", "CBC/血液生化", "凝血功能", "動脈血氣分析"],
+      "advanced": ["胸部CT掃描", "支氣管鏡及灌洗", "超音波或CT引導細針抽吸", "淋巴結抽吸", "腹部超音波分期"]
+    },
+    "treatment": {
+      "overview": "單一肺葉原發腫瘤以手術切除為首選",
+      "acute": ["氧氣支持", "胸腔穿刺引流（胸水）", "止痛"],
+      "chronic": ["肺葉切除術", "術後化療（轉移性或不完全切除）", "酪胺酸激酶抑制劑（Toceranib）", "緩和治療"]
+    },
+    "prognosis": "單一腫塊完整切除、無淋巴結轉移者中位存活約12-20個月。腫瘤＜5cm、無淋巴結受累、分化良好者預後較佳。已有淋巴結或遠處轉移者預後差，中位存活約2-4個月。",
+    "pearls": ["老年犬慢性咳嗽應考慮肺腫瘤", "貓肺腫瘤可表現為指端轉移（肺-趾症候群）", "CT比X光更敏感，可發現更小的結節", "孤立性腫塊較多發結節預後好"],
+    "monitoring": ["胸部X光或CT追蹤", "呼吸功能評估", "淋巴結大小", "臨床症狀"],
+    "reference": "Selting KA: Pulmonary Neoplasia. In Vail DM et al: Withrow & MacEwen's Small Animal Clinical Oncology, 6th Ed. Elsevier, 2020"
+  },
+  "anal-sac-adenocarcinoma": {
+    "zh": "肛門囊腺癌",
+    "en": "Anal Sac Adenocarcinoma",
+    "definition": "起源於肛門囊頂泌腺（apocrine gland）的惡性腫瘤，具高度局部侵襲性及轉移傾向，常伴隨副腫瘤性高鈣血症。",
+    "synonyms": ["肛門囊頂泌腺癌", "AGASACA", "Apocrine Gland Anal Sac Adenocarcinoma"],
+    "epidemiology": {
+      "species": "犬為主，貓極罕見",
+      "age": "中老年犬（平均9-11歲）",
+      "sex": "母犬稍多見，但公犬亦常發生",
+      "riskFactors": ["英國可卡犬", "德國牧羊犬", "老年犬"]
+    },
+    "clinicalPresentation": {
+      "history": ["排便困難", "糞便形狀改變（扁平）", "會陰部腫脹", "多飲多尿（高鈣血症）", "食慾下降", "後肢無力"],
+      "physicalExam": ["直腸觸診發現肛門囊硬實腫塊", "薦下淋巴結腫大", "會陰腫脹", "脫水", "肌肉無力"]
+    },
+    "pathophysiology": "頂泌腺上皮細胞惡性增生形成腫瘤，具高度局部侵襲性。約25-50%病例分泌副甲狀腺激素相關蛋白（PTHrP）導致高鈣血症。腫瘤早期即可轉移至薦下（髂內）淋巴結，後續轉移至肺臟及肝臟。",
+    "diagnosis": {
+      "overview": "直腸觸診發現腫塊，血鈣升高為重要線索",
+      "differentials": ["肛門囊炎", "肛門囊膿瘍", "肛周腺瘤/腺癌", "會陰疝", "直腸腫瘤"],
+      "initialDB": ["直腸觸診", "CBC/血液生化（離子鈣、總鈣）", "胸部X光三視圖", "腹部超音波"],
+      "advanced": ["腹部CT（薦下淋巴結評估）", "細針抽吸或組織切片", "PTHrP檢測", "淋巴結抽吸"]
+    },
+    "treatment": {
+      "overview": "手術切除腫瘤，必要時切除轉移淋巴結，術後化療或放療",
+      "acute": ["靜脈輸液糾正高鈣血症", "利尿劑（Furosemide）", "雙磷酸鹽類藥物", "止痛"],
+      "chronic": ["手術切除腫瘤及淋巴結", "術後化療（Carboplatin或Mitoxantrone）", "放射治療（輔助或緩和）", "持續監控血鈣"]
+    },
+    "prognosis": "中位存活時間約12-18個月（手術加化療）。腫瘤大小＜2.5cm及無淋巴結轉移者預後較佳。高鈣血症可隨腫瘤切除而改善，但復發時再現。",
+    "pearls": ["每次直腸觸診都應檢查肛門囊", "副腫瘤性高鈣血症是重要臨床線索", "即使有薦下淋巴結轉移，手術切除仍可延長存活", "約50%病例在診斷時已有淋巴結轉移"],
+    "monitoring": ["直腸觸診", "血鈣濃度", "腹部超音波（淋巴結）", "胸部X光"],
+    "reference": "Williams LE et al: Carcinoma of the Apocrine Glands of the Anal Sac. In Vail DM et al: Withrow & MacEwen's Small Animal Clinical Oncology, 6th Ed. Elsevier, 2020"
+  },
+  "histiocytic-sarcoma": {
+    "zh": "組織細胞肉瘤",
+    "en": "Histiocytic Sarcoma",
+    "definition": "起源於樹突狀細胞或巨噬細胞的高度惡性腫瘤，可為局部性或播散性（以前稱為惡性組織細胞增生症）。",
+    "synonyms": ["惡性組織細胞增生症", "播散性組織細胞肉瘤", "Malignant Histiocytosis", "Disseminated Histiocytic Sarcoma"],
+    "epidemiology": {
+      "species": "犬為主，貓罕見",
+      "age": "中老年犬（6-11歲）",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["伯恩山犬", "平毛獵犬", "黃金獵犬", "羅威納犬", "拉布拉多犬", "遺傳傾向"]
+    },
+    "clinicalPresentation": {
+      "history": ["快速進行性消瘦", "食慾下降", "嗜睡", "呼吸困難", "跛行（關節周圍型）", "神經症狀（CNS侵犯）"],
+      "physicalExam": ["肝脾腫大", "淋巴結腫大", "肺部聽診異常", "可觸及皮膚或皮下腫塊", "關節腫脹", "貧血黏膜"]
+    },
+    "pathophysiology": "樹突狀細胞或巨噬細胞惡性增生，局部型起源於單一部位（脾、肺、皮膚、關節周圍），播散型則多器官同時受累。腫瘤細胞具吞噬活性，可導致紅血球吞噬及嚴重貧血。遺傳因素在伯恩山犬和平毛獵犬中已被確認。",
+    "diagnosis": {
+      "overview": "組織病理學及免疫組織化學染色確診",
+      "differentials": ["淋巴瘤", "其他圓細胞腫瘤", "肉芽腫性疾病", "免疫媒介性溶血性貧血", "脾臟血管肉瘤"],
+      "initialDB": ["CBC（貧血、血小板減少）", "血液生化", "腹部超音波", "胸部X光"],
+      "advanced": ["組織切片及免疫組織化學（CD18+, CD11c+）", "骨髓穿刺", "CT掃描全身分期", "細針抽吸細胞學"]
+    },
+    "treatment": {
+      "overview": "局部型以手術為主，播散型化療效果有限",
+      "acute": ["輸血支持", "止痛", "穩定病患"],
+      "chronic": ["手術切除（局部型）", "CCNU（Lomustine）化療", "Doxorubicin", "緩和治療", "免疫療法（試驗性）"]
+    },
+    "prognosis": "整體預後差。局部型手術切除後中位存活約6個月。播散型預後極差，中位存活約3-4個月。對化療反應率約50%但緩解期短。",
+    "pearls": ["伯恩山犬和平毛獵犬為高風險品種", "播散型常表現為再生不良性貧血和血小板減少", "免疫組織化學染色是確診關鍵", "與反應性組織細胞增生症需鑑別"],
+    "monitoring": ["CBC", "影像學追蹤", "臨床症狀", "體重"],
+    "reference": "Moore PF: Histiocytic Sarcoma Complex. In Vail DM et al: Withrow & MacEwen's Small Animal Clinical Oncology, 6th Ed. Elsevier, 2020"
+  },
+  "meningioma": {
+    "zh": "腦膜瘤",
+    "en": "Meningioma",
+    "definition": "起源於腦膜蛛網膜絨毛帽狀細胞的腫瘤，為犬貓最常見的原發性顱內腫瘤。犬多為良性但可造成嚴重壓迫；貓亦多為良性。",
+    "synonyms": ["蛛網膜瘤", "腦膜上皮瘤", "Meningeal Tumor"],
+    "epidemiology": {
+      "species": "犬貓皆常見",
+      "age": "老年動物（犬>7歲，貓>10歲）",
+      "sex": "無明顯性別傾向（部分文獻報導母犬稍多）",
+      "riskFactors": ["長頭犬種（金毛獵犬、拳師犬）", "短頭犬種（波士頓梗）", "高齡", "貓：可為多發性"]
+    },
+    "clinicalPresentation": {
+      "history": ["癲癇發作", "行為改變", "轉圈", "視力喪失", "步態異常", "性格改變"],
+      "physicalExam": ["神經學定位異常（對側偏癱、面部感覺缺失）", "視覺障礙（威脅反應缺失）", "意識狀態改變", "顱神經缺損", "本體感覺缺失"]
+    },
+    "pathophysiology": "腫瘤起源於蛛網膜帽狀細胞，多為緩慢生長的軸外腫瘤，向腦實質壓迫而非浸潤。隨腫瘤生長，引起周圍腦水腫、顱內壓升高及神經功能障礙。貓腦膜瘤可多發，且可能合併腦室內生長。",
+    "diagnosis": {
+      "overview": "MRI為首選影像學檢查，典型表現為均勻強化的軸外腫塊",
+      "differentials": ["膠質瘤", "脈絡叢腫瘤", "轉移性腫瘤", "腦膿瘍", "肉芽腫性腦膜腦炎"],
+      "initialDB": ["完整神經學檢查", "CBC/血液生化", "胸部X光", "腹部超音波"],
+      "advanced": ["腦部MRI（首選，顯示硬腦膜尾徵）", "CT掃描", "腦脊液分析", "組織切片（手術時）"]
+    },
+    "treatment": {
+      "overview": "手術切除為首選，輔以抗癲癇藥物及類固醇控制水腫",
+      "acute": ["Mannitol降低顱內壓", "類固醇（Dexamethasone）", "抗癲癇藥物", "支持性護理"],
+      "chronic": ["顱骨切開腫瘤切除術", "放射治療（輔助或無法手術時）", "立體定向放射外科", "長期抗癲癇治療"]
+    },
+    "prognosis": "犬手術切除後中位存活約7-33個月，視腫瘤位置和完整切除程度而定。貓手術預後較犬好，中位存活可超過2年。放射治療可進一步延長存活。",
+    "pearls": ["犬貓最常見的原發性顱內腫瘤", "MRI特徵性表現：均勻強化、硬腦膜尾徵、軸外腫塊", "貓腦膜瘤常可較完整切除因與腦實質界線清楚", "老年犬新發癲癇應將腦膜瘤列為首要考慮"],
+    "monitoring": ["神經學檢查", "癲癇頻率", "MRI追蹤", "抗癲癇藥物血中濃度"],
+    "reference": "Snyder JM et al: Canine Intracranial Neoplasia. In Vail DM et al: Withrow & MacEwen's Small Animal Clinical Oncology, 6th Ed. Elsevier, 2020"
+  },
+  "right-sided-heart-failure": {
+    "zh": "右心衰竭",
+    "en": "Right-Sided Congestive Heart Failure",
+    "definition": "右心室無法有效將血液泵入肺循環，導致體循環靜脈壓升高、腹水及外周水腫的臨床症候群。",
+    "synonyms": ["右側充血性心衰竭", "右心鬱血性心衰竭", "Right-Sided CHF"],
+    "epidemiology": {
+      "species": "犬貓皆可發生",
+      "age": "依基礎病因而異",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["三尖瓣退化性疾病", "心絲蟲感染", "肺動脈高壓", "先天性心臟病（肺動脈狹窄）", "心包膜疾病", "擴張型心肌病"]
+    },
+    "clinicalPresentation": {
+      "history": ["腹部膨大", "運動不耐受", "體重增加（水腫液滯留）", "食慾下降", "呼吸困難（嚴重時）"],
+      "physicalExam": ["腹水", "頸靜脈擴張或搏動", "肝脾腫大（鬱血性）", "皮下水腫", "三尖瓣雜音", "心搏過速", "奔馬律"]
+    },
+    "pathophysiology": "右心室功能不全或容量/壓力超負荷導致右心房壓力升高，繼而引起體循環靜脈壓升高。液體自靜脈端微血管滲出至組織間隙及體腔，形成腹水、胸水及皮下水腫。RAAS系統啟動進一步加重鈉水滯留。",
+    "diagnosis": {
+      "overview": "臨床表現結合心臟超音波確認右心結構及功能異常",
+      "differentials": ["肝臟疾病引起的腹水", "低白蛋白血症", "腹腔腫瘤", "心包膜積液", "門脈高壓"],
+      "initialDB": ["胸部X光", "心臟超音波", "CBC/血液生化", "腹水分析", "心電圖"],
+      "advanced": ["NT-proBNP或cTnI", "心臟血管造影", "心導管檢查", "心絲蟲抗原檢測"]
+    },
+    "treatment": {
+      "overview": "利尿劑減輕容量過負荷，治療潛在心臟疾病",
+      "acute": ["Furosemide（利尿劑）", "腹腔穿刺引流（大量腹水）", "氧氣支持", "限制鈉攝取"],
+      "chronic": ["口服Furosemide", "Spironolactone", "ACE抑制劑", "Pimobendan（依適應症）", "治療基礎心臟病", "限鈉飲食"]
+    },
+    "prognosis": "取決於基礎病因。三尖瓣退化性疾病控制良好者可存活數月至數年。肺動脈高壓或擴張型心肌病引起者預後較差。心絲蟲感染治療後可改善。",
+    "pearls": ["犬右心衰竭最常見原因為三尖瓣退化性疾病和心絲蟲感染", "腹水分析呈改良漏出液有助於區分心因性腹水", "頸靜脈擴張是右心衰竭的重要臨床指標", "治療右心衰竭時需注意不要過度利尿導致低血壓"],
+    "monitoring": ["呼吸頻率", "腹圍", "體重", "腎功能及電解質", "心臟超音波追蹤"],
+    "reference": "Côté E: Right-Sided Congestive Heart Failure. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "myocarditis": {
+    "zh": "心肌炎",
+    "en": "Myocarditis",
+    "definition": "心肌的發炎性疾病，可由感染性、免疫媒介性或毒素引起，導致心肌損傷及心功能障礙。",
+    "synonyms": ["心肌發炎", "Inflammatory Cardiomyopathy"],
+    "epidemiology": {
+      "species": "犬貓皆可發生",
+      "age": "任何年齡，幼犬（犬小病毒）及中年犬（免疫媒介性）較常見",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["犬小病毒感染", "錐蟲感染（Chagas病）", "細菌性心內膜炎", "免疫媒介性疾病", "藥物毒性（Doxorubicin）"]
+    },
+    "clinicalPresentation": {
+      "history": ["突發虛弱或昏厥", "運動不耐受", "呼吸困難", "猝死", "嘔吐腹瀉（犬小病毒時）"],
+      "physicalExam": ["心律不整", "奔馬律", "心雜音（二尖瓣逆流）", "肺水腫聽診異常", "脈搏弱", "低體溫（休克）"]
+    },
+    "pathophysiology": "感染因子直接損傷心肌細胞或免疫反應介導的心肌發炎壞死。發炎導致心肌水腫、纖維化及心肌細胞死亡，繼而影響心臟收縮和傳導功能，可引起心律不整和心衰竭。犬小病毒心肌炎主要影響新生幼犬心肌細胞。",
+    "diagnosis": {
+      "overview": "臨床懷疑度高，確診需依賴心肌組織病理學，但臨床上常為排除性診斷",
+      "differentials": ["擴張型心肌病", "犬小病毒感染", "心包膜積液", "心臟腫瘤", "敗血症相關心肌抑制"],
+      "initialDB": ["心電圖（心律不整）", "心臟超音波", "CBC/血液生化", "心肌肌鈣蛋白I（cTnI）升高"],
+      "advanced": ["心肌內膜活檢", "PCR檢測病原", "心臟MRI", "錐蟲抗體檢測（流行區）"]
+    },
+    "treatment": {
+      "overview": "治療基礎病因，支持心功能，控制心律不整",
+      "acute": ["抗心律不整藥物（Lidocaine、Amiodarone）", "正性肌力藥物（Dobutamine）", "靜脈輸液（謹慎）", "氧氣支持"],
+      "chronic": ["ACE抑制劑", "Pimobendan", "抗心律不整藥物", "治療基礎感染", "免疫抑制劑（免疫媒介性）"]
+    },
+    "prognosis": "取決於病因和嚴重程度。感染性心肌炎治療後可部分恢復。嚴重心律不整或急性心衰竭者可能猝死。犬小病毒心肌炎幼犬死亡率高。慢性心肌炎可進展為擴張型心肌病。",
+    "pearls": ["犬小病毒心肌炎在廣泛疫苗接種後已少見", "cTnI是評估心肌損傷的敏感生物標記", "心律不整可能是唯一的臨床表現", "Chagas病在美洲南部犬為重要鑑別診斷"],
+    "monitoring": ["心電圖（Holter監測）", "心臟超音波", "cTnI", "臨床症狀"],
+    "reference": "Côté E: Myocarditis. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "restrictive-cardiomyopathy": {
+    "zh": "限制型心肌病",
+    "en": "Restrictive Cardiomyopathy",
+    "definition": "以心室壁僵硬及舒張功能障礙為特徵的心肌疾病，心室壁厚度和收縮功能可正常或輕度異常，主要影響貓。",
+    "synonyms": ["拘束型心肌病", "RCM", "中間型心肌病"],
+    "epidemiology": {
+      "species": "貓為主，犬極罕見",
+      "age": "中老年貓",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["心肌纖維化", "先前心肌炎", "心內膜纖維化"]
+    },
+    "clinicalPresentation": {
+      "history": ["呼吸困難", "運動不耐受", "食慾下降", "突發後肢癱瘓（動脈血栓栓塞）", "猝死"],
+      "physicalExam": ["奔馬律（S3或S4）", "心搏過速", "肺部囉音", "心雜音", "胸水", "後肢冰冷無脈搏（ATE時）"]
+    },
+    "pathophysiology": "心內膜或心肌纖維化導致心室順應性降低，舒張期充盈受阻，心房壓力升高。左心房擴大促進血栓形成，可導致動脈血栓栓塞症（ATE）。最終導致充血性心衰竭，以胸水為主要表現（貓）。分為心肌型（心室壁纖維化）和心內膜型（心內膜纖維增厚）。",
+    "diagnosis": {
+      "overview": "心臟超音波顯示心房擴大、心室壁僵硬但不肥厚，舒張功能異常",
+      "differentials": ["肥厚型心肌病", "擴張型心肌病", "未分類心肌病", "心包膜疾病"],
+      "initialDB": ["胸部X光", "心臟超音波", "心電圖", "NT-proBNP"],
+      "advanced": ["組織都卜勒超音波（TDI）", "心臟MRI", "心肌內膜活檢", "凝血功能評估"]
+    },
+    "treatment": {
+      "overview": "無特異性治療，以控制心衰竭症狀及預防血栓為主",
+      "acute": ["Furosemide（利尿）", "胸腔穿刺引流", "氧氣支持", "血栓栓塞急性治療"],
+      "chronic": ["Furosemide", "ACE抑制劑", "Clopidogrel（抗血栓）", "Diltiazem（改善舒張功能）", "Pimobendan（有爭議）"]
+    },
+    "prognosis": "預後謹慎至不良，中位存活時間約3-12個月。併發動脈血栓栓塞者預後極差。比肥厚型心肌病預後差，因診斷時多已處於心衰竭狀態。",
+    "pearls": ["限制型心肌病是貓第二或第三常見的心肌病", "心臟超音波與肥厚型心肌病的鑑別有時困難", "左心房嚴重擴大者血栓風險極高", "S3奔馬律是舒張功能障礙的重要聽診發現"],
+    "monitoring": ["呼吸頻率", "胸部X光", "心臟超音波", "凝血功能"],
+    "reference": "Côté E: Restrictive Cardiomyopathy. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "sick-sinus-syndrome": {
+    "zh": "病竇症候群",
+    "en": "Sick Sinus Syndrome",
+    "definition": "竇房結功能障礙導致的一系列心律不整，包括竇性心搏過緩、竇房阻滯、竇性停止，可伴隨快速心房心律不整（慢快症候群）。",
+    "synonyms": ["竇房結功能不全症候群", "SSS", "慢快症候群", "Brady-Tachy Syndrome"],
+    "epidemiology": {
+      "species": "犬為主，貓罕見",
+      "age": "中老年犬",
+      "sex": "母犬稍多見",
+      "riskFactors": ["迷你雪納瑞", "西高地白梗", "可卡犬", "臘腸犬", "拳師犬", "竇房結纖維化"]
+    },
+    "clinicalPresentation": {
+      "history": ["間歇性虛弱", "昏厥（暈厥）", "運動不耐受", "嗜睡", "猝死（罕見）"],
+      "physicalExam": ["心搏過緩", "不規則心律", "長時間心搏間歇", "Atropine反應試驗不完全", "交替出現快速和緩慢心律"]
+    },
+    "pathophysiology": "竇房結及其周圍組織退化性纖維化，導致起搏功能障礙和傳導異常。竇性心搏過緩或竇性停止導致心輸出量降低。部分病例同時存在心房肌異常，可產生快速心房心律不整（心房顫動或心房撲動）與緩慢心律交替出現（慢快症候群）。",
+    "diagnosis": {
+      "overview": "心電圖顯示竇性心搏過緩合併竇性停止，Atropine反應試驗反應不完全",
+      "differentials": ["高度房室阻滯", "高迷走神經張力", "藥物引起的心搏過緩", "甲狀腺功能低下", "高鉀血症"],
+      "initialDB": ["心電圖", "Atropine反應試驗", "CBC/血液生化", "甲狀腺功能"],
+      "advanced": ["24小時Holter心電圖監測", "心臟超音波", "電解質完整分析"]
+    },
+    "treatment": {
+      "overview": "症狀輕微者可觀察，症狀嚴重者需植入永久心臟起搏器",
+      "acute": ["Atropine（緊急）", "Isoproterenol靜脈滴注", "暫時性經靜脈起搏"],
+      "chronic": ["永久性心臟起搏器植入", "抗心律不整藥物（慢快症候群需謹慎使用）", "Theophylline（暫時性）", "避免使用減慢心率的藥物"]
+    },
+    "prognosis": "起搏器植入後預後良好，多數犬可恢復正常活動。不治療者若症狀嚴重可能危及生命。迷你雪納瑞預後通常較好。",
+    "pearls": ["迷你雪納瑞是最典型的好發品種", "Atropine反應試驗不完全反應（心率<150次/分）支持診斷", "慢快症候群需起搏器保護下才能安全使用抗心律不整藥物", "Holter監測可捕捉間歇性發作"],
+    "monitoring": ["起搏器功能檢測", "心電圖", "臨床症狀", "心臟超音波"],
+    "reference": "Côté E: Sick Sinus Syndrome. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "obesity": {
+    "zh": "肥胖症",
+    "en": "Obesity",
+    "definition": "體重超過理想體重20%以上的營養代謝疾病，為小動物最常見的營養問題，與多種慢性疾病的發生及加重有關。",
+    "synonyms": ["過度肥胖", "超重", "Overweight"],
+    "epidemiology": {
+      "species": "犬貓皆極常見",
+      "age": "中年動物較常見，絕育後風險增加",
+      "sex": "絕育動物風險高於未絕育",
+      "riskFactors": ["絕育", "過量餵食", "缺乏運動", "自由採食", "拉布拉多犬", "米格魯", "臘腸犬", "英國短毛貓", "室內貓", "POMC基因突變（拉布拉多）"]
+    },
+    "clinicalPresentation": {
+      "history": ["體重逐漸增加", "運動不耐受", "呼吸急促", "關節疼痛", "跛行"],
+      "physicalExam": ["體態評分（BCS）≥7/9", "腰線消失", "肋骨難以觸及", "腹部脂肪墊增厚", "皮下脂肪明顯增加"]
+    },
+    "pathophysiology": "能量攝取長期超過消耗，多餘能量以脂肪形式儲存。脂肪組織不僅是能量儲存器官，也是活性內分泌器官，分泌促炎細胞因子（adipokines），導致慢性低度發炎狀態。肥胖增加骨關節炎、糖尿病（貓）、心血管疾病、呼吸功能障礙及某些腫瘤的風險。",
+    "diagnosis": {
+      "overview": "體態評分系統（BCS 9分制）和體重測量",
+      "differentials": ["甲狀腺功能低下（犬）", "腎上腺皮質功能亢進", "腹水", "腹腔腫塊", "水腫"],
+      "initialDB": ["體態評分（BCS）", "肌肉狀態評分（MCS）", "體重記錄", "基礎血液生化"],
+      "advanced": ["甲狀腺功能檢測（犬）", "腎上腺功能檢測", "DEXA掃描（研究用）", "胰島素/血糖"]
+    },
+    "treatment": {
+      "overview": "多模式減重計畫包括飲食管理、運動增加及行為改變",
+      "acute": ["計算理想體重和每日能量需求", "制定減重計畫（每週減輕1-2%體重）"],
+      "chronic": ["處方減重飼料（高蛋白高纖維低脂）", "精確量測食物", "增加運動量", "消除零食和人類食物", "環境豐富化（貓）", "定期體重追蹤"]
+    },
+    "prognosis": "配合飼主積極參與，減重計畫可成功。減重可顯著改善相關疾病（骨關節炎、糖尿病緩解）。但長期維持是挑戰，復胖率高。研究顯示維持理想體重可延長犬壽命約2年。",
+    "pearls": ["估計25-40%犬貓為過重或肥胖", "BCS每增加1分（9分制）相當於體重增加約10-15%", "貓肥胖是第二型糖尿病的最重要風險因素", "拉布拉多的POMC基因突變使其食慾特別旺盛", "飼主教育和依從性是成功減重的關鍵"],
+    "monitoring": ["每2-4週體重測量", "BCS追蹤", "血糖（貓）", "骨關節功能評估"],
+    "reference": "German AJ: Obesity in companion animals. JSAP 2016; Côté E: Obesity. In Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "hepatic-encephalopathy": {
+    "zh": "肝性腦病",
+    "en": "Hepatic Encephalopathy",
+    "definition": "因嚴重肝功能不全或門體分流導致神經毒素（主要為氨）無法被肝臟代謝清除，而引起的神經精神功能障礙。",
+    "synonyms": ["肝性腦症", "肝昏迷", "門體性腦病", "Portosystemic Encephalopathy"],
+    "epidemiology": {
+      "species": "犬貓皆可發生",
+      "age": "先天性門體分流多見於幼年動物，後天性見於各年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["先天性門體分流", "急性肝衰竭", "慢性肝病", "約克夏梗", "馬爾濟斯", "愛爾蘭狼犬", "高蛋白飲食", "消化道出血"]
+    },
+    "clinicalPresentation": {
+      "history": ["進食後行為異常", "定向障礙", "走路搖晃", "流口水（貓）", "癲癇發作", "昏迷（嚴重時）", "間歇性症狀"],
+      "physicalExam": ["行為改變（壓頭、轉圈、茫然凝視）", "共濟失調", "流涎（尤其貓）", "瞳孔散大", "體型偏小（先天性分流）", "黃疸（肝衰竭時）"]
+    },
+    "pathophysiology": "肝功能不全時，腸道產生的氨、硫醇、短鏈脂肪酸及假性神經傳遞物質未能被肝臟有效代謝，經門體分流或體循環直接進入腦部。氨為主要毒素，在星狀膠質細胞中轉化為麩醯胺酸，引起細胞水腫及腦水腫，干擾神經傳遞功能。",
+    "diagnosis": {
+      "overview": "臨床神經症狀合併肝功能異常指標及血氨升高",
+      "differentials": ["原發性癲癇", "中毒", "低血糖", "腦炎", "代謝性疾病（尿毒症）"],
+      "initialDB": ["CBC/血液生化（BUN偏低、白蛋白偏低）", "血氨濃度", "膽汁酸（空腹及餐後）", "尿液分析（尿酸銨結晶）"],
+      "advanced": ["腹部超音波（門體分流偵測）", "門靜脈造影", "CT血管造影", "腦部MRI", "肝臟切片"]
+    },
+    "treatment": {
+      "overview": "降低血氨及腸道毒素生成，治療基礎肝病",
+      "acute": ["溫水灌腸（清除腸道毒素）", "Lactulose口服或灌腸", "靜脈輸液（避免含乳酸液）", "控制癲癇（Levetiracetam首選）", "停止蛋白質攝取"],
+      "chronic": ["Lactulose（口服，調整至軟便）", "限量優質蛋白飲食", "抗生素（Metronidazole或Neomycin）", "門體分流手術結紮（先天性）", "補充鋅"]
+    },
+    "prognosis": "先天性門體分流手術結紮後預後良好。急性肝衰竭合併肝性腦病預後謹慎至不良。慢性肝病以藥物和飲食控制可維持生活品質。分級越高（昏迷）預後越差。",
+    "pearls": ["幼犬幼貓的生長遲緩和進食後行為異常應考慮門體分流", "貓肝性腦病特徵性表現為大量流涎", "Lactulose是長期管理的基石藥物", "消化道出血是肝病患者急性肝性腦病的常見誘因", "避免使用經肝臟代謝的鎮靜藥物"],
+    "monitoring": ["血氨濃度", "神經學狀態", "膽汁酸", "肝臟功能指標", "體重和營養狀態"],
+    "reference": "Côté E: Hepatic Encephalopathy. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "hyperlipoproteinemia": {
+    "zh": "高脂蛋白血症",
+    "en": "Hyperlipoproteinemia",
+    "definition": "血中脂蛋白濃度異常升高的代謝異常，表現為高三酸甘油酯血症和/或高膽固醇血症，可為原發性（遺傳性）或繼發於其他疾病。",
+    "synonyms": ["高脂血症", "高三酸甘油酯血症", "高膽固醇血症", "Hyperlipidemia"],
+    "epidemiology": {
+      "species": "犬貓皆可發生",
+      "age": "中老年動物較常見（繼發性），原發性可在年輕時發病",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["迷你雪納瑞（原發性）", "甲狀腺功能低下", "糖尿病", "腎上腺皮質功能亢進", "腎病症候群", "膽汁鬱積", "高脂飲食", "肥胖"]
+    },
+    "clinicalPresentation": {
+      "history": ["常為偶然發現（血清乳糜外觀）", "嘔吐", "腹痛", "癲癇發作（嚴重時）", "皮膚黃色瘤"],
+      "physicalExam": ["可能無異常發現", "腹部疼痛（胰臟炎時）", "皮膚/眼瞼黃色瘤（脂質沉積）", "肝腫大", "角膜脂質沉積"]
+    },
+    "pathophysiology": "脂蛋白代謝異常導致血中乳糜微粒（富含三酸甘油酯）或VLDL/LDL（富含膽固醇）清除障礙或產生過多。迷你雪納瑞有原發性高三酸甘油酯血症的遺傳傾向。繼發性多因內分泌疾病影響脂蛋白代謝酶活性。嚴重高三酸甘油酯血症可誘發胰臟炎。",
+    "diagnosis": {
+      "overview": "空腹12小時後血清仍呈乳糜狀，三酸甘油酯和/或膽固醇升高",
+      "differentials": ["甲狀腺功能低下", "糖尿病", "腎上腺皮質功能亢進", "腎病症候群", "膽汁鬱積", "餐後正常生理性升高"],
+      "initialDB": ["空腹血清外觀評估", "三酸甘油酯", "膽固醇", "CBC/血液生化"],
+      "advanced": ["甲狀腺功能檢測", "腎上腺功能檢測", "尿蛋白/肌酐比", "脂蛋白電泳", "cPLI/fPLI"]
+    },
+    "treatment": {
+      "overview": "治療基礎疾病為首要，輔以低脂飲食和必要時降脂藥物",
+      "acute": ["治療胰臟炎（若合併）", "禁食後逐步恢復低脂飲食"],
+      "chronic": ["治療基礎內分泌疾病", "低脂處方飲食", "Omega-3脂肪酸補充", "Gemfibrozil（犬，降三酸甘油酯）", "Bezafibrate", "Niacin（謹慎使用）"]
+    },
+    "prognosis": "繼發性高脂血症在基礎疾病控制後可改善。原發性高脂血症（迷你雪納瑞）需長期飲食管理，未控制者胰臟炎風險增加。單純高膽固醇血症較少引起臨床症狀。",
+    "pearls": ["空腹12小時後採血是準確評估的前提", "迷你雪納瑞是原發性高三酸甘油酯血症的典型品種", "嚴重高三酸甘油酯血症（>500 mg/dL）可干擾其他血液檢查結果", "繼發性原因遠比原發性常見，需先排除"],
+    "monitoring": ["空腹三酸甘油酯和膽固醇", "基礎疾病指標", "cPLI/fPLI（胰臟炎風險）", "體重"],
+    "reference": "Xenoulis PG, Steiner JM: Canine Hyperlipidemia. JSAP 2015; Côté E: Hyperlipidemia. In Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "pulmonary-edema": {
+    "zh": "肺水腫",
+    "en": "Pulmonary Edema",
+    "definition": "肺泡及/或肺間質內液體異常積聚，導致氣體交換障礙。可分為心因性（最常見）和非心因性。",
+    "synonyms": ["肺積水", "Lung Edema"],
+    "epidemiology": {
+      "species": "犬貓皆可發生",
+      "age": "依基礎病因而異",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["充血性心衰竭", "電擊", "溺水", "上呼吸道阻塞", "頭部創傷", "癲癇持續狀態", "靜脈輸液過量"]
+    },
+    "clinicalPresentation": {
+      "history": ["呼吸困難急性發作", "咳嗽（犬為主）", "端坐呼吸", "運動不耐受", "焦躁不安"],
+      "physicalExam": ["呼吸急促", "呼吸困難", "肺部囉音（濕囉音）", "口鼻泡沫狀分泌物（嚴重時）", "發紺", "心雜音（心因性）", "心搏過速"]
+    },
+    "pathophysiology": "心因性：左心衰竭導致肺靜脈壓升高，液體自肺微血管滲出至間質和肺泡。非心因性：包括肺微血管通透性增加（ARDS、吸入性損傷）、低膠體滲透壓、神經性（頭部創傷後交感神經過度激活）及負壓性（上呼吸道阻塞後）等機制。",
+    "diagnosis": {
+      "overview": "胸部X光顯示肺泡或間質浸潤，結合臨床表現判斷病因",
+      "differentials": ["肺炎", "肺出血", "肺纖維化", "ARDS", "胸水"],
+      "initialDB": ["胸部X光", "血氧飽和度/血氣分析", "心臟超音波", "CBC/血液生化", "心電圖"],
+      "advanced": ["NT-proBNP（區分心因性vs非心因性）", "支氣管灌洗液分析", "CT掃描", "凝血功能"]
+    },
+    "treatment": {
+      "overview": "氧氣支持、利尿（心因性）、治療基礎病因",
+      "acute": ["氧氣治療", "Furosemide靜脈注射（心因性）", "減少緊迫", "坐姿或半坐姿", "Nitroglycerin軟膏（輔助）", "正壓通氣（嚴重時）"],
+      "chronic": ["口服Furosemide", "ACE抑制劑", "Pimobendan（心因性）", "治療基礎心臟病", "限鈉飲食"]
+    },
+    "prognosis": "心因性肺水腫對利尿劑反應良好者短期預後可，長期取決於心臟疾病嚴重程度。非心因性取決於病因，電擊和神經性肺水腫治療後可完全恢復。ARDS預後較差。",
+    "pearls": ["犬心因性肺水腫X光以肺門周圍（perihilar）分佈為典型", "貓心因性肺水腫X光分佈較不固定，可為斑塊狀", "NT-proBNP有助於區分心因性和非心因性呼吸困難", "處理呼吸困難患者時減少緊迫至關重要"],
+    "monitoring": ["呼吸頻率和型態", "血氧飽和度", "胸部X光追蹤", "腎功能（利尿劑使用時）", "安靜呼吸頻率（SRR）"],
+    "reference": "Côté E: Pulmonary Edema. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "pulmonary-thromboembolism": {
+    "zh": "肺血栓栓塞症",
+    "en": "Pulmonary Thromboembolism",
+    "definition": "血栓阻塞肺動脈或其分支，導致肺血管阻力增加、通氣灌流失衡及低血氧的急性危及生命的疾病。",
+    "synonyms": ["肺栓塞", "PTE", "Pulmonary Embolism"],
+    "epidemiology": {
+      "species": "犬較貓常見（或犬診斷率較高）",
+      "age": "中老年動物",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["免疫媒介性溶血性貧血", "腎上腺皮質功能亢進", "蛋白質流失性腎病", "腫瘤", "心絲蟲感染", "DIC", "敗血症", "手術後制動"]
+    },
+    "clinicalPresentation": {
+      "history": ["突發呼吸困難", "急性虛脫", "咳嗽", "咳血（罕見）", "猝死"],
+      "physicalExam": ["嚴重呼吸急促", "呼吸困難", "發紺", "心搏過速", "肺部聽診正常或減弱音", "低血壓（大面積栓塞）"]
+    },
+    "pathophysiology": "血栓來源通常為深靜脈或體循環靜脈系統（多因高凝狀態），經由右心隨血流到達肺動脈。血栓阻塞肺血管導致肺血管阻力增加、死腔通氣增加、通氣灌流失衡及低血氧。大面積栓塞可導致急性右心衰竭和休克。",
+    "diagnosis": {
+      "overview": "臨床懷疑度高是關鍵，確診需依賴影像學",
+      "differentials": ["肺炎", "心因性肺水腫", "氣胸", "胸水", "肺腫瘤", "ARDS"],
+      "initialDB": ["動脈血氣分析（低PaO2、低PaCO2）", "D-dimer", "胸部X光", "心臟超音波（右心擴大）"],
+      "advanced": ["CT血管造影（CTA，金標準）", "核醫學通氣灌流掃描", "凝血功能全套", "血栓彈性分析（TEG/ROTEM）"]
+    },
+    "treatment": {
+      "overview": "支持性治療、抗凝治療及治療基礎高凝狀態",
+      "acute": ["氧氣支持", "靜脈輸液（謹慎，避免過負荷）", "Heparin（未分段或低分子量）", "止痛", "tPA溶栓治療（危及生命時，風險高）"],
+      "chronic": ["低分子量Heparin過渡至口服抗凝", "Clopidogrel", "Rivaroxaban（試驗性）", "治療基礎疾病", "長期抗凝治療"]
+    },
+    "prognosis": "預後謹慎至不良，死亡率約30-70%。取決於栓塞面積、血流動力學穩定性及基礎疾病。IMHA合併PTE預後極差。及時診斷和治療可改善存活率。",
+    "pearls": ["有高凝風險疾病的動物突發呼吸困難應高度懷疑PTE", "胸部X光可能正常或僅有輕微異常", "動脈血氣呈低氧血症伴低碳酸血症是典型表現", "D-dimer正常有助排除，但升高不能確診", "IMHA是犬PTE最常見的基礎疾病"],
+    "monitoring": ["動脈血氣", "凝血功能", "D-dimer", "心臟超音波", "臨床症狀"],
+    "reference": "Goggs R et al: Pulmonary Thromboembolism. JVIM 2009; Côté E: Pulmonary Thromboembolism. In Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "pulmonary-contusion": {
+    "zh": "肺挫傷",
+    "en": "Pulmonary Contusion",
+    "definition": "胸部鈍性創傷導致的肺實質出血和水腫，為犬貓胸部外傷最常見的併發症。",
+    "synonyms": ["肺部挫傷", "Lung Contusion", "Lung Bruise"],
+    "epidemiology": {
+      "species": "犬貓皆可發生",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["車禍", "高處墜落", "踢傷", "胸部鈍傷"]
+    },
+    "clinicalPresentation": {
+      "history": ["已知胸部外傷", "呼吸困難", "車禍", "高處墜落", "咳血"],
+      "physicalExam": ["呼吸急促", "呼吸困難", "肺部囉音", "胸壁瘀傷", "發紺", "心搏過速", "可能合併肋骨骨折、氣胸"]
+    },
+    "pathophysiology": "胸部鈍性創傷的衝擊力傳遞至肺實質，導致肺泡微血管破裂、出血滲入肺泡和間質。繼發性發炎反應在傷後24-48小時使病變擴大。嚴重者可進展為ARDS。注意X光變化可能在傷後12-48小時才完全顯現。",
+    "diagnosis": {
+      "overview": "外傷病史結合胸部X光肺泡浸潤",
+      "differentials": ["氣胸", "血胸", "橫膈膜疝氣", "肺撕裂傷", "心因性肺水腫"],
+      "initialDB": ["胸部X光", "血氧飽和度", "CBC/血液生化", "TFAST超音波"],
+      "advanced": ["動脈血氣分析", "胸部CT", "連續X光追蹤（12-48小時後加重）", "凝血功能"]
+    },
+    "treatment": {
+      "overview": "主要為支持性治療，維持氧合，大多數可自行恢復",
+      "acute": ["氧氣治療", "限制活動", "止痛（避免呼吸抑制）", "靜脈輸液（謹慎，避免過量加重水腫）", "處理合併傷（氣胸、骨折）"],
+      "chronic": ["漸進恢復活動", "監測二次併發感染", "營養支持"]
+    },
+    "prognosis": "輕至中度肺挫傷預後良好，多在2-7天內改善。嚴重挫傷或進展為ARDS者預後差。合併多重外傷者預後取決於整體傷勢嚴重程度。",
+    "pearls": ["肺挫傷X光變化在傷後數小時可能尚未完全表現，24-48小時後最明顯", "輸液量應謹慎控制，過多會加重肺水腫", "疼痛控制對維持通氣功能很重要", "多數輕中度病例48-72小時內開始改善"],
+    "monitoring": ["呼吸頻率和型態", "血氧飽和度", "連續胸部X光", "動脈血氣（嚴重時）"],
+    "reference": "Côté E: Pulmonary Contusion. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "feline-upper-respiratory-infection": {
+    "zh": "貓上呼吸道感染",
+    "en": "Feline Upper Respiratory Infection",
+    "definition": "貓的上呼吸道急性感染性疾病，主要由貓疱疹病毒第一型（FHV-1）和貓杯狀病毒（FCV）引起，亦可合併細菌二次感染。",
+    "synonyms": ["貓感冒", "貓鼻氣管炎", "貓流感", "Feline URI", "Cat Flu"],
+    "epidemiology": {
+      "species": "貓",
+      "age": "幼貓最易感，成貓亦可感染",
+      "sex": "無性別傾向",
+      "riskFactors": ["多貓環境", "收容所", "未接種疫苗", "幼貓", "免疫抑制（FIV/FeLV）", "緊迫"]
+    },
+    "clinicalPresentation": {
+      "history": ["打噴嚏", "鼻分泌物", "眼分泌物", "食慾下降", "嗜睡", "新引入貓或收容所來源"],
+      "physicalExam": ["漿液至膿性鼻分泌物", "結膜炎", "角膜潰瘍（FHV-1）", "口腔潰瘍（FCV）", "發燒", "脫水", "鼻塞導致張口呼吸"]
+    },
+    "pathophysiology": "FHV-1感染上呼吸道上皮細胞導致壞死和發炎，可導致慢性鼻竇炎和角膜炎，病毒終身潛伏於三叉神經節。FCV感染口腔和呼吸道上皮，引起口腔潰瘍。細菌（Bordetella、Mycoplasma、Chlamydia）可作為原發或二次感染因子。高毒力FCV可引起全身性疾病（VS-FCV）。",
+    "diagnosis": {
+      "overview": "多為臨床診斷，嚴重或慢性病例可進行病原檢測",
+      "differentials": ["貓披衣菌感染", "鼻腔異物", "鼻腔腫瘤", "鼻真菌感染", "貓氣喘"],
+      "initialDB": ["臨床症狀評估", "眼科檢查（角膜螢光染色）", "基礎血液檢查"],
+      "advanced": ["PCR檢測（FHV-1、FCV、Chlamydia）", "細菌培養", "鼻腔X光或CT（慢性病例）", "FIV/FeLV檢測"]
+    },
+    "treatment": {
+      "overview": "支持性治療為主，維持水分和營養攝取，必要時抗生素控制二次感染",
+      "acute": ["皮下或靜脈輸液", "營養支持（加溫食物增加適口性）", "鼻腔通暢措施（生理食鹽水滴鼻、蒸氣）", "Doxycycline（二次感染或Chlamydia）", "Famciclovir（FHV-1嚴重時）"],
+      "chronic": ["L-Lysine補充（爭議性）", "Famciclovir（FHV-1復發）", "慢性鼻竇炎管理", "環境緊迫管理", "疫苗接種"]
+    },
+    "prognosis": "多數免疫正常的成貓在7-14天內自行恢復。幼貓、免疫抑制貓可能病情嚴重或致命。FHV-1終身潛伏，緊迫時可復發。慢性鼻竇炎為常見後遺症。",
+    "pearls": ["FHV-1和FCV合計佔貓URI約80-90%", "FHV-1導致角膜潰瘍，FCV導致口腔潰瘍是鑑別要點", "嗅覺喪失是貓食慾下降的重要原因，鼻腔通暢有助恢復食慾", "收容所環境發病率可達100%", "核心疫苗可減輕但不能完全預防感染"],
+    "monitoring": ["食慾和水分攝取", "體重", "呼吸狀態", "眼部症狀", "脫水程度"],
+    "reference": "Côté E: Feline Upper Respiratory Infection. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "feline-triaditis": {
+    "zh": "貓三體炎",
+    "en": "Feline Triaditis",
+    "definition": "貓同時發生膽管炎/膽管肝炎、胰臟炎和炎症性腸病（IBD）三種炎症性疾病的臨床症候群。",
+    "synonyms": ["三體發炎", "Triaditis"],
+    "epidemiology": {
+      "species": "貓",
+      "age": "中老年貓較常見",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["炎症性腸病", "慢性胰臟炎", "膽管炎", "腸道細菌移行"]
+    },
+    "clinicalPresentation": {
+      "history": ["嘔吐", "食慾下降或厭食", "體重減輕", "腹瀉", "嗜睡", "黃疸"],
+      "physicalExam": ["脫水", "黃疸", "腹部疼痛", "體重減輕", "腸壁增厚（觸診）", "發燒"]
+    },
+    "pathophysiology": "貓解剖上胰管和總膽管在十二指腸乳頭處共同開口，使腸道細菌易逆行感染至膽管和胰管。IBD改變腸道通透性促進細菌移行，導致膽管炎和胰臟炎。三個器官的發炎互相促進形成惡性循環。淋巴球性膽管炎和淋巴球漿細胞性腸炎常同時存在。",
+    "diagnosis": {
+      "overview": "需同時評估肝膽、胰臟和腸道三個系統",
+      "differentials": ["單獨膽管炎", "單獨胰臟炎", "單獨IBD", "腸道淋巴瘤", "肝脂肪沉積症"],
+      "initialDB": ["CBC/血液生化（肝臟酵素、膽紅素）", "fPLI（胰臟炎）", "腹部超音波", "凝血功能"],
+      "advanced": ["肝臟細針抽吸或切片", "膽汁培養", "內視鏡腸道切片", "鈷胺素和葉酸濃度", "腹部CT"]
+    },
+    "treatment": {
+      "overview": "同時治療三個器官系統的發炎，營養支持極為重要",
+      "acute": ["靜脈輸液", "止吐（Maropitant）", "止痛", "抗生素（膽管炎）", "營養管放置（必要時）"],
+      "chronic": ["Ursodiol（利膽）", "低敏或水解蛋白飲食", "鈷胺素（B12）補充", "免疫調節劑（Prednisolone或Chlorambucil，IBD成分）", "Metronidazole", "S-Adenosylmethionine（SAMe，肝臟保護）"]
+    },
+    "prognosis": "視嚴重程度而定。輕度至中度三體炎經適當治療可控制。嚴重合併肝脂肪沉積或敗血性膽管炎預後較差。需要長期管理。",
+    "pearls": ["貓的三體炎與其獨特的膽胰管解剖密切相關", "厭食超過3-5天的貓應考慮放置食管餵食管", "鈷胺素缺乏在貓三體炎中極常見且影響預後", "黃疸貓應同時評估三個器官系統", "慢性嘔吐的貓應篩檢三體炎三個成分"],
+    "monitoring": ["肝臟酵素和膽紅素", "fPLI", "體重和食慾", "鈷胺素濃度", "糞便品質"],
+    "reference": "Simpson KW: Pancreatitis and Triaditis in the Cat. JFMS 2015; Côté E: Cholangitis/Cholangiohepatitis. In Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "chronic-hepatitis": {
+    "zh": "慢性肝炎",
+    "en": "Chronic Hepatitis",
+    "definition": "肝臟持續性發炎伴隨肝細胞壞死和纖維化，持續時間超過數週至數月，最終可進展為肝硬化。",
+    "synonyms": ["慢性活動性肝炎", "慢性肝病", "Chronic Active Hepatitis"],
+    "epidemiology": {
+      "species": "犬較常見，貓少見",
+      "age": "中老年犬",
+      "sex": "母犬稍多見（某些品種相關型）",
+      "riskFactors": ["杜賓犬", "可卡犬", "拉布拉多犬", "貝靈頓梗（銅蓄積）", "西高地白梗", "達爾馬提亞犬", "斯凱梗", "銅蓄積", "藥物反應", "感染"]
+    },
+    "clinicalPresentation": {
+      "history": ["食慾下降", "體重減輕", "嘔吐", "多飲多尿", "嗜睡", "腹部膨大（腹水）", "黃疸"],
+      "physicalExam": ["肝臟腫大或縮小", "黃疸", "腹水", "消瘦", "肝性腦病徵象", "出血傾向"]
+    },
+    "pathophysiology": "多種病因（銅蓄積、免疫媒介、感染性、藥物性、特發性）引起的肝細胞持續損傷，導致慢性發炎、肝細胞壞死和再生。反覆的損傷修復循環促進纖維化進展。纖維化改變肝臟微循環和門脈血流，最終導致肝硬化、門脈高壓和肝功能衰竭。",
+    "diagnosis": {
+      "overview": "肝臟切片是確診和分類的金標準",
+      "differentials": ["急性肝炎", "肝臟腫瘤", "膽管炎", "肝脂肪沉積症（貓）", "腎上腺皮質功能亢進", "反應性肝病"],
+      "initialDB": ["CBC/血液生化（ALT、ALP、GGT升高）", "膽汁酸", "白蛋白", "凝血功能", "腹部超音波"],
+      "advanced": ["肝臟切片（楔狀或腹腔鏡）", "肝臟銅定量", "免疫組織化學", "傳染病篩檢", "腹水分析"]
+    },
+    "treatment": {
+      "overview": "依病因治療，輔以肝臟保護劑和支持性治療",
+      "acute": ["穩定凝血功能", "維生素K1", "輸液支持", "肝性腦病治療"],
+      "chronic": ["銅螯合劑（D-Penicillamine或Trientine，銅蓄積型）", "免疫抑制劑（Prednisolone、Azathioprine，免疫媒介型）", "Ursodiol（利膽保肝）", "SAMe（抗氧化）", "維生素E", "限量優質蛋白飲食", "低銅飲食（銅蓄積型）", "鋅補充（減少銅吸收）"]
+    },
+    "prognosis": "取決於診斷時纖維化程度和病因。早期診斷和適當治療可延緩進展。已進展至肝硬化者預後差。杜賓犬慢性肝炎預後通常較差。貝靈頓梗銅蓄積若早期治療可控制。",
+    "pearls": ["杜賓犬慢性肝炎是品種特異性疾病，母犬更常見", "肝臟切片是唯一可確定纖維化程度和病因的檢查", "銅蓄積可為原發或繼發於膽汁鬱滯", "ALT可在疾病晚期（肝硬化）反而降低", "凝血功能應在肝臟切片前評估"],
+    "monitoring": ["肝臟酵素", "膽汁酸", "白蛋白", "凝血功能", "腹部超音波", "定期肝臟切片（評估治療反應）"],
+    "reference": "Webster CRL: Chronic Hepatitis in Dogs. JVIM 2019; Côté E: Hepatitis, Chronic. In Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "acute-hepatic-failure": {
+    "zh": "急性肝衰竭",
+    "en": "Acute Hepatic Failure",
+    "definition": "先前健康的肝臟在短時間內（數天至數週）發生嚴重功能衰竭，導致凝血障礙、肝性腦病及多器官功能障礙。",
+    "synonyms": ["急性肝功能衰竭", "暴發性肝衰竭", "Acute Liver Failure", "Fulminant Hepatic Failure"],
+    "epidemiology": {
+      "species": "犬貓皆可發生",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["藥物中毒（NSAID、Phenobarbital、Acetaminophen）", "毒素攝入（蘇鐵、鵝膏蕈、黃麴毒素、木糖醇）", "嚴重感染", "缺血性損傷", "中暑"]
+    },
+    "clinicalPresentation": {
+      "history": ["急性嘔吐", "厭食", "嗜睡", "已知毒物或藥物暴露", "行為改變", "出血", "黃疸"],
+      "physicalExam": ["黃疸", "肝臟腫大或正常大小", "腹部疼痛", "出血傾向（瘀斑、消化道出血）", "肝性腦病徵象", "脫水", "低體溫"]
+    },
+    "pathophysiology": "大量肝細胞急性壞死導致肝臟合成、代謝和解毒功能急劇喪失。凝血因子合成不足引起凝血障礙；氨等毒素無法清除導致肝性腦病；膽紅素代謝障礙導致黃疸；血糖調節喪失導致低血糖。可繼發DIC、SIRS和多器官功能衰竭。",
+    "diagnosis": {
+      "overview": "急性發作的肝功能異常伴凝血障礙和/或腦病",
+      "differentials": ["慢性肝病急性惡化", "膽管阻塞", "敗血症", "中毒", "溶血性疾病"],
+      "initialDB": ["CBC/血液生化（ALT極度升高、膽紅素升高、低血糖、低白蛋白）", "凝血功能（PT/aPTT延長）", "血氨", "電解質"],
+      "advanced": ["腹部超音波", "毒物篩檢", "肝臟切片（凝血允許時）", "傳染病檢測", "乳酸"]
+    },
+    "treatment": {
+      "overview": "積極支持性治療為主，去除病因，維持生命徵象穩定",
+      "acute": ["靜脈輸液（含葡萄糖）", "N-Acetylcysteine（NAC，抗氧化保護）", "維生素K1", "新鮮冷凍血漿（凝血因子補充）", "Lactulose和灌腸（肝性腦病）", "抗生素（預防菌血症）", "止吐（Maropitant）", "胃黏膜保護劑"],
+      "chronic": ["去除或治療基礎病因", "肝臟保護劑（SAMe、Silymarin）", "營養支持", "長期監測肝功能恢復"]
+    },
+    "prognosis": "預後謹慎至不良，死亡率高（約50-70%）。取決於病因、壞死範圍和支持治療的及時性。藥物毒性若早期發現並停藥可改善。蘇鐵和鵝膏蕈中毒預後極差。存活者肝臟有再生能力。",
+    "pearls": ["Acetaminophen對貓有極高毒性，微量即可致命", "N-Acetylcysteine是急性肝毒性的重要解毒劑", "低血糖是急性肝衰竭的嚴重併發症，需頻繁監測", "肝臟有強大再生能力，若能度過急性期可恢復功能", "凝血障礙先於臨床黃疸出現"],
+    "monitoring": ["凝血功能（每6-12小時）", "血糖（每2-4小時）", "肝臟酵素", "血氨", "神經學狀態", "電解質"],
+    "reference": "Côté E: Hepatic Failure, Acute. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "septic-peritonitis": {
+    "zh": "敗血性腹膜炎",
+    "en": "Septic Peritonitis",
+    "definition": "腹腔因細菌感染導致的嚴重發炎，通常繼發於消化道穿孔、腹腔手術併發症或泌尿道破裂，為危及生命的外科急症。",
+    "synonyms": ["感染性腹膜炎", "化膿性腹膜炎", "Bacterial Peritonitis"],
+    "epidemiology": {
+      "species": "犬貓皆可發生",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["消化道穿孔（異物、腫瘤、潰瘍）", "消化道吻合處滲漏", "腹腔手術後", "肝膽破裂", "尿腹症", "子宮蓄膿破裂", "穿透性腹部創傷"]
+    },
+    "clinicalPresentation": {
+      "history": ["急性腹痛", "嘔吐", "厭食", "嗜睡", "近期腹腔手術", "已知異物攝入"],
+      "physicalExam": ["腹部緊繃疼痛", "發燒或低體溫", "心搏過速", "脈搏弱", "黏膜發紅或蒼白", "延長的CRT", "腹水", "脫水", "敗血性休克徵象"]
+    },
+    "pathophysiology": "腹腔污染（消化道內容物、細菌、膽汁或尿液）引起劇烈腹膜發炎反應。細菌和內毒素吸收入血導致全身性發炎反應症候群（SIRS）和敗血症。未治療迅速進展為感染性休克、DIC和多器官衰竭。腹膜大面積的吸收表面使毒素迅速進入全身循環。",
+    "diagnosis": {
+      "overview": "腹腔穿刺液分析是快速診斷的關鍵",
+      "differentials": ["無菌性腹膜炎", "胰臟炎", "腸阻塞", "子宮蓄膿", "腹腔腫瘤"],
+      "initialDB": ["CBC/血液生化", "腹部超音波（游離腹水）", "腹腔穿刺及液體分析", "腹水葡萄糖與血糖比較", "腹水乳酸"],
+      "advanced": ["腹水細菌培養及藥敏試驗", "腹水細胞學（退化嗜中性球+細菌）", "腹部X光（游離氣體）", "凝血功能", "乳酸"]
+    },
+    "treatment": {
+      "overview": "緊急手術探查修補感染源，配合積極靜脈抗生素和支持治療",
+      "acute": ["積極靜脈輸液復甦", "廣效靜脈抗生素（Ampicillin-Sulbactam + Enrofloxacin或Metronidazole）", "緊急手術探查", "腹腔沖洗", "開放式或封閉式腹腔引流", "止痛", "血管升壓劑（必要時）"],
+      "chronic": ["依培養結果調整抗生素", "營養支持（早期腸道營養）", "傷口護理", "引流管管理"]
+    },
+    "prognosis": "整體死亡率約20-68%，取決於病因、治療延遲時間和合併症。消化道穿孔修補後預後較好（存活率約50-80%）。合併敗血性休克或多器官衰竭者預後差。早期手術介入和積極支持治療可顯著改善預後。",
+    "pearls": ["腹水葡萄糖比血糖低20 mg/dL以上高度提示敗血性腹膜炎", "腹水乳酸高於血液乳酸也支持診斷", "細胞學見退化嗜中性球和細胞內細菌可即時診斷", "手術延遲每小時存活率下降", "術後開放腹腔引流可提高存活率但需密集護理"],
+    "monitoring": ["生命徵象", "乳酸", "引流液量和性狀", "CBC和血液生化", "凝血功能", "體溫"],
+    "reference": "Côté E: Peritonitis, Septic. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "gastritis": {
+    "zh": "胃炎",
+    "en": "Gastritis",
+    "definition": "胃黏膜的發炎性疾病，可分為急性和慢性。急性胃炎常為自限性，慢性胃炎可因多種病因引起持續性胃黏膜發炎。",
+    "synonyms": ["胃黏膜炎", "Gastric Inflammation"],
+    "epidemiology": {
+      "species": "犬貓皆極常見",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["飲食不當", "NSAID使用", "類固醇使用", "幽門螺旋桿菌樣菌", "異物攝入", "緊迫", "肝腎疾病"]
+    },
+    "clinicalPresentation": {
+      "history": ["嘔吐（急性或慢性）", "食慾下降", "噁心（流涎、舔嘴唇、吞嚥動作）", "腹部不適", "體重減輕（慢性）"],
+      "physicalExam": ["脫水（急性嚴重嘔吐）", "上腹部壓痛", "可能無異常發現", "消瘦（慢性）"]
+    },
+    "pathophysiology": "急性胃炎多由直接刺激因子（食物、藥物、毒素）損傷胃黏膜屏障引起。慢性胃炎涉及持續性發炎浸潤（淋巴球漿細胞性、嗜酸性球性等），可由免疫媒介性反應、慢性幽門螺旋桿菌樣菌感染、過敏或特發性因素引起。胃黏膜屏障損傷暴露黏膜下層組織於胃酸和胃蛋白酶。",
+    "diagnosis": {
+      "overview": "急性胃炎多為臨床診斷，慢性胃炎需內視鏡活檢確診",
+      "differentials": ["飲食不當", "異物", "胃潰瘍", "胃腫瘤", "胰臟炎", "腎臟病", "肝病", "腎上腺功能低下"],
+      "initialDB": ["CBC/血液生化", "糞便檢查", "腹部X光", "腹部超音波"],
+      "advanced": ["胃腸內視鏡及黏膜活檢", "組織病理學分類", "幽門螺旋桿菌檢測", "食物過敏排除試驗"]
+    },
+    "treatment": {
+      "overview": "急性胃炎以支持性治療為主，慢性胃炎依組織病理分類治療",
+      "acute": ["短暫禁食（12-24小時）後少量多餐清淡飲食", "止吐（Maropitant、Ondansetron）", "胃酸抑制劑（Omeprazole、Famotidine）", "輸液（脫水時）", "胃黏膜保護劑（Sucralfate）"],
+      "chronic": ["飲食管理（低敏或水解蛋白飲食）", "Omeprazole", "免疫抑制劑（IBD型：Prednisolone）", "停用致病藥物", "驅蟲", "益生菌"]
+    },
+    "prognosis": "急性胃炎大多數自限性，預後極佳。慢性胃炎預後取決於病因：飲食相關型控制良好；IBD型需長期管理但多可控制；幽門肥大或腫瘤性預後較差。",
+    "pearls": ["急性嘔吐<3天的年輕健康犬通常不需要廣泛檢查", "慢性嘔吐（>3週）應進行系統性檢查", "NSAID引起的胃炎應使用Omeprazole而非Famotidine", "內視鏡活檢是區分慢性胃炎類型的唯一可靠方法", "排除全身性疾病後再考慮原發性胃病"],
+    "monitoring": ["嘔吐頻率", "食慾和體重", "糞便品質", "治療反應評估"],
+    "reference": "Côté E: Gastritis. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "dietary-indiscretion": {
+    "zh": "飲食不當",
+    "en": "Dietary Indiscretion",
+    "definition": "因攝入不適當食物（變質食物、垃圾、過油食物、非食物物品等）引起的急性自限性胃腸道症狀。",
+    "synonyms": ["飲食不慎", "垃圾腸胃炎", "Garbage Gut", "Dietary Intolerance"],
+    "epidemiology": {
+      "species": "犬遠較貓常見",
+      "age": "任何年齡，幼犬最常見",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["幼犬好奇心強", "戶外活動", "接觸垃圾桶", "飲食突然改變", "餵食人類食物", "食物過敏體質"]
+    },
+    "clinicalPresentation": {
+      "history": ["急性嘔吐", "腹瀉（可能帶血）", "食慾下降", "已知攝入不當食物", "腹部不適"],
+      "physicalExam": ["輕度脫水", "腹部輕壓痛", "腸蠕動音增加", "多數生命徵象正常"]
+    },
+    "pathophysiology": "攝入的不適當食物直接刺激胃腸黏膜引起發炎反應。變質食物中的細菌毒素或不易消化物質導致胃腸蠕動異常和分泌增加。高脂食物可誘發急性胰臟炎。大多數情況下，一旦刺激物排出體外，胃腸道可自行修復。",
+    "diagnosis": {
+      "overview": "主要依據病史和排除其他更嚴重疾病",
+      "differentials": ["中毒", "胃腸異物", "急性胰臟炎", "出血性胃腸炎（HGE/AHDS）", "傳染性腸炎", "腸套疊"],
+      "initialDB": ["病史評估（攝入物確認）", "基礎體檢", "脫水程度評估"],
+      "advanced": ["CBC/血液生化（嚴重或持續時）", "糞便檢查", "腹部X光（排除異物）", "cPLI/fPLI（排除胰臟炎）"]
+    },
+    "treatment": {
+      "overview": "支持性治療為主，大多數自限性",
+      "acute": ["短暫禁食（12-24小時）或少量清淡飲食", "漸進恢復正常飲食", "口服或皮下輸液（脫水時）", "止吐（必要時）", "益生菌"],
+      "chronic": ["飲食教育（飼主）", "環境管理（限制接觸垃圾）", "逐步換食法則"]
+    },
+    "prognosis": "預後極佳，大多數在24-72小時內完全恢復。極少數可併發急性胰臟炎（高脂食物攝入）或出血性胃腸炎而變得嚴重。",
+    "pearls": ["飲食不當是犬急性嘔吐腹瀉最常見的原因", "症狀超過48小時不改善應重新評估診斷", "高脂食物攝入需警惕急性胰臟炎併發", "飼主教育是預防復發的關鍵", "確認無毒物攝入史非常重要"],
+    "monitoring": ["嘔吐和腹瀉頻率", "水分攝取", "食慾恢復", "脫水程度"],
+    "reference": "Côté E: Dietary Intolerance. In Clinical Veterinary Advisor: Dogs and Cats, 4th Ed. Elsevier, 2020"
+  },
+  "feline-mycoplasma": {
+    "zh": "貓黴漿菌感染",
+    "en": "Feline Mycoplasma Infection",
+    "definition": "貓黴漿菌（主要為Mycoplasma haemofelis及其他嗜血黴漿菌）感染紅血球導致的溶血性疾病，以及非嗜血性黴漿菌引起的呼吸道和結膜感染。",
+    "synonyms": ["貓血黴漿菌症", "貓嗜血黴漿菌感染", "貓傳染性貧血", "Feline Hemoplasma", "Feline Infectious Anemia", "Hemobartonellosis"],
+    "epidemiology": {
+      "species": "貓",
+      "age": "任何年齡，年輕成貓較常見",
+      "sex": "公貓稍多見（戶外行為）",
+      "riskFactors": ["戶外接觸", "跳蚤寄生", "貓咬傷", "FIV/FeLV共感染", "免疫抑制", "脾臟切除後"]
+    },
+    "clinicalPresentation": {
+      "history": ["嗜睡", "食慾下降", "虛弱", "呼吸急促", "間歇性症狀（菌血症波動性）"],
+      "physicalExam": ["黏膜蒼白", "黃疸", "脾臟腫大", "心搏過速", "發燒", "體重減輕"]
+    },
+    "pathophysiology": "Mycoplasma haemofelis（致病力最強）附著於紅血球表面，導致免疫媒介性紅血球破壞。巨噬細胞系統識別被感染的紅血球並將其吞噬清除，造成血管外溶血。菌血症呈周期性波動，臨床症狀也隨之起伏。Candidatus Mycoplasma haemominutum和Candidatus Mycoplasma turicensis致病力較弱，多在免疫抑制時才引起臨床疾病。",
+    "diagnosis": {
+      "overview": "PCR檢測為金標準，血液抹片敏感度低",
+      "differentials": ["免疫媒介性溶血性貧血", "FeLV相關貧血", "Cytauxzoon felis", "Babesia感染", "氧化性溶血（洋蔥中毒）"],
+      "initialDB": ["CBC（再生性貧血）", "血液抹片（紅血球表面小點，敏感度低）", "網狀紅血球計數", "血液生化（膽紅素升高）"],
+      "advanced": ["PCR檢測（敏感度和特異度最高）", "FIV/FeLV檢測", "Coombs試驗", "腹部超音波（脾腫大）"]
+    },
+    "treatment": {
+      "overview": "抗生素治療和支持性護理",
+      "acute": ["Doxycycline（首選，28天）", "輸血（嚴重貧血PCV<12-15%）", "Prednisolone（合併嚴重免疫媒介性溶血時）", "輸液支持"],
+      "chronic": ["完成Doxycycline療程", "Marbofloxacin（替代藥物）", "治療共感染（FIV/FeLV管理）", "跳蚤預防"]
+    },
+    "prognosis": "M. haemofelis感染免疫正常貓經治療後預後良好，但可能成為慢性帶菌者。FIV/FeLV共感染者預後較差。脾臟切除貓風險最高。治療後PCR可能仍為陽性（帶菌狀態）。",
+    "pearls": ["血液抹片敏感度僅約50%，PCR才是可靠的診斷工具", "菌血症呈周期性波動，單次檢測可能為假陰性", "所有貓黴漿菌感染都應檢測FIV和FeLV", "Doxycycline可能無法完全清除感染，貓可成為終身帶菌者", "跳蚤被認為是主要傳播媒介"],
+    "monitoring": ["PCV/HCT", "網狀紅血球", "臨床症狀", "PCR追蹤（治療反應）"],
+    "reference": "Tasker S: Haemotropic Mycoplasmas. In Greene CE: Infectious Diseases of the Dog and Cat, 4th Ed. Elsevier, 2012; Côté E: Hemoplasma Infection. In Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "lyme-disease": {
+    "zh": "萊姆病",
+    "en": "Lyme Disease",
+    "definition": "由伯氏疏螺旋體（Borrelia burgdorferi）經硬蜱（Ixodes屬）叮咬傳播的多系統感染性疾病，可引起關節炎、腎炎及心臟病變。",
+    "synonyms": ["萊姆疏螺旋體病", "蜱媒疏螺旋體病", "Lyme Borreliosis"],
+    "epidemiology": {
+      "species": "犬為主，貓極罕見",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["蜱蟲流行區（美國東北、中西部、太平洋沿岸）", "戶外活動", "未使用蜱蟲預防產品", "拉布拉多犬", "黃金獵犬（萊姆腎炎）"]
+    },
+    "clinicalPresentation": {
+      "history": ["間歇性跛行（移行性）", "發燒", "食慾下降", "嗜睡", "關節腫脹", "淋巴結腫大"],
+      "physicalExam": ["一個或多個關節腫脹疼痛", "發燒", "淋巴結腫大", "蛋白質流失性腎炎徵象（水腫、腹水）"]
+    },
+    "pathophysiology": "Ixodes蜱叮咬後至少36-48小時才能傳播B. burgdorferi。螺旋體在宿主體內散播，主要定植於關節滑膜引起免疫媒介性關節炎。在某些犬種（拉布拉多、黃金獵犬），免疫複合物沉積於腎小球導致蛋白質流失性腎小球腎炎（萊姆腎炎），為最嚴重的併發症。",
+    "diagnosis": {
+      "overview": "抗體檢測結合臨床症狀，注意區分感染暴露和臨床疾病",
+      "differentials": ["免疫媒介性多發性關節炎", "其他蜱媒疾病（Ehrlichiosis、Anaplasmosis）", "敗血性關節炎", "骨關節炎", "系統性紅斑狼瘡"],
+      "initialDB": ["C6抗體SNAP檢測（4Dx Plus）", "CBC/血液生化", "尿液分析（UPC比值）", "關節液分析"],
+      "advanced": ["Lyme Quant C6抗體定量", "Western blot確認", "尿蛋白/肌酐比（UPC）", "腎臟超音波", "PCR檢測（關節液）"]
+    },
+    "treatment": {
+      "overview": "Doxycycline為首選抗生素，萊姆腎炎需積極腎臟支持",
+      "acute": ["Doxycycline 10 mg/kg PO BID，28天", "NSAID止痛（確認腎功能正常後）", "輸液支持"],
+      "chronic": ["完成抗生素療程", "萊姆腎炎治療（ACE抑制劑、低蛋白飲食、免疫抑制）", "蜱蟲預防產品", "環境蜱蟲控制", "疫苗接種（流行區）"]
+    },
+    "prognosis": "單純關節炎型對Doxycycline反應良好，多數在24-48小時內改善。萊姆腎炎預後極差，通常進展為致命性腎衰竭。多數血清陽性犬（>90%）從未發展臨床症狀。",
+    "pearls": ["C6抗體陽性僅代表暴露，不等於臨床疾病", "多數血清陽性犬為無症狀感染，不需要治療", "蜱叮咬需超過36-48小時才能傳播，及時移除蜱蟲可預防", "萊姆腎炎（蛋白質流失性腎炎）是最嚴重的併發症", "拉布拉多和黃金獵犬對萊姆腎炎有品種易感性"],
+    "monitoring": ["C6抗體定量（治療反應）", "UPC比值（腎臟監測）", "關節症狀", "腎功能"],
+    "reference": "Littman MP et al: ACVIM Consensus Statement on Lyme Disease in Dogs. JVIM 2018; Côté E: Lyme Disease. In Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  }
+}
