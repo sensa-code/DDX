@@ -1,0 +1,741 @@
+{
+  "idiopathic-vestibular-disease-feline": {
+    "zh": "貓特發性前庭疾病",
+    "en": "Feline Idiopathic Vestibular Disease",
+    "definition": "貓特發性前庭疾病是貓最常見的急性周邊前庭障礙，病因不明，表現為突發性嚴重前庭功能失調。此疾病通常為自限性（self-limiting），大多數貓在數天至數週內自發改善。與犬的老年前庭疾病不同，貓的特發性前庭疾病可發生於任何年齡，無明顯年齡偏好。病變被認為位於周邊前庭系統（內耳前庭神經或前庭器官），而非中樞神經系統。",
+    "synonyms": ["貓特發性前庭症候群", "貓急性前庭症候群", "Feline idiopathic vestibular syndrome"],
+    "epidemiology": {
+      "species": "貓（任何年齡均可發生）",
+      "breed": "無品種偏好，所有品種均可發生",
+      "age": "任何年齡，與犬不同，不限於老年動物",
+      "sex": "無性別偏好",
+      "prevalence": "貓最常見的急性前庭疾病原因之一，夏季和秋季發病率可能略高"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "突發性嚴重頭部傾斜（head tilt），通常偏向病變側",
+        "旋轉性眼球震顫（rotatory nystagmus），快相朝向對側",
+        "嚴重共濟失調（ataxia），行走搖晃如醉酒",
+        "傾倒或翻滾（rolling），尤其在急性發作初期",
+        "噁心和嘔吐，因前庭刺激引起",
+        "食慾減退或完全拒食",
+        "定向障礙（disorientation），顯得困惑和焦慮",
+        "水平或旋轉性眼球震顫",
+        "行走時偏向病變側",
+        "嚴重病例可出現無法站立",
+        "流涎（drooling），因噁心引起",
+        "瞳孔大小可能不對稱（anisocoria）較少見"
+      ],
+      "physicalExam": [
+        "明顯的頭部傾斜，偏向一側",
+        "自發性眼球震顫（水平或旋轉性），快相方向恆定",
+        "姿勢反應正常（與中樞性前庭疾病的重要鑑別點）",
+        "意識狀態正常（無精神抑鬱，除非因不適而焦慮）",
+        "耳鏡檢查通常正常，無中耳炎徵象"
+      ]
+    },
+    "pathophysiology": "確切病理生理學機制尚不明確。目前認為病變位於周邊前庭系統，可能涉及前庭神經或前庭感覺上皮的急性功能障礙。有假說認為可能與病毒感染、血管痙攣或免疫介導性機制有關，但均未獲得確切證實。前庭器官的急性功能障礙導致兩側前庭輸入不對稱，大腦接收到不平衡的位置和運動信號，因此產生眩暈、眼球震顫和共濟失調等症狀。隨著中樞代償機制啟動，症狀逐漸改善。",
+    "diagnosis": {
+      "primary": [
+        "臨床病史和神經學檢查（周邊 vs 中樞前庭徵象鑑別）",
+        "耳鏡檢查排除中耳/內耳疾病",
+        "顳骨 X 光或 CT 排除鼓室骨病變",
+        "排除性診斷（diagnosis of exclusion）：排除其他已知原因後確診"
+      ],
+      "differential": [
+        "中耳炎/內耳炎（otitis media/interna）",
+        "鼻咽息肉（nasopharyngeal polyp）",
+        "耳毒性藥物（aminoglycosides、metronidazole）",
+        "腫瘤（鱗狀上皮癌、淋巴瘤）",
+        "中樞性前庭疾病（腦幹腫瘤、腦膜腦炎）",
+        "甲狀腺功能低下（犬較常見，貓罕見）"
+      ],
+      "labFindings": [
+        "血液學和生化檢查通常正常",
+        "甲狀腺功能檢查（T4）排除甲狀腺功能低下",
+        "FeLV/FIV 檢測排除逆轉錄病毒感染",
+        "如懷疑中樞病變，腦脊液（CSF）分析可能需要"
+      ]
+    },
+    "treatment": {
+      "acute": "支持性療法為主：止吐藥（maropitant 1 mg/kg SC q24h 或 meclizine 12.5 mg PO q24h）控制噁心嘔吐；嚴重病例需靜脈輸液維持水合狀態；提供安靜暗室環境減少前庭刺激；必要時短期鎮靜（如 gabapentin）",
+      "chronic": "大多數病例為自限性，2-3 天開始改善，1-3 週顯著恢復。部分貓可能殘留輕微頭部傾斜，但不影響生活品質。復發可能但不常見。不需要長期藥物治療。",
+      "medications": [
+        "Maropitant (Cerenia) 1 mg/kg SC/PO q24h — 止吐",
+        "Meclizine 12.5 mg/cat PO q8-12h — 抗組織胺止暈",
+        "Ondansetron 0.1-0.2 mg/kg IV — 嚴重嘔吐時使用",
+        "Gabapentin 5-10 mg/kg PO q8-12h — 鎮靜和抗焦慮（視需要）"
+      ],
+      "surgery": "不適用，此疾病為自限性，不需手術介入"
+    },
+    "prognosis": "預後良好至極佳。大多數貓在 2-3 天內開始改善，1-3 週內顯著恢復。部分病例可能殘留輕微持續性頭部傾斜，但通常不影響日常功能和生活品質。少數病例可能復發。",
+    "pearls": [
+      "與犬不同，貓特發性前庭疾病不限於老年動物，任何年齡均可發生",
+      "鑑別周邊 vs 中樞前庭疾病至關重要：姿勢反應異常、垂直眼球震顫、精神狀態改變提示中樞病變",
+      "不要因症狀看起來嚴重就建議安樂死——大多數病例會自發改善",
+      "耳鏡檢查和鼓室影像學是排除中耳疾病的關鍵步驟"
+    ],
+    "monitoring": [
+      "每日神經學評估追蹤改善進度",
+      "監測食慾和水合狀態",
+      "觀察眼球震顫方向和強度變化",
+      "若 72 小時內無改善或出現新神經徵象，需重新評估排除中樞病變"
+    ],
+    "reference": "Clinical Veterinary Advisor / Blackwell's Five-Minute Veterinary Consult"
+  },
+
+  "pancytopenia": {
+    "zh": "全血球減少症",
+    "en": "Pancytopenia",
+    "definition": "全血球減少症（pancytopenia）是指周邊血液中三種主要血球系列同時減少：紅血球減少（貧血）、白血球減少（白血球低下症）及血小板減少（血小板低下症）。此為一種實驗室發現而非單一疾病，反映骨髓造血功能的嚴重障礙。最嚴重的形式為再生不良性貧血（aplastic anemia），其特徵為骨髓造血細胞被脂肪組織取代，主要源自早期造血前驅細胞的損傷。犬貓均可發生，常見原因包括感染性疾病、藥物毒性、免疫介導性疾病及骨髓腫瘤。",
+    "synonyms": ["全血球低下症", "再生不良性貧血", "骨髓衰竭", "Aplastic anemia", "Bone marrow failure"],
+    "epidemiology": {
+      "species": "犬和貓均可發生",
+      "breed": "無特定品種偏好，但某些品種對特定藥物敏感性較高（如 Collie 對 estrogen）",
+      "age": "任何年齡，老年動物因腫瘤風險增加而較常見",
+      "sex": "未絕育母犬因 estrogen 過量風險較高（Sertoli cell tumor 在公犬也可引起）",
+      "prevalence": "不常見但臨床重要，貓以 FeLV 相關性最常見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "進行性虛弱和嗜睡（因貧血）",
+        "運動不耐（exercise intolerance）",
+        "黏膜蒼白（貧血表現）",
+        "發燒或反覆感染（因白血球低下）",
+        "自發性出血（因血小板低下）",
+        "瘀斑（petechiae）和瘀青（ecchymoses）",
+        "牙齦出血或鼻出血（epistaxis）",
+        "食慾減退和體重減輕",
+        "呼吸急促和心搏過速（貧血代償機制）",
+        "黑色柏油樣便（melena）或血尿",
+        "皮膚和皮下出血點",
+        "淋巴結腫大（依病因而定）"
+      ],
+      "physicalExam": [
+        "黏膜蒼白（pallor），毛細血管充盈時間延長（CRT > 2 秒）",
+        "心搏過速（tachycardia），可能有收縮期心雜音（貧血性雜音）",
+        "瘀斑和瘀青分布於皮膚、黏膜",
+        "脾臟腫大（splenomegaly），依病因而定",
+        "發燒（如合併感染），或低體溫（末期）",
+        "淋巴結腫大（如為腫瘤或感染性病因）"
+      ]
+    },
+    "pathophysiology": "全血球減少症的核心機制為骨髓造血功能障礙。在再生不良性貧血中，早期多潛能造血幹細胞（pluripotent hematopoietic stem cells）受到損傷或破壞，導致紅血球系（erythroid）、白血球系（myeloid）和巨核細胞系（megakaryocytic）的產生均受抑制。損傷機制可能為直接毒性（藥物、化學物質）、免疫介導性破壞（T 細胞攻擊造血幹細胞）、感染性因素（FeLV 感染骨髓前驅細胞、Ehrlichia 骨髓抑制）或腫瘤浸潤取代正常造血組織（myelophthisis）。骨髓生檢典型表現為造血細胞顯著減少，被脂肪組織取代。",
+    "diagnosis": {
+      "primary": [
+        "全血球計數（CBC）：確認貧血、白血球低下和血小板低下同時存在",
+        "網織紅血球計數（reticulocyte count）：評估骨髓紅血球再生能力",
+        "骨髓穿刺和活檢（bone marrow aspirate and biopsy）：確定骨髓細胞分布和病理變化",
+        "周邊血液抹片（blood smear）：評估血球型態學"
+      ],
+      "differential": [
+        "FeLV 相關骨髓抑制（貓最常見原因）",
+        "Ehrlichiosis 慢性期骨髓抑制",
+        "藥物/毒素引起的骨髓毒性（estrogen、chloramphenicol、phenylbutazone、化療藥物）",
+        "骨髓腫瘤浸潤（白血病、淋巴瘤、多發性骨髓瘤）",
+        "免疫介導性骨髓破壞",
+        "骨髓壞死或骨髓纖維化（myelofibrosis）"
+      ],
+      "labFindings": [
+        "非再生性貧血（reticulocyte count 低），PCV 常 < 20%",
+        "嗜中性白血球低下（neutropenia），WBC 常 < 3000/μL",
+        "血小板低下（thrombocytopenia），PLT 常 < 50,000/μL",
+        "骨髓活檢顯示造血細胞減少，脂肪組織增加（脂肪：造血比例增加）",
+        "FeLV/FIV 抗原/抗體檢測",
+        "Ehrlichia/Anaplasma 血清學或 PCR 檢測",
+        "血清鐵、TIBC 和鐵蛋白（排除鐵缺乏）"
+      ]
+    },
+    "treatment": {
+      "acute": "穩定生命徵象：嚴重貧血時輸血（packed RBC 或全血）；嚴重嗜中性球低下合併敗血症時，廣效抗生素治療（如 ampicillin-sulbactam + enrofloxacin）；血小板嚴重低下伴出血時考慮新鮮全血或血小板輸注",
+      "chronic": "針對病因治療：停止懷疑的骨髓毒性藥物；FeLV 陽性貓的支持性照護；免疫介導性病因可嘗試免疫抑制治療（prednisone + cyclosporine 或 mycophenolate）；考慮 erythropoietin 或 darbepoetin 刺激紅血球生成",
+      "medications": [
+        "Doxycycline 5-10 mg/kg PO q12h — 經驗性治療 tick-borne 感染",
+        "Prednisone 2 mg/kg PO q12h — 免疫介導性病因",
+        "Cyclosporine 5 mg/kg PO q12h — 免疫抑制輔助",
+        "Filgrastim (G-CSF) 5 μg/kg SC q24h — 嗜中性球低下時刺激白血球生成",
+        "Darbepoetin 1 μg/kg SC q 週 — 刺激紅血球生成",
+        "廣效抗生素（ampicillin-sulbactam、enrofloxacin）— 感染預防和治療"
+      ],
+      "surgery": "一般不需手術，除非病因為可切除之腫瘤（如 Sertoli cell tumor 的睪丸切除）"
+    },
+    "prognosis": "預後取決於病因和嚴重程度。藥物引起的骨髓抑制在停藥後可能恢復（預後較好）。FeLV 相關的骨髓衰竭預後謹慎至不良。嚴重再生不良性貧血若骨髓無恢復跡象，預後不良。免疫介導性病因對免疫抑制治療可能有反應。整體而言，全血球減少症是嚴重的臨床發現，需要積極診治。",
+    "pearls": [
+      "全血球減少症是實驗室發現，不是最終診斷——必須找出根本病因",
+      "骨髓穿刺和活檢是確定病因的關鍵檢查，不應省略",
+      "貓的全血球減少症首先排除 FeLV 感染",
+      "藥物引起的骨髓抑制可能在停藥後 1-3 週才開始恢復",
+      "嗜中性球 < 1000/μL 的患者有極高敗血症風險，需預防性抗生素"
+    ],
+    "monitoring": [
+      "每日至每隔一日 CBC 追蹤血球恢復趨勢",
+      "體溫監測（嗜中性球低下時感染風險極高）",
+      "出血徵象監測（瘀斑、黑便、血尿）",
+      "骨髓活檢追蹤（治療 2-4 週後評估恢復情況）",
+      "網織紅血球計數追蹤再生跡象"
+    ],
+    "reference": "Clinical Veterinary Advisor / Blackwell's Five-Minute Veterinary Consult"
+  },
+
+  "reactive-thrombocytosis": {
+    "zh": "反應性血小板增多症",
+    "en": "Reactive Thrombocytosis",
+    "definition": "反應性血小板增多症是指血小板數量增加（通常 > 500,000/μL），作為骨髓對慢性出血、發炎、感染或其他系統性疾病的繼發性反應。與原發性血小板增多症（骨髓增生性疾病）不同，反應性血小板增多症通常為輕度至中度升高，血小板功能正常，且不需要針對血小板本身的治療。矯正潛在疾病後血小板計數通常會恢復正常。此為犬貓血小板增多症最常見的原因。",
+    "synonyms": ["繼發性血小板增多症", "Secondary thrombocytosis", "Reactive thrombocythemia"],
+    "epidemiology": {
+      "species": "犬和貓均可發生，犬較常被報告",
+      "breed": "無品種偏好",
+      "age": "任何年齡，依潛在疾病而定",
+      "sex": "無性別偏好",
+      "prevalence": "血小板增多症中最常見的類型，占所有血小板增多症病例的 > 80%"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "症狀通常反映潛在疾病而非血小板增多本身",
+        "慢性出血相關：虛弱、蒼白黏膜、黑便",
+        "發炎/感染相關：發燒、食慾減退、體重減輕",
+        "缺鐵性貧血症狀：嗜睡、運動不耐",
+        "腫瘤相關：進行性消瘦、腫塊",
+        "脾臟切除後：術後反應性升高",
+        "腸胃道疾病：慢性嘔吐、腹瀉",
+        "骨折或組織創傷後的反應性升高",
+        "慢性皮膚病或傷口感染",
+        "免疫介導性溶血性貧血的伴隨發現",
+        "腎上腺皮質功能亢進相關的血小板升高",
+        "長期皮質類固醇使用後的血小板升高"
+      ],
+      "physicalExam": [
+        "理學檢查發現取決於潛在疾病",
+        "慢性出血病例：黏膜蒼白、心搏過速",
+        "發炎/感染病例：發燒、區域淋巴結腫大",
+        "脾臟切除術後：腹部觸診無脾臟",
+        "缺鐵性貧血：黏膜蒼白、異食癖（pica）可能存在"
+      ]
+    },
+    "pathophysiology": "反應性血小板增多症的機制涉及促血小板生成素（thrombopoietin, TPO）和發炎細胞激素的調控。在慢性出血或缺鐵性貧血中，骨髓代償性增加巨核細胞生成。發炎狀態下，IL-6 等促發炎細胞激素刺激肝臟產生 TPO，促進巨核細胞增殖和血小板釋放。脾臟切除後由於血小板庫減少，循環血小板數量升高。腎上腺皮質功能亢進和外源性糖皮質激素可增加 TPO 產生。與原發性血小板增多症不同，反應性血小板增多症的血小板功能通常正常，血栓風險不顯著增加。",
+    "diagnosis": {
+      "primary": [
+        "全血球計數（CBC）：確認血小板計數升高（通常 500,000-1,000,000/μL）",
+        "周邊血液抹片：確認血小板增多並評估血小板型態",
+        "詳細病史和全面理學檢查：尋找潛在疾病線索",
+        "鐵代謝檢查（血清鐵、TIBC、鐵蛋白）：排除缺鐵狀態"
+      ],
+      "differential": [
+        "原發性/自發性血小板增多症（essential thrombocythemia）—骨髓增生性疾病",
+        "慢性髓性白血病伴血小板增多",
+        "慢性缺鐵性貧血",
+        "慢性發炎性疾病（IBD、胰臟炎、免疫介導性疾病）",
+        "感染性疾病",
+        "腫瘤性疾病（作為副腫瘤症候群）"
+      ],
+      "labFindings": [
+        "血小板計數升高（通常 500,000-1,000,000/μL，偶爾更高）",
+        "血小板型態通常正常（大小正常，無異常顆粒）",
+        "潛在疾病的相關異常：缺鐵性貧血表現小球性低色素性貧血",
+        "發炎指標可能升高（C-reactive protein、纖維蛋白原）",
+        "血清鐵降低、TIBC 升高（缺鐵時）",
+        "凝血功能通常正常"
+      ]
+    },
+    "treatment": {
+      "acute": "反應性血小板增多症本身通常不需要急性治療。重點為識別和治療潛在疾病。極端血小板增多（> 1,500,000/μL）且有血栓徵象時，可考慮低劑量 aspirin。",
+      "chronic": "治療潛在疾病即可：矯正慢性出血源、治療感染或發炎、補充鐵劑（缺鐵時）。血小板計數通常在潛在疾病改善後 1-3 週內恢復正常。",
+      "medications": [
+        "針對潛在疾病的特異性治療（抗生素、抗發炎藥等）",
+        "鐵劑補充（ferrous sulfate 5-10 mg/kg PO q24h）— 缺鐵性貧血時",
+        "低劑量 Aspirin 0.5-1 mg/kg PO q24h — 僅在極端血小板增多伴血栓風險時考慮",
+        "不建議常規使用抗血小板藥物或細胞減少劑"
+      ],
+      "surgery": "不適用於反應性血小板增多症本身，但可能需要手術處理潛在疾病（如出血性腫瘤切除）"
+    },
+    "prognosis": "預後取決於潛在疾病。反應性血小板增多症本身為良性發現，矯正潛在疾病後血小板計數通常恢復正常。血栓併發症極為罕見。與原發性血小板增多症不同，不需長期監控血小板數量。",
+    "pearls": [
+      "反應性血小板增多症是血小板增多症最常見的原因（> 80%），原發性極為罕見",
+      "反應性血小板增多症本身不需治療，重點是找出並治療潛在疾病",
+      "血小板計數 > 1,000,000/μL 時應更積極排除原發性骨髓增生性疾病",
+      "脾臟切除後血小板增多是預期的正常反應，通常在數週至數月內穩定",
+      "缺鐵性貧血是犬反應性血小板增多症常被忽略的原因"
+    ],
+    "monitoring": [
+      "定期 CBC 追蹤血小板計數恢復趨勢",
+      "潛在疾病的治療反應監測",
+      "鐵代謝指標（缺鐵性貧血病例）",
+      "極端血小板增多病例監測血栓徵象"
+    ],
+    "reference": "Clinical Veterinary Advisor / Blackwell's Five-Minute Veterinary Consult"
+  },
+
+  "hypereosinophilic-syndrome": {
+    "zh": "高嗜酸性球症候群",
+    "en": "Hypereosinophilic Syndrome (HES)",
+    "definition": "高嗜酸性球症候群是一種罕見但嚴重的疾病，特徵為持續性周邊血液嗜酸性球增多（eosinophilia），伴隨嗜酸性球浸潤多個器官導致器官功能障礙。常見浸潤部位包括胃腸道、肝臟、脾臟、淋巴結和肺臟。在貓中較犬常見，需與其他引起嗜酸性球增多的疾病（如寄生蟲感染、過敏、嗜酸性球性腸炎）鑑別。此症候群的病因可能為免疫失調或嗜酸性球克隆性增殖，部分病例可能進展為嗜酸性球性白血病。",
+    "synonyms": ["嗜酸性球增多症候群", "過度嗜酸性球增多症", "HES", "Idiopathic hypereosinophilic syndrome"],
+    "epidemiology": {
+      "species": "貓較犬常見",
+      "breed": "無明確品種偏好",
+      "age": "中年至老年動物較常見（貓平均 5-8 歲）",
+      "sex": "貓可能有輕微母貓偏好，但數據有限",
+      "prevalence": "罕見疾病，但在持續性嗜酸性球增多的鑑別診斷中具重要性"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "慢性腹瀉（嗜酸性球浸潤腸道所致）",
+        "嘔吐和食慾減退",
+        "進行性體重減輕和消瘦",
+        "嗜睡和虛弱",
+        "腹部不適或疼痛",
+        "呼吸困難或咳嗽（肺臟浸潤時）",
+        "皮膚病變（嗜酸性球性肉芽腫或潰瘍，貓較常見）",
+        "發燒（間歇性或持續性）",
+        "肝脾腫大引起的腹部膨脹",
+        "周邊淋巴結腫大",
+        "偶見神經症狀（中樞神經系統浸潤時）",
+        "心臟受累可能出現心律不整或心衰竭徵象"
+      ],
+      "physicalExam": [
+        "觸診肝臟腫大（hepatomegaly）",
+        "脾臟腫大（splenomegaly）",
+        "腸道觸診增厚或腸系膜淋巴結腫大",
+        "周邊淋巴結腫大（generalized lymphadenopathy）",
+        "體況評分下降（body condition score 低）",
+        "貓可能有皮膚嗜酸性球性肉芽腫複合症病變"
+      ]
+    },
+    "pathophysiology": "高嗜酸性球症候群的確切病因尚不完全明確。可能涉及 T 細胞功能異常導致過度產生嗜酸性球趨化因子（如 IL-5、IL-3、GM-CSF），驅動骨髓嗜酸性球過度增殖和釋放。嗜酸性球浸潤組織後釋放其顆粒內容物（主要鹼性蛋白 MBP、嗜酸性球陽離子蛋白 ECP、嗜酸性球過氧化酶 EPO），這些物質具有強大的組織毒性，導致發炎、纖維化和器官損傷。胃腸道浸潤最常見，導致黏膜損傷、吸收不良和蛋白質流失性腸病。肝臟浸潤可導致膽管炎和肝功能障礙。部分病例可能代表低度嗜酸性球性白血病的早期表現。",
+    "diagnosis": {
+      "primary": [
+        "全血球計數（CBC）：確認持續性顯著嗜酸性球增多（通常 > 1,500/μL，常 > 5,000/μL）",
+        "腹腔超音波：評估肝臟、脾臟、淋巴結和腸壁變化",
+        "受累器官的組織活檢和病理學檢查：確認嗜酸性球浸潤",
+        "骨髓穿刺和活檢：評估嗜酸性球成熟度和骨髓浸潤程度"
+      ],
+      "differential": [
+        "寄生蟲感染（heartworm、腸道寄生蟲、Toxocara 幼蟲移行症）",
+        "過敏性疾病（食物過敏、跳蚤過敏性皮膚炎、環境過敏）",
+        "嗜酸性球性腸炎（eosinophilic enteritis）",
+        "嗜酸性球性肉芽腫複合症（貓）",
+        "嗜酸性球性白血病（eosinophilic leukemia）",
+        "肥大細胞腫瘤（mast cell tumor）",
+        "肺臟嗜酸性球浸潤（PIE syndrome）"
+      ],
+      "labFindings": [
+        "顯著且持續性嗜酸性球增多（絕對值常 > 5,000-20,000/μL）",
+        "周邊血液抹片：成熟嗜酸性球為主，可能有少量未成熟形態",
+        "低白蛋白血症（蛋白質流失性腸病所致）",
+        "肝臟酵素升高（ALT、ALP，肝臟浸潤時）",
+        "骨髓顯示嗜酸性球系列增生，嗜酸性球比例升高",
+        "組織病理學：受累器官廣泛嗜酸性球浸潤",
+        "糞便檢查和寄生蟲檢測陰性（排除寄生蟲原因）"
+      ]
+    },
+    "treatment": {
+      "acute": "嚴重器官功能障礙時需積極治療：高劑量 prednisolone 2-4 mg/kg/day 起始，快速抑制嗜酸性球增殖和組織浸潤；嚴重腸道疾病伴低白蛋白血症時需支持性照護（膠體輸液、營養支持）",
+      "chronic": "免疫抑制治療為主：prednisolone 逐漸減量至最低有效劑量；需加入額外免疫抑制劑以減少類固醇用量。治療通常需終生維持。部分病例對 imatinib（酪胺酸激酶抑制劑）有反應。",
+      "medications": [
+        "Prednisolone 2-4 mg/kg PO q24h 起始，逐漸減量至 0.5-1 mg/kg q48h",
+        "Chlorambucil 2 mg/cat PO q48-72h — 類固醇反應不良或減量困難時",
+        "Cyclosporine 5-7 mg/kg PO q12-24h — 輔助免疫抑制",
+        "Imatinib mesylate（Gleevec）— 酪胺酸激酶抑制劑，部分病例有效",
+        "Hydroxyurea 25-50 mg/kg PO 每週 3-4 次 — 嚴重病例",
+        "支持性治療：止吐、營養支持、白蛋白補充"
+      ],
+      "surgery": "一般不需手術，除非需要診斷性組織活檢"
+    },
+    "prognosis": "預後謹慎至不良。部分病例對免疫抑制治療反應良好，可長期控制。但許多病例需終生治療且可能出現復發或進展。嗜酸性球性白血病的進展預後極差。器官損傷程度（尤其是心臟和肝臟纖維化）影響長期預後。貓的中位生存期報告差異大，從數月至數年不等。",
+    "pearls": [
+      "高嗜酸性球症候群是排除性診斷——必須先排除寄生蟲、過敏和其他已知原因的嗜酸性球增多",
+      "貓的嗜酸性球增多常見原因依序為：寄生蟲 > 過敏 > 嗜酸性球性腸炎 > HES > 嗜酸性球性白血病",
+      "區分 HES 和嗜酸性球性白血病有時困難，骨髓檢查和嗜酸性球成熟度是關鍵",
+      "胃腸道和肝臟是最常見的浸潤部位",
+      "治療反應可作為預後指標：類固醇快速反應者預後較好"
+    ],
+    "monitoring": [
+      "定期 CBC 追蹤嗜酸性球計數和治療反應",
+      "腹腔超音波監測器官浸潤程度變化",
+      "肝臟酵素和白蛋白監測",
+      "體重和體況評分追蹤",
+      "免疫抑制治療的副作用監測（血糖、感染風險）"
+    ],
+    "reference": "Clinical Veterinary Advisor / Blackwell's Five-Minute Veterinary Consult"
+  },
+
+  "meningitis-encephalitis-unknown-etiology": {
+    "zh": "不明原因腦膜腦炎",
+    "en": "Meningoencephalitis of Unknown Etiology (MUE)",
+    "definition": "不明原因腦膜腦炎（MUE，舊稱 MUO - meningoencephalomyelitis of unknown origin）是犬貓中樞神經系統（CNS）非感染性炎性疾病的統稱，可表現為局灶性、多灶性或瀰漫性病變。此術語涵蓋了多種在生前無法進一步區分的免疫介導性 CNS 疾病，包括肉芽腫性腦膜腦炎（GME）、壞死性腦炎（NME/NLE）和壞死性白質腦炎（NLE）。確切的組織學亞型通常需要腦組織活檢或屍檢才能確定。MUE 是犬最常見的中樞神經系統炎性疾病。",
+    "synonyms": ["不明原因腦膜腦脊髓炎", "MUO", "MUE", "免疫介導性腦炎", "Meningoencephalomyelitis of unknown origin", "GME/NME/NLE complex"],
+    "epidemiology": {
+      "species": "犬較貓常見",
+      "breed": "小型犬品種風險較高：Maltese、Yorkshire Terrier、Chihuahua、Pug、French Bulldog、Boston Terrier、Shih Tzu",
+      "age": "年輕至中年犬最常見（1-7 歲），但任何年齡均可發生",
+      "sex": "母犬可能有輕微偏好（GME 亞型）",
+      "prevalence": "犬最常見的非感染性中樞神經系統炎性疾病，占 CNS 炎性疾病的大多數"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "急性或亞急性發作的神經症狀",
+        "癲癇發作（seizures），局灶性或全身性",
+        "定向障礙和行為改變",
+        "共濟失調（ataxia），前庭性或小腦性",
+        "盲目或視力障礙（視神經炎或枕葉病變）",
+        "頭部傾斜和眼球震顫（前庭核受累時）",
+        "頸部疼痛和頸部僵硬",
+        "輕癱或癱瘓（脊髓受累時）",
+        "精神抑鬱和嗜睡",
+        "厭食和體重減輕",
+        "面神經麻痺或其他顱神經障礙",
+        "繞圈行走（circling），通常偏向病變側"
+      ],
+      "physicalExam": [
+        "神經學檢查異常：姿勢反應缺損、腦神經障礙",
+        "頸部疼痛和過度敏感（cervical hyperesthesia）",
+        "瞳孔反射異常（PLR），可能出現威脅反應缺失",
+        "本體感覺缺損（proprioceptive deficits）",
+        "發燒（部分病例，尤其是 GME 播散型）",
+        "肌張力異常或肌肉萎縮（慢性病例）"
+      ]
+    },
+    "pathophysiology": "MUE 被認為是免疫介導性疾病，涉及自體免疫 T 細胞和/或抗體攻擊中樞神經系統組織。確切的觸發因素不明，可能涉及遺傳易感性（小型犬品種的 MHC 基因型）、環境因素或先前的感染事件觸發分子模擬（molecular mimicry）。不同的組織學亞型反映不同的免疫病理機制：GME 以血管周圍肉芽腫性炎症為主，涉及巨噬細胞和 T 細胞；NME（如 Pug encephalitis）以皮質壞死和淋巴球浸潤為主；NLE 以白質壞死為特徵。所有亞型的共同特徵是 CNS 內的炎症反應導致神經組織損傷、水腫和功能障礙。",
+    "diagnosis": {
+      "primary": [
+        "MRI（磁振造影）：偵測 CNS 病變的位置、範圍和特徵（為最佳影像學檢查）",
+        "腦脊液（CSF）分析：典型表現為淋巴球性或混合性細胞增多，蛋白質升高",
+        "排除感染性病因：CSF PCR（distemper、Toxoplasma、Neospora、Cryptococcus）",
+        "感染性疾病血清學檢測：排除已知感染原因"
+      ],
+      "differential": [
+        "犬瘟熱病毒（canine distemper）腦炎",
+        "弓漿蟲病（toxoplasmosis）",
+        "新孢子蟲病（neosporosis）",
+        "隱球菌症（cryptococcosis）",
+        "CNS 淋巴瘤或其他腦腫瘤",
+        "腦梗塞（ischemic stroke）",
+        "細菌性腦膜炎",
+        "類固醇反應性腦膜炎-動脈炎（SRMA）"
+      ],
+      "labFindings": [
+        "CSF：單核球性或混合性細胞增多（WBC > 5 cells/μL），以淋巴球和單核球為主",
+        "CSF 蛋白質升高（> 25 mg/dL）",
+        "MRI：腦實質單灶或多灶高信號病變（T2W/FLAIR），可能有對比增強",
+        "血液學和生化通常正常或非特異性變化",
+        "CSF 感染性 PCR 和培養陰性",
+        "抗體指數（antibody index）可輔助排除感染"
+      ]
+    },
+    "treatment": {
+      "acute": "免疫抑制劑量的糖皮質激素：prednisolone 2-4 mg/kg/day 或 dexamethasone 0.25-0.5 mg/kg IV（急性惡化時）；癲癇發作控制：levetiracetam 或 phenobarbital；顱內壓升高時考慮 mannitol 0.5-1 g/kg IV",
+      "chronic": "長期多藥免疫抑制治療：prednisolone 逐漸減量至最低有效劑量（通常 0.5-1 mg/kg q48h）加上第二線免疫抑制劑。治療通常需數月至終生。突然停藥可導致致命性復發。",
+      "medications": [
+        "Prednisolone 2-4 mg/kg PO q24h 起始，4-8 週逐漸減量",
+        "Cytarabine (Ara-C) 200 mg/m² SC 分兩天給予 q3-4 週 — 最常用的第二線藥物",
+        "Mycophenolate mofetil 10-20 mg/kg PO q12h — 替代第二線免疫抑制劑",
+        "Cyclosporine 5-10 mg/kg PO q12-24h — 另一選擇",
+        "Levetiracetam 20-60 mg/kg PO q8h — 抗癲癇",
+        "Phenobarbital 2-5 mg/kg PO q12h — 抗癲癇（替代選擇）"
+      ],
+      "surgery": "一般不適用，偶爾局灶性 GME 形成腫塊效應（mass lesion）時可考慮減壓手術或活檢"
+    },
+    "prognosis": "預後謹慎至謹慎偏差。存活時間差異大：部分病例在積極免疫抑制治療下可存活數月至數年（中位生存期約 3-14 個月，依亞型和治療反應而定）。GME 播散型預後最差；局灶型預後較好。NME/NLE 預後通常較差。早期積極治療、對免疫抑制藥物良好反應者預後較好。癲癇難以控制的病例預後不良。",
+    "pearls": [
+      "MUE 是生前臨床診斷——確切的組織學亞型（GME/NME/NLE）通常需要腦活檢或屍檢確認",
+      "小型犬品種（Maltese、Yorkie、Pug、Chihuahua）出現急性神經症狀時，MUE 應列為首要考慮",
+      "CSF 採集前必須排除顱內壓升高（先做 MRI），避免腦疝風險",
+      "突然停止免疫抑制治療可導致致命性復發——必須緩慢減量",
+      "Cytarabine 被認為能穿越血腦屏障，是 MUE 治療的重要輔助藥物"
+    ],
+    "monitoring": [
+      "定期神經學評估（每 2-4 週，穩定後每 1-3 個月）",
+      "追蹤 MRI 評估病變進展或縮小（治療 2-3 個月後）",
+      "免疫抑制藥物副作用監測（血糖、肝腎功能、感染）",
+      "抗癲癇藥物血中濃度監測（phenobarbital）",
+      "CSF 復查評估治療反應（選擇性）"
+    ],
+    "reference": "Clinical Veterinary Advisor / Blackwell's Five-Minute Veterinary Consult"
+  },
+
+  "hepatic-nodular-hyperplasia": {
+    "zh": "肝結節性增生",
+    "en": "Hepatic Nodular Hyperplasia",
+    "definition": "肝結節性增生是老年犬常見的良性肝臟病變，特徵為肝實質內出現單個或多個結節性增生灶。此病變僅見於犬，發生率隨年齡增加，通常從 6 歲開始出現。肝結節性增生不是顯著肝功能障礙的原因或結果，是一種良性的年齡相關性變化。臨床上最大的挑戰在於將其與惡性肝腫瘤（如肝細胞癌或轉移性腫瘤）區分，因兩者在影像學上可能相似。",
+    "synonyms": ["肝臟結節性再生性增生", "Nodular regenerative hyperplasia", "Hepatic nodular regeneration"],
+    "epidemiology": {
+      "species": "僅見於犬（貓極為罕見）",
+      "breed": "無明確品種偏好，所有品種均可發生",
+      "age": "6 歲以上犬，發生率隨年齡顯著增加，老年犬非常常見",
+      "sex": "無性別偏好",
+      "prevalence": "老年犬非常常見，屍檢研究顯示 > 8 歲犬中約 70-100% 有不同程度的結節性增生"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "大多數病例無臨床症狀（incidental finding）",
+        "血液檢查偶然發現 ALP 升高",
+        "超音波檢查偶然發現肝臟結節",
+        "極少數大結節可能造成腹部膨脹",
+        "偶爾結節破裂可導致急性腹腔出血（罕見）",
+        "食慾和精神狀態通常正常",
+        "排便排尿正常",
+        "無黃疸（除非合併其他肝臟疾病）",
+        "無腹水（除非合併其他疾病）",
+        "體重維持正常",
+        "活動力正常",
+        "可能因其他原因就診時偶然發現"
+      ],
+      "physicalExam": [
+        "理學檢查通常完全正常",
+        "偶爾腹部觸診可觸及肝臟結節（大結節時）",
+        "肝臟大小通常正常或輕度增大",
+        "無黃疸、無腹水",
+        "黏膜顏色正常"
+      ]
+    },
+    "pathophysiology": "肝結節性增生被認為是肝細胞對年齡相關性微循環改變的適應性反應。隨著年齡增長，肝臟微循環出現局部灌注差異，灌注較好的區域肝細胞增殖形成結節，而灌注較差的區域可能萎縮。結節由形態正常的肝細胞組成，排列方式與正常肝小葉略有不同，但維持正常的肝細胞功能。結節內可能含有空泡變性的肝細胞、脂肪變化或糖原蓄積。重要的是，這些結節不具有惡性潛能，不會轉變為肝細胞癌。門脈三聯管和中央靜脈結構在結節內可能被壓迫但不被破壞。",
+    "diagnosis": {
+      "primary": [
+        "腹腔超音波：肝臟內可見單個或多個等回音至高回音結節",
+        "細針穿刺細胞學（FNA）：可能看到正常或輕度增生的肝細胞，但敏感度有限",
+        "組織活檢（Tru-Cut 或楔形活檢）：確定診斷的金標準",
+        "影像學追蹤：結節大小穩定不變支持良性診斷"
+      ],
+      "differential": [
+        "肝細胞癌（hepatocellular carcinoma）— 最重要的鑑別診斷",
+        "肝細胞腺瘤（hepatocellular adenoma）",
+        "轉移性腫瘤（來自脾臟、胰臟、腸道等）",
+        "淋巴瘤肝臟浸潤",
+        "肝膿瘍",
+        "肉芽腫性肝炎"
+      ],
+      "labFindings": [
+        "ALP 可能輕度至中度升高（因結節內的空泡變性肝細胞誘導 ALP）",
+        "ALT 通常正常或僅輕度升高",
+        "膽紅素、白蛋白、BUN 通常正常",
+        "凝血功能正常",
+        "膽汁酸（bile acids）通常正常",
+        "超音波：肝實質內局灶性結節，回音性變異大（低、等或高回音）",
+        "CT 或 MRI：可提供更精確的結節特徵描述"
+      ]
+    },
+    "treatment": {
+      "acute": "不需要急性治療。極罕見的結節破裂出血病例需要急診穩定（輸液復甦、輸血）和手術介入。",
+      "chronic": "肝結節性增生不需要治療。重點在於準確診斷和與惡性腫瘤的鑑別。如果無法確定良惡性，可選擇定期超音波追蹤或手術活檢確診。",
+      "medications": [
+        "不需要特定藥物治療",
+        "合併其他肝臟疾病時依該疾病治療",
+        "SAMe（S-adenosylmethionine）和 silybin 可作為肝臟保健補充劑（非必要）"
+      ],
+      "surgery": "通常不需手術。以下情況可考慮：(1) 無法通過 FNA 或影像學確定良惡性時，手術活檢確診；(2) 大結節造成臨床症狀時；(3) 結節破裂出血時需緊急手術"
+    },
+    "prognosis": "預後極佳。肝結節性增生是良性的年齡相關性變化，不影響肝功能，不具惡性轉化潛能，不影響壽命。主要的臨床意義在於避免將其誤診為惡性腫瘤而進行不必要的激進治療。",
+    "pearls": [
+      "肝結節性增生是老年犬最常見的肝臟結節性病變——遠比肝腫瘤常見",
+      "僅見於犬，貓極為罕見",
+      "ALP 升高 + 超音波見肝臟結節在老年犬非常常見，不要過度反應",
+      "FNA 細胞學區分結節性增生和分化良好的肝細胞癌可能困難，組織活檢是金標準",
+      "最重要的臨床價值是避免將良性病變誤診為惡性腫瘤"
+    ],
+    "monitoring": [
+      "如未做組織活檢：每 3-6 個月超音波追蹤確認結節大小穩定",
+      "定期血液生化（每 6-12 個月）監測肝臟指標",
+      "結節快速增大時需重新評估並考慮活檢",
+      "已確診為結節性增生者不需要頻繁追蹤"
+    ],
+    "reference": "Clinical Veterinary Advisor / Blackwell's Five-Minute Veterinary Consult"
+  },
+
+  "copper-associated-hepatitis": {
+    "zh": "銅相關性肝炎",
+    "en": "Copper-Associated Hepatitis",
+    "definition": "銅相關性肝炎是由肝臟銅蓄積導致的慢性進行性肝炎。銅蓄積可能為原發性遺傳缺陷（如 Bedlington Terrier 的 COMMD1 基因突變導致銅排泄障礙）或繼發於膽汁排泄障礙（膽汁鬱積導致銅排出減少）。過量的銅在肝細胞中蓄積，引起氧化損傷、細胞壞死和慢性發炎反應，最終可能進展為肝硬化和肝衰竭。近年來研究顯示，除了已知的遺傳性品種外，許多犬品種的銅相關性肝病發病率有增加趨勢，可能與商業飼料中銅含量偏高有關。",
+    "synonyms": ["銅蓄積性肝病", "銅中毒性肝炎", "Bedlington 肝炎", "慢性活動性肝炎", "Copper storage hepatopathy", "Bedlington hepatitis", "Chronic Cu toxicity"],
+    "epidemiology": {
+      "species": "犬（貓極為罕見）",
+      "breed": "Bedlington Terrier（遺傳性，COMMD1 基因突變）、Labrador Retriever、Doberman Pinscher、West Highland White Terrier、Dalmatian、Skye Terrier 等多品種均有報告，近年 Labrador Retriever 報告增加",
+      "age": "Bedlington Terrier 從 2-6 歲開始出現肝損傷；其他品種通常中年至老年（4-7 歲以上）",
+      "sex": "Bedlington Terrier 無性別偏好；Labrador Retriever 和 Doberman 可能母犬偏好",
+      "prevalence": "Bedlington Terrier 中約 25-50% 為隱性遺傳攜帶者；其他品種盛行率不一，但近年報告增加"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "早期可能完全無症狀（亞臨床期）",
+        "食慾減退和進行性體重減輕",
+        "嗜睡和活動力下降",
+        "間歇性嘔吐",
+        "多飲多尿（polydipsia/polyuria）",
+        "黃疸（icterus）— 疾病進展至中晚期時",
+        "腹水（ascites）— 肝硬化和門脈高壓時",
+        "急性溶血性危象（Bedlington Terrier，大量銅釋放入血循環時）",
+        "黑便（melena）或消化道出血（凝血功能障礙時）",
+        "神經症狀（肝性腦病）：定向障礙、繞圈、癲癇",
+        "慢性腹瀉",
+        "皮膚和鞏膜黃染"
+      ],
+      "physicalExam": [
+        "肝臟觸診可能縮小（晚期肝硬化）或正常大小",
+        "黃疸（皮膚、鞏膜、黏膜黃染）",
+        "腹部膨脹（腹水）",
+        "體況評分下降，肌肉消耗",
+        "黏膜蒼白（溶血性貧血時，尤其 Bedlington Terrier）",
+        "神經學異常（肝性腦病時）"
+      ]
+    },
+    "pathophysiology": "正常情況下，飲食中的銅經腸道吸收後由門靜脈運送至肝臟，肝細胞將多餘的銅結合到膽汁排出。在銅相關性肝炎中，銅的排泄或代謝機制出現缺陷。Bedlington Terrier 的 COMMD1（copper metabolism domain containing 1）基因突變導致銅從肝細胞排入膽汁的能力受損，銅在肝細胞溶酶體中持續蓄積。當細胞內銅濃度超過安全閾值（通常 > 400 μg/g 乾重），游離銅離子催化 Fenton 反應產生活性氧自由基（ROS），引起脂質過氧化、蛋白質氧化和 DNA 損傷，導致肝細胞壞死。壞死引發炎症反應和纖維化，慢性進展最終導致肝硬化。急性大量肝細胞壞死可釋放大量銅進入血液循環，導致急性溶血性危象。",
+    "diagnosis": {
+      "primary": [
+        "肝臟組織活檢並進行定量銅測定（gold standard）：銅含量 > 400 μg/g 乾重為異常",
+        "肝臟活檢組織的銅特殊染色（Rhodanine 或 Rubeanic acid 染色）",
+        "腹腔超音波：評估肝臟大小、回音性和是否有腹水",
+        "血液生化檢查：肝臟酵素和肝功能評估"
+      ],
+      "differential": [
+        "其他原因的慢性肝炎（免疫介導性、感染性、藥物性）",
+        "膽汁鬱積性肝病（繼發性銅蓄積）",
+        "肝臟腫瘤",
+        "傳染性肝炎（犬腺病毒、Leptospira）",
+        "門脈分流（portosystemic shunt）",
+        "犬 Lobular Dissecting Hepatitis"
+      ],
+      "labFindings": [
+        "ALT 升高（肝細胞損傷指標），可能間歇性波動",
+        "ALP 升高（膽汁鬱積指標）",
+        "低白蛋白血症（慢性肝病/肝硬化時）",
+        "高膽紅素血症（進展期）",
+        "凝血時間延長（PT/aPTT，嚴重肝病時）",
+        "肝臟活檢銅含量 > 400 μg/g 乾重（正常 < 200 μg/g）",
+        "Rhodanine 染色陽性：肝細胞內銅顆粒",
+        "組織學：慢性肝炎伴纖維化、肝細胞壞死、銅蓄積（初期位於 zone 3）",
+        "Bedlington Terrier 可進行 COMMD1 基因檢測"
+      ]
+    },
+    "treatment": {
+      "acute": "急性溶血性危象（Bedlington Terrier）：積極輸液治療、輸血、利尿促進銅排泄。急性肝衰竭：支持性照護、lactulose（肝性腦病）、vitamin K1（凝血功能障礙）、膠體和晶體輸液。",
+      "chronic": "銅螯合治療為主：D-penicillamine 是首選銅螯合劑，與餐前給予促進銅排泄。低銅飲食。肝臟保護劑（SAMe、silybin、vitamin E）減少氧化損傷。鋅劑可阻斷腸道銅吸收。治療需長期甚至終生。定期監測肝臟銅含量（每 6-12 個月活檢）。",
+      "medications": [
+        "D-Penicillamine 10-15 mg/kg PO q12h（空腹，餐前 30 分鐘）— 首選銅螯合劑",
+        "Trientine (2,2,2-tetramine) 10-15 mg/kg PO q12h — D-penicillamine 不耐受時的替代",
+        "Zinc gluconate 或 zinc acetate 5-10 mg/kg PO q12h（與螯合劑分開給予）— 阻斷腸道銅吸收",
+        "SAMe (S-adenosylmethionine) 20 mg/kg PO q24h 空腹 — 肝臟抗氧化保護",
+        "Vitamin E 10-15 IU/kg PO q24h — 抗氧化劑",
+        "Ursodiol (UDCA) 10-15 mg/kg PO q24h — 利膽和肝臟保護",
+        "Lactulose 0.5 mL/kg PO q8-12h — 肝性腦病時"
+      ],
+      "surgery": "一般不需手術，除非需要肝臟活檢確診。終末期肝硬化在人醫可考慮肝臟移植，但獸醫學中尚未常規進行。"
+    },
+    "prognosis": "預後取決於診斷時的疾病階段。早期診斷並積極銅螯合治療的病例預後良好，肝臟損傷可部分逆轉。已進展至肝硬化的病例預後謹慎至不良，治療可延緩但無法逆轉纖維化。Bedlington Terrier 的急性溶血性危象預後謹慎。早期篩檢和預防性飲食管理可顯著改善預後。",
+    "pearls": [
+      "不要繁殖受影響的 Bedlington Terrier 或已知攜帶者（COMMD1 基因檢測可用於篩檢）",
+      "繼發性銅蓄積（因膽汁鬱積）vs 原發性銅蓄積的鑑別很重要——治療方向不同",
+      "肝臟銅含量的定量測定需要足夠大的活檢樣本（至少 5 mg 乾重）",
+      "D-penicillamine 最常見的副作用是嘔吐——可逐漸增加劑量或改用 trientine",
+      "近年 Labrador Retriever 銅相關性肝病增加，可能與商業飼料銅含量偏高有關",
+      "鋅劑和螯合劑應分開至少 2 小時給予，否則鋅會螯合螯合劑降低效果"
+    ],
+    "monitoring": [
+      "肝臟酵素（ALT、ALP）每 4-8 週監測至穩定，之後每 3-6 個月",
+      "肝臟活檢和定量銅測定：治療 6-12 個月後追蹤",
+      "白蛋白、膽紅素、凝血功能監測肝功能",
+      "D-penicillamine 副作用監測：嘔吐、蛋白尿",
+      "低銅飲食的依從性評估"
+    ],
+    "reference": "Clinical Veterinary Advisor / Blackwell's Five-Minute Veterinary Consult"
+  },
+
+  "megaesophagus-acquired": {
+    "zh": "後天性巨食道症",
+    "en": "Acquired Megaesophagus",
+    "definition": "後天性巨食道症是食道的瀰漫性擴張伴隨運動功能障礙，導致食物和液體在食道中滯留而無法正常輸送至胃。此為犬最常見的食道疾病之一。後天性巨食道症可為特發性（原因不明，最常見）或繼發於其他疾病，包括重症肌無力（myasthenia gravis，最重要的可治療原因）、甲狀腺功能低下、腎上腺皮質功能低下、多發性肌炎、自主神經失調症（dysautonomia）及食道炎（慢性嘔吐或胃食道逆流引起）。吸入性肺炎是最常見和最致命的併發症。",
+    "synonyms": ["後天性食道擴張", "繼發性巨食道症", "Acquired esophageal dilatation", "Secondary megaesophagus"],
+    "epidemiology": {
+      "species": "犬較貓常見（貓罕見）",
+      "breed": "German Shepherd、Golden Retriever、Irish Setter、Great Dane、Labrador Retriever 等大型犬較常見；先天性巨食道症好發品種：Wire Fox Terrier、Miniature Schnauzer、Chinese Shar-Pei",
+      "age": "後天性可發生於任何年齡，但成年至老年犬最常見（> 5 歲），尤其是特發性和重症肌無力相關型",
+      "sex": "無明確性別偏好",
+      "prevalence": "犬最常見的食道疾病之一，特發性占後天性病例的 25-50%"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "反流（regurgitation）：被動性、無腹部用力，通常在進食後數分鐘至數小時發生",
+        "反流物為未消化的食物，呈管狀或香腸狀",
+        "體重進行性減輕和肌肉消耗",
+        "食慾通常正常或增加（despite 營養不良）",
+        "進食時喉嚨發出咕嚕聲或吞嚥困難",
+        "口臭（食物在擴張食道中發酵）",
+        "咳嗽和呼吸困難（吸入性肺炎徵象）",
+        "發燒（吸入性肺炎時）",
+        "流涎（ptyalism）",
+        "鼻分泌物（反流物經鼻腔排出）",
+        "進食姿勢異常（可能伸長頸部）",
+        "全身性肌肉無力（如合併重症肌無力）"
+      ],
+      "physicalExam": [
+        "體況評分低，明顯消瘦",
+        "頸部觸診可能感覺到擴張的頸段食道",
+        "肺部聽診異常（如合併吸入性肺炎：囉音、支氣管音）",
+        "發燒（吸入性肺炎時）",
+        "脫水徵象（皮膚彈性下降、黏膜乾燥）",
+        "全身性肌肉萎縮",
+        "如合併重症肌無力：誘發性肌肉無力、可能有巨食道症以外的肌無力表現"
+      ]
+    },
+    "pathophysiology": "食道的正常蠕動功能依賴完整的迷走神經傳入和傳出通路、食道壁內神經叢（Auerbach's plexus）和橫紋肌（犬食道全程為橫紋肌）的協調運作。後天性巨食道症的機制因病因而異：重症肌無力中，自體抗體攻擊食道橫紋肌的乙醯膽鹼受體（nicotinic AChR），導致神經肌肉傳導障礙和食道蠕動衰竭；甲狀腺功能低下可能通過神經病變影響迷走神經功能；自主神經失調症（dysautonomia）影響食道壁內神經叢；食道炎導致黏膜損傷和肌肉層發炎纖維化。無論病因為何，最終結果都是食道喪失有效蠕動能力，食物滯留導致食道進一步被動性擴張，形成惡性循環。吸入性肺炎是因反流物誤吸入氣道所致，是最常見的死因。",
+    "diagnosis": {
+      "primary": [
+        "胸腔 X 光：側位和腹背位可見食道擴張（氣體或食物/液體充盈的食道影像）",
+        "食道造影（contrast esophagogram）：鋇劑或碘造影劑確認食道擴張和蠕動功能障礙",
+        "乙醯膽鹼受體（AChR）抗體效價：篩檢重症肌無力（最重要的可治療病因）",
+        "甲狀腺功能檢查（Total T4、free T4、TSH）：排除甲狀腺功能低下"
+      ],
+      "differential": [
+        "重症肌無力（focal 或 generalized myasthenia gravis）",
+        "甲狀腺功能低下（hypothyroidism）",
+        "腎上腺皮質功能低下（hypoadrenocorticism/Addison's disease）",
+        "多發性肌炎（polymyositis）或皮肌炎",
+        "自主神經失調症（dysautonomia）",
+        "食道異物或食道狹窄",
+        "食道腫瘤",
+        "鉛或有機磷中毒",
+        "特發性巨食道症（排除所有已知原因後）"
+      ],
+      "labFindings": [
+        "胸腔 X 光：食道擴張影像（氣管背側的軟組織/氣體密度影像）",
+        "可能合併吸入性肺炎影像（右中葉和右前葉肺泡型浸潤）",
+        "AChR 抗體效價：陽性確診重症肌無力（犬 > 0.6 nmol/L）",
+        "Total T4 / free T4 降低提示甲狀腺功能低下",
+        "基礎 cortisol 或 ACTH 刺激試驗排除 Addison's disease",
+        "CK（creatine kinase）升高可能提示肌炎",
+        "電解質異常（低鈉高鉀）提示 Addison's disease",
+        "透視檢查（fluoroscopy）：動態評估食道蠕動功能"
+      ]
+    },
+    "treatment": {
+      "acute": "吸入性肺炎的積極治療：廣效抗生素（amoxicillin-clavulanate + fluoroquinolone 或基於培養結果）、氧氣治療、靜脈輸液；嚴重脫水和營養不良的矯正；放置胃管（gastrostomy tube）確保營養攝入和減少反流風險",
+      "chronic": "營養管理為核心：高處餵食（Bailey chair，讓動物直立進食）、餵食後保持直立姿勢 15-30 分鐘；食物質地試驗（部分動物對液態食物反應較好，部分對固態食團較好）；治療潛在疾病（重症肌無力：pyridostigmine；甲狀腺功能低下：levothyroxine；Addison's disease：DOCP + prednisone）",
+      "medications": [
+        "Pyridostigmine 0.5-3 mg/kg PO q8-12h — 重症肌無力的乙醯膽鹼酯酶抑制劑",
+        "Levothyroxine 0.02 mg/kg PO q12h — 甲狀腺功能低下時",
+        "Cisapride 0.1-0.5 mg/kg PO q8-12h — 促進胃排空（輔助）",
+        "Metoclopramide 0.2-0.4 mg/kg PO q8h — 促動力劑（效果有限）",
+        "Omeprazole 1 mg/kg PO q24h — 減少胃酸逆流引起的食道炎",
+        "Sucralfate 0.5-1 g PO q8h — 食道黏膜保護",
+        "廣效抗生素 — 吸入性肺炎時（amoxicillin-clavulanate 12.5-25 mg/kg PO q12h）"
+      ],
+      "surgery": "胃造管（gastrostomy tube, G-tube）置放：提供繞過食道的營養途徑，減少反流和吸入風險。是嚴重巨食道症的重要管理手段。食道本身的手術選項非常有限。"
+    },
+    "prognosis": "預後取決於病因和併發症。繼發於可治療疾病（如重症肌無力、甲狀腺功能低下、Addison's disease）的巨食道症，治療潛在疾病後食道功能可能改善（重症肌無力治療後約 50-60% 可恢復）。特發性巨食道症預後謹慎至不良，因為食道功能難以恢復。吸入性肺炎是最常見的死因和安樂死原因。飼主的長期護理意願和投入程度顯著影響預後。",
+    "pearls": [
+      "反流（regurgitation）不等於嘔吐（vomiting）——區分兩者是診斷巨食道症的第一步",
+      "所有巨食道症病例都必須檢測 AChR 抗體——重症肌無力是最重要的可治療原因",
+      "Bailey chair（高處直立餵食椅）是管理巨食道症的核心工具",
+      "吸入性肺炎是巨食道症最常見的死因——預防重於治療",
+      "部分重症肌無力可能僅表現為局灶性巨食道症（focal MG），無全身性肌無力",
+      "食物質地試驗很重要——每隻動物對液態 vs 固態食物的耐受性不同"
+    ],
+    "monitoring": [
+      "體重和體況評分定期追蹤",
+      "胸腔 X 光監測吸入性肺炎（每次呼吸症狀發作時）",
+      "AChR 抗體效價追蹤（重症肌無力病例，每 4-8 週）",
+      "甲狀腺功能追蹤（甲狀腺功能低下病例）",
+      "營養狀態和脫水評估",
+      "飼主教育：辨識吸入性肺炎早期徵象（咳嗽、呼吸急促、發燒）"
+    ],
+    "reference": "Clinical Veterinary Advisor / Blackwell's Five-Minute Veterinary Consult"
+  }
+}

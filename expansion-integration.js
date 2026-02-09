@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-console.log('=== 疾病擴充整合腳本 (Batch 12-17) ===\n');
+console.log('=== 疾病擴充整合腳本 ===\n');
 
 // 1. 讀取當前檔案
 let html = fs.readFileSync('vet-differential-diagnosis-v2.html', 'utf8');
@@ -17,14 +17,24 @@ const originalDiseaseCount = (html.match(/^\s+zh:\s*"/gm) || []).length;
 console.log('原始疾病數:', originalDiseaseCount);
 
 // 2. 讀取新批次 JSON
-const newBatches = [
+// Read batch list from command line or use defaults
+const defaultBatches = [
     'batch12-tier1-critical.json',
     'batch13-tier2-high.json',
     'batch14-tier3-moderate.json',
     'batch15-tier3b.json',
     'batch16-tier4.json',
-    'batch17-final-remaining.json'
+    'batch17-final-remaining.json',
+    'batch18-fungal-infectious.json',
+    'batch19-derm-ophtho-misc.json',
+    'batch20-cardio-heme-onco.json'
 ];
+
+// Allow specifying specific batches via command line: node expansion-integration.js batch18 batch19 batch20
+const args = process.argv.slice(2);
+const newBatches = args.length > 0
+    ? args.map(a => a.endsWith('.json') ? a : a + '.json')
+    : defaultBatches;
 
 let allNewDiseases = {};
 let batchStats = [];
