@@ -1,0 +1,441 @@
+{
+  "canine-coronavirus": {
+    "diagnosticAlgorithm": {
+      "title": "犬冠狀病毒腸炎 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估臨床症狀與病史，注意幼犬、群居環境及疫苗接種狀態", "findings": ["急性水樣腹瀉", "輕度嘔吐", "食慾下降", "輕度脫水"]},
+        {"step": 2, "action": "基本檢查", "details": "進行血液學與生化檢查評估全身狀態", "findings": ["血液學變化通常輕微", "輕度白血球減少", "電解質輕度失衡"]},
+        {"step": 3, "action": "糞便檢查", "details": "進行糞便抗原檢測與PCR確認病原", "findings": ["糞便CCoV抗原快篩陽性", "糞便PCR檢測CCoV RNA陽性", "需排除犬小病毒共感染"]},
+        {"step": 4, "action": "確診與鑑別", "details": "綜合臨床表現與實驗室結果確診，排除其他腸炎病因", "findings": ["確認CCoV感染", "排除CPV-2共感染", "評估是否有繼發性細菌感染"]}
+      ]
+    }
+  },
+  "infectious-canine-hepatitis": {
+    "diagnosticAlgorithm": {
+      "title": "犬傳染性肝炎 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估臨床表現，注意急性發熱、腹痛及疫苗史", "findings": ["高燒（>40°C）", "腹部疼痛與肝區觸痛", "扁桃腺腫大", "出血傾向"]},
+        {"step": 2, "action": "血液檢查", "details": "進行CBC與生化檢查評估肝功能與凝血狀態", "findings": ["ALT/AST顯著升高", "白血球減少後反彈性增多", "凝血時間延長", "低白蛋白血症"]},
+        {"step": 3, "action": "影像學檢查", "details": "腹部超音波評估肝臟形態與其他腹腔器官", "findings": ["肝臟腫大", "肝實質回聲異常", "膽囊壁水腫增厚"]},
+        {"step": 4, "action": "確診", "details": "透過病毒學檢測確認CAV-1感染", "findings": ["PCR檢測CAV-1陽性", "血清學抗體效價上升", "特徵性藍眼症（角膜水腫）"]}
+      ]
+    }
+  },
+  "bartonellosis": {
+    "diagnosticAlgorithm": {
+      "title": "巴爾通體感染 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估臨床症狀與跳蚤暴露史", "findings": ["間歇性發熱", "淋巴結腫大", "鼻出血或其他黏膜出血", "心內膜炎相關症狀"]},
+        {"step": 2, "action": "基本檢查", "details": "血液學與生化檢查", "findings": ["輕度非再生性貧血", "血小板減少", "肝酶輕度升高", "高球蛋白血症"]},
+        {"step": 3, "action": "專項檢測", "details": "進行血清學與PCR確認感染", "findings": ["Bartonella IFA抗體效價升高", "血液PCR檢測陽性", "血液培養陽性（需特殊培養基）"]},
+        {"step": 4, "action": "確診與評估", "details": "綜合評估感染範圍與併發症", "findings": ["心臟超音波排除心內膜炎", "確認感染種別", "評估眼部與關節併發症"]}
+      ]
+    }
+  },
+  "tick-borne-disease": {
+    "diagnosticAlgorithm": {
+      "title": "壁蝨傳播疾病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估壁蝨暴露史與臨床症狀", "findings": ["發熱與嗜睡", "關節腫痛或跛行", "皮膚發現壁蝨或叮咬痕跡", "出血點或瘀斑"]},
+        {"step": 2, "action": "基本血液檢查", "details": "CBC與生化全套檢查", "findings": ["血小板減少", "貧血", "白血球減少或增多", "肝腎指數異常"]},
+        {"step": 3, "action": "專項血清學檢測", "details": "進行壁蝨傳播疾病多重篩檢", "findings": ["SNAP 4Dx Plus快篩（Ehrlichia/Anaplasma/Borrelia/Heartworm）", "血液抹片可見桑葚體", "IFA抗體效價確認"]},
+        {"step": 4, "action": "確診與分型", "details": "確認具體病原並評估器官損傷程度", "findings": ["PCR鑑定特定病原種別", "尿蛋白/肌酐比值評估腎損傷", "關節液分析排除免疫介導性關節炎"]}
+      ]
+    }
+  },
+  "contact-dermatitis": {
+    "diagnosticAlgorithm": {
+      "title": "接觸性皮膚炎 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "詳細詢問環境暴露史與皮膚病變分布", "findings": ["無毛或少毛區域紅疹", "腹部、腋下、腹股溝好發", "接觸刺激物後發作", "瘙癢程度不等"]},
+        {"step": 2, "action": "皮膚學檢查", "details": "仔細檢查皮膚病變型態與分布", "findings": ["界線分明的紅斑與丘疹", "病變限於接觸區域", "可能有水泡或糜爛", "慢性病例出現苔蘚化"]},
+        {"step": 3, "action": "排除性診斷", "details": "皮膚刮片與細胞學排除其他皮膚病", "findings": ["皮膚刮片排除疥蟎", "細胞學排除細菌或酵母菌感染", "排除食物過敏與異位性皮膚炎"]},
+        {"step": 4, "action": "確診", "details": "移除可疑接觸物觀察改善，必要時進行貼膚試驗", "findings": ["移除可疑物後皮膚改善", "貼膚試驗確認致敏原", "皮膚切片顯示表皮海綿水腫與淋巴球浸潤"]}
+      ]
+    }
+  },
+  "alopecia-x": {
+    "diagnosticAlgorithm": {
+      "title": "X脫毛症 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估脫毛型態與品種傾向，注意北歐犬種（博美、阿拉斯加雪橇犬）", "findings": ["雙側對稱性脫毛", "軀幹脫毛，頭部與四肢保留", "無瘙癢", "皮膚色素沉著"]},
+        {"step": 2, "action": "內分泌篩檢", "details": "排除其他內分泌性脫毛", "findings": ["甲狀腺功能正常（T4/TSH正常）", "腎上腺功能正常（ACTH刺激試驗正常）", "性荷爾蒙檢測可能異常"]},
+        {"step": 3, "action": "皮膚切片", "details": "組織病理學檢查確認特徵性變化", "findings": ["毛囊萎縮與角化過度", "火焰狀毛囊（flame follicle）", "表皮萎縮", "缺乏炎症細胞浸潤"]},
+        {"step": 4, "action": "確診", "details": "排除性診斷：排除所有已知脫毛病因後確認", "findings": ["排除甲狀腺低下", "排除庫欣氏症", "排除性荷爾蒙相關脫毛", "確認為X脫毛症"]}
+      ]
+    }
+  },
+  "angular-limb-deformity": {
+    "diagnosticAlgorithm": {
+      "title": "肢體角度畸形 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估步態異常與肢體外觀，詢問受傷史及生長期異常", "findings": ["肢體外翻或內翻", "步態異常或跛行", "前肢（橈骨/尺骨）最常見", "生長期間進行性惡化"]},
+        {"step": 2, "action": "骨科學檢查", "details": "詳細觸診與關節活動度評估", "findings": ["肢體軸線偏移", "關節活動範圍受限", "骨長度不對稱", "肌肉萎縮"]},
+        {"step": 3, "action": "影像學檢查", "details": "X光攝影確認畸形程度與骨骺狀態", "findings": ["骨骼軸線角度異常", "生長板早期閉合", "關節面不協調", "CT可精確測量旋轉角度"]},
+        {"step": 4, "action": "確診與手術計畫", "details": "確認畸形類型並制定矯正方案", "findings": ["確認受影響骨骼與生長板", "測量CORA角度", "評估是否需矯正截骨術"]}
+      ]
+    }
+  },
+  "luxation-joint": {
+    "diagnosticAlgorithm": {
+      "title": "關節脫位 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估外傷史與患肢功能狀態", "findings": ["急性非負重性跛行", "關節腫脹與變形", "疼痛與活動受限", "外傷史（車禍、跳躍、墜落）"]},
+        {"step": 2, "action": "骨科學檢查", "details": "觸診確認脫位方向與穩定性", "findings": ["關節解剖位置異常", "關節不穩定", "周圍軟組織腫脹", "神經血管功能評估"]},
+        {"step": 3, "action": "影像學檢查", "details": "X光確認脫位並排除骨折", "findings": ["關節面失去正常對合", "確認脫位方向", "排除伴隨骨折", "評估關節退行性變化"]},
+        {"step": 4, "action": "確診與治療計畫", "details": "確認脫位類型並決定復位方式", "findings": ["急性vs慢性脫位分類", "評估閉合復位可行性", "確認是否需要手術固定"]}
+      ]
+    }
+  },
+  "hypertrophic-osteodystrophy": {
+    "diagnosticAlgorithm": {
+      "title": "肥大性骨營養不良 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估年齡與品種（大型犬幼犬2-8月齡好發）", "findings": ["四肢遠端腫脹（幹骺端）", "高燒與嗜睡", "跛行或不願行走", "食慾下降"]},
+        {"step": 2, "action": "理學檢查", "details": "觸診骨骼並評估全身狀態", "findings": ["幹骺端腫脹與壓痛", "雙側對稱性受累", "橈骨/尺骨遠端最常見", "可能伴有腹瀉"]},
+        {"step": 3, "action": "影像學檢查", "details": "X光檢查確認特徵性骨骼變化", "findings": ["幹骺端出現雙線征（double physis sign）", "骨膜增生與不規則鈣化", "幹骺端硬化帶", "軟組織腫脹"]},
+        {"step": 4, "action": "確診", "details": "根據臨床表現與影像學特徵確診", "findings": ["典型影像學表現確診", "排除骨髓炎與骨腫瘤", "評估是否與疫苗接種相關"]}
+      ]
+    }
+  },
+  "ectropion": {
+    "diagnosticAlgorithm": {
+      "title": "眼瞼外翻 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估品種傾向與眼瞼異常程度", "findings": ["下眼瞼向外翻轉", "結膜暴露發紅", "慢性流淚或分泌物", "好發於聖伯納、巴吉度等品種"]},
+        {"step": 2, "action": "眼科學檢查", "details": "詳細眼科檢查評估繼發性損傷", "findings": ["結膜充血與增厚", "角膜血管新生", "淚液測試（Schirmer test）", "螢光素染色排除角膜潰瘍"]},
+        {"step": 3, "action": "確診與分級", "details": "確認外翻程度與繼發損傷", "findings": ["先天性vs後天性分類", "輕度/中度/重度分級", "評估是否合併眼瞼內翻", "確認手術矯正需求"]}
+      ]
+    }
+  },
+  "distichiasis": {
+    "diagnosticAlgorithm": {
+      "title": "雙行睫 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估眼部刺激症狀與品種傾向", "findings": ["流淚增多", "眨眼頻率增加", "結膜充血", "好發於可卡犬、鬥牛犬等"]},
+        {"step": 2, "action": "裂隙燈檢查", "details": "使用裂隙燈或放大鏡檢查瞼板腺開口處異常睫毛", "findings": ["瞼板腺開口處生長異常睫毛", "睫毛接觸角膜表面", "單根或多根異常睫毛"]},
+        {"step": 3, "action": "角膜評估", "details": "評估異常睫毛對角膜的損傷程度", "findings": ["螢光素染色檢查角膜潰瘍", "角膜點狀上皮缺損", "慢性病例角膜色素沉著", "淚液分泌量評估"]},
+        {"step": 4, "action": "確診與治療計畫", "details": "確認異常睫毛數量、位置並制定治療方案", "findings": ["記錄異常睫毛位置與數量", "區分雙行睫與異位睫", "評估電燒灼或冷凍治療適應症"]}
+      ]
+    }
+  },
+  "retinal-detachment": {
+    "diagnosticAlgorithm": {
+      "title": "視網膜脫離 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估視覺功能喪失程度與發病速度", "findings": ["突發性失明", "瞳孔散大且對光反射減弱", "犬貓可能撞到物品", "可能單側或雙側"]},
+        {"step": 2, "action": "眼科學檢查", "details": "直接與間接眼底鏡檢查", "findings": ["視網膜離位浮起", "視網膜血管走向異常", "視網膜下液體蓄積", "可能見到視網膜裂孔"]},
+        {"step": 3, "action": "進階檢查", "details": "超音波與全身檢查尋找病因", "findings": ["B-scan超音波確認脫離範圍", "血壓測量排除高血壓性視網膜病變", "血液檢查排除全身性疾病", "視網膜電圖（ERG）評估視網膜功能"]},
+        {"step": 4, "action": "確診與病因分類", "details": "確認脫離類型與潛在病因", "findings": ["滲出性/牽引性/裂孔性分類", "高血壓相關（貓最常見）", "免疫介導性或腫瘤性病因", "評估視覺恢復可能性"]}
+      ]
+    }
+  },
+  "sudden-acquired-retinal-degeneration": {
+    "diagnosticAlgorithm": {
+      "title": "突發性後天視網膜退化症 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估突發性失明的臨床表現", "findings": ["急性完全失明（數天內）", "瞳孔散大固定", "威嚇反應消失", "中老年犬常見，常伴多飲多尿"]},
+        {"step": 2, "action": "眼科學檢查", "details": "眼底鏡與基本眼科檢查", "findings": ["早期眼底可能外觀正常", "瞳孔對光反射消失或減弱", "晚期可見視網膜血管萎縮", "晚期視網膜反射增強"]},
+        {"step": 3, "action": "視網膜電圖", "details": "ERG為確診金標準", "findings": ["ERG呈平坦波形（消失性反應）", "明暗適應ERG均無反應", "與視神經疾病鑑別的關鍵檢查"]},
+        {"step": 4, "action": "確診與鑑別", "details": "排除其他急性失明原因", "findings": ["ERG無反應確診SARDS", "排除視神經炎（MRI正常）", "排除中樞性失明", "內分泌篩檢（可能伴庫欣氏症表現）"]}
+      ]
+    }
+  },
+  "proptosis": {
+    "diagnosticAlgorithm": {
+      "title": "眼球脫出 診斷流程",
+      "steps": [
+        {"step": 1, "action": "緊急評估", "details": "評估外傷程度與眼球存活力", "findings": ["眼球突出於眼眶外", "眼瞼嵌頓於眼球赤道後方", "角膜暴露乾燥", "眼周出血與腫脹"]},
+        {"step": 2, "action": "眼科學評估", "details": "評估眼球存活預後指標", "findings": ["瞳孔對光反射評估", "眼外肌完整性（>2條斷裂預後差）", "前房出血程度", "角膜完整性評估"]},
+        {"step": 3, "action": "全身評估", "details": "評估其他伴隨外傷", "findings": ["頭部外傷評估", "口腔與顎骨骨折檢查", "神經學檢查", "胸腹部X光排除其他損傷"]},
+        {"step": 4, "action": "確診與治療決策", "details": "決定眼球保留或摘除", "findings": ["評估視覺恢復可能性", "短頭種犬預後較佳", "嚴重眼外肌斷裂考慮摘除", "立即復位與暫時瞼緣縫合"]}
+      ]
+    }
+  },
+  "obstructive-shock": {
+    "diagnosticAlgorithm": {
+      "title": "阻塞性休克 診斷流程",
+      "steps": [
+        {"step": 1, "action": "緊急評估", "details": "快速辨識休克表現與阻塞性病因", "findings": ["低血壓與心搏過速", "頸靜脈怒張", "呼吸困難", "心音減弱（心包填塞）"]},
+        {"step": 2, "action": "緊急檢查", "details": "快速床邊檢查確認病因", "findings": ["TFAST超音波發現心包積液", "胸腔X光顯示張力性氣胸", "腹部超音波評估大血管栓塞", "血氣分析顯示代謝性酸中毒"]},
+        {"step": 3, "action": "病因鑑別", "details": "區分不同阻塞性休克病因", "findings": ["心包填塞：心包穿刺抽液", "張力性氣胸：胸腔穿刺減壓", "肺栓塞：D-dimer升高", "GDV：腹部X光確認"]},
+        {"step": 4, "action": "確診與穩定", "details": "確認病因並進行緊急處置", "findings": ["血流動力學監測", "中心靜脈壓升高", "確認阻塞解除後血壓改善"]}
+      ]
+    }
+  },
+  "marijuana-toxicosis": {
+    "diagnosticAlgorithm": {
+      "title": "大麻中毒 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "詳細詢問暴露史與評估神經症狀", "findings": ["共濟失調與步態不穩", "瞳孔散大", "嗜睡或過度興奮", "尿失禁"]},
+        {"step": 2, "action": "理學檢查", "details": "全身神經學與生命徵象評估", "findings": ["心搏過緩或心搏過速", "體溫過低", "對聲音過度敏感", "流涎"]},
+        {"step": 3, "action": "實驗室檢查", "details": "排除其他中毒與代謝異常", "findings": ["基本生化檢查通常正常", "尿液THC快篩（人用試劑可用但敏感度有限）", "排除其他神經毒物暴露"]},
+        {"step": 4, "action": "確診", "details": "根據暴露史與臨床表現推斷性診斷", "findings": ["典型臨床症狀組合", "飼主承認暴露史", "支持性治療後12-24小時改善", "排除其他CNS抑制劑中毒"]}
+      ]
+    }
+  },
+  "organophosphate-toxicosis": {
+    "diagnosticAlgorithm": {
+      "title": "有機磷中毒 診斷流程",
+      "steps": [
+        {"step": 1, "action": "緊急評估", "details": "辨識膽鹼激性危象的典型表現（SLUDGE/DUMBELS）", "findings": ["流涎與流淚過多", "嘔吐與腹瀉", "縮瞳", "肌肉震顫與痙攣"]},
+        {"step": 2, "action": "理學檢查", "details": "評估膽鹼激性症狀嚴重度", "findings": ["心搏過緩", "支氣管分泌物增多與呼吸困難", "排尿排便失禁", "肌束顫動"]},
+        {"step": 3, "action": "實驗室確認", "details": "血液膽鹼酯酶活性測定", "findings": ["全血或血漿膽鹼酯酶活性顯著降低", "活性降至正常值25%以下具診斷意義", "活性降低與臨床嚴重度相關"]},
+        {"step": 4, "action": "確診與治療反應", "details": "阿托品試驗性治療確認診斷", "findings": ["阿托品給予後症狀改善", "確認暴露來源（殺蟲劑、除蚤產品）", "排除氨基甲酸酯中毒（類似但可逆）"]}
+      ]
+    }
+  },
+  "toad-toxicosis": {
+    "diagnosticAlgorithm": {
+      "title": "蟾蜍中毒 診斷流程",
+      "steps": [
+        {"step": 1, "action": "緊急評估", "details": "評估蟾蜍接觸史與心臟毒性症狀", "findings": ["大量流涎與口腔黏膜紅腫", "嘔吐", "心律不整", "共濟失調與痙攣"]},
+        {"step": 2, "action": "心血管評估", "details": "ECG與心血管監測", "findings": ["心電圖顯示心律不整", "高鉀血症樣ECG變化", "室性心搏過速", "房室傳導阻滯"]},
+        {"step": 3, "action": "實驗室檢查", "details": "電解質與心臟生物標記檢查", "findings": ["高鉀血症", "血清強心配醣體檢測（digoxin-like）", "乳酸升高", "心肌酵素可能升高"]},
+        {"step": 4, "action": "確診", "details": "根據暴露史與心臟毒性表現確診", "findings": ["目擊蟾蜍接觸史", "典型口腔與心臟症狀", "沖洗口腔後流涎改善", "蟾蜍品種鑑定評估毒性程度"]}
+      ]
+    }
+  },
+  "pregnancy-toxemia": {
+    "diagnosticAlgorithm": {
+      "title": "妊娠毒血症 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估妊娠晚期母畜代謝狀態", "findings": ["妊娠晚期食慾廢絕", "嗜睡與虛弱", "可能伴有嘔吐", "多胎妊娠或肥胖犬貓"]},
+        {"step": 2, "action": "代謝評估", "details": "血液生化與酮體檢測", "findings": ["低血糖", "酮血症與酮尿", "代謝性酸中毒", "肝酶升高"]},
+        {"step": 3, "action": "影像學檢查", "details": "評估胎兒狀態與數量", "findings": ["腹部超音波確認胎兒心跳", "胎兒數量評估", "評估是否需要緊急剖腹產"]},
+        {"step": 4, "action": "確診", "details": "根據妊娠史與代謝異常確診", "findings": ["妊娠晚期+低血糖+酮症確診", "排除糖尿病", "評估母畜預後與分娩計畫"]}
+      ]
+    }
+  },
+  "renal-tubular-acidosis": {
+    "diagnosticAlgorithm": {
+      "title": "腎小管酸中毒 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估代謝性酸中毒的臨床表現", "findings": ["慢性嘔吐與食慾下降", "多飲多尿", "生長遲緩（幼年動物）", "肌肉無力"]},
+        {"step": 2, "action": "血液檢查", "details": "血氣分析與電解質評估", "findings": ["高氯性代謝性酸中毒", "血清碳酸氫鹽降低", "陰離子間隙正常", "低鉀血症"]},
+        {"step": 3, "action": "尿液分析", "details": "評估腎小管酸化功能", "findings": ["尿液pH不當偏鹼（>5.5）", "尿液陰離子間隙陽性", "尿液電解質異常", "可能出現糖尿或胺基酸尿"]},
+        {"step": 4, "action": "確診與分型", "details": "區分RTA類型並尋找潛在病因", "findings": ["Type I（遠端）：NH4Cl負荷試驗異常", "Type II（近端）：碳酸氫鹽排泄分數升高", "排除藥物或毒物引起", "影像學排除腎結石"]}
+      ]
+    }
+  },
+  "mesenteric-volvulus": {
+    "diagnosticAlgorithm": {
+      "title": "腸繫膜扭轉 診斷流程",
+      "steps": [
+        {"step": 1, "action": "緊急評估", "details": "辨識急腹症與休克表現", "findings": ["急性劇烈腹痛", "血性嘔吐或腹瀉", "迅速進展的休克", "腹部膨脹"]},
+        {"step": 2, "action": "理學檢查與復甦", "details": "快速評估並同時進行休克復甦", "findings": ["嚴重低血壓與心搏過速", "腹部觸診劇痛", "黏膜蒼白或發紺", "體溫過低"]},
+        {"step": 3, "action": "影像學檢查", "details": "腹部X光與超音波急診評估", "findings": ["腸管廣泛擴張", "腸壁增厚或氣腫", "腹腔游離液（血性）", "超音波顯示腸繫膜血管異常"]},
+        {"step": 4, "action": "確診與手術", "details": "緊急剖腹探查確診並治療", "findings": ["手術中確認腸繫膜扭轉", "評估腸管存活力", "大範圍腸壞死預後極差", "乳酸值與預後相關"]}
+      ]
+    }
+  },
+  "otitis-externa-acute": {
+    "diagnosticAlgorithm": {
+      "title": "急性外耳炎 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估耳部症狀與既往史", "findings": ["甩頭與搔抓耳部", "耳道分泌物增多", "耳部疼痛與紅腫", "耳廓內側紅斑"]},
+        {"step": 2, "action": "耳鏡檢查", "details": "使用耳鏡評估耳道與鼓膜", "findings": ["耳道紅腫與狹窄", "分泌物性質（蠟狀/膿性/褐色）", "鼓膜完整性評估", "耳道異物或腫塊排除"]},
+        {"step": 3, "action": "耳分泌物細胞學", "details": "耳拭子採樣做細胞學檢查", "findings": ["球菌或桿菌感染", "馬拉色菌（酵母菌）增生", "嗜中性球與炎症細胞", "耳蟎蟲體或蟲卵"]},
+        {"step": 4, "action": "確診與病因分析", "details": "確認感染類型並追究潛在病因", "findings": ["確認細菌/酵母菌/寄生蟲感染類型", "評估過敏性疾病作為主要病因", "評估耳道構造異常（垂耳犬種）", "必要時進行細菌培養與藥敏試驗"]}
+      ]
+    }
+  },
+  "transitional-cell-carcinoma": {
+    "diagnosticAlgorithm": {
+      "title": "移行上皮細胞癌 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估泌尿道症狀與品種傾向", "findings": ["慢性血尿", "頻尿與排尿困難", "反覆泌尿道感染治療無效", "好發於蘇格蘭梗犬"]},
+        {"step": 2, "action": "影像學檢查", "details": "腹部超音波評估膀胱", "findings": ["膀胱三角區腫塊", "不規則軟組織團塊", "可能侵犯尿道", "區域淋巴結腫大"]},
+        {"step": 3, "action": "尿液與組織學檢查", "details": "尿液細胞學與組織取樣", "findings": ["尿液沉渣見異型上皮細胞", "BRAF突變檢測（犬特異性）", "經導管或膀胱鏡活檢", "避免經腹穿刺（腫瘤播散風險）"]},
+        {"step": 4, "action": "確診與分期", "details": "組織病理學確診並進行臨床分期", "findings": ["組織病理確認移行上皮細胞癌", "胸腔X光排除肺轉移", "腹部CT評估局部侵犯範圍", "TNM分期指導治療計畫"]}
+      ]
+    }
+  },
+  "nasal-aspergillosis": {
+    "diagnosticAlgorithm": {
+      "title": "鼻腔麴菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估慢性鼻部症狀，注意中大型犬長頭種", "findings": ["慢性單側膿性或血性鼻分泌物", "鼻鏡去色素化與潰瘍", "打噴嚏與鼻部不適", "對抗生素治療無反應"]},
+        {"step": 2, "action": "影像學檢查", "details": "CT或X光評估鼻腔結構", "findings": ["鼻甲介骨溶解破壞", "鼻腔內不透明密度增加", "篩板完整性評估", "額竇可能受累"]},
+        {"step": 3, "action": "鼻腔鏡檢查", "details": "直接可視化鼻腔內部", "findings": ["可見白色或綠色真菌菌落", "鼻甲介骨破壞與壞死", "採集組織活檢與培養樣本"]},
+        {"step": 4, "action": "確診", "details": "綜合影像學、鏡檢與實驗室檢查確診", "findings": ["真菌培養陽性（Aspergillus fumigatus）", "Aspergillus血清學抗體陽性", "組織病理見真菌菌絲", "鼻腔鏡直接可見菌落"]}
+      ]
+    }
+  },
+  "cryptococcosis": {
+    "diagnosticAlgorithm": {
+      "title": "隱球菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估鼻腔、CNS或皮膚症狀，貓較犬常見", "findings": ["慢性鼻分泌物與鼻樑腫脹", "皮膚結節或潰瘍", "神經症狀（CNS型）", "眼部病變（脈絡膜視網膜炎）"]},
+        {"step": 2, "action": "細胞學檢查", "details": "病灶細針抽吸或分泌物細胞學", "findings": ["墨汁染色見大莢膜酵母菌", "細針抽吸見特徵性厚莢膜酵母菌體", "周圍炎症反應通常輕微"]},
+        {"step": 3, "action": "血清學檢測", "details": "隱球菌莢膜抗原檢測", "findings": ["乳膠凝集試驗（LCAT）陽性", "抗原效價與疾病嚴重度相關", "可用於監測治療反應"]},
+        {"step": 4, "action": "確診與範圍評估", "details": "確認感染範圍並進行分期", "findings": ["真菌培養確認Cryptococcus neoformans/gattii", "CNS評估（MRI或CSF分析）", "胸腔X光排除肺部感染", "FeLV/FIV檢測評估免疫狀態"]}
+      ]
+    }
+  },
+  "blastomycosis": {
+    "diagnosticAlgorithm": {
+      "title": "芽生黴菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估呼吸道與全身症狀，注意地理分布（北美水域附近）", "findings": ["慢性咳嗽與呼吸困難", "發熱與體重減輕", "皮膚結節或排膿性病灶", "眼部病變（葡萄膜炎）"]},
+        {"step": 2, "action": "影像學檢查", "details": "胸腔X光評估肺部病變", "findings": ["肺部結節性或瀰漫性間質浸潤", "肺門淋巴結腫大", "胸腔積液（部分病例）"]},
+        {"step": 3, "action": "細胞學與組織學", "details": "病灶採樣進行細胞學診斷", "findings": ["細胞學見大型厚壁廣基出芽酵母菌", "肉芽腫性炎症反應", "BAL或淋巴結FNA採樣"]},
+        {"step": 4, "action": "確診", "details": "綜合微生物學與血清學確診", "findings": ["Blastomyces抗原尿液檢測陽性", "真菌培養（需BSL-3實驗室）", "組織病理學見特徵性酵母菌體", "血清學抗體檢測輔助診斷"]}
+      ]
+    }
+  },
+  "histoplasmosis": {
+    "diagnosticAlgorithm": {
+      "title": "組織漿菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估呼吸道與GI症狀，注意地理分布（河流流域）", "findings": ["慢性咳嗽與呼吸困難", "慢性腹瀉與體重減輕（GI型常見於犬）", "發熱與嗜睡", "肝脾腫大"]},
+        {"step": 2, "action": "基本檢查", "details": "CBC、生化與影像學檢查", "findings": ["非再生性貧血", "血小板減少", "肝酶升高", "胸腔X光見瀰漫性間質浸潤"]},
+        {"step": 3, "action": "細胞學檢查", "details": "病灶或血液細胞學診斷", "findings": ["單核球/巨噬細胞內見小型酵母菌體（2-4μm）", "直腸刮片或淋巴結FNA", "肺灌洗液細胞學", "骨髓塗片可能見菌體"]},
+        {"step": 4, "action": "確診", "details": "綜合微生物學與抗原檢測確診", "findings": ["Histoplasma抗原尿液/血清檢測", "真菌培養（需2-4週）", "組織病理見肉芽腫性炎症與菌體", "PCR檢測輔助確認"]}
+      ]
+    }
+  },
+  "coccidioidomycosis": {
+    "diagnosticAlgorithm": {
+      "title": "球孢子菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估呼吸道與骨骼症狀，注意地理分布（美國西南部乾旱區）", "findings": ["慢性咳嗽", "跛行與骨骼疼痛", "發熱與體重減輕", "皮膚排膿性病灶"]},
+        {"step": 2, "action": "影像學檢查", "details": "胸腔與骨骼X光評估", "findings": ["肺部結節或肺門淋巴結腫大", "骨骼溶解性病灶", "骨膜增生反應", "關節腫脹"]},
+        {"step": 3, "action": "血清學檢測", "details": "Coccidioides抗體與抗原檢測", "findings": ["AGID或ELISA抗體陽性", "抗體效價與預後相關", "高效價提示播散性感染"]},
+        {"step": 4, "action": "確診", "details": "細胞學或組織學確認", "findings": ["組織中見大型球形體（spherule）含內生孢子", "細胞學或活檢確認", "真菌培養（高度危險，需BSL-3）", "PCR輔助鑑定"]}
+      ]
+    }
+  },
+  "sporotrichosis": {
+    "diagnosticAlgorithm": {
+      "title": "孢子絲菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估皮膚病灶與暴露史，注意人畜共通風險（特別是貓）", "findings": ["皮膚結節性潰瘍", "沿淋巴管分布的結節", "好發於四肢與頭部", "貓的病灶含大量菌體"]},
+        {"step": 2, "action": "細胞學檢查", "details": "病灶細針抽吸或分泌物細胞學", "findings": ["貓：大量酵母菌體易於發現", "犬：菌體數量少，較難發現", "肉芽腫性至化膿性炎症", "雪茄形酵母菌體"]},
+        {"step": 3, "action": "真菌培養", "details": "病灶採樣進行真菌培養", "findings": ["Sporothrix schenckii培養確認", "25°C絲狀型與37°C酵母型雙型性", "培養需1-4週"]},
+        {"step": 4, "action": "確診與公衛評估", "details": "確認診斷並評估人畜共通風險", "findings": ["培養確診為金標準", "組織病理見肉芽腫性皮膚炎", "告知飼主人畜共通傳播風險", "貓抓傷或咬傷為主要傳播途徑"]}
+      ]
+    }
+  },
+  "pythiosis": {
+    "diagnosticAlgorithm": {
+      "title": "卵菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估GI或皮膚症狀，注意溫暖潮濕地區水域暴露史", "findings": ["慢性嘔吐與腹瀉（GI型）", "皮膚非癒合性肉芽腫（皮膚型）", "體重減輕", "腹部可觸及腫塊"]},
+        {"step": 2, "action": "影像學檢查", "details": "腹部超音波與影像評估", "findings": ["腸壁局部增厚或腫塊", "區域淋巴結腫大", "可能有腸梗阻表現"]},
+        {"step": 3, "action": "組織學檢查", "details": "手術或內視鏡活檢取樣", "findings": ["肉芽腫性至化膿性炎症", "GMS或PAS染色見寬大、少隔膜菌絲", "嗜酸性肉芽腫反應"]},
+        {"step": 4, "action": "確診", "details": "特異性檢測確認Pythium insidiosum", "findings": ["Pythium特異性血清學ELISA", "PCR檢測確認", "培養鑑定（需特殊培養基）", "與真菌性肉芽腫鑑別"]}
+      ]
+    }
+  },
+  "dermatophytosis-systemic": {
+    "diagnosticAlgorithm": {
+      "title": "全身性皮膚黴菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估免疫狀態與廣泛性皮膚病灶", "findings": ["多發性皮下結節", "結節可能排膿", "免疫抑制背景", "常規抗黴菌治療無效"]},
+        {"step": 2, "action": "皮膚學檢查", "details": "病灶採樣與細胞學檢查", "findings": ["細針抽吸見肉芽腫性炎症", "可能見真菌結構", "Wood's燈檢查（部分Microsporum canis螢光）"]},
+        {"step": 3, "action": "真菌培養與組織學", "details": "組織活檢與真菌培養確認", "findings": ["真菌培養鑑定皮黴菌種", "組織病理見假黴菌瘤（pseudomycetoma）", "PAS/GMS染色見真菌菌絲與孢子", "深部組織侵犯"]},
+        {"step": 4, "action": "確診與免疫評估", "details": "確認全身性感染並評估免疫狀態", "findings": ["免疫功能評估", "排除FeLV/FIV（貓）", "影像學排除內臟播散", "波斯貓品種傾向"]}
+      ]
+    }
+  },
+  "nocardiosis": {
+    "diagnosticAlgorithm": {
+      "title": "諾卡菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估化膿性病灶與免疫狀態", "findings": ["皮膚排膿性傷口或竇道", "胸腔積液或肺炎", "發熱與嗜睡", "免疫抑制動物好發"]},
+        {"step": 2, "action": "細胞學與染色", "details": "病灶分泌物或積液細胞學檢查", "findings": ["改良Ziehl-Neelsen染色見部分抗酸性分枝桿菌樣菌體", "化膿性至肉芽腫性炎症", "可見硫磺顆粒（sulfur granules）"]},
+        {"step": 3, "action": "影像學檢查", "details": "胸腔與腹腔影像評估", "findings": ["胸腔X光見結節性浸潤或積液", "腹部超音波排除腹腔播散", "可能有骨骼病灶"]},
+        {"step": 4, "action": "確診", "details": "細菌培養與分子鑑定", "findings": ["需氧培養見Nocardia菌落", "培養需2-7天以上", "分子鑑定確認菌種", "藥敏試驗指導治療"]}
+      ]
+    }
+  },
+  "actinomycosis": {
+    "diagnosticAlgorithm": {
+      "title": "放線菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估慢性化膿性病灶，注意外傷或異物穿入史", "findings": ["慢性排膿性竇道", "頸面部腫脹（頸面型）", "胸腔或腹腔積液", "草芒異物穿入史"]},
+        {"step": 2, "action": "細胞學與分泌物檢查", "details": "分泌物直接檢查與細胞學", "findings": ["分泌物中見硫磺顆粒", "革蘭氏陽性分枝狀桿菌", "化膿性炎症反應", "可能合併其他厭氧菌"]},
+        {"step": 3, "action": "影像學檢查", "details": "評估感染範圍", "findings": ["X光見軟組織腫脹與骨溶解", "超音波評估膿腫範圍", "CT評估竇道走向與深度"]},
+        {"step": 4, "action": "確診", "details": "細菌培養確認（需厭氧培養）", "findings": ["厭氧培養見Actinomyces菌", "培養需7-14天", "組織病理見硫磺顆粒與菌絲", "尋找並移除異物來源"]}
+      ]
+    }
+  },
+  "rocky-mountain-spotted-fever": {
+    "diagnosticAlgorithm": {
+      "title": "落磯山斑點熱 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估壁蝨暴露史與急性全身症狀", "findings": ["急性高燒", "皮膚瘀斑與點狀出血", "關節疼痛與肌肉僵硬", "眼部充血與結膜出血"]},
+        {"step": 2, "action": "血液檢查", "details": "CBC與生化檢查", "findings": ["血小板減少", "白血球減少或正常", "低白蛋白血症", "低鈉血症"]},
+        {"step": 3, "action": "血清學檢測", "details": "Rickettsia rickettsii抗體檢測", "findings": ["急性期與恢復期配對血清IFA效價四倍升高", "單次高效價具參考意義", "PCR檢測壁蝨或血液樣本"]},
+        {"step": 4, "action": "確診與治療反應", "details": "綜合判斷並觀察多西環素治療反應", "findings": ["多西環素治療24-48小時退燒", "臨床症狀快速改善", "排除其他壁蝨傳播疾病", "治療反應支持推斷性診斷"]}
+      ]
+    }
+  },
+  "canine-papillomatosis": {
+    "diagnosticAlgorithm": {
+      "title": "犬乳突狀瘤病毒感染 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估口腔或皮膚增生性病灶，注意幼犬年齡", "findings": ["口腔內多發性花椰菜狀腫塊", "唇部與舌頭好發", "幼犬或免疫抑制犬", "通常無痛無癢"]},
+        {"step": 2, "action": "臨床檢查", "details": "詳細檢查病灶分布與形態", "findings": ["典型菜花狀或指狀突起", "表面粗糙灰白色", "單發或多發", "皮膚型呈圓形丘疹"]},
+        {"step": 3, "action": "組織學確認", "details": "必要時進行活檢", "findings": ["組織病理見表皮乳突狀增生", "角質化過度", "可見核內包涵體", "排除鱗狀細胞癌"]},
+        {"step": 4, "action": "確診", "details": "根據典型外觀與年齡確診", "findings": ["典型臨床外觀通常足以診斷", "免疫正常犬多於1-5個月內自行消退", "持續不消退或快速增大需活檢排除惡性"]}
+      ]
+    }
+  },
+  "feline-poxvirus": {
+    "diagnosticAlgorithm": {
+      "title": "貓痘病毒感染 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估皮膚病灶與獵捕小型齧齒類動物史", "findings": ["頭頸部或前肢單發性原發病灶", "續發全身性丘疹與結痂", "輕度發熱與嗜睡", "戶外貓或有獵捕行為"]},
+        {"step": 2, "action": "皮膚學檢查", "details": "病灶細胞學與形態學評估", "findings": ["典型痘瘡樣病灶（臍窩狀凹陷）", "細胞學見大型嗜酸性胞漿包涵體", "表皮壞死與結痂"]},
+        {"step": 3, "action": "實驗室確認", "details": "病毒學檢測確認", "findings": ["病灶組織PCR檢測痘病毒DNA", "電子顯微鏡見典型正痘病毒粒子", "病毒分離培養"]},
+        {"step": 4, "action": "確診與公衛評估", "details": "確認診斷並評估人畜共通風險", "findings": ["PCR或培養確診", "組織病理見特徵性包涵體", "評估免疫抑制（FeLV/FIV）", "告知飼主人畜共通傳播風險"]}
+      ]
+    }
+  },
+  "tetanus": {
+    "diagnosticAlgorithm": {
+      "title": "破傷風 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估肌肉僵硬與近期傷口史", "findings": ["全身肌肉僵硬與痙攣", "鎖頜（張口困難）", "耳朵豎立與瞬膜脫出", "步態僵硬（木馬樣）"]},
+        {"step": 2, "action": "神經學檢查", "details": "評估肌張力異常與反射", "findings": ["四肢伸直僵硬", "角弓反張", "對聲光觸覺刺激過度反應", "尾巴僵直"]},
+        {"step": 3, "action": "尋找感染源", "details": "檢查可能的傷口或手術部位", "findings": ["穿刺傷口或深部傷口", "近期手術或去勢傷口", "異物或壞死組織", "傷口可能已表面癒合"]},
+        {"step": 4, "action": "確診", "details": "主要依靠臨床表現診斷", "findings": ["典型臨床表現即可確診", "傷口厭氧培養可能分離C. tetani", "排除士的寧中毒", "犬較貓易感（貓相對抵抗）"]}
+      ]
+    }
+  },
+  "botulism": {
+    "diagnosticAlgorithm": {
+      "title": "肉毒桿菌中毒 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估急性弛緩性麻痺與食物暴露史", "findings": ["急性對稱性下運動神經元麻痺", "從後肢開始上行性癱瘓", "吞嚥困難與發聲困難", "腐敗食物或動物屍體攝食史"]},
+        {"step": 2, "action": "神經學檢查", "details": "詳細神經學評估", "findings": ["四肢弛緩性癱瘓", "脊髓反射減弱或消失", "顱神經功能異常（面部肌肉無力）", "感覺功能保留"]},
+        {"step": 3, "action": "排除性診斷", "details": "排除其他神經肌肉疾病", "findings": ["EMG可見傳導異常", "Tensilon試驗排除重症肌無力", "CSF分析通常正常", "排除壁蝨麻痺"]},
+        {"step": 4, "action": "確診", "details": "毒素檢測確認（耗時且不易取得）", "findings": ["血清或糞便肉毒桿菌毒素檢測", "小鼠生物測定法", "嫌疑食物來源分析", "臨床表現+暴露史推斷性診斷常用"]}
+      ]
+    }
+  },
+  "mycobacterial-infection": {
+    "diagnosticAlgorithm": {
+      "title": "分枝桿菌感染 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估慢性非癒合性病灶與全身症狀", "findings": ["慢性皮膚結節或潰瘍", "引流不止的竇道", "體重減輕與食慾下降", "淋巴結腫大"]},
+        {"step": 2, "action": "細胞學與染色", "details": "病灶細針抽吸與抗酸性染色", "findings": ["Ziehl-Neelsen抗酸性染色陽性桿菌", "肉芽腫性至化膿性炎症", "巨噬細胞內可見菌體"]},
+        {"step": 3, "action": "組織學檢查", "details": "活檢組織病理與特殊染色", "findings": ["肉芽腫性炎症伴壞死", "抗酸性桿菌數量不等", "快速生長型vs緩慢生長型表現不同"]},
+        {"step": 4, "action": "確診與分型", "details": "培養與分子鑑定確認菌種", "findings": ["分枝桿菌培養（需數週至數月）", "PCR鑑定菌種", "區分典型vs非典型分枝桿菌", "藥敏試驗指導長期抗菌治療"]}
+      ]
+    }
+  },
+  "protothecosis": {
+    "diagnosticAlgorithm": {
+      "title": "原藻菌病 診斷流程",
+      "steps": [
+        {"step": 1, "action": "初步評估", "details": "評估慢性腹瀉或眼部症狀，注意免疫狀態", "findings": ["慢性出血性腹瀉（犬常見）", "眼部病變（失明、葡萄膜炎）", "皮膚結節性病灶", "體重減輕"]},
+        {"step": 2, "action": "細胞學檢查", "details": "病灶或分泌物細胞學", "findings": ["見特徵性無色藻類菌體（內孢囊）", "大型球形菌體含內生孢子", "肉芽腫性炎症反應"]},
+        {"step": 3, "action": "組織學檢查", "details": "活檢組織病理學", "findings": ["PAS與GMS染色見Prototheca菌體", "肉芽腫性至化膿性肉芽腫性炎症", "直腸全層活檢（GI型）"]},
+        {"step": 4, "action": "確診", "details": "培養與分子鑑定", "findings": ["Prototheca培養（Sabouraud培養基）", "種別鑑定（P. zopfii vs P. wickerhamii）", "播散性感染預後極差", "評估全身播散範圍"]}
+      ]
+    }
+  }
+}
