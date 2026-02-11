@@ -1,0 +1,1587 @@
+{
+  "arrhythmogenic-rvc": {
+    "zh": "致心律不整性右心室心肌病",
+    "en": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)",
+    "definition": "一種以右心室心肌被脂肪或纖維脂肪組織取代為特徵的遺傳性心肌病，導致嚴重的心室心律不整。此病在 Boxer 和 English Bulldog 中有明顯的品種好發性，可導致猝死或進展為充血性心衰竭。",
+    "synonyms": ["Boxer 心肌病", "右心室心肌病", "致心律不整性右心室發育不良"],
+    "epidemiology": {
+      "species": "犬為主，貓罕見",
+      "breed": "Boxer 最常見，English Bulldog 亦有報告；其他品種偶見",
+      "age": "成年至老年犬（通常 5-10 歲），但年輕犬也可能猝死",
+      "sex": "無明顯性別好發性",
+      "prevalence": "Boxer 犬中估計發病率約 20-40%，為該品種最常見的心臟疾病之一"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "發作性暈厥（syncope）",
+        "運動不耐（exercise intolerance）",
+        "突然猝死（sudden cardiac death）",
+        "呼吸困難（dyspnea）",
+        "咳嗽",
+        "腹水（ascites）",
+        "虛弱無力（weakness）",
+        "心律不整相關之昏倒",
+        "食慾下降",
+        "體重減輕"
+      ],
+      "physicalExam": [
+        "心律不整，常可聽到心室早期收縮（VPCs）",
+        "心音減弱或有奔馬律（gallop rhythm）",
+        "股動脈脈搏缺損（pulse deficits）",
+        "頸靜脈怒張（jugular distension）",
+        "腹部波動感（腹水時）",
+        "黏膜蒼白或發紺"
+      ]
+    },
+    "pathophysiology": "右心室心肌細胞進行性被脂肪和纖維組織取代，導致右心室壁變薄及功能障礙。此結構異常形成折返迴路（reentrant circuits），產生心室性心律不整（尤其是來自右心室的 VPCs 和心室頻脈 VT）。嚴重病例可進展為雙心室衰竭。遺傳學上與 desmosomal 蛋白基因突變（如 striatin 基因）相關。",
+    "diagnosis": {
+      "primary": [
+        "24 小時 Holter 心電圖監測（>100 VPCs/24hr 高度懷疑，>1000 VPCs 確診性高）",
+        "標準心電圖（ECG）：右心室來源的寬 QRS 波 VPCs",
+        "心臟超音波（echocardiography）：右心室擴張、壁運動異常",
+        "胸腔 X 光：右心擴大、肺部充血徵象"
+      ],
+      "differential": [
+        "擴張型心肌病（dilated cardiomyopathy, DCM）",
+        "心包積液（pericardial effusion）",
+        "肺動脈瓣狹窄（pulmonic stenosis）",
+        "心臟血管瘤（hemangiosarcoma）",
+        "心肌炎（myocarditis）",
+        "甲狀腺功能低下導致的心臟變化"
+      ],
+      "labFindings": [
+        "心肌肌鈣蛋白 I（cTnI）可能升高",
+        "BNP/NT-proBNP 可能升高",
+        "一般血液學和生化多正常",
+        "基因檢測（striatin 基因突變）可用於 Boxer"
+      ]
+    },
+    "treatment": {
+      "acute": "心室頻脈時靜脈給予 Lidocaine（2 mg/kg IV bolus，隨後 CRI 40-80 μg/kg/min）；必要時電除顫；穩定血流動力學",
+      "chronic": "口服 Sotalol（1.5-3.5 mg/kg PO BID）或 Mexiletine（5-8 mg/kg PO TID）；充血性心衰竭時加用 Furosemide、Pimobendan、ACE 抑制劑",
+      "medications": [
+        "Sotalol（1.5-3.5 mg/kg PO BID）",
+        "Mexiletine（5-8 mg/kg PO TID）",
+        "Lidocaine（急性：2 mg/kg IV bolus + CRI）",
+        "Pimobendan（0.25-0.3 mg/kg PO BID，心衰竭時）",
+        "Furosemide（1-4 mg/kg PO/IV，心衰竭時）"
+      ],
+      "surgery": "無常規手術治療；植入式心臟除顫器（ICD）在獸醫領域仍屬實驗性"
+    },
+    "prognosis": "依嚴重程度不同，預後差異大。無症狀犬（隱匿期）可維持數年正常生活。有暈厥或心衰竭症狀者預後較差，中位存活時間約 12-24 個月。猝死風險始終存在，即使在治療中。",
+    "pearls": [
+      "Boxer 若出現不明原因暈厥，應首先排除 ARVC，建議進行 Holter 監測",
+      "單次 ECG 可能正常，24 小時 Holter 是偵測間歇性心律不整的金標準",
+      "ARVC 有三種表型：隱匿型、心律不整型、心肌衰竭型，可依序進展",
+      "Sotalol 和 Mexiletine 合用可能比單藥治療更有效控制心室心律不整"
+    ],
+    "monitoring": [
+      "每 3-6 個月重複 Holter 監測評估 VPC 負荷量",
+      "心臟超音波追蹤右心室大小及功能變化",
+      "監測臨床症狀（暈厥頻率、運動耐受度）",
+      "藥物劑量調整時需重新評估心電圖"
+    ],
+    "reference": "Manual of Canine and Feline Cardiology, 5th Edition"
+  },
+  "cardiac-tamponade": {
+    "zh": "心包填塞",
+    "en": "Cardiac Tamponade",
+    "definition": "由於心包腔內液體快速或大量積聚，導致心包內壓力升高並壓迫心室，妨礙心室充盈及心輸出量的危及生命的緊急狀況。在犬貓中最常見的原因包括心臟血管瘤（hemangiosarcoma）、特發性心包積液及心臟基部腫瘤。",
+    "synonyms": ["心臟壓塞", "心包壓塞", "Pericardial tamponade"],
+    "epidemiology": {
+      "species": "犬較常見，貓少見",
+      "breed": "大型犬好發，尤其 Golden Retriever、German Shepherd（與心臟血管瘤相關）；中大型犬品種（特發性心包積液）",
+      "age": "中老年犬（7 歲以上），腫瘤相關者多見於老年犬",
+      "sex": "雄性犬稍有好發傾向",
+      "prevalence": "犬心包疾病中最常見的臨床表現；心臟血管瘤佔犬心包積液原因的 40-60%"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "急性虛脫或昏厥",
+        "運動不耐",
+        "呼吸困難或呼吸急促",
+        "腹部膨大（腹水）",
+        "食慾下降",
+        "嗜睡無力",
+        "嘔吐",
+        "體重減輕",
+        "突然倒下"
+      ],
+      "physicalExam": [
+        "心音減弱或消失（muffled heart sounds）",
+        "頸靜脈怒張（jugular venous distension）",
+        "Beck 三徵：低血壓、心音減弱、頸靜脈怒張",
+        "脈搏微弱、奇脈（pulsus paradoxus）",
+        "腹部波動感（腹水）",
+        "黏膜蒼白，CRT 延長"
+      ]
+    },
+    "pathophysiology": "心包腔內液體（血液、滲出液或漏出液）積聚使心包內壓升高。當心包內壓超過右心房和右心室舒張壓時，心室充盈受限（diastolic collapse），心輸出量下降。代償性交感神經活化導致心跳加速和全身血管收縮，但隨著壓力持續升高，代償機制衰竭，最終導致心因性休克和死亡。急性積液（如血管瘤破裂出血）比慢性積液更快達到致命壓力。",
+    "diagnosis": {
+      "primary": [
+        "心臟超音波（echocardiography）：確認心包積液及右心房/心室舒張期塌陷",
+        "胸腔 X 光：典型球形心影（globoid cardiac silhouette）",
+        "心電圖（ECG）：低電壓 QRS 波群、電交替現象（electrical alternans）",
+        "心包穿刺術（pericardiocentesis）：診斷兼治療，液體送細胞學及培養"
+      ],
+      "differential": [
+        "擴張型心肌病（DCM）",
+        "充血性心衰竭（CHF）",
+        "胸腔積液",
+        "右心衰竭其他原因",
+        "腹膜炎導致的腹水",
+        "限制性心包炎（constrictive pericarditis）"
+      ],
+      "labFindings": [
+        "心包液細胞學：血性液體最常見；腫瘤細胞（血管瘤除外，因其脫落細胞率低）",
+        "PCV 對比：心包液 PCV 通常低於周邊血液 PCV（非急性出血時）",
+        "血液學：可能輕度貧血（慢性失血或血管瘤相關）",
+        "生化：通常無特異性變化；肝酶可能因鬱血性肝病變升高",
+        "cTnI 可能升高"
+      ]
+    },
+    "treatment": {
+      "acute": "緊急心包穿刺術（pericardiocentesis）：超音波引導下從右側第 4-6 肋間進入心包腔抽液，通常抽出 50-500 mL 血性液體後症狀迅速改善；同時靜脈輸液支持血壓",
+      "chronic": "反覆發作者考慮心包切除術（pericardiectomy）；若為腫瘤引起，針對原發腫瘤治療；特發性心包積液在 2-3 次穿刺後仍復發者建議手術",
+      "medications": [
+        "靜脈輸液（等張晶體液）穩定血壓",
+        "Atropine（若出現心搏過緩）",
+        "止痛藥（Butorphanol 0.2-0.4 mg/kg）",
+        "Doxorubicin（血管瘤化療方案：30 mg/m² IV q3w）",
+        "利尿劑在填塞時禁忌（會進一步降低前負荷）"
+      ],
+      "surgery": "心包切除術（subtotal pericardiectomy）：經胸骨正中切開或胸腔鏡輔助；心包窗口術（pericardial window）為姑息選項；心臟基部腫瘤或右心耳腫瘤可考慮腫瘤切除"
+    },
+    "prognosis": "取決於病因。特發性心包積液預後良好（心包切除術後多數長期緩解）。心臟血管瘤預後差（中位存活時間 1-4 個月，化療可延長至 4-6 個月）。心臟基部腫瘤（chemodectoma）進展較慢，預後較血管瘤好。",
+    "pearls": [
+      "心包穿刺是診斷兼治療的首要步驟，大多數犬在抽液後數分鐘內血壓和臨床狀況明顯改善",
+      "利尿劑在心包填塞中是禁忌的，因為會降低已經不足的前負荷",
+      "心包液若為血性但不凝固，通常為慢性積液；若迅速凝固則提示急性出血",
+      "Golden Retriever 老年犬出現心包積液，應高度懷疑右心房血管瘤"
+    ],
+    "monitoring": [
+      "穿刺後 12-24 小時內重複超音波確認是否再積液",
+      "監測心率、血壓、黏膜顏色及呼吸型態",
+      "定期超音波追蹤（每 2-4 週），尤其腫瘤相關者",
+      "血液學追蹤（PCV/TS），監測是否持續失血"
+    ],
+    "reference": "Manual of Canine and Feline Cardiology, 5th Edition"
+  },
+  "cor-pulmonale": {
+    "zh": "肺心症",
+    "en": "Cor Pulmonale",
+    "definition": "因肺部疾病或肺血管病變導致肺動脈高壓，進而引起右心室肥大、擴張和功能障礙的病理狀態。在犬貓中常繼發於慢性呼吸道疾病、心絲蟲感染、肺血栓栓塞症或原發性肺動脈高壓。",
+    "synonyms": ["肺源性心臟病", "右心衰竭（繼發於肺病）", "Pulmonary heart disease"],
+    "epidemiology": {
+      "species": "犬貓均可發生，犬較多報告",
+      "breed": "與基礎肺部疾病相關；West Highland White Terrier（肺纖維化）；心絲蟲流行區域的各品種犬",
+      "age": "中老年動物居多，取決於基礎病因",
+      "sex": "無明顯性別好發性",
+      "prevalence": "確切發病率不明，但隨著心臟超音波使用普及，診斷率逐漸增加；心絲蟲流行區較常見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "呼吸困難（dyspnea）或呼吸急促（tachypnea）",
+        "運動不耐",
+        "咳嗽（常為慢性）",
+        "暈厥（syncope），尤其運動或興奮時",
+        "腹水（ascites）",
+        "發紺（cyanosis）",
+        "嗜睡與虛弱",
+        "體重減輕",
+        "食慾下降"
+      ],
+      "physicalExam": [
+        "右心雜音（三尖瓣逆流雜音）或肺動脈瓣區雜音",
+        "第二心音分裂或增強（S2 splitting）",
+        "頸靜脈怒張或搏動",
+        "腹部膨大（腹水、肝腫大）",
+        "肺部異常聽診音（爆裂音、哮鳴音，取決於基礎肺病）",
+        "黏膜發紺"
+      ]
+    },
+    "pathophysiology": "慢性肺部疾病（如纖維化、慢性支氣管炎）或肺血管病變（如心絲蟲、肺血栓）導致肺血管阻力增加和肺動脈壓升高。右心室必須產生更高的壓力來克服增加的後負荷，導致右心室向心性肥大。隨病程進展，右心室失代償、擴張，三尖瓣環擴大導致三尖瓣逆流，最終發展為右心衰竭伴全身靜脈鬱血（腹水、肝鬱血、外周水腫）。低氧血症可進一步加重肺血管收縮，形成惡性循環。",
+    "diagnosis": {
+      "primary": [
+        "心臟超音波（echocardiography）：右心室肥大/擴張、三尖瓣逆流流速增加（>2.8 m/s 提示肺高壓）、心室中隔扁平化",
+        "胸腔 X 光：右心擴大、肺動脈主幹擴張、基礎肺部病變",
+        "心電圖（ECG）：右軸偏移、P 波增高（P pulmonale）、右心室肥大型態",
+        "動脈血氣分析：低氧血症、可能高碳酸血症"
+      ],
+      "differential": [
+        "原發性三尖瓣退行性病變",
+        "擴張型心肌病（DCM）",
+        "先天性心臟病（如心房中隔缺損、肺動脈瓣狹窄）",
+        "限制性心包炎",
+        "心臟腫瘤導致的右心衰竭",
+        "全身性高血壓"
+      ],
+      "labFindings": [
+        "動脈血氣：PaO2 降低，PaCO2 可能升高",
+        "心絲蟲抗原/抗體檢測（排除心絲蟲病）",
+        "NT-proBNP 升高",
+        "CBC：紅血球增多症（polycythemia，對慢性低氧的代償反應）",
+        "肝功能指標可能因鬱血性肝病變而升高"
+      ]
+    },
+    "treatment": {
+      "acute": "氧氣治療穩定低氧血症；利尿劑（Furosemide 1-2 mg/kg IV）緩解鬱血；腹水嚴重時考慮治療性腹腔穿刺；積極治療基礎肺部疾病",
+      "chronic": "針對基礎病因治療（心絲蟲驅蟲、支氣管擴張劑等）；肺動脈高壓標靶治療（Sildenafil）；右心衰竭管理（利尿劑、ACE 抑制劑）；限制鈉攝入",
+      "medications": [
+        "Sildenafil（1-2 mg/kg PO BID-TID，肺動脈高壓標靶治療）",
+        "Furosemide（1-4 mg/kg PO BID-TID）",
+        "Pimobendan（0.25-0.3 mg/kg PO BID）",
+        "Theophylline（10 mg/kg PO BID，支氣管擴張）",
+        "Enalapril（0.5 mg/kg PO BID）"
+      ],
+      "surgery": "一般無手術治療選項；嚴重心絲蟲感染可考慮外科取蟲（caval syndrome）"
+    },
+    "prognosis": "預後取決於基礎病因及肺動脈高壓的嚴重程度。可逆性肺部病變（如心絲蟲治療成功後）預後較好。不可逆性肺纖維化或嚴重肺動脈高壓者預後差，中位存活時間數月至 1-2 年。一旦出現右心衰竭和腹水，預後明顯惡化。",
+    "pearls": [
+      "慢性咳嗽的犬若出現腹水，應考慮肺心症而非僅治療呼吸道疾病",
+      "三尖瓣逆流流速 >2.8 m/s 是超音波估計肺動脈高壓的重要指標",
+      "Sildenafil 是目前獸醫領域最常用的肺動脈高壓標靶治療藥物",
+      "心絲蟲流行區的犬出現右心衰竭徵象，必須進行心絲蟲篩檢"
+    ],
+    "monitoring": [
+      "每 2-3 個月心臟超音波追蹤右心大小及肺動脈壓估計值",
+      "呼吸頻率和努力程度的居家監測",
+      "定期血氣分析評估氧合狀態",
+      "腎功能和電解質監測（使用利尿劑時）"
+    ],
+    "reference": "Manual of Canine and Feline Cardiology, 5th Edition"
+  },
+  "endocardiosis": {
+    "zh": "心內膜病/退行性瓣膜病",
+    "en": "Endocardiosis (Myxomatous Mitral Valve Disease, MMVD)",
+    "definition": "犬最常見的後天性心臟病，以二尖瓣（最常見）和/或三尖瓣的黏液樣退行性變為特徵，導致瓣膜增厚、脫垂和逆流。此病佔犬充血性心衰竭病因的 75% 以上，尤其好發於小型犬種。",
+    "synonyms": ["黏液瘤樣二尖瓣疾病（MMVD）", "退行性二尖瓣病", "慢性瓣膜病", "心內膜症"],
+    "epidemiology": {
+      "species": "犬極為常見，貓非常罕見",
+      "breed": "小型犬種好發：Cavalier King Charles Spaniel（CKCS，發病最早最嚴重）、Dachshund、Poodle、Chihuahua、Maltese、Yorkshire Terrier",
+      "age": "中老年犬；CKCS 可早至 1-2 歲出現心雜音，其他小型犬通常 7-10 歲以上；隨年齡增長盛行率急劇上升",
+      "sex": "雄性犬好發率為雌性的 1.5 倍",
+      "prevalence": "極高，約 30% 的小型犬種在 10 歲以上有此病，CKCS 中幾乎 100% 終身會發展此病"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "咳嗽（尤其夜間或運動後，常為左主支氣管壓迫所致）",
+        "運動不耐",
+        "呼吸困難或呼吸急促",
+        "端坐呼吸（orthopnea）",
+        "不安、無法平躺",
+        "暈厥（嚴重心律不整時）",
+        "食慾下降",
+        "體重減輕和肌肉消耗",
+        "腹部膨大（右心衰竭時的腹水）",
+        "舌頭發紺（嚴重肺水腫時）"
+      ],
+      "physicalExam": [
+        "左心尖部收縮期雜音（systolic murmur），強度 I-VI/VI 級",
+        "雜音強度與疾病嚴重程度大致相關",
+        "心跳加速（tachycardia）",
+        "肺部爆裂音（crackles，肺水腫時）",
+        "股動脈搏動可能增強（hyperkinetic pulse）或有脈搏缺損",
+        "晚期可能聽到奔馬律（S3 gallop）"
+      ]
+    },
+    "pathophysiology": "瓣膜基質中的膠原纖維退化並被糖胺聚醣（glycosaminoglycans）和蛋白聚醣取代（黏液樣退化），導致瓣膜增厚、拉長和脫垂。腱索也可受累而拉長或斷裂。瓣膜無法完全關閉導致二尖瓣逆流（mitral regurgitation, MR），部分心搏量反流回左心房。左心房和左心室容積超負荷導致擴大重塑。代償機制（Frank-Starling 機制、神經體液活化）最終失代償，發展為充血性心衰竭（肺水腫）。RAAS 活化、交感神經活化和利鈉肽系統在疾病進展中扮演重要角色。",
+    "diagnosis": {
+      "primary": [
+        "心臟超音波（echocardiography）：瓣膜增厚/脫垂、MR 嚴重程度評估（彩色都卜勒）、左心房/左心室大小（LA:Ao ratio、LVIDdN）",
+        "胸腔 X 光：左心擴大（VHS 增加）、左主支氣管背移、肺靜脈擴張、肺水腫型態",
+        "聽診：典型左心尖部收縮期雜音",
+        "心電圖：竇性心律或心房顫動（晚期）、P 波增寬（P mitrale）"
+      ],
+      "differential": [
+        "擴張型心肌病（DCM）",
+        "感染性心內膜炎",
+        "先天性二尖瓣發育不良",
+        "心臟腫瘤",
+        "貧血導致的功能性雜音",
+        "慢性支氣管炎（咳嗽的鑑別）"
+      ],
+      "labFindings": [
+        "NT-proBNP 升高（與疾病嚴重程度相關）",
+        "cTnI 可能輕度升高",
+        "血液學和生化通常正常；晚期可見腎前性氮血症",
+        "胸腔液分析（若有胸腔積液）：改良型漏出液"
+      ]
+    },
+    "treatment": {
+      "acute": "肺水腫急性發作：Furosemide（2-4 mg/kg IV，每 1-2 小時重複直至呼吸改善）；氧氣治療；Pimobendan（0.25 mg/kg PO）；嚴重者可加用 Nitroprusside 或 Dobutamine",
+      "chronic": "依 ACVIM 共識分期治療：B1 期（無心臟擴大）- 定期監測；B2 期（心臟擴大未心衰）- Pimobendan + ACE 抑制劑；C 期（心衰竭）- Pimobendan + Furosemide + ACE 抑制劑 + Spironolactone；D 期（難治性心衰）- 增加利尿劑劑量、加用 Sildenafil、Digoxin",
+      "medications": [
+        "Pimobendan（0.25-0.3 mg/kg PO BID）— B2 期以上的基石治療",
+        "Furosemide（1-4 mg/kg PO BID-TID，依需要調整）",
+        "Enalapril 或 Benazepril（0.5 mg/kg PO BID）",
+        "Spironolactone（1-2 mg/kg PO SID-BID）",
+        "Digoxin（0.005-0.008 mg/kg PO BID，心房顫動時）"
+      ],
+      "surgery": "二尖瓣修復術（mitral valve repair, MVR）：在日本和部分歐美中心已有成功經驗，可達到治癒效果但需要專業的心臟外科團隊和體外循環設備"
+    },
+    "prognosis": "整體來看，從出現心雜音到心衰竭可經過數年。ACVIM B1 期犬可維持多年無症狀。B2 期平均約 1-2 年進展到 C 期。C 期犬以藥物治療的中位存活時間約 9-12 個月（但個體差異大）。EPIC 研究顯示 Pimobendan 可延長 B2 期犬進展至心衰竭的時間約 15 個月。",
+    "pearls": [
+      "EPIC 試驗證實 Pimobendan 在 B2 期（心臟擴大但無症狀）開始使用可顯著延長心衰竭前的時間",
+      "Cavalier King Charles Spaniel 應從 1 歲開始每年進行心臟篩檢",
+      "靜息呼吸頻率（sleeping respiratory rate, SRR）>30 次/分 是居家監測心衰竭惡化的敏感指標",
+      "腱索斷裂可導致急性惡化，從穩定期突然進入嚴重肺水腫"
+    ],
+    "monitoring": [
+      "居家靜息呼吸頻率監測（正常 <30 次/分）",
+      "每 6-12 個月心臟超音波評估進展（B1/B2 期）；心衰竭後每 3-6 個月",
+      "腎功能和電解質監測（使用利尿劑和 ACE 抑制劑時）",
+      "體重和食慾追蹤"
+    ],
+    "reference": "BSAVA Manual of Canine and Feline Cardiorespiratory Medicine, 2nd Edition"
+  },
+  "chronic-enteropathy": {
+    "zh": "慢性腸病",
+    "en": "Chronic Enteropathy (CE)",
+    "definition": "犬貓持續超過 3 週的慢性胃腸道症狀（嘔吐、腹瀉、體重減輕），在排除感染性、寄生蟲性、內分泌性及腫瘤性等已知原因後的統稱。包含食物反應性腸病（FRE）、抗生素反應性腸病（ARE）和免疫抑制劑反應性腸病（IRE/IBD）三個亞型。",
+    "synonyms": ["慢性腸炎", "炎症性腸病（IBD）", "蛋白質流失性腸病（嚴重時）"],
+    "epidemiology": {
+      "species": "犬貓均常見",
+      "breed": "German Shepherd（免疫抑制劑反應性腸病）、Basenji（免疫增生性腸病）、Soft-Coated Wheaten Terrier（蛋白質流失性腸病/腎病）、Yorkshire Terrier（蛋白質流失性腸病）、Shar Pei、French Bulldog",
+      "age": "中青年至中老年犬（2-8 歲最常見），但任何年齡均可發病",
+      "sex": "無明顯性別好發性",
+      "prevalence": "犬貓胃腸道疾病中最常見的慢性病因之一；FRE 佔慢性腸病的 50-60%"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "慢性間歇性或持續性嘔吐",
+        "慢性小腸型或大腸型腹瀉",
+        "體重減輕",
+        "食慾下降或亢進",
+        "腸鳴音增加（borborygmi）",
+        "排氣增多（flatulence）",
+        "腹痛或腹部不適",
+        "嗜睡與精神沉鬱",
+        "被毛粗糙、皮膚狀況不佳",
+        "水樣或黏液便",
+        "血便（hematochezia）或黑便（melena）"
+      ],
+      "physicalExam": [
+        "體態消瘦（body condition score 偏低）",
+        "腸道觸診可能增厚或有團塊感",
+        "腹部觸診可能有不適反應",
+        "嚴重蛋白質流失者可能出現腹水或皮下水腫",
+        "脫水徵象（皮膚帳篷試驗延遲、黏膜乾燥）",
+        "肛門周圍可能有糞便汙染"
+      ]
+    },
+    "pathophysiology": "慢性腸病的病理機制涉及腸道免疫系統失調、腸道微生物群落異常（dysbiosis）和腸道屏障功能障礙的交互作用。食物反應性腸病可能與食物抗原引起的免疫反應有關。免疫抑制劑反應性腸病涉及腸道黏膜固有層的淋巴細胞-漿細胞浸潤、嗜酸性球浸潤或肉芽腫性炎症，導致絨毛萎縮、隱窩增生和吸收不良。嚴重者蛋白質從腸壁大量流失（protein-losing enteropathy, PLE），導致低白蛋白血症和其併發症。",
+    "diagnosis": {
+      "primary": [
+        "排除性診斷：先排除寄生蟲、感染、內分泌及腫瘤性病因",
+        "食物排除試驗（elimination diet trial）：水解蛋白或新型蛋白飲食 2-4 週",
+        "腸道內視鏡活檢（endoscopic biopsy）+組織病理學：確診 IRE/IBD 的金標準",
+        "CCECAI 或 CIBDAI 臨床活性指數評分"
+      ],
+      "differential": [
+        "腸道淋巴瘤（lymphoma）— 最重要的鑑別診斷",
+        "腸道寄生蟲感染（梨形鞭毛蟲 Giardia 等）",
+        "胰臟外分泌功能不全（EPI）",
+        "慢性胰臟炎",
+        "甲狀腺功能亢進（貓）",
+        "腸套疊或部分腸道阻塞"
+      ],
+      "labFindings": [
+        "低白蛋白血症（PLE 時）及低球蛋白血症",
+        "低膽固醇血症",
+        "葉酸降低（近端小腸吸收不良）和/或 Cobalamin（B12）降低（遠端迴腸吸收不良）",
+        "糞便檢查排除寄生蟲",
+        "胰臟脂肪酶免疫反應性（fPLI/cPLI）排除胰臟炎"
+      ]
+    },
+    "treatment": {
+      "acute": "脫水或電解質失衡時靜脈輸液支持；嚴重低白蛋白（<1.5 g/dL）時膠體液或新鮮冷凍血漿輸注；止吐藥（Maropitant 1 mg/kg IV/SC SID）",
+      "chronic": "階梯式治療：第一步食物排除試驗（水解蛋白飲食）→ 第二步抗生素試驗（Metronidazole 或 Tylosin）→ 第三步免疫抑制治療（Prednisolone ± Chlorambucil/Azathioprine）；Cobalamin 補充（若缺乏）",
+      "medications": [
+        "Prednisolone（1-2 mg/kg PO BID 初始，逐步減量）",
+        "Chlorambucil（4-6 mg/m² PO q48h，淋巴細胞性 IBD 或 PLE）",
+        "Metronidazole（10-15 mg/kg PO BID）",
+        "Budesonide（3 mg/m² PO SID，局部作用腸道類固醇）",
+        "Cobalamin 注射（犬 250-1000 μg SC q1-2w）"
+      ],
+      "surgery": "通常不需手術；全厚度腸道活檢（若內視鏡活檢不足）可經腹腔鏡或剖腹探查取得"
+    },
+    "prognosis": "食物反應性腸病（FRE）預後最好，大多數犬在飲食調整後完全緩解。抗生素反應性腸病（ARE）預後良好但可能復發。免疫抑制劑反應性腸病（IRE）預後較差，需長期藥物控制。蛋白質流失性腸病（PLE）預後最差，尤其白蛋白 <2.0 g/dL 者。Yorkshire Terrier 的 PLE 預後特別差。",
+    "pearls": [
+      "慢性腸病中約 50-60% 為食物反應性，因此食物排除試驗應始終是第一步",
+      "低 Cobalamin（B12）是預後不良的獨立指標，且需補充才能改善治療反應",
+      "內視鏡活檢與腸道淋巴瘤的區分有時非常困難，必要時需免疫組織化學（clonality 分析）",
+      "CCECAI 評分 >9 分與預後不良和 PLE 風險增加相關"
+    ],
+    "monitoring": [
+      "體重和 BCS 每 2-4 週追蹤",
+      "白蛋白和 Cobalamin 濃度每 4-8 週監測（PLE 患者）",
+      "CCECAI/CIBDAI 臨床評分定期評估治療反應",
+      "免疫抑制劑使用時監測 CBC（骨髓抑制風險）"
+    ],
+    "reference": "Blackwell's Five-Minute Veterinary Consult, 6th Edition"
+  },
+  "bilious-vomiting-syndrome": {
+    "zh": "膽汁性嘔吐症候群",
+    "en": "Bilious Vomiting Syndrome",
+    "definition": "犬（偶見於貓）在空腹時間過長後出現的間歇性膽汁性嘔吐，通常發生在清晨或深夜。嘔吐物為黃色至綠色膽汁液，嘔吐後動物通常表現正常且食慾良好。被認為與十二指腸胃逆流和胃酸刺激空腹胃黏膜有關。",
+    "synonyms": ["反流性胃炎", "空腹嘔吐", "膽汁反流性嘔吐"],
+    "epidemiology": {
+      "species": "犬最常見，貓偶見",
+      "breed": "無明顯品種好發性，各品種均可發生",
+      "age": "任何年齡，中青年犬較常報告",
+      "sex": "無性別好發性",
+      "prevalence": "犬常見的嘔吐原因之一，確切盛行率不明，但臨床實踐中非常常見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "清晨或夜間空腹時嘔吐黃色/綠色膽汁",
+        "嘔吐物通常不含食物",
+        "嘔吐後食慾和精神正常",
+        "間歇性發作（非每天）",
+        "偶有輕微噁心感（舔嘴唇、流涎）",
+        "嘔吐前可能有腹部不適",
+        "餵食後症狀消失",
+        "整體健康狀況良好"
+      ],
+      "physicalExam": [
+        "體格檢查通常完全正常",
+        "體態和體重正常",
+        "腹部觸診無異常",
+        "脫水徵象缺乏",
+        "口腔可能有膽汁染色（剛嘔吐後）"
+      ]
+    },
+    "pathophysiology": "長時間空腹期間，十二指腸內容物（含膽汁和胰液）通過幽門反流至胃部。膽汁酸和胰液中的消化酶刺激胃黏膜，引起噁心和嘔吐反射。胃排空延遲和胃腸蠕動異常可能是促進因素。migrating motor complex (MMC) 的週期性活動在空腹狀態下將十二指腸內容物推向近端，也被認為參與此病理機制。",
+    "diagnosis": {
+      "primary": [
+        "臨床病史特徵（空腹時膽汁性嘔吐、嘔吐後正常）",
+        "排除性診斷：排除其他慢性嘔吐的原因",
+        "治療性診斷：調整餵食時間後症狀改善確認診斷",
+        "腹部超音波和 X 光排除結構性病變"
+      ],
+      "differential": [
+        "慢性胃炎",
+        "幽門功能障礙或狹窄",
+        "慢性胰臟炎",
+        "慢性腸病/IBD",
+        "腸道異物（部分阻塞）",
+        "Addison 氏病（腎上腺皮質功能低下）"
+      ],
+      "labFindings": [
+        "CBC 和血清生化通常正常",
+        "電解質正常（與 Addison 氏病鑑別）",
+        "cPLI/fPLI 正常（排除胰臟炎）",
+        "糞便檢查正常"
+      ]
+    },
+    "treatment": {
+      "acute": "通常不需急性治療；嚴重噁心時可給予 Maropitant（2 mg/kg PO SID）短期使用",
+      "chronic": "核心治療為調整餵食策略：在夜間或清晨（嘔吐常發時間前）提供少量食物；增加餵食次數至每日 3-4 餐；睡前提供小零食。藥物治療用於飲食調整效果不佳者",
+      "medications": [
+        "Omeprazole（1 mg/kg PO SID-BID，減少胃酸分泌）",
+        "Famotidine（0.5-1 mg/kg PO BID）",
+        "Metoclopramide（0.2-0.4 mg/kg PO TID，促進胃排空）",
+        "Maropitant（2 mg/kg PO SID，短期止吐）"
+      ],
+      "surgery": "不需要手術治療"
+    },
+    "prognosis": "預後極佳。大多數犬在調整餵食時間表（尤其是睡前加餐）後症狀完全緩解。部分犬需要長期維持少量多餐的餵食策略。藥物治療通常只需短期使用。",
+    "pearls": [
+      "睡前提供少量零食是最簡單有效的治療方法，常可完全解決問題",
+      "本病是排除性診斷——必須先排除其他慢性嘔吐原因",
+      "若調整餵食後仍持續嘔吐，應進一步檢查是否有潛在疾病",
+      "與飼主溝通時強調這不是嚴重疾病，通常飲食管理即可控制"
+    ],
+    "monitoring": [
+      "追蹤嘔吐頻率和嘔吐物性質",
+      "確認體重維持穩定",
+      "餵食策略調整後 1-2 週評估療效",
+      "若使用質子泵抑制劑（PPI），長期使用需注意潛在副作用"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats, 4th Edition"
+  },
+  "colorectal-neoplasia": {
+    "zh": "結直腸腫瘤",
+    "en": "Colorectal Neoplasia",
+    "definition": "發生於結腸和直腸的原發性腫瘤，犬中最常見的類型為腺瘤性息肉（adenomatous polyp）和腺癌（adenocarcinoma），貓則以淋巴瘤為主。直腸息肉在犬中相對常見且多為良性，但有惡性轉化的可能；腺癌則具侵襲性且預後較差。",
+    "synonyms": ["大腸腫瘤", "結腸癌", "直腸息肉", "直腸腺癌"],
+    "epidemiology": {
+      "species": "犬貓均可發生",
+      "breed": "犬：中大型犬稍多見，German Shepherd、Collie 有報告好發；貓：無明顯品種好發性",
+      "age": "老年動物為主（犬 8-12 歲，貓 10 歲以上）；直腸息肉可見於中年犬",
+      "sex": "雄性犬直腸腺癌稍有好發傾向",
+      "prevalence": "佔犬所有消化道腫瘤的 36-60%；犬腸道腫瘤中結直腸腫瘤最為常見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "血便（hematochezia）— 最常見的症狀",
+        "排便困難（dyschezia）或裡急後重（tenesmus）",
+        "排便頻率增加",
+        "糞便形狀改變（變細）",
+        "黏液便",
+        "直腸脫垂（rectalprolapse）",
+        "體重減輕",
+        "食慾下降",
+        "嘔吐（結腸阻塞時）"
+      ],
+      "physicalExam": [
+        "直腸觸診可觸及腫塊（直腸腫瘤）",
+        "腹部觸診可能觸及結腸團塊",
+        "肛門周圍可能有血液汙染",
+        "體態消瘦（晚期）",
+        "腹部疼痛或不適感",
+        "觸診腹腔淋巴結可能腫大"
+      ]
+    },
+    "pathophysiology": "結直腸腫瘤的發生涉及腸上皮細胞的基因突變和異常增殖。犬直腸息肉（adenomatous polyps）遵循類似人類的腺瘤-癌序列（adenoma-carcinoma sequence），可由良性息肉進展為惡性腺癌。腺癌具有局部侵襲性，可穿透腸壁並轉移至區域淋巴結和遠處器官（肝、肺）。貓的結直腸淋巴瘤為黏膜相關淋巴組織來源的惡性增殖。腫瘤導致腸壁增厚、管腔狹窄、潰瘍形成和出血。",
+    "diagnosis": {
+      "primary": [
+        "直腸觸診 +/- 直腸鏡（proctoscopy）",
+        "結腸鏡檢查（colonoscopy）合併組織活檢",
+        "腹部超音波：評估腸壁增厚、淋巴結腫大、遠處轉移",
+        "組織病理學確定腫瘤類型和分級"
+      ],
+      "differential": [
+        "慢性結腸炎/IBD",
+        "結腸息肉（良性 vs 惡性）",
+        "腸套疊",
+        "肛門腺腫瘤",
+        "會陰疝",
+        "直腸狹窄"
+      ],
+      "labFindings": [
+        "CBC：慢性失血導致的缺鐵性貧血",
+        "生化：低白蛋白（蛋白質流失時）",
+        "糞便潛血試驗陽性",
+        "腫瘤分期：胸腔 X 光和腹部超音波評估轉移"
+      ]
+    },
+    "treatment": {
+      "acute": "出血控制和支持療法；嚴重貧血時輸血",
+      "chronic": "手術切除為主要治療。直腸息肉可經肛門拉出切除（transanal pull-through）或結腸鏡下息肉切除。腺癌需要完整手術切除（結腸切除吻合術）。化療和 NSAIDs 可作為輔助治療",
+      "medications": [
+        "Piroxicam（0.3 mg/kg PO SID，COX 抑制劑，抗腫瘤作用）",
+        "Carboplatin（300 mg/m² IV q3w，腺癌化療）",
+        "Doxorubicin（30 mg/m² IV q3w）",
+        "Tramadol（2-5 mg/kg PO BID-TID，疼痛管理）"
+      ],
+      "surgery": "直腸息肉：經肛門切除術（transanal excision）或內視鏡息肉切除術；結腸腺癌：結腸切除及吻合術（colectomy and anastomosis）；直腸腺癌：直腸拉出切除術（rectal pull-through resection）；姑息性結腸造口術（colostomy）"
+    },
+    "prognosis": "直腸腺瘤性息肉手術切除後預後良好，但可能復發。犬結腸腺癌完整切除後中位存活時間約 22-32 個月；不完整切除者約 1.5-6 個月。犬直腸腺癌預後較差（中位存活時間 6-12 個月）。貓結直腸淋巴瘤對化療反應變異大，低度惡性者預後較好。轉移率約 15-30%。",
+    "pearls": [
+      "老年犬反覆血便伴排便困難，必須進行直腸觸診——這是診斷直腸腫瘤最簡單且最重要的步驟",
+      "犬直腸息肉有惡性轉化的可能，建議積極手術切除",
+      "Piroxicam 等 NSAIDs 在結直腸腫瘤中可能具有直接的抗腫瘤效果",
+      "結腸鏡活檢對於區分炎症性病變和腫瘤至關重要"
+    ],
+    "monitoring": [
+      "手術後每 2-3 個月直腸觸診和/或結腸鏡追蹤（評估復發）",
+      "腹部超音波每 3 個月追蹤區域淋巴結和遠處轉移",
+      "CBC 追蹤貧血改善情況",
+      "使用 NSAIDs 時監測腎功能和 GI 副作用"
+    ],
+    "reference": "Withrow and MacEwen's Small Animal Clinical Oncology, 6th Edition; Geriatrics & Gerontology of the Dog and Cat, 3rd Edition"
+  },
+  "intestinal-lymphangiectasia": {
+    "zh": "腸淋巴管擴張症",
+    "en": "Intestinal Lymphangiectasia",
+    "definition": "以小腸黏膜及黏膜下層淋巴管異常擴張為特徵的疾病，導致富含蛋白質的淋巴液滲漏至腸腔，引起蛋白質流失性腸病（PLE）。可為原發性（先天性淋巴管發育異常）或繼發性（淋巴引流受阻，如淋巴瘤、慢性炎症、右心衰竭）。",
+    "synonyms": ["腸淋巴管擴張", "淋巴管擴張性腸病", "蛋白質流失性腸病（PLE 的一個病因）"],
+    "epidemiology": {
+      "species": "犬較常見，貓少見",
+      "breed": "Yorkshire Terrier（最常見且預後最差）、Soft-Coated Wheaten Terrier、Rottweiler、Norwegian Lundehund、Maltese、Shar Pei",
+      "age": "中年犬最常見（4-8 歲），但先天性型可在幼犬出現",
+      "sex": "無明顯性別好發性",
+      "prevalence": "為犬蛋白質流失性腸病最常見的病因之一"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "慢性小腸型腹瀉（水樣或脂肪便）",
+        "體重減輕",
+        "嘔吐",
+        "腹水（低白蛋白血症導致）",
+        "皮下水腫（四肢、腹壁）",
+        "食慾下降或異常亢進",
+        "嗜睡",
+        "呼吸困難（胸腔積液時）",
+        "肌肉消耗"
+      ],
+      "physicalExam": [
+        "體態消瘦（低 BCS）",
+        "腹部波動感（腹水）",
+        "皮下凹陷性水腫",
+        "腸道觸診可能增厚",
+        "脫水徵象",
+        "被毛粗糙無光澤"
+      ]
+    },
+    "pathophysiology": "正常情況下，腸道淋巴管負責吸收膳食脂肪（乳糜微粒）和回收間質蛋白質。當淋巴管異常擴張或阻塞時，富含蛋白質和脂肪的淋巴液滲漏至腸腔，導致白蛋白和球蛋白從腸道大量流失。低白蛋白血症引起膠體滲透壓下降，液體從血管內移至第三間隙（腹水、胸腔積液、皮下水腫）。同時淋巴細胞也隨淋巴液流失，造成淋巴球減少症。脂溶性維生素吸收障礙和脂肪吸收不良進一步加重營養不良。",
+    "diagnosis": {
+      "primary": [
+        "小腸內視鏡活檢（endoscopic biopsy）：可見黏膜白色顆粒狀突起（擴張的淋巴管）",
+        "組織病理學：黏膜和黏膜下層淋巴管明顯擴張，內含蛋白質性物質",
+        "腹部超音波：腸壁增厚、高回音黏膜條紋（mucosal striations）、腹水",
+        "排除繼發性原因（淋巴瘤、右心衰竭等）"
+      ],
+      "differential": [
+        "腸道淋巴瘤",
+        "慢性腸病/IBD",
+        "蛋白質流失性腎病",
+        "肝衰竭（低白蛋白）",
+        "右心衰竭",
+        "腸道寄生蟲感染"
+      ],
+      "labFindings": [
+        "低白蛋白血症和低球蛋白血症（pan-hypoproteinemia）— 高度特異性",
+        "低膽固醇血症",
+        "淋巴球減少症（lymphopenia）",
+        "低鈣血症（結合鈣降低，因白蛋白結合減少）",
+        "糞便 alpha-1 蛋白酶抑制劑（α1-PI）升高確認蛋白質流失"
+      ]
+    },
+    "treatment": {
+      "acute": "嚴重低白蛋白（<1.5 g/dL）伴臨床症狀時：膠體液輸注（Hetastarch 或新鮮冷凍血漿）；大量腹水時治療性腹腔穿刺；靜脈輸液支持",
+      "chronic": "超低脂飲食（<15% ME from fat）為治療基石；中鏈三酸甘油酯（MCT）補充（MCT 不經淋巴系統吸收）；免疫抑制治療（若合併炎症性腸病）；抗血栓預防（低白蛋白患者高凝風險）",
+      "medications": [
+        "Prednisolone（1-2 mg/kg PO BID，逐漸減量）",
+        "Chlorambucil（4-6 mg/m² PO q48h，嚴重 PLE）",
+        "Clopidogrel（1-2 mg/kg PO SID，抗血栓預防）",
+        "Cobalamin（250-1000 μg SC q1-2w）",
+        "Spironolactone（1-2 mg/kg PO BID，腹水管理）"
+      ],
+      "surgery": "通常不需手術；若為局灶性淋巴管阻塞，腸道切除可能有益；嚴重腹水時重複腹腔穿刺"
+    },
+    "prognosis": "預後差異大。輕度病例以飲食控制可維持良好生活品質數年。Yorkshire Terrier 的預後最差（中位存活時間數月）。白蛋白 <1.5 g/dL、嚴重腹水、合併凝血異常者預後不良。血栓栓塞是重要的致死併發症。Soft-Coated Wheaten Terrier 可同時發展 PLE 和蛋白質流失性腎病。",
+    "pearls": [
+      "Pan-hypoproteinemia（白蛋白和球蛋白同時降低）高度提示蛋白質流失性腸病，因肝病和腎病通常不會導致球蛋白同時顯著降低",
+      "超低脂飲食是治療的基石——即使需要免疫抑制劑，飲食管理仍不可省略",
+      "低白蛋白患者有血栓栓塞的高風險，建議預防性抗血栓治療",
+      "腹部超音波見到腸壁高回音條紋是提示淋巴管擴張的特徵性影像"
+    ],
+    "monitoring": [
+      "白蛋白每 2-4 週監測直至穩定",
+      "體重和 BCS 每 2 週追蹤",
+      "腹部超音波每 1-3 個月評估腹水和腸壁變化",
+      "CBC 監測（使用 Chlorambucil 時注意骨髓抑制）"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats, 4th Edition"
+  },
+  "clostridial-enteritis": {
+    "zh": "梭菌性腸炎",
+    "en": "Clostridial Enteritis",
+    "definition": "由產氣莢膜梭菌（Clostridium perfringens）或困難梭菌（Clostridioides difficile）等產毒素梭菌引起的腸道感染性疾病。這些細菌產生的腸毒素（enterotoxin）損傷腸黏膜，導致急性或慢性腹瀉。在犬貓中，C. perfringens 是最常見的致病種。",
+    "synonyms": ["梭狀芽孢桿菌腸炎", "產氣莢膜梭菌腸炎", "Clostridium perfringens 感染"],
+    "epidemiology": {
+      "species": "犬貓均可感染，犬較多報告",
+      "breed": "無明顯品種好發性",
+      "age": "任何年齡，幼犬和老年犬較易感；收容所和密飼環境中多見",
+      "sex": "無性別好發性",
+      "prevalence": "C. perfringens 為犬正常腸道菌群成員，但產毒素菌株可導致臨床疾病；急性腹瀉犬中約 15-30% 可檢出毒素"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "急性水樣腹瀉",
+        "大腸型腹瀉（黏液便、裡急後重）",
+        "血便（hematochezia）",
+        "排便頻率增加",
+        "腹部痙攣和不適",
+        "排氣增多",
+        "輕度嘔吐",
+        "食慾下降",
+        "發熱（嚴重感染時）",
+        "嗜睡"
+      ],
+      "physicalExam": [
+        "腹部觸診可能有疼痛反應或腸道脹氣",
+        "直腸溫度可能升高",
+        "脫水徵象（輕至中度）",
+        "腸音增加",
+        "直腸觸診可能有黏液或血液"
+      ]
+    },
+    "pathophysiology": "C. perfringens 產生多種毒素，其中腸毒素（CPE, enterotoxin）是導致臨床腹瀉的主要因子。CPE 在芽孢形成過程中釋放，與腸上皮細胞的 claudin 受體結合，形成孔洞複合體，導致細胞滲透壓失衡、鈣離子流入和細胞死亡。這導致腸壁通透性增加、水分和電解質大量分泌至腸腔。NetF 毒素（新近發現）可導致更嚴重的壞死性腸炎。壓力、飲食改變、抗生素使用和免疫抑制是促進致病菌株過度增殖和產毒的重要觸發因素。",
+    "diagnosis": {
+      "primary": [
+        "糞便 C. perfringens 腸毒素（CPE）ELISA 檢測",
+        "糞便 PCR 檢測毒素基因（cpe, netF, cpb2）",
+        "糞便內孢子計數（>10⁴ spores/g 有意義）",
+        "排除其他腸道感染和寄生蟲"
+      ],
+      "differential": [
+        "犬細小病毒腸炎",
+        "急性出血性腹瀉症候群（AHDS）",
+        "飲食不耐受",
+        "寄生蟲感染（鉤蟲、鞭蟲）",
+        "其他細菌性腸炎（沙門氏菌、彎曲桿菌）",
+        "慢性腸病/IBD"
+      ],
+      "labFindings": [
+        "CBC：嗜中性球增多或左移（嚴重感染時）",
+        "生化：通常無特異性變化；嚴重腹瀉可能電解質失衡",
+        "糞便鏡檢：大量內孢子",
+        "糞便培養：C. perfringens 可分離但需配合毒素檢測才有意義（正常犬也可攜帶）"
+      ]
+    },
+    "treatment": {
+      "acute": "輕症可自限性；支持性治療包括靜脈或皮下輸液、電解質矯正；嚴重者給予抗生素治療",
+      "chronic": "反覆發作者考慮飲食調整（高纖維飲食）、益生菌補充、長期低劑量 Tylosin；排除潛在的免疫抑制或腸道基礎病變",
+      "medications": [
+        "Metronidazole（10-15 mg/kg PO BID，7-10 天）",
+        "Tylosin（10-20 mg/kg PO BID-TID）",
+        "Amoxicillin-Clavulanate（12.5-25 mg/kg PO BID）",
+        "益生菌（Saccharomyces boulardii 或多菌株製劑）",
+        "Maropitant（2 mg/kg PO SID，止吐）"
+      ],
+      "surgery": "通常不需手術治療；極罕見的壞死性腸炎（necrotizing enteritis）可能需要腸道切除"
+    },
+    "prognosis": "大多數犬的急性梭菌性腸炎為自限性或對治療反應良好，預後佳。慢性反覆發作者需要長期管理，但通常可以控制。產 NetF 毒素的菌株引起的壞死性腸炎預後較差，死亡率較高。",
+    "pearls": [
+      "C. perfringens 是正常腸道菌群成員，單純培養出此菌不等於診斷——必須檢測毒素才有臨床意義",
+      "壓力事件（住院、手術、飲食驟變）是常見的觸發因素",
+      "Tylosin 反應性腹瀉（TRD）中部分病例可能與梭菌過度增殖有關",
+      "糞便中大量內孢子（endospores）的存在支持活躍的毒素產生"
+    ],
+    "monitoring": [
+      "症狀改善後追蹤糞便性狀 2-4 週",
+      "反覆發作者可重複毒素檢測確認清除",
+      "使用 Metronidazole 超過 2 週需注意神經毒性",
+      "飲食轉換後監測耐受性和糞便品質"
+    ],
+    "reference": "Greene's Infectious Diseases of the Dog and Cat, 5th Edition"
+  },
+  "gastrointestinal-stromal-tumor": {
+    "zh": "胃腸道基質瘤",
+    "en": "Gastrointestinal Stromal Tumor (GIST)",
+    "definition": "起源於胃腸道壁 Cajal 間質細胞（interstitial cells of Cajal, ICC）或其前驅細胞的間葉性腫瘤。GIST 是犬胃腸道間葉性腫瘤中最常見的類型，以 KIT（CD117）蛋白異常表達為特徵，可發生於胃腸道的任何部位，但以大腸和盲腸最為常見。",
+    "synonyms": ["GIST", "胃腸基質腫瘤", "Cajal 細胞瘤"],
+    "epidemiology": {
+      "species": "犬較常見，貓罕見",
+      "breed": "大型犬品種好發：German Shepherd、Golden Retriever、Labrador Retriever",
+      "age": "老年犬（中位年齡 10-12 歲）",
+      "sex": "雄性犬稍有好發傾向",
+      "prevalence": "佔犬胃腸道間葉性腫瘤的約 50-70%；整體發病率不高但並非罕見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "嘔吐（間歇性或持續性）",
+        "體重減輕",
+        "食慾下降",
+        "腹部腫塊可觸及",
+        "黑便（melena）或血便",
+        "腹痛",
+        "嗜睡",
+        "貧血相關症狀（蒼白、虛弱）",
+        "腸道穿孔時急性腹膜炎（罕見）"
+      ],
+      "physicalExam": [
+        "腹部觸診可能觸及中腹部腫塊",
+        "黏膜蒼白（慢性失血性貧血）",
+        "體態消瘦",
+        "腹部壓痛",
+        "直腸觸診：直腸/結腸 GIST 可觸及",
+        "脫水徵象（嘔吐頻繁時）"
+      ]
+    },
+    "pathophysiology": "GIST 起源於 Cajal 間質細胞或其共同前驅細胞。這些細胞正常功能為胃腸道的起搏器細胞，調控腸道蠕動。KIT（c-kit）原癌基因的功能獲得性突變（gain-of-function mutation）導致 KIT 受體酪胺酸激酶持續活化，促進細胞不受控制地增殖。犬 GIST 多為梭形細胞形態，可表現為壁內（intramural）或腔外（exophytic）生長。腫瘤可導致腸壁潰瘍出血、管腔阻塞或穿孔。轉移率依位置和大小而異，肝臟和腹膜是最常見的轉移部位。",
+    "diagnosis": {
+      "primary": [
+        "腹部超音波：腸壁起源的低至混合回音團塊",
+        "組織活檢及組織病理學：梭形細胞或上皮樣細胞排列",
+        "免疫組織化學：KIT (CD117) 陽性是確診的關鍵",
+        "CT 掃描：評估腫瘤範圍和轉移"
+      ],
+      "differential": [
+        "腸道平滑肌瘤/平滑肌肉瘤（leiomyoma/leiomyosarcoma）",
+        "腸道淋巴瘤",
+        "腸道腺癌",
+        "腸道神經鞘瘤",
+        "腹腔內其他腫瘤",
+        "肉芽腫性病變"
+      ],
+      "labFindings": [
+        "CBC：再生性或非再生性貧血（慢性失血）",
+        "生化：低白蛋白（蛋白質流失時）",
+        "免疫組化：CD117 (KIT) 陽性、CD34 可能陽性、desmin 和 SMA 陰性",
+        "c-kit 基因突變分析（用於預測酪胺酸激酶抑制劑療效）"
+      ]
+    },
+    "treatment": {
+      "acute": "腫瘤出血或穿孔時緊急手術；貧血嚴重時輸血穩定",
+      "chronic": "手術完整切除為首選治療。不可切除或轉移性 GIST 可使用酪胺酸激酶抑制劑（TKI）標靶治療",
+      "medications": [
+        "Toceranib phosphate（Palladia, 2.75 mg/kg PO EOD，KIT 標靶治療）",
+        "Imatinib mesylate（Gleevec, 10 mg/kg PO SID，人用藥 off-label）",
+        "Masitinib（12.5 mg/kg PO SID，歐洲核准）",
+        "Omeprazole（1 mg/kg PO BID，胃 GIST 時保護胃黏膜）"
+      ],
+      "surgery": "腸道節段切除及端端吻合術為標準治療；需確保足夠的手術邊緣（>2 cm）；術中仔細評估肝臟和腹膜是否有轉移灶"
+    },
+    "prognosis": "完整手術切除且有絲分裂指數低的 GIST 預後良好（中位存活時間 >2 年）。不完整切除或高有絲分裂指數者預後較差。TKI 標靶治療可為不可切除的 GIST 提供疾病控制。腫瘤大小 >5 cm 和高有絲分裂指數（>5/10 HPF）與預後不良相關。大腸和盲腸 GIST 的整體預後優於小腸和胃 GIST。",
+    "pearls": [
+      "犬胃腸道間葉性腫瘤中 GIST 最常見，免疫組化（KIT/CD117）是與平滑肌瘤區分的關鍵",
+      "Toceranib（Palladia）是目前獸醫領域唯一核准的 KIT 標靶口服藥物",
+      "GIST 的生物學行為從良性到高度惡性不等，有絲分裂指數是最重要的預後指標之一",
+      "大腸和盲腸是犬 GIST 最好發的部位，與人類（胃為主）不同"
+    ],
+    "monitoring": [
+      "術後每 2-3 個月腹部超音波追蹤局部復發和遠處轉移",
+      "使用 TKI 時每 2-4 週 CBC 和生化監測（骨髓抑制、肝腎毒性）",
+      "體重和食慾追蹤",
+      "TKI 治療期間注意 GI 副作用（腹瀉、嘔吐、食慾下降）"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats, 4th Edition"
+  },
+  "cecal-inversion": {
+    "zh": "盲腸內翻",
+    "en": "Cecal Inversion (Cecocolic Intussusception)",
+    "definition": "盲腸向結腸內翻套的病理狀態，即盲腸從其正常位置翻轉並套入升結腸腔內。此病在犬中相對罕見，可引起部分或完全腸道阻塞及相關的腸缺血和壞死。可能與盲腸蠕動異常、腸道寄生蟲、飲食改變或先前的腸道疾病有關。",
+    "synonyms": ["盲腸內套疊", "盲腸結腸套疊", "Cecocolic intussusception"],
+    "epidemiology": {
+      "species": "犬為主，貓極罕見",
+      "breed": "大型犬品種多見，German Shepherd 有報告好發",
+      "age": "年輕至中年犬（1-5 歲較常見）",
+      "sex": "無明顯性別好發性",
+      "prevalence": "罕見；佔所有犬腸道套疊病例的少數比例"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "慢性間歇性腹瀉（大腸型）",
+        "血便（hematochezia）或黏液便",
+        "裡急後重（tenesmus）",
+        "排便困難",
+        "間歇性嘔吐",
+        "食慾減退",
+        "腹部不適或疼痛",
+        "體重減輕（慢性病例）"
+      ],
+      "physicalExam": [
+        "腹部觸診右側腹可能觸及管狀團塊",
+        "直腸觸診可能感到套疊的盲腸尖端（若延伸至遠端結腸）",
+        "腹部壓痛",
+        "脫水徵象（嘔吐和腹瀉嚴重時）",
+        "直腸觸診可能有血液或黏液"
+      ]
+    },
+    "pathophysiology": "盲腸的正常蠕動波異常增強或不協調，導致盲腸尖端從盲腸結腸連接處翻轉套入結腸腔內。套入的盲腸壁隨著蠕動進一步推進，腸繫膜血管被牽拉和壓迫，導致靜脈回流受阻、腸壁水腫和缺血。若未及時處理，可進展為黏膜壞死、穿孔和腹膜炎。慢性部分套疊可導致間歇性大腸型症狀。",
+    "diagnosis": {
+      "primary": [
+        "腹部超音波：右側腹部可見同心圓或靶環徵（target sign），代表套疊的腸壁層",
+        "腹部 X 光：右側腹部軟組織團塊、結腸內氣體分布異常",
+        "結腸鏡檢查：可直視套入結腸腔內的盲腸組織",
+        "剖腹探查：確診和治療"
+      ],
+      "differential": [
+        "結腸套疊（ileocolic intussusception）",
+        "結直腸腫瘤",
+        "結腸炎",
+        "大腸型慢性腸病/IBD",
+        "結腸息肉",
+        "結腸異物"
+      ],
+      "labFindings": [
+        "CBC：可能有嗜中性球增多（感染或壞死時）",
+        "生化：通常無特異性變化",
+        "糞便檢查：排除寄生蟲作為誘因",
+        "電解質可能因嘔吐和腹瀉而失衡"
+      ]
+    },
+    "treatment": {
+      "acute": "穩定全身狀況（靜脈輸液、電解質矯正）；手術為唯一確定性治療",
+      "chronic": "慢性病例仍需手術處理",
+      "medications": [
+        "靜脈輸液（等張晶體液）穩定",
+        "廣效抗生素（Ampicillin 22 mg/kg IV + Enrofloxacin 5 mg/kg IV，術前預防性）",
+        "Maropitant（1 mg/kg IV，止吐）",
+        "Tramadol（2-5 mg/kg IV/IM，疼痛管理）"
+      ],
+      "surgery": "剖腹探查後嘗試手動復位（manual reduction）；若復位成功且盲腸組織活力良好，可行盲腸固定術（cecopexy）防止復發；若盲腸已壞死或復位失敗，需行盲腸切除和回結腸吻合術（typhlectomy with ileocolic anastomosis）"
+    },
+    "prognosis": "手術治療後預後一般良好，尤其在盲腸未壞死且成功復位固定的情況下。若已發展為腸壁壞死或穿孔伴腹膜炎，預後較差。術後復發率不高，特別是在進行盲腸固定術後。",
+    "pearls": [
+      "犬的慢性大腸型腹瀉伴血便，若常規治療反應不佳，應考慮盲腸內翻的可能",
+      "腹部超音波的同心圓/靶環徵是套疊的特徵性影像表現",
+      "結腸鏡不僅能診斷還可以直接觀察套入的盲腸組織活力",
+      "盲腸固定術（cecopexy）可有效預防復位後的再發"
+    ],
+    "monitoring": [
+      "術後 24-72 小時密切監測腹膜炎和敗血症徵象",
+      "術後 2 週追蹤傷口癒合和腸道功能恢復",
+      "術後 1 個月腹部超音波確認無復發",
+      "長期追蹤糞便品質和大腸功能"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats, 4th Edition"
+  },
+  "renal-amyloidosis": {
+    "zh": "腎澱粉樣變性",
+    "en": "Renal Amyloidosis",
+    "definition": "異常折疊的蛋白質（澱粉樣蛋白，amyloid）沉積於腎臟組織的系統性或器官限局性疾病。在犬中以 AA 型澱粉樣變性（繼發性/反應性）最常見，沉積於腎絲球導致蛋白質流失性腎病；在貓和 Shar Pei 犬中則常沉積於腎間質和髓質。最終導致慢性腎衰竭。",
+    "synonyms": ["腎類澱粉沉著症", "腎 amyloidosis", "系統性澱粉樣變性（腎臟表現）"],
+    "epidemiology": {
+      "species": "犬貓均可發生",
+      "breed": "Shar Pei（家族性澱粉樣變性，與反覆發熱相關）、Beagle、English Foxhound、Abyssinian 貓（家族性）",
+      "age": "中年至老年（犬 5-11 歲，Shar Pei 可更年輕 1-6 歲；Abyssinian 貓 1-5 歲）",
+      "sex": "無明顯性別好發性",
+      "prevalence": "整體不常見，但在特定品種中發病率顯著較高"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "多飲多尿（polyuria/polydipsia）",
+        "體重減輕和肌肉消耗",
+        "食慾下降",
+        "嘔吐",
+        "嗜睡",
+        "皮下水腫和/或腹水（腎病症候群時）",
+        "Shar Pei：反覆發熱和關節腫脹（Shar Pei fever）",
+        "口腔潰瘍和口臭（尿毒症時）",
+        "出血傾向（血栓或 DIC）"
+      ],
+      "physicalExam": [
+        "腎臟觸診可能偏小（慢性期）或正常大小",
+        "脫水",
+        "黏膜蒼白",
+        "口腔潰瘍（尿毒症時）",
+        "皮下凹陷性水腫或腹水（嚴重蛋白尿時）",
+        "Shar Pei 可能有脛跗關節腫脹"
+      ]
+    },
+    "pathophysiology": "AA 型澱粉樣變性中，慢性炎症或感染導致肝臟持續產生血清澱粉樣 A 蛋白（SAA），SAA 被巨噬細胞部分降解後形成不可溶的 AA 澱粉樣纖維。在犬（除 Shar Pei 外），AA 纖維主要沉積於腎絲球基底膜，導致絲球基底膜增厚、蛋白質濾過增加（蛋白尿）和腎病症候群。在 Shar Pei 和 Abyssinian 貓中，沉積以腎間質和髓質為主，導致腎小管功能障礙和間質纖維化。無論沉積位置如何，最終結果都是進行性腎功能喪失。低白蛋白血症增加血栓風險（抗凝血因子 III 流失）。",
+    "diagnosis": {
+      "primary": [
+        "腎臟活檢（renal biopsy）：剛果紅染色（Congo red stain）在偏光顯微鏡下呈蘋果綠雙折射（apple-green birefringence）— 金標準",
+        "尿液分析：顯著蛋白尿（UPC >2.0，常 >3.0）",
+        "腹部超音波：腎臟大小和回音性變化",
+        "排除其他蛋白尿原因（腎絲球腎炎、腫瘤等）"
+      ],
+      "differential": [
+        "免疫介導性腎絲球腎炎",
+        "腎病症候群其他原因",
+        "慢性腎衰竭（CKD）其他病因",
+        "蛋白質流失性腸病",
+        "多發性骨髓瘤（AL 型澱粉樣變性）",
+        "腎小管間質性腎炎"
+      ],
+      "labFindings": [
+        "尿蛋白/肌酐比（UPC）顯著升高（通常 >3.5）",
+        "低白蛋白血症",
+        "氮血症（BUN、Creatinine 升高，晚期）",
+        "高膽固醇血症（腎病症候群的一部分）",
+        "抗凝血因子 III（AT III）活性降低（尿中流失）"
+      ]
+    },
+    "treatment": {
+      "acute": "腎病症候群危象：膠體液輸注、新鮮冷凍血漿（補充 AT III）；血栓栓塞治療；嚴重氮血症進行透析",
+      "chronic": "尚無特效治療可逆轉澱粉樣沉積。管理重點為減緩蛋白尿、控制慢性腎病併發症、治療基礎炎症病因（AA 型）。Shar Pei fever 使用 Colchicine 預防澱粉樣物質沉積",
+      "medications": [
+        "Colchicine（0.01-0.03 mg/kg PO SID-BID，預防性，尤其 Shar Pei）",
+        "Enalapril 或 Telmisartan（降低蛋白尿）",
+        "Clopidogrel（1-2 mg/kg PO SID，抗血栓預防）",
+        "Amlodipine（0.1-0.25 mg/kg PO SID，控制高血壓）",
+        "腎臟處方飲食（限磷、適度限蛋白）"
+      ],
+      "surgery": "無手術治療選項；腎臟移植在理論上可行但實際極少執行"
+    },
+    "prognosis": "預後差。犬腎絲球型澱粉樣變性確診後中位存活時間約 3-18 個月。Shar Pei 家族性澱粉樣變性預後不良。Abyssinian 貓的中位存活時間約 9-12 個月。血栓栓塞併發症是常見死因。早期使用 Colchicine 可能減緩 Shar Pei 的疾病進展。",
+    "pearls": [
+      "Shar Pei 反覆不明原因發熱合併脛跗關節腫脹（Shar Pei fever），應警惕後續發展腎澱粉樣變性",
+      "顯著蛋白尿（UPC >3.5）合併低白蛋白血症但腎臟大小正常或偏大，應高度懷疑澱粉樣變性",
+      "腎臟活檢的剛果紅染色偏光雙折射是確診的金標準",
+      "低白蛋白患者需警惕血栓栓塞——AT III 流失是重要的促凝因素"
+    ],
+    "monitoring": [
+      "UPC 每 4-8 週追蹤蛋白尿變化",
+      "腎功能指標（BUN、Creatinine、SDMA）每 4-8 週",
+      "白蛋白和 AT III 活性定期監測",
+      "血壓監測（每次回診）"
+    ],
+    "reference": "Pathologic Basis of Veterinary Disease, 7th Edition"
+  },
+  "ureteral-obstruction": {
+    "zh": "輸尿管阻塞",
+    "en": "Ureteral Obstruction",
+    "definition": "一側或雙側輸尿管因結石、腫瘤、血塊、凝血塊或狹窄導致尿液流通受阻的急性或慢性病態。在貓中以草酸鈣結石（calcium oxalate ureteroliths）為最常見原因，犬亦可發生。雙側或單功能腎的單側阻塞可導致急性腎後性腎衰竭，是泌尿系統急診之一。",
+    "synonyms": ["輸尿管阻塞性尿路病", "輸尿管結石阻塞", "Ureteral calculi obstruction"],
+    "epidemiology": {
+      "species": "貓比犬更常見（尤其草酸鈣結石相關）",
+      "breed": "貓：無明顯品種好發性，但有增加趨勢；犬：Miniature Schnauzer、Yorkshire Terrier、Shih Tzu",
+      "age": "中老年貓（7 歲以上）；犬視病因而定",
+      "sex": "無顯著性別差異",
+      "prevalence": "近年來貓輸尿管結石阻塞的發病率顯著增加，可能與飲食和診斷技術改進有關"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "突然食慾下降或廢絕",
+        "嗜睡與虛弱",
+        "嘔吐",
+        "腹痛（患側腰部）",
+        "尿量減少或無尿（雙側阻塞時）",
+        "多飲多尿（單側慢性阻塞代償時）",
+        "體重減輕（慢性）",
+        "發燒（合併感染時）"
+      ],
+      "physicalExam": [
+        "患側腎臟腫大且可能疼痛（腎盂積水）",
+        "脫水",
+        "膀胱觸診小（雙側阻塞時）或正常",
+        "腰部觸診疼痛",
+        "黏膜蒼白或尿毒症表現",
+        "體溫可能升高（合併腎盂腎炎時）"
+      ]
+    },
+    "pathophysiology": "輸尿管阻塞導致阻塞近端壓力升高，尿液在腎盂和輸尿管內蓄積（腎盂積水/輸尿管積水）。持續的壓力升高導致腎血流量降低、腎絲球過濾率（GFR）下降和腎小管損傷。急性完全阻塞在 24-48 小時內即可造成顯著的腎功能損害，若超過 7-14 天不解除可導致永久性腎損傷。單側阻塞時對側腎臟代償性增加 GFR，但若對側腎臟已有基礎病變或同時阻塞，則迅速發展為急性腎衰竭。鈣化結石是貓最常見的阻塞原因，通常非常小（1-3 mm）。",
+    "diagnosis": {
+      "primary": [
+        "腹部超音波：腎盂擴張（renal pelvis dilation >5 mm 貓 / >10 mm 犬）、輸尿管擴張、可見結石強回音影",
+        "腹部 X 光：鈣化結石可見（草酸鈣為 X 光不透光）",
+        "血液學/生化：評估氮血症程度和電解質",
+        "CT 掃描：提供最精確的結石定位和大小評估"
+      ],
+      "differential": [
+        "急性腎損傷（其他原因）",
+        "慢性腎臟疾病惡化",
+        "輸尿管腫瘤",
+        "輸尿管狹窄（先前手術或炎症後）",
+        "腎盂腎炎",
+        "下泌尿道阻塞"
+      ],
+      "labFindings": [
+        "BUN 和 Creatinine 升高（程度取決於是否為雙側或單側）",
+        "高血鉀（急性雙側阻塞時危及生命）",
+        "代謝性酸中毒",
+        "尿液分析：等張尿、可能有血尿或膿尿",
+        "尿液培養（排除腎盂腎炎）"
+      ]
+    },
+    "treatment": {
+      "acute": "穩定全身狀態：靜脈輸液矯正脫水和電解質失衡（尤其高血鉀）；嚴重氮血症可考慮血液透析暫時穩定；止痛（Buprenorphine 0.01-0.03 mg/kg IV）；盡快解除阻塞",
+      "chronic": "預防結石復發：飲食調整（增加水分攝入、泌尿道處方飲食）；定期影像監測；慢性 CKD 的長期管理",
+      "medications": [
+        "靜脈輸液（0.9% NaCl 或 Lactated Ringer's）",
+        "Buprenorphine（0.01-0.03 mg/kg IV/IM，鎮痛）",
+        "Calcium gluconate 10%（0.5-1 mL/kg IV slow，高血鉀心臟保護）",
+        "Mannitol（0.25-0.5 g/kg IV，利尿劑，術前）",
+        "抗生素（若合併感染：Amoxicillin-Clavulanate 或 Marbofloxacin）"
+      ],
+      "surgery": "輸尿管支架（ureteral stent）置入：透視引導下放置雙 J 支架；皮下輸尿管旁路裝置（SUB, Subcutaneous Ureteral Bypass）：貓中越來越常用，直接繞過阻塞；傳統輸尿管切開取石術（ureterotomy）；輸尿管再植術（neoureterocystostomy）"
+    },
+    "prognosis": "取決於阻塞持續時間、是否雙側、術前腎功能和腎臟損傷程度。早期介入（<3-5 天）預後較好。貓 SUB 裝置術後中位存活時間約 16-24 個月。輸尿管支架的長期併發症包括支架移位、阻塞和尿道感染。單側阻塞若對側腎臟功能正常，預後較好。",
+    "pearls": [
+      "貓的輸尿管結石通常非常小（1-3 mm），X 光容易遺漏，超音波看腎盂擴張更為敏感",
+      "急性雙側輸尿管阻塞的高血鉀可能在數小時內致命，需優先處理電解質",
+      "SUB 裝置在貓中已成為越來越普及的首選治療，避免了直接操作細小輸尿管的困難",
+      "阻塞解除後的利尿期（post-obstructive diuresis）需密切監測輸液量和電解質"
+    ],
+    "monitoring": [
+      "術後 24-72 小時密切監測尿量、電解質和腎功能",
+      "SUB 裝置或支架術後每 1-3 個月超音波和 X 光追蹤",
+      "長期每 3-6 個月腎功能和影像追蹤",
+      "鼓勵增加水分攝入以預防結石復發"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats, 4th Edition"
+  },
+  "renal-infarction": {
+    "zh": "腎梗塞",
+    "en": "Renal Infarction",
+    "definition": "腎動脈或其分支血流突然中斷，導致供應區域腎組織缺血性壞死的急性血管事件。在犬貓中最常繼發於血栓栓塞性疾病，包括感染性心內膜炎、腫瘤（如血管瘤）、免疫介導性溶血性貧血（IMHA）、蛋白質流失性腎病/腸病、和高凝血狀態。",
+    "synonyms": ["腎栓塞", "腎動脈血栓栓塞", "Renal thromboembolism"],
+    "epidemiology": {
+      "species": "犬貓均可發生",
+      "breed": "與基礎疾病相關，無特定品種好發；CKCS（心臟病相關）；大型犬（腫瘤相關）",
+      "age": "中老年動物居多",
+      "sex": "無明顯性別好發性",
+      "prevalence": "臨床上可能被低估；屍體解剖研究顯示腎梗塞的發生率高於臨床診斷率"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "急性腰部或腹部疼痛（患側）",
+        "血尿（hematuria）",
+        "嘔吐",
+        "食慾下降",
+        "發燒",
+        "嗜睡",
+        "少尿或無尿（雙側大範圍梗塞時）",
+        "與基礎疾病相關的症狀"
+      ],
+      "physicalExam": [
+        "患側腎臟區域觸診疼痛",
+        "發燒",
+        "腹部壓痛",
+        "心臟聽診異常（若與心臟疾病相關）",
+        "可能觸到腫大的腎臟（急性水腫期）",
+        "基礎疾病的相關體格檢查異常"
+      ]
+    },
+    "pathophysiology": "血栓或栓子阻塞腎動脈或其分支，導致該供應區域急性缺血。腎皮質對缺血最為敏感，數小時內即可發生凝固性壞死。壞死區域隨後被纖維化疤痕組織取代，形成楔形的梗塞灶。栓子來源包括：心臟（心內膜炎的菌栓、心臟腫瘤碎片）、動脈粥樣硬化斑塊（犬少見）、全身性高凝狀態（IMHA、腎病症候群導致的 AT III 缺乏、DIC、腫瘤相關高凝）。小範圍梗塞可能無臨床症狀，大範圍或雙側梗塞可導致急性腎損傷。",
+    "diagnosis": {
+      "primary": [
+        "腹部超音波（含都卜勒）：腎臟內楔形低回音灶、腎動脈血流訊號缺失",
+        "CT 血管造影（CTA）：增強掃描顯示腎臟灌注缺損區域——最敏感的診斷方法",
+        "尿液分析：血尿、蛋白尿",
+        "評估基礎病因（心臟超音波、血液培養、凝血功能等）"
+      ],
+      "differential": [
+        "腎盂腎炎",
+        "腎臟腫瘤",
+        "輸尿管阻塞伴腎盂積水",
+        "急性腎損傷（其他原因）",
+        "腎臟膿瘍",
+        "腹腔內其他器官的急性疾病"
+      ],
+      "labFindings": [
+        "BUN/Creatinine 升高（取決於梗塞範圍和對側腎功能）",
+        "尿液：血尿、蛋白尿、可能有白血球",
+        "LDH 升高（組織壞死指標）",
+        "凝血功能異常（D-dimer 升高、PT/aPTT 延長，若有 DIC）",
+        "血液培養（排除感染性心內膜炎）"
+      ]
+    },
+    "treatment": {
+      "acute": "支持性治療：靜脈輸液維持腎臟灌注、鎮痛（Buprenorphine 或 Methadone）；若為血栓栓塞：抗凝治療（Heparin 或 Enoxaparin）；積極治療基礎病因",
+      "chronic": "長期抗血栓治療（若有持續高凝風險）；CKD 管理（若殘餘腎功能受損）；監測和治療基礎疾病",
+      "medications": [
+        "Enoxaparin（低分子量肝素，0.8-1 mg/kg SC BID，急性抗凝）",
+        "Clopidogrel（1-2 mg/kg PO SID，長期抗血小板）",
+        "Buprenorphine（0.01-0.03 mg/kg IV/IM q6-8h，鎮痛）",
+        "靜脈輸液維持腎臟灌注",
+        "針對基礎病因的藥物（如 IMHA 的免疫抑制劑）"
+      ],
+      "surgery": "通常不進行手術治療；極罕見情況下可考慮血栓切除術（thrombectomy）或腎切除術（壞死腎臟合併感染時）"
+    },
+    "prognosis": "取決於梗塞範圍、對側腎功能和基礎病因。小範圍單側梗塞對側腎正常者預後良好。大範圍雙側梗塞或合併嚴重基礎疾病（如晚期腫瘤、重度 IMHA 合併 DIC）者預後差。整體預後主要由基礎疾病決定。",
+    "pearls": [
+      "犬急性腰痛、血尿和氮血症的三聯徵應高度懷疑腎梗塞",
+      "診斷後必須積極尋找基礎病因——腎梗塞幾乎總是全身性疾病的表現",
+      "都卜勒超音波可快速評估腎臟血流灌注，但 CT 血管造影是最精確的診斷工具",
+      "IMHA 和腎病症候群是犬最常見的高凝狀態，均有顯著的血栓風險"
+    ],
+    "monitoring": [
+      "腎功能指標（BUN、Creatinine）每 24-48 小時追蹤（急性期）",
+      "凝血功能監測（使用抗凝劑時）",
+      "重複腹部超音波評估腎臟大小和血流恢復",
+      "基礎疾病的相關監測項目"
+    ],
+    "reference": "Veterinary Internal Medicine, Ettinger & Feldman, 8th Edition"
+  },
+  "primary-immune-deficiency": {
+    "zh": "原發性免疫缺乏症",
+    "en": "Primary Immunodeficiency Disorders",
+    "definition": "因免疫系統先天性/遺傳性缺陷導致的免疫功能低下，使動物對感染的抵抗力異常降低。包括體液免疫缺陷（B 細胞/免疫球蛋白缺乏）、細胞免疫缺陷（T 細胞功能障礙）、聯合免疫缺陷（combined immunodeficiency）、吞噬細胞功能缺陷和補體缺陷等多種類型。",
+    "synonyms": ["先天性免疫缺陷", "遺傳性免疫不全症", "Primary immunodeficiency disease (PID)"],
+    "epidemiology": {
+      "species": "犬貓均有報告，犬較多記載",
+      "breed": "品種特異性強：Jack Russell Terrier（嚴重聯合免疫缺陷 SCID）、Basset Hound（X-linked SCID）、Weimaraner（IgG 缺乏）、Irish Setter（白血球黏附缺陷 LAD）、Doberman Pinscher（IgM 缺乏）；貓：Birman（補體缺陷）",
+      "age": "多在幼年（3-6 月齡）當母源抗體消退後開始出現臨床症狀",
+      "sex": "X-linked 型態（如 Basset Hound SCID）只影響雄性",
+      "prevalence": "個別疾病罕見，但作為一個群體在品種犬中並不極端罕見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "反覆感染（呼吸道、皮膚、消化道）",
+        "抗生素治療反應差或停藥後立即復發",
+        "生長遲緩（failure to thrive）",
+        "慢性腹瀉",
+        "反覆皮膚感染（膿皮症）",
+        "慢性呼吸道感染（肺炎、支氣管炎）",
+        "淋巴結腫大或異常小（依類型）",
+        "發燒（感染相關）",
+        "被毛粗糙、發育不良"
+      ],
+      "physicalExam": [
+        "體型偏小、發育不良",
+        "淋巴結可能腫大（慢性感染）或缺失（SCID 中淋巴組織發育不全）",
+        "皮膚感染灶（膿皮症、膿瘍）",
+        "肺部異常呼吸音",
+        "發燒",
+        "黏膜蒼白（慢性感染或貧血時）"
+      ]
+    },
+    "pathophysiology": "先天性基因突變導致免疫系統某一環節的發育或功能缺陷。SCID 涉及 T 細胞和 B 細胞的共同前驅細胞缺陷或關鍵信號分子（如 DNA-PKcs、IL-2Rγ）突變，導致兩者同時缺乏。選擇性免疫球蛋白缺乏（如 IgA 或 IgG 亞型缺乏）使黏膜和全身的抗體防禦降低。白血球黏附缺陷（LAD）涉及 β2-integrin（CD18）突變，使嗜中性球無法正常從血管遷移至感染部位。補體缺陷影響先天免疫的殺菌和調理功能。無論缺陷類型如何，結果都是反覆或持續性感染，常由條件致病菌引起。",
+    "diagnosis": {
+      "primary": [
+        "免疫球蛋白定量（IgG、IgM、IgA）：排除選擇性或全面性免疫球蛋白缺乏",
+        "淋巴細胞亞群分析（流式細胞術）：CD4+、CD8+ T 細胞、B 細胞計數",
+        "嗜中性球功能試驗（呼吸爆發試驗、黏附試驗）",
+        "基因檢測（已知突變基因的 PCR 檢測）"
+      ],
+      "differential": [
+        "繼發性免疫抑制（藥物、腫瘤、感染如 FIV）",
+        "營養不良導致的免疫功能低下",
+        "新生兒被動移轉失敗（failure of passive transfer）",
+        "骨髓疾病",
+        "慢性壓力導致的免疫抑制",
+        "先天性中性球減少症（cyclic neutropenia）"
+      ],
+      "labFindings": [
+        "CBC：依類型可見淋巴球減少（SCID）或嗜中性球增多（LAD，因嗜中性球無法遷移而堆積在血管中）",
+        "血清免疫球蛋白：一種或多種免疫球蛋白減少或缺乏",
+        "補體活性（CH50）降低（補體缺陷時）",
+        "骨髓檢查：可能顯示特定細胞系列的成熟停滯"
+      ]
+    },
+    "treatment": {
+      "acute": "積極控制感染：廣效殺菌性抗生素（非抑菌性）、抗黴菌藥（若需要）；支持性治療",
+      "chronic": "長期預防性抗生素（低劑量）；定期免疫球蛋白替代療法（血漿輸注，每 2-4 週）；避免免疫抑制藥物和活毒疫苗；環境管理減少感染暴露",
+      "medications": [
+        "Amoxicillin-Clavulanate（12.5-25 mg/kg PO BID，預防性/治療性）",
+        "TMP-Sulfa（15 mg/kg PO BID，預防性抗生素）",
+        "新鮮冷凍血漿（10-20 mL/kg IV，免疫球蛋白補充）",
+        "Itraconazole（5 mg/kg PO SID，抗黴菌）",
+        "支持性營養補充"
+      ],
+      "surgery": "無特定手術治療；骨髓移植在理論上可治癒 SCID 但在獸醫領域極少執行"
+    },
+    "prognosis": "視免疫缺陷類型和嚴重程度而異。SCID 預後極差，多在 1 歲內死亡。選擇性 IgA 缺乏在良好管理下可存活多年。LAD 預後差，多在幼年死於嚴重感染。Weimaraner 的 IgG 缺乏可能隨年齡部分改善。整體而言，反覆嚴重感染和抗生素耐藥性是影響預後的主要因素。",
+    "pearls": [
+      "幼犬在 3-6 月齡開始反覆感染且抗生素治療效果不佳，應懷疑原發性免疫缺乏",
+      "確診前必須先排除繼發性免疫抑制原因（FIV、腫瘤、藥物等）",
+      "SCID 患者絕對禁止接種活毒疫苗——可能引發致命感染",
+      "品種背景是重要線索——特定品種的特定免疫缺陷已有明確的基因定位"
+    ],
+    "monitoring": [
+      "感染頻率和嚴重程度的臨床追蹤",
+      "定期 CBC 和免疫球蛋白定量（每 2-3 個月）",
+      "體重和生長曲線監測（幼犬）",
+      "抗生素敏感性試驗（避免耐藥菌發展）"
+    ],
+    "reference": "Veterinary Immunology: An Introduction, 9th Edition"
+  },
+  "heat-stroke-exertional": {
+    "zh": "運動型熱射病",
+    "en": "Exertional Heat Stroke",
+    "definition": "因劇烈運動產生過量熱能，超過身體散熱能力，導致核心體溫急劇升高（>41°C / 106°F）並引起全身性炎症反應和多器官功能障礙的危及生命的急症。與環境型（被動型）熱射病不同，運動型熱射病發生在積極活動的動物中，即使環境溫度不高也可能發生。",
+    "synonyms": ["運動性中暑", "活動型熱射病", "Exertional hyperthermia"],
+    "epidemiology": {
+      "species": "犬為主（貓罕見，因活動模式不同）",
+      "breed": "短頭犬（brachycephalic breeds）風險最高：English Bulldog、French Bulldog、Pug、Boston Terrier；工作犬和運動犬也常見：Labrador Retriever、Belgian Malinois",
+      "age": "年輕至中年犬（高活動量）；老年犬也有風險（散熱功能衰退）",
+      "sex": "無明顯性別差異，但未絕育犬可能風險稍高",
+      "prevalence": "溫暖季節常見的犬急診之一；短頭品種的發生率顯著高於長頭品種"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "劇烈運動後極度喘息（excessive panting）",
+        "過度流涎（hypersalivation）",
+        "虛脫或無法站立",
+        "共濟失調或步態不穩",
+        "嘔吐（可能帶血）",
+        "血便或黑便",
+        "意識狀態改變（定向障礙、嗜睡到昏迷）",
+        "抽搐（seizures）",
+        "黏膜由磚紅色轉為發紺",
+        "少尿或無尿"
+      ],
+      "physicalExam": [
+        "核心體溫 >41°C（106°F），可達 43°C（109°F）",
+        "心跳過速（tachycardia）",
+        "呼吸急促或呼吸困難",
+        "黏膜充血（磚紅色）或發紺",
+        "CRT 延長或極短（分布性休克）",
+        "瘀點或瘀斑（petechiae/ecchymoses，DIC 徵象）"
+      ]
+    },
+    "pathophysiology": "劇烈肌肉活動產生大量代謝熱。當產熱超過散熱（喘息、皮膚血管擴張、傳導/對流），核心體溫升高。體溫超過 41.5°C 時，細胞蛋白質開始變性，腸道屏障功能破壞導致內毒素（LPS）進入循環。全身性炎症反應症候群（SIRS）被啟動，促炎細胞因子大量釋放。血管內皮損傷啟動凝血級聯反應，導致 DIC。多器官功能障礙依序出現：腸道（黏膜壞死、出血）、肝臟（急性肝細胞壞死）、腎臟（急性腎小管壞死）、心臟（心肌損傷）和腦部（腦水腫）。橫紋肌溶解釋放肌球蛋白，進一步加重腎損傷。",
+    "diagnosis": {
+      "primary": [
+        "病史（劇烈運動後出現症狀）合併核心體溫 >41°C",
+        "排除其他高體溫原因（感染、癲癇持續狀態、惡性高熱）",
+        "全面的急診血液學和生化評估",
+        "凝血功能檢測（PT、aPTT、D-dimer、fibrinogen）"
+      ],
+      "differential": [
+        "環境型（被動型）熱射病",
+        "嚴重感染/敗血症",
+        "癲癇持續狀態（status epilepticus）",
+        "惡性高熱（malignant hyperthermia）",
+        "中毒（如殺蟲劑中毒）",
+        "甲狀腺風暴"
+      ],
+      "labFindings": [
+        "CBC：血液濃縮（初期）→ 貧血和血小板減少（DIC 時）",
+        "生化：肝酶（ALT、AST、ALP）顯著升高（可延遲 24-48 小時達峰值）；BUN/Creatinine 升高；高血糖或低血糖",
+        "凝血：PT/aPTT 延長、D-dimer 升高、fibrinogen 降低（DIC）",
+        "CK 和乳酸升高（橫紋肌溶解和組織低灌注）",
+        "血氣：代謝性酸中毒"
+      ]
+    },
+    "treatment": {
+      "acute": "立即主動降溫：用涼水（15-20°C，非冰水）淋濕全身，搭配風扇蒸發散熱；體溫降至 39.5°C 即停止主動降溫（避免過度降溫）；積極靜脈輸液（shock dose crystalloids）；氧氣治療；止吐藥；DIC 時新鮮冷凍血漿",
+      "chronic": "無慢性治療需求；重點為器官損傷的恢復期支持治療和併發症處理",
+      "medications": [
+        "靜脈輸液（等張晶體液 60-90 mL/kg/hr 犬，shock rate）",
+        "Maropitant（1 mg/kg IV SID，止吐）",
+        "新鮮冷凍血漿（10-15 mL/kg IV，DIC 時補充凝血因子）",
+        "Mannitol（0.5-1 g/kg IV over 20 min，腦水腫時）",
+        "Ampicillin（22 mg/kg IV q8h，腸道屏障破壞後預防菌血症）"
+      ],
+      "surgery": "無手術治療適應症"
+    },
+    "prognosis": "死亡率約 36-50%。預後因素包括：體溫升高的持續時間（從發作到開始降溫的時間是最關鍵的預後因素）、最高核心體溫、DIC 的發展、低血糖、腎衰竭和神經症狀。48 小時內存活的犬預後改善。ALT >200 IU/L 在入院時與預後不良相關。器官功能可能需要數天到數週才能完全恢復。",
+    "pearls": [
+      "降溫速度是決定預後的最關鍵因素——目標在 30-60 分鐘內將體溫降至 39.5°C",
+      "絕對不要用冰水降溫——冰水導致周圍血管收縮反而阻礙散熱",
+      "肝酶（ALT）的峰值可能延遲 24-48 小時出現，入院時正常不代表沒有肝損傷",
+      "短頭犬即使在不熱的天氣中也可能因輕度運動而發生熱射病——飼主教育至關重要"
+    ],
+    "monitoring": [
+      "核心體溫每 5-15 分鐘監測（降溫過程中）",
+      "凝血功能（PT/aPTT/D-dimer）每 6-12 小時（前 48 小時）",
+      "肝酶和腎功能每 12-24 小時追蹤至少 72 小時",
+      "尿量監測（目標 >1-2 mL/kg/hr）"
+    ],
+    "reference": "Veterinary Technician's Manual for Small Animal Emergency and Critical Care, 2nd Edition"
+  },
+  "transfusion-reaction": {
+    "zh": "輸血反應",
+    "en": "Transfusion Reaction",
+    "definition": "動物接受血液或血液製品輸注後發生的不良免疫性或非免疫性反應。免疫介導性反應包括急性溶血反應（最嚴重）、發熱性非溶血反應和過敏反應；非免疫介導性反應包括容量超負荷、細菌污染和枸櫞酸毒性等。輸血反應是獸醫輸血醫學中最重要的併發症。",
+    "synonyms": ["輸血不良反應", "輸血併發症", "Adverse transfusion event"],
+    "epidemiology": {
+      "species": "犬貓均可發生",
+      "breed": "無品種好發性，但貓（因 AB 血型系統中 B 型貓對 A 型血有天然抗體）首次輸血即可能發生嚴重溶血反應",
+      "age": "任何年齡",
+      "sex": "無性別好發性",
+      "prevalence": "犬輸血反應發生率約 3-15%（多為發熱性非溶血反應）；貓不相容輸血的急性溶血反應發生率高"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "發燒或寒顫（最常見的輕度反應）",
+        "嘔吐",
+        "蕁麻疹或面部水腫（過敏反應）",
+        "呼吸困難或呼吸急促",
+        "心跳加速",
+        "低血壓或休克",
+        "血紅蛋白尿（紅褐色尿液，急性溶血時）",
+        "黃疸（延遲性溶血時）",
+        "不安躁動",
+        "顫抖",
+        "DIC 相關出血（嚴重溶血反應）"
+      ],
+      "physicalExam": [
+        "發燒（體溫升高 >1°C）",
+        "心跳加速",
+        "黏膜發紅或蒼白（取決於反應類型）",
+        "呼吸急促或費力",
+        "面部或全身水腫（過敏型）",
+        "注射部位蕁麻疹"
+      ]
+    },
+    "pathophysiology": "急性溶血反應：受者體內的抗體與供者紅血球表面抗原結合，啟動補體介導的血管內溶血或網狀內皮系統的血管外溶血。游離血紅蛋白導致腎小管損傷和急性腎衰竭；溶血產物啟動凝血級聯反應導致 DIC。發熱性非溶血反應（FNHTR）：受者抗體與供者白血球或血小板反應，釋放促炎細胞因子（IL-1、IL-6、TNF-α）引起發燒。過敏反應：受者 IgE 對供者血漿蛋白的即時型過敏反應，引起肥大細胞脫顆粒和組織胺釋放。容量超負荷（TACO）：過快輸注導致循環容量過多，引起肺水腫。",
+    "diagnosis": {
+      "primary": [
+        "臨床時序關係（輸血開始後出現新症狀）",
+        "輸血前後血型比對和交叉配對（crossmatch）回顧",
+        "直接抗球蛋白試驗（Coombs test）",
+        "輸血前後血漿顏色比較（溶血時呈粉紅至紅色）"
+      ],
+      "differential": [
+        "免疫介導性溶血性貧血（IMHA）惡化",
+        "敗血症（與基礎疾病相關）",
+        "過敏反應（藥物引起）",
+        "心因性肺水腫",
+        "基礎疾病的自然進展"
+      ],
+      "labFindings": [
+        "PCV/TS：輸血後 PCV 未升或反降（溶血反應）",
+        "血漿顏色：粉紅至紅色（血管內溶血）或黃色（延遲性溶血/膽紅素升高）",
+        "尿液：血紅蛋白尿",
+        "凝血功能：PT/aPTT 延長、D-dimer 升高（DIC）",
+        "Coombs 試驗陽性（免疫介導性溶血確認）"
+      ]
+    },
+    "treatment": {
+      "acute": "立即停止輸血；保留靜脈通路；急性溶血反應：積極靜脈輸液（利尿保護腎臟）、地塞米松（0.5-1 mg/kg IV）、Epinephrine（過敏性休克時 0.01 mg/kg IV/IM）；發熱性反應：降低輸注速度或停止，給予 Diphenhydramine",
+      "chronic": "記錄反應類型於病歷中；未來輸血需嚴格交叉配對；考慮使用洗滌紅血球（washed RBCs）或白血球減除（leukoreduced）血品",
+      "medications": [
+        "Diphenhydramine（1-2 mg/kg IM/IV，過敏反應）",
+        "Dexamethasone（0.5-1 mg/kg IV，嚴重過敏或溶血反應）",
+        "Epinephrine（0.01 mg/kg IV/IM，過敏性休克）",
+        "Furosemide（2-4 mg/kg IV，容量超負荷/TACO）",
+        "靜脈輸液（利尿保護腎臟，溶血反應時）"
+      ],
+      "surgery": "無手術治療"
+    },
+    "prognosis": "發熱性非溶血反應和輕度過敏反應預後良好。急性溶血反應的嚴重程度取決於輸注的不相容血量和溶血程度，可從輕度到致命不等。貓的 B 型血接受 A 型血的急性溶血反應死亡率極高。及早發現和停止輸血是改善預後的關鍵。",
+    "pearls": [
+      "貓的 B 型血有高力價的天然抗 A 抗體——B 型貓首次接受 A 型血即可發生致命溶血反應，因此貓輸血前必須做血型鑑定",
+      "犬首次輸血通常不會有嚴重溶血反應（缺乏預存抗體），但 4 天後抗體產生使第二次輸血風險大增",
+      "輸血開始後的前 15 分鐘以低速輸注（1 mL/kg/hr），密切觀察是否有反應",
+      "發燒是最常見的輸血反應，但不能僅因發燒就假設無大礙——需排除溶血和敗血症"
+    ],
+    "monitoring": [
+      "輸血期間每 15-30 分鐘監測體溫、心率、呼吸頻率",
+      "輸血前後 PCV/TS 和血漿顏色比較",
+      "尿液顏色和尿量監測",
+      "嚴重反應後追蹤凝血功能和腎功能 24-48 小時"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats, 4th Edition"
+  },
+  "drug-eruption": {
+    "zh": "藥物疹/藥物不良反應",
+    "en": "Drug Eruption (Cutaneous Adverse Drug Reaction)",
+    "definition": "使用藥物後引起的皮膚和/或黏膜不良反應，可由免疫介導機制（藥物過敏）或非免疫介導機制（藥物不耐受、毒性反應）引起。犬貓中的表現多樣，從輕度蕁麻疹到嚴重的中毒性表皮壞死鬆解症（TEN）均可發生。常見誘發藥物包括抗生素（尤其磺胺類）、NSAIDs 和抗癲癇藥。",
+    "synonyms": ["藥疹", "藥物過敏性皮膚反應", "Cutaneous drug reaction", "Drug hypersensitivity"],
+    "epidemiology": {
+      "species": "犬貓均可發生，犬更多報告",
+      "breed": "無明顯品種好發性，但 Doberman Pinscher 和 Rottweiler 對磺胺類藥物的反應有報告好發",
+      "age": "任何年齡，但先前曾暴露於致敏藥物者風險更高",
+      "sex": "無明顯性別好發性",
+      "prevalence": "確切發生率不明，估計佔所有藥物不良反應的 10-20%"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "皮膚紅斑或丘疹（多對稱分布）",
+        "蕁麻疹（urticaria）或血管性水腫",
+        "皮膚瘙癢",
+        "水泡或大泡（嚴重型）",
+        "皮膚潰瘍和糜爛",
+        "口腔黏膜潰瘍",
+        "眼結膜充血或潰瘍",
+        "發燒",
+        "Nikolsky 徵陽性（輕觸即脫皮，TEN 時）",
+        "食慾下降和嗜睡",
+        "關節痛或淋巴結腫大"
+      ],
+      "physicalExam": [
+        "多形態或單一形態的皮膚病變，常對稱分布",
+        "黏膜交界處（mucocutaneous junctions）受累：嘴唇、鼻鏡、眼瞼、外陰/包皮、肛門",
+        "Nikolsky 徵：輕度側向壓力導致表皮剝離（TEN 特徵）",
+        "發燒",
+        "淋巴結腫大",
+        "眼部檢查可能發現角膜潰瘍或結膜炎"
+      ]
+    },
+    "pathophysiology": "免疫介導型藥物疹涉及藥物或其代謝產物作為半抗原（hapten），與宿主蛋白結合形成完全抗原，誘導特異性免疫反應。Type I 反應（IgE 介導）導致蕁麻疹和血管性水腫。Type III 反應（免疫複合物）導致血管炎。Type IV 反應（T 細胞介導）導致遲發型皮疹和嚴重的全身型反應如 Stevens-Johnson 症候群（SJS）和中毒性表皮壞死鬆解症（TEN）。SJS/TEN 中，細胞毒性 T 細胞和 NK 細胞通過 Fas-FasL 途徑和 granulysin 直接殺死角質細胞，導致大面積表皮壞死和脫落。非免疫介導的反應包括劑量相關毒性和藥理學副作用。",
+    "diagnosis": {
+      "primary": [
+        "詳細藥物史和時間關係評估（給藥後數天至數週出現症狀）",
+        "停藥後症狀改善（最重要的診斷依據）",
+        "皮膚活檢組織病理學：界面性皮膚炎、角質細胞壞死、淋巴細胞浸潤",
+        "排除其他原因的皮膚疾病"
+      ],
+      "differential": [
+        "自身免疫性皮膚病（天疱瘡、狼瘡）",
+        "多形性紅斑（erythema multiforme）非藥物性",
+        "細菌性或真菌性皮膚感染",
+        "接觸性皮膚炎",
+        "蕁麻疹其他原因（食物、蟲咬）",
+        "淺表性壞死性皮膚炎"
+      ],
+      "labFindings": [
+        "CBC：嗜酸性球增多（部分病例）",
+        "生化：肝酶升高（磺胺類引起的 DRESS 反應）",
+        "皮膚活檢：表真皮交界處角質細胞凋亡、衛星細胞壞死（satellite cell necrosis）、淋巴細胞界面炎",
+        "尿液分析：排除藥物相關腎損傷"
+      ]
+    },
+    "treatment": {
+      "acute": "立即停用可疑藥物（最重要的步驟）；輕度反應（蕁麻疹）：抗組織胺和短期類固醇；嚴重反應（SJS/TEN）：住院支持治療，類似燒燙傷照護",
+      "chronic": "記錄過敏藥物於病歷中；避免同類藥物再次使用（交叉過敏）；SJS/TEN 恢復後長期追蹤眼部和黏膜併發症",
+      "medications": [
+        "Diphenhydramine（1-2 mg/kg PO/IM BID-TID，輕度過敏）",
+        "Prednisolone（1-2 mg/kg PO BID，中度反應；SJS/TEN 中是否使用仍有爭議）",
+        "Cyclosporine（5 mg/kg PO SID，嚴重或頑固型）",
+        "人類免疫球蛋白 IVIG（0.5-1 g/kg IV over 6-12h，SJS/TEN）",
+        "外用保濕和屏障修復產品"
+      ],
+      "surgery": "無手術治療；嚴重 TEN 可能需要皮膚傷口清創和類似燒傷的傷口照護"
+    },
+    "prognosis": "輕度藥物疹（蕁麻疹、丘疹）停藥後 1-3 週內通常完全恢復，預後極佳。SJS 的死亡率約 5-10%，TEN 的死亡率可達 30-50%。影響預後的因素包括：受累體表面積百分比、是否及時停藥、敗血症併發症和基礎健康狀態。",
+    "pearls": [
+      "停藥是最重要的治療步驟——藥物疹的鑑別診斷中，「最近開始或更換的藥物」是最關鍵的線索",
+      "磺胺類抗生素（TMP-sulfa）是犬最常見的引起嚴重藥物疹（SJS/TEN）的藥物",
+      "藥物疹可在給藥後數天到數週才出現，停藥後也可能短暫惡化",
+      "確診藥物疹後，應在病歷中永久記錄過敏藥物，並告知飼主避免未來再次使用"
+    ],
+    "monitoring": [
+      "停藥後每 3-7 天評估皮膚和黏膜病變的改善",
+      "SJS/TEN 住院患者每日監測體表受累面積、體溫、感染徵象",
+      "肝腎功能追蹤（藥物可能已造成多器官損傷）",
+      "眼科追蹤（SJS/TEN 可導致角膜瘢痕和乾眼症）"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats, 4th Edition"
+  },
+  "anaphylaxis-vaccine": {
+    "zh": "疫苗過敏反應",
+    "en": "Vaccine-Associated Anaphylaxis",
+    "definition": "接種疫苗後發生的急性全身性或局部性過敏反應，由 IgE 介導的 Type I 超敏反應引起。反應可從輕度（蕁麻疹、面部水腫）到危及生命的過敏性休克（anaphylactic shock）。犬的過敏性休克以消化道和肝臟為主要靶器官，貓以呼吸道為主要靶器官。",
+    "synonyms": ["疫苗過敏性休克", "疫苗不良反應", "Vaccine adverse event", "疫苗誘導性過敏反應"],
+    "epidemiology": {
+      "species": "犬貓均可發生",
+      "breed": "小型犬品種風險較高：Dachshund、Pug、Boston Terrier、Miniature Pinscher、Chihuahua；貓無明顯品種好發",
+      "age": "任何年齡；年輕動物首次多劑疫苗接種時風險可能較高",
+      "sex": "已絕育的犬風險可能稍高（部分流行病學研究）",
+      "prevalence": "整體發生率低（犬約 0.3-0.5%，貓約 0.05%）；但嚴重過敏性休克罕見（約十萬分之一）"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "蕁麻疹（urticaria）：面部、耳朵、軀幹的蕁麻疹丘疹",
+        "面部水腫（angioedema）：尤其眼周和嘴唇腫脹",
+        "嘔吐（犬過敏性休克的早期徵象）",
+        "急性腹瀉（可能帶血）",
+        "呼吸困難（貓為主，喉頭水腫或支氣管痙攣）",
+        "虛脫",
+        "低血壓/休克",
+        "瘙癢",
+        "過度流涎",
+        "抽搐（嚴重低氧時）"
+      ],
+      "physicalExam": [
+        "蕁麻疹性丘疹遍布面部和軀幹",
+        "面部和眼周水腫",
+        "心跳加速",
+        "黏膜蒼白或發紺（休克時）",
+        "CRT 延長",
+        "體溫可低（休克時）或升高（輕度反應）"
+      ]
+    },
+    "pathophysiology": "疫苗中的蛋白質成分（病毒/細菌抗原、殘留培養基蛋白如牛血清白蛋白、明膠穩定劑等）作為過敏原，與先前致敏產生的特異性 IgE 結合在肥大細胞和嗜鹼性球表面。再次暴露時，過敏原交聯 IgE，觸發肥大細胞脫顆粒，大量釋放組織胺、白三烯、前列腺素和血小板活化因子。犬的過敏性休克靶器官為肝靜脈和門靜脈系統（肝靜脈收縮導致門靜脈鬱血、肝腫大和低血壓）以及腸道（黏膜水腫和出血）。貓的靶器官為呼吸道（支氣管痙攣和喉頭水腫）。這些介質導致血管擴張、通透性增加、平滑肌痙攣和分泌增加。",
+    "diagnosis": {
+      "primary": [
+        "臨床診斷：疫苗接種後數分鐘至數小時內出現特徵性症狀",
+        "時間關係是最重要的診斷依據（通常在接種後 5-30 分鐘內發生）",
+        "排除其他急性過敏原因",
+        "病史回顧：先前疫苗反應史"
+      ],
+      "differential": [
+        "蟲咬過敏反應",
+        "食物過敏性急性反應",
+        "藥物過敏反應",
+        "急性蕁麻疹其他原因",
+        "血管性水腫其他原因",
+        "心因性休克"
+      ],
+      "labFindings": [
+        "通常不需要實驗室檢查即可診斷和治療",
+        "嚴重休克時：血液學可見血液濃縮、低蛋白",
+        "肝酶可能升高（犬門靜脈鬱血相關）",
+        "血氣分析：代謝性酸中毒（休克時）"
+      ]
+    },
+    "treatment": {
+      "acute": "輕度（蕁麻疹/面部水腫）：Diphenhydramine（2 mg/kg IM）+ Dexamethasone（0.25-0.5 mg/kg IV/IM）。過敏性休克：Epinephrine（0.01 mg/kg IM/IV，1:1000 稀釋液）是一線急救藥物；同時積極靜脈輸液擴容（shock dose）、氧氣治療",
+      "chronic": "未來疫苗接種策略調整：減少同時接種的疫苗數量、延長接種間隔、考慮抗體力價檢測替代常規追加接種、接種前給予抗組織胺預防",
+      "medications": [
+        "Epinephrine（0.01 mg/kg IM，過敏性休克一線藥物）",
+        "Diphenhydramine（2 mg/kg IM/IV，H1 抗組織胺）",
+        "Dexamethasone（0.25-1 mg/kg IV/IM）",
+        "靜脈輸液（犬 60-90 mL/kg/hr shock rate，貓 40-60 mL/kg/hr）",
+        "Aminophylline（5-10 mg/kg IV slowly，支氣管痙攣時）"
+      ],
+      "surgery": "無手術治療；嚴重喉頭水腫導致氣道完全阻塞時可能需要緊急氣管切開術"
+    },
+    "prognosis": "輕度反應（蕁麻疹、面部水腫）經治療後預後極佳，通常 12-24 小時內完全消退。過敏性休克若及時使用 Epinephrine 和積極支持治療，多數可以存活。未經治療的嚴重過敏性休克可在數分鐘至數小時內致命。曾有疫苗反應史的動物，未來再次接種同種疫苗的反應風險和嚴重程度均增加。",
+    "pearls": [
+      "Epinephrine 是過敏性休克的一線救命藥物——每間獸醫診所都必須備有，且所有人員應熟悉使用方法",
+      "犬的過敏性休克首先表現為嘔吐和腹瀉（肝臟/腸道為靶器官），與人類的呼吸道症狀不同",
+      "小型犬同時接種多種疫苗的反應風險較高——建議將疫苗分次接種，間隔 2-4 週",
+      "疫苗接種後建議在醫院觀察 20-30 分鐘——大多數嚴重反應在此時間內出現"
+    ],
+    "monitoring": [
+      "疫苗接種後留院觀察 20-30 分鐘",
+      "輕度反應治療後觀察 4-6 小時確認無遲發性惡化",
+      "過敏性休克治療後住院 12-24 小時（可能發生雙相反應 biphasic reaction）",
+      "記錄反應類型和嚴重程度於病歷中，用於未來接種策略規劃"
+    ],
+    "reference": "Lumb & Jones' Veterinary Anesthesia and Analgesia, 5th Edition; AAHA Canine Vaccination Guidelines"
+  }
+}

@@ -1,0 +1,980 @@
+{
+  "total_candidates": 97,
+  "confirmed_count": 97,
+  "failed_count": 0,
+  "confirmed_ids": [
+    "acanthosis-nigricans",
+    "acute-lymphoblastic-leukemia",
+    "agalactia",
+    "amphetamine-toxicosis",
+    "anaphylaxis-vaccine",
+    "anterior-uveitis",
+    "aplastic-anemia",
+    "apocrine-gland-adenocarcinoma",
+    "arrhythmogenic-rvc",
+    "basal-cell-tumor",
+    "bicipital-tenosynovitis",
+    "bilious-vomiting-syndrome",
+    "bromethalin-toxicosis",
+    "campylobacteriosis",
+    "canine-distal-polyneuropathy",
+    "canine-herpesvirus",
+    "canine-pattern-alopecia",
+    "cardiac-tamponade",
+    "cecal-inversion",
+    "cerebellar-abiotrophy",
+    "ceruminous-gland-adenocarcinoma",
+    "chemodectoma",
+    "chorioretinitis",
+    "chronic-enteropathy",
+    "chronic-lymphocytic-leukemia",
+    "clostridial-enteritis",
+    "coccidiosis",
+    "color-dilution-alopecia",
+    "colorectal-neoplasia",
+    "cor-pulmonale",
+    "corneal-dystrophy",
+    "corneal-sequestrum",
+    "cutaneous-vasculitis",
+    "drug-eruption",
+    "encephalitozoonosis",
+    "endocardiosis",
+    "endophthalmitis",
+    "episcleritis",
+    "erythema-multiforme",
+    "erythrocytosis",
+    "eyelid-agenesis",
+    "feline-coronavirus-enteric",
+    "fibrotic-myopathy",
+    "follicular-dysplasia",
+    "gastrointestinal-stromal-tumor",
+    "heat-stroke-exertional",
+    "heinz-body-anemia",
+    "helicobacter-infection",
+    "hemangioma",
+    "hemotropic-mycoplasma",
+    "hepatocellular-carcinoma",
+    "histiocytic-ulcerative-colitis",
+    "hypertrophic-osteopathy",
+    "intertrigo",
+    "intestinal-adenocarcinoma",
+    "intestinal-lymphangiectasia",
+    "iron-toxicosis",
+    "luxating-shoulder",
+    "lysosomal-storage-disease",
+    "macadamia-nut-toxicosis",
+    "mastitis",
+    "mesothelioma",
+    "methemoglobinemia",
+    "microangiopathic-hemolytic-anemia",
+    "mushroom-toxicosis",
+    "onion-garlic-toxicosis",
+    "optic-neuritis",
+    "osteomyelitis",
+    "penile-neoplasia",
+    "peripheral-neuropathy",
+    "permethrin-toxicosis",
+    "phthisis-bulbi",
+    "primary-immune-deficiency",
+    "prostatitis",
+    "renal-amyloidosis",
+    "renal-infarction",
+    "retained-placenta",
+    "salmonellosis",
+    "salt-toxicosis",
+    "scottie-cramp",
+    "septic-arthritis",
+    "spinal-arachnoid-diverticulum",
+    "ssri-toxicosis",
+    "status-epilepticus",
+    "streptococcal-infection",
+    "strychnine-toxicosis",
+    "subinvolution-placental-sites",
+    "superficial-necrolytic-dermatitis",
+    "thyroid-adenoma",
+    "toxic-epidermal-necrolysis",
+    "transfusion-reaction",
+    "tremor-syndrome",
+    "ununited-anconeal-process",
+    "ureteral-obstruction",
+    "uterine-rupture",
+    "vaginal-prolapse",
+    "yersiniosis"
+  ],
+  "failed_ids": [],
+  "details": [
+    {
+      "id": "hepatocellular-carcinoma",
+      "query": "hepatocellular carcinoma liver tumor dog",
+      "best_score": 0.7194,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 4935",
+      "content_preview": "NS\nr ALP = alkaline phosphatase r ALT =\nalanine aminotransferase r AST = aspartate\naminotransferase r DIC = disseminated\nintravascular coagulation\nSuggested Reading\nCave TA, Johnson V, Beths T, et al.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "intestinal-adenocarcinoma",
+      "query": "intestinal adenocarcinoma small bowel tumor dog cat",
+      "best_score": 0.7322,
+      "source": "Veterinary Surgical Oncology - 片段 1377",
+      "content_preview": "en surgical excision is warranted. When \na large tumor burden is present, owners should be coun-\nseled about the possibility of intestinal perforation if a \nrapid response to chemotherapy is elicited.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "apocrine-gland-adenocarcinoma",
+      "query": "apocrine gland anal sac adenocarcinoma dog",
+      "best_score": 0.7569,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 390",
+      "content_preview": "Gliatto JM, Dodge RK, et al.\nCarcinoma of the apocrine glands of the\nanal sac in dogs: 113 cases (1985–1995).\nJ Am Vet Med Assoc 2003, 223:825–831.\nAuthor Laura D. Garrett\nConsulting Editor Timothy M.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "basal-cell-tumor",
+      "query": "basal cell tumor skin neoplasia dog cat",
+      "best_score": 0.739,
+      "source": "Cancer Management in Small Anim - Carolyn J. Henry Dvm Ms Dacvim  - 片段 1617",
+      "content_preview": "s; \ndogs with multiple \ntumors are prone to \ndeveloping more le­\nsions and may ben­\nefit from long-term \nretinoid therapy41\nTABLE 23-3 BENIGN EPITHELIAL TUMORS OF THE SKIN OF DOGS AND CATS42—cont’d\n\n\n",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "ceruminous-gland-adenocarcinoma",
+      "query": "ceruminous gland ear canal tumor cat",
+      "best_score": 0.7427,
+      "source": "Withrow and MacEwens Small Anim - Wei Zhi - 片段 2679",
+      "content_preview": "t of choice is adequate surgical excision.\nCeruminous gland cysts can be found in cats. These are darkly \npigmented, sessile masses that are usually smaller than 5 mm in \ndiameter and can be multiple.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "thyroid-adenoma",
+      "query": "thyroid adenoma benign thyroid tumor cat",
+      "best_score": 0.7181,
+      "source": "Withrow and MacEwens Small Anim - Wei Zhi - 片段 473",
+      "content_preview": "adenomatous \nhyperplasia of the thyroid gland in cats or sebaceous gland adenoma \nversus sebaceous gland hyperplasia the distinction between benign \ntumor and hyperplasia is not clinically important.\n",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "chemodectoma",
+      "query": "chemodectoma aortic body tumor heart base dog",
+      "best_score": 0.7233,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 4233",
+      "content_preview": "muffled heart sounds)\nFindings consistent with right-sided congestive heart failure (ascites, hepatomegaly jugular distention/pulsation)\n± Tachypnea/dyspnea\nETIOLOGY AND PATHOPHYSIOLOGY\nChemodectoma:\n",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "mesothelioma",
+      "query": "mesothelioma pleural peritoneal neoplasia dog",
+      "best_score": 0.7278,
+      "source": "Geriatrics Gerontology of the D - Wei Zhi - 片段 643",
+      "content_preview": "e invasive nature of most\nthymomas in dogs makes surgical resection\ndifﬁcult.\nMesotheliomas are rare neoplasms that arise as\npapillomatous growths on the pleural, pericardial,\nand peritoneal surfaces.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "hemangioma",
+      "query": "hemangioma benign vascular tumor skin dog",
+      "best_score": 0.7072,
+      "source": "Withrow and MacEwens Small Anim - Wei Zhi - 片段 3055",
+      "content_preview": "mangiosarcomas (HSAs) are tumors of vas-\ncular endothelial origin. Hemangioma is a benign tumor that can \noccur in a variety of sites, including skin, liver, spleen, kidneys, \nbone, tongue, and heart.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "histiocytic-ulcerative-colitis",
+      "query": "histiocytic ulcerative colitis boxer dog",
+      "best_score": 0.7195,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 4438",
+      "content_preview": "eaten terriers and Lundehunds. Histiocytic ulcerative colitis is common in boxers.\nASSOCIATED CONDITIONS & DISORDERS\nDog: soft-coated wheaten terriers often have concurrent protein-losing nephropathy.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "salmonellosis",
+      "query": "salmonellosis salmonella infection dog cat",
+      "best_score": 0.6976,
+      "source": "Pathologic Basis of Veterinary Disease  VETERINARY CONSULT Version to be sold vi",
+      "content_preview": "y, anti-\nbiotic treatment of ill animals may create false-negative\nbacterial cultures. Although dogs and cats rarely get\nclinical salmonellosis, 10% are carriers and can infect\ntheir human companions.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "campylobacteriosis",
+      "query": "campylobacteriosis campylobacter diarrhea dog",
+      "best_score": 0.7029,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 1581",
+      "content_preview": "hould be taken to avoid any risk of fecal contamination to other hospital patients or staff.\nCLIENT EDUCATION\nOwners should be informed that this is a zoonotic disease and humans are very susceptible.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "hemotropic-mycoplasma",
+      "query": "hemotropic mycoplasma haemobartonella feline",
+      "best_score": 0.729,
+      "source": "BSAVA Manual of Canine and Feline Haematology and Transfusion Medicine, Second E",
+      "content_preview": "pectively. \n• \nHaemotropic Mycoplasma spp. (Mycoplasma \nhaemofelis, ‘Candidatus Mycoplasma \nhaemominutum’, ‘Candidatus Mycoplasma \nturicensis’) should be evaluated by polymerase \nchain reaction (PCR).",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "yersiniosis",
+      "query": "yersiniosis yersinia infection dog cat",
+      "best_score": 0.5692,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 6895",
+      "content_preview": "Crit Care\n16(1):253, 2006.\nAUTHOR: MICHAEL KNIGHT\nEDITOR: SADFAR A. KHAN\n1ST EDITION AUTHOR: CAROLINE W. DONALDSON\nPlant Toxicoses\nhttp://www.clinicalvetadvisor2.com/html/bc/ch002s001_s016_s050.php...",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "streptococcal-infection",
+      "query": "streptococcal toxic shock syndrome necrotizing fasciitis dog",
+      "best_score": 0.7564,
+      "source": "Canine&Feline Anesthesia& Co-Ex - Wei Zhi - 片段 1556",
+      "content_preview": "osp Assoc 41:104–9.\n52 Miller CW, Prescott JF, Mathews KA, et al. 1996. Strep-\ntococcal toxic shock syndrome in dogs. J Am Vet Med Assoc\n209:1421–6.\n53 Prescott JF, Miller CW, Mathews KA, et al. 1997.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "helicobacter-infection",
+      "query": "helicobacter gastritis dog cat",
+      "best_score": 0.7319,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 4655",
+      "content_preview": "pets may serve as a reservoir for the\ntransmission of Helicobacter spp. to human\nbeings. r H. pylori, H. heilmannii, and H. felis\nhave been isolated from humans with\ngastritis. r H. fennelliae and H. ",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "encephalitozoonosis",
+      "query": "encephalitozoon cuniculi rabbit cat dog",
+      "best_score": 0.6975,
+      "source": "Fowler's Zoo and Wild Animal Me - R. Eric Miller Dvm Daczm - 片段 2912",
+      "content_preview": "an obligate, intracellular, protozoan parasite. Transmission \nis generally by ingestion or by oral inoculation of infective spores \nshed in urine, although transplacental transmission also may occur. ",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "canine-herpesvirus",
+      "query": "canine herpesvirus neonatal puppy CHV",
+      "best_score": 0.7897,
+      "source": "Drug Therapy for Infectious Diseases of the Dog and Cat - 片段 453",
+      "content_preview": "es Virus \n(Canine)\nMicrobiology/epidemiology\nCanine herpesvirus (CHV‐1) is found worldwide in \ndomestic and wild canine species. It is associated with \nacute neonatal death or “fading puppy syndrome”.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "feline-coronavirus-enteric",
+      "query": "feline enteric coronavirus diarrhea",
+      "best_score": 0.7379,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 865",
+      "content_preview": "hea. The virus\nremains infective for 2-3 days at room temperature (several days longer at temperatures just above freezing) and may be\ntransmitted to other animals via infected litterboxes or fomites.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "coccidiosis",
+      "query": "coccidiosis isospora eimeria intestinal protozoa puppy kitten",
+      "best_score": 0.6944,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 1135",
+      "content_preview": "is confirmed to be caused by Cystoisospora by simple microscopic fecal examination.\nDIFFERENTIAL DIAGNOSIS\nCoccidiosis, Intestinal\nhttp://www.clinicalvetadvisor2.com/html/bc/ch002s001_s003_s039.php...",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "bromethalin-toxicosis",
+      "query": "bromethalin rodenticide neurotoxin cerebral edema",
+      "best_score": 0.7002,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 9179",
+      "content_preview": "is is poor for the\nseverely affected animals. r Prevent ongoing\nrodenticide ingestion.\nMISCELLANEOUS\nRelay toxicity arising from the consumption\nof animals poisoned with bromethalin has\nbeen reported.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "mushroom-toxicosis",
+      "query": "mushroom toxicosis amanita hepatotoxic dog",
+      "best_score": 0.7861,
+      "source": "Blackwell's Five-Minute Veterinary Consult Clinical Companion Small Animal Toxic",
+      "content_preview": "ntrations in Amanita spp. vary depending on growing conditions, \nmoisture, and time of year. Hence, it is very difﬁ cult to estimate the minimum \namount of mushroom material needed to cause poisoning.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "macadamia-nut-toxicosis",
+      "query": "macadamia nut toxicosis dog weakness tremor",
+      "best_score": 0.8114,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 5613",
+      "content_preview": "is possible.\nForelimb weakness without hind limb weakness is inconsistent with macadamia nut toxicosis.\nRespiratory muscle paralysis likewise has not been a feature of macadamia nut toxicosis in dogs.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "onion-garlic-toxicosis",
+      "query": "onion garlic allium toxicosis Heinz body hemolysis",
+      "best_score": 0.7081,
+      "source": "BSAVA Manual of Canine and Feline Haematology and Transfusion Medicine, Second E",
+      "content_preview": "y pass through the splenic \nsinuses or lysed directly within the circulation. Heinz \nbodies are 0.5–1 +m in diameter and their presence \nmay be shown by a supravital stain such as new \nmethylene blue.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "ssri-toxicosis",
+      "query": "SSRI serotonin syndrome toxicosis dog",
+      "best_score": 0.7204,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 956",
+      "content_preview": "that present in status epilepticus or\nwith severe hyperthermia have a guarded\nprognosis.\nMISCELLANEOUS\nAGE-RELATED FACTORS\nYoung and elderly animals are more at risk for\ndeveloping serious toxicosis.\n",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "amphetamine-toxicosis",
+      "query": "amphetamine ADHD medication toxicosis dog",
+      "best_score": 0.6939,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 715",
+      "content_preview": "Veterinary Consult\nAmphetamine and ADD/ADHD Medication Toxicosis\n(Continued)\nA\nCLIENT EDUCATION\nIn case of an exposure, owner should contact\nlocal veterinarian or veterinary poison center\nimmediately.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "salt-toxicosis",
+      "query": "salt sodium toxicosis hypernatremia brain edema",
+      "best_score": 0.7099,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 8505",
+      "content_preview": "nal function by inhibiting glycolysis, leading to decreased energy production. Sodium requires active transport to move\nfrom the CSF back to the serum; decreased energy production limits this process.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "iron-toxicosis",
+      "query": "iron toxicosis GI hemorrhage hepatotoxicity",
+      "best_score": 0.6483,
+      "source": "Blackwell's Five-Minute Veterinary Consult Clinical Companion Small Animal Toxic",
+      "content_preview": "xic dose (dogs) \n ● < 20 mg/kg of ionizable iron is nontoxic. \n ● 20 – 60 mg/kg of ionizable iron can result in clinical signs. \n ● > 60 mg/kg of ionizable iron can result in serious clinical disease.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "strychnine-toxicosis",
+      "query": "strychnine toxicosis seizure tetanic convulsion",
+      "best_score": 0.685,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 7999",
+      "content_preview": "ng in generalized rigidity and tonic-clonic seizures caused by these direct central nervous system (CNS) effects.\nDeath usually results from respiratory arrest and exhaustion from prolonged seizuring.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "permethrin-toxicosis",
+      "query": "permethrin pyrethroid toxicosis cat tremor",
+      "best_score": 0.7635,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 6175",
+      "content_preview": "bel.\nCats are very sensitive to concentrated permethrin-based dog-only topical products.\nSystemic CNS effects unlikely if animals access a sprayed area after it has dried.\nTremors may last for 3 days.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "status-epilepticus",
+      "query": "status epilepticus prolonged seizure emergency treatment",
+      "best_score": 0.6701,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 8469",
+      "content_preview": "eduction in seizure frequency and severity is a principal goal; acceptable seizure control for the owner (e.g., could be <1\nseizure per 6-8 weeks) without significant side effects from the medication.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "cerebellar-abiotrophy",
+      "query": "cerebellar abiotrophy cortical degeneration ataxia",
+      "best_score": 0.7293,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 1478",
+      "content_preview": "efect such as a defect in glutamate\nmetabolism, causing excitotoxic injury to the cerebellar Purkinje cells.\nCerebellar Abiotrophy\nhttp://www.clinicalvetadvisor2.com/html/bc/ch002s001_s003_s016.php...",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "peripheral-neuropathy",
+      "query": "peripheral neuropathy polyneuropathy weakness",
+      "best_score": 0.5947,
+      "source": "Textbook of Veterinary Internal Medicine - 片段 749",
+      "content_preview": "lapse. Painful\nepisodes of muscle cramps are extremely rare.79 Secondary hypoglycemia may contribute to generalized\nweakness. Treatment with physiologic doses of glucocorticoids (e.g., prednisolone 0.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "lysosomal-storage-disease",
+      "query": "lysosomal storage disease neuronal ceroid lipofuscinosis",
+      "best_score": 0.659,
+      "source": "A textbook of the diseases of c - vetsam - 片段 20188",
+      "content_preview": "nt in neurons and many other \ncell types within the body. \nThe disease is recorded in South \nHampshire sheep,l Rambouillet sheep,2,3 \nBorderdale sheep,4 Merino sheep,s Nubian \ngoats, and Devon cattle.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "spinal-arachnoid-diverticulum",
+      "query": "spinal arachnoid cyst diverticulum myelopathy",
+      "best_score": 0.6106,
+      "source": "Textbook of Veterinary Diagnost - Donald E. Thrall Dvm Phd Dacvr - 片段 1078",
+      "content_preview": "ng is present, \nthe term arachnoid diverticula is used here. These lesions are \noften congenital but can be associated with spinal cord trauma, \nintervertebral disc disease, or previous arachnoiditis.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "scottie-cramp",
+      "query": "scottie cramp hyperkinetic movement disorder",
+      "best_score": 0.61,
+      "source": "Saunders Comprehensive Veterina - Virginia P. Studdert - 片段 2834",
+      "content_preview": "ary deﬁciency of calcium.\nScottie c., Scotch c. an inherited defect in Scottish terriers that\noccurs as hyperkinetic episodes from an early age, but may only\nbe precipitated by exercise or excitement.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "canine-distal-polyneuropathy",
+      "query": "distal polyneuropathy sensorimotor neuropathy",
+      "best_score": 0.5273,
+      "source": "Emergency Procedures for the Sm - Signe J. Plunkett Dvm - 片段 1471",
+      "content_preview": "uscle tone and strength.\nE. Reassess the patient’s neurologic status frequently. Postural reactions, \nhopping, and gait assessment are not recommended as they may \nincrease the severity of the lesion.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "tremor-syndrome",
+      "query": "idiopathic generalized tremor syndrome white shaker dog",
+      "best_score": 0.7492,
+      "source": "Textbook of Veterinary Internal Medicine - 片段 1270",
+      "content_preview": "ee ch. 151).36\n547\n\n\nFIGURE 32-1\n Management algorithm for tremorgenic intoxication. +/−, With or without; AED, anti-\nepilepsy drug; CRI, constant rate infusion; h, hour; IV, intravenous; min, minute.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "erythema-multiforme",
+      "query": "erythema multiforme drug reaction skin target lesion",
+      "best_score": 0.664,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 2795",
+      "content_preview": "distinguishable from\nvasculitis and erythema multiforme.\nr Erythema multiforme—erythematous\nmacules or plaques expand peripherally and\nmay clear in the center (targetoid); multiple\nshapes/forms noted.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "toxic-epidermal-necrolysis",
+      "query": "toxic epidermal necrolysis Stevens-Johnson TEN skin",
+      "best_score": 0.6643,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 2254",
+      "content_preview": "or infections (herpesvirus, parvovirus) or is idiopathic.\nTEN is usually associated with drug therapy but can be idiopathic.\nThe mechanism of the EM-TEN spectrum diseases seems to be immune mediated. ",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "color-dilution-alopecia",
+      "query": "color dilution alopecia blue fawn follicular dysplasia",
+      "best_score": 0.6377,
+      "source": "Saunders Comprehensive Veterina - Virginia P. Studdert - 片段 408",
+      "content_preview": "evere inﬂammatory\nreactions, sometimes immune-mediated, in the skin.\ncollar frictional a. loss of hair around the neck occurs in some\ncats wearing collars. It is reversible when the collar is removed.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "follicular-dysplasia",
+      "query": "follicular dysplasia cyclic alopecia",
+      "best_score": 0.6728,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 2733",
+      "content_preview": "l folliculitis that can aggravate the hair loss and may cause pruritus.\nBHFD: progressive alopecia and excessive scaling, exclusively involving the black-haired areas, seen as early as 4 weeks of\nage.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "cutaneous-vasculitis",
+      "query": "cutaneous vasculitis skin hemorrhage necrosis dog",
+      "best_score": 0.6816,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 9362",
+      "content_preview": "lesions varies according to the disease. Fever is often present.\nThrombovascular pinnal vasculitis: notching of pinnal margins at tip and/or well-demarcated ulcers on the concave aspect of\nthe pinna.\n",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "superficial-necrolytic-dermatitis",
+      "query": "superficial necrolytic dermatitis hepatocutaneous erythema migrans",
+      "best_score": 0.6416,
+      "source": "Geriatrics Gerontology of the D - Wei Zhi - 片段 1258",
+      "content_preview": "t in intra-\nepidermal clefts and vesicles.\n236\nGeriatrics and Gerontology of the Dog and Cat\nFigure 14-25. Periocular crusting on a miniature pinscher\nwith necrolytic migratory erythema.\nFigure 14-26.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "canine-pattern-alopecia",
+      "query": "canine pattern alopecia ear pinnae ventral",
+      "best_score": 0.7097,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 7208",
+      "content_preview": "pinnal type, and it is most likely the same\ndisorder.\nHISTORY, CHIEF COMPLAINT: Dogs born with a normal hair coat are presented for evaluation of a gradual thinning of the coat in\nspecific body areas.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "acanthosis-nigricans",
+      "query": "acanthosis nigricans axillary hyperpigmentation dachshund",
+      "best_score": 0.7516,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 1064",
+      "content_preview": "r pigmented tumors\nAcanthosis nigricans in dachshunds: localized to axillae. A reaction pattern with multiple causes (friction, infection,\nhypersensitivity) is more likely than a primary genetic form.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "intertrigo",
+      "query": "intertrigo skin fold dermatitis pyoderma",
+      "best_score": 0.5942,
+      "source": "Saunders Comprehensive Veterina - Virginia P. Studdert - 片段 3200",
+      "content_preview": "of all ages affecting head, perineum, ventral abdomen.\ninfectious d. of piglets see contagious porcine pyoderma.\ninhalant d. see canine atopy.\ninterdigital d. see interdigital dermatitis.\ninterface d.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "corneal-sequestrum",
+      "query": "corneal sequestrum corneal nigrum feline",
+      "best_score": 0.7297,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 933",
+      "content_preview": "6\n24-09-2011 18:26\n\n\nCorneal Sequestration, Cat\nBASIC INFORMATION \nDEFINITION\nCorneal sequestration is a disease unique to cats, characterized by an area of necrotic cornea that is variably pigmented.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "corneal-dystrophy",
+      "query": "corneal dystrophy crystalline stromal lipid dog",
+      "best_score": 0.7394,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 951",
+      "content_preview": "evious or concurrent corneal disease.\nLipid keratopathy is a typically bilateral, predominantly peripheral corneal stromal lipid infiltrate secondary to\ndyslipoproteinemias of systemic disease origin.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "optic-neuritis",
+      "query": "optic neuritis sudden blindness pupil dilation",
+      "best_score": 0.6747,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 6068",
+      "content_preview": "tina with\noptic neuritis. Exception: if the intraocular portion of optic nerve (i.e., optic disk) is affected with optic neuritis, the\nclinician may detect peripheral retinal edema and/or hemorrhages.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "chorioretinitis",
+      "query": "chorioretinitis posterior uveitis retinal inflammation",
+      "best_score": 0.6404,
+      "source": "Textbook of Veterinary Internal Medicine - 片段 706",
+      "content_preview": "ffect the choroid and/or retina without affecting the anterior uvea as well. The\ncauses for choroiditis, retinitis, and chorioretinitis are similar to the causes for anterior uveitis in dogs and\ncats.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "episcleritis",
+      "query": "episcleritis nodular granulomatous scleritis dog",
+      "best_score": 0.725,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 2302",
+      "content_preview": "tis/Scleritis\nhttp://www.clinicalvetadvisor2.com/html/bc/ch002s001_s005_s017.php...\n2 de 4\n24-09-2011 19:56\n\n\nSerologic titers for infectious diseases if supportive systemic signs (e.g., T. gondii; E.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "endophthalmitis",
+      "query": "endophthalmitis intraocular infection panophthalmitis",
+      "best_score": 0.6005,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 933",
+      "content_preview": "r Iridal swelling.\nr Reduced IOP is consistent with uveitis but\nis not a uniform finding. r Posterior\nsynechia—adhesions between posterior iris\nand anterior lens surface. r Fibrin in anterior\nchamber.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "anterior-uveitis",
+      "query": "anterior uveitis iridocyclitis aqueous flare dog cat",
+      "best_score": 0.7307,
+      "source": "Handbook of Canine and Feline E - Nand - 片段 348",
+      "content_preview": "ee blepharospasm, conjunctival hyperemia, protrusion of\nthird eyelid, miosis, increased lacrimation, abnormalities of anterior chamber (aqueous flare),\nhyphema, hypopyon, and swollen or “fluffy” iris.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "phthisis-bulbi",
+      "query": "phthisis bulbi end stage eye atrophy",
+      "best_score": 0.6314,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 6107",
+      "content_preview": "hypoplasia with or without optic nerve coloboma, staphyloma, retinal\ndetachment, and intraocular hemorrhage\nPhthisis bulbi is associated with:\nUntreated or poorly responsive ocular inflammation (e.g.,",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "eyelid-agenesis",
+      "query": "eyelid agenesis coloboma congenital cat",
+      "best_score": 0.6953,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 2469",
+      "content_preview": "ent\nto blindness.\nPhysical Examination Findings\nr Anophthalmos—congenital lack of the\nglobe; exceedingly rare. r Microphthalmos—\ncongenitally small eye; often associated with\nother hereditary defects.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "mastitis",
+      "query": "mastitis mammary gland infection lactating dog cat",
+      "best_score": 0.7092,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 6659",
+      "content_preview": "bles\nConsulting Editor Timothy M. Fan\nClient Education Handout\navailable online\n\n\nCanine and Feline, Sixth Edition\n851\nMastitis\nM\nBASICS\nOVERVIEW\nr Bacterial infection of one or more lactating\nglands.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "vaginal-prolapse",
+      "query": "vaginal prolapse hyperplasia estrogen dog",
+      "best_score": 0.7316,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 9395",
+      "content_preview": "of the vaginal mucosa cranial to the urethral orifice; an uncommon disorder that occurs during estrogen\nstimulation in the intact bitch. It may progress to vaginal protrusion through the vulvar lips.\n",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "agalactia",
+      "query": "agalactia lack milk production lactation failure",
+      "best_score": 0.694,
+      "source": "Management of Pregnant and Neonatal Dogs, Cats, and Exotic Pets - 片段 171",
+      "content_preview": "t May Affect Neonatal Health\nAgalactia/Hypogalactia/Galactostasis\nAgalactia, or the absence of milk, is uncommon in \nthe bitch. It may be primary or secondary, with the \nlatter being much more common.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "retained-placenta",
+      "query": "retained placenta fetal membrane postpartum",
+      "best_score": 0.6813,
+      "source": "Current Therapy in Large Animal Theriogenology - 片段 845",
+      "content_preview": "on\nof the fetal membranes. The length of time varies among\nauthors from 30 minutes to 6 to 12 hours.2 Retention of\nfetal membranes has also been described as retained \nplacenta or retained afterbirth.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "subinvolution-placental-sites",
+      "query": "subinvolution placental sites postpartum hemorrhage dog",
+      "best_score": 0.7283,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 7944",
+      "content_preview": "ration (1995-2002). J Vet Intern\nMed 18:65, 2004.\nAUTHOR: VINCENT DEFALQUE\nEDITOR: MANON PARADIS\nSuperficial Necrolytic Dermatitis\nhttp://www.clinicalvetadvisor2.com/html/bc/ch002s001_s018_s045.php...",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "uterine-rupture",
+      "query": "uterine rupture perforation dystocia",
+      "best_score": 0.6231,
+      "source": "BSAVA Manual of Canine and Feli - Gary England - 片段 892",
+      "content_preview": "are at risk of desiccation and infection from exposure \nand contamination. The size of most bitches and \nqueens precludes manual replacement; laparotomy \nand ovariohysterectomy are usually indicated. ",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "prostatitis",
+      "query": "prostatitis bacterial prostatic infection dog",
+      "best_score": 0.7272,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 1441",
+      "content_preview": "te bacterial prostatitis—typically\nassociated with fever, depression, pain on\nrectal palpation, neutrophilia, pyuria, and\nbacteriuria; may occur concurrently in dogs\nwith benign prostatic hyperplasia.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "penile-neoplasia",
+      "query": "transmissible venereal tumor penile mass",
+      "best_score": 0.6937,
+      "source": "Textbook of Veterinary Internal Medicine - 片段 1621",
+      "content_preview": "44-16). The prevalence of transmissible venereal tumor varies with\ngeographical location (E-Figure 44-17). A complete physical examination, including the male reproductive\ntract, should be performed.7",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "aplastic-anemia",
+      "query": "aplastic anemia pancytopenia bone marrow failure",
+      "best_score": 0.6666,
+      "source": "BSAVA Manual of Canine and Feline Haematology and Transfusion Medicine, Second E",
+      "content_preview": "lastic anaemia\nAplastic anaemia (also called aplastic pancyto-\npenia) is characterized by marked depletion of \nhaemopoietic cells in the bone marrow and replace-\nment of these cells by adipose tissue.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "heinz-body-anemia",
+      "query": "Heinz body hemolytic anemia oxidative damage",
+      "best_score": 0.7004,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 791",
+      "content_preview": "ethemoglobinemia may exacerbate Heinz\nbody formation.\nALTERNATIVE DRUG(S)\nThe use of dietary antioxidants (e.g.,\nbioflavonoids) is controversial but may help\nprevent further formation of Heinz bodies.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "methemoglobinemia",
+      "query": "methemoglobinemia brown blood cyanosis",
+      "best_score": 0.7274,
+      "source": "Textbook of Veterinary Internal Medicine - 片段 1838",
+      "content_preview": "ts with concomitant pulmonary\nhypertension or pulmonary stenosis, pulmonary artery atresia, hypoplastic right ventricle, double outlet right\nventricle and transposition of great vessels (see ch. 250).",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "microangiopathic-hemolytic-anemia",
+      "query": "microangiopathic hemolytic anemia schistocyte fragmentation",
+      "best_score": 0.6653,
+      "source": "Veterinary Technician&#39;s Manual for Small Animal Emergency and Critical Care ",
+      "content_preview": "sequently pulled out of circulation by the MPS system. Schistocytes are \ncommonly found on a blood smear. Treatment of microangiopathic hemolytic anemia \nincludes correction of the underlying disease.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "erythrocytosis",
+      "query": "erythrocytosis polycythemia secondary primary absolute",
+      "best_score": 0.715,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 11762",
+      "content_preview": "cyte count of blood. Occurs from increase in the circulating erythrocytes only (relative polycythemia) or an increase in both\ncirculating erythrocytes and erythropoietic cells (absolute polycythemia).",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "chronic-lymphocytic-leukemia",
+      "query": "chronic lymphocytic leukemia CLL mature lymphocytes",
+      "best_score": 0.6827,
+      "source": "BSAVA Manual of Canine and Feline Haematology and Transfusion Medicine, Second E",
+      "content_preview": "y is a \npersistent lymphocytosis, consisting of mature lym-\nphocytes, which may be mild to very marked (6–200 \n= 109/l). The lymphocyte count may fluctuate but \ngenerally increases steadily over time.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "acute-lymphoblastic-leukemia",
+      "query": "acute lymphoblastic leukemia ALL blast cells",
+      "best_score": 0.755,
+      "source": "BSAVA Manual of Canine and Feline Haematology and Transfusion Medicine, Second E",
+      "content_preview": "ntification of blasts in the blood and bone marrow \ntogether with immunophenotyping. The blast cells \nare usually intermediate in size (approximately twice \nthe diameter of a red blood cell (RBC; i.e.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "septic-arthritis",
+      "query": "septic arthritis infectious joint bacterial dog",
+      "best_score": 0.7048,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 1069",
+      "content_preview": ".\nClements DN, Owen MR, Mosely JR, et al.\nRetrospective study of bacterial infective\narthritis in 31 dogs. J Small Anim Pract\n2005, 46:171–176.\nEllison RS. The cytologic examination of\nsynovial fluid.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "osteomyelitis",
+      "query": "osteomyelitis bone infection bacterial fungal",
+      "best_score": 0.6265,
+      "source": "Antimicrobial Therapy in Veterinary Medicine - 片段 2230",
+      "content_preview": "the bone still contain infected tissue or a \nsequestrum. The infected foci are surrounded by scle-\nrotic, avascular bone covered by a thickened periosteum \nand scarred muscle and subcutaneous tissue. ",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "bicipital-tenosynovitis",
+      "query": "bicipital tenosynovitis shoulder lameness dog",
+      "best_score": 0.6866,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 511",
+      "content_preview": "h002s001_s002_s013.php...\n4 de 5\n23-09-2011 23:08\n\n\nAUTHOR: DAVID HOLT\nEDITOR: RICHARD WALSHAW\nBile Duct Obstruction, Extrahepatic\nhttp://www.clinicalvetadvisor2.com/html/bc/ch002s001_s002_s013.php...",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "fibrotic-myopathy",
+      "query": "fibrotic myopathy contracture infraspinatus gracilis",
+      "best_score": 0.6389,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 6926",
+      "content_preview": "res:\n■These animals are typically not painful\non palpation of the gracilis,\nsemitendinosus or semimembranosus\nmuscles.\n■Palpation of a fibrous band in the area\nof the affected muscle is also apparent.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "hypertrophic-osteopathy",
+      "query": "hypertrophic osteopathy periosteal proliferation pulmonary",
+      "best_score": 0.7175,
+      "source": "Textbook of Veterinary Diagnost - Donald E. Thrall Dvm Phd Dacvr - 片段 1640",
+      "content_preview": "al fluid \naccumulation.\nHypertrophic Osteopathy\nHypertrophic osteopathy is a generalized osteoproductive dis­\norder of the periosteum that affects the long and short tubular \nbones of the extremities.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "luxating-shoulder",
+      "query": "medial shoulder luxation instability toy breed",
+      "best_score": 0.6418,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 8347",
+      "content_preview": "r manipulations. Dogs carry the limb\nin flexion with the foot externally rotated (medial luxation) or internally rotated (lateral luxation). The greater tubercle is\ndisplaced relative to the acromion.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "ununited-anconeal-process",
+      "query": "ununited anconeal process elbow dysplasia UAP",
+      "best_score": 0.6705,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 2432",
+      "content_preview": "ion), which leads to cartilage thickening and\nfissure formation.\nFactors such as diet, rapid growth, hormonal imbalance, trauma, and genetics may lead to the development of OCD\nas well as FCP and UAP.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "arrhythmogenic-rvc",
+      "query": "arrhythmogenic right ventricular cardiomyopathy ARVC boxer dog",
+      "best_score": 0.7935,
+      "source": "Canine&Feline Anesthesia& Co-Ex - Wei Zhi - 片段 293",
+      "content_preview": "y and subsequent decrease in SV and CO.\nAll attempts to minimize (or avoid) inhaled anesthetic\ndoses must be applied. These include opioid infusions\nas well as local and regional anesthesia/analgesia.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "cardiac-tamponade",
+      "query": "cardiac tamponade pericardial effusion compression",
+      "best_score": 0.7057,
+      "source": "Manual of Canine and Feline Car - Wei Zhi - 片段 1272",
+      "content_preview": "low-output failure. Eleva-\ntion of intracardiac pressure, progressive limita-\ntion of ventricular diastolic filling, and reduction \nof stroke volume and cardiac output characterize \ncardiac tamponade.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "cor-pulmonale",
+      "query": "cor pulmonale right heart failure pulmonary hypertension",
+      "best_score": 0.6798,
+      "source": "Manual of Canine and Feline Car - Wei Zhi - 片段 713",
+      "content_preview": "art failure \ncaused by pulmonary or thoracic disease. It may be \ncharacterized by clinical signs of fluid accumulation \nor by radiographic or echocardiographic evidence \nof right ventricular overload.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "endocardiosis",
+      "query": "endocardiosis degenerative valve disease mitral",
+      "best_score": 0.6488,
+      "source": "BSAVA Manual of Canine and Feli - Author - 片段 1105",
+      "content_preview": "ven many names, including endocardiosis, \nchronic degenerative valvular disease, chronic valvu-\nlar disease, chronic valvular fibrosis and acquired \nmitral or tricuspid regurgitation or insufficiency.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "chronic-enteropathy",
+      "query": "chronic enteropathy inflammatory dietary responsive",
+      "best_score": 0.6147,
+      "source": "Blackwell's Five-Minute Veterinary Consult - 片段 4248",
+      "content_preview": "ive enteropathy.\nr If this approach is used, examination of the\ningredients of the various diets is\nrecommended to determine if any patterns\nexist that might help identify the offending\ningredient(s).",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "bilious-vomiting-syndrome",
+      "query": "bilious vomiting syndrome morning bile reflux dog",
+      "best_score": 0.6966,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 492",
+      "content_preview": "(chronic vomiting)\nETIOLOGY AND PATHOPHYSIOLOGY\nPresumed to be caused by gastroduodenal reflux that occurs when the dog's stomach is empty for long periods or due to\nabnormal gastroduodenal motility\nC",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "colorectal-neoplasia",
+      "query": "colorectal adenocarcinoma polyp neoplasia dog",
+      "best_score": 0.6908,
+      "source": "Geriatrics Gerontology of the D - Wei Zhi - 片段 987",
+      "content_preview": "les, and have a high incidence in\nGerman shepherd dogs, West Highland white\nterriers, and poodles. Adenomatous polyps are\nbenign and do not metastasize; they may, however,\nbe a precancerous condition.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "intestinal-lymphangiectasia",
+      "query": "intestinal lymphangiectasia protein loss PLE",
+      "best_score": 0.6948,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 4735",
+      "content_preview": "007.\nAUTHOR: JOHN D. BONAGURA\nLymphedema\nhttp://www.clinicalvetadvisor2.com/html/bc/ch002s001_s012_s023.php...\n3 de 4\n25-09-2011 22:25\n\n\nEDITOR: ETIENNE CÔTÉ\nLymphedema\nhttp://www.clinicalvetadvisor2.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "clostridial-enteritis",
+      "query": "clostridial enteritis clostridioides difficile perfringens",
+      "best_score": 0.6951,
+      "source": "A textbook of the diseases of c - vetsam - 片段 8488",
+      "content_preview": "d 2002; \n144:275. \n5. Garmany HS et a1. Epidemio! Infect 2000; 124:61. \n6. Bacciarini LN et al. Vet Patho! 2003; 40:376. \nENTEROTOXEMIA ASSOCIATED \nWITH CLOSTRIDIUM \nPERFRINGENS TYPE A \nThe role of C.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "gastrointestinal-stromal-tumor",
+      "query": "gastrointestinal stromal tumor GIST leiomyosarcoma",
+      "best_score": 0.7219,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 4941",
+      "content_preview": "e gastrointestinal leiomyosarcomas (GILMS) have been reclassified as gastrointestinal stromal tumors (GIST) via\nimmunohistochemical techniques (they express c-kit, CD-117 positive; true GILMS do not).",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "cecal-inversion",
+      "query": "cecal inversion intussusception dog",
+      "best_score": 0.7174,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 4330",
+      "content_preview": "denocolic ligament to\nileocolic junction); sutures 5-10 cm apart.\nSpontaneous reduction of intussusception has been reported in dogs; however, recurrence that requires surgical intervention\nmay occur.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "renal-amyloidosis",
+      "query": "renal amyloidosis glomerular Shar Pei Abyssinian",
+      "best_score": 0.7229,
+      "source": "Pathologic Basis of Veterinary Disease  VETERINARY CONSULT Version to be sold vi",
+      "content_preview": "iar amyloidosis is\nuncommon in animals but occurs in Shar-Pei dogs and\nAbyssinian, Siamese, and other Oriental breeds of cats.\nRegardless of its cause, amyloid can accumulate in\nmore than one pattern.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "ureteral-obstruction",
+      "query": "ureteral obstruction ureterolithiasis SUB stent",
+      "best_score": 0.6841,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 9129",
+      "content_preview": "be implanted directly into bladder neck\nHighest incidence of postoperative obstruction\nUreteral stent placed via interventional endoscopy or surgery should be considered, but has limited availability.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "renal-infarction",
+      "query": "renal infarction thromboembolism kidney",
+      "best_score": 0.6253,
+      "source": "A textbook of the diseases of c - vetsam - 片段 5698",
+      "content_preview": "ssue \nand cause the development of focal sup­\npurative lesions. Emboli can block larger \nvessels and cause infarction of portions of \nkidney, the size varying with the caliber of \nthe occluded vessel.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "primary-immune-deficiency",
+      "query": "primary immunodeficiency congenital immune disorder dog",
+      "best_score": 0.7225,
+      "source": "Veterinary Immunology: Principles and Practice, Second Edition - 片段 915",
+      "content_preview": "e certain clinical and historical features \nof disease that might suggest the presence of an \nunderlying primary immunodeficiency in any animal. \nThese include:\n• Disease affecting a particular breed.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "heat-stroke-exertional",
+      "query": "exertional heat stroke working dog exercise hyperthermia",
+      "best_score": 0.6979,
+      "source": "Veterinary Technician&#39;s Manual for Small Animal Emergency and Critical Care ",
+      "content_preview": "ng is an initial response in dogs and \nresults from stimulation of the panting center. As dehydration occurs, less water is avail-\nable for evaporative losses, reducing the amount of heat dissipation.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "transfusion-reaction",
+      "query": "transfusion reaction acute hemolytic blood typing",
+      "best_score": 0.6817,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 8641",
+      "content_preview": "ytic reactions and reactions to infected blood may be severe and require a rapid and intensive\nresponse. Most other transfusion reactions, when detected early, respond well to conservative management.",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "drug-eruption",
+      "query": "drug eruption adverse cutaneous reaction medication",
+      "best_score": 0.633,
+      "source": "Clinical Veterinary Advisor_ Do - Etienne Cote - 片段 1719",
+      "content_preview": "clic\nlesions, with minimal epidermal detachment; TEN involves widespread erythema, blistering, and severe epidermal\ndetachment (see online chapter: Erythema Multiforme and Toxic Epidermal Necrolysis).",
+      "result_count": 5,
+      "confirmed": true
+    },
+    {
+      "id": "anaphylaxis-vaccine",
+      "query": "vaccine anaphylaxis adverse reaction hypersensitivity",
+      "best_score": 0.6128,
+      "source": "Lumb & Jones’ veterinary anesthesia and analgesia, 5th Edition [2015][UnitedVRG]",
+      "content_preview": "vely uncommon, and require previous expo-\nsure to the agent, or one like it. However, anaphylactoid reactions \ncause severe systemic histamine release, and prior exposure to the \ndrug is not required.",
+      "result_count": 5,
+      "confirmed": true
+    }
+  ]
+}
