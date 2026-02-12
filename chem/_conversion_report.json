@@ -1,0 +1,299 @@
+[
+  {
+    "source": "Manual of Veterinary Clinical C - Leslie C. Sharkey.pdf",
+    "pages": 419,
+    "file_size_mb": 5.15,
+    "split_mode": "token",
+    "output_files": [
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_001.md",
+        "tokens": 4020
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_002.md",
+        "tokens": 3987
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_003.md",
+        "tokens": 3907
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_004.md",
+        "tokens": 3977
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_005.md",
+        "tokens": 4008
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_006.md",
+        "tokens": 4009
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_007.md",
+        "tokens": 4010
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_008.md",
+        "tokens": 3991
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_009.md",
+        "tokens": 4000
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_010.md",
+        "tokens": 3963
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_011.md",
+        "tokens": 3957
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_012.md",
+        "tokens": 3996
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_013.md",
+        "tokens": 3953
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_014.md",
+        "tokens": 3952
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_015.md",
+        "tokens": 4011
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_016.md",
+        "tokens": 4018
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_017.md",
+        "tokens": 3903
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_018.md",
+        "tokens": 4004
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_019.md",
+        "tokens": 4002
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_020.md",
+        "tokens": 3968
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_021.md",
+        "tokens": 3922
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_022.md",
+        "tokens": 3906
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_023.md",
+        "tokens": 3840
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_024.md",
+        "tokens": 3925
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_025.md",
+        "tokens": 3670
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_026.md",
+        "tokens": 3925
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_027.md",
+        "tokens": 3935
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_028.md",
+        "tokens": 3904
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_029.md",
+        "tokens": 3966
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_030.md",
+        "tokens": 4032
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_031.md",
+        "tokens": 4029
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_032.md",
+        "tokens": 3955
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_033.md",
+        "tokens": 3959
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_034.md",
+        "tokens": 3910
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_035.md",
+        "tokens": 3983
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_036.md",
+        "tokens": 3941
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_037.md",
+        "tokens": 3994
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_038.md",
+        "tokens": 3886
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_039.md",
+        "tokens": 3979
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_040.md",
+        "tokens": 3988
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_041.md",
+        "tokens": 3993
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_042.md",
+        "tokens": 3890
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_043.md",
+        "tokens": 3839
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_044.md",
+        "tokens": 4008
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_045.md",
+        "tokens": 4025
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_046.md",
+        "tokens": 3945
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_047.md",
+        "tokens": 3999
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_048.md",
+        "tokens": 3901
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_049.md",
+        "tokens": 3933
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_050.md",
+        "tokens": 4038
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_051.md",
+        "tokens": 3906
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_052.md",
+        "tokens": 3868
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_053.md",
+        "tokens": 3894
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_054.md",
+        "tokens": 3905
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_055.md",
+        "tokens": 4021
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_056.md",
+        "tokens": 3931
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_057.md",
+        "tokens": 3900
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_058.md",
+        "tokens": 3993
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_059.md",
+        "tokens": 4029
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_060.md",
+        "tokens": 3994
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_061.md",
+        "tokens": 3970
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_062.md",
+        "tokens": 3866
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_063.md",
+        "tokens": 3887
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_064.md",
+        "tokens": 3959
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_065.md",
+        "tokens": 4030
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_066.md",
+        "tokens": 3982
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_067.md",
+        "tokens": 3982
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_068.md",
+        "tokens": 3771
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_069.md",
+        "tokens": 3835
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_070.md",
+        "tokens": 3967
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_071.md",
+        "tokens": 3978
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\chem\\Manual of Veterinary Clinical C - Leslie C. Sharkey\\Manual of Veterinary Clinical C - Leslie C. Sharkey_chunk_072.md",
+        "tokens": 824
+      }
+    ],
+    "total_tokens": 281348
+  }
+]

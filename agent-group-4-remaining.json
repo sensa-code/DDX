@@ -1,0 +1,356 @@
+{
+  "group": "4-remaining",
+  "count": 70,
+  "diseases": [
+    {
+      "id": "hepatozoonosis",
+      "zh": "肝簇蟲病",
+      "en": "Hepatozoonosis"
+    },
+    {
+      "id": "neosporosis",
+      "zh": "新孢子蟲病",
+      "en": "Neosporosis"
+    },
+    {
+      "id": "leishmaniasis",
+      "zh": "利什曼病",
+      "en": "Leishmaniasis"
+    },
+    {
+      "id": "salmon-poisoning-disease",
+      "zh": "鮭魚中毒症",
+      "en": "Salmon Poisoning Disease"
+    },
+    {
+      "id": "plague",
+      "zh": "鼠疫",
+      "en": "Plague (Yersinia pestis Infection)"
+    },
+    {
+      "id": "tularemia",
+      "zh": "土拉倫病",
+      "en": "Tularemia"
+    },
+    {
+      "id": "angiostrongylus-vasorum",
+      "zh": "犬心肺蟲感染",
+      "en": "Angiostrongylus vasorum Infection (French Heartworm)"
+    },
+    {
+      "id": "dirofilaria-immitis-cat",
+      "zh": "貓心絲蟲感染",
+      "en": "Feline Heartworm Disease (Dirofilaria immitis in Cats)"
+    },
+    {
+      "id": "sebaceous-adenitis",
+      "zh": "皮脂腺炎",
+      "en": "Sebaceous Adenitis"
+    },
+    {
+      "id": "eosinophilic-granuloma-complex",
+      "zh": "嗜酸性肉芽腫複合體",
+      "en": "Eosinophilic Granuloma Complex"
+    },
+    {
+      "id": "uveodermatologic-syndrome",
+      "zh": "葡萄膜皮膚症候群",
+      "en": "Uveodermatologic Syndrome"
+    },
+    {
+      "id": "dermatomyositis",
+      "zh": "皮肌炎",
+      "en": "Dermatomyositis"
+    },
+    {
+      "id": "sterile-nodular-panniculitis",
+      "zh": "無菌性結節性脂膜炎",
+      "en": "Sterile Nodular Panniculitis"
+    },
+    {
+      "id": "zinc-responsive-dermatosis",
+      "zh": "鋅反應性皮膚病",
+      "en": "Zinc-Responsive Dermatosis"
+    },
+    {
+      "id": "canine-juvenile-cellulitis",
+      "zh": "犬幼年蜂窩組織炎",
+      "en": "Canine Juvenile Cellulitis"
+    },
+    {
+      "id": "acral-lick-dermatitis",
+      "zh": "肢端舔舐性皮膚炎",
+      "en": "Acral Lick Dermatitis"
+    },
+    {
+      "id": "vasculitis",
+      "zh": "血管炎",
+      "en": "Vasculitis"
+    },
+    {
+      "id": "allergic-rhinitis",
+      "zh": "過敏性鼻炎",
+      "en": "Allergic Rhinitis"
+    },
+    {
+      "id": "pannus",
+      "zh": "角膜血管翳",
+      "en": "Pannus (Chronic Superficial Keratitis)"
+    },
+    {
+      "id": "iris-melanoma",
+      "zh": "虹膜黑色素瘤",
+      "en": "Iris Melanoma"
+    },
+    {
+      "id": "retrobulbar-abscess",
+      "zh": "眼球後膿腫",
+      "en": "Retrobulbar Abscess"
+    },
+    {
+      "id": "orbital-tumor",
+      "zh": "眼眶腫瘤",
+      "en": "Orbital Tumor"
+    },
+    {
+      "id": "anterior-lens-luxation",
+      "zh": "前房水晶體脫位",
+      "en": "Anterior Lens Luxation"
+    },
+    {
+      "id": "feline-eosinophilic-keratitis",
+      "zh": "貓嗜酸性角膜炎",
+      "en": "Feline Eosinophilic Keratitis"
+    },
+    {
+      "id": "hordeolum-chalazion",
+      "zh": "麥粒腫與霰粒腫",
+      "en": "Hordeolum and Chalazion"
+    },
+    {
+      "id": "eyelid-tumor",
+      "zh": "眼瞼腫瘤",
+      "en": "Eyelid Tumor"
+    },
+    {
+      "id": "neonatal-isoerythrolysis",
+      "zh": "新生兒同族溶血症",
+      "en": "Neonatal Isoerythrolysis"
+    },
+    {
+      "id": "fading-puppy-kitten-syndrome",
+      "zh": "衰弱幼犬/幼貓症候群",
+      "en": "Fading Puppy/Kitten Syndrome"
+    },
+    {
+      "id": "swimmer-puppy-syndrome",
+      "zh": "游泳犬症候群",
+      "en": "Swimmer Puppy Syndrome"
+    },
+    {
+      "id": "tooth-root-abscess",
+      "zh": "牙根膿腫",
+      "en": "Tooth Root Abscess"
+    },
+    {
+      "id": "esophageal-stricture",
+      "zh": "食道狹窄",
+      "en": "Esophageal Stricture"
+    },
+    {
+      "id": "gastroesophageal-reflux",
+      "zh": "胃食道逆流",
+      "en": "Gastroesophageal Reflux"
+    },
+    {
+      "id": "megacolon-feline",
+      "zh": "貓特發性巨結腸症",
+      "en": "Feline Idiopathic Megacolon"
+    },
+    {
+      "id": "atrial-fibrillation",
+      "zh": "心房顫動",
+      "en": "Atrial Fibrillation"
+    },
+    {
+      "id": "supraventricular-tachycardia",
+      "zh": "室上性心搏過速",
+      "en": "Supraventricular Tachycardia"
+    },
+    {
+      "id": "ventricular-tachycardia",
+      "zh": "心室性心搏過速",
+      "en": "Ventricular Tachycardia"
+    },
+    {
+      "id": "third-degree-av-block",
+      "zh": "第三度房室傳導阻滯",
+      "en": "Third-Degree Atrioventricular Block"
+    },
+    {
+      "id": "constrictive-pericarditis",
+      "zh": "縮窄性心包炎",
+      "en": "Constrictive Pericarditis"
+    },
+    {
+      "id": "polycythemia-vera",
+      "zh": "真性紅血球增多症",
+      "en": "Polycythemia Vera"
+    },
+    {
+      "id": "multiple-myeloma",
+      "zh": "多發性骨髓瘤",
+      "en": "Multiple Myeloma"
+    },
+    {
+      "id": "cutaneous-lymphoma",
+      "zh": "皮膚淋巴瘤",
+      "en": "Cutaneous Lymphoma"
+    },
+    {
+      "id": "thymoma",
+      "zh": "胸腺瘤",
+      "en": "Thymoma"
+    },
+    {
+      "id": "chondrosarcoma",
+      "zh": "軟骨肉瘤",
+      "en": "Chondrosarcoma"
+    },
+    {
+      "id": "peripheral-nerve-sheath-tumor",
+      "zh": "周邊神經鞘瘤",
+      "en": "Peripheral Nerve Sheath Tumor"
+    },
+    {
+      "id": "hyperviscosity-syndrome",
+      "zh": "高黏性症候群",
+      "en": "Hyperviscosity Syndrome"
+    },
+    {
+      "id": "amyloidosis",
+      "zh": "類澱粉沉積症",
+      "en": "Amyloidosis"
+    },
+    {
+      "id": "feline-hyperesthesia-syndrome",
+      "zh": "貓皮膚感覺過敏症候群",
+      "en": "Feline Hyperesthesia Syndrome"
+    },
+    {
+      "id": "cerebellar-hypoplasia",
+      "zh": "小腦發育不全",
+      "en": "Cerebellar Hypoplasia"
+    },
+    {
+      "id": "canine-chronic-bronchitis",
+      "zh": "犬慢性支氣管炎",
+      "en": "Canine Chronic Bronchitis"
+    },
+    {
+      "id": "eosinophilic-bronchopneumopathy",
+      "zh": "嗜酸性支氣管肺病",
+      "en": "Eosinophilic Bronchopneumopathy"
+    },
+    {
+      "id": "pulmonary-fibrosis",
+      "zh": "肺纖維化",
+      "en": "Pulmonary Fibrosis"
+    },
+    {
+      "id": "diaphragmatic-hernia-traumatic",
+      "zh": "外傷性膈疝",
+      "en": "Traumatic Diaphragmatic Hernia"
+    },
+    {
+      "id": "fanconi-syndrome",
+      "zh": "范乳尼症候群",
+      "en": "Fanconi Syndrome"
+    },
+    {
+      "id": "hypernatremia",
+      "zh": "高鈉血症",
+      "en": "Hypernatremia"
+    },
+    {
+      "id": "hyponatremia",
+      "zh": "低鈉血症",
+      "en": "Hyponatremia"
+    },
+    {
+      "id": "hypermagnesemia",
+      "zh": "高鎂血症",
+      "en": "Hypermagnesemia"
+    },
+    {
+      "id": "hypomagnesemia",
+      "zh": "低鎂血症",
+      "en": "Hypomagnesemia"
+    },
+    {
+      "id": "hypervitaminosis-d",
+      "zh": "維生素D過多症",
+      "en": "Hypervitaminosis D"
+    },
+    {
+      "id": "narcolepsy-cataplexy",
+      "zh": "猝睡症-猝倒症",
+      "en": "Narcolepsy-Cataplexy"
+    },
+    {
+      "id": "lung-lobe-torsion",
+      "zh": "肺葉扭轉",
+      "en": "Lung Lobe Torsion"
+    },
+    {
+      "id": "bile-peritonitis",
+      "zh": "膽汁性腹膜炎",
+      "en": "Bile Peritonitis"
+    },
+    {
+      "id": "hepatic-abscess",
+      "zh": "肝膿瘍",
+      "en": "Hepatic Abscess"
+    },
+    {
+      "id": "myocardial-contusion",
+      "zh": "心肌挫傷",
+      "en": "Myocardial Contusion"
+    },
+    {
+      "id": "pemphigus-vulgaris",
+      "zh": "天疱瘡（尋常型）",
+      "en": "Pemphigus Vulgaris"
+    },
+    {
+      "id": "bullous-pemphigoid",
+      "zh": "類天疱瘡",
+      "en": "Bullous Pemphigoid"
+    },
+    {
+      "id": "oral-fibrosarcoma",
+      "zh": "口腔纖維肉瘤",
+      "en": "Oral Fibrosarcoma"
+    },
+    {
+      "id": "nasal-adenocarcinoma",
+      "zh": "鼻腔腺癌",
+      "en": "Nasal Adenocarcinoma"
+    },
+    {
+      "id": "lymphangiectasia",
+      "zh": "腸淋巴管擴張症",
+      "en": "Intestinal Lymphangiectasia"
+    },
+    {
+      "id": "exocrine-pancreatic-neoplasia",
+      "zh": "外分泌胰腺腫瘤",
+      "en": "Exocrine Pancreatic Neoplasia"
+    },
+    {
+      "id": "tracheal-foreign-body",
+      "zh": "氣管異物",
+      "en": "Tracheal Foreign Body"
+    }
+  ]
+}

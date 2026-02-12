@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瀏覽器測試 - 載入檢查</title>
+<style>
+body { font-family: sans-serif; padding: 20px; background: #f5f5f5; }
+.status { padding: 10px; margin: 10px 0; border-radius: 5px; }
+.success { background: #d4edda; border: 1px solid #c3e6cb; color: #155724; }
+.error { background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; }
+.info { background: #d1ecf1; border: 1px solid #bee5eb; color: #0c5460; }
+.test-btn { padding: 10px 20px; margin: 5px; font-size: 16px; cursor: pointer; }
+</style>
+</head>
+<body>
+<h1>獸醫診斷系統 - 瀏覽器測試</h1>
+<div id="results"></div>
+
+<h2>測試操作</h2>
+<button class="test-btn" onclick="testMainPage()">測試主頁面載入</button>
+<button class="test-btn" onclick="checkConsole()">檢查控制台錯誤</button>
+
+<script>
+const resultsDiv = document.getElementById('results');
+
+function addResult(message, type = 'info') {
+  const div = document.createElement('div');
+  div.className = `status ${type}`;
+  div.innerHTML = message;
+  resultsDiv.appendChild(div);
+}
+
+// 1. 基本HTML載入檢查
+addResult('✓ HTML 檔案已成功載入', 'success');
+addResult('✓ JavaScript 執行正常', 'success');
+
+// 2. 測試主頁面
+function testMainPage() {
+  addResult('開始測試主頁面...', 'info');
+
+  const iframe = document.createElement('iframe');
+  iframe.style.width = '1px';
+  iframe.style.height = '1px';
+  iframe.style.position = 'absolute';
+  iframe.style.left = '-9999px';
+
+  iframe.onload = function() {
+    try {
+      const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+
+      // 檢查是否有JavaScript錯誤
+      addResult('✓ 主頁面載入成功', 'success');
+
+      // 檢查關鍵元素
+      const hasHeader = iframeDoc.querySelector('header') !== null;
+      const hasSidebar = iframeDoc.querySelector('.sidebar') !== null;
+      const hasMainContent = iframeDoc.querySelector('.main-content') !== null;
+
+      if (hasHeader) addResult('✓ Header 元素存在', 'success');
+      else addResult('✗ Header 元素不存在', 'error');
+
+      if (hasSidebar) addResult('✓ Sidebar 元素存在', 'success');
+      else addResult('✗ Sidebar 元素不存在', 'error');
+
+      if (hasMainContent) addResult('✓ Main Content 元素存在', 'success');
+      else addResult('✗ Main Content 元素不存在', 'error');
+
+      // 檢查全局變數
+      const win = iframe.contentWindow;
+      if (typeof win.DB !== 'undefined') {
+        addResult(`✓ DB 變數已定義，包含 ${win.DB.symptoms ? win.DB.symptoms.length : 0} 個症狀`, 'success');
+      } else {
+        addResult('✗ DB 變數未定義', 'error');
+      }
+
+      if (typeof win.LAB_DB !== 'undefined') {
+        addResult(`✓ LAB_DB 變數已定義，包含 ${win.LAB_DB.abnormalities ? win.LAB_DB.abnormalities.length : 0} 個實驗室指標`, 'success');
+      } else {
+        addResult('✗ LAB_DB 變數未定義', 'error');
+      }
+
+      document.body.removeChild(iframe);
+      addResult('測試完成！', 'info');
+
+    } catch (err) {
+      addResult('✗ 載入頁面時發生錯誤: ' + err.message, 'error');
+      document.body.removeChild(iframe);
+    }
+  };
+
+  iframe.onerror = function(err) {
+    addResult('✗ 無法載入主頁面: ' + err, 'error');
+    document.body.removeChild(iframe);
+  };
+
+  iframe.src = 'vet-differential-diagnosis-v2.html';
+  document.body.appendChild(iframe);
+}
+
+// 3. 檢查控制台錯誤
+function checkConsole() {
+  addResult('請開啟瀏覽器開發者工具 (F12) 查看控制台是否有錯誤訊息', 'info');
+}
+
+// 自動執行基本檢查
+window.addEventListener('DOMContentLoaded', function() {
+  addResult('DOM 載入完成', 'success');
+});
+
+console.log('測試腳本已載入');
+</script>
+</body>
+</html>

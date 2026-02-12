@@ -1,0 +1,2027 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>小動物鑑別診斷輔助系統</title>
+<style>
+  :root {
+    --primary: #2c6e49;
+    --primary-light: #4c956c;
+    --primary-dark: #1b4332;
+    --accent: #f4a261;
+    --bg: #fafaf8;
+    --card-bg: #ffffff;
+    --text: #264653;
+    --text-light: #6b7280;
+    --border: #d1d5db;
+    --danger: #e76f51;
+    --info: #457b9d;
+    --tag-dog: #3b82f6;
+    --tag-cat: #f59e0b;
+    --tag-both: #8b5cf6;
+    --shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+    --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", "微軟正黑體", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+
+  header {
+    background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+    color: white;
+    padding: 1.5rem 2rem;
+    box-shadow: var(--shadow-lg);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+  header p {
+    font-size: 0.85rem;
+    opacity: 0.85;
+  }
+
+  .app-container {
+    display: flex;
+    min-height: calc(100vh - 100px);
+  }
+
+  /* Sidebar */
+  .sidebar {
+    width: 320px;
+    min-width: 320px;
+    background: var(--card-bg);
+    border-right: 1px solid var(--border);
+    overflow-y: auto;
+    padding: 1rem 0;
+  }
+
+  .sidebar-section {
+    margin-bottom: 0.5rem;
+  }
+
+  .sidebar-section-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--text-light);
+    padding: 0.5rem 1.25rem;
+  }
+
+  .symptom-btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 0.6rem 1.25rem;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: var(--text);
+    transition: all 0.15s;
+    border-left: 3px solid transparent;
+  }
+
+  .symptom-btn:hover {
+    background: #f0fdf4;
+    border-left-color: var(--primary-light);
+  }
+
+  .symptom-btn.active {
+    background: #ecfdf5;
+    border-left-color: var(--primary);
+    font-weight: 600;
+    color: var(--primary-dark);
+  }
+
+  .symptom-btn .en-name {
+    font-size: 0.75rem;
+    color: var(--text-light);
+    display: block;
+  }
+
+  /* Main content */
+  .main-content {
+    flex: 1;
+    padding: 2rem;
+    overflow-y: auto;
+  }
+
+  /* Search */
+  .search-bar {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+
+  .search-bar input {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 2.75rem;
+    border: 2px solid var(--border);
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+    background: var(--card-bg);
+  }
+
+  .search-bar input:focus {
+    border-color: var(--primary);
+  }
+
+  .search-bar .search-icon {
+    position: absolute;
+    left: 0.9rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-light);
+    font-size: 1.1rem;
+  }
+
+  /* Filter bar */
+  .filter-bar {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .filter-bar label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-light);
+    margin-right: 0.25rem;
+  }
+
+  .filter-chip {
+    padding: 0.35rem 0.85rem;
+    border-radius: 20px;
+    border: 1.5px solid var(--border);
+    background: var(--card-bg);
+    cursor: pointer;
+    font-size: 0.82rem;
+    transition: all 0.15s;
+    font-weight: 500;
+  }
+
+  .filter-chip:hover { border-color: var(--primary-light); }
+
+  .filter-chip.active {
+    background: var(--primary);
+    color: white;
+    border-color: var(--primary);
+  }
+
+  .filter-chip.active-dog {
+    background: var(--tag-dog);
+    color: white;
+    border-color: var(--tag-dog);
+  }
+
+  .filter-chip.active-cat {
+    background: var(--tag-cat);
+    color: white;
+    border-color: var(--tag-cat);
+  }
+
+  /* Welcome screen */
+  .welcome {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--text-light);
+  }
+
+  .welcome .icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .welcome h2 {
+    font-size: 1.5rem;
+    color: var(--text);
+    margin-bottom: 0.5rem;
+  }
+
+  .welcome p {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  /* Symptom detail view */
+  .symptom-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .symptom-header h2 {
+    font-size: 1.6rem;
+    color: var(--primary-dark);
+    margin-bottom: 0.15rem;
+  }
+
+  .symptom-header .en {
+    font-size: 1rem;
+    color: var(--text-light);
+    font-style: italic;
+    margin-bottom: 0.75rem;
+  }
+
+  .symptom-header .description {
+    font-size: 0.95rem;
+    color: var(--text);
+    background: #f0fdf4;
+    border-left: 4px solid var(--primary);
+    padding: 0.75rem 1rem;
+    border-radius: 0 6px 6px 0;
+  }
+
+  /* Category groups */
+  .category-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .category-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--primary-dark);
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--primary-light);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .category-title .cat-icon {
+    font-size: 1.1rem;
+  }
+
+  /* Diagnosis cards */
+  .dx-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.85rem 1rem;
+    margin-bottom: 0.5rem;
+    box-shadow: var(--shadow);
+    transition: all 0.15s;
+    cursor: pointer;
+  }
+
+  .dx-card:hover {
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-light);
+  }
+
+  .dx-card.expanded {
+    border-color: var(--primary);
+    background: #fefffe;
+  }
+
+  .dx-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .dx-name {
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+
+  .dx-name-en {
+    font-size: 0.8rem;
+    color: var(--text-light);
+    font-style: italic;
+  }
+
+  .dx-tags {
+    display: flex;
+    gap: 0.3rem;
+    flex-shrink: 0;
+    margin-left: 0.5rem;
+  }
+
+  .tag {
+    font-size: 0.65rem;
+    padding: 0.15rem 0.45rem;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .tag-dog { background: #dbeafe; color: var(--tag-dog); }
+  .tag-cat { background: #fef3c7; color: #b45309; }
+  .tag-common { background: #fef2f2; color: var(--danger); font-size: 0.6rem; }
+  .tag-rare { background: #f3f4f6; color: #6b7280; font-size: 0.6rem; }
+
+  .dx-detail {
+    display: none;
+    margin-top: 0.75rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid #e5e7eb;
+    font-size: 0.88rem;
+    line-height: 1.7;
+  }
+
+  .dx-card.expanded .dx-detail {
+    display: block;
+  }
+
+  .dx-detail-section {
+    margin-bottom: 0.6rem;
+  }
+
+  .dx-detail-section strong {
+    color: var(--primary-dark);
+    font-size: 0.82rem;
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+
+  .dx-detail-section ul {
+    margin-left: 1.2rem;
+  }
+
+  .dx-detail-section li {
+    margin-bottom: 0.15rem;
+  }
+
+  /* Multi-symptom selector */
+  .multi-symptom-panel {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+    box-shadow: var(--shadow);
+  }
+
+  .multi-symptom-panel h3 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--primary-dark);
+  }
+
+  .selected-symptoms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    min-height: 2rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .selected-tag {
+    background: var(--primary);
+    color: white;
+    padding: 0.3rem 0.7rem;
+    border-radius: 15px;
+    font-size: 0.82rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .selected-tag .remove {
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.8;
+  }
+
+  .selected-tag .remove:hover { opacity: 1; }
+
+  .multi-results {
+    margin-top: 1rem;
+  }
+
+  .multi-results h4 {
+    font-size: 0.95rem;
+    color: var(--primary-dark);
+    margin-bottom: 0.5rem;
+  }
+
+  .match-score {
+    display: inline-block;
+    background: var(--accent);
+    color: white;
+    padding: 0.1rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    margin-left: 0.4rem;
+  }
+
+  /* Tabs */
+  .tab-bar {
+    display: flex;
+    gap: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--border);
+  }
+
+  .tab-btn {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--text-light);
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.15s;
+  }
+
+  .tab-btn:hover { color: var(--primary); }
+
+  .tab-btn.active {
+    color: var(--primary-dark);
+    border-bottom-color: var(--primary);
+    font-weight: 700;
+  }
+
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Stats */
+  .stats-bar {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.82rem;
+    color: var(--text-light);
+  }
+
+  .stat-item { display: flex; align-items: center; gap: 0.3rem; }
+
+  /* Disclaimer */
+  .disclaimer {
+    background: #fef3c7;
+    border: 1px solid #f59e0b;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
+    color: #92400e;
+    margin-top: 2rem;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .app-container { flex-direction: column; }
+    .sidebar {
+      width: 100%;
+      min-width: unset;
+      max-height: 250px;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+    .main-content { padding: 1rem; }
+  }
+
+  /* Print */
+  @media print {
+    header { position: static; }
+    .sidebar { display: none; }
+    .search-bar, .filter-bar, .tab-bar { display: none; }
+    .dx-card { break-inside: avoid; box-shadow: none; border: 1px solid #ccc; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>&#x1F3E5; 小動物鑑別診斷輔助系統</h1>
+  <p>Differential Diagnosis in Small Animal Medicine &mdash; 臨床症狀導向查詢工具</p>
+</header>
+
+<div class="app-container">
+  <!-- Sidebar -->
+  <nav class="sidebar" id="sidebar"></nav>
+
+  <!-- Main -->
+  <main class="main-content" id="main-content">
+    <div class="search-bar">
+      <span class="search-icon">&#x1F50D;</span>
+      <input type="text" id="globalSearch" placeholder="搜尋症狀、疾病名稱（中文或英文）..." />
+    </div>
+
+    <!-- Tabs -->
+    <div class="tab-bar">
+      <button class="tab-btn active" data-tab="single">單一症狀查詢</button>
+      <button class="tab-btn" data-tab="multi">多症狀交叉比對</button>
+    </div>
+
+    <!-- Single symptom tab -->
+    <div class="tab-content active" id="tab-single">
+      <div id="welcome" class="welcome">
+        <div class="icon">&#x1FA7A;</div>
+        <h2>選擇臨床症狀開始查詢</h2>
+        <p>從左側選單點選症狀，或使用上方搜尋框輸入關鍵字，即可查看該症狀的鑑別診斷清單。</p>
+      </div>
+      <div id="symptomDetail" style="display:none;"></div>
+    </div>
+
+    <!-- Multi symptom tab -->
+    <div class="tab-content" id="tab-multi">
+      <div class="multi-symptom-panel">
+        <h3>&#x1F4CB; 選擇觀察到的臨床症狀（可複選）</h3>
+        <div class="selected-symptoms" id="selectedSymptoms">
+          <span style="color: var(--text-light); font-size: 0.85rem;">點擊左側症狀或下方按鈕加入...</span>
+        </div>
+        <div id="multiSymptomButtons" style="display:flex; flex-wrap:wrap; gap:0.4rem;"></div>
+      </div>
+      <div class="multi-results" id="multiResults"></div>
+    </div>
+
+    <div class="disclaimer">
+      <strong>&#x26A0;&#xFE0F; 免責聲明：</strong>本系統僅為輔助參考工具，鑑別診斷清單需結合臨床檢查與檢驗結果進行判讀，不應單獨作為診斷依據。<br>
+      資料參考：Gough, A. & Murphy, K. (2015). <em>Differential Diagnosis in Small Animal Medicine</em>, 2nd Ed. Wiley.
+    </div>
+  </main>
+</div>
+
+<script>
+// ======= DATA =======
+const DB = {
+  symptoms: [
+    // ---- 1.1 全身性、系統性與代謝 ----
+    {
+      id: "polyuria-polydipsia",
+      zhName: "多尿/多渴",
+      enName: "Polyuria / Polydipsia",
+      section: "1.1",
+      sectionName: "全身性／系統性／代謝",
+      description: "飲水量與排尿量異常增加。犬正常飲水量約 50-60 mL/kg/day，貓約 45 mL/kg/day；超過此值應懷疑 PU/PD。",
+      differentials: [
+        { zh: "糖尿病", en: "Diabetes mellitus", species: "both", freq: "common", category: "內分泌",
+          detail: "血糖持續升高導致滲透性利尿。常伴隨多食、體重減輕。犬多為第一型，貓多為第二型。",
+          workup: ["血糖測定", "尿液分析（糖尿）", "果糖胺（fructosamine）", "糖化血色素"] },
+        { zh: "慢性腎臟病", en: "Chronic kidney disease (CKD)", species: "both", freq: "common", category: "腎臟/泌尿",
+          detail: "腎臟濃縮能力下降，貓尤其常見。IRIS 分期有助於嚴重度評估。",
+          workup: ["BUN / Creatinine / SDMA", "尿比重（USG）", "UPC 比值", "腎臟超音波"] },
+        { zh: "庫欣氏症", en: "Hyperadrenocorticism (Cushing's)", species: "dog", freq: "common", category: "內分泌",
+          detail: "腎上腺皮質醇過量，抑制 ADH 作用。常見皮膚變薄、腹部膨大、喘息。",
+          workup: ["ACTH 刺激試驗", "低劑量 Dexamethasone 抑制試驗", "尿皮質醇/肌酸酐比值", "腹部超音波"] },
+        { zh: "甲狀腺亢進", en: "Hyperthyroidism", species: "cat", freq: "common", category: "內分泌",
+          detail: "中老年貓常見，T4 升高導致代謝率增加、腎血流增加。",
+          workup: ["Total T4", "Free T4", "甲狀腺掃描"] },
+        { zh: "高血鈣症", en: "Hypercalcaemia", species: "both", freq: "uncommon", category: "代謝",
+          detail: "鈣離子干擾腎小管濃縮功能。常見原因包括腫瘤（淋巴瘤）、原發性副甲狀腺亢進、維生素 D 中毒。",
+          workup: ["離子鈣", "PTH", "PTHrP", "胸/腹腔影像學"] },
+        { zh: "子宮蓄膿", en: "Pyometra", species: "both", freq: "common", category: "生殖",
+          detail: "未絕育母犬/母貓，子宮感染產生內毒素干擾腎小管。常伴發燒、腹部膨大、陰道分泌物。",
+          workup: ["腹部超音波", "CBC（白血球增多）", "腹部 X 光"] },
+        { zh: "肝臟疾病", en: "Hepatic disease", species: "both", freq: "uncommon", category: "肝膽",
+          detail: "嚴重肝病影響尿素循環及水分代謝。",
+          workup: ["肝指數（ALT, ALP, GGT）", "膽汁酸", "白蛋白", "肝臟超音波"] },
+        { zh: "尿崩症（中樞型）", en: "Central diabetes insipidus", species: "both", freq: "rare", category: "內分泌",
+          detail: "ADH 分泌不足，導致大量稀釋尿。極度多尿（USG < 1.005）。",
+          workup: ["水分限制試驗（需住院監控）", "Desmopressin 試驗", "腦部 MRI"] },
+        { zh: "尿崩症（腎因型）", en: "Nephrogenic diabetes insipidus", species: "both", freq: "rare", category: "腎臟/泌尿",
+          detail: "腎小管對 ADH 反應不良。可為先天性或繼發於其他疾病（低血鉀、高血鈣等）。",
+          workup: ["Desmopressin 試驗（無反應）", "電解質", "腎臟切片"] },
+        { zh: "心因性多渴", en: "Psychogenic polydipsia", species: "dog", freq: "uncommon", category: "行為",
+          detail: "排除器質性原因後的行為性過度飲水，常見於大型犬。",
+          workup: ["漸進式水分限制試驗", "排除其他原因"] },
+        { zh: "愛迪生氏症", en: "Hypoadrenocorticism (Addison's)", species: "dog", freq: "uncommon", category: "內分泌",
+          detail: "腎上腺皮質功能低下，醛固酮缺乏導致鈉流失、鉀滯留。",
+          workup: ["電解質（Na/K 比值）", "ACTH 刺激試驗", "基礎皮質醇"] },
+        { zh: "醫源性（藥物）", en: "Iatrogenic / Drug-induced", species: "both", freq: "common", category: "其他",
+          detail: "類固醇、利尿劑、抗癲癇藥（苯巴比妥）、甲狀腺素補充過量等均可導致 PU/PD。",
+          workup: ["詳細用藥史回顧"] }
+      ]
+    },
+    {
+      id: "weight-loss",
+      zhName: "體重減輕",
+      enName: "Weight Loss",
+      section: "1.1",
+      sectionName: "全身性／系統性／代謝",
+      description: "非刻意的體重下降，通常超過正常體重的 10% 即有臨床意義。需區分食慾正常或降低。",
+      differentials: [
+        { zh: "糖尿病", en: "Diabetes mellitus", species: "both", freq: "common", category: "內分泌",
+          detail: "胰島素不足導致葡萄糖無法被利用，身體分解脂肪與蛋白質。常伴多食、多尿。",
+          workup: ["血糖", "尿液分析", "果糖胺"] },
+        { zh: "甲狀腺亢進", en: "Hyperthyroidism", species: "cat", freq: "common", category: "內分泌",
+          detail: "代謝率亢進導致消耗增加。中老年貓常見，常伴多食、心跳過快。",
+          workup: ["Total T4", "Free T4", "心臟超音波"] },
+        { zh: "腫瘤", en: "Neoplasia", species: "both", freq: "common", category: "腫瘤",
+          detail: "惡性腫瘤引起惡病質（cachexia），腫瘤消耗營養並產生炎症因子。",
+          workup: ["影像學（X 光、超音波、CT）", "細胞學/組織病理學", "CBC"] },
+        { zh: "慢性腎臟病", en: "Chronic kidney disease", species: "both", freq: "common", category: "腎臟/泌尿",
+          detail: "尿毒症導致食慾下降、蛋白質流失。",
+          workup: ["BUN/Cre/SDMA", "UPC", "尿比重"] },
+        { zh: "胰外分泌功能不足", en: "Exocrine pancreatic insufficiency (EPI)", species: "both", freq: "uncommon", category: "消化",
+          detail: "消化酵素缺乏導致脂肪與蛋白質吸收不良。常見大量脂肪便。德國牧羊犬好發。",
+          workup: ["TLI（Trypsin-like immunoreactivity）", "糞便檢查"] },
+        { zh: "炎症性腸病", en: "Inflammatory bowel disease (IBD)", species: "both", freq: "common", category: "消化",
+          detail: "腸道慢性發炎導致吸收不良，常伴嘔吐、腹瀉。",
+          workup: ["腸道切片（內視鏡或手術）", "低白蛋白血症", "Cobalamin/Folate"] },
+        { zh: "寄生蟲感染", en: "Parasitic infection", species: "both", freq: "common", category: "感染",
+          detail: "腸道寄生蟲（鉤蟲、蛔蟲、鞭蟲等）導致營養流失，幼年動物尤其明顯。",
+          workup: ["糞便浮游法", "糞便抗原檢測"] },
+        { zh: "慢性感染", en: "Chronic infection", species: "both", freq: "uncommon", category: "感染",
+          detail: "持續性感染（如 FIV、FeLV、慢性膿瘍）消耗體力。",
+          workup: ["FIV/FeLV 篩檢", "血液培養", "影像學"] },
+        { zh: "心臟病（心因性惡病質）", en: "Cardiac cachexia", species: "both", freq: "uncommon", category: "心血管",
+          detail: "嚴重心臟病導致組織灌流不足及炎症因子增加。",
+          workup: ["心臟超音波", "NT-proBNP", "胸腔 X 光"] },
+        { zh: "蛋白質流失性腸病", en: "Protein-losing enteropathy (PLE)", species: "dog", freq: "uncommon", category: "消化",
+          detail: "腸道大量流失蛋白質，低白蛋白血症、低球蛋白血症。",
+          workup: ["白蛋白/球蛋白", "腸道切片", "糞便 α1-PI"] },
+        { zh: "肝臟疾病", en: "Hepatic disease", species: "both", freq: "uncommon", category: "肝膽",
+          detail: "慢性肝病影響蛋白質合成及代謝。",
+          workup: ["肝指數", "膽汁酸", "白蛋白", "肝臟超音波"] }
+      ]
+    },
+    {
+      id: "weight-gain",
+      zhName: "體重增加",
+      enName: "Weight Gain",
+      section: "1.1",
+      sectionName: "全身性／系統性／代謝",
+      description: "非預期的體重增加。需區分真正的脂肪堆積與液體蓄積（腹水、水腫）。",
+      differentials: [
+        { zh: "肥胖（攝取過量）", en: "Obesity (overfeeding)", species: "both", freq: "common", category: "營養",
+          detail: "最常見原因。熱量攝取超過消耗，絕育動物風險更高。",
+          workup: ["體態評分（BCS）", "飲食史與熱量計算"] },
+        { zh: "甲狀腺低下", en: "Hypothyroidism", species: "dog", freq: "common", category: "內分泌",
+          detail: "代謝率降低。常伴皮膚症狀（脫毛、皮膚增厚）、嗜睡。犬好發，貓極罕見。",
+          workup: ["Total T4", "Free T4", "TSH"] },
+        { zh: "庫欣氏症", en: "Hyperadrenocorticism", species: "dog", freq: "common", category: "內分泌",
+          detail: "皮質醇過量促進脂肪重新分布（腹部肥胖）。可能合併 PU/PD。",
+          workup: ["LDDS", "ACTH 刺激試驗", "腹部超音波"] },
+        { zh: "腹水", en: "Ascites", species: "both", freq: "uncommon", category: "多系統",
+          detail: "腹腔液體蓄積。原因包括右心衰竭、肝病、低白蛋白、腫瘤、FIP。",
+          workup: ["腹腔穿刺與液體分析", "超音波", "白蛋白"] },
+        { zh: "水腫", en: "Oedema", species: "both", freq: "uncommon", category: "多系統",
+          detail: "組織間液蓄積。可能為局部或全身性。",
+          workup: ["白蛋白", "心臟評估", "淋巴系統評估"] },
+        { zh: "妊娠", en: "Pregnancy", species: "both", freq: "common", category: "生殖",
+          detail: "未絕育母畜的可能性需首先排除。",
+          workup: ["腹部超音波", "Relaxin 測試"] },
+        { zh: "醫源性（藥物）", en: "Iatrogenic", species: "both", freq: "common", category: "其他",
+          detail: "類固醇長期使用、某些抗癲癇藥可導致體重增加。",
+          workup: ["用藥史回顧"] }
+      ]
+    },
+    {
+      id: "polyphagia",
+      zhName: "多食",
+      enName: "Polyphagia",
+      section: "1.1",
+      sectionName: "全身性／系統性／代謝",
+      description: "食慾異常亢進，進食量明顯超過正常。需區分是否伴隨體重減輕或增加。",
+      differentials: [
+        { zh: "糖尿病", en: "Diabetes mellitus", species: "both", freq: "common", category: "內分泌",
+          detail: "細胞無法利用葡萄糖，身體持續處於「飢餓」狀態。多食但體重減輕。",
+          workup: ["血糖", "尿液分析", "果糖胺"] },
+        { zh: "甲狀腺亢進", en: "Hyperthyroidism", species: "cat", freq: "common", category: "內分泌",
+          detail: "代謝率增加，能量消耗加速。多食但體重減輕。",
+          workup: ["Total T4", "Free T4"] },
+        { zh: "胰外分泌功能不足", en: "Exocrine pancreatic insufficiency (EPI)", species: "both", freq: "uncommon", category: "消化",
+          detail: "食物無法被消化吸收，動物持續飢餓。伴大量軟便/脂肪便。",
+          workup: ["TLI"] },
+        { zh: "庫欣氏症", en: "Hyperadrenocorticism", species: "dog", freq: "common", category: "內分泌",
+          detail: "皮質醇過量刺激食慾。多食伴體重增加。",
+          workup: ["LDDS", "ACTH 刺激試驗"] },
+        { zh: "藥物引起", en: "Drug-induced", species: "both", freq: "common", category: "其他",
+          detail: "類固醇、苯巴比妥（phenobarbital）、抗組織胺等可增加食慾。",
+          workup: ["用藥史回顧"] },
+        { zh: "吸收不良", en: "Malabsorption", species: "both", freq: "uncommon", category: "消化",
+          detail: "腸道疾病（IBD、淋巴管擴張等）導致營養無法吸收。",
+          workup: ["Cobalamin/Folate", "腸道切片", "白蛋白"] },
+        { zh: "行為性多食", en: "Behavioral polyphagia", species: "both", freq: "common", category: "行為",
+          detail: "競爭性進食、焦慮、無聊等心理因素。排除器質性原因後考慮。",
+          workup: ["行為評估", "排除其他原因"] }
+      ]
+    },
+    {
+      id: "anorexia",
+      zhName: "厭食/食慾不振",
+      enName: "Anorexia / Inappetence",
+      section: "1.1",
+      sectionName: "全身性／系統性／代謝",
+      description: "食慾部分或完全喪失。為最常見的非特異性臨床症狀之一，幾乎所有系統性疾病均可導致。貓超過 3 天未進食需警惕肝脂肪沉積。",
+      differentials: [
+        { zh: "感染性疾病", en: "Infectious disease", species: "both", freq: "common", category: "感染",
+          detail: "發燒導致食慾下降。細菌、病毒、黴菌感染均可。",
+          workup: ["CBC", "體溫", "感染篩檢"] },
+        { zh: "疼痛", en: "Pain", species: "both", freq: "common", category: "多系統",
+          detail: "各種來源的疼痛均可抑制食慾。需仔細理學檢查找出疼痛源。",
+          workup: ["疼痛評估量表", "理學檢查", "影像學"] },
+        { zh: "腎臟疾病", en: "Renal disease", species: "both", freq: "common", category: "腎臟/泌尿",
+          detail: "尿毒症引起噁心、口腔潰瘍。",
+          workup: ["BUN/Cre/SDMA", "電解質"] },
+        { zh: "肝臟疾病", en: "Hepatic disease", species: "both", freq: "common", category: "肝膽",
+          detail: "肝功能異常導致毒素蓄積、噁心。",
+          workup: ["肝指數", "膽汁酸", "白蛋白"] },
+        { zh: "腸胃道疾病", en: "Gastrointestinal disease", species: "both", freq: "common", category: "消化",
+          detail: "噁心、嘔吐、腹痛等均可導致厭食。",
+          workup: ["影像學", "內視鏡", "糞便檢查"] },
+        { zh: "腫瘤", en: "Neoplasia", species: "both", freq: "common", category: "腫瘤",
+          detail: "腫瘤相關惡病質、疼痛、器官壓迫均可導致食慾下降。",
+          workup: ["影像學", "細胞學"] },
+        { zh: "口腔疾病", en: "Oral disease", species: "both", freq: "common", category: "口腔",
+          detail: "牙周病、口炎（貓尤其常見）、口腔腫瘤導致進食疼痛。",
+          workup: ["口腔檢查（需鎮靜）", "口腔 X 光"] },
+        { zh: "心理/環境因素", en: "Psychological/Environmental", species: "both", freq: "common", category: "行為",
+          detail: "壓力、環境變化、食物變更。貓尤其敏感。",
+          workup: ["環境與生活史"] },
+        { zh: "心臟病", en: "Cardiac disease", species: "both", freq: "uncommon", category: "心血管",
+          detail: "充血性心衰竭導致臟器灌流不足、腸道水腫。",
+          workup: ["心臟超音波", "NT-proBNP", "胸腔 X 光"] },
+        { zh: "胰臟炎", en: "Pancreatitis", species: "both", freq: "common", category: "消化",
+          detail: "腹痛、噁心為主要原因。犬症狀通常較貓明顯。",
+          workup: ["fPLI/cPLI（Spec fPL/cPL）", "腹部超音波"] }
+      ]
+    },
+    {
+      id: "failure-to-grow",
+      zhName: "生長遲滯",
+      enName: "Failure to Grow",
+      section: "1.1",
+      sectionName: "全身性／系統性／代謝",
+      description: "幼年動物未能達到預期的體型與體重。需與同窩/同品種幼畜比較。",
+      differentials: [
+        { zh: "門脈系統分流", en: "Portosystemic shunt (PSS)", species: "both", freq: "uncommon", category: "肝膽",
+          detail: "先天性血管異常，門靜脈血液繞過肝臟。常見嘔吐、神經症狀（特別在進食後）。",
+          workup: ["膽汁酸（前/後餐）", "血氨", "腹部超音波/CT 血管攝影"] },
+        { zh: "先天性心臟病", en: "Congenital heart disease", species: "both", freq: "uncommon", category: "心血管",
+          detail: "PDA、主動脈瓣狹窄、肺動脈瓣狹窄等影響生長。",
+          workup: ["心臟超音波", "胸腔 X 光", "心電圖"] },
+        { zh: "寄生蟲感染", en: "Heavy parasitism", species: "both", freq: "common", category: "感染",
+          detail: "大量腸道寄生蟲導致營養流失與貧血。",
+          workup: ["糞便檢查", "CBC"] },
+        { zh: "營養不良", en: "Malnutrition", species: "both", freq: "common", category: "營養",
+          detail: "飲食不當、餵食不足或品質不佳。",
+          workup: ["飲食史", "營養評估"] },
+        { zh: "巨食道/持續性右主動脈弓", en: "Megaoesophagus / PRAA", species: "dog", freq: "uncommon", category: "消化",
+          detail: "食道擴張導致吞嚥困難及反流，營養攝取不足。",
+          workup: ["胸腔 X 光（含鋇劑）", "內視鏡"] },
+        { zh: "內分泌疾病", en: "Endocrine disease", species: "both", freq: "rare", category: "內分泌",
+          detail: "先天性甲狀腺低下、垂體侏儒症等。",
+          workup: ["甲狀腺功能", "GH/IGF-1"] },
+        { zh: "腎臟發育不全", en: "Renal dysplasia", species: "both", freq: "rare", category: "腎臟/泌尿",
+          detail: "先天性腎臟發育異常導致早期腎功能不全。",
+          workup: ["BUN/Cre", "尿比重", "腎臟超音波/切片"] }
+      ]
+    },
+    {
+      id: "syncope",
+      zhName: "昏厥/虛脫",
+      enName: "Syncope / Collapse",
+      section: "1.1",
+      sectionName: "全身性／系統性／代謝",
+      description: "突發性、暫時性的意識喪失或全身無力倒下。需與癲癇發作區分：昏厥通常恢復迅速且無後發性混亂。",
+      differentials: [
+        { zh: "心律不整", en: "Cardiac arrhythmia", species: "both", freq: "common", category: "心血管",
+          detail: "嚴重心搏過緩或過速導致心輸出量驟降。常為運動或興奮時發生。",
+          workup: ["心電圖", "24 小時 Holter 監測", "心臟超音波"] },
+        { zh: "心臟結構性疾病", en: "Structural heart disease", species: "both", freq: "common", category: "心血管",
+          detail: "瓣膜疾病、心肌病、心包膜積液導致心輸出量不足。",
+          workup: ["心臟超音波", "胸腔 X 光", "NT-proBNP"] },
+        { zh: "癲癇", en: "Epilepsy / Seizures", species: "both", freq: "common", category: "神經",
+          detail: "需與真正的昏厥區分。癲癇常有前兆、抽搐、大小便失禁、發作後混亂。",
+          workup: ["神經學檢查", "腦部 MRI", "腦脊髓液分析", "腦電圖"] },
+        { zh: "低血糖", en: "Hypoglycaemia", species: "both", freq: "uncommon", category: "代謝",
+          detail: "胰島素瘤、肝功能不全、敗血症、幼犬/小型犬。",
+          workup: ["血糖", "胰島素濃度", "腹部超音波"] },
+        { zh: "電解質異常", en: "Electrolyte imbalance", species: "both", freq: "uncommon", category: "代謝",
+          detail: "嚴重低鉀、高鉀、低鈉、低鈣均可導致虛脫。",
+          workup: ["血清電解質全套", "離子鈣"] },
+        { zh: "血管迷走神經性昏厥", en: "Vasovagal syncope", species: "dog", freq: "uncommon", category: "神經",
+          detail: "迷走神經過度興奮導致心率減慢、血壓下降。",
+          workup: ["排除其他心臟疾病", "臨床監測"] },
+        { zh: "肺動脈高壓", en: "Pulmonary hypertension", species: "dog", freq: "uncommon", category: "心血管",
+          detail: "運動時右心輸出量不足。常見於慢性呼吸道或心臟疾病。",
+          workup: ["心臟超音波（三尖瓣逆流速度）", "胸腔 X 光"] },
+        { zh: "貧血", en: "Severe anaemia", species: "both", freq: "uncommon", category: "血液",
+          detail: "嚴重貧血導致組織缺氧。",
+          workup: ["CBC/PCV", "血液抹片", "網狀紅血球"] }
+      ]
+    },
+    {
+      id: "weakness",
+      zhName: "虛弱/無力",
+      enName: "Weakness",
+      section: "1.1",
+      sectionName: "全身性／系統性／代謝",
+      description: "運動耐受力下降或全身性無力。可為持續性或間歇性。需與跛行、共濟失調區分。",
+      differentials: [
+        { zh: "重症肌無力", en: "Myasthenia gravis", species: "both", freq: "uncommon", category: "神經肌肉",
+          detail: "神經肌肉接合處自體抗體阻斷 ACh 受體。運動後加重，休息後改善。可伴巨食道。",
+          workup: ["AChR 抗體效價", "Edrophonium 試驗", "胸腔 X 光（胸腺瘤）"] },
+        { zh: "貧血", en: "Anaemia", species: "both", freq: "common", category: "血液",
+          detail: "紅血球減少導致組織缺氧。原因包括溶血、出血、骨髓疾病。",
+          workup: ["CBC/PCV", "網狀紅血球", "血液抹片", "Coombs 試驗"] },
+        { zh: "心血管疾病", en: "Cardiovascular disease", species: "both", freq: "common", category: "心血管",
+          detail: "心輸出量不足導致全身灌流不足。",
+          workup: ["心臟超音波", "胸腔 X 光", "心電圖"] },
+        { zh: "低血鉀症", en: "Hypokalaemia", species: "both", freq: "uncommon", category: "代謝",
+          detail: "鉀離子過低影響肌肉收縮。貓可見頸部腹屈。常見於 CKD、嘔吐/腹瀉後。",
+          workup: ["血清鉀", "電解質全套"] },
+        { zh: "愛迪生氏症", en: "Hypoadrenocorticism", species: "dog", freq: "uncommon", category: "內分泌",
+          detail: "急性腎上腺危機可表現為嚴重虛弱、休克。",
+          workup: ["電解質", "ACTH 刺激試驗", "基礎皮質醇"] },
+        { zh: "多發性肌炎", en: "Polymyositis", species: "dog", freq: "rare", category: "神經肌肉",
+          detail: "免疫介導性肌肉發炎。全身僵硬、疼痛、無力。",
+          workup: ["CK", "肌肉切片", "肌電圖"] },
+        { zh: "內分泌疾病", en: "Endocrine disease", species: "both", freq: "uncommon", category: "內分泌",
+          detail: "甲狀腺低下（犬）、低血糖、電解質異常等。",
+          workup: ["甲狀腺功能", "血糖", "電解質"] },
+        { zh: "神經系統疾病", en: "Neurological disease", species: "both", freq: "uncommon", category: "神經",
+          detail: "脊髓疾病、多發性神經病變等可表現為全身無力。",
+          workup: ["神經學檢查", "脊髓影像學（MRI）", "腦脊髓液"] }
+      ]
+    },
+
+    // ---- 1.2 消化道/腹腔 ----
+    {
+      id: "ptyalism",
+      zhName: "流涎/唾液分泌過多",
+      enName: "Ptyalism / Hypersalivation",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "唾液分泌異常增多或因吞嚥障礙導致口水外溢。需區分真性分泌過多與假性流涎（無法吞嚥）。",
+      differentials: [
+        { zh: "口腔疾病", en: "Oral disease", species: "both", freq: "common", category: "口腔",
+          detail: "牙周病、口炎（貓慢性口齦炎尤其常見）、口腔腫瘤、口腔異物。",
+          workup: ["口腔檢查（需鎮靜）", "口腔 X 光", "切片"] },
+        { zh: "噁心", en: "Nausea", species: "both", freq: "common", category: "消化",
+          detail: "任何引起噁心的原因均可導致流涎。腸胃道疾病、藥物副作用、暈車。",
+          workup: ["根據伴隨症狀進一步檢查"] },
+        { zh: "食道疾病", en: "Oesophageal disease", species: "both", freq: "uncommon", category: "消化",
+          detail: "食道炎、食道異物、食道狹窄、巨食道導致吞嚥困難。",
+          workup: ["胸腔 X 光", "鋇劑吞嚥", "內視鏡"] },
+        { zh: "中毒", en: "Toxin ingestion", species: "both", freq: "uncommon", category: "中毒",
+          detail: "腐蝕性物質、某些植物（百合科等）、殺蟲劑（有機磷）。",
+          workup: ["暴露史", "毒物篩檢", "膽鹼酯酶活性"] },
+        { zh: "神經系統疾病", en: "Neurological disease", species: "both", freq: "rare", category: "神經",
+          detail: "顏面神經麻痺、三叉神經病變、狂犬病（需考量地區流行狀況）。",
+          workup: ["神經學檢查", "腦部 MRI"] },
+        { zh: "唾液腺疾病", en: "Salivary gland disease", species: "both", freq: "rare", category: "口腔",
+          detail: "唾液腺囊腫（sialocele）、唾液腺炎。",
+          workup: ["觸診", "超音波", "穿刺細胞學"] },
+        { zh: "疼痛", en: "Pain", species: "both", freq: "common", category: "多系統",
+          detail: "嚴重疼痛（特別是頭頸部區域）可引起流涎反應。",
+          workup: ["理學檢查", "疼痛定位"] }
+      ]
+    },
+
+    // ---- Additional symptoms from book's extended TOC ----
+    {
+      id: "vomiting",
+      zhName: "嘔吐",
+      enName: "Vomiting",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "胃內容物的主動排出。需與反流（regurgitation，被動、無腹部收縮）區分。急性 vs 慢性嘔吐的鑑別方向不同。",
+      differentials: [
+        { zh: "腸胃道異物", en: "GI foreign body", species: "both", freq: "common", category: "消化",
+          detail: "線性異物在貓特別常見。可導致腸阻塞或穿孔。",
+          workup: ["腹部 X 光", "腹部超音波", "內視鏡"] },
+        { zh: "胰臟炎", en: "Pancreatitis", species: "both", freq: "common", category: "消化",
+          detail: "犬通常症狀明顯（嘔吐、腹痛），貓症狀可能較隱匿。",
+          workup: ["fPLI/cPLI", "腹部超音波"] },
+        { zh: "腎臟疾病", en: "Renal disease", species: "both", freq: "common", category: "腎臟/泌尿",
+          detail: "尿毒症刺激化學受體觸發區（CRTZ）。",
+          workup: ["BUN/Cre/SDMA", "電解質"] },
+        { zh: "肝臟疾病", en: "Hepatic disease", species: "both", freq: "common", category: "肝膽",
+          detail: "肝功能不全導致毒素蓄積。",
+          workup: ["肝指數", "膽汁酸"] },
+        { zh: "炎症性腸病", en: "IBD", species: "both", freq: "common", category: "消化",
+          detail: "慢性嘔吐的常見原因，需切片確診。",
+          workup: ["內視鏡切片", "Cobalamin/Folate"] },
+        { zh: "腸套疊", en: "Intussusception", species: "both", freq: "uncommon", category: "消化",
+          detail: "腸段套入鄰近腸段，幼年動物較常見。",
+          workup: ["腹部超音波（靶環徵象）"] },
+        { zh: "藥物/中毒", en: "Drug/Toxin", species: "both", freq: "common", category: "中毒",
+          detail: "NSAIDs、化療藥物、百合（貓）、巧克力、葡萄/葡萄乾等。",
+          workup: ["暴露史", "藥物史"] },
+        { zh: "愛迪生氏症", en: "Hypoadrenocorticism", species: "dog", freq: "uncommon", category: "內分泌",
+          detail: "「偉大的偽裝者」，可模仿多種腸胃道疾病。",
+          workup: ["電解質（Na/K ratio）", "ACTH 刺激試驗"] },
+        { zh: "腸道腫瘤", en: "GI neoplasia", species: "both", freq: "uncommon", category: "腫瘤",
+          detail: "淋巴瘤（貓最常見的腸道腫瘤）、腺癌等。",
+          workup: ["超音波", "內視鏡切片或手術切片"] }
+      ]
+    },
+    {
+      id: "diarrhoea",
+      zhName: "腹瀉",
+      enName: "Diarrhoea",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "糞便次數增加、含水量增加或量增加。需區分小腸型與大腸型腹瀉，有助於縮小鑑別範圍。",
+      differentials: [
+        { zh: "飲食不當", en: "Dietary indiscretion", species: "both", freq: "common", category: "消化",
+          detail: "最常見的急性腹瀉原因。食物變更、垃圾翻食。",
+          workup: ["飲食史", "通常自限性"] },
+        { zh: "寄生蟲", en: "Parasitic infection", species: "both", freq: "common", category: "感染",
+          detail: "梨形鞭毛蟲、球蟲、鉤蟲、蛔蟲、鞭蟲等。",
+          workup: ["糞便浮游法", "糞便抗原"] },
+        { zh: "炎症性腸病", en: "IBD", species: "both", freq: "common", category: "消化",
+          detail: "慢性腹瀉的重要鑑別。需排除食物反應性腸病。",
+          workup: ["排除飲食、內視鏡切片"] },
+        { zh: "胰外分泌功能不足", en: "EPI", species: "both", freq: "uncommon", category: "消化",
+          detail: "大量黃色脂肪便，德國牧羊犬好發。",
+          workup: ["TLI"] },
+        { zh: "食物過敏/不耐受", en: "Food allergy/intolerance", species: "both", freq: "common", category: "免疫",
+          detail: "對特定蛋白質或成分的不良反應。",
+          workup: ["排除飲食試驗（8-12 週）"] },
+        { zh: "感染性腸炎", en: "Infectious enteritis", species: "both", freq: "common", category: "感染",
+          detail: "犬小病毒、犬冠狀病毒、貓瘟、沙門氏菌等。",
+          workup: ["糞便 PCR/抗原", "CBC"] },
+        { zh: "腸道腫瘤", en: "GI neoplasia", species: "both", freq: "uncommon", category: "腫瘤",
+          detail: "老年動物的慢性腹瀉需考慮。",
+          workup: ["超音波", "切片"] },
+        { zh: "蛋白質流失性腸病", en: "PLE", species: "dog", freq: "uncommon", category: "消化",
+          detail: "腹瀉伴低白蛋白血症。約克夏梗好發。",
+          workup: ["白蛋白", "腸道切片"] },
+        { zh: "愛迪生氏症", en: "Hypoadrenocorticism", species: "dog", freq: "uncommon", category: "內分泌",
+          detail: "間歇性腹瀉，常被誤診為單純腸胃道問題。",
+          workup: ["電解質", "ACTH 刺激試驗"] }
+      ]
+    },
+    {
+      id: "coughing",
+      zhName: "咳嗽",
+      enName: "Coughing",
+      section: "1.3",
+      sectionName: "呼吸道",
+      description: "突然、強力的空氣排出以清除呼吸道。犬較常見，貓咳嗽常被誤認為嘔吐動作。需區分乾咳 vs 濕咳、日間 vs 夜間。",
+      differentials: [
+        { zh: "犬舍咳（犬傳染性氣管支氣管炎）", en: "Kennel cough (CIRD)", species: "dog", freq: "common", category: "感染",
+          detail: "高度傳染性，典型乾咳（鵝叫聲）。Bordetella、犬副流感等。",
+          workup: ["臨床診斷為主", "PCR panel"] },
+        { zh: "心臟病（心因性咳嗽）", en: "Cardiac disease", species: "dog", freq: "common", category: "心血管",
+          detail: "左心房擴大壓迫主支氣管，或肺水腫。夜間或運動後加重。貓心臟病較少咳嗽。",
+          workup: ["胸腔 X 光", "心臟超音波", "NT-proBNP"] },
+        { zh: "氣管塌陷", en: "Tracheal collapse", species: "dog", freq: "common", category: "呼吸",
+          detail: "小型犬好發（約克夏、博美、吉娃娃）。典型「鵝叫」咳嗽，興奮時加重。",
+          workup: ["頸胸 X 光（吸氣/呼氣）", "透視", "支氣管鏡"] },
+        { zh: "貓氣喘", en: "Feline asthma", species: "cat", freq: "common", category: "呼吸",
+          detail: "下呼吸道過敏性疾病。咳嗽、喘息、呼吸困難。",
+          workup: ["胸腔 X 光（支氣管紋路增強）", "BAL（支氣管肺泡灌洗）"] },
+        { zh: "肺炎", en: "Pneumonia", species: "both", freq: "uncommon", category: "感染",
+          detail: "細菌性、吸入性、黴菌性。濕咳、發燒、精神沉鬱。",
+          workup: ["胸腔 X 光", "BAL", "培養與敏感試驗"] },
+        { zh: "肺部腫瘤", en: "Pulmonary neoplasia", species: "both", freq: "uncommon", category: "腫瘤",
+          detail: "原發性或轉移性。老年動物慢性咳嗽需考慮。",
+          workup: ["三向位胸腔 X 光", "CT", "細胞學"] },
+        { zh: "慢性支氣管炎", en: "Chronic bronchitis", species: "dog", freq: "common", category: "呼吸",
+          detail: "持續 2 個月以上的每日咳嗽，排除其他原因。中老年小型犬常見。",
+          workup: ["胸腔 X 光", "BAL"] },
+        { zh: "心絲蟲", en: "Heartworm disease", species: "both", freq: "uncommon", category: "感染",
+          detail: "流行地區需考慮。貓可能僅有少數蟲體即產生嚴重症狀。",
+          workup: ["抗原測試（犬）", "抗體測試（貓）", "胸腔 X 光"] }
+      ]
+    },
+    {
+      id: "dyspnoea",
+      zhName: "呼吸困難",
+      enName: "Dyspnoea",
+      section: "1.3",
+      sectionName: "呼吸道",
+      description: "呼吸費力或呼吸窘迫。為緊急臨床情況，需迅速評估。觀察呼吸模式有助於定位：吸氣性（上呼吸道）vs 呼氣性（下呼吸道）。",
+      differentials: [
+        { zh: "充血性心衰竭", en: "Congestive heart failure (CHF)", species: "both", freq: "common", category: "心血管",
+          detail: "肺水腫（犬較常見）或胸腔積液（貓較常見）。",
+          workup: ["胸腔 X 光", "心臟超音波", "NT-proBNP"] },
+        { zh: "胸腔積液", en: "Pleural effusion", species: "both", freq: "common", category: "多系統",
+          detail: "限制性呼吸型態。原因包括心臟病、腫瘤、FIP、乳糜胸、膿胸。",
+          workup: ["胸腔超音波", "胸腔穿刺與液體分析"] },
+        { zh: "肺炎", en: "Pneumonia", species: "both", freq: "common", category: "感染",
+          detail: "肺實質化減少氣體交換面積。",
+          workup: ["胸腔 X 光", "BAL", "培養"] },
+        { zh: "氣胸", en: "Pneumothorax", species: "both", freq: "uncommon", category: "呼吸",
+          detail: "外傷性或自發性。急性呼吸困難、呼吸音減弱。",
+          workup: ["胸腔 X 光", "胸腔穿刺"] },
+        { zh: "短頭犬阻塞性呼吸道症候群", en: "BOAS", species: "dog", freq: "common", category: "呼吸",
+          detail: "短頭犬種（法鬥、巴哥、英鬥）。鼻孔狹窄、軟顎過長、氣管發育不全。",
+          workup: ["臨床評估", "喉鏡/支氣管鏡（鎮靜下）"] },
+        { zh: "貓氣喘（急性發作）", en: "Feline asthma (acute)", species: "cat", freq: "common", category: "呼吸",
+          detail: "嚴重支氣管痙攣導致呼氣性呼吸困難。",
+          workup: ["胸腔 X 光", "對支氣管擴張劑的反應"] },
+        { zh: "肺部腫瘤", en: "Pulmonary neoplasia", species: "both", freq: "uncommon", category: "腫瘤",
+          detail: "大面積佔位或伴隨胸腔積液。",
+          workup: ["胸腔 X 光/CT", "細胞學"] },
+        { zh: "喉部麻痺", en: "Laryngeal paralysis", species: "dog", freq: "uncommon", category: "呼吸",
+          detail: "老年大型犬好發。吸氣性喘鳴，運動與熱環境時加重。",
+          workup: ["喉鏡檢查（輕度鎮靜下）"] },
+        { zh: "橫膈膜疝氣", en: "Diaphragmatic hernia", species: "both", freq: "uncommon", category: "消化",
+          detail: "外傷或先天性。腹腔臟器進入胸腔壓迫肺臟。",
+          workup: ["胸腔 X 光", "超音波"] }
+      ]
+    },
+    {
+      id: "skin-pruritus",
+      zhName: "搔癢（皮膚）",
+      enName: "Pruritus",
+      section: "1.4",
+      sectionName: "皮膚",
+      description: "持續性搔抓、舔舐、啃咬皮膚。犬貓最常見的皮膚問題主訴之一。需評估分布區域、季節性、對治療的反應。",
+      differentials: [
+        { zh: "跳蚤過敏性皮膚炎", en: "Flea allergy dermatitis (FAD)", species: "both", freq: "common", category: "寄生蟲/過敏",
+          detail: "全球最常見的過敏性皮膚病。犬好發腰薦部，貓可見粟粒狀皮膚炎。少數跳蚤即可引發。",
+          workup: ["體外寄生蟲檢查", "嚴格除蚤試驗（8-12 週）"] },
+        { zh: "異位性皮膚炎", en: "Atopic dermatitis", species: "dog", freq: "common", category: "過敏",
+          detail: "環境過敏原引起。好發面部、耳朵、肢端、腹側。常有季節性（後可能變為全年性）。",
+          workup: ["排除其他原因", "皮內試驗或血清 IgE"] },
+        { zh: "食物不良反應", en: "Cutaneous adverse food reaction", species: "both", freq: "common", category: "過敏",
+          detail: "非季節性搔癢，可累及耳朵和腸胃道。",
+          workup: ["排除飲食試驗（新型蛋白質或水解蛋白，8-12 週）"] },
+        { zh: "疥癬", en: "Sarcoptic mange (Scabies)", species: "dog", freq: "uncommon", category: "寄生蟲",
+          detail: "劇烈搔癢，好發耳緣、肘部、跗關節。高度傳染性。",
+          workup: ["皮膚刮搔（敏感度低）", "試驗性治療", "血清抗體"] },
+        { zh: "耳疥蟲", en: "Otodectes (ear mites)", species: "both", freq: "common", category: "寄生蟲",
+          detail: "深色耳垢、搔耳。幼年動物常見。",
+          workup: ["耳鏡檢查", "耳垢顯微鏡檢"] },
+        { zh: "皮黴菌症", en: "Dermatophytosis", species: "both", freq: "uncommon", category: "感染",
+          detail: "不一定搔癢，但某些動物可有明顯搔癢。圓形脫毛區。",
+          workup: ["伍德燈", "DTM 培養", "PCR"] },
+        { zh: "細菌性皮膚感染", en: "Bacterial pyoderma", species: "dog", freq: "common", category: "感染",
+          detail: "常為繼發於過敏的二次感染。膿疱、痂皮、表皮環。",
+          workup: ["細胞學", "培養與敏感試驗（深層或反覆感染時）"] },
+        { zh: "馬拉色菌皮膚炎", en: "Malassezia dermatitis", species: "dog", freq: "common", category: "感染",
+          detail: "酵母菌過度增生，油膩、惡臭。常繼發於過敏。",
+          workup: ["皮膚細胞學（壓印抹片）"] }
+      ]
+    },
+    {
+      id: "lameness",
+      zhName: "跛行",
+      enName: "Lameness",
+      section: "1.7",
+      sectionName: "肌肉骨骼",
+      description: "步態異常，表現為某一肢或多肢負重異常。需區分承重性跛行 vs 懸盪性跛行、前肢 vs 後肢、急性 vs 慢性。",
+      differentials: [
+        { zh: "十字韌帶斷裂", en: "Cranial cruciate ligament rupture", species: "dog", freq: "common", category: "骨科",
+          detail: "犬最常見的後肢跛行原因之一。可急性（外傷）或慢性退化。",
+          workup: ["脛骨前推試驗", "脛骨壓迫試驗", "膝關節 X 光"] },
+        { zh: "骨關節炎", en: "Osteoarthritis (OA)", species: "both", freq: "common", category: "骨科",
+          detail: "退化性關節疾病。老年動物漸進性跛行，活動後改善但長時間活動後加重。",
+          workup: ["X 光", "關節液分析"] },
+        { zh: "髖關節發育不良", en: "Hip dysplasia", species: "dog", freq: "common", category: "骨科",
+          detail: "大型犬好發。後肢跛行、兔跳步態、起身困難。",
+          workup: ["骨盆 X 光（PennHIP 或 OFA）"] },
+        { zh: "膝蓋骨脫位", en: "Patellar luxation", species: "dog", freq: "common", category: "骨科",
+          detail: "小型犬好發內側脫位。間歇性跛行、跳躍步態。",
+          workup: ["觸診", "膝關節 X 光"] },
+        { zh: "骨折", en: "Fracture", species: "both", freq: "common", category: "骨科",
+          detail: "急性嚴重跛行，外傷史。",
+          workup: ["X 光（含對側比較）"] },
+        { zh: "骨腫瘤", en: "Bone neoplasia", species: "dog", freq: "uncommon", category: "腫瘤",
+          detail: "骨肉瘤好發大型犬的長骨遠端/近端。進行性跛行、疼痛腫脹。",
+          workup: ["X 光（溶骨性病灶）", "胸腔 X 光（轉移）", "切片"] },
+        { zh: "免疫介導性多發性關節炎", en: "Immune-mediated polyarthritis", species: "both", freq: "uncommon", category: "免疫",
+          detail: "多關節腫脹、疼痛、發燒。可能找不到感染原因。",
+          workup: ["關節液分析（多關節）", "ANA", "RF"] },
+        { zh: "全骨炎", en: "Panosteitis", species: "dog", freq: "uncommon", category: "骨科",
+          detail: "青年大型犬的自限性骨炎。「遊走性跛行」，輪流影響不同肢。",
+          workup: ["長骨 X 光（骨內密度增加）"] }
+      ]
+    },
+    {
+      id: "seizures",
+      zhName: "癲癇發作",
+      enName: "Seizures",
+      section: "1.5",
+      sectionName: "神經系統",
+      description: "大腦皮質異常放電導致的陣發性、非自主性活動。需記錄發作型態、持續時間、頻率、發作前後行為。",
+      differentials: [
+        { zh: "原發性（特發性）癲癇", en: "Idiopathic epilepsy", species: "dog", freq: "common", category: "神經",
+          detail: "排除性診斷。通常 1-5 歲間首次發作。發作間期神經學檢查正常。某些品種好發。",
+          workup: ["完整血液學/生化排除代謝原因", "腦部 MRI", "腦脊髓液（正常）"] },
+        { zh: "顱內腫瘤", en: "Intracranial neoplasia", species: "both", freq: "uncommon", category: "腫瘤",
+          detail: "老年動物首次癲癇發作需高度懷疑。腦膜瘤（犬貓）、膠質瘤（犬）。",
+          workup: ["腦部 MRI（增強）", "腦脊髓液"] },
+        { zh: "腦炎", en: "Encephalitis", species: "both", freq: "uncommon", category: "感染/免疫",
+          detail: "感染性（犬瘟熱、FIP、弓形蟲）或免疫介導性（GME、NME、NLE）。",
+          workup: ["腦脊髓液", "腦部 MRI", "感染篩檢"] },
+        { zh: "肝性腦病", en: "Hepatic encephalopathy", species: "both", freq: "uncommon", category: "代謝",
+          detail: "肝功能不全（PSS 或嚴重肝病）導致氨等毒素蓄積。餐後加重。",
+          workup: ["膽汁酸", "血氨", "肝臟超音波"] },
+        { zh: "低血糖", en: "Hypoglycaemia", species: "both", freq: "uncommon", category: "代謝",
+          detail: "胰島素瘤、肝病、敗血症、幼犬。",
+          workup: ["血糖", "胰島素"] },
+        { zh: "中毒", en: "Toxin exposure", species: "both", freq: "uncommon", category: "中毒",
+          detail: "鼠藥（metaldehyde、bromethalin）、鉛、有機磷、木糖醇等。",
+          workup: ["暴露史", "毒物篩檢"] },
+        { zh: "腦血管事件", en: "Cerebrovascular accident (Stroke)", species: "both", freq: "uncommon", category: "神經",
+          detail: "急性發作的不對稱神經缺損。梗塞或出血。",
+          workup: ["腦部 MRI"] },
+        { zh: "先天性腦部異常", en: "Congenital brain malformation", species: "both", freq: "rare", category: "神經",
+          detail: "水腦症、平腦症等。幼年動物。",
+          workup: ["腦部 MRI/CT", "超音波（開放囟門）"] }
+      ]
+    },
+    {
+      id: "polyarthritis",
+      zhName: "多發性關節炎/關節腫脹",
+      enName: "Polyarthritis",
+      section: "1.7",
+      sectionName: "肌肉骨骼",
+      description: "多個關節同時出現發炎、腫脹、疼痛。可為感染性或非感染性（免疫介導性）。",
+      differentials: [
+        { zh: "免疫介導性多發性關節炎", en: "Immune-mediated polyarthritis (IMPA)", species: "both", freq: "common", category: "免疫",
+          detail: "最常見的多關節炎原因。發燒、多關節疼痛腫脹、跛行。",
+          workup: ["多關節關節液分析", "ANA", "血液培養（排除感染）"] },
+        { zh: "系統性紅斑狼瘡", en: "Systemic lupus erythematosus (SLE)", species: "dog", freq: "rare", category: "免疫",
+          detail: "多系統自體免疫疾病，關節炎為常見表現之一。",
+          workup: ["ANA", "Coombs", "UPC", "關節液"] },
+        { zh: "感染性關節炎", en: "Septic arthritis", species: "both", freq: "uncommon", category: "感染",
+          detail: "細菌（最常見）、黴菌、萊姆病。通常單關節但可多關節。",
+          workup: ["關節液（培養、細胞學）", "萊姆病篩檢"] },
+        { zh: "藥物反應", en: "Drug reaction", species: "both", freq: "rare", category: "其他",
+          detail: "某些藥物可引起關節炎樣反應。",
+          workup: ["用藥史", "停藥後觀察"] }
+      ]
+    },
+    {
+      id: "gagging",
+      zhName: "乾嘔/作嘔",
+      enName: "Gagging / Retching",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "反覆作嘔但未產生嘔吐物。需與真正的嘔吐及咳嗽區分。可能涉及咽喉、食道或呼吸道疾病。",
+      differentials: [
+        { zh: "咽喉炎", en: "Pharyngitis / Laryngitis", species: "both", freq: "common", category: "感染/發炎", detail: "咽喉發炎為最常見原因之一。可能繼發於上呼吸道感染。", workup: ["口咽檢查（需鎮靜）", "喉鏡檢查"] },
+        { zh: "鼻咽息肉", en: "Nasopharyngeal polyp", species: "cat", freq: "common", category: "感染/發炎", detail: "貓常見，從中耳或耳咽管長出的息肉，造成呼吸及吞嚥困難。", workup: ["口咽檢查", "耳鏡", "頭部 X 光/CT"] },
+        { zh: "喉頭麻痺", en: "Laryngeal paralysis", species: "dog", freq: "common", category: "神經", detail: "老年大型犬好發。聲帶無法外展導致吸氣性喘鳴及作嘔。", workup: ["喉鏡檢查（輕度鎮靜下）", "胸腔 X 光"] },
+        { zh: "咽喉異物", en: "Pharyngeal foreign body", species: "both", freq: "common", category: "物理性", detail: "骨頭、魚刺、木棒碎片等卡在咽喉。急性發作。", workup: ["口咽檢查", "X 光", "內視鏡"] },
+        { zh: "重症肌無力", en: "Myasthenia gravis", species: "both", freq: "uncommon", category: "神經肌肉", detail: "神經肌肉接合處自體免疫疾病，影響吞嚥功能。", workup: ["AChR 抗體", "Edrophonium 試驗", "胸腔 X 光（排除胸腺瘤）"] },
+        { zh: "呼吸道疾病（咳痰）", en: "Respiratory disease (expectoration)", species: "both", freq: "common", category: "呼吸", detail: "支氣管炎、肺水腫等導致咳痰後作嘔。", workup: ["胸腔 X 光", "支氣管鏡"] },
+        { zh: "腫瘤", en: "Neoplasia (pharyngeal/tonsillar)", species: "both", freq: "uncommon", category: "腫瘤", detail: "咽喉或扁桃腺腫瘤造成機械性阻塞。", workup: ["口咽檢查", "細胞學/切片", "CT"] }
+      ]
+    },
+    {
+      id: "dysphagia",
+      zhName: "吞嚥困難",
+      enName: "Dysphagia",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "進食或飲水時出現吞嚥困難。可分為口腔期、咽期及食道期吞嚥困難。",
+      differentials: [
+        { zh: "口腔疾病", en: "Oral disease (dental, periodontitis)", species: "both", freq: "common", category: "口腔", detail: "牙周病、嚴重齒齦炎、口腔潰瘍等造成進食疼痛。", workup: ["口腔檢查（需鎮靜）", "口腔 X 光"] },
+        { zh: "異物阻塞", en: "Foreign body obstruction", species: "both", freq: "common", category: "物理性", detail: "口腔、咽喉或食道異物。急性發作。", workup: ["口腔/咽喉檢查", "X 光", "內視鏡"] },
+        { zh: "口腔腫瘤", en: "Oral / pharyngeal neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "口腔或咽喉腫瘤造成機械性阻塞或疼痛。", workup: ["口腔檢查", "細胞學/切片", "CT"] },
+        { zh: "咀嚼肌炎", en: "Masticatory myositis", species: "dog", freq: "uncommon", category: "免疫", detail: "咀嚼肌自體免疫性發炎，無法張口或閉口疼痛。", workup: ["2M 抗體", "肌肉切片", "CK"] },
+        { zh: "三叉神經疾病", en: "Trigeminal nerve disease", species: "both", freq: "uncommon", category: "神經", detail: "三叉神經炎導致下顎下垂（dropped jaw），無法閉口。", workup: ["神經學檢查", "腦部 MRI"] },
+        { zh: "重症肌無力", en: "Myasthenia gravis", species: "both", freq: "uncommon", category: "神經肌肉", detail: "影響咽喉肌肉導致吞嚥障礙。可能伴隨巨食道。", workup: ["AChR 抗體", "Edrophonium 試驗"] },
+        { zh: "顳下顎關節疾病", en: "Temporomandibular joint disease", species: "both", freq: "uncommon", category: "骨關節", detail: "關節炎、脫臼或骨折影響張口閉口。", workup: ["頭部 X 光", "CT"] },
+        { zh: "狂犬病", en: "Rabies", species: "both", freq: "rare", category: "感染", detail: "流行區域需考慮。咽喉肌肉麻痺導致吞嚥困難。", workup: ["病史（咬傷史）", "法定通報"] }
+      ]
+    },
+    {
+      id: "regurgitation",
+      zhName: "反流/逆流",
+      enName: "Regurgitation",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "被動地將未消化食物從食道排出，不伴隨腹部用力。需與嘔吐區分：反流無前兆噁心，食物未消化且多為管狀。",
+      differentials: [
+        { zh: "巨食道", en: "Megaoesophagus", species: "both", freq: "common", category: "食道", detail: "食道擴張失去蠕動功能。先天性或後天性。後天性需排除重症肌無力。", workup: ["胸腔 X 光", "鋇劑攝影", "AChR 抗體"] },
+        { zh: "食道異物", en: "Oesophageal foreign body", species: "both", freq: "common", category: "物理性", detail: "骨頭、玩具等卡在食道。急性發作，可能造成食道穿孔。", workup: ["胸腔 X 光", "內視鏡"] },
+        { zh: "食道炎", en: "Oesophagitis", species: "both", freq: "common", category: "發炎", detail: "麻醉後胃酸逆流、誤食腐蝕性物質、慢性嘔吐等原因。", workup: ["內視鏡", "食道切片"] },
+        { zh: "食道狹窄", en: "Oesophageal stricture", species: "both", freq: "uncommon", category: "食道", detail: "食道炎癒合後纖維化導致管腔狹窄。", workup: ["鋇劑攝影", "內視鏡"] },
+        { zh: "血管環異常", en: "Vascular ring anomaly (PRAA)", species: "dog", freq: "uncommon", category: "先天性", detail: "持續性右主動脈弓等先天異常壓迫食道。斷奶後開始出現症狀。", workup: ["胸腔 X 光（含鋇劑）", "CT 血管攝影"] },
+        { zh: "重症肌無力", en: "Myasthenia gravis", species: "both", freq: "uncommon", category: "神經肌肉", detail: "局灶型重症肌無力可僅影響食道肌肉，導致巨食道。", workup: ["AChR 抗體", "Edrophonium 試驗"] },
+        { zh: "甲狀腺低下", en: "Hypothyroidism", species: "dog", freq: "common", category: "內分泌", detail: "可能繼發巨食道或食道運動障礙。", workup: ["Total T4", "Free T4", "TSH"] },
+        { zh: "食道腫瘤", en: "Oesophageal neoplasia", species: "both", freq: "rare", category: "腫瘤", detail: "原發性食道腫瘤較罕見，轉移性壓迫較常見。", workup: ["內視鏡＋切片", "CT"] }
+      ]
+    },
+    {
+      id: "melaena",
+      zhName: "黑便",
+      enName: "Melaena",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "排出黑色柏油狀糞便，代表上消化道（胃或小腸前段）出血。血液經胃酸消化後變黑。",
+      differentials: [
+        { zh: "胃腸道潰瘍", en: "GI ulceration (NSAIDs/steroids)", species: "both", freq: "common", category: "消化道", detail: "最常見原因。NSAIDs 及類固醇為主要藥物誘因。也見於壓力性潰瘍及尿毒症。", workup: ["用藥史", "內視鏡", "BUN/Cre"] },
+        { zh: "胃腸道腫瘤", en: "GI neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "腺癌、淋巴瘤、平滑肌瘤/肉瘤等。", workup: ["腹部超音波", "內視鏡＋切片"] },
+        { zh: "凝血障礙", en: "Coagulopathy", species: "both", freq: "common", category: "血液", detail: "抗凝血劑中毒（老鼠藥）、DIC、血小板減少症、von Willebrand 病等。", workup: ["PT/aPTT", "血小板計數", "BMBT"] },
+        { zh: "胃炎/腸炎", en: "Gastritis / Enteritis", species: "both", freq: "common", category: "消化道", detail: "急性或慢性胃腸道發炎可導致黏膜出血。", workup: ["糞便檢查", "內視鏡"] },
+        { zh: "腸道寄生蟲", en: "GI parasites", species: "both", freq: "common", category: "感染", detail: "鉤蟲等吸血性寄生蟲。幼年動物尤其常見。", workup: ["糞便浮游法"] },
+        { zh: "肝臟疾病", en: "Hepatic disease", species: "both", freq: "uncommon", category: "肝膽", detail: "肝病導致凝血因子合成不足或門脈高壓。", workup: ["肝指數", "膽汁酸", "PT/aPTT"] },
+        { zh: "吞嚥血液", en: "Swallowed blood", species: "both", freq: "common", category: "其他", detail: "鼻出血、口腔出血或呼吸道出血被吞下後造成黑便假象。", workup: ["口腔/鼻腔檢查"] },
+        { zh: "休克/敗血症", en: "Shock / Septicaemia", species: "both", freq: "uncommon", category: "多系統", detail: "黏膜灌流不足導致胃腸道缺血性損傷。", workup: ["血壓", "乳酸", "血液培養"] }
+      ]
+    },
+    {
+      id: "haematemesis",
+      zhName: "吐血",
+      enName: "Haematemesis",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "嘔吐物含血。鮮血代表近期活動性出血；咖啡渣樣（digested blood）代表血液已被胃酸部分消化。",
+      differentials: [
+        { zh: "胃腸道潰瘍", en: "GI ulceration", species: "both", freq: "common", category: "消化道", detail: "NSAIDs、類固醇、壓力、尿毒症等引起。胃十二指腸潰瘍為主要來源。", workup: ["內視鏡", "用藥史", "BUN/Cre"] },
+        { zh: "胃腸道腫瘤", en: "GI neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "腺癌、淋巴瘤等侵蝕血管。", workup: ["腹部超音波", "內視鏡＋切片"] },
+        { zh: "凝血障礙", en: "Coagulopathy", species: "both", freq: "common", category: "血液", detail: "抗凝血劑中毒、DIC、血小板減少等。", workup: ["PT/aPTT", "血小板計數"] },
+        { zh: "出血性胃腸炎", en: "Haemorrhagic gastroenteritis (HGE)", species: "dog", freq: "common", category: "消化道", detail: "急性血性嘔吐與腹瀉，PCV 急劇升高。小型犬好發。", workup: ["CBC（PCV）", "糞便檢查", "電解質"] },
+        { zh: "胃炎", en: "Gastritis", species: "both", freq: "common", category: "消化道", detail: "急性或慢性胃炎伴黏膜糜爛出血。", workup: ["內視鏡＋切片"] },
+        { zh: "異物（胃擴張/扭轉後）", en: "Post GDV / Foreign body", species: "dog", freq: "common", category: "消化道", detail: "胃擴張扭轉後胃壁缺血壞死導致出血。", workup: ["腹部 X 光", "腹部超音波"] },
+        { zh: "全身性肥大細胞增生", en: "Systemic mastocytosis", species: "both", freq: "rare", category: "腫瘤", detail: "組織胺過量刺激胃酸分泌，導致胃潰瘍。", workup: ["肥大細胞腫瘤篩檢", "胃鏡"] }
+      ]
+    },
+    {
+      id: "haematochezia",
+      zhName: "血便（鮮血便）",
+      enName: "Haematochezia",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "糞便中含鮮紅色血液，表示下消化道（結腸、直腸、肛門區域）出血。",
+      differentials: [
+        { zh: "結腸炎", en: "Colitis", species: "both", freq: "common", category: "消化道", detail: "急性或慢性結腸發炎，常伴黏液便及裏急後重。", workup: ["糞便檢查", "結腸鏡＋切片"] },
+        { zh: "腸道寄生蟲", en: "Intestinal parasites", species: "both", freq: "common", category: "感染", detail: "鞭蟲、鉤蟲等大腸寄生蟲。", workup: ["糞便浮游法"] },
+        { zh: "肛周疾病", en: "Perianal disease", species: "both", freq: "common", category: "肛門/直腸", detail: "肛門腺疾病、肛門瘻管、肛周腫瘤、直腸脫垂等。", workup: ["肛門/直腸檢查"] },
+        { zh: "炎症性腸病", en: "Inflammatory bowel disease", species: "both", freq: "common", category: "消化道", detail: "慢性免疫介導性腸道發炎。", workup: ["結腸鏡＋切片", "Cobalamin/Folate"] },
+        { zh: "結直腸腫瘤", en: "Colorectal neoplasia", species: "both", freq: "uncommon", category: "腫瘤", detail: "腺瘤性息肉、腺癌、淋巴瘤等。", workup: ["結腸鏡＋切片", "腹部超音波"] },
+        { zh: "凝血障礙", en: "Coagulopathy", species: "both", freq: "uncommon", category: "血液", detail: "抗凝血劑中毒、DIC、血小板疾病。", workup: ["PT/aPTT", "血小板計數"] },
+        { zh: "腸套疊", en: "Intussusception", species: "both", freq: "common", category: "消化道", detail: "腸段套入鄰近腸段，幼年動物常見。可能伴隨嘔吐、腹痛。", workup: ["腹部超音波", "腹部 X 光"] },
+        { zh: "出血性胃腸炎", en: "Haemorrhagic gastroenteritis", species: "dog", freq: "common", category: "消化道", detail: "急性血性腹瀉，小型犬好發。", workup: ["CBC", "電解質"] }
+      ]
+    },
+    {
+      id: "constipation",
+      zhName: "便秘/糞便嵌塞",
+      enName: "Constipation / Obstipation",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "排便困難或無法排便。Obstipation 指嚴重的頑固性便秘。貓比犬更常見。",
+      differentials: [
+        { zh: "特發性巨結腸", en: "Idiopathic megacolon", species: "cat", freq: "common", category: "消化道", detail: "貓最常見的便秘原因。結腸平滑肌功能障礙。", workup: ["腹部 X 光", "直腸檢查"] },
+        { zh: "骨盆骨折後狹窄", en: "Pelvic fracture narrowing", species: "both", freq: "common", category: "骨科", detail: "骨盆骨折癒合後骨盆腔狹窄，壓迫結腸。", workup: ["骨盆 X 光"] },
+        { zh: "異物/飲食不當", en: "Foreign material / Diet", species: "both", freq: "common", category: "飲食", detail: "吞食骨頭、毛髮、異物。低纖維飲食。", workup: ["飲食史", "腹部 X 光"] },
+        { zh: "前列腺疾病", en: "Prostatic disease", species: "dog", freq: "common", category: "泌尿生殖", detail: "前列腺腫大壓迫直腸（良性增生、膿瘍、腫瘤）。", workup: ["直腸觸診", "腹部超音波"] },
+        { zh: "腰薦椎疾病", en: "Lumbosacral disease", species: "both", freq: "common", category: "神經", detail: "影響排便神經支配。", workup: ["神經學檢查", "腰薦椎 X 光/MRI"] },
+        { zh: "肛門/直腸疼痛", en: "Anal/rectal pain", species: "both", freq: "common", category: "肛門/直腸", detail: "肛門腺炎、肛門瘻管、直腸腫瘤等導致排便疼痛性抑制。", workup: ["肛門/直腸檢查"] },
+        { zh: "甲狀腺低下", en: "Hypothyroidism", species: "dog", freq: "common", category: "內分泌", detail: "代謝率降低導致腸道蠕動減慢。", workup: ["Total T4", "Free T4", "TSH"] },
+        { zh: "藥物引起", en: "Drug-induced", species: "both", freq: "uncommon", category: "其他", detail: "鴉片類、抗膽鹼藥、鋁制酸劑等。", workup: ["用藥史"] },
+        { zh: "脫水", en: "Dehydration", species: "both", freq: "common", category: "多系統", detail: "水分攝取不足或流失過多。", workup: ["理學檢查", "電解質"] }
+      ]
+    },
+    {
+      id: "faecal-tenesmus",
+      zhName: "排便裏急後重",
+      enName: "Faecal Tenesmus / Dyschezia",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "排便時持續用力但排出量少或無法排出。常伴隨疼痛表現。需與泌尿系統的裏急後重區分。",
+      differentials: [
+        { zh: "肛門腺疾病", en: "Anal sac disease", species: "both", freq: "common", category: "肛門/直腸", detail: "肛門腺炎、膿瘍、嵌塞為最常見原因。", workup: ["肛門腺觸診與表達"] },
+        { zh: "結直腸疾病", en: "Colorectal disease (colitis, neoplasia)", species: "both", freq: "common", category: "消化道", detail: "結腸炎、直腸息肉、腫瘤、異物等。", workup: ["直腸檢查", "結腸鏡"] },
+        { zh: "肛門瘻管", en: "Anal furunculosis / Perianal fistula", species: "dog", freq: "common", category: "肛門/直腸", detail: "德國牧羊犬好發。肛周深部竇道及潰瘍。", workup: ["肛周視診", "鎮靜下檢查"] },
+        { zh: "會陰疝", en: "Perineal hernia", species: "dog", freq: "common", category: "外科", detail: "骨盆膈肌無力導致直腸偏位。未絕育公犬好發。", workup: ["肛周觸診", "超音波"] },
+        { zh: "前列腺疾病", en: "Prostatic disease", species: "dog", freq: "common", category: "泌尿生殖", detail: "腫大的前列腺壓迫直腸。", workup: ["直腸觸診", "超音波"] },
+        { zh: "便秘/糞便嵌塞", en: "Constipation / Obstipation", species: "both", freq: "common", category: "消化道", detail: "糞便過硬或腸道阻塞。", workup: ["腹部 X 光", "直腸檢查"] },
+        { zh: "骨盆骨折", en: "Pelvic fracture", species: "both", freq: "uncommon", category: "骨科", detail: "急性骨折疼痛或癒合後骨盆腔狹窄。", workup: ["骨盆 X 光"] }
+      ]
+    },
+    {
+      id: "faecal-incontinence",
+      zhName: "糞便失禁",
+      enName: "Faecal Incontinence",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "無法控制排便。可分為肛門括約肌功能不全及儲存型失禁。",
+      differentials: [
+        { zh: "腰薦椎疾病", en: "Lumbosacral disease", species: "both", freq: "common", category: "神經", detail: "腰薦椎狹窄、椎間盤疾病壓迫馬尾神經。", workup: ["神經學檢查", "腰薦椎 MRI"] },
+        { zh: "退化性脊髓病", en: "Degenerative myelopathy (CDRM)", species: "dog", freq: "common", category: "神經", detail: "大型犬好發，進行性後肢無力伴排便控制喪失。", workup: ["神經學檢查", "MRI（排除其他）", "SOD1 基因檢測"] },
+        { zh: "肛門括約肌損傷", en: "Anal sphincter damage", species: "both", freq: "common", category: "外科/創傷", detail: "外傷、手術（肛門腺摘除術）後損傷。", workup: ["肛門反射", "肛門觸診"] },
+        { zh: "結腸炎", en: "Colitis", species: "both", freq: "common", category: "消化道", detail: "急迫性腹瀉導致儲存型失禁。", workup: ["糞便檢查", "結腸鏡"] },
+        { zh: "肛周疾病", en: "Perianal disease (fistula, neoplasia)", species: "both", freq: "uncommon", category: "肛門/直腸", detail: "肛門瘻管或腫瘤破壞括約肌。", workup: ["肛周檢查"] },
+        { zh: "脊髓疾病", en: "Spinal cord disease", species: "both", freq: "uncommon", category: "神經", detail: "椎間盤突出、脊髓腫瘤、外傷等影響排便控制。", workup: ["神經學檢查", "脊椎 MRI"] }
+      ]
+    },
+    {
+      id: "flatulence",
+      zhName: "脹氣/腸鳴音",
+      enName: "Flatulence / Borborygmus",
+      section: "1.2",
+      sectionName: "消化道／腹腔",
+      description: "排氣增加或腸蠕動音增強。常與飲食或消化功能相關。",
+      differentials: [
+        { zh: "飲食因素", en: "Dietary factors", species: "both", freq: "common", category: "飲食", detail: "高纖維飲食、乳製品（乳糖不耐）、變質食物。最常見原因。", workup: ["飲食史", "飲食試驗"] },
+        { zh: "吞氣症", en: "Aerophagia", species: "both", freq: "common", category: "行為", detail: "競爭性進食、緊張的動物進食過快吞入大量空氣。", workup: ["觀察進食行為"] },
+        { zh: "胰外分泌功能不足", en: "Exocrine pancreatic insufficiency", species: "both", freq: "uncommon", category: "消化", detail: "消化酶不足導致食物發酵產氣。", workup: ["TLI"] },
+        { zh: "炎症性腸病", en: "Inflammatory bowel disease", species: "both", freq: "common", category: "消化", detail: "慢性腸道發炎影響消化吸收，食物發酵。", workup: ["腸道切片", "Cobalamin/Folate"] },
+        { zh: "小腸細菌過度增生", en: "Small intestinal bacterial overgrowth", species: "both", freq: "uncommon", category: "消化", detail: "異常細菌發酵產生過多氣體。", workup: ["Cobalamin/Folate", "經驗性抗生素試驗"] }
+      ]
+    },
+    {
+      id: "sneezing",
+      zhName: "噴嚏/鼻分泌物",
+      enName: "Sneezing / Nasal Discharge",
+      section: "1.3",
+      sectionName: "心血管／呼吸",
+      description: "反覆打噴嚏及/或鼻腔分泌物（漿液性、黏液性、膿性或血性）。需區分單側或雙側。",
+      differentials: [
+        { zh: "上呼吸道感染", en: "Upper respiratory infection", species: "both", freq: "common", category: "感染", detail: "犬：犬瘟熱、犬傳染性支氣管炎。貓：疱疹病毒、杯狀病毒、披衣菌。", workup: ["PCR 病原檢測", "分泌物培養"] },
+        { zh: "鼻腔異物", en: "Nasal foreign body", species: "both", freq: "common", category: "物理性", detail: "草芒、植物碎片等。通常急性發作、單側。", workup: ["鼻鏡", "鼻腔 X 光/CT"] },
+        { zh: "鼻腔腫瘤", en: "Nasal neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "腺癌、鱗狀細胞癌、淋巴瘤等。中老年動物，常單側漸進為雙側。", workup: ["鼻腔 CT", "鼻鏡＋切片"] },
+        { zh: "黴菌性鼻炎", en: "Fungal rhinitis (Aspergillosis)", species: "dog", freq: "uncommon", category: "感染", detail: "麴菌感染，犬常見。慢性鼻分泌物伴鼻甲骨破壞。", workup: ["鼻腔 CT", "鼻鏡（菌斑）", "血清學"] },
+        { zh: "過敏性鼻炎", en: "Allergic rhinitis", species: "both", freq: "common", category: "免疫", detail: "對環境過敏原的鼻腔反應。漿液性分泌物。", workup: ["排除其他原因", "過敏原檢測"] },
+        { zh: "牙根膿瘍", en: "Tooth root abscess", species: "both", freq: "common", category: "口腔", detail: "上顎牙根感染穿透鼻腔底部，造成口鼻瘻管。單側膿性鼻分泌物。", workup: ["口腔 X 光", "口腔檢查"] },
+        { zh: "淋巴漿細胞性鼻炎", en: "Lymphoplasmacytic rhinitis", species: "both", freq: "common", category: "發炎", detail: "慢性特發性鼻炎，排除其他原因後診斷。", workup: ["鼻腔 CT", "切片"] },
+        { zh: "鼻咽息肉", en: "Nasopharyngeal polyp", species: "cat", freq: "common", category: "發炎", detail: "貓常見。從中耳或耳咽管長入鼻咽。", workup: ["口咽檢查", "耳鏡", "CT"] }
+      ]
+    },
+    {
+      id: "epistaxis",
+      zhName: "鼻出血",
+      enName: "Epistaxis",
+      section: "1.3",
+      sectionName: "心血管／呼吸",
+      description: "鼻腔出血。需區分單側（多為局部病因）或雙側（可能為全身性凝血問題）。",
+      differentials: [
+        { zh: "凝血障礙", en: "Coagulopathy", species: "both", freq: "common", category: "血液", detail: "抗凝血劑中毒（老鼠藥）、DIC、血小板減少、von Willebrand 病。雙側鼻出血需優先排除。", workup: ["PT/aPTT", "血小板計數", "BMBT", "von Willebrand 因子"] },
+        { zh: "鼻腔腫瘤", en: "Nasal neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "腺癌、鱗狀細胞癌、軟骨肉瘤等。中老年，可能單側。", workup: ["鼻腔 CT", "鼻鏡＋切片"] },
+        { zh: "鼻腔感染", en: "Nasal infection", species: "both", freq: "common", category: "感染", detail: "細菌、黴菌（麴菌）感染破壞黏膜。", workup: ["鼻腔 CT", "培養", "鼻鏡"] },
+        { zh: "外傷", en: "Trauma", species: "both", freq: "common", category: "創傷", detail: "頭部創傷、異物。", workup: ["頭部 X 光/CT"] },
+        { zh: "高血壓", en: "Systemic hypertension", species: "both", freq: "uncommon", category: "心血管", detail: "全身性高血壓導致鼻腔微血管破裂。貓 CKD 常見併發症。", workup: ["血壓測量", "BUN/Cre"] },
+        { zh: "牙根膿瘍", en: "Tooth root abscess", species: "both", freq: "common", category: "口腔", detail: "上顎牙根感染穿透至鼻腔。", workup: ["口腔 X 光"] },
+        { zh: "血管肉瘤（Angiostrongylus）", en: "Angiostrongylus vasorum", species: "dog", freq: "uncommon", category: "感染", detail: "肺蟲感染可導致凝血障礙及鼻出血。", workup: ["Baermann 法", "抗原檢測"] },
+        { zh: "血小板疾病", en: "Platelet disorders", species: "both", freq: "uncommon", category: "血液", detail: "免疫介導性血小板減少（IMTP）為犬最常見後天性血小板減少原因。", workup: ["CBC", "血小板計數", "骨髓檢查"] }
+      ]
+    },
+    {
+      id: "haemoptysis",
+      zhName: "咳血",
+      enName: "Haemoptysis",
+      section: "1.3",
+      sectionName: "心血管／呼吸",
+      description: "咳出含血的分泌物。需與吐血及鼻出血區分。代表下呼吸道或肺實質出血。",
+      differentials: [
+        { zh: "肺腫瘤", en: "Pulmonary neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "原發性肺腫瘤或轉移性腫瘤。", workup: ["胸腔 X 光", "CT", "支氣管鏡＋灌洗"] },
+        { zh: "凝血障礙", en: "Coagulopathy", species: "both", freq: "common", category: "血液", detail: "抗凝血劑中毒、DIC、血小板疾病。", workup: ["PT/aPTT", "血小板計數"] },
+        { zh: "肺炎", en: "Pneumonia", species: "both", freq: "common", category: "感染", detail: "細菌性、黴菌性肺炎伴肺實質出血。", workup: ["胸腔 X 光", "支氣管灌洗＋培養"] },
+        { zh: "肺水腫", en: "Pulmonary oedema", species: "both", freq: "common", category: "心血管", detail: "心因性（左心衰竭）或非心因性肺水腫。可能咳出粉紅色泡沫痰。", workup: ["胸腔 X 光", "心臟超音波", "NT-proBNP"] },
+        { zh: "肺蟲感染", en: "Lungworm (Angiostrongylus/Aelurostrongylus)", species: "both", freq: "uncommon", category: "感染", detail: "犬：Angiostrongylus vasorum。貓：Aelurostrongylus abstrusus。", workup: ["Baermann 法", "抗原檢測", "糞便檢查"] },
+        { zh: "肺部栓塞", en: "Pulmonary thromboembolism", species: "both", freq: "uncommon", category: "心血管", detail: "血栓阻塞肺血管導致肺梗塞出血。常繼發於其他疾病。", workup: ["CT 血管攝影", "D-dimer"] },
+        { zh: "外傷", en: "Trauma (pulmonary contusion)", species: "both", freq: "common", category: "創傷", detail: "胸部撞擊傷導致肺挫傷出血。", workup: ["胸腔 X 光"] }
+      ]
+    },
+    {
+      id: "exercise-intolerance",
+      zhName: "運動不耐",
+      enName: "Exercise Intolerance",
+      section: "1.3",
+      sectionName: "心血管／呼吸",
+      description: "運動能力下降，容易疲累。可能與心血管、呼吸、代謝或神經肌肉疾病相關。",
+      differentials: [
+        { zh: "充血性心衰竭", en: "Congestive heart failure", species: "both", freq: "common", category: "心血管", detail: "心輸出量不足無法應付運動需求。犬：瓣膜疾病、DCM。貓：HCM。", workup: ["心臟超音波", "胸腔 X 光", "NT-proBNP"] },
+        { zh: "心律不整", en: "Cardiac arrhythmia", species: "both", freq: "common", category: "心血管", detail: "運動時心律不整加重，導致心輸出量不穩定。", workup: ["心電圖", "Holter 監測"] },
+        { zh: "呼吸道疾病", en: "Respiratory disease", species: "both", freq: "common", category: "呼吸", detail: "上呼吸道阻塞（喉麻痺、氣管塌陷）、胸腔積液、肺纖維化等。", workup: ["胸腔 X 光", "喉鏡", "支氣管鏡"] },
+        { zh: "貧血", en: "Anaemia", species: "both", freq: "common", category: "血液", detail: "氧氣運輸能力下降。", workup: ["CBC", "網織紅血球計數"] },
+        { zh: "甲狀腺低下", en: "Hypothyroidism", species: "dog", freq: "common", category: "內分泌", detail: "代謝率降低、肌肉無力。", workup: ["Total T4", "Free T4", "TSH"] },
+        { zh: "重症肌無力", en: "Myasthenia gravis", species: "both", freq: "uncommon", category: "神經肌肉", detail: "運動後肌肉疲勞加重，休息後改善。", workup: ["AChR 抗體", "Edrophonium 試驗"] },
+        { zh: "肌肉病變", en: "Myopathy", species: "both", freq: "uncommon", category: "神經肌肉", detail: "先天性或後天性肌肉病變（多發性肌炎等）。", workup: ["CK", "肌電圖", "肌肉切片"] },
+        { zh: "愛迪生氏症", en: "Hypoadrenocorticism", species: "dog", freq: "uncommon", category: "內分泌", detail: "間歇性虛弱，壓力時惡化。", workup: ["電解質", "ACTH 刺激試驗"] },
+        { zh: "肺動脈高壓", en: "Pulmonary hypertension", species: "both", freq: "uncommon", category: "心血管", detail: "肺動脈壓力升高導致右心負荷增加。", workup: ["心臟超音波（三尖瓣反流速度）"] }
+      ]
+    },
+    {
+      id: "trembling",
+      zhName: "顫抖/發抖",
+      enName: "Trembling / Shivering",
+      section: "1.5",
+      sectionName: "神經系統",
+      description: "不自主的節律性肌肉運動。需與癲癇發作區分。可為生理性（寒冷、恐懼）或病理性。",
+      differentials: [
+        { zh: "生理性（寒冷/恐懼）", en: "Physiological (cold/fear)", species: "both", freq: "common", category: "生理", detail: "最常見原因。低溫環境、疼痛、恐懼或焦慮。", workup: ["環境與行為評估"] },
+        { zh: "疼痛", en: "Pain", species: "both", freq: "common", category: "多系統", detail: "任何來源的疼痛均可導致顫抖。", workup: ["完整理學檢查", "疼痛評估"] },
+        { zh: "中毒", en: "Toxin exposure", species: "both", freq: "common", category: "中毒", detail: "有機磷、除蟲菊、巧克力/咖啡因、蝸牛藥（metaldehyde）、馬錢子鹼等。", workup: ["中毒史", "相應毒物檢測"] },
+        { zh: "低血糖", en: "Hypoglycaemia", species: "both", freq: "common", category: "代謝", detail: "幼年動物、胰島素瘤、愛迪生氏症。", workup: ["血糖"] },
+        { zh: "低血鈣", en: "Hypocalcaemia", species: "both", freq: "uncommon", category: "代謝", detail: "產後低血鈣（子癇）、副甲狀腺低下。", workup: ["離子鈣", "PTH"] },
+        { zh: "小腦疾病", en: "Cerebellar disease", species: "both", freq: "uncommon", category: "神經", detail: "小腦損傷導致意向性震顫（movement時加重）。", workup: ["神經學檢查", "腦部 MRI"] },
+        { zh: "白狗搖擺症候群", en: "Corticosteroid-responsive tremor syndrome", species: "dog", freq: "uncommon", category: "神經", detail: "又稱白狗搖擺病。全身性震顫，好發小型白色犬但任何犬種可發生。類固醇反應良好。", workup: ["神經學檢查", "腦脊髓液分析", "MRI"] },
+        { zh: "肝性腦病", en: "Hepatic encephalopathy", species: "both", freq: "uncommon", category: "代謝", detail: "肝功能不全導致氨等毒素蓄積。", workup: ["膽汁酸", "血氨", "肝臟超音波"] }
+      ]
+    },
+    {
+      id: "ataxia",
+      zhName: "共濟失調",
+      enName: "Ataxia",
+      section: "1.5",
+      sectionName: "神經系統",
+      description: "運動協調障礙。可分為前庭性（頭歪斜、眼球震顫）、小腦性（意向性震顫、過度測距）及本體感覺性（踩棉花感）。",
+      differentials: [
+        { zh: "前庭疾病", en: "Vestibular disease", species: "both", freq: "common", category: "前庭", detail: "周邊型（內耳炎、特發性）或中樞型（腦幹）。伴頭歪斜、眼球震顫。", workup: ["神經學檢查", "耳鏡", "腦部 MRI"] },
+        { zh: "椎間盤疾病", en: "Intervertebral disc disease (IVDD)", species: "dog", freq: "common", category: "脊椎", detail: "犬最常見的脊髓疾病。臘腸犬等軟骨營養障礙品種好發。", workup: ["神經學檢查", "脊椎 MRI/CT", "脊髓攝影"] },
+        { zh: "退化性脊髓病", en: "Degenerative myelopathy", species: "dog", freq: "common", category: "脊椎", detail: "大型犬好發，進行性後肢本體感覺喪失。", workup: ["排除性診斷", "SOD1 基因檢測"] },
+        { zh: "腦腫瘤", en: "Intracranial neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "腦膜瘤、膠質瘤等。中老年動物漸進性神經症狀。", workup: ["腦部 MRI", "腦脊髓液"] },
+        { zh: "腦炎", en: "Encephalitis / Meningoencephalitis", species: "both", freq: "uncommon", category: "感染/免疫", detail: "感染性（犬瘟熱、FIP、弓形蟲）或免疫介導性（GME、NME）。", workup: ["腦脊髓液分析", "腦部 MRI", "病原 PCR"] },
+        { zh: "小腦疾病", en: "Cerebellar disease", species: "both", freq: "uncommon", category: "神經", detail: "先天性（貓小腦發育不全）或後天性。意向性震顫、過度測距。", workup: ["腦部 MRI"] },
+        { zh: "纖維軟骨栓塞", en: "Fibrocartilaginous embolism (FCE)", species: "both", freq: "common", category: "脊椎", detail: "脊髓血管栓塞導致急性非疼痛性脊髓損傷。大型犬好發。", workup: ["脊椎 MRI"] },
+        { zh: "中毒", en: "Toxin exposure", species: "both", freq: "common", category: "中毒", detail: "Metronidazole 毒性、重金屬、有機磷等。", workup: ["用藥史", "毒物篩檢"] },
+        { zh: "代謝性腦病", en: "Metabolic encephalopathy", species: "both", freq: "uncommon", category: "代謝", detail: "肝性腦病、尿毒症性腦病、電解質失衡。", workup: ["生化全套", "膽汁酸", "電解質"] }
+      ]
+    },
+    {
+      id: "paresis-paralysis",
+      zhName: "輕癱/癱瘓",
+      enName: "Paresis / Paralysis",
+      section: "1.5",
+      sectionName: "神經系統",
+      description: "自主運動能力部分喪失（輕癱）或完全喪失（癱瘓）。依據受影響範圍分為單肢、雙前肢、雙後肢或四肢。",
+      differentials: [
+        { zh: "椎間盤疾病", en: "Intervertebral disc disease", species: "dog", freq: "common", category: "脊椎", detail: "犬最常見脊髓壓迫原因。Hansen Type I（急性）好發於臘腸犬等品種。", workup: ["神經學檢查（定位）", "脊椎 MRI/CT"] },
+        { zh: "脊髓創傷", en: "Spinal cord trauma", species: "both", freq: "common", category: "創傷", detail: "骨折、脫臼、撞擊傷。", workup: ["脊椎 X 光", "MRI"] },
+        { zh: "纖維軟骨栓塞", en: "Fibrocartilaginous embolism", species: "both", freq: "common", category: "血管", detail: "急性非疼痛性、非進行性脊髓損傷。大型犬好發。", workup: ["脊椎 MRI"] },
+        { zh: "退化性脊髓病", en: "Degenerative myelopathy", species: "dog", freq: "common", category: "退化", detail: "進行性後肢無力，德國牧羊犬等好發。", workup: ["排除性診斷", "SOD1 基因檢測"] },
+        { zh: "脊髓腫瘤", en: "Spinal neoplasia", species: "both", freq: "uncommon", category: "腫瘤", detail: "硬膜外、硬膜內、髓內腫瘤。", workup: ["脊椎 MRI", "腦脊髓液"] },
+        { zh: "多發性神經根炎", en: "Polyradiculoneuritis", species: "dog", freq: "uncommon", category: "免疫", detail: "急性上行性四肢輕癱，類似 Guillain-Barré。", workup: ["肌電圖", "腦脊髓液"] },
+        { zh: "重症肌無力", en: "Myasthenia gravis", species: "both", freq: "uncommon", category: "神經肌肉", detail: "運動後惡化的肌肉無力。", workup: ["AChR 抗體", "Edrophonium 試驗"] },
+        { zh: "壁蝨麻痺", en: "Tick paralysis", species: "both", freq: "uncommon", category: "感染", detail: "壁蝨神經毒素導致急性上行性麻痺。", workup: ["全身體表檢查（找壁蝨）"] }
+      ]
+    },
+    {
+      id: "coma-stupor",
+      zhName: "昏迷/嗜睡",
+      enName: "Coma / Stupor",
+      section: "1.5",
+      sectionName: "神經系統",
+      description: "意識程度嚴重降低。嗜睡可被強刺激短暫喚醒；昏迷完全無反應。需緊急處理。",
+      differentials: [
+        { zh: "頭部外傷", en: "Head trauma", species: "both", freq: "common", category: "創傷", detail: "顱內出血、腦水腫。交通事故、高處墜落。", workup: ["神經學檢查", "腦部 CT/MRI"] },
+        { zh: "中毒", en: "Toxin exposure", species: "both", freq: "common", category: "中毒", detail: "乙二醇、大麻、巴比妥類、鎮靜劑等。", workup: ["中毒史", "毒物篩檢"] },
+        { zh: "代謝性腦病", en: "Metabolic encephalopathy", species: "both", freq: "common", category: "代謝", detail: "肝性腦病、尿毒症、嚴重低血糖、電解質失衡。", workup: ["血糖", "BUN/Cre", "膽汁酸", "電解質"] },
+        { zh: "腦血管意外", en: "Cerebrovascular accident", species: "both", freq: "uncommon", category: "血管", detail: "腦梗塞或出血。急性發作。", workup: ["腦部 MRI"] },
+        { zh: "顱內腫瘤", en: "Intracranial neoplasia", species: "both", freq: "uncommon", category: "腫瘤", detail: "嚴重腫瘤佔位效應或腦疝。", workup: ["腦部 MRI/CT"] },
+        { zh: "癲癇重積狀態", en: "Status epilepticus", species: "both", freq: "common", category: "神經", detail: "持續或反覆癲癇發作後的意識障礙。緊急狀況。", workup: ["血糖", "電解質", "腦部 MRI"] },
+        { zh: "嚴重休克", en: "Severe shock", species: "both", freq: "common", category: "多系統", detail: "任何原因的嚴重休克導致腦灌流不足。", workup: ["血壓", "乳酸"] }
+      ]
+    },
+    {
+      id: "blindness",
+      zhName: "失明/視力障礙",
+      enName: "Blindness / Visual Impairment",
+      section: "1.6",
+      sectionName: "眼科",
+      description: "部分或完全喪失視力。可為突發或漸進性。需區分眼球疾病與神經性原因。",
+      differentials: [
+        { zh: "白內障", en: "Cataracts", species: "both", freq: "common", category: "眼球", detail: "水晶體混濁。犬常見（糖尿病、遺傳性）。", workup: ["裂隙燈檢查", "血糖"] },
+        { zh: "青光眼", en: "Glaucoma", species: "both", freq: "common", category: "眼球", detail: "眼壓升高導致視神經損傷。", workup: ["眼壓計"] },
+        { zh: "視網膜剝離", en: "Retinal detachment", species: "both", freq: "uncommon", category: "眼球", detail: "高血壓、感染等。貓常見於高血壓。", workup: ["眼底檢查", "血壓"] },
+        { zh: "進行性視網膜萎縮", en: "Progressive retinal atrophy (PRA)", species: "dog", freq: "common", category: "遺傳", detail: "遺傳性視網膜退化。先夜盲後全盲。", workup: ["眼底檢查", "視網膜電圖"] },
+        { zh: "突發後天性視網膜退化", en: "SARDS", species: "dog", freq: "uncommon", category: "眼球", detail: "突發性完全失明，眼底初期正常。", workup: ["視網膜電圖（ERG 平坦）"] },
+        { zh: "高血壓性視網膜病變", en: "Hypertensive retinopathy", species: "cat", freq: "common", category: "眼球", detail: "貓 CKD 或甲亢引起高血壓損傷視網膜。", workup: ["血壓", "BUN/Cre", "T4"] },
+        { zh: "顱內疾病", en: "Intracranial disease", species: "both", freq: "uncommon", category: "神經", detail: "枕葉腫瘤、腦炎影響視覺皮質。", workup: ["腦部 MRI"] }
+      ]
+    },
+    {
+      id: "vaginal-discharge",
+      zhName: "陰道分泌物",
+      enName: "Vaginal / Vulval Discharge",
+      section: "1.8",
+      sectionName: "生殖系統",
+      description: "陰道或外陰的異常分泌物。需區分類型及是否與發情周期相關。",
+      differentials: [
+        { zh: "子宮蓄膿", en: "Pyometra", species: "both", freq: "common", category: "子宮", detail: "未絕育母畜，開放型有膿性分泌物。常在發情後1-2月發生。", workup: ["腹部超音波", "CBC"] },
+        { zh: "陰道炎", en: "Vaginitis", species: "both", freq: "common", category: "陰道", detail: "幼年或成年型。黏液膿性分泌物。", workup: ["陰道鏡", "分泌物培養"] },
+        { zh: "正常發情", en: "Normal oestrus", species: "both", freq: "common", category: "生理", detail: "發情期的血性或漿液性分泌物。", workup: ["陰道細胞學"] },
+        { zh: "子宮/陰道腫瘤", en: "Uterine/vaginal neoplasia", species: "both", freq: "uncommon", category: "腫瘤", detail: "TVT、平滑肌瘤等。", workup: ["陰道鏡", "細胞學/切片"] },
+        { zh: "產後分泌物", en: "Post-partum discharge", species: "both", freq: "common", category: "生理", detail: "正常產後惡露。異常持續需排除感染。", workup: ["腹部超音波"] }
+      ]
+    },
+    {
+      id: "pollakiuria",
+      zhName: "頻尿/排尿困難",
+      enName: "Pollakiuria / Dysuria / Stranguria",
+      section: "1.9",
+      sectionName: "泌尿系統",
+      description: "排尿頻率增加、排尿疼痛或排尿時過度用力。通常代表下泌尿道疾病。",
+      differentials: [
+        { zh: "貓下泌尿道疾病", en: "FLUTD", species: "cat", freq: "common", category: "泌尿", detail: "包括特發性膀胱炎、結石、尿道栓子等。", workup: ["尿液分析", "腹部 X 光/超音波"] },
+        { zh: "泌尿道感染", en: "Urinary tract infection", species: "both", freq: "common", category: "感染", detail: "細菌性膀胱炎。母犬較公犬常見。", workup: ["尿液分析＋培養"] },
+        { zh: "泌尿道結石", en: "Urolithiasis", species: "both", freq: "common", category: "泌尿", detail: "膀胱或尿道結石。", workup: ["腹部 X 光", "超音波", "尿液分析"] },
+        { zh: "膀胱腫瘤", en: "Bladder neoplasia (TCC)", species: "dog", freq: "uncommon", category: "腫瘤", detail: "移行細胞癌。老年犬。", workup: ["腹部超音波", "尿液細胞學"] },
+        { zh: "前列腺疾病", en: "Prostatic disease", species: "dog", freq: "common", category: "泌尿生殖", detail: "前列腺炎、良性增生、腫瘤。", workup: ["直腸觸診", "超音波"] },
+        { zh: "尿道阻塞", en: "Urethral obstruction", species: "both", freq: "common", category: "泌尿", detail: "結石或栓子阻塞尿道。公貓/公犬較常見。急診。", workup: ["理學檢查", "X 光", "電解質"] }
+      ]
+    },
+    {
+      id: "haematuria",
+      zhName: "血尿",
+      enName: "Haematuria",
+      section: "1.9",
+      sectionName: "泌尿系統",
+      description: "尿液含血。需區分全程血尿、初段或末段血尿以定位出血位置。",
+      differentials: [
+        { zh: "泌尿道感染", en: "Urinary tract infection", species: "both", freq: "common", category: "感染", detail: "膀胱炎、腎盂腎炎。", workup: ["尿液分析＋培養"] },
+        { zh: "泌尿道結石", en: "Urolithiasis", species: "both", freq: "common", category: "泌尿", detail: "結石摩擦黏膜出血。", workup: ["腹部 X 光", "超音波"] },
+        { zh: "膀胱腫瘤", en: "Bladder neoplasia", species: "dog", freq: "uncommon", category: "腫瘤", detail: "移行細胞癌等。", workup: ["超音波", "尿液細胞學"] },
+        { zh: "凝血障礙", en: "Coagulopathy", species: "both", freq: "uncommon", category: "血液", detail: "抗凝血劑中毒、血小板疾病。", workup: ["PT/aPTT", "血小板計數"] },
+        { zh: "前列腺疾病", en: "Prostatic disease", species: "dog", freq: "common", category: "泌尿生殖", detail: "前列腺炎、增生、腫瘤。", workup: ["直腸觸診", "超音波"] },
+        { zh: "創傷", en: "Trauma", species: "both", freq: "uncommon", category: "創傷", detail: "膀胱或尿道創傷。", workup: ["影像學"] }
+      ]
+    },
+    {
+      id: "urinary-incontinence",
+      zhName: "尿失禁",
+      enName: "Urinary Incontinence",
+      section: "1.9",
+      sectionName: "泌尿系統",
+      description: "無法自主控制排尿。母犬絕育後最常見。",
+      differentials: [
+        { zh: "尿道括約肌功能不全", en: "USMI", species: "dog", freq: "common", category: "泌尿", detail: "絕育母犬最常見原因。休息或睡覺時漏尿。", workup: ["尿液分析", "尿道壓力測定"] },
+        { zh: "異位輸尿管", en: "Ectopic ureter", species: "both", freq: "uncommon", category: "先天性", detail: "先天性。幼年即持續漏尿。", workup: ["CT 尿路攝影", "膀胱鏡"] },
+        { zh: "神經性膀胱", en: "Neurogenic bladder", species: "both", freq: "uncommon", category: "神經", detail: "上或下運動神經元病變。", workup: ["神經學檢查", "脊椎 MRI"] },
+        { zh: "泌尿道感染", en: "UTI", species: "both", freq: "common", category: "感染", detail: "膀胱炎導致急迫性漏尿。", workup: ["尿液分析＋培養"] },
+        { zh: "多尿症", en: "Polyuria", species: "both", freq: "common", category: "代謝", detail: "任何 PU/PD 原因均可表現為尿失禁。", workup: ["尿比重", "血糖", "BUN/Cre"] }
+      ]
+    },
+    {
+      id: "hyperthermia",
+      zhName: "體溫過高/發燒",
+      enName: "Hyperthermia / Pyrexia",
+      section: "2.1",
+      sectionName: "一般理學檢查",
+      description: "體溫高於正常值（犬/貓 > 39.2°C）。需區分發燒（調節中樞重設）與非發燒性高體溫（中暑）。",
+      differentials: [
+        { zh: "感染性疾病", en: "Infectious disease", species: "both", freq: "common", category: "感染", detail: "最常見發燒原因。細菌、病毒、黴菌、原蟲等。", workup: ["CBC", "血液培養", "尿液培養", "影像學"] },
+        { zh: "免疫介導性疾病", en: "Immune-mediated disease", species: "both", freq: "common", category: "免疫", detail: "IMHA、IMTP、多發性關節炎、SLE 等。", workup: ["CBC", "Coombs", "ANA", "關節液"] },
+        { zh: "腫瘤", en: "Neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "腫瘤性發燒，淋巴瘤、白血病等。", workup: ["影像學", "細胞學"] },
+        { zh: "不明原因發燒", en: "Fever of unknown origin", species: "both", freq: "common", category: "多系統", detail: "經初步檢查無法確定原因。", workup: ["反覆檢查", "骨髓", "關節液"] },
+        { zh: "中暑", en: "Heat stroke", species: "both", freq: "common", category: "環境", detail: "非發燒性高體溫。高溫環境、短頭犬。", workup: ["體溫監測", "DIC 篩檢"] },
+        { zh: "組織壞死", en: "Tissue necrosis", species: "both", freq: "uncommon", category: "多系統", detail: "手術後、創傷、胰臟炎。", workup: ["臨床評估"] }
+      ]
+    },
+    {
+      id: "lymphadenopathy",
+      zhName: "淋巴結腫大",
+      enName: "Enlarged Lymph Nodes",
+      section: "2.1",
+      sectionName: "一般理學檢查",
+      description: "體表或內臟淋巴結觸診增大。可為局部或全身性。",
+      differentials: [
+        { zh: "淋巴瘤", en: "Lymphoma", species: "both", freq: "common", category: "腫瘤", detail: "多中心型最常見。全身性淋巴結無痛性腫大。", workup: ["淋巴結抽吸細胞學", "流式細胞儀"] },
+        { zh: "反應性增生", en: "Reactive hyperplasia", species: "both", freq: "common", category: "發炎", detail: "對感染/發炎的反應性增大。", workup: ["細胞學", "感染篩檢"] },
+        { zh: "局部感染", en: "Regional infection", species: "both", freq: "common", category: "感染", detail: "引流區域感染導致局部淋巴結腫大。", workup: ["感染源檢查"] },
+        { zh: "轉移性腫瘤", en: "Metastatic neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "惡性腫瘤轉移至區域淋巴結。", workup: ["細胞學/切片"] },
+        { zh: "全身性感染", en: "Systemic infection", species: "both", freq: "uncommon", category: "感染", detail: "立克次體、黴菌等。", workup: ["血清學", "培養"] }
+      ]
+    },
+    {
+      id: "jaundice",
+      zhName: "黃疸",
+      enName: "Jaundice / Icterus",
+      section: "2.2",
+      sectionName: "消化道理學檢查",
+      description: "皮膚、黏膜及鞏膜黃染。分為溶血前性、肝性及阻塞性。",
+      differentials: [
+        { zh: "免疫介導性溶血", en: "IMHA", species: "both", freq: "common", category: "血液", detail: "溶血前性黃疸最常見原因。大量紅血球破壞。", workup: ["CBC", "Coombs", "血抹片"] },
+        { zh: "肝炎/膽管肝炎", en: "Hepatitis / Cholangiohepatitis", species: "both", freq: "common", category: "肝膽", detail: "肝性黃疸。犬：慢性肝炎。貓：膽管炎。", workup: ["肝指數", "膽汁酸", "超音波", "肝臟切片"] },
+        { zh: "膽道阻塞", en: "Bile duct obstruction", species: "both", freq: "uncommon", category: "肝膽", detail: "膽管結石、胰臟腫瘤壓迫。ALP/GGT 顯著升高。", workup: ["超音波（膽管擴張）", "肝指數"] },
+        { zh: "胰臟炎", en: "Pancreatitis", species: "both", freq: "common", category: "消化", detail: "壓迫膽管或引起肝損傷。貓三體炎常見。", workup: ["fPLI/cPLI", "超音波"] },
+        { zh: "肝脂肪沉積", en: "Hepatic lipidosis", species: "cat", freq: "common", category: "肝膽", detail: "貓特有。厭食後大量脂肪堆積在肝臟。", workup: ["肝指數", "超音波", "肝臟細胞學"] },
+        { zh: "鉤端螺旋體病", en: "Leptospirosis", species: "dog", freq: "uncommon", category: "感染", detail: "急性肝腎損傷。", workup: ["Leptospira MAT", "PCR"] },
+        { zh: "FIP", en: "Feline infectious peritonitis", species: "cat", freq: "uncommon", category: "感染", detail: "高球蛋白、腹水。", workup: ["球蛋白", "腹水分析"] },
+        { zh: "其他溶血性疾病", en: "Other haemolytic diseases", species: "both", freq: "uncommon", category: "血液", detail: "洋蔥中毒、鋅中毒、Babesia、M. haemofelis。", workup: ["CBC", "血抹片", "PCR"] }
+      ]
+    },
+    {
+      id: "abdominal-distension",
+      zhName: "腹部膨大",
+      enName: "Abdominal Distension",
+      section: "2.2",
+      sectionName: "消化道理學檢查",
+      description: "腹部外觀增大。器官腫大、液體蓄積、氣體、腫瘤或肌肉張力降低均可引起。",
+      differentials: [
+        { zh: "腹水", en: "Ascites", species: "both", freq: "common", category: "多系統", detail: "腹腔液體蓄積。右心衰竭、肝病、低白蛋白等。", workup: ["腹腔穿刺", "超音波"] },
+        { zh: "庫欣氏症", en: "Hyperadrenocorticism", species: "dog", freq: "common", category: "內分泌", detail: "腹部肌肉萎縮＋肝腫大（垂腹）。", workup: ["LDDS", "ACTH 刺激"] },
+        { zh: "胃擴張/扭轉", en: "GDV", species: "dog", freq: "common", category: "急診", detail: "大型深胸犬。急性膨大、休克。緊急手術。", workup: ["腹部 X 光"] },
+        { zh: "腹腔腫瘤", en: "Abdominal neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "脾臟、肝臟等腫瘤。", workup: ["超音波", "細胞學"] },
+        { zh: "妊娠", en: "Pregnancy", species: "both", freq: "common", category: "生殖", detail: "未絕育母畜需排除。", workup: ["超音波"] },
+        { zh: "子宮蓄膿", en: "Pyometra", species: "both", freq: "common", category: "生殖", detail: "子宮積膿。", workup: ["超音波", "CBC"] },
+        { zh: "臟器腫大", en: "Organomegaly", species: "both", freq: "common", category: "多系統", detail: "肝、脾、腎腫大。", workup: ["超音波/X 光"] }
+      ]
+    },
+    {
+      id: "ascites",
+      zhName: "腹水",
+      enName: "Ascites",
+      section: "2.3",
+      sectionName: "心肺理學檢查",
+      description: "腹腔液體異常蓄積。需穿刺取液分析以區分漏出液、修正漏出液、滲出液。",
+      differentials: [
+        { zh: "右心衰竭", en: "Right-sided heart failure", species: "both", freq: "common", category: "心血管", detail: "修正漏出液。心包膜積液、DCM、三尖瓣疾病。", workup: ["心臟超音波", "腹水分析"] },
+        { zh: "肝臟疾病", en: "Hepatic disease", species: "both", freq: "common", category: "肝膽", detail: "門脈高壓＋低白蛋白。", workup: ["肝指數", "白蛋白", "超音波"] },
+        { zh: "低白蛋白血症", en: "Hypoalbuminaemia", species: "both", freq: "common", category: "代謝", detail: "PLE、PLN、肝合成不足。純漏出液。", workup: ["白蛋白", "UPC"] },
+        { zh: "腹腔腫瘤", en: "Abdominal neoplasia", species: "both", freq: "common", category: "腫瘤", detail: "腫瘤性滲出或血腹。", workup: ["腹水細胞學", "超音波"] },
+        { zh: "FIP", en: "FIP", species: "cat", freq: "common", category: "感染", detail: "高蛋白滲出液。", workup: ["腹水分析", "Rivalta 試驗"] },
+        { zh: "膀胱破裂", en: "Uroabdomen", species: "both", freq: "uncommon", category: "泌尿", detail: "腹水 Cre > 血清 Cre。", workup: ["腹水/血清 Cre 比較"] },
+        { zh: "腹膜炎", en: "Peritonitis", species: "both", freq: "uncommon", category: "感染", detail: "敗血性腹膜炎。滲出液。", workup: ["腹水細胞學＋培養"] }
+      ]
+    },
+    {
+      id: "heart-murmur",
+      zhName: "心雜音",
+      enName: "Heart Murmur",
+      section: "2.3",
+      sectionName: "心肺理學檢查",
+      description: "聽診異常心音。需記錄等級（I-VI）、時相、最響點。",
+      differentials: [
+        { zh: "二尖瓣退化", en: "MMVD", species: "dog", freq: "common", category: "心血管", detail: "犬最常見心臟病。小型犬好發。", workup: ["心臟超音波", "胸腔 X 光"] },
+        { zh: "肥厚型心肌病", en: "HCM", species: "cat", freq: "common", category: "心血管", detail: "貓最常見心臟病。", workup: ["心臟超音波", "NT-proBNP"] },
+        { zh: "主動脈瓣狹窄", en: "Aortic stenosis", species: "dog", freq: "common", category: "先天性", detail: "先天性。大型犬好發。", workup: ["心臟超音波"] },
+        { zh: "肺動脈瓣狹窄", en: "Pulmonic stenosis", species: "dog", freq: "common", category: "先天性", detail: "先天性。英國鬥牛犬等好發。", workup: ["心臟超音波"] },
+        { zh: "擴張型心肌病", en: "DCM", species: "dog", freq: "common", category: "心血管", detail: "大型犬好發。", workup: ["心臟超音波", "Holter"] },
+        { zh: "動脈導管未閉", en: "PDA", species: "dog", freq: "uncommon", category: "先天性", detail: "連續性機器樣雜音。", workup: ["心臟超音波"] },
+        { zh: "生理性雜音", en: "Innocent murmur", species: "both", freq: "common", category: "生理", detail: "幼年動物低等級雜音，通常隨成長消失。", workup: ["追蹤聽診"] },
+        { zh: "貧血性雜音", en: "Anaemic murmur", species: "both", freq: "common", category: "血液", detail: "血液黏度降低產生功能性雜音。", workup: ["CBC"] }
+      ]
+    },
+    {
+      id: "alopecia",
+      zhName: "脫毛",
+      enName: "Alopecia",
+      section: "2.4",
+      sectionName: "皮膚理學檢查",
+      description: "毛髮部分或完全脫落。對稱性常為內分泌原因；不對稱常為感染、免疫、腫瘤。",
+      differentials: [
+        { zh: "甲狀腺低下", en: "Hypothyroidism", species: "dog", freq: "common", category: "內分泌", detail: "雙側對稱脫毛，軀幹為主，不搔癢。", workup: ["Total T4", "Free T4", "TSH"] },
+        { zh: "庫欣氏症", en: "Hyperadrenocorticism", species: "dog", freq: "common", category: "內分泌", detail: "雙側對稱脫毛，皮膚變薄。伴 PU/PD。", workup: ["LDDS", "ACTH 刺激"] },
+        { zh: "蠕形蟎", en: "Demodicosis", species: "both", freq: "common", category: "感染", detail: "局灶型或全身型。幼年犬常見。", workup: ["皮膚刮搔"] },
+        { zh: "皮黴菌感染", en: "Dermatophytosis", species: "both", freq: "common", category: "感染", detail: "圓形脫毛斑。人畜共通。", workup: ["Wood's 燈", "DTM 培養"] },
+        { zh: "跳蚤過敏", en: "Flea allergy dermatitis", species: "both", freq: "common", category: "免疫", detail: "搔癢性脫毛。犬腰薦部，貓腹部。", workup: ["體表檢查", "除蚤試驗"] },
+        { zh: "異位性皮膚炎", en: "Atopic dermatitis", species: "both", freq: "common", category: "免疫", detail: "搔抓造成繼發性脫毛。", workup: ["排除診斷", "過敏原檢測"] },
+        { zh: "食物過敏", en: "Food hypersensitivity", species: "both", freq: "common", category: "免疫", detail: "非季節性搔癢及脫毛。", workup: ["排除飲食試驗"] }
+      ]
+    },
+    {
+      id: "red-eye",
+      zhName: "紅眼",
+      enName: "Red Eye",
+      section: "2.6",
+      sectionName: "眼科理學檢查",
+      description: "眼球表面或周圍發紅。需區分結膜充血、鞏膜注射、角膜新血管及前房出血。",
+      differentials: [
+        { zh: "結膜炎", en: "Conjunctivitis", species: "both", freq: "common", category: "結膜", detail: "最常見紅眼原因。", workup: ["眼科檢查", "螢光素染色"] },
+        { zh: "角膜潰瘍", en: "Corneal ulcer", species: "both", freq: "common", category: "角膜", detail: "螢光素染色陽性。疼痛、畏光。", workup: ["螢光素染色", "裂隙燈"] },
+        { zh: "青光眼", en: "Glaucoma", species: "both", freq: "common", category: "眼球", detail: "眼壓升高。緊急處理。", workup: ["眼壓計"] },
+        { zh: "前葡萄膜炎", en: "Anterior uveitis", species: "both", freq: "common", category: "眼球", detail: "虹膜及睫狀體發炎。瞳孔縮小。", workup: ["裂隙燈", "眼壓", "全身篩檢"] },
+        { zh: "乾眼症", en: "KCS", species: "dog", freq: "common", category: "淚液", detail: "淚液分泌不足。", workup: ["Schirmer 淚液試驗"] },
+        { zh: "前房出血", en: "Hyphaema", species: "both", freq: "uncommon", category: "眼球", detail: "前房可見血液。外傷、凝血障礙、腫瘤。", workup: ["眼科檢查", "血壓", "凝血篩檢"] }
+      ]
+    }
+  ],
+
+  sections: {
+    "1.1": { name: "全身性／系統性／代謝", icon: "&#x2695;" },
+    "1.2": { name: "消化道／腹腔", icon: "&#x1F4A7;" },
+    "1.3": { name: "心血管／呼吸", icon: "&#x1F4A8;" },
+    "1.4": { name: "皮膚", icon: "&#x1F9B4;" },
+    "1.5": { name: "神經系統", icon: "&#x1F9E0;" },
+    "1.6": { name: "眼科", icon: "&#x1F441;" },
+    "1.7": { name: "肌肉骨骼", icon: "&#x1F9B4;" },
+    "1.8": { name: "生殖系統", icon: "&#x2640;" },
+    "1.9": { name: "泌尿系統", icon: "&#x1F4A7;" },
+    "2.1": { name: "一般理學檢查", icon: "&#x1FA7A;" },
+    "2.2": { name: "消化道理學檢查", icon: "&#x1F4CB;" },
+    "2.3": { name: "心肺理學檢查", icon: "&#x1F3E5;" },
+    "2.4": { name: "皮膚理學檢查", icon: "&#x1F52C;" },
+    "2.5": { name: "神經理學檢查", icon: "&#x1F9E0;" },
+    "2.6": { name: "眼科理學檢查", icon: "&#x1F441;" },
+    "2.7": { name: "肌肉骨骼理學檢查", icon: "&#x1F9B4;" },
+    "2.8": { name: "泌尿生殖理學檢查", icon: "&#x1F52C;" }
+  }
+};
+
+// ======= APP STATE =======
+const state = {
+  activeSymptom: null,
+  speciesFilter: "all",
+  selectedMultiSymptoms: [],
+  activeTab: "single",
+  searchQuery: ""
+};
+
+// ======= RENDER SIDEBAR =======
+function renderSidebar() {
+  const sidebar = document.getElementById("sidebar");
+  let html = "";
+  const sectionMap = {};
+
+  DB.symptoms.forEach(s => {
+    if (!sectionMap[s.section]) sectionMap[s.section] = [];
+    sectionMap[s.section].push(s);
+  });
+
+  for (const sec in sectionMap) {
+    const sInfo = DB.sections[sec];
+    html += `<div class="sidebar-section">
+      <div class="sidebar-section-title">${sInfo.icon} ${sec} ${sInfo.name}</div>`;
+    sectionMap[sec].forEach(s => {
+      html += `<button class="symptom-btn" data-id="${s.id}">
+        ${s.zhName}
+        <span class="en-name">${s.enName}</span>
+      </button>`;
+    });
+    html += `</div>`;
+  }
+
+  sidebar.innerHTML = html;
+
+  sidebar.querySelectorAll(".symptom-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const id = btn.dataset.id;
+      if (state.activeTab === "single") {
+        state.activeSymptom = id;
+        renderSymptomDetail();
+        updateSidebarActive();
+      } else {
+        toggleMultiSymptom(id);
+      }
+    });
+  });
+}
+
+function updateSidebarActive() {
+  document.querySelectorAll(".symptom-btn").forEach(b => b.classList.remove("active"));
+  if (state.activeSymptom && state.activeTab === "single") {
+    const btn = document.querySelector(`.symptom-btn[data-id="${state.activeSymptom}"]`);
+    if (btn) btn.classList.add("active");
+  }
+}
+
+// ======= RENDER SYMPTOM DETAIL =======
+function renderSymptomDetail() {
+  const symptom = DB.symptoms.find(s => s.id === state.activeSymptom);
+  if (!symptom) return;
+
+  document.getElementById("welcome").style.display = "none";
+  const container = document.getElementById("symptomDetail");
+  container.style.display = "block";
+
+  let filtered = symptom.differentials;
+  if (state.speciesFilter === "dog") filtered = filtered.filter(d => d.species === "dog" || d.species === "both");
+  if (state.speciesFilter === "cat") filtered = filtered.filter(d => d.species === "cat" || d.species === "both");
+
+  if (state.searchQuery) {
+    const q = state.searchQuery.toLowerCase();
+    filtered = filtered.filter(d =>
+      d.zh.toLowerCase().includes(q) || d.en.toLowerCase().includes(q) ||
+      d.detail.toLowerCase().includes(q) || d.category.toLowerCase().includes(q)
+    );
+  }
+
+  // Group by category
+  const groups = {};
+  filtered.forEach(d => {
+    if (!groups[d.category]) groups[d.category] = [];
+    groups[d.category].push(d);
+  });
+
+  let html = `
+    <div class="symptom-header">
+      <h2>${symptom.zhName}</h2>
+      <div class="en">${symptom.enName} &mdash; ${symptom.section}</div>
+      <div class="description">${symptom.description}</div>
+    </div>
+    <div class="filter-bar">
+      <label>物種篩選：</label>
+      <button class="filter-chip ${state.speciesFilter === 'all' ? 'active' : ''}" data-species="all">全部</button>
+      <button class="filter-chip ${state.speciesFilter === 'dog' ? 'active-dog' : ''}" data-species="dog">&#x1F436; 犬</button>
+      <button class="filter-chip ${state.speciesFilter === 'cat' ? 'active-cat' : ''}" data-species="cat">&#x1F431; 貓</button>
+    </div>
+    <div class="stats-bar">
+      <div class="stat-item">&#x1F4CA; 共 ${filtered.length} 項鑑別診斷</div>
+      <div class="stat-item">&#x1F3F7; ${Object.keys(groups).length} 個分類</div>
+    </div>`;
+
+  for (const cat in groups) {
+    html += `<div class="category-group">
+      <div class="category-title"><span class="cat-icon">&#x25CF;</span> ${cat}</div>`;
+    groups[cat].forEach((d, i) => {
+      const uid = `${symptom.id}-${cat}-${i}`;
+      html += renderDxCard(d, uid);
+    });
+    html += `</div>`;
+  }
+
+  container.innerHTML = html;
+
+  // Species filter
+  container.querySelectorAll(".filter-chip").forEach(chip => {
+    chip.addEventListener("click", () => {
+      state.speciesFilter = chip.dataset.species;
+      renderSymptomDetail();
+    });
+  });
+
+  // Expandable cards
+  container.querySelectorAll(".dx-card").forEach(card => {
+    card.addEventListener("click", () => {
+      card.classList.toggle("expanded");
+    });
+  });
+}
+
+function renderDxCard(d, uid) {
+  const speciesTags = d.species === "both"
+    ? '<span class="tag tag-dog">犬</span><span class="tag tag-cat">貓</span>'
+    : d.species === "dog"
+    ? '<span class="tag tag-dog">犬</span>'
+    : '<span class="tag tag-cat">貓</span>';
+
+  const freqTag = d.freq === "common"
+    ? '<span class="tag tag-common">常見</span>'
+    : d.freq === "rare"
+    ? '<span class="tag tag-rare">罕見</span>'
+    : '<span class="tag tag-rare">少見</span>';
+
+  let detailHtml = `<div class="dx-detail">
+    <div class="dx-detail-section"><strong>&#x1F4DD; 說明</strong>${d.detail}</div>`;
+
+  if (d.workup && d.workup.length) {
+    detailHtml += `<div class="dx-detail-section"><strong>&#x1F9EA; 建議檢查</strong><ul>`;
+    d.workup.forEach(w => { detailHtml += `<li>${w}</li>`; });
+    detailHtml += `</ul></div>`;
+  }
+  detailHtml += `</div>`;
+
+  return `<div class="dx-card" data-uid="${uid}">
+    <div class="dx-card-header">
+      <div>
+        <div class="dx-name">${d.zh}</div>
+        <div class="dx-name-en">${d.en}</div>
+      </div>
+      <div class="dx-tags">${freqTag}${speciesTags}</div>
+    </div>
+    ${detailHtml}
+  </div>`;
+}
+
+// ======= MULTI-SYMPTOM =======
+function toggleMultiSymptom(id) {
+  const idx = state.selectedMultiSymptoms.indexOf(id);
+  if (idx >= 0) state.selectedMultiSymptoms.splice(idx, 1);
+  else state.selectedMultiSymptoms.push(id);
+  renderMultiSymptomPanel();
+  renderMultiResults();
+}
+
+function renderMultiSymptomPanel() {
+  const container = document.getElementById("selectedSymptoms");
+  if (state.selectedMultiSymptoms.length === 0) {
+    container.innerHTML = '<span style="color: var(--text-light); font-size: 0.85rem;">點擊左側症狀或下方按鈕加入...</span>';
+  } else {
+    container.innerHTML = state.selectedMultiSymptoms.map(id => {
+      const s = DB.symptoms.find(x => x.id === id);
+      return `<span class="selected-tag">${s.zhName}<span class="remove" data-id="${id}">&times;</span></span>`;
+    }).join("");
+
+    container.querySelectorAll(".remove").forEach(btn => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        toggleMultiSymptom(btn.dataset.id);
+      });
+    });
+  }
+
+  // Render toggle buttons
+  const btnContainer = document.getElementById("multiSymptomButtons");
+  btnContainer.innerHTML = DB.symptoms.map(s => {
+    const active = state.selectedMultiSymptoms.includes(s.id);
+    return `<button class="filter-chip ${active ? 'active' : ''}" data-id="${s.id}">${s.zhName}</button>`;
+  }).join("");
+
+  btnContainer.querySelectorAll(".filter-chip").forEach(btn => {
+    btn.addEventListener("click", () => toggleMultiSymptom(btn.dataset.id));
+  });
+}
+
+function renderMultiResults() {
+  const container = document.getElementById("multiResults");
+  if (state.selectedMultiSymptoms.length < 2) {
+    container.innerHTML = '<p style="color: var(--text-light); text-align: center; padding: 2rem;">請選擇至少 2 個症狀以進行交叉比對</p>';
+    return;
+  }
+
+  // Collect all differentials and count how many symptoms they appear in
+  const dxMap = {};
+  state.selectedMultiSymptoms.forEach(symId => {
+    const sym = DB.symptoms.find(s => s.id === symId);
+    if (!sym) return;
+    sym.differentials.forEach(d => {
+      const key = d.en;
+      if (!dxMap[key]) {
+        dxMap[key] = { ...d, matchCount: 0, matchedSymptoms: [] };
+      }
+      dxMap[key].matchCount++;
+      dxMap[key].matchedSymptoms.push(sym.zhName);
+    });
+  });
+
+  const results = Object.values(dxMap)
+    .filter(d => d.matchCount >= 2)
+    .sort((a, b) => b.matchCount - a.matchCount);
+
+  const total = state.selectedMultiSymptoms.length;
+
+  if (results.length === 0) {
+    container.innerHTML = '<p style="color: var(--text-light); text-align: center; padding: 2rem;">未找到同時出現在 2 個以上所選症狀中的疾病。嘗試調整選擇的症狀。</p>';
+    return;
+  }
+
+  let html = `<h4>&#x1F3AF; 交叉比對結果（符合 ≥ 2 個症狀的鑑別診斷）</h4>`;
+
+  results.forEach((d, i) => {
+    const pct = Math.round((d.matchCount / total) * 100);
+    html += `<div class="dx-card" data-uid="multi-${i}">
+      <div class="dx-card-header">
+        <div>
+          <div class="dx-name">${d.zh} <span class="match-score">符合 ${d.matchCount}/${total} 個症狀 (${pct}%)</span></div>
+          <div class="dx-name-en">${d.en}</div>
+          <div style="font-size:0.78rem; color:var(--info); margin-top:0.25rem;">相關症狀：${d.matchedSymptoms.join("、")}</div>
+        </div>
+        <div class="dx-tags">
+          ${d.species === "both" ? '<span class="tag tag-dog">犬</span><span class="tag tag-cat">貓</span>' : d.species === "dog" ? '<span class="tag tag-dog">犬</span>' : '<span class="tag tag-cat">貓</span>'}
+        </div>
+      </div>
+      <div class="dx-detail">
+        <div class="dx-detail-section"><strong>&#x1F4DD; 說明</strong>${d.detail}</div>
+        ${d.workup ? `<div class="dx-detail-section"><strong>&#x1F9EA; 建議檢查</strong><ul>${d.workup.map(w => `<li>${w}</li>`).join("")}</ul></div>` : ""}
+      </div>
+    </div>`;
+  });
+
+  container.innerHTML = html;
+
+  container.querySelectorAll(".dx-card").forEach(card => {
+    card.addEventListener("click", () => card.classList.toggle("expanded"));
+  });
+}
+
+// ======= TABS =======
+function initTabs() {
+  document.querySelectorAll(".tab-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      state.activeTab = btn.dataset.tab;
+      document.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      document.querySelectorAll(".tab-content").forEach(c => c.classList.remove("active"));
+      document.getElementById(`tab-${state.activeTab}`).classList.add("active");
+
+      if (state.activeTab === "multi") {
+        renderMultiSymptomPanel();
+        renderMultiResults();
+      }
+    });
+  });
+}
+
+// ======= SEARCH =======
+function initSearch() {
+  const input = document.getElementById("globalSearch");
+  input.addEventListener("input", () => {
+    state.searchQuery = input.value.trim();
+
+    if (state.activeTab === "single" && state.activeSymptom) {
+      renderSymptomDetail();
+    }
+
+    // Also filter sidebar
+    const q = state.searchQuery.toLowerCase();
+    document.querySelectorAll(".symptom-btn").forEach(btn => {
+      const id = btn.dataset.id;
+      const sym = DB.symptoms.find(s => s.id === id);
+      if (!q) {
+        btn.style.display = "";
+        return;
+      }
+      const match = sym.zhName.includes(q) || sym.enName.toLowerCase().includes(q) ||
+        sym.differentials.some(d => d.zh.includes(q) || d.en.toLowerCase().includes(q));
+      btn.style.display = match ? "" : "none";
+    });
+  });
+}
+
+// ======= INIT =======
+document.addEventListener("DOMContentLoaded", () => {
+  renderSidebar();
+  initTabs();
+  initSearch();
+  renderMultiSymptomPanel();
+});
+</script>
+</body>
+</html>

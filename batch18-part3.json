@@ -1,0 +1,226 @@
+{
+  "tetanus": {
+    "zh": "破傷風",
+    "en": "Tetanus",
+    "definition": "破傷風是由厭氧梭菌 Clostridium tetani 產生的外毒素（tetanospasmin）引起的神經系統疾病。細菌經傷口污染進入組織，在厭氧環境中繁殖並產生毒素。毒素經軸突逆行運輸至中樞神經系統，阻斷抑制性神經傳遞物質（GABA和甘胺酸）的釋放，導致肌肉強直性痙攣。貓對破傷風毒素的天然抗性高於犬。",
+    "synonyms": ["Lockjaw", "Clostridium tetani Infection", "破傷風桿菌感染"],
+    "epidemiology": {
+      "species": "犬較常見（但整體少見），貓極罕見（天然抗性為犬的10-100倍）",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["穿刺傷或深部組織傷口", "手術傷口（尤其是鑄型絲線）", "去勢或子宮卵巢摘除術後", "開放性骨折", "咬傷", "犬隻未接種破傷風疫苗（犬通常不列入常規疫苗）"]
+    },
+    "clinicalPresentation": {
+      "history": ["傷口或手術後3-21天（平均5-10天）出現症狀", "進行性肌肉僵硬", "行走困難", "吞嚥困難", "面部表情異常", "可能找不到明確的傷口"],
+      "physicalExam": ["局部型：傷口附近肌肉僵硬和痙攣", "全身型（犬多見）：四肢伸展僵硬（鋸木馬姿勢）", "耳朵豎立", "嘴巴緊閉（牙關緊閉/trismus）", "眉間皺紋和嘴角後拉（苦笑面容/risus sardonicus）", "第三眼瞼突出", "尾巴僵直", "瞳孔散大", "聲響或觸摸引發肌肉痙攣加重", "嚴重時呼吸困難（呼吸肌痙攣）", "發熱（肌肉持續收縮產熱）"]
+    },
+    "pathophysiology": "C. tetani 的芽孢在環境中廣泛存在（土壤）。經傷口進入組織後，在厭氧環境（壞死組織、異物）中萌發為營養體並產生兩種外毒素：tetanolysin（溶血素，促進組織壞死維持厭氧環境）和tetanospasmin（痙攣毒素，主要致病毒素）。Tetanospasmin是已知最強力的毒素之一（致死劑量極低）。毒素在神經肌肉接合處被攝入運動神經末梢，經軸突逆行運輸至脊髓和腦幹的抑制性中間神經元。毒素的輕鏈（鋅金屬蛋白酶）裂解VAMP/synaptobrevin蛋白，阻斷抑制性神經傳遞物質（GABA和甘胺酸）的突觸前釋放。失去抑制性控制後，運動神經元過度興奮，導致肌肉強直性痙攣。毒素一旦與突觸結合即不可逆，恢復需要新突觸的生成。",
+    "diagnosis": {
+      "overview": "依據特徵性臨床表現和病史進行臨床診斷，沒有可靠的確認性檢驗",
+      "differentials": ["有機磷或氨基甲酸酯中毒", "士的寧中毒", "低血鈣抽搐", "腦膜腦炎", "狂犬病", "咀嚼肌肌炎（顳顎關節受限時）", "破傷風體（tetany）"],
+      "initialDB": ["臨床診斷為主——特徵性的鋸木馬姿勢、牙關緊閉、第三眼瞼突出", "尋找傷口（可能已癒合或很小）", "CBC/生化——通常正常", "CK可能升高（肌肉持續痙攣）"],
+      "advanced": ["厭氧培養傷口分泌物（敏感度低，C. tetani難以分離）", "肌電圖（EMG）——持續性運動單位活化", "毒素檢測（小鼠中和試驗——研究用途，臨床上不實用）"]
+    },
+    "treatment": {
+      "overview": "中和循環毒素、消滅傷口細菌、控制肌肉痙攣、支持療法",
+      "acute": ["破傷風抗毒素（TAT）500-5000 IU/kg IV（中和尚未結合的循環毒素，已結合的無法中和）", "TAT前先小劑量皮內試驗排除過敏", "傷口清創和沖洗（去除厭氧環境）", "metronidazole 10-15 mg/kg q8h IV/PO（首選抗生素，殺滅傷口中的C. tetani）", "肌肉痙攣控制：diazepam 0.5-1 mg/kg IV/PO q6-8h 或持續輸注", "重症：methocarbamol 44-220 mg/kg IV（肌肉鬆弛劑）", "安靜暗室環境（減少外部刺激觸發痙攣）"],
+      "chronic": ["持續鎮靜和肌肉鬆弛治療2-4週", "營養支持（管飼或食道造口管，因吞嚥困難）", "輸液維持水合", "膀胱導尿（排尿困難時）", "物理治療防止關節攣縮", "呼吸困難時需機械通氣支持", "耐心的長期護理——恢復期通常2-4週"]
+    },
+    "prognosis": "整體存活率約50-90%（取決於嚴重程度和治療品質）。局部型預後良好至極佳。全身型預後謹慎至中等，需要密集護理。恢復期長（2-4週），因為需要新突觸的再生。死亡原因通常為呼吸衰竭。貓的破傷風極罕見但發生時多為局部型，預後較好。",
+    "pearls": ["破傷風的診斷是臨床診斷——鋸木馬姿勢+牙關緊閉+第三眼瞼突出三聯徵", "毒素一旦與突觸結合即不可逆——TAT只能中和循環中的游離毒素", "metronidazole優於penicillin作為抗生素選擇（penicillin可能加重GABA阻斷）", "安靜暗室環境非常重要——外部刺激可觸發致命性全身痙攣", "貓對破傷風毒素天然抗性極高，感染極罕見"],
+    "monitoring": ["肌肉張力和痙攣嚴重程度每日評估", "呼吸頻率和呼吸努力（警惕呼吸衰竭）", "體溫（肌肉持續痙攣可致高體溫）", "營養和水合狀態", "褥瘡預防"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "botulism": {
+    "zh": "肉毒桿菌中毒",
+    "en": "Botulism",
+    "definition": "肉毒桿菌中毒是由肉毒桿菌（Clostridium botulinum）產生的神經毒素引起的急性下運動神經元麻痺。毒素阻斷神經肌肉接合處乙醯膽鹼的釋放，導致弛緩性麻痺。犬通常經攝入腐敗食物（含有預形成毒素）或動物屍體而感染。最常涉及的毒素型別為C型。",
+    "synonyms": ["Botulinum Toxicosis", "Clostridium botulinum Intoxication", "肉毒梭菌中毒"],
+    "epidemiology": {
+      "species": "犬較常見，貓極罕見（可能因飲食行為較謹慎）",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["攝入腐敗食物或動物屍體", "接觸死禽或腐敗肉類", "垃圾翻食行為", "生食飲食", "農村或郊區環境"]
+    },
+    "clinicalPresentation": {
+      "history": ["攝入可疑食物後12-72小時內出現進行性無力", "從後肢開始的上行性弛緩性麻痺", "可能有嘔吐或腹瀉的前驅症狀", "吞嚥困難", "聲音改變", "面部表情減少"],
+      "physicalExam": ["弛緩性四肢麻痺（與破傷風的強直性痙攣相反）", "上行性麻痺（通常從後肢開始）", "下運動神經元徵兆：肌張力下降、腱反射減弱至消失", "瞳孔散大（對光反射遲鈍）", "吞嚥困難和流涎", "聲音改變（喉麻痺）", "面部肌肉無力", "尾巴鬆弛", "呼吸困難（呼吸肌麻痺——最危險）", "意識清楚（毒素不影響中樞神經元）", "疼痛感覺保留"]
+    },
+    "pathophysiology": "C. botulinum 在厭氧環境下（腐敗食物、動物屍體）產生肉毒桿菌毒素（botulinum neurotoxin, BoNT）。犬最常見的感染途徑是攝入含有預形成毒素的食物（食物型肉毒桿菌中毒）。BoNT是已知最毒的天然物質。毒素經腸道吸收進入血液循環，結合於膽鹼能神經末梢的突觸前膜（重鏈負責結合和內化）。毒素的輕鏈（鋅金屬蛋白酶）裂解SNARE蛋白（SNAP-25、VAMP/synaptobrevin或syntaxin，取決於毒素型別），阻斷乙醯膽鹼突觸囊泡的融合和釋放。結果是神經肌肉傳導阻斷，導致弛緩性麻痺。與破傷風相反，肉毒桿菌毒素作用於周邊膽鹼能神經末梢（而非中樞抑制性突觸）。恢復需要新的神經末梢和突觸的再生。",
+    "diagnosis": {
+      "overview": "依據特徵性臨床表現（急性弛緩性麻痺伴可疑飲食史）進行臨床診斷，實驗室確認困難",
+      "differentials": ["蜱麻痺（臨床非常相似）", "多發性神經根神經炎（Coonhound paralysis）", "重症肌無力", "有機磷中毒", "珊瑚蛇咬傷", "低血鉀麻痺"],
+      "initialDB": ["臨床診斷為主——急性上行性弛緩性麻痺伴飲食暴露史", "仔細排除蜱麻痺（全身搜索蜱蟲）", "CBC/生化——通常正常", "CK通常正常（與肌病鑑別）"],
+      "advanced": ["小鼠中和生物檢測——血清或食物/糞便中毒素檢測（金標準但耗時且需特殊實驗室）", "電生理學——EMG正常或低振幅CMAP、重複神經刺激遞減反應", "糞便中 C. botulinum 培養（敏感度低）", "食物來源毒素檢測"]
+    },
+    "treatment": {
+      "overview": "支持療法為主，嚴重病例需密集護理包括呼吸支持",
+      "acute": ["支持療法和密集護理（最重要）", "多價抗毒素（如可取得）——僅能中和循環中的游離毒素", "呼吸支持：必要時機械通氣", "靜脈輸液維持水合", "營養支持（管飼——因吞嚥困難）", "膀胱護理（必要時導尿）", "防止吸入性肺炎（抬高頭部）"],
+      "chronic": ["持續支持療法直至恢復（通常1-3週）", "物理治療維持關節活動度", "柔軟墊褥防止褥瘡", "每2-4小時翻身（長期臥床動物）", "恢復期漸進式活動"]
+    },
+    "prognosis": "輕度至中度病例（可維持獨立呼吸）預後良好，大多數在1-3週內恢復。需要機械通氣的嚴重病例預後謹慎至不良。死亡原因主要為呼吸衰竭和吸入性肺炎。貓極少報告但預後同犬。",
+    "pearls": ["肉毒桿菌中毒=弛緩性麻痺；破傷風=強直性痙攣——兩者都是梭菌毒素引起但機制和表現完全相反", "蜱麻痺是最重要的鑑別診斷——所有弛緩性麻痺犬都必須仔細全身搜索蜱蟲", "意識清楚但全身麻痺是肉毒桿菌中毒的特點（毒素不通過BBB）", "恢復需時1-3週（新神經末梢再生）", "攝入腐敗食物/動物屍體的病史是關鍵診斷線索"],
+    "monitoring": ["呼吸頻率和努力程度持續監測（最關鍵——呼吸衰竭是主要死因）", "每日神經功能評估追蹤恢復進程", "褥瘡和泌尿道感染監測", "營養攝入和體重"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "mycobacterial-infection": {
+    "zh": "分枝桿菌感染",
+    "en": "Mycobacterial Infection",
+    "definition": "分枝桿菌感染是由分枝桿菌屬（Mycobacterium spp.）引起的慢性感染性疾病。犬貓可感染多種分枝桿菌，包括結核群（M. tuberculosis, M. bovis, M. microti）、非結核分枝桿菌（NTM，如 M. avium complex）和速生分枝桿菌（M. fortuitum, M. smegmatis）。臨床表現取決於菌種和受累器官。",
+    "synonyms": ["Mycobacteriosis", "Tuberculosis (TB群)", "Atypical Mycobacteriosis (NTM)", "分枝桿菌病"],
+    "epidemiology": {
+      "species": "犬貓皆可，貓較常見（尤其NTM）",
+      "age": "成年至老年多見",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["接觸結核病患者（M. bovis, M. tuberculosis）", "接觸受感染的牛奶（M. bovis）", "接觸土壤和水源（NTM）", "免疫抑制（FIV/FeLV）", "Siamese和Abyssinian貓（M. avium complex易感性）", "穿刺傷（速生分枝桿菌）"]
+    },
+    "clinicalPresentation": {
+      "history": ["慢性皮膚結節或潰瘍治療效果不佳", "引流竇道", "體重減輕和食慾下降", "慢性呼吸症狀（肺結核時）", "腹瀉（腸道型）", "淋巴結腫大"],
+      "physicalExam": ["皮膚結節（堅實、無痛或微痛），可潰瘍並引流", "好發於腹部、鼠蹊部、四肢（速生NTM）", "全身淋巴結腫大（播散型或TB）", "肝脾腫大（播散型）", "肺部聽診異常（肺結核）", "腹部腫塊或腸壁增厚（腸道型M. avium）", "消瘦和惡病質"]
+    },
+    "pathophysiology": "分枝桿菌細胞壁含有大量分枝酸和脂質，形成蠟質外層使細菌具有抗酸染色特性、抵抗乾燥和消毒劑。細菌被巨噬細胞吞噬後，透過抑制吞噬溶酶體融合和酸化，在巨噬細胞內存活和複製（類似組織漿菌的胞內寄生策略）。宿主形成肉芽腫試圖包裹感染——特徵性的結核性肉芽腫由上皮樣巨噬細胞、Langhans巨細胞和周圍的淋巴細胞組成，中央可能有乾酪性壞死。細胞免疫（CD4+ T細胞和IFN-γ）是控制感染的關鍵。M. avium complex在Siamese和Abyssinian貓中的高易感性可能與品種特異性的免疫缺陷有關。速生NTM（M. fortuitum等）通常經皮膚傷口接種引起局部感染。",
+    "diagnosis": {
+      "overview": "抗酸染色細胞學是初步診斷的關鍵，培養和PCR用於種別鑑定",
+      "differentials": ["其他深部真菌感染", "諾卡菌病（也為部分抗酸染色陽性）", "放線菌病", "異物肉芽腫", "腫瘤（淋巴瘤、肥大細胞瘤）"],
+      "initialDB": ["細胞學或組織壓片——Ziehl-Neelsen（ZN）抗酸染色尋找抗酸桿菌（acid-fast bacilli, AFB）", "注意：NTM在組織中菌量可能很少，抗酸染色可能陰性", "CBC/生化——非再生性貧血、高球蛋白、低白蛋白", "FeLV/FIV檢測（貓）"],
+      "advanced": ["分枝桿菌培養（需特殊培養基如Lowenstein-Jensen，TB群生長需4-8週，速生NTM數天至1週）", "組織病理學——肉芽腫性至化膿肉芽腫性炎症伴抗酸桿菌", "PCR和基因定序（種別鑑定）", "藥物敏感性試驗（指導治療極為重要）", "胸腔X光和腹部超音波評估播散", "公共衛生注意：M. tuberculosis和M. bovis為法定報告傳染病"]
+    },
+    "treatment": {
+      "overview": "長期多藥併用抗生素治療，結核群感染具公共衛生考量",
+      "acute": ["NTM皮膚感染：clarithromycin 62.5 mg/cat q12h + fluoroquinolone（如pradofloxacin 5 mg/kg q24h）", "速生NTM：doxycycline + fluoroquinolone", "M. avium complex：clarithromycin + rifampin + ethambutol（三聯療法）"],
+      "chronic": ["治療至少4-6個月（NTM皮膚型）", "M. avium complex播散型：6-12個月或更長", "TB群：安樂死可能是公共衛生建議（M. tuberculosis和M. bovis為人畜共通傳染病）", "皮膚病灶手術切除可輔助藥物治療", "根據藥敏結果調整方案"]
+    },
+    "prognosis": "速生NTM皮膚型：手術+藥物預後良好。M. avium complex播散型（尤其Siamese貓）：預後不良。TB群感染：因公共衛生風險，通常建議安樂死。整體預後取決於菌種、受累範圍和免疫狀態。",
+    "pearls": ["M. tuberculosis和M. bovis感染是法定報告傳染病——具人畜共通傳染風險，診斷後需通知公共衛生單位", "Siamese和Abyssinian貓對M. avium complex有品種易感性", "諾卡菌也是部分抗酸染色陽性——需與分枝桿菌鑑別（諾卡菌為絲狀，分枝桿菌為桿狀）", "藥物敏感性試驗對指導治療至關重要——NTM的抗藥性模式差異很大", "培養生長緩慢（TB群需4-8週）——PCR可提供快速鑑定"],
+    "monitoring": ["臨床症狀改善追蹤", "培養追蹤治療反應", "肝腎功能監測（長期多藥治療）", "胸腔和腹部影像追蹤", "公共衛生追蹤（TB群）"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "protothecosis": {
+    "zh": "原藻菌病",
+    "en": "Protothecosis",
+    "definition": "原藻菌病是由無色藻類 Prototheca spp.（主要為 P. wickerhamii 和 P. zopfii）引起的罕見感染。Prototheca 是缺乏葉綠素的藻類（非真菌），與綠藻（Chlorella）親緣關係近。犬以播散型為主（尤其結腸和眼部受累），貓以皮膚型為主。",
+    "synonyms": ["Prototheca Infection", "藻菌感染", "原藻感染"],
+    "epidemiology": {
+      "species": "犬貓皆可，犬較常見",
+      "age": "成年犬（中年至老年）",
+      "sex": "母犬略多",
+      "riskFactors": ["接觸污染的停滯水源（下水道、污水）", "免疫抑制狀態", "大型犬種", "Collie犬種（可能有品種傾向）", "農村和潮濕環境"]
+    },
+    "clinicalPresentation": {
+      "history": ["犬：慢性大腸性腹瀉（血性黏液便），體重減輕", "進行性視力下降至失明", "皮膚結節或潰瘍", "對抗生素治療無反應", "貓：慢性皮膚結節"],
+      "physicalExam": ["犬播散型：大腸性腹瀉（新鮮血、黏液、裡急後重）", "眼部：嚴重脈絡膜視網膜炎伴視網膜剝離、失明", "前葡萄膜炎", "皮膚結節或潰瘍", "神經症狀（CNS播散時）", "消瘦", "貓：四肢或軀幹的皮下結節"]
+    },
+    "pathophysiology": "Prototheca spp. 是廣泛存在於環境中（污水、土壤、動物糞便）的腐生性無色藻類。感染途徑可能為攝入（GI型）或皮膚傷口（皮膚型）。在組織中，Prototheca通過內孢子形成（endosporulation）進行無性繁殖——母細胞內產生2-20個內孢子，成熟後母細胞壁破裂釋放內孢子。犬的感染通常為播散型，經腸道進入後血行播散至眼、CNS和其他器官。嚴重的肉芽腫性至化膿肉芽腫性炎症反應伴隨大量藻體。細胞免疫缺陷是發病的重要因素。犬的結腸受累非常突出，類似肉芽腫性結腸炎。",
+    "diagnosis": {
+      "overview": "細胞學或組織病理學發現特徵性的內孢子形成型態即可確診",
+      "differentials": ["炎症性腸病（GI型）", "組織漿菌病GI型", "腸道淋巴瘤", "隱球菌病（眼部型）", "系統性真菌感染"],
+      "initialDB": ["直腸刮片或糞便細胞學——大型（8-25 μm）球形至橢圓形細胞伴內孢子形成", "眼底檢查——脈絡膜視網膜炎和視網膜剝離", "CBC/生化——可能正常或輕度異常"],
+      "advanced": ["組織病理學——肉芽腫性炎症伴大量藻體（PAS和GMS陽性）", "培養（Sabouraud agar，37°C數天即可生長）", "結腸內視鏡活檢", "CSF分析（CNS受累時）"]
+    },
+    "treatment": {
+      "overview": "治療極為困難，犬的播散型幾乎無有效治療",
+      "acute": ["itraconazole 10 mg/kg q24h + amphotericin B（脂質體配方）——有限療效", "局部皮膚型（貓）：手術切除"],
+      "chronic": ["長期抗真菌藥物（itraconazole、fluconazole）聯合治療", "犬的播散型：通常對治療反應極差", "貓的皮膚型：手術切除+抗真菌藥物，預後較好"]
+    },
+    "prognosis": "犬的播散型預後極差至無望——大多數犬最終被安樂死。貓的皮膚局限型預後較好，手術切除可能治癒。目前無有效的犬播散型治療方案。",
+    "pearls": ["Prototheca不是真菌而是無色藻類——但對部分抗真菌藥物有一定敏感性", "犬播散型Protothecosis的三聯徵：慢性血性大腸性腹瀉 + 失明 + 神經症狀", "直腸刮片是最簡單的診斷方法——可見特徵性的內孢子形成型態", "犬播散型目前幾乎無有效治療——預後極差", "與組織漿菌GI型的鑑別：Prototheca較大且有特徵性的內孢子形成"],
+    "monitoring": ["眼科檢查追蹤視力變化", "糞便品質和頻率", "神經功能評估", "生活品質評估（犬播散型通常需要安樂死討論）"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "hepatozoonosis": {
+    "zh": "肝簇蟲病",
+    "en": "Hepatozoonosis",
+    "definition": "肝簇蟲病是由頂複門原蟲 Hepatozoon spp. 引起的蜱媒介性疾病。犬有兩個主要病原種：H. canis（較溫和，全球分布）和 H. americanum（較嚴重，美國南部）。獨特的傳播方式：犬經攝入（吞食）含有成熟卵囊的感染蜱而感染，而非經蜱叮咬。",
+    "synonyms": ["Hepatozoon Infection", "American Canine Hepatozoonosis (H. americanum)", "肝簇蟲感染"],
+    "epidemiology": {
+      "species": "犬為主要宿主，貓罕見",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["蜱暴露（吞食蜱蟲——梳理行為中攝入）", "H. canis：棕色犬蜱（Rhipicephalus sanguineus）為媒介", "H. americanum：墨西哥灣海岸蜱（Amblyomma maculatum）為媒介", "免疫抑制狀態（加重H. canis感染）", "多蜱環境", "戶外活動犬"]
+    },
+    "clinicalPresentation": {
+      "history": ["H. canis（溫和型）：多數為亞臨床，嚴重時發熱和肌肉疼痛", "H. americanum（嚴重型）：高燒、嚴重肌肉疼痛和僵硬、體重減輕", "食慾下降", "不願行走（肌肉疼痛）", "間歇性發熱", "眼分泌物"],
+      "physicalExam": ["H. canis：貧血蒼白黏膜、脾腫大、消瘦", "H. americanum：高燒、嚴重肌肉疼痛和僵硬（尤其脊柱旁肌群）", "肌肉萎縮", "骨膜增生（長骨——X光可見）", "膿性眼分泌物", "全身淋巴結腫大", "惡病質"]
+    },
+    "pathophysiology": "犬在梳理過程中吞食含有成熟卵囊的感染蜱（與其他蜱媒介疾病經叮咬傳播不同）。卵囊在腸道釋放子孢子，穿透腸壁進入血液循環。H. canis的裂殖體主要在嗜中性球和單核球中發育（可在血塗片中看到配子母細胞）。H. americanum的裂殖體在骨骼肌和心肌中發育，引起嚴重的化膿肉芽腫性肌炎和骨膜增生。肌肉中的裂殖體（meront）被巨噬細胞包圍形成「洋蔥皮」樣肉芽腫。H. americanum的骨膜增生可能與肌肉附著處的炎症刺激有關。H. canis在免疫正常犬通常為低寄生蟲血症的亞臨床感染，但免疫抑制時可發展為高寄生蟲血症和嚴重臨床疾病。",
+    "diagnosis": {
+      "overview": "H. canis可在血塗片中發現配子母細胞，H. americanum需要肌肉活檢",
+      "differentials": ["多發性肌炎（免疫介導性）", "骨骼腫瘤（骨膜增生時）", "其他蜱媒介疾病", "全身性紅斑狼瘡", "多發性骨髓炎"],
+      "initialDB": ["血塗片——H. canis：嗜中性球或單核球內的配子母細胞（橢圓形包涵體）", "CBC——H. canis：嗜中性球增多（通常非常顯著，可>100,000/μL）；H. americanum：嗜中性球增多", "生化——高鹼性磷酸酶", "骨骼X光——H. americanum：長骨骨膜增生"],
+      "advanced": ["肌肉活檢——H. americanum：骨骼肌中的肉芽腫性炎症和裂殖體（meronts）", "PCR鑑別H. canis和H. americanum", "血清學", "CK升高"]
+    },
+    "treatment": {
+      "overview": "H. canis和H. americanum的治療方案不同",
+      "acute": ["H. canis：imidocarb dipropionate 5 mg/kg IM，間隔14天重複", "H. americanum（TCP方案）：trimethoprim-sulfadiazine 15 mg/kg q12h + clindamycin 10 mg/kg q8h + pyrimethamine 0.25 mg/kg q24h，共14天", "H. americanum的疼痛管理：NSAIDs", "支持療法"],
+      "chronic": ["H. americanum：TCP方案後轉為 decoquinate 10-20 mg/kg q12h 長期維持", "H. canis：可能需要反覆imidocarb治療", "蜱預防（極為重要——防止再感染）", "H. americanum通常無法根治——需終生管理"]
+    },
+    "prognosis": "H. canis：預後良好（大多數病例對治療反應好）。H. americanum：預後謹慎至不良——通常無法根治，需要終生decoquinate維持治療，復發常見。不治療的H. americanum致死率高。",
+    "pearls": ["犬經吞食（不是被叮咬）感染蜱而感染——獨特的傳播方式", "嗜中性球內的配子母細胞（血塗片）是H. canis的診斷線索", "極端的嗜中性球增多症（>100,000/μL）是H. canis的特徵", "H. americanum導致骨膜增生——在鑑別骨腫瘤時需考慮", "H. americanum通常無法根治——需終生decoquinate維持"],
+    "monitoring": ["血塗片追蹤寄生蟲血症（H. canis）", "CBC追蹤嗜中性球數量", "骨骼X光追蹤骨膜增生變化", "CK和肌肉疼痛評估", "蜱預防的遵從性"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "neosporosis": {
+    "zh": "新孢子蟲病",
+    "en": "Neosporosis",
+    "definition": "新孢子蟲病是由頂複門原蟲 Neospora caninum 引起的感染性疾病。犬既是終末宿主（腸道內有性繁殖並排出卵囊）也是中間宿主（組織內無性繁殖引起疾病）。幼犬的經胎盤感染是最重要的傳播途徑，可導致嚴重的上行性麻痺和多器官感染。",
+    "synonyms": ["Neospora caninum Infection", "新孢子蟲感染"],
+    "epidemiology": {
+      "species": "犬為主要宿主（終末和中間宿主），貓極罕見",
+      "age": "先天性感染：幼犬（<6月齡）最常見且最嚴重；後天性感染：任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["母犬為帶原者（經胎盤垂直傳播）", "攝入含有卵囊的牛組織或胎盤", "農場環境（接觸牛群）", "免疫抑制狀態"]
+    },
+    "clinicalPresentation": {
+      "history": ["幼犬（先天性）：後肢進行性僵硬和麻痺，通常3-6週齡開始出現", "同窩多隻幼犬可能受影響", "吞嚥困難", "成犬：多灶性神經症狀", "肌肉萎縮"],
+      "physicalExam": ["幼犬：後肢進行性過伸（hyperextension）和肌肉攣縮——最典型的表現", "上行性麻痺（由後肢向前肢進展）", "後肢肌肉嚴重萎縮", "下運動神經元徵兆", "吞嚥困難和咀嚼困難", "嘴巴無法完全張開", "成犬：共濟失調、抽搐、行為改變", "多灶性CNS徵兆", "多發性肌炎", "皮膚結節（罕見）"]
+    },
+    "pathophysiology": "N. caninum 的生活史類似弓漿蟲（Toxoplasma gondii），但犬為終末宿主（貓是弓漿蟲的終末宿主）。主要傳播途徑：(1) 經胎盤垂直傳播（最重要）——帶原母犬在妊娠期經胎盤將速殖體（tachyzoites）傳播給胎兒；(2) 水平傳播——攝入含有卵囊或組織包囊的感染組織。速殖體是急性感染的活躍增殖型態，可侵入神經細胞、肌細胞、巨噬細胞和其他細胞。慢性感染時，速殖體轉為緩殖體（bradyzoites）形成組織包囊，主要在腦和肌肉中。先天性感染的幼犬，N. caninum 主要侵犯脊髓腰薦節段和周邊神經，引起嚴重的非化膿性腦脊髓炎和多發性根神經炎。肌肉中的炎症和纖維化導致不可逆的肌肉攣縮（尤其後肢伸肌）。",
+    "diagnosis": {
+      "overview": "幼犬的後肢過伸/攣縮是高度特徵性的臨床線索，血清學和CSF分析支持診斷",
+      "differentials": ["弓漿蟲病", "犬瘟熱神經型", "多發性肌炎（免疫介導性）", "脊髓灰質炎", "先天性脊椎畸形"],
+      "initialDB": ["N. caninum IFA或ELISA血清抗體——陽性支持診斷但無法區分暴露和活動性感染", "CSF分析——混合細胞增多、蛋白升高", "CK升高（肌肉受累）", "CBC/生化——通常無特異性"],
+      "advanced": ["CSF N. caninum PCR", "肌肉活檢——非化膿性肌炎伴速殖體（免疫組織化學標記）", "腦脊髓MRI", "免疫組織化學——區分Neospora和Toxoplasma（形態學相似）", "母犬抗體檢測（評估垂直傳播風險）"]
+    },
+    "treatment": {
+      "overview": "抗原蟲治療需早期開始，幼犬肌肉攣縮一旦形成通常不可逆",
+      "acute": ["clindamycin 12.5-25 mg/kg q12h PO（首選）", "替代：TMP-SMX 15 mg/kg q12h", "嚴重病例：clindamycin + pyrimethamine 1 mg/kg q24h（加葉酸5 mg/day防止骨髓抑制）"],
+      "chronic": ["clindamycin持續治療至少4-8週", "物理治療嘗試改善肌肉攣縮（效果有限）", "帶原母犬不建議再繁殖"]
+    },
+    "prognosis": "幼犬先天性感染伴肌肉攣縮：預後不良至無望（攣縮不可逆）。成犬後天性感染：預後謹慎，早期治療可能有效。CNS廣泛受累者預後差。治療可能無法完全清除包囊型態。",
+    "pearls": ["幼犬後肢過伸（膝關節和跗關節固定伸展）是Neosporosis最具特徵性的表現", "經胎盤傳播是最重要的感染途徑——帶原母犬可在連續懷孕中反覆傳播", "形態學上Neospora與Toxoplasma幾乎無法區別——需免疫組織化學或PCR鑑別", "肌肉攣縮一旦形成即不可逆——早期診斷和治療至關重要", "感染母犬不應再用於繁殖"],
+    "monitoring": ["神經功能和肌肉狀態定期評估", "抗體滴度追蹤（但滴度與疾病活性不完全相關）", "同窩其他幼犬的評估", "母犬和繁殖管理建議"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "leishmaniasis": {
+    "zh": "利什曼病",
+    "en": "Leishmaniasis",
+    "definition": "利什曼病是由利什曼原蟲屬（Leishmania spp.，主要為 L. infantum/L. chagasi）引起的慢性系統性疾病。經白蛉（sand fly）叮咬傳播。原蟲在巨噬細胞內以無鞭毛體（amastigote）型態寄生和複製。犬是地中海地區和中南美洲的主要儲存宿主，具有重要的人畜共通傳染意義。",
+    "synonyms": ["Canine Leishmaniosis", "Kala-azar (visceral form)", "利什曼原蟲病", "黑熱病"],
+    "epidemiology": {
+      "species": "犬為主要宿主和儲存宿主，貓偶見",
+      "age": "雙峰分布：<3歲和>7歲",
+      "sex": "公犬略多",
+      "riskFactors": ["居住在或旅行至流行地區（地中海沿岸、中南美洲、中東）", "白蛉活躍地區", "戶外活動和夜間暴露（白蛉為夜行性）", "免疫反應以Th2為主的個體（無法有效控制感染）", "某些品種可能有遺傳易感性（Boxer、Cocker Spaniel、Rottweiler）"]
+    },
+    "clinicalPresentation": {
+      "history": ["慢性體重減輕伴食慾正常或下降", "皮膚問題（脫毛、鱗屑、潰瘍）", "運動不耐", "多飲多尿", "鼻出血", "跛行", "病程通常數月至數年", "可能有旅行至流行區的病史"],
+      "physicalExam": ["皮膚：非搔癢性對稱脫毛、乾燥鱗屑（石棉樣皮屑）、潰瘍（尤其壓力點和耳翼）", "指甲異常增長（onychogryphosis——幾乎是特徵性的）", "全身淋巴結腫大", "脾腫大", "肌肉萎縮（尤其頭部顳肌）", "鼻出血", "眼部：前葡萄膜炎、角結膜炎", "關節腫脹（多發性關節炎）", "黏膜蒼白（貧血）"]
+    },
+    "pathophysiology": "L. infantum 以前鞭毛體（promastigote）型態存在於白蛉腸道中。白蛉叮咬犬時，前鞭毛體進入皮膚被巨噬細胞吞噬，在吞噬溶酶體內轉為無鞭毛體（amastigote）並大量複製。感染的巨噬細胞將原蟲播散至富含巨噬細胞的器官（脾、肝、骨髓、淋巴結）。疾病的嚴重程度主要取決於宿主的免疫反應類型：Th1反應（IFN-γ、IL-2）可有效控制感染並可能維持亞臨床狀態；Th2反應（IL-4、IL-10）伴大量抗體產生但無法殺滅胞內寄生蟲，導致進行性疾病。過量的抗體產生導致高球蛋白血症和免疫複合物沉積——引起腎小球腎炎（最重要的致死原因）、關節炎、血管炎和葡萄膜炎。蛋白尿和腎功能不全的進展決定預後。",
+    "diagnosis": {
+      "overview": "結合血清學、細胞學/病理學和臨床病理學進行綜合診斷",
+      "differentials": ["免疫介導性多系統疾病（SLE）", "淋巴瘤", "多發性骨髓瘤", "艾利希體病", "皮膚黴菌感染", "落葉型天皰瘡"],
+      "initialDB": ["Leishmania血清抗體IFAT或ELISA——定量滴度有助於分期和治療決策", "CBC——非再生性貧血、血小板減少", "生化——高球蛋白血症、白蛋白/球蛋白比值倒置（<0.6-0.8）、BUN/Creatinine可能升高", "尿液分析——蛋白尿（UPC比值）", "血清蛋白電泳——多株性丙種球蛋白增高"],
+      "advanced": ["細胞學（骨髓、淋巴結、皮膚穿刺）——巨噬細胞內無鞭毛體（kinetoplast可見）", "組織病理學（皮膚活檢）——肉芽腫性皮膚炎伴巨噬細胞內無鞭毛體", "Leishmania PCR（血液、骨髓、淋巴結）", "腎臟活檢（評估腎小球腎炎分期）"]
+    },
+    "treatment": {
+      "overview": "多藥聯合治療降低寄生蟲量和控制免疫介導併發症，通常無法完全清除感染",
+      "acute": ["meglumine antimoniate 100 mg/kg q24h SC 共28天（歐洲標準方案）+ allopurinol 10 mg/kg q12h PO", "替代：miltefosine 2 mg/kg q24h PO 共28天 + allopurinol", "腎功能不全時劑量調整"],
+      "chronic": ["allopurinol 10 mg/kg q12h PO 長期維持（至少6-12個月，部分需終生）", "腎小球腎炎管理：ACE抑制劑（benazepril）、低蛋白飲食", "定期監測腎功能和蛋白尿", "復發時重複meglumine或miltefosine療程"]
+    },
+    "prognosis": "取決於臨床分期（LeishVet分期系統）。第I-II期（輕度至中度）：長期管理下預後良好。第III期（嚴重）：預後謹慎。第IV期（嚴重腎衰竭）：預後不良。腎功能是最重要的預後因素。犬通常無法完全清除感染——終生帶原者。",
+    "pearls": ["指甲異常增長（onychogryphosis）幾乎是犬利什曼病的特徵性發現", "白蛋白/球蛋白比值倒置是重要的實驗室線索", "腎小球腎炎是最重要的致死原因——蛋白尿（UPC）是關鍵監測指標", "犬是L. infantum的儲存宿主——具重大公共衛生意義", "旅行至地中海地區的犬應在返回後篩檢", "allopurinol長期使用可能導致黃嘌呤尿結石——需監測尿液"],
+    "monitoring": ["腎功能（BUN、Creatinine）和蛋白尿（UPC）每1-3個月", "Leishmania定量抗體滴度每3-6個月", "CBC和生化每2-3個月", "血清蛋白電泳追蹤", "allopurinol引起的黃嘌呤尿石監測（尿液沉渣）"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  }
+}

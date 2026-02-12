@@ -1,0 +1,501 @@
+{
+  "microangiopathic-hemolytic-anemia": {
+    "zh": "微血管病性溶血性貧血",
+    "en": "Microangiopathic Hemolytic Anemia (MAHA)",
+    "definition": "紅血球在通過受損或異常微血管時被機械性剪切破壞導致的溶血性貧血。血液抹片可見特徵性裂片紅血球（schistocytes）。常繼發於瀰漫性血管內凝血（DIC）、血管肉瘤（hemangiosarcoma）、血管炎或嚴重心臟疾病。",
+    "synonyms": ["碎片紅血球溶血性貧血", "MAHA", "機械性溶血性貧血"],
+    "epidemiology": {
+      "species": "犬貓均可發生，犬較常見",
+      "breed": "German Shepherd、Golden Retriever（血管肉瘤高發品種）",
+      "age": "中老年犬（因潛在疾病常見於此年齡層）",
+      "sex": "無明顯性別傾向",
+      "prevalence": "作為繼發性疾病，取決於原發病的發生率"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "進行性虛弱和嗜睡",
+        "黏膜蒼白",
+        "運動不耐受",
+        "呼吸急促",
+        "心跳加速",
+        "黃疸（溶血產物堆積）",
+        "瘀斑或瘀點（DIC 伴隨時）",
+        "暗色尿液（血紅素尿）",
+        "原發病的症狀（如腹腔積液、腫塊）",
+        "突然虛脫（如脾臟血管肉瘤破裂）"
+      ],
+      "physicalExam": [
+        "黏膜蒼白或黃疸",
+        "心跳加速和收縮期心雜音",
+        "脾臟腫大（血管肉瘤或 DIC 時）",
+        "腹部膨脹（腹腔積液）",
+        "皮下出血或瘀斑（DIC）"
+      ]
+    },
+    "pathophysiology": "紅血球在通過異常微血管時被纖維蛋白絲（fibrin strands）、受損血管內皮或異常血管結構物理性切割，產生裂片紅血球。DIC 中微血管內廣泛的纖維蛋白沉積是最常見的機制。血管肉瘤中腫瘤內異常血管結構造成機械性溶血。嚴重心瓣膜疾病中湍流也可造成紅血球破壞。",
+    "diagnosis": {
+      "primary": [
+        "血液抹片見裂片紅血球（schistocytes >3/HPF）",
+        "CBC 確認再生性貧血",
+        "凝血功能檢查排除 DIC",
+        "腹部超音波和胸部 X 光尋找原發病"
+      ],
+      "differential": [
+        "免疫介導性溶血性貧血（IMHA）",
+        "氧化性溶血（Heinz body anemia）",
+        "急性失血性貧血",
+        "骨髓疾病",
+        "紅血球寄生蟲感染"
+      ],
+      "labFindings": [
+        "CBC：再生性貧血、血小板減少（DIC 時）",
+        "血液抹片：schistocytes、keratocytes、acanthocytes",
+        "凝血：PT/APTT 延長、D-dimer 升高（DIC）",
+        "生化：膽紅素升高、LDH 升高",
+        "腹腔穿刺液：血性（血管肉瘤破裂時）"
+      ]
+    },
+    "treatment": {
+      "acute": "治療原發病為首要。輸血支持嚴重貧血。DIC 者給予新鮮冷凍血漿。靜脈輸液維持組織灌注",
+      "chronic": "長期管理取決於原發病的控制。DIC 治療原發病後通常改善。腫瘤相關者需手術和/或化療",
+      "medications": [
+        "Packed RBC 輸血（PCV <15-20%）",
+        "新鮮冷凍血漿 10-15 mL/kg IV（DIC 補充凝血因子）",
+        "Heparin 75-100 IU/kg SC TID（DIC 抗凝）",
+        "靜脈晶體液支持",
+        "原發病的特異性治療藥物"
+      ],
+      "surgery": "血管肉瘤需脾臟切除術或腫瘤切除。心臟瓣膜疾病嚴重者可考慮瓣膜修復（限少數中心）。"
+    },
+    "prognosis": "預後主要取決於原發病。DIC 整體預後謹慎（死亡率 30-50%）。血管肉瘤即使手術後中位存活時間僅 1-3 個月（化療可延長至 6 個月）。可逆性原因（如急性感染引起的 DIC）治療後預後較好。",
+    "pearls": [
+      "血液抹片上 >3 個 schistocytes/HPF 高度提示微血管病性溶血",
+      "中老年大型犬急性貧血 + 腹腔積液 = 直到排除前首先考慮脾臟血管肉瘤",
+      "MAHA 幾乎總是繼發性的，必須積極尋找原發病",
+      "DIC 是最常見的 MAHA 原因，治療原發病是關鍵"
+    ],
+    "monitoring": [
+      "PCV/TS 每 6-12 小時（急性期）",
+      "凝血功能每 12-24 小時（DIC 監測）",
+      "血小板計數追蹤",
+      "原發病的特異性監測指標"
+    ],
+    "reference": "Veterinary Technician's Manual for Small Animal Emergency and Critical Care"
+  },
+  "erythrocytosis": {
+    "zh": "紅血球增多症",
+    "en": "Erythrocytosis (Polycythemia)",
+    "definition": "血液中紅血球數量、血容比（PCV）和血紅素濃度異常升高。可分為相對性（脫水導致血液濃縮）、適當性絕對性（低氧刺激 EPO 增加）和不適當性絕對性（腫瘤分泌 EPO 或原發性骨髓增殖）。PCV >55%（犬）或 >50%（貓）即視為紅血球增多。",
+    "synonyms": ["多血症", "紅血球過多症", "polycythemia"],
+    "epidemiology": {
+      "species": "犬貓均可發生",
+      "breed": "相對性：短頭犬種（慢性低氧）。原發性：無品種傾向",
+      "age": "原發性：中老年。繼發性：任何年齡",
+      "sex": "無明顯性別傾向",
+      "prevalence": "相對性（脫水）常見，絕對性紅血球增多症罕見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "黏膜充血發紅",
+        "精神異常或行為改變",
+        "癲癇發作",
+        "視力障礙或失明",
+        "多飲多尿",
+        "嗜睡",
+        "運動不耐受",
+        "打噴嚏或鼻出血",
+        "後肢無力",
+        "嘔吐"
+      ],
+      "physicalExam": [
+        "黏膜深紅充血（brick red）",
+        "脾臟腫大",
+        "眼底檢查見血管迂曲擴張",
+        "神經學異常（高黏滯症候群）",
+        "心雜音（血液黏稠度增加）"
+      ]
+    },
+    "pathophysiology": "相對性：脫水導致血漿容量減少，紅血球濃度相對升高。適當性絕對性：慢性低氧（心肺疾病、高海拔）刺激腎臟分泌 EPO，驅動骨髓增加紅血球生成。不適當性絕對性：腎臟腫瘤等分泌異位 EPO，或原發性真性紅血球增多症（polycythemia vera）為骨髓增殖性腫瘤。血液黏稠度增加導致微循環障礙和血栓形成。",
+    "diagnosis": {
+      "primary": [
+        "CBC 確認 PCV 升高（犬 >55%，貓 >50%）",
+        "排除脫水（比較血漿蛋白、補液後複驗 PCV）",
+        "血清 EPO 濃度測定",
+        "動脈血氣分析（排除低氧性原因）"
+      ],
+      "differential": [
+        "脫水（相對性紅血球增多）",
+        "慢性心肺疾病（適當性）",
+        "右至左心臟分流（適當性）",
+        "腎臟腫瘤（不適當性 EPO）",
+        "真性紅血球增多症（原發性）",
+        "脾臟收縮（急性興奮、epinephrine）"
+      ],
+      "labFindings": [
+        "CBC：PCV 升高、可能白血球和血小板也升高（PV）",
+        "血清 EPO：低或正常（PV）vs 高（繼發性）",
+        "動脈血氣：PaO₂ 正常（PV/不適當性）vs 降低（適當性）",
+        "腹部超音波：排除腎臟腫塊",
+        "骨髓活檢：紅系增生（PV 時三系增生）"
+      ]
+    },
+    "treatment": {
+      "acute": "治療性放血（phlebotomy）降低 PCV 至 50-55%。同時靜脈輸液補充容量。治療原發病",
+      "chronic": "原發性 PV 以 hydroxyurea 抑制骨髓。繼發性治療原發病。定期放血維持 PCV",
+      "medications": [
+        "Hydroxyurea 30 mg/kg PO SID 起始，調整至維持 PCV <55%",
+        "靜脈輸液（放血後補充容量）",
+        "低劑量 Aspirin 0.5 mg/kg PO SID（預防血栓）",
+        "原發病特異性治療"
+      ],
+      "surgery": "腎臟腫瘤引起者行腎切除術。原發心臟分流可考慮手術修補。"
+    },
+    "prognosis": "相對性紅血球增多：糾正脫水後預後極佳。繼發性：取決於原發病。原發性 PV：以 hydroxyurea 控制，中位存活時間可達數年。腎臟腫瘤切除後若未轉移預後良好。",
+    "pearls": [
+      "黏膜 brick red 色是紅血球增多症的特徵性表現",
+      "EPO 濃度是區分原發性和繼發性紅血球增多的關鍵：PV 時 EPO 低或正常",
+      "PCV >65% 時血栓風險顯著增加，需緊急放血",
+      "興奮性脾臟收縮可使犬 PCV 暫時升高 5-10%，需冷靜後複驗"
+    ],
+    "monitoring": [
+      "PCV 每 1-2 週直至穩定",
+      "Hydroxyurea 治療者每 2 週 CBC（監測骨髓抑制）",
+      "腹部超音波每 3-6 個月（腫瘤篩查）",
+      "神經學評估（高黏滯症候群）"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats"
+  },
+  "chronic-lymphocytic-leukemia": {
+    "zh": "慢性淋巴球性白血病",
+    "en": "Chronic Lymphocytic Leukemia (CLL)",
+    "definition": "成熟小淋巴球在骨髓中異常增殖並釋放入血液的低度惡性血液腫瘤。進展緩慢，許多病例在常規血檢中偶然發現。犬較貓常見。多數為 T 細胞型，少數為 B 細胞型。",
+    "synonyms": ["CLL", "慢性淋巴細胞白血病"],
+    "epidemiology": {
+      "species": "犬較常見，貓少見",
+      "breed": "Golden Retriever、German Shepherd 可能略高發",
+      "age": "中老年犬（>6 歲），平均確診年齡 10-12 歲",
+      "sex": "無明顯性別傾向",
+      "prevalence": "犬中最常見的慢性白血病類型"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "許多病例無臨床症狀（偶然發現）",
+        "輕微嗜睡",
+        "食慾輕度下降",
+        "體重緩慢下降",
+        "多飲多尿",
+        "間歇性跛行（關節浸潤）",
+        "淋巴結輕度腫大",
+        "脾臟腫大",
+        "反覆感染（免疫功能低下）"
+      ],
+      "physicalExam": [
+        "可能無明顯異常（早期）",
+        "輕至中度周邊淋巴結腫大",
+        "脾臟腫大（觸診）",
+        "肝臟腫大（偶見）",
+        "整體狀態通常良好"
+      ]
+    },
+    "pathophysiology": "骨髓中成熟淋巴球發生克隆性增殖，這些細胞功能異常但分裂緩慢，逐漸累積於血液、骨髓、脾臟和淋巴結。T-CLL 較 B-CLL 常見於犬。腫瘤細胞累積可逐步取代正常骨髓造血功能，導致貧血和血小板減少。B-CLL 可產生單克隆免疫球蛋白（monoclonal gammopathy），造成高黏滯症候群。",
+    "diagnosis": {
+      "primary": [
+        "CBC 見持續性淋巴球增多（>20,000/μL、通常 >30,000/μL）",
+        "血液抹片見成熟小淋巴球為主",
+        "流式細胞術（flow cytometry）確定 T 或 B 細胞型",
+        "骨髓穿刺（淋巴球浸潤 >20%）"
+      ],
+      "differential": [
+        "急性淋巴母細胞性白血病（ALL）",
+        "Stage V 淋巴瘤（白血病期）",
+        "Ehrlichiosis 慢性反應性淋巴球增多",
+        "慢性感染反應性淋巴球增多",
+        "胸腺瘤"
+      ],
+      "labFindings": [
+        "CBC：淋巴球 >20,000/μL，形態成熟",
+        "血液抹片：小型成熟淋巴球，smudge cells 常見",
+        "血清蛋白電泳：B-CLL 可見單克隆峰",
+        "骨髓：淋巴球浸潤 >20-30%",
+        "流式細胞術：CD3+（T-CLL）或 CD21+（B-CLL）"
+      ]
+    },
+    "treatment": {
+      "acute": "無症狀者可選擇觀察等待（watch and wait）。出現臨床症狀或血球減少時開始治療",
+      "chronic": "口服化療藥物為主，多數犬反應良好。治療目標是控制而非治癒",
+      "medications": [
+        "Chlorambucil 4-6 mg/m² PO SID 或 20 mg/m² PO q2weeks",
+        "Prednisolone 1-2 mg/kg PO SID（初始，後漸減）",
+        "Cyclophosphamide 200-250 mg/m² PO q3weeks（替代方案）",
+        "Lomustine (CCNU) 70 mg/m² PO q3weeks（refractory 病例）"
+      ],
+      "surgery": "通常不適用。嚴重脾腫大可考慮脾切除術作為輔助。"
+    },
+    "prognosis": "犬 CLL 預後相對良好，中位存活時間 1-3 年（甚至更長）。T-CLL 預後通常優於 B-CLL。無症狀者從診斷到需要治療可能長達數月至數年。出現嚴重貧血或血小板減少者預後較差。",
+    "pearls": [
+      "CLL 是犬中預後最好的白血病類型",
+      "與 ALL 鑑別關鍵：CLL 為成熟小淋巴球，ALL 為大型不成熟母細胞",
+      "無症狀的 CLL 可先觀察不治療（watch and wait 策略）",
+      "B-CLL 伴單克隆球蛋白血症時需注意高黏滯症候群"
+    ],
+    "monitoring": [
+      "CBC 每 2-4 週直至穩定，後每 2-3 個月",
+      "化療期間每 2 週檢查 CBC 監測骨髓抑制",
+      "血清蛋白電泳追蹤 monoclonal peak（B-CLL）",
+      "淋巴結和脾臟大小定期評估"
+    ],
+    "reference": "BSAVA Manual of Canine and Feline Haematology and Transfusion Medicine"
+  },
+  "acute-lymphoblastic-leukemia": {
+    "zh": "急性淋巴母細胞性白血病",
+    "en": "Acute Lymphoblastic Leukemia (ALL)",
+    "definition": "骨髓中不成熟淋巴母細胞（lymphoblasts）惡性增殖的高度侵襲性血液腫瘤。大量母細胞取代正常骨髓造血組織，導致嚴重貧血、血小板減少和嗜中性球減少。進展快速，未治療者存活時間極短。",
+    "synonyms": ["ALL", "急性淋巴球性白血病", "淋巴母細胞性白血病"],
+    "epidemiology": {
+      "species": "犬貓均可發生",
+      "breed": "Golden Retriever、German Shepherd 可能略高發",
+      "age": "中年至老年犬（5-11 歲），貓任何年齡（FeLV 陽性者年輕）",
+      "sex": "無明顯性別傾向",
+      "prevalence": "犬白血病中佔相當比例"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "急性發病的虛弱和嗜睡",
+        "食慾廢絕",
+        "發燒",
+        "黏膜蒼白",
+        "自發性出血（瘀斑、瘀點、鼻出血）",
+        "淋巴結腫大（全身性）",
+        "脾臟腫大",
+        "骨痛和跛行",
+        "體重迅速下降",
+        "反覆感染"
+      ],
+      "physicalExam": [
+        "黏膜蒼白",
+        "全身性淋巴結腫大",
+        "脾臟和肝臟顯著腫大",
+        "發燒",
+        "皮下瘀斑和黏膜出血點",
+        "心跳加速（貧血代償）"
+      ]
+    },
+    "pathophysiology": "骨髓中淋巴系前驅細胞發生惡性轉化，失去正常分化能力而快速增殖。大量淋巴母細胞充填骨髓腔，排擠正常紅血球、白血球和巨核細胞系列的生成空間（骨髓浸潤）。惡性細胞釋入血液循環並浸潤肝臟、脾臟、淋巴結等器官。貓的 ALL 常與 FeLV 感染相關。",
+    "diagnosis": {
+      "primary": [
+        "CBC 見大量循環淋巴母細胞",
+        "血液抹片見大型不成熟淋巴母細胞（大核仁、高 N:C 比）",
+        "骨髓穿刺（母細胞 >20-30%）",
+        "流式細胞術和免疫表型分析"
+      ],
+      "differential": [
+        "慢性淋巴球性白血病（CLL）",
+        "Stage V 高分級淋巴瘤",
+        "急性骨髓性白血病（AML）",
+        "反應性淋巴球增多",
+        "多發性骨髓瘤"
+      ],
+      "labFindings": [
+        "CBC：淋巴母細胞增多、貧血、血小板減少",
+        "血液抹片：大型母細胞，核仁明顯，N:C 比高",
+        "骨髓：母細胞 >20%，正常造血減少",
+        "生化：LDH 升高、可能高鈣血症",
+        "FeLV/FIV 檢測（貓必做）"
+      ]
+    },
+    "treatment": {
+      "acute": "多藥聯合化療方案（CHOP-based）。支持性治療：輸血、抗生素、輸液",
+      "chronic": "化療誘導緩解後需維持治療。完全緩解率約 50-70% 但持續時間短",
+      "medications": [
+        "Vincristine 0.7 mg/m² IV weekly",
+        "Prednisolone 2 mg/kg PO SID（誘導期）",
+        "Cyclophosphamide 200 mg/m² IV q3weeks",
+        "Doxorubicin 30 mg/m² IV q3weeks",
+        "L-asparaginase 400 IU/kg IM（誘導期首劑）"
+      ],
+      "surgery": "不適用於 ALL 的主要治療。脾切除術偶用於嚴重脾腫大或脾破裂。"
+    },
+    "prognosis": "預後不良。化療可達到短期緩解，但大多數犬在 2-6 個月內復發。中位存活時間約 2-6 個月（化療）。未治療者通常在數天至數週內死亡。貓的 ALL 預後同樣不良。",
+    "pearls": [
+      "ALL vs CLL 鑑別：ALL 為大型母細胞急性發病，CLL 為小型成熟細胞慢性病程",
+      "ALL vs Stage V 淋巴瘤鑑別困難，骨髓母細胞 >20% 傾向診斷 ALL",
+      "FeLV 陽性貓發生 ALL 的風險顯著增加",
+      "腫瘤溶解症候群（TLS）在化療開始後可能發生，需密切監測電解質"
+    ],
+    "monitoring": [
+      "CBC 每週（化療誘導期）",
+      "電解質和腎功能（TLS 監測）",
+      "骨髓穿刺評估緩解程度",
+      "體重和整體狀態每次回診評估"
+    ],
+    "reference": "BSAVA Manual of Canine and Feline Haematology and Transfusion Medicine"
+  },
+  "septic-arthritis": {
+    "zh": "化膿性關節炎",
+    "en": "Septic Arthritis",
+    "definition": "關節腔的細菌性感染，導致急性嚴重關節發炎和關節軟骨破壞。可經由血行播散、穿刺傷、手術汙染或鄰近組織感染擴散引起。最常見致病菌為 Staphylococcus spp.，未及時治療可導致永久性關節損傷。",
+    "synonyms": ["感染性關節炎", "細菌性關節炎", "infectious arthritis"],
+    "epidemiology": {
+      "species": "犬貓均可發生",
+      "breed": "大型犬種較常見（活動量大、外傷風險高）",
+      "age": "任何年齡，中大型犬的年輕至中年較多",
+      "sex": "公犬可能略高（外傷和打鬥風險）",
+      "prevalence": "關節疾病中相對少見但臨床重要"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "急性嚴重跛行（通常單側）",
+        "受影響關節腫脹",
+        "關節觸痛明顯",
+        "發燒",
+        "食慾下降",
+        "精神沉鬱",
+        "不願移動",
+        "受影響肢體不負重",
+        "關節周圍皮膚發紅發熱",
+        "可能有穿刺傷口或手術傷口史"
+      ],
+      "physicalExam": [
+        "受影響關節明顯腫脹和波動感（關節積液）",
+        "關節觸診極度疼痛",
+        "關節活動範圍受限",
+        "發燒（39.5-41°C）",
+        "可能有穿刺傷或引流竇"
+      ]
+    },
+    "pathophysiology": "細菌進入關節腔後在滑液中快速繁殖，引起急性滑膜炎。細菌產物和宿主免疫反應中的蛋白酶（尤其是基質金屬蛋白酶和嗜中性球彈性酶）破壞關節軟骨的蛋白多醣和膠原纖維。感染持續會導致軟骨下骨侵蝕、關節囊纖維化和永久性關節功能喪失。",
+    "diagnosis": {
+      "primary": [
+        "關節穿刺液分析（混濁、高細胞數、退化性嗜中性球）",
+        "關節液細菌培養和藥敏試驗",
+        "關節 X 光（軟組織腫脹、骨溶解）",
+        "CBC 和血液培養"
+      ],
+      "differential": [
+        "免疫介導性多關節炎（IMPA）",
+        "類風濕關節炎",
+        "Lyme disease 關節炎",
+        "痛風（尿酸鹽結晶關節炎）",
+        "外傷性關節炎",
+        "退化性關節疾病急性發作"
+      ],
+      "labFindings": [
+        "關節液：高度混濁、WBC >40,000/μL、>90% 退化性嗜中性球",
+        "關節液培養：Staphylococcus 最常見",
+        "CBC：嗜中性球增多伴左移",
+        "X 光：軟組織腫脹、晚期見骨溶解和關節間隙狹窄",
+        "血液培養可能陽性（血行性播散）"
+      ]
+    },
+    "treatment": {
+      "acute": "關節穿刺引流膿液，關節灌洗。靜脈廣效抗生素（等待培養結果前），止痛",
+      "chronic": "根據藥敏結果口服抗生素 4-8 週。物理治療促進關節功能恢復",
+      "medications": [
+        "Cefazolin 22 mg/kg IV TID（初始經驗性治療）",
+        "Amoxicillin-clavulanate 12.5-25 mg/kg PO BID（口服轉換）",
+        "Enrofloxacin 5-20 mg/kg PO SID（依培養結果）",
+        "Tramadol 2-5 mg/kg PO BID-TID（止痛）",
+        "Meloxicam 0.1 mg/kg PO SID（感染控制後）"
+      ],
+      "surgery": "關節鏡灌洗和清創術。嚴重關節破壞需關節固定術（arthrodesis）。開放性引流用於嚴重膿瘍。"
+    },
+    "prognosis": "早期診斷和積極治療預後良好至中等。延遲治療 >48 小時關節軟骨損傷通常不可逆。慢性感染可能需要關節固定術。多關節感染（血行性）預後較差。",
+    "pearls": [
+      "關節液 WBC >40,000/μL 伴退化性嗜中性球高度提示感染",
+      "與 IMPA 鑑別：IMPA 通常多關節、非退化性嗜中性球、培養陰性",
+      "術後關節感染可在手術後數天到數週才出現",
+      "抗生素療程不足是復發的主要原因，至少 4 週"
+    ],
+    "monitoring": [
+      "關節液分析每 1-2 週追蹤至正常化",
+      "X 光每 2-4 週評估骨改變",
+      "體溫和跛行程度每日評估（住院期間）",
+      "抗生素完成後 2 週複驗關節液"
+    ],
+    "reference": "Blackwell's Five-Minute Veterinary Consult"
+  },
+  "osteomyelitis": {
+    "zh": "骨髓炎",
+    "en": "Osteomyelitis",
+    "definition": "骨骼和骨髓的感染性發炎，通常由細菌引起，偶見真菌性。可經由開放性骨折、手術植入物、穿刺傷或血行播散引起。Staphylococcus spp. 為最常見致病菌。慢性骨髓炎治療困難，常需長期抗生素和手術介入。",
+    "synonyms": ["骨感染", "骨骼感染"],
+    "epidemiology": {
+      "species": "犬貓均可發生，犬較常見",
+      "breed": "大型犬和運動犬（外傷和骨折手術風險高）",
+      "age": "任何年齡，年輕活躍犬和老年犬較多",
+      "sex": "公犬略多（外傷風險高）",
+      "prevalence": "開放性骨折後發生率約 5-15%"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "跛行（急性或慢性）",
+        "患部腫脹",
+        "發燒（急性期）",
+        "引流竇持續排出膿性分泌物",
+        "手術傷口不癒合",
+        "食慾下降",
+        "精神沉鬱",
+        "患部疼痛",
+        "骨折術後植入物鬆脫",
+        "慢性不明原因跛行"
+      ],
+      "physicalExam": [
+        "患部軟組織腫脹和觸痛",
+        "引流竇口持續排膿",
+        "患肢肌肉萎縮（慢性）",
+        "發燒（急性期較明顯）",
+        "觸診骨骼輪廓改變或不穩定"
+      ]
+    },
+    "pathophysiology": "細菌進入骨組織後，在骨髓腔和 Haversian 管系統中繁殖。感染引起骨壞死，壞死骨碎片（sequestrum）無血液供應，成為細菌持續存在的庇護所。周圍活骨形成新骨包殼（involucrum）。Staphylococcus 可形成生物膜（biofilm）附著於骨表面和植入物上，使抗生素難以穿透，這是慢性骨髓炎難以治癒的主要原因。",
+    "diagnosis": {
+      "primary": [
+        "X 光檢查（骨溶解、骨膜反應、sequestrum）",
+        "骨培養和藥敏試驗（手術取樣最佳）",
+        "CT 掃描（詳細評估骨破壞範圍）",
+        "血液學檢查"
+      ],
+      "differential": [
+        "骨腫瘤（osteosarcoma）",
+        "真菌性骨髓炎（blastomycosis、coccidioidomycosis）",
+        "骨囊腫",
+        "肥大性骨病",
+        "外傷性骨折不癒合",
+        "異物反應"
+      ],
+      "labFindings": [
+        "X 光：骨溶解灶、骨膜增生、sequestrum（硬化骨碎片被溶骨帶圍繞）",
+        "骨培養：Staphylococcus spp. 最常見",
+        "CBC：嗜中性球增多（急性期）",
+        "CRP/SAA 升高（炎症標誌）",
+        "組織病理學：化膿性或肉芽腫性炎症"
+      ]
+    },
+    "treatment": {
+      "acute": "手術清創移除壞死骨和感染組織，靜脈抗生素（根據培養結果），穩定骨折（若有）",
+      "chronic": "長期口服抗生素 6-8 週或更長。反覆手術清創可能必要。移除感染的植入物（骨折癒合後）",
+      "medications": [
+        "Cephalexin 22-30 mg/kg PO BID-TID",
+        "Amoxicillin-clavulanate 12.5-25 mg/kg PO BID",
+        "Clindamycin 11 mg/kg PO BID（骨穿透性佳）",
+        "Enrofloxacin 5-20 mg/kg PO SID（依培養結果）",
+        "局部抗生素珠（antibiotic-impregnated PMMA beads）"
+      ],
+      "surgery": "手術清創和骨壞死組織移除為治療核心。感染植入物移除。骨缺損可用骨移植填補。嚴重無法控制的感染可能需截肢。"
+    },
+    "prognosis": "急性骨髓炎早期治療預後良好。慢性骨髓炎預後謹慎，復發率高（30-40%）。植入物相關感染需移除植入物後預後改善。真菌性骨髓炎需數月抗真菌治療。",
+    "pearls": [
+      "骨培養需從手術取得的深部組織進行，表面拭子培養常受汙染菌干擾",
+      "X 光改變通常在感染後 10-14 天才出現，早期可能正常",
+      "慢性骨髓炎中的 sequestrum 必須手術移除，單靠抗生素無法治癒",
+      "Clindamycin 對骨組織穿透性極佳，是骨髓炎抗生素的良好選擇"
+    ],
+    "monitoring": [
+      "X 光每 4-6 週追蹤骨癒合和感染控制",
+      "CRP/SAA 每 1-2 週監測炎症趨勢",
+      "引流竇口的分泌物量和性質",
+      "抗生素療程結束後 4 週追蹤 X 光和血檢確認"
+    ],
+    "reference": "Antimicrobial Therapy in Veterinary Medicine"
+  }
+}

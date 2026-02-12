@@ -1,0 +1,111 @@
+[
+  {
+    "source": "Differential Diagnosis in Small - Gough, Alex, Murphy, Kate.pdf",
+    "pages": 463,
+    "file_size_mb": 1.05,
+    "split_mode": "token",
+    "output_files": [
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_001.md",
+        "tokens": 3916
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_002.md",
+        "tokens": 4111
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_003.md",
+        "tokens": 4318
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_004.md",
+        "tokens": 4186
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_005.md",
+        "tokens": 4130
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_006.md",
+        "tokens": 4157
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_007.md",
+        "tokens": 4216
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_008.md",
+        "tokens": 4254
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_009.md",
+        "tokens": 4295
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_010.md",
+        "tokens": 4230
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_011.md",
+        "tokens": 4311
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_012.md",
+        "tokens": 4277
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_013.md",
+        "tokens": 4302
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_014.md",
+        "tokens": 4331
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_015.md",
+        "tokens": 4254
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_016.md",
+        "tokens": 4261
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_017.md",
+        "tokens": 4248
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_018.md",
+        "tokens": 4310
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_019.md",
+        "tokens": 4235
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_020.md",
+        "tokens": 4261
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_021.md",
+        "tokens": 4273
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_022.md",
+        "tokens": 4149
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_023.md",
+        "tokens": 3900
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_024.md",
+        "tokens": 4009
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate\\Differential Diagnosis in Small - Gough, Alex, Murphy, Kate_chunk_025.md",
+        "tokens": 2061
+      }
+    ],
+    "total_tokens": 102995
+  }
+]

@@ -1,0 +1,162 @@
+{
+  "salmon-poisoning-disease": {
+    "zh": "鮭魚中毒症",
+    "en": "Salmon Poisoning Disease",
+    "definition": "鮭魚中毒症是由立克次體 Neorickettsia helminthoeca 引起的犬急性致命性疾病。病原經複雜的生物傳播鏈傳播：犬攝入含有感染囊蚴的生鮭科魚類 → 吸蟲 Nanophyetus salmincola 在犬腸道成熟 → 釋放寄生於吸蟲體內的 N. helminthoeca → 立克次體感染犬的巨噬細胞。本病幾乎僅見於美國太平洋西北部。",
+    "synonyms": ["SPD", "Neorickettsia helminthoeca Infection", "鮭魚病"],
+    "epidemiology": {
+      "species": "犬特異性（犬科動物高度易感），貓極罕見",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["居住在美國太平洋西北部（華盛頓州、俄勒岡州、北加州）", "攝入生的或未充分烹煮的鮭科魚類（鮭魚、鱒魚、虹鱒）", "接觸太平洋沿岸河流的鮭魚洄游", "狩獵犬和釣魚環境中的犬"]
+    },
+    "clinicalPresentation": {
+      "history": ["攝入生鮭魚後5-7天（最長可至33天）出現症狀", "急性高燒", "完全食慾廢絕", "嘔吐和劇烈血性腹瀉", "極度嗜睡和虛弱", "快速消瘦", "病程急性——不治療時7-10天死亡"],
+      "physicalExam": ["高燒（初期可達40-42°C，後期可轉為低體溫）", "全身淋巴結顯著腫大（幾乎是普遍性的）", "嚴重脫水", "黏膜蒼白或充血", "腹痛", "血性腹瀉", "漿液性至膿性鼻分泌物和眼分泌物", "後期：低體溫、休克、DIC"]
+    },
+    "pathophysiology": "吸蟲 N. salmincola 的囊蚴寄生在鮭科魚類的組織中，而立克次體 N. helminthoeca 則寄生於吸蟲體內。犬攝入含有感染囊蚴的生魚後，吸蟲在犬的腸道發育為成蟲，同時釋放 N. helminthoeca。立克次體感染腸道上皮後進入血液，靶向全身淋巴結和其他單核吞噬細胞系統的巨噬細胞。在巨噬細胞內大量繁殖引起嚴重的全身性炎症反應和淋巴結腫大。腸道受累引起嚴重的出血性腸炎。不治療時致死率高達90%。吸蟲本身（N. salmincola）可引起較溫和的症狀，但立克次體是致死的主要原因。相關但較溫和的疾病「Elokomin fluke fever」由另一種Neorickettsia引起。",
+    "diagnosis": {
+      "overview": "流行病學背景（太平洋西北部+攝入生鮭魚）結合特徵性臨床表現即可高度懷疑",
+      "differentials": ["犬小病毒腸炎", "犬瘟熱", "出血性胃腸炎（HGE）", "鉤端螺旋體病", "其他蜱媒介疾病"],
+      "initialDB": ["糞便鏡檢——吸蟲 N. salmincola 的蟲卵（小型、有蓋、褐色，約87×45 μm）", "淋巴結穿刺細胞學——反應性增生伴巨噬細胞內Neorickettsia包涵體（需Giemsa或Wright染色仔細尋找）", "CBC——白血球減少（初期）後轉為白血球增多、血小板減少", "生化——低白蛋白、電解質失衡"],
+      "advanced": ["N. helminthoeca PCR（血液或淋巴結穿刺）", "血清學（IFA）", "組織病理學（淋巴結或腸道）——巨噬細胞內包涵體"]
+    },
+    "treatment": {
+      "overview": "doxycycline為特效治療，結合驅蟲和支持療法",
+      "acute": ["doxycycline 10 mg/kg q12h PO/IV 共7-10天（立克次體特效治療——可在24-72小時內退燒）", "praziquantel 20 mg/kg PO 單次（驅殺吸蟲 N. salmincola）", "積極靜脈輸液糾正脫水和電解質", "止吐藥（maropitant）", "必要時輸血（嚴重出血或貧血）"],
+      "chronic": ["完成doxycycline療程", "營養支持和漸進式恢復飲食", "避免再次暴露（不餵食生鮭魚）"]
+    },
+    "prognosis": "不治療致死率約90%。及時doxycycline治療預後極佳（大多數犬24-72小時內顯著改善）。治癒後通常獲得持久免疫。延遲治療增加死亡風險。",
+    "pearls": ["鮭魚中毒症幾乎100%致死但100%可治癒——doxycycline是救命藥", "地理分布極度限制——僅美國太平洋西北部（吸蟲中間宿主蝸牛的分布範圍）", "糞便中發現N. salmincola蟲卵是簡單快速的診斷線索", "充分烹煮或冷凍（-20°C > 7天）可殺死囊蚴，預防感染", "全身淋巴結腫大+生鮭魚攝入史在太平洋西北部高度提示本病"],
+    "monitoring": ["體溫每日監測（應在24-72小時內退燒）", "脫水狀態和電解質", "糞便品質", "血小板計數"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "plague": {
+    "zh": "鼠疫",
+    "en": "Plague (Yersinia pestis Infection)",
+    "definition": "鼠疫是由革蘭氏陰性桿菌 Yersinia pestis 引起的急性嚴重細菌感染。經跳蚤叮咬或接觸受感染的嚙齒類動物傳播。貓對Y. pestis高度易感，可表現為腺鼠疫（淋巴結型）、敗血型或肺型。犬通常抗性較高。鼠疫是重要的法定報告人畜共通傳染病。",
+    "synonyms": ["Yersinia pestis Infection", "Bubonic Plague", "Black Death", "黑死病", "鼠疫桿菌感染"],
+    "epidemiology": {
+      "species": "貓高度易感，犬通常抗性較高（多為亞臨床血清轉化）",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["居住在流行地區（美國西部、東南亞、非洲）", "接觸野生嚙齒類（松鼠、草原犬）", "狩獵行為的戶外貓", "跳蚤暴露", "農村或郊區環境"]
+    },
+    "clinicalPresentation": {
+      "history": ["急性高燒", "食慾廢絕和嗜睡", "下頜或頸部淋巴結急性腫大", "可能有接觸死亡嚙齒類的歷史", "呼吸困難（肺型）"],
+      "physicalExam": ["腺鼠疫（最常見）：一或多個淋巴結急性腫大、疼痛、發炎（bubo）——頭頸部淋巴結最常受累", "高燒（40-41°C）", "脫水", "黏膜蒼白", "敗血型：休克、DIC、多器官衰竭", "肺型：呼吸困難、咳嗽、含血痰", "口腔潰瘍和舌壞死（貓）", "腹痛"]
+    },
+    "pathophysiology": "Y. pestis 主要經跳蚤叮咬傳播，也可經直接接觸感染動物或吸入感染飛沫傳播。細菌在跳蚤前胃中大量繁殖，阻塞消化道，導致跳蚤在叮咬時反流細菌入宿主。注入皮膚後，Y. pestis 利用其III型分泌系統（T3SS）注入效應蛋白（Yop蛋白）至巨噬細胞，抑制吞噬作用和促炎反應。細菌沿淋巴管到達區域淋巴結引起急性壞死性淋巴結炎（bubo）。若免疫無法控制，細菌進入血流引起敗血症。肺型鼠疫可由敗血型繼發（繼發性肺鼠疫）或直接吸入感染飛沫引起（原發性肺鼠疫）。貓的高易感性可能與其不同的免疫反應有關。犬通常僅出現輕度症狀或亞臨床感染，但可作為跳蚤的媒介將感染帶入家庭。",
+    "diagnosis": {
+      "overview": "高度懷疑時立即開始治療和通報公共衛生單位，診斷由培養和血清學確認",
+      "differentials": ["其他原因的急性淋巴結腫大（淋巴瘤、細菌性淋巴結炎）", "土拉倫病", "貓抓病（Bartonella）", "膿瘍"],
+      "initialDB": ["淋巴結穿刺細胞學——大量嗜中性球伴革蘭氏陰性雙極染色桿菌（safety pin appearance）", "血液和淋巴結穿刺培養——需通知實驗室疑似鼠疫（BSL-3生物安全措施）", "CBC——白血球增多伴核左移"],
+      "advanced": ["Y. pestis 特異性抗原檢測（F1 antigen）", "急性期和恢復期配對血清學", "PCR確認", "公共衛生實驗室確認性試驗"]
+    },
+    "treatment": {
+      "overview": "立即使用對Y. pestis有效的抗生素，同時通報公共衛生單位",
+      "acute": ["gentamicin 5-7 mg/kg IV/IM q24h（首選）", "替代：doxycycline 5 mg/kg q12h IV/PO", "替代：enrofloxacin 5-10 mg/kg q24h（fluoroquinolones有效）", "支持療法：靜脈輸液、營養支持", "膿瘍引流（成熟的bubo）"],
+      "chronic": ["抗生素治療至少10-14天", "跳蚤控制（極為重要——防止傳播）", "隔離感染動物（尤其肺型——飛沫傳播風險）"]
+    },
+    "prognosis": "腺鼠疫及時治療預後良好。敗血型和肺型預後謹慎至不良。不治療的貓鼠疫致死率>50%。犬通常預後良好（較少重症）。",
+    "pearls": ["鼠疫是法定報告傳染病——確診或高度懷疑時必須通報公共衛生機關", "貓的肺型鼠疫可經飛沫傳播給人——嚴重的公共衛生風險", "犬的主要風險不是犬本身發病，而是將帶菌跳蚤帶入家庭", "革蘭氏染色的雙極染色桿菌（safety pin appearance）是Y. pestis的特徵", "處理疑似鼠疫動物時需嚴格防護措施"],
+    "monitoring": ["體溫和臨床反應（應在24-48小時內改善）", "隔離措施直至完成治療", "接觸者（人和動物）的監測", "跳蚤控制效果評估"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "tularemia": {
+    "zh": "土拉倫病",
+    "en": "Tularemia",
+    "definition": "土拉倫病是由革蘭氏陰性球桿菌 Francisella tularensis 引起的急性細菌感染。傳播途徑多樣：蜱叮咬、接觸或攝入感染的野生動物（兔、嚙齒類）、吸入。貓比犬更易感且症狀更嚴重。本病為法定報告的人畜共通傳染病。",
+    "synonyms": ["Rabbit Fever", "Deer Fly Fever", "Francisella tularensis Infection", "兔熱病", "野兔病"],
+    "epidemiology": {
+      "species": "貓較犬更易感且症狀更嚴重",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["接觸野兔或嚙齒類動物（尤其獵捕）", "蜱暴露", "飲用受污染的水源", "戶外活動的獵捕貓", "北美、歐洲和亞洲流行地區"]
+    },
+    "clinicalPresentation": {
+      "history": ["急性高燒", "嗜睡和食慾廢絕", "淋巴結腫大", "近期有獵捕兔子或接觸嚙齒類的歷史", "蜱暴露史", "口腔潰瘍"],
+      "physicalExam": ["高燒", "全身淋巴結腫大（尤其頭頸部和下頜）", "口腔和舌潰瘍", "肝脾腫大", "黃疸（嚴重時）", "脫水", "腹痛", "呼吸困難（肺型）", "皮膚潰瘍（蜱叮咬處）"]
+    },
+    "pathophysiology": "F. tularensis 是高度感染性的胞內寄生菌（極少量細菌即可引起感染）。經蜱叮咬、皮膚傷口接觸感染動物組織、攝入或吸入感染。細菌被巨噬細胞吞噬後逃出吞噬溶酶體，在巨噬細胞質中大量繁殖。經淋巴和血行播散至肝、脾和肺引起多灶性壞死性肉芽腫。貓比犬更易發展為全身性疾病——犬通常只出現輕度症狀或亞臨床感染。F. tularensis 有兩個主要亞種：A型（北美，更毒力）和B型（歐洲和亞洲，毒力較低）。",
+    "diagnosis": {
+      "overview": "高度懷疑時開始治療並通報公共衛生單位，培養需BSL-3設施",
+      "differentials": ["鼠疫", "貓抓病（Bartonella）", "淋巴瘤", "其他蜱媒介疾病", "弓漿蟲病"],
+      "initialDB": ["CBC——白血球增多或減少、血小板減少", "生化——肝酶升高、膽紅素升高", "血液和淋巴結穿刺培養（需通知實驗室——BSL-3處理）"],
+      "advanced": ["F. tularensis PCR（血液、淋巴結）", "急性期和恢復期配對血清（microagglutination）", "組織病理學——多灶性壞死性肉芽腫", "直接免疫螢光染色"]
+    },
+    "treatment": {
+      "overview": "胺基糖苷類或fluoroquinolone為首選，立即開始經驗性治療",
+      "acute": ["gentamicin 5-7 mg/kg IV/IM q24h（首選）", "替代：doxycycline 5 mg/kg q12h PO/IV", "替代：enrofloxacin 5 mg/kg q24h", "支持療法：靜脈輸液、營養支持"],
+      "chronic": ["抗生素治療10-14天", "嚴格隔離和防護（人畜共通傳染病風險）"]
+    },
+    "prognosis": "貓：不治療致死率高（可達60%），及時治療預後改善但仍謹慎。犬：通常症狀輕微，預後良好。嚴重播散型伴多器官受累預後不良。",
+    "pearls": ["土拉倫病是法定報告傳染病——確診後必須通報", "F. tularensis極度感染性——實驗室人員感染風險高，必須通知實驗室", "貓比犬更易發展為嚴重全身性疾病", "與鼠疫臨床相似——流行地區需列入鑑別", "處理疑似感染動物時需嚴格手套和防護"],
+    "monitoring": ["體溫和臨床改善追蹤", "肝功能監測", "腎功能監測（gentamicin腎毒性）", "接觸者監測"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "angiostrongylus-vasorum": {
+    "zh": "犬心肺蟲感染",
+    "en": "Angiostrongylus vasorum Infection (French Heartworm)",
+    "definition": "犬心肺蟲感染是由轉染蟲 Angiostrongylus vasorum 引起的犬心肺血管寄生蟲病。成蟲寄生於肺動脈和右心室。犬經攝入含有第三期幼蟲（L3）的中間宿主（蝸牛、蛞蝓）或接觸其黏液而感染。第一期幼蟲（L1）在肺泡中排出，經咳出吞入後由糞便排出。可引起凝血障礙和呼吸困難。",
+    "synonyms": ["French Heartworm", "Canine Angiostrongylosis", "法國心絲蟲", "犬肺蟲感染"],
+    "epidemiology": {
+      "species": "犬特異性（狐狸為重要野生動物儲存宿主），貓不感染",
+      "age": "年輕犬（<2歲）風險較高（可能因好奇食入蝸牛/蛞蝓）",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["居住在流行地區（歐洲西部和南部、英國和愛爾蘭、加拿大東部、南美洲部分地區）", "接觸蝸牛和蛞蝓", "飲用含蝸牛黏液的水碗", "幼犬的好奇行為", "戶外活動"]
+    },
+    "clinicalPresentation": {
+      "history": ["慢性咳嗽", "運動不耐", "呼吸困難", "不明原因的出血傾向（鼻出血、皮膚瘀斑、血尿）", "體重減輕", "嘔吐和腹瀉", "突然死亡（大量感染時）"],
+      "physicalExam": ["呼吸音增強或異常（囉音、哮鳴音）", "運動後呼吸困難加重", "出血傾向：瘀點、瘀斑、黏膜出血、注射部位出血不止", "右心衰竭徵兆（嚴重時）：腹水、頸靜脈怒張", "蒼白黏膜", "體重減輕", "神經症狀（腦或脊髓出血時）：抽搐、共濟失調、麻痺"]
+    },
+    "pathophysiology": "犬攝入含有L3幼蟲的蝸牛/蛞蝓（或其黏液污染的食物/水）。L3在腸壁穿透後經腸繫膜淋巴結發育，最終經門脈系統到達右心和肺動脈成為成蟲。成蟲在肺動脈中交配產卵，蟲卵嵌入肺微血管發育為L1。L1穿破肺泡壁進入呼吸道，經咳出吞入後由糞便排出至環境。肺動脈內的成蟲和肺泡中的蟲卵/幼蟲引起肉芽腫性肺動脈炎和肺間質炎症。凝血障礙是A. vasorum感染的重要特徵——機制可能包括：DIC（寄生蟲引起的持續性血管內凝血活化）、消耗性凝血病變、抑制凝血因子活性。嚴重感染可導致肺動脈高壓和右心衰竭。腦脊髓出血是致命性併發症。",
+    "diagnosis": {
+      "overview": "糞便Baermann法檢測L1幼蟲和抗原檢測是主要診斷工具",
+      "differentials": ["犬心絲蟲感染（Dirofilaria immitis）", "肺部腫瘤", "細菌性肺炎", "免疫介導性血小板減少症", "免疫介導性溶血性貧血", "抗凝血劑中毒"],
+      "initialDB": ["糞便Baermann法——檢測第一期幼蟲（L1，帶有S形尾端扭曲和背嵴）", "A. vasorum 快速抗原檢測（IDEXX Angio Detect）", "CBC——輕度嗜酸性球增多、可能貧血和血小板減少", "凝血功能——PT/aPTT可能延長、纖維蛋白原下降", "胸腔X光——肺動脈擴張、瀰漫性間質至肺泡型浸潤"],
+      "advanced": ["支氣管肺泡灌洗——嗜酸性球增多和可能找到L1幼蟲", "心臟超音波——肺動脈和右心中可能見到成蟲", "CT掃描（肺部病灶詳細評估）", "凝血因子分析", "A. vasorum 血清抗體ELISA"]
+    },
+    "treatment": {
+      "overview": "抗寄生蟲藥物殺蟲，處理凝血障礙和呼吸支持",
+      "acute": ["fenbendazole 25-50 mg/kg q24h PO 共20天（首選，漸進殺蟲減少急性反應）", "替代：milbemycin oxime 0.5 mg/kg PO 每週一次共4週", "moxidectin/imidacloprid spot-on（Advocate/Advantage Multi）——單次使用即可（歐洲常用）", "凝血障礙：新鮮冷凍血漿輸注", "嚴重呼吸困難：氧氣治療、cage rest"],
+      "chronic": ["完成驅蟲療程", "每月預防性投藥（milbemycin、moxidectin）防止再感染", "嚴重肺動脈高壓和右心衰竭的管理", "殺蟲後的肺部炎症反應可能需要短期低劑量糖皮質類固醇"]
+    },
+    "prognosis": "輕度至中度感染：治療預後良好。嚴重凝血障礙或CNS出血：預後不良。右心衰竭：預後謹慎。及早診斷和治療大大改善預後。每月預防性投藥可有效防止感染。",
+    "pearls": ["不明原因的凝血障礙犬在流行區應考慮A. vasorum感染", "A. vasorum的凝血障礙可模擬抗凝血劑中毒——在流行區必須列入鑑別", "Baermann法必須用新鮮糞便（L1活動性好有助於檢出）", "與D. immitis不同：A. vasorum的微絲蟲排在糞便中（不在血液中）", "快速抗原檢測（Angio Detect）是方便的診所內篩查工具", "每月預防用藥（moxidectin spot-on）在流行區推薦"],
+    "monitoring": ["治療後糞便Baermann法追蹤（應在治療後轉陰）", "凝血功能恢復監測", "胸腔X光追蹤肺部病灶消退", "治療後可能出現短暫性呼吸惡化（死蟲引起炎症）"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  },
+  "dirofilaria-immitis-cat": {
+    "zh": "貓心絲蟲感染",
+    "en": "Feline Heartworm Disease (Dirofilaria immitis in Cats)",
+    "definition": "貓心絲蟲感染是由犬心絲蟲 Dirofilaria immitis 感染貓所引起的心肺疾病。貓為非典型宿主，感染蟲數少（通常1-6隻），但因貓的肺血管直徑小，即使少量成蟲也可引起嚴重的肺動脈炎和急性呼吸窘迫。未成熟蟲體死亡時引起的免疫反應（HARD, Heartworm Associated Respiratory Disease）是貓心絲蟲病的獨特病理特徵。",
+    "synonyms": ["Feline Heartworm Disease", "Feline Dirofilariasis", "HARD (Heartworm Associated Respiratory Disease)", "貓心絲蟲病"],
+    "epidemiology": {
+      "species": "貓（非典型宿主，犬為自然宿主）",
+      "age": "任何年齡，室內貓也有風險",
+      "sex": "公貓略多",
+      "riskFactors": ["居住在犬心絲蟲流行地區", "蚊蟲暴露（即使室內貓也有風險）", "未使用心絲蟲預防藥物", "戶外活動貓風險較高但室內貓也可感染"]
+    },
+    "clinicalPresentation": {
+      "history": ["間歇性咳嗽和呼吸困難（常被誤診為貓哮喘）", "嘔吐（非胃腸道相關——可能與蟲體遷移的迷走神經刺激有關）", "嗜睡和運動不耐", "體重減輕", "食慾下降", "突然死亡（無先前症狀）"],
+      "physicalExam": ["呼吸急促和呼吸困難", "肺部聽診：呼吸音增強或哮鳴音", "心雜音（罕見，與犬不同）", "嘔吐", "多數體檢可能正常（間歇性症狀）", "急性危象時：嚴重呼吸窘迫、發紺、休克", "突然死亡可為首發表現"]
+    },
+    "pathophysiology": "貓經蚊蟲叮咬感染D. immitis第三期幼蟲（L3）。在貓體內，幼蟲發育至第五期（L5）和成蟲的過程中，大約75-90%的幼蟲被貓的免疫系統殺滅（犬僅殺滅約30%）。存活的未成熟蟲體到達肺動脈時引起嚴重的嗜酸性球性肺動脈炎和肺間質炎症——此即HARD（Heartworm Associated Respiratory Disease），可在蟲體成熟前即引起呼吸症狀。即使僅1-2隻成蟲，在貓的細小肺動脈中也可引起顯著的血管阻塞、肺動脈高壓和右心衰竭。成蟲死亡時（自然死亡或治療殺蟲）可引起急性肺動脈栓塞和嚴重的急性呼吸窘迫——這是貓心絲蟲病最危險的時刻。貓的微絲蟲血症罕見且短暫（與犬不同）。",
+    "diagnosis": {
+      "overview": "貓心絲蟲病的診斷比犬困難得多——需結合多種檢測方法",
+      "differentials": ["貓哮喘", "慢性支氣管炎", "肺部腫瘤", "心肌病", "乳糜胸", "其他肺寄生蟲"],
+      "initialDB": ["心絲蟲抗體檢測——偵測暴露（敏感度較高但不區分過去和現在感染）", "心絲蟲抗原檢測——犬的標準篩檢但貓敏感度低（僅偵測成熟雌蟲，貓蟲數少且可能只有雄蟲）", "抗體(+)/抗原(-)的組合最常見——提示暴露或僅雄蟲感染", "胸腔X光——肺動脈擴張（尤其尾葉動脈）、支氣管周圍和間質型浸潤", "CBC——嗜酸性球增多和嗜鹼性球增多"],
+      "advanced": ["心臟超音波——可在肺動脈或右心室中直接見到蟲體（「=」號樣平行迴聲線）", "CT血管造影", "支氣管肺泡灌洗——嗜酸性球增多", "抗體和抗原聯合檢測提高診斷率"]
+    },
+    "treatment": {
+      "overview": "貓心絲蟲病的治療以穩定化和支持療法為主——不建議使用犬的殺成蟲藥物（melarsomine），因蟲體死亡可致命",
+      "acute": ["急性呼吸窘迫：氧氣治療+dexamethasone 1 mg/kg IV", "支氣管擴張劑（terbutaline 0.01 mg/kg SC）", "嚴重時可能需要機械通氣", "不使用melarsomine（犬的殺成蟲藥）——貓的蟲體死亡可引起致命性肺栓塞"],
+      "chronic": ["觀察等待策略（allow worms to die naturally，成蟲壽命在貓約2-4年）", "prednisolone 1-2 mg/kg q24-48h（控制HARD的炎症反應）", "每月ivermectin預防藥（殺滅新感染的幼蟲，不影響成蟲）", "限制運動（減少肺栓塞風險）", "外科取蟲（interventional heartworm removal via jugular vein）——少數嚴重病例的選項"]
+    },
+    "prognosis": "預後不確定且變異大。許多貓可存活至成蟲自然死亡（2-4年）。急性蟲體死亡（自然或治療相關）可導致突然死亡。約10-20%的感染貓以突然死亡為首發表現。長期管理下部分貓可正常生活。預防遠優於治療。",
+    "pearls": ["貓心絲蟲病的最佳策略是預防——治療選項有限且風險高", "不可使用犬的殺成蟲藥melarsomine——蟲體急性死亡可致貓死亡", "抗體(+)/抗原(-)是貓最常見的檢測結果——不代表排除感染", "HARD（心絲蟲相關呼吸疾病）可在蟲體成熟前即發生", "貓哮喘是最常見的誤診——流行區的「貓哮喘」都應考慮心絲蟲病", "室內貓也有感染風險——蚊蟲可進入室內", "心臟超音波直接見到蟲體是確診的最可靠方法"],
+    "monitoring": ["每6個月胸腔X光追蹤", "抗體和抗原定期重複檢測", "心臟超音波追蹤蟲體和心臟功能", "呼吸症狀追蹤", "限制運動的遵從性", "每月預防藥物使用"],
+    "reference": "Gough A, Murphy K: Differential Diagnosis in Small Animal Medicine, 2nd Ed. Wiley, 2015; Côté E: Clinical Veterinary Advisor, 4th Ed. Elsevier, 2020"
+  }
+}

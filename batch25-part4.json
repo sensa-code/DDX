@@ -1,0 +1,410 @@
+{
+  "bicipital-tenosynovitis": {
+    "zh": "二頭肌腱鞘炎",
+    "en": "Bicipital Tenosynovitis",
+    "definition": "肱二頭肌肌腱及其腱鞘（位於肱骨結節間溝）的發炎性疾病。為犬前肢跛行的常見原因之一，通常由慢性過度使用、外傷或退化性改變引起。主要影響中大型運動犬。",
+    "synonyms": ["二頭肌肌腱炎", "biceps tendinitis", "肱二頭肌腱鞘炎"],
+    "epidemiology": {
+      "species": "犬（貓極罕見）",
+      "breed": "中大型犬和運動犬種（Labrador Retriever、Rottweiler、German Shepherd）",
+      "age": "中年至老年犬（4-10 歲）",
+      "sex": "無明顯性別傾向",
+      "prevalence": "犬前肢跛行的常見原因之一"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "前肢間歇性或持續性跛行",
+        "休息後起立時跛行加重",
+        "運動後跛行惡化",
+        "跛行隨活動量增加而加劇",
+        "步態短縮（stride shortened）",
+        "不願跳躍或上樓梯",
+        "患側前肢向外擺動步態",
+        "肩部或上臂前方疼痛"
+      ],
+      "physicalExam": [
+        "二頭肌肌腱直接觸壓結節間溝處疼痛（biceps test）",
+        "肩關節屈曲同時肘關節伸展時疼痛加劇",
+        "肩關節活動範圍可能正常或輕度受限",
+        "二頭肌肌肉可能萎縮（慢性）",
+        "肩關節無不穩定感"
+      ]
+    },
+    "pathophysiology": "肱二頭肌肌腱穿過肱骨近端的結節間溝，被滑膜腱鞘包裹。反覆運動或急性外傷導致肌腱和腱鞘的微損傷和發炎。慢性炎症導致肌腱退化、腱鞘增厚和關節滑液增多。嚴重者可發展為肌腱部分撕裂、礦化或纖維化。結節間溝的骨贅形成可加重肌腱的機械性刺激。",
+    "diagnosis": {
+      "primary": [
+        "骨科理學檢查（biceps stretch test 陽性）",
+        "肩關節 X 光（結節間溝骨贅、肌腱礦化）",
+        "超音波檢查（肌腱增粗、腱鞘積液）",
+        "MRI（最敏感，可見肌腱退化和積液）"
+      ],
+      "differential": [
+        "肩關節骨關節炎（OA）",
+        "岡上肌腱病（supraspinatus tendinopathy）",
+        "肩關節不穩定",
+        "肩關節 OCD（osteochondritis dissecans）",
+        "內側肩關節不穩定（medial shoulder instability）",
+        "頸椎疾病引起前肢跛行"
+      ],
+      "labFindings": [
+        "X 光：結節間溝骨贅、肌腱礦化點",
+        "超音波：肌腱增粗、回音異常、腱鞘積液",
+        "MRI：肌腱訊號改變、關節積液",
+        "關節液分析：輕度炎症改變",
+        "關節鏡：肌腱充血腫脹、纖維化"
+      ]
+    },
+    "treatment": {
+      "acute": "休息限制活動 4-6 週，NSAIDs 止痛抗炎，冷敷。關節內皮質類固醇注射",
+      "chronic": "物理治療（超音波治療、被動活動範圍練習）。對保守治療無反應者考慮手術",
+      "medications": [
+        "Meloxicam 0.1 mg/kg PO SID",
+        "Carprofen 2.2 mg/kg PO BID",
+        "關節內 methylprednisolone acetate 注射（結節間溝腱鞘內）",
+        "Gabapentin 5-10 mg/kg PO BID-TID（慢性疼痛）",
+        "關節保健品（glucosamine + chondroitin）"
+      ],
+      "surgery": "二頭肌肌腱切斷或移位術（biceps tenotomy/tenodesis）。關節鏡下肌腱釋放術。嚴重者可考慮肩關節固定術（罕需）。"
+    },
+    "prognosis": "保守治療約 50-60% 病例改善。手術治療（tenotomy/tenodesis）預後良好，大多數犬術後功能恢復滿意。早期治療預後優於慢性病例。運動犬可能無法恢復至受傷前的競技水平。",
+    "pearls": [
+      "Biceps stretch test：肩關節屈曲 + 肘關節伸展產生疼痛是最特異性的臨床測試",
+      "結節間溝內局部注射 corticosteroid 可同時作為診斷和治療手段",
+      "二頭肌腱病常與其他肩關節疾病（如岡上肌腱病、OA）共存",
+      "超音波和 MRI 對軟組織評估優於 X 光"
+    ],
+    "monitoring": [
+      "保守治療 4-6 週後重新評估跛行程度",
+      "物理治療進度每 2 週評估",
+      "手術後 6-8 週限制活動",
+      "術後 3 個月評估功能恢復程度"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats"
+  },
+  "fibrotic-myopathy": {
+    "zh": "纖維性肌病",
+    "en": "Fibrotic Myopathy",
+    "definition": "肌肉組織被纖維結締組織取代，導致肌肉攣縮和關節活動受限。犬中最常見於半腱肌（semitendinosus）、半膜肌（semimembranosus）和股薄肌（gracilis），導致特徵性機械性後肢步態異常。通常為慢性進行性。",
+    "synonyms": ["肌肉纖維化", "攣縮性肌病", "gracilis/semitendinosus contracture"],
+    "epidemiology": {
+      "species": "犬（貓罕見）",
+      "breed": "German Shepherd Dog 最常見，其他工作犬種",
+      "age": "中年犬（3-8 歲），多數為活躍工作犬",
+      "sex": "公犬較多",
+      "prevalence": "German Shepherd 中相對特有的疾病"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "後肢特徵性機械性跛行",
+        "步態中腳掌著地前有突然的向後「彈回」動作",
+        "患肢步幅縮短",
+        "步態異常持續且不因活動量改變",
+        "內轉或外轉步態（取決於受影響肌肉）",
+        "不隨 NSAIDs 使用改善",
+        "患肢肌肉觸感堅硬如索",
+        "通常無明顯疼痛（慢性期）"
+      ],
+      "physicalExam": [
+        "受影響肌肉觸診堅硬、呈索狀纖維條",
+        "膝關節和跗關節活動範圍受限",
+        "肌肉萎縮和纖維帶可觸及",
+        "被動伸展時感覺機械性抵抗（非疼痛性）",
+        "站立時患肢可能呈異常角度"
+      ]
+    },
+    "pathophysiology": "確切病因不明，可能與反覆肌肉微損傷（運動外傷）、免疫介導性肌炎或區域性循環障礙有關。肌纖維壞死後被纖維結締組織取代而非再生肌肉。纖維組織缺乏彈性，導致肌肉整體縮短和攣縮。German Shepherd 可能有遺傳傾向。受影響肌肉逐漸喪失收縮功能，僅作為纖維帶限制關節活動範圍。",
+    "diagnosis": {
+      "primary": [
+        "臨床表現和特徵性步態分析",
+        "理學檢查觸及肌肉纖維帶",
+        "肌肉超音波（回音增強、纖維化結構）",
+        "肌肉活檢（確診）"
+      ],
+      "differential": [
+        "十字韌帶損傷",
+        "髖關節發育不良",
+        "腰薦椎疾病",
+        "退化性脊髓病（DM）",
+        "免疫介導性肌炎",
+        "神經性肌萎縮"
+      ],
+      "labFindings": [
+        "CK：可能正常或輕度升高（急性期）",
+        "超音波：肌肉回音增強、纖維帶結構",
+        "肌肉活檢：肌纖維萎縮被纖維結締組織取代",
+        "EMG：可能異常（急性期有自發電位）",
+        "X 光：排除骨關節疾病"
+      ]
+    },
+    "treatment": {
+      "acute": "急性肌炎階段（若發現）以免疫抑制藥物治療。物理治療維持關節活動範圍",
+      "chronic": "手術切除纖維帶或肌腱鬆解術。物理治療和拉伸運動。治療效果常不持久",
+      "medications": [
+        "Prednisolone 1-2 mg/kg PO SID（急性肌炎期）",
+        "Meloxicam 0.1 mg/kg PO SID（有限效果）",
+        "Tramadol 2-5 mg/kg PO BID（伴隨疼痛時）",
+        "物理治療：拉伸、被動活動範圍、超音波熱療"
+      ],
+      "surgery": "肌腱切斷術（myotomy/tenotomy）或纖維帶切除術。術後復發率高（50-75%），因為纖維化過程可能繼續。反覆手術可能需要。"
+    },
+    "prognosis": "功能預後謹慎。手術可暫時改善步態，但復發率高。疾病通常不危及生命但影響生活品質。大多數犬可維持行走能力但步態永久異常。不影響壽命。",
+    "pearls": [
+      "German Shepherd 的特徵性「彈回」步態幾乎是病理特異性的",
+      "步態異常是機械性的（纖維帶限制），而非疼痛性的",
+      "NSAIDs 通常對步態改善無效（非炎症性機制）",
+      "術後復發率高，飼主應有心理準備"
+    ],
+    "monitoring": [
+      "步態評估每月追蹤",
+      "術後物理治療和拉伸練習至少 8-12 週",
+      "患肢肌肉量和關節活動範圍定期評估",
+      "對側肢體發展纖維化的風險監測"
+    ],
+    "reference": "Blackwell's Five-Minute Veterinary Consult"
+  },
+  "hypertrophic-osteopathy": {
+    "zh": "肥大性骨病",
+    "en": "Hypertrophic Osteopathy (HO)",
+    "definition": "四肢長骨骨膜異常增生導致對稱性四肢腫脹和疼痛的副腫瘤症候群。幾乎總是繼發於胸腔或腹腔腫瘤（最常見為肺腫瘤），偶見於慢性感染。移除原發病灶後骨膜增生可消退。",
+    "synonyms": ["肥大性骨關節病", "hypertrophic osteoarthropathy", "Marie's disease", "肥大性肺性骨關節病"],
+    "epidemiology": {
+      "species": "犬較常見，貓罕見",
+      "breed": "大型犬種",
+      "age": "中老年犬（原發腫瘤好發年齡）",
+      "sex": "無明顯性別傾向",
+      "prevalence": "罕見但具臨床診斷價值"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "四肢對稱性腫脹（遠端先開始）",
+        "四肢疼痛",
+        "跛行或不願移動",
+        "步態僵硬",
+        "食慾下降",
+        "精神沉鬱",
+        "呼吸症狀（咳嗽、呼吸困難——原發肺病）",
+        "體重下降",
+        "肢端皮膚繃緊發亮"
+      ],
+      "physicalExam": [
+        "四肢遠端對稱性硬實腫脹（骨性而非軟組織）",
+        "觸診骨表面粗糙不規則且疼痛",
+        "掌骨/蹠骨和指/趾骨最先受影響",
+        "肺部聽診可能異常",
+        "發燒（偶見）"
+      ]
+    },
+    "pathophysiology": "確切機制不完全清楚。目前理論認為胸腔/腹腔腫瘤或慢性感染引起迷走神經傳入纖維刺激，導致四肢末梢血流增加和骨膜血管擴張。增加的血流促進骨膜成骨細胞活化和新骨形成。神經體液因子（如 VEGF、PDGF）也被認為參與。迷走神經切斷可使症狀消退，支持神經機制理論。",
+    "diagnosis": {
+      "primary": [
+        "四肢 X 光（特徵性骨膜增生，柵欄狀或層狀）",
+        "胸腔 X 光（尋找肺腫瘤）",
+        "腹部超音波（排除腹腔腫瘤）",
+        "胸腔 CT（詳細評估肺部病灶）"
+      ],
+      "differential": [
+        "骨髓炎（多骨）",
+        "多骨性骨腫瘤",
+        "真菌性骨炎",
+        "骨膜增生性多關節炎",
+        "維生素 A 過多症",
+        "氟中毒"
+      ],
+      "labFindings": [
+        "四肢 X 光：沿骨幹的柵欄狀或毛刷狀骨膜新骨生成",
+        "胸腔 X 光/CT：肺腫塊、胸腔積液",
+        "CBC：可能輕度嗜中性球增多",
+        "ALP 可能升高",
+        "骨膜新骨生成由遠端向近端進展"
+      ]
+    },
+    "treatment": {
+      "acute": "止痛為首要。尋找並處理原發病灶",
+      "chronic": "移除原發腫瘤或治療慢性感染後骨膜增生可消退。無法手術者以緩和性止痛為主",
+      "medications": [
+        "Meloxicam 0.1 mg/kg PO SID",
+        "Tramadol 2-5 mg/kg PO BID-TID",
+        "Gabapentin 5-10 mg/kg PO BID（神經性疼痛）",
+        "Prednisolone 0.5-1 mg/kg PO SID（減少炎症）"
+      ],
+      "surgery": "原發肺腫瘤的肺葉切除術為首選。肺腫瘤切除後骨膜增生通常在數週至數月內消退。無法手術者可考慮迷走神經切斷術（效果不一）。"
+    },
+    "prognosis": "取決於原發病。可切除的肺腫瘤（良性或低度惡性）切除後 HO 可完全消退，預後良好。不可切除的惡性肺腫瘤預後不良。慢性感染治療後 HO 通常消退。",
+    "pearls": [
+      "四肢遠端對稱性骨膜增生的犬必須進行胸腔影像學檢查",
+      "原發腫瘤切除後 HO 可完全消退是重要的鑑別點",
+      "骨膜增生從遠端向近端進展是特徵性表現",
+      "罕見情況下腹腔腫瘤（膀胱、腎臟）也可引起 HO"
+    ],
+    "monitoring": [
+      "原發腫瘤治療後四肢 X 光每 4-6 週追蹤骨膜消退",
+      "胸腔 X 光每 2-3 個月追蹤腫瘤復發",
+      "疼痛評分每日監測",
+      "運動能力和生活品質評估"
+    ],
+    "reference": "Textbook of Veterinary Diagnostic Radiology"
+  },
+  "luxating-shoulder": {
+    "zh": "肩關節脫位",
+    "en": "Shoulder Luxation",
+    "definition": "肱骨頭與肩胛骨關節窩之間的正常關節關係喪失，可為完全脫位（luxation）或不完全脫位（subluxation）。可由外傷或先天性關節鬆弛引起。內側脫位較外側脫位常見。犬中相對少見的關節脫位。",
+    "synonyms": ["肩關節脫臼", "肩脫位", "glenohumeral luxation"],
+    "epidemiology": {
+      "species": "犬（貓罕見）",
+      "breed": "外傷性：任何品種。先天性/發育性：小型和玩具犬種（Toy Poodle、Chihuahua、Pomeranian）",
+      "age": "外傷性：任何年齡。先天性：幼犬至年輕犬",
+      "sex": "無明顯性別傾向",
+      "prevalence": "犬中相對少見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "急性前肢跛行（外傷性）或慢性跛行（先天性）",
+        "患肢不負重",
+        "肩部輪廓改變",
+        "疼痛和抗拒觸碰肩部",
+        "肩關節活動受限",
+        "先天性：可能雙側受影響",
+        "關節不穩定感（subluxation）",
+        "患肢向外或向內旋轉（取決於脫位方向）"
+      ],
+      "physicalExam": [
+        "肩關節觸診可感覺肱骨頭位移",
+        "內側脫位：肱骨頭可在內側觸及",
+        "外側脫位：肩部扁平、肱骨頭在外側突出",
+        "關節活動時有彈響感（先天性鬆弛）",
+        "關節周圍腫脹和觸痛（急性外傷性）"
+      ]
+    },
+    "pathophysiology": "外傷性脫位由劇烈外力撕裂肩關節囊和支持韌帶（內側和外側盂肱韌帶）造成。先天性/發育性脫位因關節囊鬆弛、關節窩發育淺或支持韌帶先天性缺陷，肱骨頭在正常活動中即可滑出。內側脫位更常見，可能因內側韌帶結構相對薄弱。慢性脫位導致關節面退化和繼發性骨關節炎。",
+    "diagnosis": {
+      "primary": [
+        "骨科理學檢查（觸診肱骨頭位置、drawer test）",
+        "肩關節正側位和軸位 X 光",
+        "壓力 X 光（評估關節不穩定程度）",
+        "CT（評估骨性結構和關節窩深度）"
+      ],
+      "differential": [
+        "肩關節骨折（肩胛骨或肱骨近端）",
+        "二頭肌腱鞘炎",
+        "肩關節 OCD",
+        "內側肩關節不穩定",
+        "臂神經叢損傷",
+        "肩關節骨關節炎"
+      ],
+      "labFindings": [
+        "X 光：肱骨頭與關節窩不對位",
+        "壓力 X 光：關節間隙增寬、肱骨頭位移",
+        "CT：關節窩深度評估、骨折碎片辨識",
+        "關節液分析：可能有血液（急性外傷）"
+      ]
+    },
+    "treatment": {
+      "acute": "鎮靜下閉合復位嘗試，成功後以 Velpeau sling 固定 10-14 天。復位失敗或不穩定者需手術",
+      "chronic": "手術穩定為首選。先天性病例多需手術。慢性脫位閉合復位成功率低",
+      "medications": [
+        "Meloxicam 0.1 mg/kg PO SID",
+        "Tramadol 2-5 mg/kg PO BID",
+        "Gabapentin 5-10 mg/kg PO BID（慢性疼痛）",
+        "關節保健品（長期退化性改變時）"
+      ],
+      "surgery": "內側脫位：內側盂肱韌帶重建或移位術（biceps transposition）。外側脫位：關節囊緊縮術。嚴重關節破壞：關節固定術（arthrodesis）或關節切除成形術。"
+    },
+    "prognosis": "閉合復位 + 外固定成功率約 50%。手術穩定後預後良好至中等。先天性雙側脫位預後謹慎但多數犬可維持可接受的活動能力。慢性脫位伴嚴重退化性改變者功能恢復有限。",
+    "pearls": [
+      "閉合復位後必須立即以 Velpeau sling 固定，否則極易復發",
+      "內側脫位：患肢呈外旋姿勢。外側脫位：患肢呈內旋姿勢",
+      "小型犬和玩具犬種的肩關節脫位多為先天性/發育性",
+      "復發性脫位幾乎都需要手術處理"
+    ],
+    "monitoring": [
+      "Velpeau sling 每 3-5 天檢查皮膚壓迫性損傷",
+      "X 光復位後即刻確認和拆除外固定後複驗",
+      "關節穩定性每 2 週評估",
+      "術後 8-12 週逐漸恢復正常活動"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats"
+  },
+  "ununited-anconeal-process": {
+    "zh": "肘突未癒合",
+    "en": "Ununited Anconeal Process (UAP)",
+    "definition": "尺骨近端肘突（anconeal process）的骨化中心未能在正常時間內與尺骨幹骺端融合，導致游離或部分附著的骨碎片存在於肘關節內。為犬肘關節發育不良（elbow dysplasia）的一種型式。主要影響大型犬種，導致前肢跛行和繼發性骨關節炎。",
+    "synonyms": ["UAP", "肘突骨化不全", "肘突分離", "肘關節發育不良（部分型式）"],
+    "epidemiology": {
+      "species": "犬（貓極罕見）",
+      "breed": "German Shepherd Dog 最常見，其他大型犬種（Basset Hound、Saint Bernard、Great Dane、Labrador Retriever）",
+      "age": "通常 5-12 個月齡開始出現症狀",
+      "sex": "公犬略多",
+      "prevalence": "大型犬種肘關節疾病中的重要型式，German Shepherd 發生率最高"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "前肢跛行（單側或雙側）",
+        "運動後跛行加重",
+        "肘關節腫脹",
+        "前肢步態短縮和僵硬",
+        "不願長時間運動",
+        "休息後起立時僵硬",
+        "可能見前肢外旋姿勢",
+        "雙側受影響時步態可能僅表現為僵硬而非明顯跛行"
+      ],
+      "physicalExam": [
+        "肘關節觸診腫脹（關節積液）",
+        "肘關節完全伸展時疼痛",
+        "肘關節活動範圍減少",
+        "過度屈曲肘關節同時旋前可能引起疼痛",
+        "前肢肌肉萎縮（慢性病例）",
+        "肘關節觸診可能有捻發音"
+      ]
+    },
+    "pathophysiology": "正常犬的肘突骨化中心應在 16-20 週齡與尺骨幹骺端融合（German Shepherd 可延至 5 個月）。UAP 的病因是尺骨和橈骨的不等速生長（radius-ulna length incongruity），導致肱骨滑車對肘突施加異常壓力，阻止或破壞正常的骨融合。游離的肘突造成關節不穩定、軟骨磨損和進行性退化性關節疾病。",
+    "diagnosis": {
+      "primary": [
+        "肘關節屈曲側位 X 光（>5 月齡可見肘突分離線）",
+        "CT 掃描（精確評估碎片和關節不合適度）",
+        "肘關節正側位 X 光（排除合併其他 elbow dysplasia 型式）",
+        "骨科理學檢查"
+      ],
+      "differential": [
+        "內側冠狀突碎裂（FCP/FMCP）",
+        "肘關節 OCD",
+        "肘關節不合適度（elbow incongruity）",
+        "全肘關節炎（panosteitis）",
+        "外傷性肘關節骨折",
+        "肘關節退化性關節疾病"
+      ],
+      "labFindings": [
+        "屈曲側位 X 光：肘突與尺骨之間可見透亮分離線",
+        "正位 X 光：關節積液（fat pad sign）、骨贅形成",
+        "CT：精確顯示碎片大小、位置和關節不合適度",
+        "關節液分析：輕度炎症改變（非特異性）",
+        "X 光分級：完全分離 vs 部分附著"
+      ]
+    },
+    "treatment": {
+      "acute": "限制活動，NSAIDs 止痛。早期手術介入預後最佳",
+      "chronic": "手術治療為主。藥物控制骨關節炎症狀。體重管理",
+      "medications": [
+        "Meloxicam 0.1 mg/kg PO SID",
+        "Carprofen 2.2 mg/kg PO BID",
+        "Glucosamine/Chondroitin 關節保健品",
+        "Adequan (PSGAG) 2 mg/kg IM twice weekly × 4 weeks",
+        "Omega-3 脂肪酸（抗炎輔助）"
+      ],
+      "surgery": "年輕犬（<1 歲）首選肘突切除術（anconeal process removal）或尺骨截骨術（ulnar osteotomy）允許肘突自行癒合。螺釘固定術（screw fixation）嘗試保留肘突。嚴重退化性關節疾病可考慮全肘關節置換（limited availability）。"
+    },
+    "prognosis": "早期手術介入（<1 歲）預後中等至良好。尺骨截骨術在年輕犬（<6 個月）有較高的肘突融合成功率。延遲治療或嚴重骨關節炎者功能改善有限。大多數犬術後仍會發展某程度的退化性關節疾病，需終生管理。",
+    "pearls": [
+      "German Shepherd >5 個月齡肘關節屈曲側位 X 光仍見肘突分離線即可診斷",
+      "UAP 常合併其他肘關節發育不良型式（FCP、OCD），CT 可全面評估",
+      "雙側肘關節 X 光是必要的——UAP 雙側發生率約 20-35%",
+      "尺骨截骨術（proximal ulnar osteotomy）減壓後肘突可能自行融合，尤其在幼犬"
+    ],
+    "monitoring": [
+      "術後 X 光每 4-6 週追蹤骨癒合（截骨術）或肘突融合",
+      "肘關節活動範圍和跛行程度每月評估",
+      "長期骨關節炎進展每 6-12 個月 X 光追蹤",
+      "體重管理和關節保健品終生使用"
+    ],
+    "reference": "Clinical Veterinary Advisor: Dogs and Cats"
+  }
+}

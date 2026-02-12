@@ -1,0 +1,290 @@
+{
+  "feline-calicivirus": {
+    "zh": "貓杯狀病毒感染",
+    "en": "Feline Calicivirus Infection",
+    "definition": "由貓杯狀病毒（FCV）引起的傳染性疾病，主要導致口腔潰瘍和上呼吸道症狀。毒力變異株（VS-FCV）可引起全身性致死性疾病。",
+    "synonyms": ["FCV Infection", "Feline Caliciviral Disease"],
+    "epidemiology": {
+      "species": "貓",
+      "age": "幼貓最易感，但任何年齡均可感染",
+      "sex": "無性別傾向",
+      "riskFactors": ["多貓環境（收容所、繁殖場）", "未接種疫苗", "緊迫", "幼貓移行抗體下降期（6-12週齡）", "帶原貓持續排毒"]
+    },
+    "clinicalPresentation": {
+      "history": ["口腔疼痛導致食慾下降", "流涎", "打噴嚏、鼻分泌物", "跛行（短暫性多發關節炎，幼貓）", "VS-FCV：高燒、黃疸、水腫、多器官衰竭"],
+      "physicalExam": ["口腔潰瘍（舌頭、硬顎，為特徵性表現）", "漿液性到黏膿性鼻和眼分泌物", "發燒", "跛行型：多關節腫脹和疼痛", "VS-FCV：皮膚水腫（特別是面部和四肢）、黃疸、皮膚潰瘍"]
+    },
+    "pathophysiology": "FCV經直接接觸或氣溶膠傳播，在口咽部上皮細胞複製導致細胞壞死形成潰瘍。病毒有高度抗原變異性，不同毒株的毒力差異大。VS-FCV感染全身血管內皮細胞，導致DIC樣的全身性血管炎和多器官衰竭。約10-30%臨床康復貓成為慢性帶原者，持續從口咽部排毒。",
+    "diagnosis": {
+      "overview": "根據臨床表現（口腔潰瘍為主要線索）推定診斷，PCR確診。",
+      "differentials": ["貓疱疹病毒感染", "貓慢性牙齦口炎", "貓衣原體感染", "腎衰竭導致的口腔潰瘍", "腐蝕性化學物質接觸"],
+      "initialDB": ["臨床表現評估", "口腔檢查", "FeLV/FIV檢測"],
+      "advanced": ["口咽拭子RT-PCR", "VS-FCV疑似：CBC（白血球減少、血小板減少）、生化（肝指數升高）、凝血檢測", "病毒分離"]
+    },
+    "treatment": {
+      "overview": "支持療法為主，控制繼發感染，維持營養。VS-FCV需積極支持治療。",
+      "acute": ["支持療法：靜脈輸液維持水分", "疼痛管理：buprenorphine 0.01-0.02 mg/kg SL TID", "繼發感染：廣效抗生素（amoxicillin-clavulanate、doxycycline）", "食慾促進：mirtazapine、加溫食物增加氣味", "嚴重食慾不振：食道胃管放置", "VS-FCV：積極輸液、新鮮冷凍血漿、廣效抗生素"],
+      "chronic": ["慢性帶原管理", "多貓家庭隔離和衛生措施", "定期疫苗接種", "慢性口炎可能與FCV持續感染相關"]
+    },
+    "prognosis": "一般FCV感染：免疫正常成貓多在1-2週康復，預後良好。幼貓可能較嚴重。VS-FCV：死亡率高達50-67%，即使已接種疫苗的成貓也可受影響。跛行型通常自限性，數天內改善。",
+    "pearls": ["口腔潰瘍是FCV與FHV-1最重要的鑑別特徵", "跛行型FCV常在疫苗接種後出現，為自限性", "VS-FCV是獸醫急症，需嚴格隔離防控", "FCV抗原變異大，疫苗無法提供完全保護", "慢性口炎的治療反應與FCV帶原狀態相關"],
+    "monitoring": ["急性期每日監測食慾、口腔症狀和體溫", "VS-FCV：持續監測凝血功能和器官功能", "多貓環境的疫病監控和隔離措施"],
+    "reference": "Sykes JE: Canine and Feline Infectious Diseases. Elsevier, 2014"
+  },
+  "feline-panleukopenia": {
+    "zh": "貓泛白血球減少症",
+    "en": "Feline Panleukopenia",
+    "definition": "由貓泛白血球減少症病毒（FPV，貓小病毒）引起的高度傳染性且致命率高的疾病，主要影響幼貓。病毒攻擊快速分裂的細胞，導致嚴重白血球減少和腸炎。",
+    "synonyms": ["Feline Parvovirus", "Feline Distemper", "Feline Infectious Enteritis", "FPV"],
+    "epidemiology": {
+      "species": "貓（特別是幼貓）",
+      "age": "3-5月齡幼貓最易感（移行抗體下降期）",
+      "sex": "無性別傾向",
+      "riskFactors": ["未接種疫苗", "幼貓", "收容所環境", "病毒在環境中可存活超過1年", "免疫抑制", "同時感染FeLV或FIV"]
+    },
+    "clinicalPresentation": {
+      "history": ["急性發燒、嗜睡、食慾廢絕", "嘔吐（常為首發症狀）", "腹瀉（水樣到出血性）", "脫水迅速惡化", "可能有疫苗接種不完全或未接種的歷史", "超急性型可在無腸胃症狀下猝死"],
+      "physicalExam": ["嚴重脫水和精神沉鬱", "腹部觸診疼痛", "腸管觸診可能增厚或充液", "發燒（早期）或低體溫（後期休克）", "口腔黏膜蒼白或充血", "毛髮粗糙"]
+    },
+    "pathophysiology": "FPV經糞口途徑傳播，病毒極為穩定可在環境中存活超過1年。病毒靶向快速分裂的細胞：腸道隱窩上皮（導致絨毛萎縮和腹瀉）、骨髓造血前驅細胞（導致泛白血球減少，特別是嗜中性球減少）、淋巴組織（免疫抑制）。子宮內或新生兒感染可導致小腦發育不全。腸道屏障破壞加上免疫抑制易致繼發敗血症。",
+    "diagnosis": {
+      "overview": "根據臨床症狀結合嚴重白血球減少症高度提示。犬小病毒糞便快篩可用於FPV檢測。",
+      "differentials": ["其他腸道感染（沙門氏菌、曲狀桿菌）", "腸道異物", "中毒", "FeLV相關腸病", "腸套疊"],
+      "initialDB": ["CBC（白血球減少是關鍵發現，WBC常<2000/μL）", "生化和電解質（低鉀、低白蛋白、低血糖）", "犬小病毒糞便抗原快篩（對FPV交叉反應）", "FeLV/FIV檢測"],
+      "advanced": ["糞便PCR（最敏感的確診方法）", "腹部超音波（腸壁變化評估）", "血液培養（疑似敗血症時）"]
+    },
+    "treatment": {
+      "overview": "無特異性抗病毒藥，以積極支持療法為主。早期積極治療可顯著改善存活率。",
+      "acute": ["積極靜脈輸液（糾正脫水和電解質失衡）", "止吐劑：maropitant 1 mg/kg SC q24h、ondansetron 0.1-0.2 mg/kg IV", "廣效靜脈抗生素（ampicillin-sulbactam + enrofloxacin 或 metronidazole）預防/治療敗血症", "低血糖矯正：葡萄糖添加至輸液", "低血鉀矯正：KCl添加至輸液", "嚴重貧血或低白蛋白：新鮮冷凍血漿或全血輸血", "NPO直至嘔吐停止，盡早恢復腸道營養"],
+      "chronic": ["康復期逐步恢復飲食（小量多餐高消化性食物）", "環境徹底消毒（漂白水1:32稀釋有效）", "康復貓可能排毒數週", "確保後續疫苗接種"]
+    },
+    "prognosis": "未治療的幼貓死亡率高達90%。經積極支持治療，存活率可提升至50-80%。WBC<1000/μL預後較差。存活過前5天的幼貓通常可康復。成貓通常症狀較輕。",
+    "pearls": ["WBC計數是最重要的預後指標，<1000/μL預後差", "犬CPV糞便快篩可用於FPV檢測但近期疫苗接種可能偽陽性", "環境消毒極重要，FPV可在環境中存活>1年", "子宮內感染可導致小腦發育不全（意向性震顫）", "疫苗預防極為有效，核心疫苗之一", "存活貓通常獲得長期免疫"],
+    "monitoring": ["每6-12小時監測：體重、水分狀態、電解質、血糖", "每日CBC追蹤白血球恢復", "體溫監測（低體溫提示預後不佳）", "嘔吐和腹瀉頻率記錄"],
+    "reference": "Sykes JE: Canine and Feline Infectious Diseases. Elsevier, 2014"
+  },
+  "kennel-cough": {
+    "zh": "犬傳染性呼吸道疾病",
+    "en": "Canine Infectious Respiratory Disease Complex (Kennel Cough)",
+    "definition": "由多種病原（病毒和細菌）單獨或混合感染引起的高度傳染性呼吸道疾病複合體。最常見病原為犬副流感病毒（CPIV）和支氣管博德特菌（Bordetella bronchiseptica）。",
+    "synonyms": ["Kennel Cough", "Infectious Tracheobronchitis", "CIRDC", "Canine Cough"],
+    "epidemiology": {
+      "species": "犬",
+      "age": "任何年齡，幼犬和老年犬症狀較重",
+      "sex": "無性別傾向",
+      "riskFactors": ["犬舍、寄宿、犬展、狗公園等群聚環境", "未接種疫苗", "緊迫和運輸", "免疫功能不全的幼犬或老年犬", "環境通風不良"]
+    },
+    "clinicalPresentation": {
+      "history": ["突發性乾咳，似「鵝叫」聲", "咳嗽陣發性，可被運動、興奮或頸部壓迫誘發", "可能有近期犬舍寄宿或群聚接觸史", "大部分精神食慾正常（單純型）", "複雜型：精神沉鬱、食慾差、發燒"],
+      "physicalExam": ["氣管觸診敏感（tracheal pinch test陽性）", "單純型：體溫正常，其餘理學檢查正常", "複雜型：發燒、黏膿性鼻分泌物", "肺部聽診：單純型通常正常，複雜型可有粗糙呼吸音或囉音", "扁桃體可能腫大"]
+    },
+    "pathophysiology": "多種病原協同作用：病毒（CPIV、犬腺病毒2型、犬呼吸道冠狀病毒、犬流感病毒）先破壞呼吸道纖毛上皮屏障，隨後細菌（B. bronchiseptica、支原體）繼發感染。B. bronchiseptica也可作為原發病原。病原經氣溶膠和直接接觸傳播，潛伏期3-10天。纖毛功能損傷導致黏膜清除功能下降，增加繼發細菌性肺炎風險。",
+    "diagnosis": {
+      "overview": "多數根據臨床表現和群聚接觸史推定診斷。複雜型需排除肺炎。",
+      "differentials": ["犬心絲蟲病", "心臟病導致咳嗽", "氣管塌陷", "異物吸入", "肺腫瘤", "真菌性肺炎"],
+      "initialDB": ["病史和理學檢查", "胸腔X光（排除肺炎，單純型通常正常）", "CBC（複雜型可見白血球升高）"],
+      "advanced": ["氣管沖洗液細胞學和培養", "呼吸道病原PCR panel", "犬流感病毒抗體或PCR檢測", "支氣管鏡檢查（慢性病例）"]
+    },
+    "treatment": {
+      "overview": "單純型多為自限性，7-14天自行恢復。複雜型需抗生素治療。",
+      "acute": ["單純型：休息、避免頸圈壓迫（改用胸背帶）", "止咳藥（hydrocodone 0.22 mg/kg PO BID-TID，僅限非生產性乾咳）", "抗生素（複雜型或高風險犬）：doxycycline 5 mg/kg PO BID 10-14天", "嚴重病例：amoxicillin-clavulanate或基於培養結果選擇", "霧化治療輔助", "環境加濕"],
+      "chronic": ["慢性咳嗽超過2週需進一步檢查排除其他病因", "確認疫苗接種狀態並更新", "多犬環境的隔離管理（隔離感染犬至少2週）"]
+    },
+    "prognosis": "單純型預後極佳，多數7-14天自行康復。複雜型（繼發肺炎）需較長治療但預後通常仍良好。幼犬或免疫抑制犬可能發展為致命的支氣管肺炎。",
+    "pearls": ["最常見的門診咳嗽原因之一", "止咳藥僅用於乾咳影響生活品質時，有分泌物時不應抑制咳嗽", "Doxycycline對Bordetella和Mycoplasma均有效，為首選抗生素", "疫苗預防（鼻內或注射型）可減輕但不能完全預防感染", "犬流感病毒（H3N8、H3N2）是近年需注意的新興病原", "群聚暴發時需嚴格隔離和環境消毒"],
+    "monitoring": ["7-10天後評估症狀改善", "持續咳嗽超過2週需進一步檢查", "群聚環境監控其他犬隻發病", "嚴重病例監測呼吸頻率和體溫"],
+    "reference": "Greene CE: Infectious Diseases of the Dog and Cat, 4th Ed. Elsevier, 2012"
+  },
+  "hookworm": {
+    "zh": "鉤蟲感染",
+    "en": "Hookworm Infection",
+    "definition": "由鉤蟲（主要為犬鉤蟲 Ancylostoma caninum、巴西鉤蟲 A. braziliense、狹頭鉤蟲 Uncinaria stenocephala）感染引起的腸道寄生蟲病。成蟲附著於小腸壁吸血，可導致嚴重貧血，特別是幼犬。",
+    "synonyms": ["Ancylostomiasis", "Hookworm Disease"],
+    "epidemiology": {
+      "species": "犬較常見，貓也可感染（A. tubaeforme）",
+      "age": "幼犬最嚴重（經胎盤和乳汁感染），成犬通常症狀較輕",
+      "sex": "無性別傾向",
+      "riskFactors": ["溫暖潮濕環境", "衛生條件差", "群養犬（犬舍、收容所）", "未定期驅蟲", "幼犬經胎盤或乳汁感染", "皮膚接觸受汙染土壤（經皮感染）"]
+    },
+    "clinicalPresentation": {
+      "history": ["幼犬：急性貧血、黑色糊狀糞便", "慢性感染：體重不增、被毛粗糙", "成犬：可能無症狀或輕度腹瀉", "飼主可能注意到足墊刺激（皮膚幼蟲移行）"],
+      "physicalExam": ["幼犬：黏膜蒼白（貧血）", "脫水", "消瘦和發育不良", "糞便黑色（melena）或暗色糊狀", "嚴重感染：低蛋白血症導致水腫", "成犬可能理學檢查正常"]
+    },
+    "pathophysiology": "鉤蟲成蟲以口囊咬附小腸黏膜，分泌抗凝血物質持續吸血。每隻犬鉤蟲每天吸血約0.1-0.2 mL。大量感染時失血量可引起嚴重缺鐵性貧血。幼蟲可經口、經皮或經胎盤/乳汁傳播。體內幼蟲可在組織中休眠（somatic migration），懷孕時被活化經胎盤傳給胎兒。人畜共通：皮膚幼蟲移行症（cutaneous larva migrans）。",
+    "diagnosis": {
+      "overview": "糞便漂浮法檢出蟲卵為標準診斷。幼犬急性感染時可能蟲卵陰性（成蟲尚未成熟）。",
+      "differentials": ["蛔蟲感染", "鞭蟲感染", "球蟲感染", "梨形鞭毛蟲", "腸道病毒感染", "出血性胃腸炎"],
+      "initialDB": ["糞便漂浮法鏡檢蟲卵", "CBC（再生性貧血、嗜酸性球增多）", "糞便潛血試驗", "血清總蛋白和白蛋白"],
+      "advanced": ["糞便PCR（鑑別蟲種）", "幼犬急性嚴重貧血時直接處理不等確診"]
+    },
+    "treatment": {
+      "overview": "驅蟲藥治療有效。幼犬嚴重貧血需支持療法。預防性定期驅蟲很重要。",
+      "acute": ["驅蟲藥：fenbendazole 50 mg/kg PO q24h 3天", "或 pyrantel pamoate 5-10 mg/kg PO（2-3週後重複）", "或 milbemycin oxime（按體重劑量）", "幼犬嚴重貧血：輸血", "靜脈輸液和營養支持", "補充鐵劑"],
+      "chronic": ["每月預防性驅蟲（含有鉤蟲預防成分的心絲蟲預防藥）", "幼犬：2週齡起每2週驅蟲至8週齡，之後每月一次", "妊娠母犬：懷孕第40天起每日 fenbendazole 至產後2天", "環境管理：清除糞便、保持乾燥", "人畜共通防護教育"]
+    },
+    "prognosis": "及時治療預後良好。幼犬未治療的嚴重急性感染可致死。慢性感染可能導致發育遲緩。定期預防性驅蟲可有效控制。",
+    "pearls": ["幼犬急性鉤蟲感染是真正的急診，可在數天內致死", "胎盤傳播意味著幼犬出生時即可感染", "糞便檢查陰性不能排除（潛伏期蟲卵尚未排出）", "人畜共通：飼主赤腳接觸受汙染環境可得皮膚幼蟲移行症", "心絲蟲預防藥多數含有鉤蟲預防成分，每月使用可同時預防"],
+    "monitoring": ["治療後2-4週重複糞便檢查確認清除", "幼犬貧血恢復監測（PCV追蹤）", "每年例行糞便檢查", "確認預防性驅蟲計畫的執行"],
+    "reference": "Bowman DD: Georgis' Parasitology for Veterinarians, 11th Ed. Elsevier, 2021"
+  },
+  "roundworm": {
+    "zh": "蛔蟲感染",
+    "en": "Roundworm Infection",
+    "definition": "由蛔蟲（犬弓首蛔蟲 Toxocara canis、貓弓首蛔蟲 T. cati、犬短首線蟲 Toxascaris leonina）引起的腸道寄生蟲病。是犬貓最常見的腸道寄生蟲之一，具有重要的人畜共通意義。",
+    "synonyms": ["Toxocariasis", "Ascarid Infection"],
+    "epidemiology": {
+      "species": "犬貓皆可",
+      "age": "幼犬幼貓最常見且症狀最嚴重",
+      "sex": "無性別傾向",
+      "riskFactors": ["幼齡動物", "經胎盤感染（T. canis）", "經乳汁感染（T. canis和T. cati）", "未定期驅蟲", "接觸受汙染環境", "獵食行為（中間宿主如老鼠）"]
+    },
+    "clinicalPresentation": {
+      "history": ["幼犬幼貓：腹部膨大（pot-bellied appearance）", "嘔吐（可能吐出成蟲）", "腹瀉", "生長遲緩和體態消瘦", "被毛粗糙無光澤", "成年動物通常無症狀"],
+      "physicalExam": ["腹部膨脹", "體態評分偏低", "被毛品質差", "可能在嘔吐物或糞便中見到白色長條狀成蟲（10-15 cm）", "嚴重感染：脫水和黏膜蒼白"]
+    },
+    "pathophysiology": "T. canis幼蟲經口攝入後穿透腸壁，經肝臟和肺臟進行肝肺移行（hepato-tracheal migration），最終回到小腸發育為成蟲。在成犬體內，幼蟲傾向進行體內移行（somatic migration）而停留在組織中休眠，懷孕時被活化經胎盤傳給胎兒。蛔蟲卵在環境中極為耐久，可存活數年。人畜共通：兒童誤食蟲卵可導致內臟幼蟲移行症（VLM）或眼幼蟲移行症（OLM）。",
+    "diagnosis": {
+      "overview": "糞便漂浮法檢出蟲卵為標準方法。幼犬經胎盤感染者可在糞便排卵前即出現症狀。",
+      "differentials": ["鉤蟲感染", "球蟲感染", "梨形鞭毛蟲", "腸道異物", "腸套疊（大量蟲體時）"],
+      "initialDB": ["糞便漂浮法鏡檢（蟲卵為球形、深色、表面粗糙）", "直接目視成蟲（嘔吐物或糞便中）"],
+      "advanced": ["糞便PCR鑑別蟲種", "腹部X光（大量蟲體時可見腸腔內軟組織密度影像）"]
+    },
+    "treatment": {
+      "overview": "多種驅蟲藥有效，幼犬需重複驅蟲以清除組織中持續活化的幼蟲。",
+      "acute": ["Pyrantel pamoate 5-10 mg/kg PO（安全，可用於2週齡幼犬）", "Fenbendazole 50 mg/kg PO q24h 3天", "嚴重腸阻塞（蟲團）：可能需手術", "支持療法：營養補充和脫水矯正"],
+      "chronic": ["幼犬：2週齡起每2週驅蟲至8週齡，之後每月一次至6月齡", "幼貓：3週齡起同樣方案", "成年動物：至少每3個月驅蟲一次或每月預防", "妊娠母犬：fenbendazole 25 mg/kg/day 從懷孕第40天至產後14天", "環境清潔：及時清除糞便減少蟲卵汙染"]
+    },
+    "prognosis": "預後極佳，驅蟲藥對成蟲高度有效。但組織中休眠幼蟲需重複驅蟲。嚴重感染的幼犬偶可因蟲團導致腸阻塞。",
+    "pearls": ["幾乎所有幼犬出生時即帶有T. canis（經胎盤感染）", "蟲卵在環境中可存活數年，常規清潔無法清除", "人畜共通風險高：兒童遊樂場汙染是公共衛生問題", "糞便中的蟲卵需2-4週才具感染力（發育至L3幼蟲）", "預防性驅蟲比治療性驅蟲更重要"],
+    "monitoring": ["驅蟲後2-4週重複糞便檢查", "幼犬定期體重監測確認正常生長", "每年至少一次糞便寄生蟲檢查", "人畜共通風險教育"],
+    "reference": "Bowman DD: Georgis' Parasitology for Veterinarians, 11th Ed. Elsevier, 2021"
+  },
+  "uveitis": {
+    "zh": "葡萄膜炎",
+    "en": "Uveitis",
+    "definition": "葡萄膜（虹膜、睫狀體、脈絡膜）的炎症。根據受影響部位分為前葡萄膜炎（虹膜炎/虹膜睫狀體炎）、後葡萄膜炎和全葡萄膜炎。是犬貓眼科常見且嚴重的疾病。",
+    "synonyms": ["Iritis", "Iridocyclitis", "Anterior Uveitis", "Panuveitis"],
+    "epidemiology": {
+      "species": "犬貓皆可",
+      "age": "任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["感染性疾病（犬：ehrlichiosis、leishmaniasis、leptospirosis；貓：FIP、FeLV、FIV、toxoplasmosis）", "免疫介導性疾病", "腫瘤（淋巴瘤最常見）", "晶體蛋白洩漏（白內障）", "創傷", "犬特發性葡萄膜炎"]
+    },
+    "clinicalPresentation": {
+      "history": ["眼紅、流淚", "畏光、眨眼頻繁", "瞳孔縮小", "視力可能下降", "可能有全身性疾病症狀"],
+      "physicalExam": ["結膜和鞏膜充血", "角膜水腫（霧狀）", "前房閃輝（aqueous flare）", "瞳孔縮小（miosis）", "虹膜後黏連（posterior synechia）", "眼壓降低（<10 mmHg，為特徵性）", "前房積膿（hypopyon）或前房積血（hyphema）", "虹膜膨隆或虹膜結節", "晶體可能出現白內障變化"]
+    },
+    "pathophysiology": "葡萄膜血管豐富，各種全身性疾病的免疫複合物可沉積於此。炎症導致血-房水屏障破壞，蛋白和細胞滲入前房（aqueous flare）。前列腺素釋放導致瞳孔縮小和眼壓降低。持續炎症可導致虹膜後黏連、繼發性青光眼、白內障、視網膜剝離和眼球萎縮（phthisis bulbi）。",
+    "diagnosis": {
+      "overview": "眼科檢查為主要診斷手段，確定原因需全身性檢查。約50-70%犬的葡萄膜炎為特發性。",
+      "differentials": ["青光眼（需鑑別，因治療完全不同）", "結膜炎", "角膜潰瘍", "角膜內皮炎", "眼內腫瘤"],
+      "initialDB": ["完整眼科檢查（裂隙燈、眼底檢查、眼壓測量）", "螢光素染色（排除角膜潰瘍）", "CBC、生化、尿液分析", "犬：壁蝨傳播疾病篩檢", "貓：FeLV/FIV檢測、弓漿蟲抗體"],
+      "advanced": ["眼超音波（前房混濁無法檢查眼底時）", "前房穿刺液分析和細胞學", "感染性疾病完整篩檢panel", "胸腔X光和腹部超音波（腫瘤篩檢）", "貓：冠狀病毒抗體、FIP評估"]
+    },
+    "treatment": {
+      "overview": "控制眼部炎症、散瞳預防黏連、治療潛在原因。",
+      "acute": ["外用類固醇眼藥：prednisolone acetate 1% q4-6h（無角膜潰瘍時）", "散瞳劑：atropine 1% q8-12h（預防虹膜後黏連）", "全身性NSAIDs：meloxicam（犬0.1 mg/kg，貓0.05 mg/kg）", "嚴重病例：全身性prednisolone 1-2 mg/kg/day", "外用NSAIDs眼藥（flurbiprofen、ketorolac）輔助"],
+      "chronic": ["長期低劑量外用類固醇維持治療", "治療潛在原因（感染性、免疫介導性、腫瘤性）", "監測繼發性併發症（青光眼、白內障）", "免疫介導性：可能需免疫抑制劑（azathioprine、cyclosporine）"]
+    },
+    "prognosis": "取決於原因和嚴重程度。特發性和創傷性：治療反應好，預後佳。感染性：控制感染後通常改善。腫瘤性：預後較差。慢性反覆發作可導致永久性視力損害。",
+    "pearls": ["眼壓低是前葡萄膜炎的特徵，與青光眼（眼壓高）相反", "務必區分葡萄膜炎和青光眼，因治療方向完全相反", "貓的葡萄膜炎高度提示FIP、淋巴瘤、弓漿蟲等全身性疾病", "Atropine散瞳可預防虹膜後黏連，是治療的關鍵", "犬約50-70%為特發性，但仍應進行全身性疾病篩檢", "角膜潰瘍時禁用外用類固醇"],
+    "monitoring": ["治療初期每3-5天眼科追蹤", "眼壓定期測量（監測繼發性青光眼）", "長期外用類固醇需監測眼壓", "全身性類固醇副作用監測"],
+    "reference": "Maggs DJ, Miller PE, Ofri R: Slatter's Fundamentals of Veterinary Ophthalmology, 6th Ed. Elsevier, 2018"
+  },
+  "cherry-eye": {
+    "zh": "第三眼瞼腺脫出",
+    "en": "Cherry Eye (Prolapse of the Third Eyelid Gland)",
+    "definition": "第三眼瞼（瞬膜）腺體的脫出，腺體從正常位置突出形成眼內角的紅色球形腫塊。常見於幼犬，可為單側或雙側。",
+    "synonyms": ["Third Eyelid Gland Prolapse", "Nictitans Gland Prolapse"],
+    "epidemiology": {
+      "species": "犬較常見，貓少見",
+      "age": "多發生於2歲以下幼犬",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["短頭犬種（英國鬥牛犬、法國鬥牛犬、波士頓梗）", "獵犬品種（可卡犬、米格魯）", "紐芬蘭犬、大丹犬", "遺傳易感性（結締組織較弱）", "對側眼高復發率"]
+    },
+    "clinicalPresentation": {
+      "history": ["眼內角出現紅色突起腫塊", "可能間歇性出現或持續性", "輕度流淚或眼分泌物", "通常無明顯疼痛", "可能先單側後變雙側"],
+      "physicalExam": ["眼內角光滑、紅色、球形腫塊", "第三眼瞼腺體暴露和充血", "結膜可能輕度充血", "觸診柔軟可推回但易復出", "評估是否有繼發結膜炎或乾眼症"]
+    },
+    "pathophysiology": "第三眼瞼腺體正常由結締組織固定於眼眶骨膜。當此結締組織先天性薄弱或缺失時，腺體從正常位置脫出。暴露的腺體因機械刺激和空氣接觸而充血腫脹，使其更難自行復位。第三眼瞼腺負責產生約30-50%的淚液，切除會增加乾眼症風險。",
+    "diagnosis": {
+      "overview": "根據特徵性外觀即可診斷。需評估淚液產量作為基線。",
+      "differentials": ["第三眼瞼腫瘤", "第三眼瞼軟骨外翻（scrolled cartilage）", "第三眼瞼濾泡性結膜炎", "眼眶腫塊推擠"],
+      "initialDB": ["眼科理學檢查", "Schirmer淚液試驗（STT，建立基線值）", "螢光素染色（排除角膜損傷）"],
+      "advanced": ["腺體細胞學或活檢（疑似腫瘤時）", "眼超音波（排除深部病變）"]
+    },
+    "treatment": {
+      "overview": "手術復位（tucking technique）為首選治療，保留腺體功能。不建議切除腺體。",
+      "acute": ["手術復位：Morgan pocket technique（最常用）", "或 orbital rim anchoring technique", "術前外用抗炎藥減輕腫脹", "如需短期暫時處理：外用潤滑劑保護"],
+      "chronic": ["術後外用抗生素和抗炎眼藥1-2週", "術後佩戴伊莉莎白頸圈", "復發率約5-20%，可能需再次手術", "評估對側眼（雙側發病率高）", "長期監測淚液產量"]
+    },
+    "prognosis": "手術復位成功率約80-95%。偶有復發需再次手術。保留腺體後淚液功能通常正常。切除腺體的犬約40-60%日後發展為乾眼症。",
+    "pearls": ["絕對不要切除第三眼瞼腺體，會顯著增加乾眼症風險", "Morgan pocket technique是最廣泛使用的復位方法", "一側發生後對側發生機率高，應告知飼主", "短頭犬種復發率較高", "術前STT基線值很重要，可作為術後比較"],
+    "monitoring": ["術後1-2週評估傷口癒合和腺體位置", "術後定期STT監測淚液產量", "觀察對側眼是否出現相同問題", "長期關注乾眼症跡象"],
+    "reference": "Maggs DJ, Miller PE, Ofri R: Slatter's Fundamentals of Veterinary Ophthalmology, 6th Ed. Elsevier, 2018"
+  },
+  "entropion": {
+    "zh": "眼瞼內翻",
+    "en": "Entropion",
+    "definition": "眼瞼邊緣向內翻轉，導致睫毛和皮膚毛髮摩擦角膜和結膜，引起慢性刺激、疼痛和潛在的角膜損傷。是犬最常見的眼瞼畸形。",
+    "synonyms": ["Eyelid Entropion", "Inverted Eyelid"],
+    "epidemiology": {
+      "species": "犬較常見，貓也可發生",
+      "age": "先天性/發育性：幼年發病；痙攣性/瘢痕性：任何年齡",
+      "sex": "無明顯性別傾向",
+      "riskFactors": ["短頭犬種（沙皮犬最典型）", "大型犬種（聖伯納、大丹犬、紐芬蘭犬）", "獵犬犬種（可卡犬、拉布拉多）", "沙皮犬（最嚴重）", "貓：波斯貓、緬因貓", "面部皮膚鬆弛的品種"]
+    },
+    "clinicalPresentation": {
+      "history": ["流淚過多（epiphora）", "頻繁眨眼或瞇眼（blepharospasm）", "眼分泌物（黏液性到膿性）", "可能不自覺搓揉眼部", "幼犬可能在開眼後即出現症狀"],
+      "physicalExam": ["眼瞼邊緣向內翻轉（可為上瞼、下瞼或兩者）", "角膜表面可見毛髮接觸", "結膜充血", "角膜血管新生和色素沉著（慢性）", "角膜潰瘍（螢光素染色陽性）", "流淚和眼分泌物", "沙皮犬常合併額部皮膚皺褶壓迫"]
+    },
+    "pathophysiology": "先天性/發育性眼瞼內翻與眼瞼形態、眼眶深度和面部結構相關的遺傳因素有關。內翻的眼瞼導致睫毛和皮膚毛髮持續摩擦角膜（trichiasis），引起機械性刺激。角膜刺激引發反射性眼瞼痙攣，進一步加重內翻（痙攣-內翻循環）。慢性摩擦導致角膜潰瘍、血管新生、色素沉著和疤痕化，最終可能影響視力。",
+    "diagnosis": {
+      "overview": "臨床檢查即可明確診斷。需評估內翻的原因（先天性 vs 痙攣性 vs 瘢痕性）和角膜損傷程度。",
+      "differentials": ["睫毛倒生（distichiasis）", "異位睫毛（ectopic cilia）", "眼瞼外翻（ectropion）", "第三眼瞼異常", "角膜潰瘍的其他原因"],
+      "initialDB": ["完整眼科檢查", "螢光素染色（評估角膜潰瘍）", "Schirmer淚液試驗", "區分真正的結構性內翻和痙攣性內翻（局部麻醉後評估）"],
+      "advanced": ["局部麻醉點眼後重新評估（排除痙攣成分）", "幼犬需評估是否隨生長改善"]
+    },
+    "treatment": {
+      "overview": "手術矯正為根本治療。幼犬可暫時性固定等待面部生長穩定後再永久性矯正。",
+      "acute": ["幼犬暫時性處置：眼瞼訂書針固定（eyelid tacking）或暫時性縫合", "角膜潰瘍治療：外用抗生素（ofloxacin或tobramycin q6h）", "潤滑劑保護角膜", "止痛和減輕眼瞼痙攣"],
+      "chronic": ["成犬永久性手術矯正：Hotz-Celsus手術（最常用）", "嚴重病例可能需合併手術技術", "沙皮犬可能需額部整形術（face lift）", "術後外用抗生素和抗炎眼藥", "伊莉莎白頸圈2週"]
+    },
+    "prognosis": "手術矯正後預後極佳。適當手術後角膜病變通常改善或穩定。過度矯正可能導致醫源性眼瞼外翻。幼犬暫時性處置後可能需要成年後再永久矯正。",
+    "pearls": ["沙皮犬幼犬可能需緊急眼瞼暫時固定以保護角膜", "幼犬面部尚未發育完成，不要過早進行永久性手術", "痙攣性眼瞼內翻需先治療原發眼部疼痛原因", "手術寧可輕微不足也不要過度矯正（外翻比內翻更難修復）", "慢性角膜色素沉著在手術矯正後可能持續改善數月"],
+    "monitoring": ["術後1-2週拆線和評估矯正效果", "角膜染色追蹤潰瘍癒合", "長期監測是否需要再次手術", "幼犬需在生長完成後重新評估"],
+    "reference": "Maggs DJ, Miller PE, Ofri R: Slatter's Fundamentals of Veterinary Ophthalmology, 6th Ed. Elsevier, 2018"
+  },
+  "progressive-retinal-atrophy": {
+    "zh": "進行性視網膜萎縮",
+    "en": "Progressive Retinal Atrophy",
+    "definition": "一群遺傳性視網膜退行性疾病的統稱，特徵為光感受器（桿狀和錐狀細胞）的進行性退化，最終導致完全失明。是犬最常見的遺傳性眼疾。",
+    "synonyms": ["PRA", "Generalized Progressive Retinal Atrophy", "Progressive Rod-Cone Degeneration"],
+    "epidemiology": {
+      "species": "犬較常見，貓也可發生（較少見）",
+      "age": "早發型（retinal dysplasia）：數月齡；晚發型（退化型）：3-5歲開始",
+      "sex": "多為常染色體隱性遺傳，部分為X染色體連鎖",
+      "riskFactors": ["品種遺傳：貴賓犬（迷你和玩具型）、可卡犬、拉布拉多、黃金獵犬", "愛爾蘭雪達犬（早發型）", "西伯利亞哈士奇（X連鎖遺傳）", "臘腸犬", "近親繁殖"]
+    },
+    "clinicalPresentation": {
+      "history": ["夜盲症（nyctalopia）為最初徵兆", "暗處猶豫不前或撞到物品", "逐漸進展到日間視力喪失", "瞳孔看起來比以前大", "眼睛反光增強（tapetal hyperreflectivity）", "飼主可能在很晚才注意到（犬在熟悉環境中可適應良好）"],
+      "physicalExam": ["雙側瞳孔散大", "瞳孔對光反射遲鈍到消失（晚期）", "眼底檢查：視網膜血管萎細、tapetum hyperreflectivity", "視網膜變薄和色素變化", "晚期可能繼發白內障", "威脅反射（menace response）減弱或消失"]
+    },
+    "pathophysiology": "PRA為一群遺傳性疾病，各有不同的基因突變但臨床表現相似。早發型（dysplasia）：光感受器發育異常，幼年即開始退化。晚發型（degeneration）：光感受器正常發育後逐漸退化。桿狀細胞通常先受影響（導致夜盲），隨後錐狀細胞也退化（全盲）。視網膜光感受器層逐漸變薄消失，RPE和反光毯暴露增加。",
+    "diagnosis": {
+      "overview": "眼底檢查和視網膜電圖（ERG）為主要診斷工具。基因檢測可在臨床前期確診。",
+      "differentials": ["突發性後天性視網膜退化症候群（SARDS）", "視神經炎", "中樞性失明", "白內障導致視力障礙", "視網膜剝離", "營養性視網膜退化（牛磺酸缺乏，貓）"],
+      "initialDB": ["完整眼科檢查含眼底檢查", "威脅反射和瞳孔對光反射評估", "暗室和明室行為觀察", "障礙物迷宮測試"],
+      "advanced": ["視網膜電圖（ERG，可在眼底變化出現前檢測異常）", "DNA基因檢測（品種特異性基因panel）", "光學同調斷層掃描（OCT，評估視網膜厚度）"]
+    },
+    "treatment": {
+      "overview": "目前無有效治療可逆轉或停止PRA進展。管理重點在於併發症處理和環境適應。",
+      "acute": ["無急性治療可用", "繼發白內障如引起晶體誘發性葡萄膜炎需治療"],
+      "chronic": ["抗氧化劑補充（維生素E、omega-3，理論上可能延緩進展但缺乏強力證據）", "繼發白內障手術評估（但PRA患犬白內障手術預後差）", "環境管理：保持家具位置不變、避免危險物品", "夜間小夜燈協助殘餘視力", "攜帶犬隻的安全輔具", "繁殖控制：確認的PRA攜帶者和患犬不應繁殖"]
+    },
+    "prognosis": "PRA為進行性且無法治癒，最終導致完全失明。從夜盲到全盲的進展速度因品種和類型而異（數月到數年）。視力喪失但犬隻在穩定環境中通常可以適應良好，生活品質可維持。",
+    "pearls": ["夜盲是最早的臨床徵兆，飼主常不易察覺", "ERG可在眼底出現明顯變化前數月至數年即檢測到異常", "基因檢測是繁殖犬篩檢的重要工具", "SARDS與PRA的鑑別：SARDS突發、ERG flat；PRA漸進、ERG逐漸降低", "PRA患犬的繼發白內障手術視力預後差，因視網膜功能已受損", "犬的適應能力強，失明犬在穩定環境中仍可有良好生活品質"],
+    "monitoring": ["每6-12個月眼科追蹤", "監測白內障和葡萄膜炎的發展", "繁殖犬定期ERG篩檢和基因檢測", "評估犬隻生活品質和環境適應"],
+    "reference": "Maggs DJ, Miller PE, Ofri R: Slatter's Fundamentals of Veterinary Ophthalmology, 6th Ed. Elsevier, 2018"
+  }
+}

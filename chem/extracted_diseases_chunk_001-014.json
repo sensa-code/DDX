@@ -1,0 +1,879 @@
+{
+  "source": "Clinical Veterinary Advisor: Dogs and Cats, 2nd Edition by Etienne Côté",
+  "chunks_processed": "001-014",
+  "total_diseases": 147,
+  "diseases": [
+    {
+      "name_en": "5-Fluorouracil Toxicosis",
+      "source_chunk": "chunk_002",
+      "definition": "Adverse effects caused by exposure to 5-fluorouracil (5-FU), a pyrimidine analog-type antineoplastic antimetabolite drug used for palliative management of certain\ncarcinomas in humans and occasionally in dogs.",
+      "synonyms": [
+        "Common brand names: Efudex",
+        "Fluoroplex",
+        "and Carac. Generic: 2",
+        "4-dioxo-5-fluoropyrimidine",
+        "5-fluoro-2",
+        "4(1H",
+        "3H)",
+        "pyrimidinedione",
+        "5-FU",
+        "NSC 19893",
+        "Ro2-9757",
+        "CAS 51-21-8."
+      ],
+      "clinical_presentation": {
+        "history_chief_complaint": [
+          "History of exposure to product containing 5-FU",
+          "Clinical signs begin within 30 minutes to 5 hours of exposure.",
+          "Vomiting, hypersalivation, lethargy, vocalization, diarrhea, tremors, ataxia, seizures",
+          "Some animals show vomiting progressing quickly to seizures; others may show tremors and seizures and no vomiting."
+        ],
+        "physical_exam": [
+          "Seizures (often status epilepticus)",
+          "Vomiting (with or without blood)",
+          "Diarrhea (with or without blood)",
+          "Tremors",
+          "Lethargy",
+          "Ataxia",
+          "Cardiac arrhythmias (all kinds)",
+          "Respiratory depression"
+        ]
+      },
+      "diagnosis": {
+        "overview": "http://www.clinicalvetadvisor2.com/html/bc/ch002s001_s001_s001.php 21-09-2011",
+        "initial_database": [
+          "Serum biochemistry profile (elevated liver enzymes, azotemia possible in 24 hours)",
+          "Electrolytes (hypokalemia possible due to severe vomiting, diarrhea)",
+          "CBC with differential (baseline, monitor q 24-72 hours for 20 days); initial leukocytosis followed by evidence of myelosuppression, leukopenia,",
+          "Blood gas analysis",
+          "Urinalysis"
+        ]
+      }
+    },
+    {
+      "name_en": "Abdominal Compartment Syndrome",
+      "source_chunk": "chunk_002",
+      "definition": "Impaired organ function resulting from increased intraabdominal pressure (IAP >20 mm Hg). This syndrome is likely underrecognized in veterinary medicine and\nhas a high prevalence in human ICU patients.",
+      "synonyms": [
+        "ACS",
+        "increased IAP",
+        "intraabdominal hypertension (IAH)"
+      ],
+      "clinical_presentation": {
+        "history_chief_complaint": [
+          "Frequent history of abdominal trauma or surgery",
+          "Indications to check IAP are (usually in combination):",
+          "New or progressive organ failure",
+          "Particularly azotemia, reduced urine output",
+          "Elevated central venous, mean arterial, right and left atrial pressures",
+          "Rising intracranial pressure, altered mentation",
+          "New vomiting and diarrhea",
+          "Acidosis, rising blood lactate levels"
+        ],
+        "physical_exam": [
+          "Physical examination and abdominal perimeter (girth) measurements are insensitive for detecting elevated IAP.",
+          "Progressive abdominal distension or tympany, jugular vein distension, tachypnea, tachycardia are possible"
+        ]
+      }
+    },
+    {
+      "name_en": "Abdominal Distention",
+      "source_chunk": "chunk_003",
+      "definition": "Enlargement of the abdominal cavity",
+      "synonyms": [
+        "Atypical hyperadrenocorticism",
+        "sex hormone abnormality"
+      ],
+      "clinical_presentation": {
+        "history_chief_complaint": [
+          "Abdominal enlargement (rate of distention is extremely variable, varies from acute to chronic and insidious)",
+          "Perceived weight gain",
+          "Decreased activity",
+          "Anorexia",
+          "Tachypnea",
+          "Abdominal discomfort/pain",
+          "When ascites is present and the fluid accumulation is rapid, clinical signs of weakness and dyspnea are more likely to be apparent.",
+          "History may include clinical signs associated with the primary disease (e.g., repeated, unproductive attempts at vomiting if gastric dilatation and volvulus;"
+        ],
+        "physical_exam": [
+          "Visible abdominal enlargement",
+          "Abdominal palpation:",
+          "Fluid wave may be present (ballottement) with ascites.",
+          "An abdominal mass or organomegaly (liver, spleen, kidney, etc.) may be palpable.",
+          "Physical abnormalities associated with primary disease may be present:",
+          "Cardiovascular abnormalities (heart murmur, arrhythmia, gallop sound, jugular distention) should warrant further investigation into the possibility of",
+          "Marked generalized lymphadenopathy may suggest lymphoma.",
+          "Muffled heart sounds are consistent with pericardial effusion and tamponade if ascites is present."
+        ]
+      }
+    },
+    {
+      "name_en": "Neoplasia",
+      "source_chunk": "chunk_003",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "Abortion, Dog",
+      "source_chunk": "chunk_004",
+      "definition": "• The expulsion of one or more fetuses before full term pregnancy. Uncommon; in the dog, resorption is more common. Occurs more often during the fetal\nperiod.\n\n• Induction of abortion (pregnancy termination): see p. 912.",
+      "synonyms": [
+        "Fetal loss",
+        "pregnancy wastage"
+      ],
+      "clinical_presentation": {
+        "history_chief_complaint": [
+          "Pregnant bitch whelps prematurely with live or dead pups, or no pups are born at term.",
+          "Abnormal vulvar discharge during pregnancy (bloody or purulent discharge), fever, or signs of abdominal pain may be noted by owner.",
+          "Usually abortion in the bitch goes unnoticed by the owner because the dam may consume the pups and the aborted tissues.",
+          "Death may occur in one or more fetuses, whereas the remainder may continue to develop normally.",
+          "Late-term abortions (between days 45 and 59) are typical of _B. canis_ ."
+        ],
+        "physical_exam": [
+          "Often unremarkable",
+          "Vulvar discharge occurs normally in pregnant bitches and is clear to mucoid or pink-tinged and odorless; purulent, hemorrhagic, greenish, blackish, or"
+        ]
+      }
+    },
+    {
+      "name_en": "20 Brunfelsia Toxicosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "18 Bronchiolar and Pulmonary Neoplasia",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "17 Bromethalin Toxicosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "16 Bromethalin Toxicosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "16 Brain Neoplasia",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "15 Brain Neoplasia",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "15 Brachycephalic Airway Syndrome",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "14 Brachycephalic Airway Syndrome",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "13 Botulism",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "13 Borreliosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "12 Borreliosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "12 Boric Acid Toxicosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "11 Boric Acid Toxicosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "11 Bordetellosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "11 Blue-Green Algae Toxicosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "10 Blue-Green Algae Toxicosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "10 Blastomycosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "09 Blastomycosis",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "09 Bilious Vomiting Syndrome",
+      "source_chunk": "chunk_005",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "09 Blastomycosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "09 Bilious Vomiting Syndrome",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "08 Bicipital Tenosynovitis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "07 Bicipital Tenosynovitis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "05 Baylisascaris Infection",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "05 Bartonellosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "04 Bartonellosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "03 Barbiturates Toxicosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "03 Baclofen and Other Centrally Acting Muscle Relaxants Toxicosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "02 Baclofen and Other Centrally Acting Muscle Relaxants Toxicosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "02 Babesiosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "00 Babesiosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "00 Cytauxzoonosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "36 Cytauxzoonosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "35 Cyanosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "33 Cyanosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "33 Cutaneous Neoplasia",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "32 Cutaneous Neoplasia",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "32 Cutaneous Lymphoma",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "31 Cutaneous Lymphoma",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "31 Cryptosporidiosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "30 Cryptosporidiosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "30 Cryptorchidism",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "30 Cryptococcosis",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "29 Cranial Vena Cava Syndrome",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "28 Cranial Vena Cava Syndrome",
+      "source_chunk": "chunk_006",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "29 Cranial Vena Cava Syndrome",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "28 Cranial Vena Cava Syndrome",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "28 Coronaviral Enteritis",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "27 Coronaviral Enteritis",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "24 Cor Triatriatum Sinister and Supravalvular Mitral Stenosis",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "28 Cor Triatriatum Sinister and Supravalvular Mitral Stenosis",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "24 Contact Dermatitis",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "23 Contact Dermatitis",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "23 Coma",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "22 Coma",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "18 Coccidioidomycosis",
+      "source_chunk": "chunk_007",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "18 Coccidioidomycosis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "17 Clostridial Enterocolitis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "16 Cleaning Products Toxicosis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "16 Citrus Oil Extract Toxicosis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "15 Citrus Oil Extract Toxicosis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "Fibrosing Liver Disease",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "14 Chondrosarcoma",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "14 Cholecystitis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "13 Cholecystitis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "13 Cholecalciferol Toxicosis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "12 Cholecalciferol Toxicosis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "12 Chocolate Toxicosis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "11 Chocolate Toxicosis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "11 Cheyletiellosis",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "10 Chagas Disease",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "09 Chagas Disease",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "09 Cervical Spondylomyelopathy",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "09 Cerebellar Abiotrophy",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "36 Cerebellar Abiotrophy",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "36 Caudal Occipital Malformation Syndrome",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "33 Caudal Occipital Malformation Syndrome",
+      "source_chunk": "chunk_008",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "Cachexia, Cardiac",
+      "source_chunk": "chunk_009",
+      "definition": "Weight and lean tissue loss commonly associated with congestive heart failure (CHF)",
+      "synonyms": [
+        "Cancer-associated weight loss"
+      ],
+      "clinical_presentation": {
+        "history_chief_complaint": [
+          "Heart failure (see p. 470)"
+        ],
+        "physical_exam": [
+          "Loss of lean body mass first noted in epaxial, gluteal, scapular, or temporal muscles; may be subtle initially",
+          "Carefully palpate obese animals and animals with ascites or subcutaneous edema to determine whether muscle loss is present."
+        ]
+      },
+      "diagnosis": {
+        "overview": "All animals with CHF should be assessed carefully for early signs of muscle loss so that cachexia can be detected at its early stages when intervention is more\nlikely to be successful.",
+        "initial_database": [
+          "Diet history, including specific types and amounts of food eaten, dietary supplements, treats, and foods used for administering medications",
+          "Evaluation for potential causes of anorexia (e.g., worsening CHF; medication side effects such as azotemia, hyperkalemia, or hypotension; unpalatable"
+        ]
+      },
+      "treatment": {
+        "overview": "The goals of treating cardiac cachexia are to (1) optimally manage CHF, (2) minimize anorexia, (3) reduce energy requirements, (4) ensure adequate protein\nintake, and (5) modulate cytokine production.",
+        "acute": [
+          "In acute CHF episodes, avoid diet changes until the patient is home and stabilized on medications.",
+          "To avoid food aversions, introduce new diet gradually when patient is stabilized."
+        ],
+        "chronic": "`�` Ensure optimal medical therapy for CHF (see p.470).\n\n`�` Nutritional management is key to the effective chronic treatment of cardiac cachexia (see below)."
+      },
+      "prognosis": "Prognosis depends on the underlying cardiac disease. However, anorexia is a common contributing factor to an owner's decision for euthanasia."
+    },
+    {
+      "name_en": "Cachexia, Cancer-Associated",
+      "source_chunk": "chunk_009",
+      "definition": "The term _cancer cachexia_ refers to weight loss in an animal or person with underlying neoplastic disease. Classic defining clinical features of the syndrome\ninclude severe involuntary weight loss, fatigue, anemia, and progressive depletion of both lean body mass and adipose stores.",
+      "synonyms": [
+        "Cancer-associated weight loss"
+      ]
+    },
+    {
+      "name_en": "33 Caudal Occipital Malformation Syndrome",
+      "source_chunk": "chunk_009",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "32 Castor Bean Toxicosis",
+      "source_chunk": "chunk_009",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "30 Campylobacter Enteritis",
+      "source_chunk": "chunk_009",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "29 Calcium Channel Blocker Drug Toxicosis",
+      "source_chunk": "chunk_009",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "28 Calcium Channel Blocker Drug Toxicosis",
+      "source_chunk": "chunk_009",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "Vitamin D3 Analog Toxicosis",
+      "source_chunk": "chunk_009",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "14 Dracunculus insignis Infection",
+      "source_chunk": "chunk_010",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "10 Dracunculus insignis Infection",
+      "source_chunk": "chunk_010",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "06 Diskospondylitis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "04 Diskospondylitis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "03 Dilated Cardiomyopathy",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "59 Dilated Cardiomyopathy",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "59 Digoxin Toxicosis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "49 Digoxin Toxicosis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "45 Diabetic Ketoacidosis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "44 Diabetic Ketoacidosis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "44 Dermatophytosis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "43 Dermatophytosis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "43 Dermatomyositis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "43 Demodicosis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "42 Degenerative Myelopathy",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "42 Decongestant Toxicosis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "41 Dacryocystitis",
+      "source_chunk": "chunk_011",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "41 Dacryocystitis",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "02 Esophagitis",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "00 Esophagitis",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "59 Esophageal Neoplasia",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "58 Esophageal Neoplasia",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "Scleritis",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "53 Eosinophilic Bronchopneumopathy",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "36 Eosinophilic Bronchopneumopathy",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "30 Elbow Hygroma",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "29 Elbow Hygroma",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "29 Elbow Dysplasia",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "26 Elbow Dysplasia",
+      "source_chunk": "chunk_012",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "26 Elbow Dysplasia",
+      "source_chunk": "chunk_013",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "s Syndrome",
+      "source_chunk": "chunk_013",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "22 Echinococcosis",
+      "source_chunk": "chunk_013",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "24 Fracture Disease",
+      "source_chunk": "chunk_013",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "21 Fibrosarcoma",
+      "source_chunk": "chunk_013",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "21 Fibrocartilaginous Embolism",
+      "source_chunk": "chunk_013",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "20 Fibrocartilaginous Embolism",
+      "source_chunk": "chunk_013",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "21 Fibrosarcoma",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "21 Fibrocartilaginous Embolism",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "20 Fibrocartilaginous Embolism",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "20 Feline Leukemia Virus Infection",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "20 Feline Infectious Peritonitis",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "20 Feline Immunodeficiency Virus Infection",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "19 Feline Immunodeficiency Virus Infection",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "19 Fanconi Syndrome",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "35 Grapes and Raisins Toxicosis",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "Colitis",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "34 Glyphosate Herbicide Toxicosis",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "34 Gluten-Sensitive Enteropathy",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "33 Gluten-Sensitive Enteropathy",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "33 Glomerulonephritis",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "33 Glaucoma",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "32 Gastrointestinal Endocrine Disease",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "31 Gastrointestinal Endocrine Disease",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "31 Gastrinoma",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "30 Gastrinoma",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "29 Gastric Neoplasia",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    },
+    {
+      "name_en": "28 Garbage Toxicosis",
+      "source_chunk": "chunk_014",
+      "note": "Partial entry - disease mentioned but full information not extracted from HTML format"
+    }
+  ]
+}

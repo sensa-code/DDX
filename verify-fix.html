@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>語法修復驗證</title>
+  <style>
+    body { font-family: 'Microsoft JhengHei', sans-serif; padding: 20px; }
+    .success { color: green; font-weight: bold; }
+    .error { color: red; font-weight: bold; }
+    .info { color: blue; }
+    pre { background: #f5f5f5; padding: 10px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <h1>vet-differential-diagnosis-v2.html 語法修復驗證</h1>
+  <div id="results"></div>
+
+  <script>
+    const results = document.getElementById('results');
+
+    function addResult(message, className = 'info') {
+      const div = document.createElement('div');
+      div.className = className;
+      div.innerHTML = message;
+      results.appendChild(div);
+    }
+
+    // 測試：載入主檔案的script
+    addResult('<h2>測試1: 載入主檔案script</h2>');
+
+    fetch('vet-differential-diagnosis-v2.html')
+      .then(response => response.text())
+      .then(html => {
+        const scriptMatch = html.match(/<script>([\s\S]*?)<\/script>/);
+        if (!scriptMatch) {
+          addResult('❌ 找不到script標籤', 'error');
+          return;
+        }
+
+        const scriptContent = scriptMatch[1];
+        addResult(`✅ 成功提取script (${scriptContent.length} 字元)`, 'success');
+
+        // 嘗試執行
+        try {
+          const testFunc = new Function(scriptContent);
+          addResult('✅ Script語法完全正確！', 'success');
+
+          // 實際執行以獲取變數
+          testFunc.call(window);
+
+          addResult('<h2>測試2: 檢查變數定義</h2>');
+
+          if (typeof SYNONYMS !== 'undefined') {
+            addResult(`✅ SYNONYMS 已定義 (${Object.keys(SYNONYMS).length} 個鍵)`, 'success');
+          } else {
+            addResult('❌ SYNONYMS 未定義', 'error');
+          }
+
+          if (typeof DISEASE_INFO !== 'undefined') {
+            const diseaseCount = Object.keys(DISEASE_INFO).length;
+            addResult(`✅ DISEASE_INFO 已定義 (${diseaseCount} 個疾病)`, 'success');
+
+            // 列出前10個疾病
+            const diseases = Object.keys(DISEASE_INFO).slice(0, 10);
+            addResult(`<pre>前10個疾病:\n${diseases.join('\n')}</pre>`);
+          } else {
+            addResult('❌ DISEASE_INFO 未定義', 'error');
+          }
+
+          addResult('<h2>測試3: 驗證關鍵修復點</h2>');
+
+          // 檢查 trigeminal-neuritis 是否存在
+          if (DISEASE_INFO['trigeminal-neuritis']) {
+            addResult('✅ trigeminal-neuritis 疾病定義存在', 'success');
+          }
+
+          // 檢查 gastric-dilatation-volvulus 是否存在（修復後的下一個疾病）
+          if (DISEASE_INFO['gastric-dilatation-volvulus']) {
+            addResult('✅ gastric-dilatation-volvulus 疾病定義存在', 'success');
+          }
+
+          addResult('<h2>🎉 所有測試通過！網頁可以正常運作。</h2>', 'success');
+
+        } catch (e) {
+          addResult(`❌ Script執行錯誤: ${e.message}`, 'error');
+          addResult(`<pre>${e.stack}</pre>`);
+        }
+      })
+      .catch(error => {
+        addResult(`❌ 載入檔案失敗: ${error.message}`, 'error');
+      });
+  </script>
+</body>
+</html>

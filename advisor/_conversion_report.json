@@ -1,0 +1,235 @@
+[
+  {
+    "source": "Clinical Veterinary Advisor_ Do - Etienne Cote.pdf",
+    "pages": 3846,
+    "file_size_mb": 70.74,
+    "split_mode": "token",
+    "output_files": [
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_001.md",
+        "tokens": 4020
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_002.md",
+        "tokens": 4153
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_003.md",
+        "tokens": 4202
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_004.md",
+        "tokens": 4124
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_005.md",
+        "tokens": 4310
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_006.md",
+        "tokens": 4359
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_007.md",
+        "tokens": 4346
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_008.md",
+        "tokens": 4305
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_009.md",
+        "tokens": 4244
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_010.md",
+        "tokens": 4234
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_011.md",
+        "tokens": 4348
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_012.md",
+        "tokens": 4301
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_013.md",
+        "tokens": 4323
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_014.md",
+        "tokens": 4344
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_015.md",
+        "tokens": 4394
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_016.md",
+        "tokens": 4382
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_017.md",
+        "tokens": 4393
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_018.md",
+        "tokens": 4381
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_019.md",
+        "tokens": 4278
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_020.md",
+        "tokens": 4310
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_021.md",
+        "tokens": 4390
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_022.md",
+        "tokens": 4371
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_023.md",
+        "tokens": 4354
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_024.md",
+        "tokens": 4413
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_025.md",
+        "tokens": 4288
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_026.md",
+        "tokens": 4389
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_027.md",
+        "tokens": 4370
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_028.md",
+        "tokens": 4399
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_029.md",
+        "tokens": 4332
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_030.md",
+        "tokens": 4325
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_031.md",
+        "tokens": 4349
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_032.md",
+        "tokens": 4298
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_033.md",
+        "tokens": 4321
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_034.md",
+        "tokens": 4103
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_035.md",
+        "tokens": 4283
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_036.md",
+        "tokens": 4221
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_037.md",
+        "tokens": 4400
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_038.md",
+        "tokens": 4504
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_039.md",
+        "tokens": 4514
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_040.md",
+        "tokens": 4500
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_041.md",
+        "tokens": 4430
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_042.md",
+        "tokens": 4398
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_043.md",
+        "tokens": 4359
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_044.md",
+        "tokens": 4270
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_045.md",
+        "tokens": 4284
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_046.md",
+        "tokens": 4278
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_047.md",
+        "tokens": 4295
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_048.md",
+        "tokens": 4272
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_049.md",
+        "tokens": 4279
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_050.md",
+        "tokens": 4307
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_051.md",
+        "tokens": 4287
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_052.md",
+        "tokens": 4297
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_053.md",
+        "tokens": 4284
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_054.md",
+        "tokens": 4316
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_055.md",
+        "tokens": 4302
+      },
+      {
+        "path": "E:\\CLAUDE CODE\\BOOK\\advisor\\Clinical Veterinary Advisor_ Do - Etienne Cote\\Clinical Veterinary Advisor_ Do - Etienne Cote_chunk_056.md",
+        "tokens": 1277
+      }
+    ],
+    "total_tokens": 238810
+  }
+]

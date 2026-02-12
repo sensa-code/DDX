@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>獸醫診斷系統資料驗證器</title>
+<style>
+body { font-family: "Microsoft JhengHei", sans-serif; padding: 20px; background: #f5f5f5; }
+.container { max-width: 1200px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+h1 { color: #2c6e49; border-bottom: 3px solid #4c956c; padding-bottom: 10px; }
+h2 { color: #4c956c; margin-top: 30px; }
+.status { padding: 15px; margin: 15px 0; border-radius: 5px; }
+.success { background: #d4edda; border-left: 4px solid #28a745; }
+.error { background: #f8d7da; border-left: 4px solid #dc3545; }
+.warning { background: #fff3cd; border-left: 4px solid #ffc107; }
+.info { background: #d1ecf1; border-left: 4px solid #17a2b8; }
+table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+th { background: #4c956c; color: white; }
+.count { font-weight: bold; color: #2c6e49; font-size: 1.2em; }
+code { background: #f4f4f4; padding: 2px 6px; border-radius: 3px; }
+.progress { margin: 20px 0; }
+.progress-bar { width: 100%; height: 30px; background: #e9ecef; border-radius: 5px; overflow: hidden; }
+.progress-fill { height: 100%; background: linear-gradient(90deg, #4c956c, #2c6e49); transition: width 0.3s; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; }
+.disease-list { max-height: 400px; overflow-y: auto; border: 1px solid #ddd; padding: 10px; }
+.disease-item { padding: 5px; margin: 3px 0; background: #f8f9fa; border-radius: 3px; }
+button { background: #4c956c; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; margin: 5px; }
+button:hover { background: #2c6e49; }
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>🐾 獸醫診斷輔助系統 v2.0 - 資料驗證器</h1>
+
+<div id="loadingStatus" class="status info">
+  <strong>⏳ 正在載入資料...</strong>
+</div>
+
+<div id="results" style="display:none;">
+
+  <h2>📊 基本統計</h2>
+  <table>
+    <tr><th>項目</th><th>數值</th></tr>
+    <tr><td>總疾病數量</td><td class="count" id="totalDiseases">-</td></tr>
+    <tr><td>資料完整性</td><td class="count" id="completeness">-</td></tr>
+    <tr><td>別名總數</td><td class="count" id="totalAliases">-</td></tr>
+    <tr><td>別名指向疾病數</td><td class="count" id="aliasTargets">-</td></tr>
+  </table>
+
+  <h2>✅ 資料完整性</h2>
+  <div class="progress">
+    <div class="progress-bar">
+      <div class="progress-fill" id="completenessBar" style="width: 0%">0%</div>
+    </div>
+  </div>
+  <div id="completenessStatus"></div>
+
+  <h2>🔍 ID唯一性驗證</h2>
+  <div id="uniquenessStatus"></div>
+
+  <h2>🔗 別名對照表驗證</h2>
+  <div id="aliasStatus"></div>
+
+  <h2>🆕 新增疾病驗證（8個）</h2>
+  <div id="newDiseasesStatus"></div>
+
+  <h2>📋 疾病列表（前50個）</h2>
+  <div class="disease-list" id="diseaseList"></div>
+
+  <h2>💾 匯出功能</h2>
+  <button onclick="downloadReport()">下載完整報告 (Markdown)</button>
+  <button onclick="downloadData()">下載疾病資料 (JSON)</button>
+</div>
+
+</div>
+
+<script src="vet-differential-diagnosis-v2.html"></script>
+
+<script>
+// 等待資料載入
+setTimeout(function() {
+  try {
+    // 檢查資料是否存在
+    if (typeof DISEASE_INFO === 'undefined' || typeof DISEASE_ALIASES === 'undefined') {
+      document.getElementById('loadingStatus').innerHTML = '<strong>❌ 錯誤：無法載入疾病資料</strong><p>請確認 DISEASE_INFO 和 DISEASE_ALIASES 已正確定義。</p>';
+      document.getElementById('loadingStatus').className = 'status error';
+      throw new Error('資料未定義');
+    }
+
+    document.getElementById('loadingStatus').innerHTML = '<strong>✅ 資料載入成功！</strong>';
+    document.getElementById('loadingStatus').className = 'status success';
+    document.getElementById('results').style.display = 'block';
+
+    // 開始驗證
+    validateData();
+
+  } catch (error) {
+    document.getElementById('loadingStatus').innerHTML = '<strong>❌ 載入失敗</strong><p>' + error.message + '</p>';
+    document.getElementById('loadingStatus').className = 'status error';
+  }
+}, 1000);
+
+function validateData() {
+  const diseaseIds = Object.keys(DISEASE_INFO);
+  const aliases = Object.keys(DISEASE_ALIASES);
+
+  // 1. 基本統計
+  document.getElementById('totalDiseases').textContent = diseaseIds.length;
+  document.getElementById('totalAliases').textContent = aliases.length;
+
+  // 2. 資料完整性檢查
+  const requiredFields = ['zh', 'en', 'definition'];
+  let completeCount = 0;
+  const missingFields = [];
+
+  diseaseIds.forEach(id => {
+    const disease = DISEASE_INFO[id];
+    const missing = [];
+
+    requiredFields.forEach(field => {
+      if (!disease[field] || disease[field] === '') {
+        missing.push(field);
+      }
+    });
+
+    if (missing.length === 0) {
+      completeCount++;
+    } else {
+      missingFields.push({ id, missing });
+    }
+  });
+
+  const completenessPercent = (completeCount / diseaseIds.length * 100).toFixed(2);
+  document.getElementById('completeness').textContent = completenessPercent + '%';
+  document.getElementById('completenessBar').style.width = completenessPercent + '%';
+  document.getElementById('completenessBar').textContent = completenessPercent + '%';
+
+  if (missingFields.length === 0) {
+    document.getElementById('completenessStatus').innerHTML = '<div class="status success"><strong>✅ 所有疾病資料完整</strong></div>';
+  } else {
+    let html = '<div class="status warning"><strong>⚠️ ' + missingFields.length + ' 個疾病資料不完整</strong><br>';
+    html += '<p>缺少欄位的疾病（前10個）：</p><ul>';
+    missingFields.slice(0, 10).forEach(item => {
+      html += '<li><code>' + item.id + '</code>: 缺少 ' + item.missing.join(', ') + '</li>';
+    });
+    html += '</ul></div>';
+    document.getElementById('completenessStatus').innerHTML = html;
+  }
+
+  // 3. ID唯一性
+  const idSet = new Set();
+  const duplicates = [];
+  diseaseIds.forEach(id => {
+    if (idSet.has(id)) {
+      duplicates.push(id);
+    }
+    idSet.add(id);
+  });
+
+  if (duplicates.length === 0) {
+    document.getElementById('uniquenessStatus').innerHTML = '<div class="status success"><strong>✅ 所有疾病ID唯一</strong></div>';
+  } else {
+    let html = '<div class="status error"><strong>❌ 發現 ' + duplicates.length + ' 個重複ID</strong><ul>';
+    duplicates.forEach(id => {
+      html += '<li><code>' + id + '</code></li>';
+    });
+    html += '</ul></div>';
+    document.getElementById('uniquenessStatus').innerHTML = html;
+  }
+
+  // 4. 別名驗證
+  const orphanedAliases = [];
+  const uniqueTargets = new Set();
+
+  aliases.forEach(alias => {
+    const target = DISEASE_ALIASES[alias];
+    uniqueTargets.add(target);
+
+    if (!DISEASE_INFO[target]) {
+      orphanedAliases.push({ alias, target });
+    }
+  });
+
+  document.getElementById('aliasTargets').textContent = uniqueTargets.size;
+
+  if (orphanedAliases.length === 0) {
+    document.getElementById('aliasStatus').innerHTML = '<div class="status success"><strong>✅ 所有別名都指向有效的疾病ID</strong></div>';
+  } else {
+    let html = '<div class="status error"><strong>❌ 發現 ' + orphanedAliases.length + ' 個孤立別名</strong><br>';
+    html += '<p>指向不存在疾病的別名（前10個）：</p><ul>';
+    orphanedAliases.slice(0, 10).forEach(item => {
+      html += '<li>"' + item.alias + '" → <code>' + item.target + '</code> (不存在)</li>';
+    });
+    html += '</ul></div>';
+    document.getElementById('aliasStatus').innerHTML = html;
+  }
+
+  // 5. 新增疾病驗證
+  const newDiseases = [
+    '5-fluorouracil-toxicosis',
+    'abdominal-compartment-syndrome',
+    'abortion-dog',
+    'cachexia-cardiac',
+    'hypospadias',
+    'herpesvirus-dog',
+    'helicobacter-gastritis',
+    'neonatal-isoerythrolysis'
+  ];
+
+  let newDiseaseHtml = '<table><tr><th>疾病ID</th><th>存在</th><th>別名</th><th>中文</th><th>定義</th></tr>';
+  newDiseases.forEach(id => {
+    const exists = DISEASE_INFO.hasOwnProperty(id);
+    const hasAlias = Object.values(DISEASE_ALIASES).includes(id);
+    const disease = DISEASE_INFO[id];
+
+    newDiseaseHtml += '<tr>';
+    newDiseaseHtml += '<td><code>' + id + '</code></td>';
+    newDiseaseHtml += '<td>' + (exists ? '✅' : '❌') + '</td>';
+    newDiseaseHtml += '<td>' + (hasAlias ? '✅' : '❌') + '</td>';
+    newDiseaseHtml += '<td>' + (exists && disease.zh ? disease.zh : '❌') + '</td>';
+    newDiseaseHtml += '<td>' + (exists && disease.definition ? '✅' : '❌') + '</td>';
+    newDiseaseHtml += '</tr>';
+  });
+  newDiseaseHtml += '</table>';
+  document.getElementById('newDiseasesStatus').innerHTML = newDiseaseHtml;
+
+  // 6. 疾病列表
+  let listHtml = '';
+  diseaseIds.slice(0, 50).forEach((id, index) => {
+    const disease = DISEASE_INFO[id];
+    listHtml += '<div class="disease-item">';
+    listHtml += '<strong>' + (index + 1) + '.</strong> ';
+    listHtml += '<code>' + id + '</code> - ';
+    listHtml += disease.zh || '(無中文)';
+    listHtml += ' / ' + (disease.en || '(無英文)');
+    listHtml += '</div>';
+  });
+  if (diseaseIds.length > 50) {
+    listHtml += '<div class="status info">... 以及其他 ' + (diseaseIds.length - 50) + ' 個疾病</div>';
+  }
+  document.getElementById('diseaseList').innerHTML = listHtml;
+
+  // 儲存全域變數供下載使用
+  window.validationResults = {
+    diseaseIds,
+    aliases,
+    completeCount,
+    missingFields,
+    duplicates,
+    orphanedAliases,
+    uniqueTargets,
+    newDiseases
+  };
+}
+
+function downloadReport() {
+  const results = window.validationResults;
+  const timestamp = new Date().toLocaleString('zh-TW', { timeZone: 'Asia/Taipei' });
+
+  let content = '# 獸醫診斷輔助系統驗證報告\n\n';
+  content += '**驗證日期**: ' + timestamp + '\n';
+  content += '**系統版本**: v2.0\n\n';
+  content += '---\n\n';
+
+  content += '## 基本統計\n\n';
+  content += '| 項目 | 數量 |\n';
+  content += '|------|------|\n';
+  content += '| 總疾病數量 | ' + results.diseaseIds.length + ' |\n';
+  content += '| 完整資料疾病 | ' + results.completeCount + ' |\n';
+  content += '| 資料完整性 | ' + (results.completeCount / results.diseaseIds.length * 100).toFixed(2) + '% |\n';
+  content += '| 別名總數 | ' + results.aliases.length + ' |\n';
+  content += '| 別名指向疾病數 | ' + results.uniqueTargets.size + ' |\n\n';
+
+  content += '## 驗證結果\n\n';
+  content += '- **ID唯一性**: ' + (results.duplicates.length === 0 ? '✅ 通過' : '❌ 失敗') + '\n';
+  content += '- **別名有效性**: ' + (results.orphanedAliases.length === 0 ? '✅ 通過' : '❌ ' + results.orphanedAliases.length + ' 個問題') + '\n';
+  content += '- **資料完整性**: ' + (results.missingFields.length === 0 ? '✅ 完美' : '⚠️ ' + results.missingFields.length + ' 個需補充') + '\n\n';
+
+  if (results.missingFields.length > 0) {
+    content += '## 不完整資料\n\n';
+    results.missingFields.slice(0, 20).forEach(item => {
+      content += '- `' + item.id + '`: 缺少 ' + item.missing.join(', ') + '\n';
+    });
+    content += '\n';
+  }
+
+  const blob = new Blob([content], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'validation-report-' + Date.now() + '.md';
+  a.click();
+}
+
+function downloadData() {
+  const data = {
+    diseases: DISEASE_INFO,
+    aliases: DISEASE_ALIASES,
+    metadata: {
+      totalDiseases: Object.keys(DISEASE_INFO).length,
+      totalAliases: Object.keys(DISEASE_ALIASES).length,
+      exportDate: new Date().toISOString(),
+      version: '2.0'
+    }
+  };
+
+  const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'disease-data-' + Date.now() + '.json';
+  a.click();
+}
+</script>
+
+</body>
+</html>

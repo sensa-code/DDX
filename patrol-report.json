@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-02-04T15:41:11.227Z",
+  "file": "E:\\CLAUDE CODE\\BOOK\\vet-differential-diagnosis-v2.html",
+  "fileSize": 1051508,
+  "lines": 26815,
+  "summary": {
+    "critical": 0,
+    "high": 1,
+    "medium": 0,
+    "total": 1
+  },
+  "checks": {
+    "htmlStructure": {
+      "hasDoctype": true,
+      "hasHtmlOpen": true,
+      "hasHtmlClose": true,
+      "hasHead": true,
+      "hasBody": true
+    },
+    "syntax": {
+      "openBraces": 3607,
+      "closeBraces": 3607,
+      "openBrackets": 5233,
+      "closeBrackets": 5233,
+      "scriptOpens": 1,
+      "scriptCloses": 1
+    },
+    "chineseQuotes": 18039
+  },
+  "issues": [
+    {
+      "severity": "HIGH",
+      "line": "multiple",
+      "msg": "發現 18039 處中文引號需要修復"
+    }
+  ]
+}

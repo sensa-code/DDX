@@ -1,0 +1,556 @@
+{
+  "group": 3,
+  "count": 110,
+  "diseases": [
+    {
+      "id": "brachycephalic-obstructive-airway-syndrome",
+      "zh": "短頭顱阻塞性呼吸道症候群",
+      "en": "Brachycephalic Obstructive Airway Syndrome"
+    },
+    {
+      "id": "tracheal-collapse",
+      "zh": "氣管塌陷",
+      "en": "Tracheal Collapse"
+    },
+    {
+      "id": "feline-asthma",
+      "zh": "貓哮喘",
+      "en": "Feline Asthma"
+    },
+    {
+      "id": "periodontal-disease",
+      "zh": "牙周病",
+      "en": "Periodontal Disease"
+    },
+    {
+      "id": "chocolate-toxicosis",
+      "zh": "巧克力中毒",
+      "en": "Chocolate Toxicosis"
+    },
+    {
+      "id": "anticoagulant-rodenticide-toxicosis",
+      "zh": "抗凝血殺鼠劑中毒",
+      "en": "Anticoagulant Rodenticide Toxicosis"
+    },
+    {
+      "id": "congestive-heart-failure",
+      "zh": "充血性心力衰竭",
+      "en": "Congestive Heart Failure"
+    },
+    {
+      "id": "pleural-effusion",
+      "zh": "胸腔積液",
+      "en": "Pleural Effusion"
+    },
+    {
+      "id": "anaphylaxis",
+      "zh": "過敏性休克",
+      "en": "Anaphylaxis"
+    },
+    {
+      "id": "food-allergy",
+      "zh": "食物過敏",
+      "en": "Food Allergy"
+    },
+    {
+      "id": "demodicosis",
+      "zh": "蠕形蟎病",
+      "en": "Demodicosis"
+    },
+    {
+      "id": "sarcoptic-mange",
+      "zh": "疥蟎病",
+      "en": "Sarcoptic Mange"
+    },
+    {
+      "id": "hot-spot",
+      "zh": "急性濕性皮膚炎",
+      "en": "Acute Moist Dermatitis (Hot Spot)"
+    },
+    {
+      "id": "elbow-dysplasia",
+      "zh": "肘關節發育不良",
+      "en": "Elbow Dysplasia"
+    },
+    {
+      "id": "melanoma",
+      "zh": "黑色素瘤",
+      "en": "Melanoma"
+    },
+    {
+      "id": "squamous-cell-carcinoma",
+      "zh": "鱗狀細胞癌",
+      "en": "Squamous Cell Carcinoma"
+    },
+    {
+      "id": "soft-tissue-sarcoma",
+      "zh": "軟組織肉瘤",
+      "en": "Soft Tissue Sarcoma"
+    },
+    {
+      "id": "feline-herpesvirus",
+      "zh": "貓疱疹病毒感染",
+      "en": "Feline Herpesvirus Infection"
+    },
+    {
+      "id": "feline-calicivirus",
+      "zh": "貓杯狀病毒感染",
+      "en": "Feline Calicivirus Infection"
+    },
+    {
+      "id": "feline-panleukopenia",
+      "zh": "貓泛白血球減少症",
+      "en": "Feline Panleukopenia"
+    },
+    {
+      "id": "kennel-cough",
+      "zh": "犬傳染性呼吸道疾病",
+      "en": "Canine Infectious Respiratory Disease Complex (Kennel Cough)"
+    },
+    {
+      "id": "hookworm",
+      "zh": "鉤蟲感染",
+      "en": "Hookworm Infection"
+    },
+    {
+      "id": "roundworm",
+      "zh": "蛔蟲感染",
+      "en": "Roundworm Infection"
+    },
+    {
+      "id": "uveitis",
+      "zh": "葡萄膜炎",
+      "en": "Uveitis"
+    },
+    {
+      "id": "cherry-eye",
+      "zh": "第三眼瞼腺脫出",
+      "en": "Cherry Eye (Prolapse of the Third Eyelid Gland)"
+    },
+    {
+      "id": "entropion",
+      "zh": "眼瞼內翻",
+      "en": "Entropion"
+    },
+    {
+      "id": "progressive-retinal-atrophy",
+      "zh": "進行性視網膜萎縮",
+      "en": "Progressive Retinal Atrophy"
+    },
+    {
+      "id": "immune-mediated-thrombocytopenia",
+      "zh": "免疫性血小板減少症",
+      "en": "Immune-Mediated Thrombocytopenia"
+    },
+    {
+      "id": "von-willebrand-disease",
+      "zh": "乏乙醯蘭特氏病",
+      "en": "Von Willebrand Disease"
+    },
+    {
+      "id": "gallbladder-mucocele",
+      "zh": "膽囊黏液囊腫",
+      "en": "Gallbladder Mucocele"
+    },
+    {
+      "id": "intestinal-foreign-body",
+      "zh": "腸道異物",
+      "en": "Intestinal Foreign Body"
+    },
+    {
+      "id": "gastric-foreign-body",
+      "zh": "胃異物",
+      "en": "Gastric Foreign Body"
+    },
+    {
+      "id": "feline-chronic-gingivostomatitis",
+      "zh": "貓慢性牙齦口炎",
+      "en": "Feline Chronic Gingivostomatitis"
+    },
+    {
+      "id": "feline-tooth-resorption",
+      "zh": "貓牙齒吸收",
+      "en": "Feline Tooth Resorption"
+    },
+    {
+      "id": "conjunctivitis",
+      "zh": "結膜炎",
+      "en": "Conjunctivitis"
+    },
+    {
+      "id": "pemphigus-foliaceus",
+      "zh": "天疱瘡",
+      "en": "Pemphigus Foliaceus"
+    },
+    {
+      "id": "seborrhea",
+      "zh": "脂漏症",
+      "en": "Seborrhea"
+    },
+    {
+      "id": "malassezia-dermatitis",
+      "zh": "馬拉色菌皮膚炎",
+      "en": "Malassezia Dermatitis"
+    },
+    {
+      "id": "aspiration-pneumonia",
+      "zh": "吸入性肺炎",
+      "en": "Aspiration Pneumonia"
+    },
+    {
+      "id": "pneumothorax",
+      "zh": "氣胸",
+      "en": "Pneumothorax"
+    },
+    {
+      "id": "pyothorax",
+      "zh": "膿胸",
+      "en": "Pyothorax"
+    },
+    {
+      "id": "chylothorax",
+      "zh": "乳糜胸",
+      "en": "Chylothorax"
+    },
+    {
+      "id": "osteochondritis-dissecans",
+      "zh": "剝脫性骨軟骨炎",
+      "en": "Osteochondritis Dissecans"
+    },
+    {
+      "id": "legg-calve-perthes",
+      "zh": "股骨頭無菌性壞死",
+      "en": "Legg-Calvé-Perthes Disease"
+    },
+    {
+      "id": "panosteitis",
+      "zh": "全骨炎",
+      "en": "Panosteitis"
+    },
+    {
+      "id": "fracture",
+      "zh": "骨折",
+      "en": "Fracture"
+    },
+    {
+      "id": "canine-influenza",
+      "zh": "犬流感",
+      "en": "Canine Influenza Virus (CIV)"
+    },
+    {
+      "id": "feline-chlamydiosis",
+      "zh": "貓衣原體感染",
+      "en": "Feline Chlamydiosis"
+    },
+    {
+      "id": "canine-brucellosis",
+      "zh": "犬布魯氏菌病",
+      "en": "Canine Brucellosis"
+    },
+    {
+      "id": "tapeworm",
+      "zh": "絛蟲感染",
+      "en": "Tapeworm Infection"
+    },
+    {
+      "id": "whipworm",
+      "zh": "鞭蟲感染",
+      "en": "Whipworm Infection"
+    },
+    {
+      "id": "flea-infestation",
+      "zh": "跳蚤感染",
+      "en": "Flea Infestation"
+    },
+    {
+      "id": "xylitol-toxicosis",
+      "zh": "木糖醇中毒",
+      "en": "Xylitol Toxicosis"
+    },
+    {
+      "id": "nsaid-toxicosis",
+      "zh": "非類固醇抗發炎藥中毒",
+      "en": "NSAID Toxicosis"
+    },
+    {
+      "id": "grape-raisin-toxicosis",
+      "zh": "葡萄/葡萄乾中毒",
+      "en": "Grape and Raisin Toxicosis"
+    },
+    {
+      "id": "lily-toxicosis",
+      "zh": "百合中毒",
+      "en": "Lily Toxicosis"
+    },
+    {
+      "id": "ethylene-glycol-toxicosis",
+      "zh": "乙二醇中毒",
+      "en": "Ethylene Glycol Toxicosis"
+    },
+    {
+      "id": "acetaminophen-toxicosis",
+      "zh": "乙醯胺酚中毒",
+      "en": "Acetaminophen Toxicosis"
+    },
+    {
+      "id": "snake-envenomation",
+      "zh": "蛇咬傷中毒",
+      "en": "Snake Envenomation"
+    },
+    {
+      "id": "sepsis-sirs",
+      "zh": "敗血症/全身炎症反應症候群",
+      "en": "Sepsis / Systemic Inflammatory Response Syndrome"
+    },
+    {
+      "id": "hepatic-tumor",
+      "zh": "肝臟腫瘤",
+      "en": "Hepatic Tumor"
+    },
+    {
+      "id": "splenic-tumor",
+      "zh": "脾臟腫瘤",
+      "en": "Splenic Tumor"
+    },
+    {
+      "id": "pulmonary-neoplasia",
+      "zh": "肺腫瘤",
+      "en": "Pulmonary Neoplasia"
+    },
+    {
+      "id": "anal-sac-adenocarcinoma",
+      "zh": "肛門囊腺癌",
+      "en": "Anal Sac Adenocarcinoma"
+    },
+    {
+      "id": "histiocytic-sarcoma",
+      "zh": "組織細胞肉瘤",
+      "en": "Histiocytic Sarcoma"
+    },
+    {
+      "id": "meningioma",
+      "zh": "腦膜瘤",
+      "en": "Meningioma"
+    },
+    {
+      "id": "right-sided-heart-failure",
+      "zh": "右心衰竭",
+      "en": "Right-Sided Congestive Heart Failure"
+    },
+    {
+      "id": "myocarditis",
+      "zh": "心肌炎",
+      "en": "Myocarditis"
+    },
+    {
+      "id": "restrictive-cardiomyopathy",
+      "zh": "限制型心肌病",
+      "en": "Restrictive Cardiomyopathy"
+    },
+    {
+      "id": "sick-sinus-syndrome",
+      "zh": "病竇症候群",
+      "en": "Sick Sinus Syndrome"
+    },
+    {
+      "id": "obesity",
+      "zh": "肥胖症",
+      "en": "Obesity"
+    },
+    {
+      "id": "hepatic-encephalopathy",
+      "zh": "肝性腦病",
+      "en": "Hepatic Encephalopathy"
+    },
+    {
+      "id": "hyperlipoproteinemia",
+      "zh": "高脂蛋白血症",
+      "en": "Hyperlipoproteinemia"
+    },
+    {
+      "id": "pulmonary-edema",
+      "zh": "肺水腫",
+      "en": "Pulmonary Edema"
+    },
+    {
+      "id": "pulmonary-thromboembolism",
+      "zh": "肺血栓栓塞症",
+      "en": "Pulmonary Thromboembolism"
+    },
+    {
+      "id": "pulmonary-contusion",
+      "zh": "肺挫傷",
+      "en": "Pulmonary Contusion"
+    },
+    {
+      "id": "feline-upper-respiratory-infection",
+      "zh": "貓上呼吸道感染",
+      "en": "Feline Upper Respiratory Infection"
+    },
+    {
+      "id": "feline-triaditis",
+      "zh": "貓三體炎",
+      "en": "Feline Triaditis"
+    },
+    {
+      "id": "chronic-hepatitis",
+      "zh": "慢性肝炎",
+      "en": "Chronic Hepatitis"
+    },
+    {
+      "id": "acute-hepatic-failure",
+      "zh": "急性肝衰竭",
+      "en": "Acute Hepatic Failure"
+    },
+    {
+      "id": "septic-peritonitis",
+      "zh": "敗血性腹膜炎",
+      "en": "Septic Peritonitis"
+    },
+    {
+      "id": "gastritis",
+      "zh": "胃炎",
+      "en": "Gastritis"
+    },
+    {
+      "id": "dietary-indiscretion",
+      "zh": "飲食不當",
+      "en": "Dietary Indiscretion"
+    },
+    {
+      "id": "feline-mycoplasma",
+      "zh": "貓黴漿菌感染",
+      "en": "Feline Mycoplasma Infection"
+    },
+    {
+      "id": "lyme-disease",
+      "zh": "萊姆病",
+      "en": "Lyme Disease"
+    },
+    {
+      "id": "hemophilia",
+      "zh": "血友病",
+      "en": "Hemophilia"
+    },
+    {
+      "id": "anemia-of-chronic-disease",
+      "zh": "慢性病貧血",
+      "en": "Anemia of Chronic Disease"
+    },
+    {
+      "id": "iron-deficiency-anemia",
+      "zh": "缺鐵性貧血",
+      "en": "Iron Deficiency Anemia"
+    },
+    {
+      "id": "cardiopulmonary-arrest",
+      "zh": "心肺驟停",
+      "en": "Cardiopulmonary Arrest"
+    },
+    {
+      "id": "bite-wound",
+      "zh": "咬傷",
+      "en": "Bite Wound"
+    },
+    {
+      "id": "vehicular-trauma",
+      "zh": "車禍創傷",
+      "en": "Vehicular Trauma"
+    },
+    {
+      "id": "acute-abdomen",
+      "zh": "急性腹部疾病",
+      "en": "Acute Abdomen"
+    },
+    {
+      "id": "high-rise-syndrome",
+      "zh": "高樓墜落症候群",
+      "en": "High-Rise Syndrome"
+    },
+    {
+      "id": "cryptorchidism",
+      "zh": "隱睾症",
+      "en": "Cryptorchidism"
+    },
+    {
+      "id": "pseudopregnancy",
+      "zh": "假懷孕",
+      "en": "Pseudopregnancy"
+    },
+    {
+      "id": "prostatic-abscess",
+      "zh": "前列腺膿腫",
+      "en": "Prostatic Abscess"
+    },
+    {
+      "id": "nephrotic-syndrome",
+      "zh": "腎病症候群",
+      "en": "Nephrotic Syndrome"
+    },
+    {
+      "id": "polyradiculoneuritis",
+      "zh": "多發性神經根神經炎",
+      "en": "Polyradiculoneuritis"
+    },
+    {
+      "id": "wobbler-syndrome",
+      "zh": "搖擺犬症候群",
+      "en": "Wobbler Syndrome"
+    },
+    {
+      "id": "spinal-fracture-luxation",
+      "zh": "脊椎骨折脫位",
+      "en": "Spinal Fracture-Luxation"
+    },
+    {
+      "id": "salivary-mucocele",
+      "zh": "唾液腺囊腫",
+      "en": "Salivary Mucocele"
+    },
+    {
+      "id": "otitis-media",
+      "zh": "中耳炎",
+      "en": "Otitis Media"
+    },
+    {
+      "id": "cleft-palate",
+      "zh": "顎裂",
+      "en": "Cleft Palate"
+    },
+    {
+      "id": "perineal-hernia",
+      "zh": "會陰疝",
+      "en": "Perineal Hernia"
+    },
+    {
+      "id": "umbilical-hernia",
+      "zh": "臍疝",
+      "en": "Umbilical Hernia"
+    },
+    {
+      "id": "skin-mass-lipoma",
+      "zh": "脂肪瘤",
+      "en": "Lipoma"
+    },
+    {
+      "id": "cutaneous-histiocytoma",
+      "zh": "皮膚組織細胞瘤",
+      "en": "Cutaneous Histiocytoma"
+    },
+    {
+      "id": "sebaceous-adenoma",
+      "zh": "皮脂腺腺瘤",
+      "en": "Sebaceous Adenoma"
+    },
+    {
+      "id": "feline-acne",
+      "zh": "貓粉刺",
+      "en": "Feline Acne (Feline Chin Acne)"
+    },
+    {
+      "id": "miliary-dermatitis",
+      "zh": "粟粒性皮膚炎",
+      "en": "Miliary Dermatitis"
+    }
+  ]
+}

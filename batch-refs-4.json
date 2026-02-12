@@ -1,0 +1,2622 @@
+{
+  "canine-coronavirus": {
+    "references": [
+      {
+        "authors": "Decaro N, Buonavoglia C",
+        "title": "An update on canine coronaviruses: viral evolution and pathobiology",
+        "journal": "Veterinary Microbiology",
+        "year": "2008",
+        "pmid": "18400422",
+        "doi": "10.1016/j.vetmic.2008.02.015"
+      },
+      {
+        "authors": "Decaro N, Mari V, Elia G, et al.",
+        "title": "Recombinant canine coronaviruses related to transmissible gastroenteritis virus of swine are circulating in dogs",
+        "journal": "Journal of Virology",
+        "year": "2009",
+        "pmid": "19052087",
+        "doi": "10.1128/JVI.01937-08"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Canine Coronavirus Enteritis",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      }
+    ]
+  },
+  "infectious-canine-hepatitis": {
+    "references": [
+      {
+        "authors": "Decaro N, Martella V, Buonavoglia C",
+        "title": "Canine adenoviruses and herpesvirus",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2008",
+        "pmid": "18954680",
+        "doi": "10.1016/j.cvsm.2008.08.007"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Infectious Canine Hepatitis and Canine Acidophil Cell Hepatitis",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Canine and Feline Infectious Diseases. Elsevier",
+        "journal": "Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "bartonellosis": {
+    "references": [
+      {
+        "authors": "Breitschwerdt EB",
+        "title": "Bartonellosis: one health perspectives for an emerging infectious disease",
+        "journal": "ILAR Journal",
+        "year": "2014",
+        "pmid": "24936029",
+        "doi": "10.1093/ilar/ilu015"
+      },
+      {
+        "authors": "Chomel BB, Kasten RW",
+        "title": "Bartonellosis, an increasingly recognized zoonosis",
+        "journal": "Journal of Applied Microbiology",
+        "year": "2010",
+        "pmid": "20553340",
+        "doi": "10.1111/j.1365-2672.2010.04679.x"
+      },
+      {
+        "authors": "Breitschwerdt EB, Maggi RG, Chomel BB, Lappin MR",
+        "title": "Bartonellosis: an emerging infectious disease of zoonotic importance to animals and human beings",
+        "journal": "Journal of Veterinary Emergency and Critical Care",
+        "year": "2010",
+        "pmid": "20230438",
+        "doi": "10.1111/j.1476-4431.2009.00496.x"
+      }
+    ]
+  },
+  "tick-borne-disease": {
+    "references": [
+      {
+        "authors": "Little SE",
+        "title": "Ehrlichiosis and anaplasmosis in dogs and cats",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2010",
+        "pmid": "20933139",
+        "doi": "10.1016/j.cvsm.2010.07.004"
+      },
+      {
+        "authors": "Shaw SE, Day MJ, Birtles RJ, Breitschwerdt EB",
+        "title": "Tick-borne infectious diseases of dogs",
+        "journal": "Trends in Parasitology",
+        "year": "2001",
+        "pmid": "11323307",
+        "doi": "10.1016/S1471-4922(00)01892-8"
+      },
+      {
+        "authors": "Irwin PJ",
+        "title": "Canine babesiosis: from molecular taxonomy to control",
+        "journal": "Parasites & Vectors",
+        "year": "2009",
+        "pmid": "19426445",
+        "doi": "10.1186/1756-3305-2-S1-S4"
+      }
+    ]
+  },
+  "contact-dermatitis": {
+    "references": [
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Contact Hypersensitivity",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Marsella R",
+        "title": "Contact allergy in animals: a review",
+        "journal": "Veterinary Dermatology",
+        "year": "2003"
+      },
+      {
+        "authors": "Gross TL, Ihrke PJ, Walder EJ, Affolter VK",
+        "title": "Skin Diseases of the Dog and Cat: Clinical and Histopathologic Diagnosis, 2nd ed.",
+        "journal": "Blackwell Science",
+        "year": "2005"
+      }
+    ]
+  },
+  "alopecia-x": {
+    "references": [
+      {
+        "authors": "Frank LA, Hnilica KA, Oliver JW",
+        "title": "Adrenal steroid hormone concentrations in dogs with hair cycle arrest (Alopecia X) before and during treatment with melatonin and mitotane",
+        "journal": "Veterinary Dermatology",
+        "year": "2004",
+        "pmid": "15030560",
+        "doi": "10.1111/j.1365-3164.2004.00387.x"
+      },
+      {
+        "authors": "Behrend EN, Kennis R",
+        "title": "Atypical Cushing's syndrome in dogs: arguments for and against",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2010",
+        "pmid": "20933140",
+        "doi": "10.1016/j.cvsm.2010.07.007"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Alopecia X",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      }
+    ]
+  },
+  "angular-limb-deformity": {
+    "references": [
+      {
+        "authors": "Johnson AL, Houlton JEF, Vannini R",
+        "title": "AO Principles of Fracture Management in the Dog and Cat",
+        "journal": "Thieme",
+        "year": "2005"
+      },
+      {
+        "authors": "Forell EB, Schwarz PD",
+        "title": "Use of external skeletal fixation for treatment of angular deformity secondary to premature distal ulnar physeal closure",
+        "journal": "Journal of the American Animal Hospital Association",
+        "year": "1993",
+        "pmid": "8407498"
+      },
+      {
+        "authors": "Piermattei DL, Flo GL, DeCamp CE",
+        "title": "Brinker, Piermattei, and Flo's Handbook of Small Animal Orthopedics and Fracture Repair, 4th ed.",
+        "journal": "Saunders/Elsevier",
+        "year": "2006"
+      }
+    ]
+  },
+  "luxation-joint": {
+    "references": [
+      {
+        "authors": "Piermattei DL, Flo GL, DeCamp CE",
+        "title": "Brinker, Piermattei, and Flo's Handbook of Small Animal Orthopedics and Fracture Repair, 4th ed.",
+        "journal": "Saunders/Elsevier",
+        "year": "2006"
+      },
+      {
+        "authors": "Tobias KM, Johnston SA",
+        "title": "Veterinary Surgery: Small Animal (2 Volume Set)",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "Campbell JR",
+        "title": "Luxation and ligamentous injuries of the digits of the dog",
+        "journal": "Veterinary Surgery",
+        "year": "1976"
+      }
+    ]
+  },
+  "hypertrophic-osteodystrophy": {
+    "references": [
+      {
+        "authors": "Abeles V, Harrus S, Angles JM, et al.",
+        "title": "Hypertrophic osteodystrophy in six Weimaraner puppies associated with systemic signs",
+        "journal": "Veterinary Record",
+        "year": "1999",
+        "pmid": "10378289"
+      },
+      {
+        "authors": "Woodard JC",
+        "title": "Canine hypertrophic osteodystrophy: a study of the spontaneous disease in littermates",
+        "journal": "Veterinary Pathology",
+        "year": "1982",
+        "pmid": "7147614",
+        "doi": "10.1177/030098588201900507"
+      },
+      {
+        "authors": "Piermattei DL, Flo GL, DeCamp CE",
+        "title": "Brinker, Piermattei, and Flo's Handbook of Small Animal Orthopedics and Fracture Repair, 4th ed.",
+        "journal": "Saunders/Elsevier",
+        "year": "2006"
+      }
+    ]
+  },
+  "ectropion": {
+    "references": [
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Stades FC, Boevé MH, Neumann W, Wyman M",
+        "title": "Ophthalmology for the Veterinary Practitioner, 2nd ed.",
+        "journal": "Schlütersche",
+        "year": "2007"
+      },
+      {
+        "authors": "Maggs DJ, Miller PE, Ofri R",
+        "title": "Slatter's Fundamentals of Veterinary Ophthalmology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "distichiasis": {
+    "references": [
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Maggs DJ, Miller PE, Ofri R",
+        "title": "Slatter's Fundamentals of Veterinary Ophthalmology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Halliwell RE",
+        "title": "Distichiasis and its treatment by the method of partial tarsal plate excision",
+        "journal": "Journal of Small Animal Practice",
+        "year": "1967"
+      }
+    ]
+  },
+  "retinal-detachment": {
+    "references": [
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Maggs DJ, Miller PE, Ofri R",
+        "title": "Slatter's Fundamentals of Veterinary Ophthalmology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Hendrix DVH",
+        "title": "Diseases and surgery of the canine anterior uvea",
+        "journal": "Veterinary Ophthalmology, 5th ed. Wiley-Blackwell",
+        "year": "2013"
+      }
+    ]
+  },
+  "sudden-acquired-retinal-degeneration": {
+    "references": [
+      {
+        "authors": "Grozdanic SD, Harper MM, Kecova H",
+        "title": "Antibody-mediated retinopathies in canine patients: mechanism, diagnosis, and treatment modalities",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2008",
+        "pmid": "18954680"
+      },
+      {
+        "authors": "Carter RT, Oliver JW, Stepien RL, Bentley E",
+        "title": "Elevations in sex hormones in dogs with sudden acquired retinal degeneration syndrome (SARDS)",
+        "journal": "Journal of the American Animal Hospital Association",
+        "year": "2009",
+        "pmid": "19258418",
+        "doi": "10.5326/0450233"
+      },
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      }
+    ]
+  },
+  "proptosis": {
+    "references": [
+      {
+        "authors": "Gilger BC, Hamilton HL, Wilkie DA, et al.",
+        "title": "Traumatic ocular proptoses in dogs and cats: 84 cases (1980-1993)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "1995",
+        "pmid": "7751232"
+      },
+      {
+        "authors": "Maggs DJ, Miller PE, Ofri R",
+        "title": "Slatter's Fundamentals of Veterinary Ophthalmology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      }
+    ]
+  },
+  "obstructive-shock": {
+    "references": [
+      {
+        "authors": "Silverstein DC, Hopper K",
+        "title": "Small Animal Critical Care Medicine, 2nd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2015"
+      },
+      {
+        "authors": "Boag AK, Hughes D",
+        "title": "Assessment and treatment of perfusion abnormalities in the emergency patient",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2005",
+        "pmid": "15943128",
+        "doi": "10.1016/j.cvsm.2004.12.001"
+      },
+      {
+        "authors": "deLaforcade AM, Bhatt SF",
+        "title": "Shock",
+        "journal": "Textbook of Small Animal Emergency Medicine. Wiley-Blackwell",
+        "year": "2019"
+      }
+    ]
+  },
+  "marijuana-toxicosis": {
+    "references": [
+      {
+        "authors": "Meola SD, Tearney CC, Haas SA, Hackett TB, Mazzaferro EM",
+        "title": "Evaluation of trends in marijuana toxicosis in dogs living in a state with legalized medical marijuana: 125 dogs (2005-2010)",
+        "journal": "Journal of Veterinary Emergency and Critical Care",
+        "year": "2012",
+        "pmid": "23216842",
+        "doi": "10.1111/j.1476-4431.2012.00818.x"
+      },
+      {
+        "authors": "Brutlag A, Hommerding H",
+        "title": "Toxicology of marijuana, synthetic cannabinoids, and cannabidiol in dogs and cats",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2018",
+        "pmid": "30146058",
+        "doi": "10.1016/j.cvsm.2018.07.008"
+      },
+      {
+        "authors": "Peterson ME, Talcott PA",
+        "title": "Small Animal Toxicology, 3rd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "organophosphate-toxicosis": {
+    "references": [
+      {
+        "authors": "Plumlee KH",
+        "title": "Clinical Veterinary Toxicology",
+        "journal": "Mosby/Elsevier",
+        "year": "2004"
+      },
+      {
+        "authors": "Peterson ME, Talcott PA",
+        "title": "Small Animal Toxicology, 3rd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Gupta RC",
+        "title": "Veterinary Toxicology: Basic and Clinical Principles, 3rd ed.",
+        "journal": "Academic Press/Elsevier",
+        "year": "2018"
+      }
+    ]
+  },
+  "toad-toxicosis": {
+    "references": [
+      {
+        "authors": "Peterson ME, Talcott PA",
+        "title": "Small Animal Toxicology, 3rd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Roberts BK, Aronsohn MG, Moses BL, et al.",
+        "title": "Bufo marinus intoxication in dogs: 94 cases (1997-1998)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2000",
+        "pmid": "11110459"
+      },
+      {
+        "authors": "Reeves MP",
+        "title": "A retrospective report of 90 dogs with suspected cane toad (Bufo marinus) poisoning",
+        "journal": "Australian Veterinary Journal",
+        "year": "2004",
+        "pmid": "15149073",
+        "doi": "10.1111/j.1751-0813.2004.tb11161.x"
+      }
+    ]
+  },
+  "pregnancy-toxemia": {
+    "references": [
+      {
+        "authors": "Johnston SD, Root Kustritz MV, Olson PNS",
+        "title": "Canine and Feline Theriogenology",
+        "journal": "Saunders/Elsevier",
+        "year": "2001"
+      },
+      {
+        "authors": "Silverstein DC, Hopper K",
+        "title": "Small Animal Critical Care Medicine, 2nd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2015"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "renal-tubular-acidosis": {
+    "references": [
+      {
+        "authors": "DiBartola SP",
+        "title": "Fluid, Electrolyte, and Acid-Base Disorders in Small Animal Practice, 4th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      },
+      {
+        "authors": "Polzin DJ",
+        "title": "Chronic Kidney Disease",
+        "journal": "Nephrology and Urology of Small Animals. Wiley-Blackwell",
+        "year": "2011"
+      }
+    ]
+  },
+  "mesenteric-volvulus": {
+    "references": [
+      {
+        "authors": "Junius G, Appeldoorn AM, Schrauwen E",
+        "title": "Mesenteric volvulus in the dog: a retrospective study of 12 cases",
+        "journal": "Journal of Small Animal Practice",
+        "year": "2004",
+        "pmid": "15352411",
+        "doi": "10.1111/j.1748-5827.2004.tb00180.x"
+      },
+      {
+        "authors": "Tobias KM, Johnston SA",
+        "title": "Veterinary Surgery: Small Animal (2 Volume Set)",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "Silverstein DC, Hopper K",
+        "title": "Small Animal Critical Care Medicine, 2nd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2015"
+      }
+    ]
+  },
+  "otitis-externa-acute": {
+    "references": [
+      {
+        "authors": "Gotthelf LN",
+        "title": "Small Animal Ear Diseases: An Illustrated Guide, 2nd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2005"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Diseases of Eyelids, Claws, Anal Sacs, and Ears",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Nuttall T, Cole LK",
+        "title": "Evidence-based veterinary dermatology: a systematic review of interventions for treatment of Pseudomonas otitis in dogs",
+        "journal": "Veterinary Dermatology",
+        "year": "2007",
+        "pmid": "17845620",
+        "doi": "10.1111/j.1365-3164.2007.00612.x"
+      }
+    ]
+  },
+  "transitional-cell-carcinoma": {
+    "references": [
+      {
+        "authors": "Knapp DW, Ramos-Vara JA, Moore GE, et al.",
+        "title": "Urinary bladder cancer in dogs, a naturally occurring model for cancer biology and drug development",
+        "journal": "ILAR Journal",
+        "year": "2014",
+        "pmid": "24936028",
+        "doi": "10.1093/ilar/ilu018"
+      },
+      {
+        "authors": "Knapp DW, McMillan SK",
+        "title": "Tumors of the urinary system",
+        "journal": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Fulkerson CM, Knapp DW",
+        "title": "Management of transitional cell carcinoma of the urinary bladder in dogs: a review",
+        "journal": "Veterinary Journal",
+        "year": "2015",
+        "pmid": "26093893",
+        "doi": "10.1016/j.tvjl.2015.06.007"
+      }
+    ]
+  },
+  "nasal-aspergillosis": {
+    "references": [
+      {
+        "authors": "Peeters D, Clercx C",
+        "title": "Update on canine sinonasal aspergillosis",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2007",
+        "pmid": "17825671",
+        "doi": "10.1016/j.cvsm.2007.05.005"
+      },
+      {
+        "authors": "Sharman MJ, Mansfield CS",
+        "title": "Sinonasal aspergillosis in dogs: a review",
+        "journal": "Journal of Small Animal Practice",
+        "year": "2012"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Aspergillosis",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "cryptococcosis": {
+    "references": [
+      {
+        "authors": "Trivedi SR, Sykes JE, Cannon MS, et al.",
+        "title": "Clinical features and epidemiology of cryptococcosis in cats and dogs in California: 93 cases (1988-2010)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2011",
+        "pmid": "21916761",
+        "doi": "10.2460/javma.239.3.357"
+      },
+      {
+        "authors": "Sykes JE, Malik R",
+        "title": "Cryptococcosis",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      },
+      {
+        "authors": "O'Brien CR, Krockenberger MB, Wigney DI, Martin P, Malik R",
+        "title": "Retrospective study of feline and canine cryptococcosis in Australia from 1981 to 2001: 195 cases",
+        "journal": "Medical Mycology",
+        "year": "2004",
+        "pmid": "15473356",
+        "doi": "10.1080/13693780310001624547"
+      }
+    ]
+  },
+  "blastomycosis": {
+    "references": [
+      {
+        "authors": "Legendre AM",
+        "title": "Blastomycosis",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Bromel C, Sykes JE",
+        "title": "Epidemiology, diagnosis, and treatment of blastomycosis in dogs and cats",
+        "journal": "Clinical Techniques in Small Animal Practice",
+        "year": "2005",
+        "pmid": "16317911",
+        "doi": "10.1053/j.ctsap.2005.07.004"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Blastomycosis",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "histoplasmosis": {
+    "references": [
+      {
+        "authors": "Brömel C, Sykes JE",
+        "title": "Histoplasmosis in dogs and cats",
+        "journal": "Clinical Techniques in Small Animal Practice",
+        "year": "2005",
+        "pmid": "16317912",
+        "doi": "10.1053/j.ctsap.2005.07.003"
+      },
+      {
+        "authors": "Aulakh HK, Aulakh KS, Troy GC",
+        "title": "Feline histoplasmosis: a retrospective study of 22 cases (1986-2009)",
+        "journal": "Journal of the American Animal Hospital Association",
+        "year": "2012",
+        "pmid": "22474464",
+        "doi": "10.5326/JAAHA-MS-5774"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Histoplasmosis",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "coccidioidomycosis": {
+    "references": [
+      {
+        "authors": "Graupmann-Kuzma A, Valentine BA, Shubitz LF, et al.",
+        "title": "Coccidioidomycosis in dogs and cats: a review",
+        "journal": "Journal of the American Animal Hospital Association",
+        "year": "2008",
+        "pmid": "19001374",
+        "doi": "10.5326/0440226"
+      },
+      {
+        "authors": "Shubitz LF",
+        "title": "Comparative aspects of coccidioidomycosis in animals and humans",
+        "journal": "Annals of the New York Academy of Sciences",
+        "year": "2007",
+        "pmid": "18227510",
+        "doi": "10.1196/annals.1409.002"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Coccidioidomycosis",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "sporotrichosis": {
+    "references": [
+      {
+        "authors": "Gremião IDF, Miranda LHM, Reis EG, Rodrigues AM, Pereira SA",
+        "title": "Zoonotic epidemic of sporotrichosis: cat to human transmission",
+        "journal": "PLoS Pathogens",
+        "year": "2017",
+        "pmid": "28103311",
+        "doi": "10.1371/journal.ppat.1006077"
+      },
+      {
+        "authors": "Schubach TM, Schubach A, Okamoto T, et al.",
+        "title": "Evaluation of an epidemic of sporotrichosis in cats: 347 cases (1998-2001)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2004",
+        "pmid": "15552315",
+        "doi": "10.2460/javma.2004.224.1623"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Sporotrichosis",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "pythiosis": {
+    "references": [
+      {
+        "authors": "Grooters AM",
+        "title": "Pythiosis, lagenidiosis, and zygomycosis in small animals",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2003",
+        "pmid": "14626567",
+        "doi": "10.1016/S0195-5616(03)00056-2"
+      },
+      {
+        "authors": "Gaastra W, Lipman LJ, De Cock AW, et al.",
+        "title": "Pythium insidiosum: an overview",
+        "journal": "Veterinary Microbiology",
+        "year": "2010",
+        "pmid": "20045266",
+        "doi": "10.1016/j.vetmic.2009.12.011"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Pythiosis and Lagenidiosis",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "dermatophytosis-systemic": {
+    "references": [
+      {
+        "authors": "Nuttall T, Harvey RG, McKeever PJ",
+        "title": "A Colour Handbook of Skin Diseases of the Dog and Cat, 2nd ed.",
+        "journal": "Manson Publishing",
+        "year": "2009"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Fungal Skin Diseases",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Abramo F, Vercelli A, Mancianti F",
+        "title": "Two cases of dermatophytic pseudomycetoma in dogs",
+        "journal": "Veterinary Dermatology",
+        "year": "2001",
+        "pmid": "11360346",
+        "doi": "10.1046/j.0959-4493.2001.00242.x"
+      }
+    ]
+  },
+  "nocardiosis": {
+    "references": [
+      {
+        "authors": "Beaman BL, Sugar AM",
+        "title": "Nocardia in naturally acquired and experimental infections in animals",
+        "journal": "Journal of Hygiene (London)",
+        "year": "1983"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Actinomycosis and Nocardiosis",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Nocardiosis",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      }
+    ]
+  },
+  "actinomycosis": {
+    "references": [
+      {
+        "authors": "Sykes JE",
+        "title": "Actinomycosis and Nocardiosis",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Actinomycosis",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Edwards DF, Nyland TG, Weigel JP",
+        "title": "Thoracic, abdominal, and vertebral actinomycosis and nocardiosis in dogs and cats",
+        "journal": "Journal of Veterinary Internal Medicine",
+        "year": "1988"
+      }
+    ]
+  },
+  "rocky-mountain-spotted-fever": {
+    "references": [
+      {
+        "authors": "Gasser AM, Birkenheuer AJ, Breitschwerdt EB",
+        "title": "Canine Rocky Mountain spotted fever: a retrospective study of 30 cases",
+        "journal": "Journal of the American Animal Hospital Association",
+        "year": "2001",
+        "pmid": "11563439",
+        "doi": "10.5326/15473317-37-1-41"
+      },
+      {
+        "authors": "Breitschwerdt EB",
+        "title": "Rocky Mountain Spotted Fever",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Canine and Feline Infectious Diseases. Elsevier",
+        "journal": "Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "canine-papillomatosis": {
+    "references": [
+      {
+        "authors": "Lange CE, Favrot C",
+        "title": "Canine papillomaviruses",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2011",
+        "pmid": "21782076",
+        "doi": "10.1016/j.cvsm.2011.07.003"
+      },
+      {
+        "authors": "Nicholls PK, Stanley MA",
+        "title": "The immunology of animal papillomaviruses",
+        "journal": "Veterinary Immunology and Immunopathology",
+        "year": "2000",
+        "pmid": "10720655",
+        "doi": "10.1016/S0165-2427(99)00165-8"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Papillomatosis",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      }
+    ]
+  },
+  "feline-poxvirus": {
+    "references": [
+      {
+        "authors": "Baxby D, Bennett M, Getty B",
+        "title": "Human cowpox 1969-93: a review based on 54 cases",
+        "journal": "British Journal of Dermatology",
+        "year": "1994",
+        "pmid": "8186105"
+      },
+      {
+        "authors": "Bennett M, Gaskell CJ, Baxby D, et al.",
+        "title": "Feline cowpox virus infection",
+        "journal": "Journal of Small Animal Practice",
+        "year": "1990"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Poxvirus Infections",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "tetanus": {
+    "references": [
+      {
+        "authors": "Bandt C, Rozanski EA, Steinberg T, Shaw SP",
+        "title": "Retrospective study of tetanus in 20 dogs: 1988-2004",
+        "journal": "Journal of the American Animal Hospital Association",
+        "year": "2007",
+        "pmid": "17823473",
+        "doi": "10.5326/0430143"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Tetanus",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Burkitt JM, Sturges BK, Jandrey KE, Kass PH",
+        "title": "Risk factors associated with outcome in dogs with tetanus: 38 cases (1987-2005)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2007",
+        "pmid": "17542729",
+        "doi": "10.2460/javma.230.1.76"
+      }
+    ]
+  },
+  "botulism": {
+    "references": [
+      {
+        "authors": "Barsanti JA",
+        "title": "Botulism",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Shelton GD",
+        "title": "Neuromuscular junction disorders",
+        "journal": "Textbook of Veterinary Internal Medicine, 8th ed. Elsevier",
+        "year": "2017"
+      },
+      {
+        "authors": "Uriarte A, Thibaud JL, Blot S",
+        "title": "Botulism in 2 urban dogs",
+        "journal": "Canadian Veterinary Journal",
+        "year": "2010",
+        "pmid": "20592834"
+      }
+    ]
+  },
+  "mycobacterial-infection": {
+    "references": [
+      {
+        "authors": "Gunn-Moore DA, McFarland SE, Brewer JI, et al.",
+        "title": "Mycobacterial disease in cats in Great Britain: I. Culture results, geographical distribution and clinical presentation of 339 cases",
+        "journal": "Journal of Feline Medicine and Surgery",
+        "year": "2011",
+        "pmid": "21733726",
+        "doi": "10.1016/j.jfms.2011.05.013"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Mycobacterial Infections",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Mycobacterial Infections",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "protothecosis": {
+    "references": [
+      {
+        "authors": "Hollingsworth SR",
+        "title": "Canine protothecosis",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2000",
+        "pmid": "10680217"
+      },
+      {
+        "authors": "Stenner VJ, Mackay B, King T, et al.",
+        "title": "Protothecosis in 17 Australian dogs and a review of the canine literature",
+        "journal": "Medical Mycology",
+        "year": "2007",
+        "pmid": "17885945",
+        "doi": "10.1080/13693780701512944"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Protothecosis and Chlorellosis",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      }
+    ]
+  },
+  "hepatozoonosis": {
+    "references": [
+      {
+        "authors": "Baneth G, Mathew JS, Shkap V, et al.",
+        "title": "Canine hepatozoonosis: two disease syndromes caused by separate Hepatozoon spp.",
+        "journal": "Trends in Parasitology",
+        "year": "2003",
+        "pmid": "12615027",
+        "doi": "10.1016/S1471-4922(02)00016-8"
+      },
+      {
+        "authors": "Allen KE, Li Y, Kaltenboeck B, et al.",
+        "title": "Diversity of Hepatozoon species in naturally infected dogs in the southern United States",
+        "journal": "Veterinary Parasitology",
+        "year": "2008",
+        "pmid": "18703278",
+        "doi": "10.1016/j.vetpar.2008.07.015"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Hepatozoonosis",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      }
+    ]
+  },
+  "neosporosis": {
+    "references": [
+      {
+        "authors": "Dubey JP, Schares G, Ortega-Mora LM",
+        "title": "Epidemiology and control of neosporosis and Neospora caninum",
+        "journal": "Clinical Microbiology Reviews",
+        "year": "2007",
+        "pmid": "17630334",
+        "doi": "10.1128/CMR.00031-06"
+      },
+      {
+        "authors": "Dubey JP, Lindsay DS",
+        "title": "A review of Neospora caninum and neosporosis",
+        "journal": "Veterinary Parasitology",
+        "year": "1996",
+        "pmid": "8823583"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Neosporosis",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      }
+    ]
+  },
+  "leishmaniasis": {
+    "references": [
+      {
+        "authors": "Solano-Gallego L, Miró G, Koutinas A, et al.",
+        "title": "LeishVet guidelines for the practical management of canine leishmaniosis",
+        "journal": "Parasites & Vectors",
+        "year": "2011",
+        "pmid": "21429244",
+        "doi": "10.1186/1756-3305-4-86"
+      },
+      {
+        "authors": "Solano-Gallego L, Koutinas A, Miró G, et al.",
+        "title": "Directions for the diagnosis, clinical staging, treatment and prevention of canine leishmaniosis",
+        "journal": "Veterinary Parasitology",
+        "year": "2009",
+        "pmid": "19560275",
+        "doi": "10.1016/j.vetpar.2009.05.022"
+      },
+      {
+        "authors": "Baneth G, Koutinas AF, Solano-Gallego L, Bourdeau P, Ferrer L",
+        "title": "Canine leishmaniosis - new concepts and insights on an expanding zoonosis: part one",
+        "journal": "Trends in Parasitology",
+        "year": "2008",
+        "pmid": "18775724",
+        "doi": "10.1016/j.pt.2008.07.003"
+      }
+    ]
+  },
+  "salmon-poisoning-disease": {
+    "references": [
+      {
+        "authors": "Headley SA, Vidotto O, Scorpio DG, et al.",
+        "title": "Neorickettsia helminthoeca and salmon poisoning disease: a review",
+        "journal": "Veterinary Journal",
+        "year": "2011",
+        "pmid": "21367644",
+        "doi": "10.1016/j.tvjl.2011.02.007"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Salmon Poisoning Disease",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Salmon Poisoning Disease and Elokomin Fluke Fever",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "plague": {
+    "references": [
+      {
+        "authors": "Gage KL, Dennis DT, Orloski KA, et al.",
+        "title": "Cases of cat-associated human plague in the Western US, 1977-1998",
+        "journal": "Clinical Infectious Diseases",
+        "year": "2000",
+        "pmid": "10987711",
+        "doi": "10.1086/313900"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Plague",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Plague",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "tularemia": {
+    "references": [
+      {
+        "authors": "Woods JP, Crystal MA, Morton RJ, Panciera RJ",
+        "title": "Tularemia in two cats",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "1998",
+        "pmid": "9531162"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Tularemia",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Sykes JE",
+        "title": "Tularemia",
+        "journal": "Canine and Feline Infectious Diseases. Elsevier",
+        "year": "2014"
+      }
+    ]
+  },
+  "angiostrongylus-vasorum": {
+    "references": [
+      {
+        "authors": "Koch J, Willesen JL",
+        "title": "Canine pulmonary angiostrongylosis: an update",
+        "journal": "Veterinary Journal",
+        "year": "2009",
+        "pmid": "18394920",
+        "doi": "10.1016/j.tvjl.2008.02.018"
+      },
+      {
+        "authors": "Helm JR, Morgan ER, Jackson MW, Wotton P, Bell R",
+        "title": "Canine angiostrongylosis: an emerging disease in Europe",
+        "journal": "Journal of Veterinary Emergency and Critical Care",
+        "year": "2010",
+        "pmid": "20230436",
+        "doi": "10.1111/j.1476-4431.2009.00494.x"
+      },
+      {
+        "authors": "Schnyder M, Bilbrough G, Engell C, et al.",
+        "title": "Angiostrongylus vasorum: the spread of a 'French heartworm' in Europe",
+        "journal": "Parasitology Research",
+        "year": "2013"
+      }
+    ]
+  },
+  "dirofilaria-immitis-cat": {
+    "references": [
+      {
+        "authors": "Lee ACY, Atkins CE",
+        "title": "Understanding feline heartworm infection: disease, diagnosis, and treatment",
+        "journal": "Topics in Companion Animal Medicine",
+        "year": "2010",
+        "pmid": "20937494",
+        "doi": "10.1053/j.tcam.2010.09.003"
+      },
+      {
+        "authors": "American Heartworm Society",
+        "title": "Current feline guidelines for the prevention, diagnosis, and management of heartworm (Dirofilaria immitis) infection in cats",
+        "journal": "American Heartworm Society Guidelines",
+        "year": "2020"
+      },
+      {
+        "authors": "Atkins CE, DeFrancesco TC, Coats JR, Sidley JA, Keene BW",
+        "title": "Heartworm infection in cats: 50 cases (1985-1997)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2000",
+        "pmid": "10668547"
+      }
+    ]
+  },
+  "sebaceous-adenitis": {
+    "references": [
+      {
+        "authors": "Reichler IM, Hauser B, Schiller I, et al.",
+        "title": "Sebaceous adenitis in the Akita: clinical observations, histopathology and heredity",
+        "journal": "Veterinary Dermatology",
+        "year": "2001",
+        "pmid": "11360346",
+        "doi": "10.1046/j.0959-4493.2001.00234.x"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Sebaceous Adenitis",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Gross TL, Ihrke PJ, Walder EJ, Affolter VK",
+        "title": "Skin Diseases of the Dog and Cat: Clinical and Histopathologic Diagnosis, 2nd ed.",
+        "journal": "Blackwell Science",
+        "year": "2005"
+      }
+    ]
+  },
+  "eosinophilic-granuloma-complex": {
+    "references": [
+      {
+        "authors": "Buckley L, Nuttall T",
+        "title": "Feline eosinophilic granuloma complex (ities): some clinical clarification",
+        "journal": "Journal of Feline Medicine and Surgery",
+        "year": "2012",
+        "pmid": "22628329",
+        "doi": "10.1177/1098612X12443140"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Eosinophilic Granuloma Complex",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Gross TL, Ihrke PJ, Walder EJ, Affolter VK",
+        "title": "Skin Diseases of the Dog and Cat: Clinical and Histopathologic Diagnosis, 2nd ed.",
+        "journal": "Blackwell Science",
+        "year": "2005"
+      }
+    ]
+  },
+  "uveodermatologic-syndrome": {
+    "references": [
+      {
+        "authors": "Angles JM, Famula TR, Pedersen NC",
+        "title": "Uveodermatologic (VKH-like) syndrome in American Akita dogs is associated with an increased frequency of DQA1*00201",
+        "journal": "Tissue Antigens",
+        "year": "2005",
+        "pmid": "15737468",
+        "doi": "10.1111/j.1399-0039.2005.00388.x"
+      },
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Uveodermatologic Syndrome",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      }
+    ]
+  },
+  "dermatomyositis": {
+    "references": [
+      {
+        "authors": "Evans JM, Noorai RE, Tsai KL, et al.",
+        "title": "Beyond the MHC: a canine model of dermatomyositis shows a complex pattern of genetic risk involving novel loci",
+        "journal": "PLoS Genetics",
+        "year": "2017",
+        "pmid": "28253259",
+        "doi": "10.1371/journal.pgen.1006604"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Dermatomyositis",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Gross TL, Ihrke PJ, Walder EJ, Affolter VK",
+        "title": "Skin Diseases of the Dog and Cat: Clinical and Histopathologic Diagnosis, 2nd ed.",
+        "journal": "Blackwell Science",
+        "year": "2005"
+      }
+    ]
+  },
+  "sterile-nodular-panniculitis": {
+    "references": [
+      {
+        "authors": "German AJ, Foster AP, Sherrington EJ",
+        "title": "Sterile nodular panniculitis and pansteatitis in three Weimaraners",
+        "journal": "Journal of Small Animal Practice",
+        "year": "2003",
+        "pmid": "14570393"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Sterile Nodular Panniculitis",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Gross TL, Ihrke PJ, Walder EJ, Affolter VK",
+        "title": "Skin Diseases of the Dog and Cat: Clinical and Histopathologic Diagnosis, 2nd ed.",
+        "journal": "Blackwell Science",
+        "year": "2005"
+      }
+    ]
+  },
+  "zinc-responsive-dermatosis": {
+    "references": [
+      {
+        "authors": "White SD, Bourdeau P, Rosychuk RAW, et al.",
+        "title": "Zinc-responsive dermatosis in dogs: 41 cases and literature review",
+        "journal": "Veterinary Dermatology",
+        "year": "2001",
+        "pmid": "11360350",
+        "doi": "10.1046/j.0959-4493.2001.00233.x"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Zinc-Responsive Dermatosis",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Colombini S",
+        "title": "Canine zinc-responsive dermatosis",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "1999",
+        "pmid": "10218469"
+      }
+    ]
+  },
+  "canine-juvenile-cellulitis": {
+    "references": [
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Juvenile Cellulitis (Puppy Strangles)",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Gross TL, Ihrke PJ, Walder EJ, Affolter VK",
+        "title": "Skin Diseases of the Dog and Cat: Clinical and Histopathologic Diagnosis, 2nd ed.",
+        "journal": "Blackwell Science",
+        "year": "2005"
+      },
+      {
+        "authors": "White SD, Rosychuk RAW, Stewart LJ, et al.",
+        "title": "Juvenile cellulitis in dogs: 15 cases (1979-1988)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "1989",
+        "pmid": "2507672"
+      }
+    ]
+  },
+  "acral-lick-dermatitis": {
+    "references": [
+      {
+        "authors": "Shumaker AK",
+        "title": "Diagnosis and treatment of canine acral lick dermatitis",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2019",
+        "pmid": "30558816",
+        "doi": "10.1016/j.cvsm.2018.09.003"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Acral Lick Dermatitis",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Wynchank D, Berk M",
+        "title": "Fluoxetine treatment of acral lick dermatitis in dogs: a placebo-controlled randomized double-blind trial",
+        "journal": "Depression and Anxiety",
+        "year": "1998",
+        "pmid": "9502086"
+      }
+    ]
+  },
+  "vasculitis": {
+    "references": [
+      {
+        "authors": "Nichols PR, Morris DO, Beale KM",
+        "title": "A retrospective study of canine and feline cutaneous vasculitis",
+        "journal": "Veterinary Dermatology",
+        "year": "2001",
+        "pmid": "11360349",
+        "doi": "10.1046/j.0959-4493.2001.00240.x"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Cutaneous Vasculitis",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Gross TL, Ihrke PJ, Walder EJ, Affolter VK",
+        "title": "Skin Diseases of the Dog and Cat: Clinical and Histopathologic Diagnosis, 2nd ed.",
+        "journal": "Blackwell Science",
+        "year": "2005"
+      }
+    ]
+  },
+  "allergic-rhinitis": {
+    "references": [
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      },
+      {
+        "authors": "Johnson LR, Vernau W",
+        "title": "Bronchoscopic findings in 48 cats with spontaneous lower respiratory tract disease (2002-2009)",
+        "journal": "Journal of Veterinary Internal Medicine",
+        "year": "2011",
+        "pmid": "21488958",
+        "doi": "10.1111/j.1939-1676.2011.00727.x"
+      },
+      {
+        "authors": "King LG",
+        "title": "Textbook of Respiratory Disease in Dogs and Cats",
+        "journal": "Saunders/Elsevier",
+        "year": "2004"
+      }
+    ]
+  },
+  "pannus": {
+    "references": [
+      {
+        "authors": "Jokinen P, Rusanen EM, Kennedy LJ, Lohi H",
+        "title": "MHC class II associated genetic risk in German Shepherd dogs for chronic superficial keratitis",
+        "journal": "Veterinary Immunology and Immunopathology",
+        "year": "2011",
+        "pmid": "21093063",
+        "doi": "10.1016/j.vetimm.2010.10.022"
+      },
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Maggs DJ, Miller PE, Ofri R",
+        "title": "Slatter's Fundamentals of Veterinary Ophthalmology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "iris-melanoma": {
+    "references": [
+      {
+        "authors": "Kalishman JB, Chappell R, Flood LA, Dubielzig RR",
+        "title": "A matched observational study of survival in cats with enucleation due to diffuse iris melanoma",
+        "journal": "Veterinary Ophthalmology",
+        "year": "1998",
+        "pmid": "11397217",
+        "doi": "10.1046/j.1463-5224.1998.00040.x"
+      },
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "retrobulbar-abscess": {
+    "references": [
+      {
+        "authors": "Wang AL, Ledbetter EC, Kern TJ",
+        "title": "Orbital abscess bacterial isolates and in vitro antimicrobial susceptibility patterns in dogs and cats",
+        "journal": "Veterinary Ophthalmology",
+        "year": "2009",
+        "pmid": "19392874",
+        "doi": "10.1111/j.1463-5224.2008.00686.x"
+      },
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Maggs DJ, Miller PE, Ofri R",
+        "title": "Slatter's Fundamentals of Veterinary Ophthalmology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "orbital-tumor": {
+    "references": [
+      {
+        "authors": "Hendrix DVH, Gelatt KN",
+        "title": "Diagnosis, treatment, and outcome of orbital neoplasia in dogs: a retrospective study of 44 cases",
+        "journal": "Journal of Small Animal Practice",
+        "year": "2000",
+        "pmid": "10976631"
+      },
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "anterior-lens-luxation": {
+    "references": [
+      {
+        "authors": "Farias FHG, Johnson GS, Taylor JF, et al.",
+        "title": "An ADAMTS17 splice donor site mutation in dogs with primary lens luxation",
+        "journal": "Investigative Ophthalmology & Visual Science",
+        "year": "2010",
+        "pmid": "20671287",
+        "doi": "10.1167/iovs.09-5142"
+      },
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Maggs DJ, Miller PE, Ofri R",
+        "title": "Slatter's Fundamentals of Veterinary Ophthalmology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "feline-eosinophilic-keratitis": {
+    "references": [
+      {
+        "authors": "Dean E, Meunier V",
+        "title": "Feline eosinophilic keratoconjunctivitis: a retrospective study of 45 cases (56 eyes)",
+        "journal": "Veterinary Ophthalmology",
+        "year": "2013",
+        "pmid": "22672623",
+        "doi": "10.1111/j.1463-5224.2012.01029.x"
+      },
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Maggs DJ, Miller PE, Ofri R",
+        "title": "Slatter's Fundamentals of Veterinary Ophthalmology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "hordeolum-chalazion": {
+    "references": [
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Maggs DJ, Miller PE, Ofri R",
+        "title": "Slatter's Fundamentals of Veterinary Ophthalmology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "eyelid-tumor": {
+    "references": [
+      {
+        "authors": "Krehbiel JD, Langham RF",
+        "title": "Eyelid neoplasms of dogs",
+        "journal": "American Journal of Veterinary Research",
+        "year": "1975",
+        "pmid": "1098534"
+      },
+      {
+        "authors": "Gelatt KN, Gilger BC, Kern TJ",
+        "title": "Veterinary Ophthalmology, 5th ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "neonatal-isoerythrolysis": {
+    "references": [
+      {
+        "authors": "Weingart C, Giger U, Kohn B",
+        "title": "Whole blood transfusions in 91 cats: a clinical evaluation",
+        "journal": "Journal of Feline Medicine and Surgery",
+        "year": "2004",
+        "pmid": "15265476",
+        "doi": "10.1016/j.jfms.2004.01.005"
+      },
+      {
+        "authors": "Bücheler J",
+        "title": "Fading kitten syndrome and neonatal isoerythrolysis",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "1999",
+        "pmid": "10218469"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "fading-puppy-kitten-syndrome": {
+    "references": [
+      {
+        "authors": "Mila H, Grellet A, Feugier A, Chastant-Maillard S",
+        "title": "Differential impact of birth weight and early growth rate on neonatal mortality in puppies",
+        "journal": "Journal of Animal Science",
+        "year": "2015",
+        "pmid": "26020325",
+        "doi": "10.2527/jas.2014-8684"
+      },
+      {
+        "authors": "Johnston SD, Root Kustritz MV, Olson PNS",
+        "title": "Canine and Feline Theriogenology",
+        "journal": "Saunders/Elsevier",
+        "year": "2001"
+      },
+      {
+        "authors": "Peterson ME, Kutzler MA",
+        "title": "Small Animal Pediatrics: The First 12 Months of Life",
+        "journal": "Saunders/Elsevier",
+        "year": "2011"
+      }
+    ]
+  },
+  "swimmer-puppy-syndrome": {
+    "references": [
+      {
+        "authors": "Verhoeven G, de Rooster H, Risselada M, et al.",
+        "title": "Swimmer syndrome in a Devon Rex kitten and an English Bulldog puppy",
+        "journal": "Journal of Small Animal Practice",
+        "year": "2006",
+        "pmid": "17076791",
+        "doi": "10.1111/j.1748-5827.2006.00100.x"
+      },
+      {
+        "authors": "Peterson ME, Kutzler MA",
+        "title": "Small Animal Pediatrics: The First 12 Months of Life",
+        "journal": "Saunders/Elsevier",
+        "year": "2011"
+      },
+      {
+        "authors": "Hoskins JD",
+        "title": "Veterinary Pediatrics: Dogs and Cats from Birth to Six Months, 3rd ed.",
+        "journal": "Saunders/Elsevier",
+        "year": "2001"
+      }
+    ]
+  },
+  "tooth-root-abscess": {
+    "references": [
+      {
+        "authors": "Niemiec BA",
+        "title": "Veterinary Periodontology",
+        "journal": "Wiley-Blackwell",
+        "year": "2013"
+      },
+      {
+        "authors": "Reiter AM, Gracis M",
+        "title": "BSAVA Manual of Canine and Feline Dentistry and Oral Surgery, 4th ed.",
+        "journal": "BSAVA",
+        "year": "2018"
+      },
+      {
+        "authors": "Lobprise HB, Dodd JR",
+        "title": "Wiggs's Veterinary Dentistry: Principles and Practice, 2nd ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2019"
+      }
+    ]
+  },
+  "esophageal-stricture": {
+    "references": [
+      {
+        "authors": "Adamama-Moraitou KK, Rallis TS, Prassinos NN, Galatos AD",
+        "title": "Benign esophageal stricture in the dog and cat: a retrospective study of 20 cases",
+        "journal": "Canadian Journal of Veterinary Research",
+        "year": "2002",
+        "pmid": "11989739"
+      },
+      {
+        "authors": "Washabau RJ, Day MJ",
+        "title": "Canine and Feline Gastroenterology",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "gastroesophageal-reflux": {
+    "references": [
+      {
+        "authors": "Washabau RJ, Day MJ",
+        "title": "Canine and Feline Gastroenterology",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Wilson DV, Walshaw R",
+        "title": "Postanesthetic esophageal dysfunction in 13 dogs",
+        "journal": "Journal of the American Animal Hospital Association",
+        "year": "2004",
+        "pmid": "15131094",
+        "doi": "10.5326/0400507"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "megacolon-feline": {
+    "references": [
+      {
+        "authors": "Washabau RJ, Holt D",
+        "title": "Pathogenesis, diagnosis, and therapy of feline idiopathic megacolon",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "1999",
+        "pmid": "10218476"
+      },
+      {
+        "authors": "Washabau RJ, Day MJ",
+        "title": "Canine and Feline Gastroenterology",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Webb CB",
+        "title": "Feline constipation and megacolon: diagnosis and management",
+        "journal": "Today's Veterinary Practice",
+        "year": "2018"
+      }
+    ]
+  },
+  "atrial-fibrillation": {
+    "references": [
+      {
+        "authors": "Gelzer ARM, Kraus MS",
+        "title": "Management of atrial fibrillation",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2004",
+        "pmid": "15332574",
+        "doi": "10.1016/j.cvsm.2004.05.001"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      },
+      {
+        "authors": "Côté E",
+        "title": "Clinical Veterinary Advisor: Dogs and Cats, 3rd ed.",
+        "journal": "Elsevier Mosby",
+        "year": "2015"
+      }
+    ]
+  },
+  "supraventricular-tachycardia": {
+    "references": [
+      {
+        "authors": "Santilli RA, Sidney Moïse N, Pariaut R, Perego M",
+        "title": "Electrocardiography of the Dog and Cat: Diagnosis of Arrhythmias, 2nd ed.",
+        "journal": "Edra Publishing",
+        "year": "2018"
+      },
+      {
+        "authors": "Willis R, Oliveira P, Mavropoulou A",
+        "title": "Guide to Canine and Feline Electrocardiography",
+        "journal": "Wiley-Blackwell",
+        "year": "2018"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "ventricular-tachycardia": {
+    "references": [
+      {
+        "authors": "Moise NS",
+        "title": "Diagnosis and management of canine arrhythmias",
+        "journal": "Textbook of Canine and Feline Cardiology, 2nd ed. Saunders",
+        "year": "1999"
+      },
+      {
+        "authors": "Santilli RA, Sidney Moïse N, Pariaut R, Perego M",
+        "title": "Electrocardiography of the Dog and Cat: Diagnosis of Arrhythmias, 2nd ed.",
+        "journal": "Edra Publishing",
+        "year": "2018"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "third-degree-av-block": {
+    "references": [
+      {
+        "authors": "Schrope DP, Kelch WJ",
+        "title": "Signalment, clinical signs, and prognostic indicators associated with high-grade second- or third-degree atrioventricular block in dogs: 124 cases (January 1, 1997-December 31, 1997)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2006",
+        "pmid": "17014359",
+        "doi": "10.2460/javma.228.11.1710"
+      },
+      {
+        "authors": "Santilli RA, Sidney Moïse N, Pariaut R, Perego M",
+        "title": "Electrocardiography of the Dog and Cat: Diagnosis of Arrhythmias, 2nd ed.",
+        "journal": "Edra Publishing",
+        "year": "2018"
+      },
+      {
+        "authors": "Côté E",
+        "title": "Clinical Veterinary Advisor: Dogs and Cats, 3rd ed.",
+        "journal": "Elsevier Mosby",
+        "year": "2015"
+      }
+    ]
+  },
+  "constrictive-pericarditis": {
+    "references": [
+      {
+        "authors": "Tobias AH",
+        "title": "Pericardial disease",
+        "journal": "Textbook of Veterinary Internal Medicine, 8th ed. Elsevier",
+        "year": "2017"
+      },
+      {
+        "authors": "Côté E",
+        "title": "Clinical Veterinary Advisor: Dogs and Cats, 3rd ed.",
+        "journal": "Elsevier Mosby",
+        "year": "2015"
+      },
+      {
+        "authors": "Ware WA",
+        "title": "Cardiovascular Disease in Small Animal Medicine",
+        "journal": "Manson Publishing/CRC Press",
+        "year": "2011"
+      }
+    ]
+  },
+  "polycythemia-vera": {
+    "references": [
+      {
+        "authors": "Nitsche EK",
+        "title": "Erythrocytosis in dogs and cats: diagnosis and management",
+        "journal": "Compendium: Continuing Education for Veterinarians",
+        "year": "2004"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      },
+      {
+        "authors": "Côté E",
+        "title": "Clinical Veterinary Advisor: Dogs and Cats, 3rd ed.",
+        "journal": "Elsevier Mosby",
+        "year": "2015"
+      }
+    ]
+  },
+  "multiple-myeloma": {
+    "references": [
+      {
+        "authors": "Matus RE, Leifer CE, MacEwen EG, Hurvitz AI",
+        "title": "Prognostic factors for multiple myeloma in the dog",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "1986",
+        "pmid": "3771070"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Vail DM",
+        "title": "Hematopoietic tumors",
+        "journal": "Textbook of Veterinary Internal Medicine, 8th ed. Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "cutaneous-lymphoma": {
+    "references": [
+      {
+        "authors": "Fontaine J, Heimann M, Day MJ",
+        "title": "Canine cutaneous epitheliotropic T-cell lymphoma: a review of 30 cases",
+        "journal": "Veterinary Dermatology",
+        "year": "2010",
+        "pmid": "20584151",
+        "doi": "10.1111/j.1365-3164.2010.00883.x"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Cutaneous Lymphoma",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      }
+    ]
+  },
+  "thymoma": {
+    "references": [
+      {
+        "authors": "Robat CS, Cesario L, Gaeta R, et al.",
+        "title": "Clinical features, treatment options, and outcome in dogs with thymoma: 116 cases (1999-2010)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2013",
+        "pmid": "24299002",
+        "doi": "10.2460/javma.243.10.1448"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Lainesse MFC, Taylor SM, Myers SL, et al.",
+        "title": "Focal myasthenia gravis as a paraneoplastic syndrome of canine thymoma: improvement following thymectomy",
+        "journal": "Journal of the American Animal Hospital Association",
+        "year": "1996"
+      }
+    ]
+  },
+  "chondrosarcoma": {
+    "references": [
+      {
+        "authors": "Popovitch CA, Weinstein MJ, Goldschmidt MH, Shofer FS",
+        "title": "Chondrosarcoma: a retrospective study of 97 dogs (1987-1997)",
+        "journal": "Journal of the American Animal Hospital Association",
+        "year": "1994"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Tobias KM, Johnston SA",
+        "title": "Veterinary Surgery: Small Animal (2 Volume Set)",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      }
+    ]
+  },
+  "peripheral-nerve-sheath-tumor": {
+    "references": [
+      {
+        "authors": "Brehm DM, Vite CH, Steinberg HS, Haviland J, van Winkle T",
+        "title": "A retrospective evaluation of 51 cases of peripheral nerve sheath tumors in the dog",
+        "journal": "Journal of the American Animal Hospital Association",
+        "year": "1995",
+        "pmid": "7552658"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Dewey CW, da Costa RC",
+        "title": "Practical Guide to Canine and Feline Neurology, 3rd ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2016"
+      }
+    ]
+  },
+  "hyperviscosity-syndrome": {
+    "references": [
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Silverstein DC, Hopper K",
+        "title": "Small Animal Critical Care Medicine, 2nd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2015"
+      }
+    ]
+  },
+  "amyloidosis": {
+    "references": [
+      {
+        "authors": "Segev G, Cowgill LD, Jessen S, Berkowitz A, Mohr CF, Aroch I",
+        "title": "Renal amyloidosis in dogs: a retrospective study of 91 cases with comparison of the disease between Shar-Pei and non-Shar-Pei dogs",
+        "journal": "Journal of Veterinary Internal Medicine",
+        "year": "2012",
+        "pmid": "22372966",
+        "doi": "10.1111/j.1939-1676.2012.00877.x"
+      },
+      {
+        "authors": "DiBartola SP, Tarr MJ, Webb DM, Giger U",
+        "title": "Familial renal amyloidosis in Chinese Shar-Pei dogs",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "1990",
+        "pmid": "2370230"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "feline-hyperesthesia-syndrome": {
+    "references": [
+      {
+        "authors": "Dewey CW, da Costa RC",
+        "title": "Practical Guide to Canine and Feline Neurology, 3rd ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2016"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      },
+      {
+        "authors": "Platt SR, Olby NJ",
+        "title": "BSAVA Manual of Canine and Feline Neurology, 4th ed.",
+        "journal": "BSAVA",
+        "year": "2014"
+      }
+    ]
+  },
+  "cerebellar-hypoplasia": {
+    "references": [
+      {
+        "authors": "Dewey CW, da Costa RC",
+        "title": "Practical Guide to Canine and Feline Neurology, 3rd ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2016"
+      },
+      {
+        "authors": "Greene CE",
+        "title": "Feline Panleukopenia",
+        "journal": "Infectious Diseases of the Dog and Cat, 4th ed. Elsevier",
+        "year": "2012"
+      },
+      {
+        "authors": "Platt SR, Olby NJ",
+        "title": "BSAVA Manual of Canine and Feline Neurology, 4th ed.",
+        "journal": "BSAVA",
+        "year": "2014"
+      }
+    ]
+  },
+  "canine-chronic-bronchitis": {
+    "references": [
+      {
+        "authors": "Rozanski E",
+        "title": "Canine chronic bronchitis",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2014",
+        "pmid": "24439768",
+        "doi": "10.1016/j.cvsm.2013.11.007"
+      },
+      {
+        "authors": "Johnson LR",
+        "title": "Clinical Canine and Feline Respiratory Medicine",
+        "journal": "Wiley-Blackwell",
+        "year": "2010"
+      },
+      {
+        "authors": "King LG",
+        "title": "Textbook of Respiratory Disease in Dogs and Cats",
+        "journal": "Saunders/Elsevier",
+        "year": "2004"
+      }
+    ]
+  },
+  "eosinophilic-bronchopneumopathy": {
+    "references": [
+      {
+        "authors": "Clercx C, Peeters D, Snaps F, et al.",
+        "title": "Eosinophilic bronchopneumopathy in dogs",
+        "journal": "Journal of Veterinary Internal Medicine",
+        "year": "2000",
+        "pmid": "10772488",
+        "doi": "10.1111/j.1939-1676.2000.tb01143.x"
+      },
+      {
+        "authors": "Johnson LR",
+        "title": "Clinical Canine and Feline Respiratory Medicine",
+        "journal": "Wiley-Blackwell",
+        "year": "2010"
+      },
+      {
+        "authors": "King LG",
+        "title": "Textbook of Respiratory Disease in Dogs and Cats",
+        "journal": "Saunders/Elsevier",
+        "year": "2004"
+      }
+    ]
+  },
+  "pulmonary-fibrosis": {
+    "references": [
+      {
+        "authors": "Corcoran BM, Cobb M, Martin MWS, et al.",
+        "title": "Chronic pulmonary disease in West Highland white terriers",
+        "journal": "Veterinary Record",
+        "year": "1999",
+        "pmid": "10563525"
+      },
+      {
+        "authors": "Heikkilä HP, Lappalainen AK, Day MJ, et al.",
+        "title": "Clinical, bronchoscopic, histopathologic, diagnostic imaging, and arterial oxygenation findings in West Highland White Terriers with idiopathic pulmonary fibrosis",
+        "journal": "Journal of Veterinary Internal Medicine",
+        "year": "2011",
+        "pmid": "21418325",
+        "doi": "10.1111/j.1939-1676.2011.0701.x"
+      },
+      {
+        "authors": "King LG",
+        "title": "Textbook of Respiratory Disease in Dogs and Cats",
+        "journal": "Saunders/Elsevier",
+        "year": "2004"
+      }
+    ]
+  },
+  "diaphragmatic-hernia-traumatic": {
+    "references": [
+      {
+        "authors": "Schmiedt CW, Tobias KM, Stevenson MAM",
+        "title": "Traumatic diaphragmatic hernia in cats: 34 cases (1991-2001)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2003",
+        "pmid": "12725296",
+        "doi": "10.2460/javma.2003.222.1237"
+      },
+      {
+        "authors": "Tobias KM, Johnston SA",
+        "title": "Veterinary Surgery: Small Animal (2 Volume Set)",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "Silverstein DC, Hopper K",
+        "title": "Small Animal Critical Care Medicine, 2nd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2015"
+      }
+    ]
+  },
+  "fanconi-syndrome": {
+    "references": [
+      {
+        "authors": "Yearley JH, Hancock DD, Mealey KL",
+        "title": "Survival time, lifespan, and quality of life in dogs with idiopathic Fanconi syndrome",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2004",
+        "pmid": "15552321",
+        "doi": "10.2460/javma.2004.225.377"
+      },
+      {
+        "authors": "DiBartola SP",
+        "title": "Fluid, Electrolyte, and Acid-Base Disorders in Small Animal Practice, 4th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "hypernatremia": {
+    "references": [
+      {
+        "authors": "DiBartola SP",
+        "title": "Fluid, Electrolyte, and Acid-Base Disorders in Small Animal Practice, 4th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "Silverstein DC, Hopper K",
+        "title": "Small Animal Critical Care Medicine, 2nd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2015"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "hyponatremia": {
+    "references": [
+      {
+        "authors": "DiBartola SP",
+        "title": "Fluid, Electrolyte, and Acid-Base Disorders in Small Animal Practice, 4th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "Silverstein DC, Hopper K",
+        "title": "Small Animal Critical Care Medicine, 2nd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2015"
+      },
+      {
+        "authors": "Brady CA, Vite CH, Drobatz KJ",
+        "title": "Severe neurologic sequelae in a dog after treatment of hyponatremia",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "1999",
+        "pmid": "10561879"
+      }
+    ]
+  },
+  "hypermagnesemia": {
+    "references": [
+      {
+        "authors": "DiBartola SP",
+        "title": "Fluid, Electrolyte, and Acid-Base Disorders in Small Animal Practice, 4th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      },
+      {
+        "authors": "Silverstein DC, Hopper K",
+        "title": "Small Animal Critical Care Medicine, 2nd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2015"
+      }
+    ]
+  },
+  "hypomagnesemia": {
+    "references": [
+      {
+        "authors": "DiBartola SP",
+        "title": "Fluid, Electrolyte, and Acid-Base Disorders in Small Animal Practice, 4th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "Kimmel SE, Washabau RJ, Drobatz KJ",
+        "title": "Incidence and prognostic value of low plasma ionized calcium concentration in cats with acute pancreatitis: 46 cases (1996-1998)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2001",
+        "pmid": "11308654"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "hypervitaminosis-d": {
+    "references": [
+      {
+        "authors": "Mellanby RJ, Mee AP, Berry JL, Herrtage ME",
+        "title": "Hypercalcaemia in two dogs caused by excessive dietary supplementation of vitamin D",
+        "journal": "Journal of Small Animal Practice",
+        "year": "2005",
+        "pmid": "16026690",
+        "doi": "10.1111/j.1748-5827.2005.tb00342.x"
+      },
+      {
+        "authors": "Peterson ME, Talcott PA",
+        "title": "Small Animal Toxicology, 3rd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "narcolepsy-cataplexy": {
+    "references": [
+      {
+        "authors": "Lin L, Faraco J, Li R, et al.",
+        "title": "The sleep disorder canine narcolepsy is caused by a mutation in the hypocretin (orexin) receptor 2 gene",
+        "journal": "Cell",
+        "year": "1999",
+        "pmid": "10458605",
+        "doi": "10.1016/S0092-8674(00)80943-3"
+      },
+      {
+        "authors": "Dewey CW, da Costa RC",
+        "title": "Practical Guide to Canine and Feline Neurology, 3rd ed.",
+        "journal": "Wiley-Blackwell",
+        "year": "2016"
+      },
+      {
+        "authors": "Platt SR, Olby NJ",
+        "title": "BSAVA Manual of Canine and Feline Neurology, 4th ed.",
+        "journal": "BSAVA",
+        "year": "2014"
+      }
+    ]
+  },
+  "lung-lobe-torsion": {
+    "references": [
+      {
+        "authors": "Neath PJ, Brockman DJ, King LG",
+        "title": "Lung lobe torsion in dogs: 22 cases (1981-1999)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2000",
+        "pmid": "11061387",
+        "doi": "10.2460/javma.2000.217.1041"
+      },
+      {
+        "authors": "Tobias KM, Johnston SA",
+        "title": "Veterinary Surgery: Small Animal (2 Volume Set)",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "King LG",
+        "title": "Textbook of Respiratory Disease in Dogs and Cats",
+        "journal": "Saunders/Elsevier",
+        "year": "2004"
+      }
+    ]
+  },
+  "bile-peritonitis": {
+    "references": [
+      {
+        "authors": "Ludwig LL, McLoughlin MA, Graves TK, Crisp MS",
+        "title": "Surgical treatment of bile peritonitis in 24 dogs and 2 cats: a retrospective study (1987-1994)",
+        "journal": "Veterinary Surgery",
+        "year": "1997",
+        "pmid": "9150558",
+        "doi": "10.1111/j.1532-950X.1997.tb01477.x"
+      },
+      {
+        "authors": "Tobias KM, Johnston SA",
+        "title": "Veterinary Surgery: Small Animal (2 Volume Set)",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      },
+      {
+        "authors": "Washabau RJ, Day MJ",
+        "title": "Canine and Feline Gastroenterology",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      }
+    ]
+  },
+  "hepatic-abscess": {
+    "references": [
+      {
+        "authors": "Farrar ET, Washabau RJ, Saunders HM",
+        "title": "Hepatic abscesses in dogs: 14 cases (1982-1994)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "1996",
+        "pmid": "8617643"
+      },
+      {
+        "authors": "Washabau RJ, Day MJ",
+        "title": "Canine and Feline Gastroenterology",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "myocardial-contusion": {
+    "references": [
+      {
+        "authors": "Schober KE, Kirbach B, Oechtering G",
+        "title": "Noninvasive assessment of myocardial cell injury in dogs with suspected cardiac contusion",
+        "journal": "Journal of Veterinary Cardiology",
+        "year": "1999",
+        "doi": "10.1016/S1760-2734(06)70030-3"
+      },
+      {
+        "authors": "Silverstein DC, Hopper K",
+        "title": "Small Animal Critical Care Medicine, 2nd ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2015"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "pemphigus-vulgaris": {
+    "references": [
+      {
+        "authors": "Olivry T",
+        "title": "A review of autoimmune skin diseases in domestic animals: I - superficial pemphigus",
+        "journal": "Veterinary Dermatology",
+        "year": "2006",
+        "pmid": "17083729",
+        "doi": "10.1111/j.1365-3164.2006.00540.x"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Pemphigus Vulgaris",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Gross TL, Ihrke PJ, Walder EJ, Affolter VK",
+        "title": "Skin Diseases of the Dog and Cat: Clinical and Histopathologic Diagnosis, 2nd ed.",
+        "journal": "Blackwell Science",
+        "year": "2005"
+      }
+    ]
+  },
+  "bullous-pemphigoid": {
+    "references": [
+      {
+        "authors": "Olivry T, Chan LS",
+        "title": "Autoimmune blistering dermatoses in domestic animals",
+        "journal": "Clinics in Dermatology",
+        "year": "2001",
+        "pmid": "11397600",
+        "doi": "10.1016/S0738-081X(00)00166-X"
+      },
+      {
+        "authors": "Miller WH, Griffin CE, Campbell KL",
+        "title": "Bullous Pemphigoid",
+        "journal": "Muller and Kirk's Small Animal Dermatology, 7th ed. Elsevier",
+        "year": "2013"
+      },
+      {
+        "authors": "Gross TL, Ihrke PJ, Walder EJ, Affolter VK",
+        "title": "Skin Diseases of the Dog and Cat: Clinical and Histopathologic Diagnosis, 2nd ed.",
+        "journal": "Blackwell Science",
+        "year": "2005"
+      }
+    ]
+  },
+  "oral-fibrosarcoma": {
+    "references": [
+      {
+        "authors": "Frazier SA, Johns SM, Ortega J, et al.",
+        "title": "Outcome in dogs with surgically resected oral fibrosarcoma (1997-2008)",
+        "journal": "Veterinary and Comparative Oncology",
+        "year": "2012",
+        "pmid": "22236307",
+        "doi": "10.1111/j.1476-5829.2011.00279.x"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "nasal-adenocarcinoma": {
+    "references": [
+      {
+        "authors": "Rassnick KM, Goldkamp CE, Erb HN, et al.",
+        "title": "Evaluation of factors associated with survival in dogs with untreated nasal carcinomas: 139 cases (1993-2003)",
+        "journal": "Journal of the American Veterinary Medical Association",
+        "year": "2006",
+        "pmid": "16426186",
+        "doi": "10.2460/javma.228.2.218"
+      },
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "King LG",
+        "title": "Textbook of Respiratory Disease in Dogs and Cats",
+        "journal": "Saunders/Elsevier",
+        "year": "2004"
+      }
+    ]
+  },
+  "lymphangiectasia": {
+    "references": [
+      {
+        "authors": "Dossin O, Lavoué R",
+        "title": "Protein-losing enteropathies in dogs",
+        "journal": "Veterinary Clinics of North America: Small Animal Practice",
+        "year": "2011",
+        "pmid": "21486640",
+        "doi": "10.1016/j.cvsm.2011.02.002"
+      },
+      {
+        "authors": "Washabau RJ, Day MJ",
+        "title": "Canine and Feline Gastroenterology",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "exocrine-pancreatic-neoplasia": {
+    "references": [
+      {
+        "authors": "Withrow SJ, Vail DM, Page RL",
+        "title": "Withrow and MacEwen's Small Animal Clinical Oncology, 5th ed.",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Washabau RJ, Day MJ",
+        "title": "Canine and Feline Gastroenterology",
+        "journal": "Elsevier Saunders",
+        "year": "2013"
+      },
+      {
+        "authors": "Ettinger SJ, Feldman EC, Côté E",
+        "title": "Textbook of Veterinary Internal Medicine, 8th ed.",
+        "journal": "Elsevier",
+        "year": "2017"
+      }
+    ]
+  },
+  "tracheal-foreign-body": {
+    "references": [
+      {
+        "authors": "Tivers M, Moore A",
+        "title": "Tracheal foreign bodies in the cat and the use of fluoroscopy for removal: 12 cases",
+        "journal": "Journal of Small Animal Practice",
+        "year": "2006",
+        "pmid": "16417475",
+        "doi": "10.1111/j.1748-5827.2006.00050.x"
+      },
+      {
+        "authors": "King LG",
+        "title": "Textbook of Respiratory Disease in Dogs and Cats",
+        "journal": "Saunders/Elsevier",
+        "year": "2004"
+      },
+      {
+        "authors": "Tobias KM, Johnston SA",
+        "title": "Veterinary Surgery: Small Animal (2 Volume Set)",
+        "journal": "Elsevier Saunders",
+        "year": "2012"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2150 @@
+{
+  "totalDiseases": 403,
+  "categorizedCount": 350,
+  "uncategorizedCount": 53,
+  "categories": {
+    "cardiovascular": {
+      "name": "心血管系統",
+      "count": 27,
+      "diseases": [
+        {
+          "key": "arrhythmia",
+          "zh": "心律不整",
+          "en": "Cardiac Arrhythmia"
+        },
+        {
+          "key": "dilated-cardiomyopathy",
+          "zh": "擴張型心肌病",
+          "en": "Dilated Cardiomyopathy (DCM)"
+        },
+        {
+          "key": "hypertrophic-cardiomyopathy",
+          "zh": "肥厚型心肌病",
+          "en": "Hypertrophic Cardiomyopathy (HCM)"
+        },
+        {
+          "key": "mitral-valve-disease",
+          "zh": "二尖瓣疾病",
+          "en": "Myxomatous Mitral Valve Disease"
+        },
+        {
+          "key": "tricuspid-valve-dysplasia",
+          "zh": "三尖瓣發育不良",
+          "en": "Tricuspid Valve Dysplasia (TVD)"
+        },
+        {
+          "key": "aortic-stenosis",
+          "zh": "主動脈瓣狹窄",
+          "en": "Aortic Stenosis"
+        },
+        {
+          "key": "pulmonic-stenosis",
+          "zh": "肺動脈瓣狹窄",
+          "en": "Pulmonic Stenosis"
+        },
+        {
+          "key": "heartworm-disease",
+          "zh": "心絲蟲病",
+          "en": "Heartworm Disease (Dirofilariasis)"
+        },
+        {
+          "key": "pericardial-effusion",
+          "zh": "心包積液",
+          "en": "Pericardial Effusion"
+        },
+        {
+          "key": "infective-endocarditis",
+          "zh": "感染性心內膜炎",
+          "en": "Infective Endocarditis (IE)"
+        },
+        {
+          "key": "arterial-thromboembolism",
+          "zh": "動脈血栓栓塞",
+          "en": "Arterial Thromboembolism (ATE)"
+        },
+        {
+          "key": "systemic-hypertension",
+          "zh": "全身性高血壓",
+          "en": "Systemic Hypertension"
+        },
+        {
+          "key": "pulmonary-hypertension",
+          "zh": "肺高壓",
+          "en": "Pulmonary Hypertension"
+        },
+        {
+          "key": "endocarditis",
+          "zh": "心內膜炎",
+          "en": "Infective Endocarditis"
+        },
+        {
+          "key": "myocarditis",
+          "zh": "心肌炎",
+          "en": "Myocarditis"
+        },
+        {
+          "key": "pyloric-stenosis",
+          "zh": "幽門狹窄",
+          "en": "Pyloric Stenosis"
+        },
+        {
+          "key": "pulmonary-thromboembolism",
+          "zh": "肺栓塞",
+          "en": "Pulmonary Thromboembolism (PTE)"
+        },
+        {
+          "key": "lumbosacral-stenosis",
+          "zh": "腰薦椎狹窄症",
+          "en": "Lumbosacral Stenosis"
+        },
+        {
+          "key": "dilated-cardiomyopathy-canine",
+          "zh": "犬擴張性心肌病",
+          "en": "Canine Dilated Cardiomyopathy"
+        },
+        {
+          "key": "hypertrophic-cardiomyopathy-feline",
+          "zh": "貓肥厚性心肌病",
+          "en": "Feline Hypertrophic Cardiomyopathy"
+        },
+        {
+          "key": "ventricular-arrhythmia",
+          "zh": "心室性心律不整",
+          "en": "Ventricular Arrhythmia"
+        },
+        {
+          "key": "disseminated-intravascular-coagulation",
+          "zh": "瀰漫性血管內凝血",
+          "en": "Disseminated Intravascular Coagulation"
+        },
+        {
+          "key": "congestive-heart-failure",
+          "zh": "充血性心臟衰竭",
+          "en": "Congestive Heart Failure"
+        },
+        {
+          "key": "feline-hyperthyroid-cardiomyopathy",
+          "zh": "貓甲亢性心肌病",
+          "en": "Feline Hyperthyroid Cardiomyopathy"
+        },
+        {
+          "key": "cardiopulmonary-arrest",
+          "zh": "心肺停止",
+          "en": "Cardiopulmonary Arrest"
+        },
+        {
+          "key": "cardiogenic-shock",
+          "zh": "心因性休克",
+          "en": "Cardiogenic Shock"
+        },
+        {
+          "key": "nasopharyngeal-stenosis",
+          "zh": "鼻咽狹窄",
+          "en": "Nasopharyngeal Stenosis"
+        }
+      ]
+    },
+    "respiratory": {
+      "name": "呼吸系統",
+      "count": 24,
+      "diseases": [
+        {
+          "key": "pneumonia",
+          "zh": "肺炎",
+          "en": "Pneumonia"
+        },
+        {
+          "key": "chronic-bronchitis",
+          "zh": "慢性支氣管炎",
+          "en": "Chronic Bronchitis"
+        },
+        {
+          "key": "feline-asthma",
+          "zh": "貓氣喘",
+          "en": "Feline Asthma"
+        },
+        {
+          "key": "tracheal-collapse",
+          "zh": "氣管塌陷",
+          "en": "Tracheal Collapse"
+        },
+        {
+          "key": "brachycephalic-obstructive-airway-syndrome",
+          "zh": "短頭型阻塞性呼吸道症候群",
+          "en": "Brachycephalic Obstructive Airway Syndrome"
+        },
+        {
+          "key": "laryngeal-paralysis",
+          "zh": "喉麻痺",
+          "en": "Laryngeal Paralysis"
+        },
+        {
+          "key": "pulmonary-edema",
+          "zh": "肺水腫",
+          "en": "Pulmonary Edema"
+        },
+        {
+          "key": "pulmonary-fibrosis",
+          "zh": "肺纖維化",
+          "en": "Pulmonary Fibrosis"
+        },
+        {
+          "key": "pyothorax",
+          "zh": "膿胸",
+          "en": "Pyothorax"
+        },
+        {
+          "key": "chylothorax",
+          "zh": "乳糜胸",
+          "en": "Chylothorax"
+        },
+        {
+          "key": "pneumothorax",
+          "zh": "氣胸",
+          "en": "Pneumothorax"
+        },
+        {
+          "key": "rhinitis",
+          "zh": "鼻炎",
+          "en": "Rhinitis"
+        },
+        {
+          "key": "nasal-neoplasia",
+          "zh": "鼻腔腫瘤",
+          "en": "Nasal Neoplasia"
+        },
+        {
+          "key": "pulmonary-neoplasia",
+          "zh": "肺腫瘤",
+          "en": "Pulmonary Neoplasia"
+        },
+        {
+          "key": "feline-viral-rhinotracheitis",
+          "zh": "貓病毒性鼻氣管炎",
+          "en": "Feline Viral Rhinotracheitis (FVR)"
+        },
+        {
+          "key": "nasal-tumor",
+          "zh": "鼻腔腫瘤",
+          "en": "Nasal Tumor"
+        },
+        {
+          "key": "chronic-rhinitis",
+          "zh": "慢性鼻炎",
+          "en": "Chronic Rhinitis"
+        },
+        {
+          "key": "aspergillosis-nasal",
+          "zh": "鼻麴菌感染",
+          "en": "Nasal Aspergillosis"
+        },
+        {
+          "key": "oronasal-fistula",
+          "zh": "口鼻瘻管",
+          "en": "Oronasal Fistula"
+        },
+        {
+          "key": "feline-asthma-bronchitis-complex",
+          "zh": "貓氣喘支氣管炎複合症",
+          "en": "Feline Asthma-Bronchitis Complex"
+        },
+        {
+          "key": "nasal-foreign-body",
+          "zh": "鼻腔異物",
+          "en": "Nasal Foreign Body"
+        },
+        {
+          "key": "laryngitis-acute",
+          "zh": "急性喉炎",
+          "en": "Acute Laryngitis"
+        },
+        {
+          "key": "tracheal-hypoplasia",
+          "zh": "氣管發育不全",
+          "en": "Tracheal Hypoplasia"
+        },
+        {
+          "key": "hypoplastic-trachea",
+          "zh": "氣管發育不全",
+          "en": "Hypoplastic Trachea"
+        }
+      ]
+    },
+    "gastrointestinal": {
+      "name": "消化系統",
+      "count": 40,
+      "diseases": [
+        {
+          "key": "pancreatitis",
+          "zh": "胰臟炎",
+          "en": "Pancreatitis"
+        },
+        {
+          "key": "megaesophagus",
+          "zh": "巨食道症",
+          "en": "Megaesophagus"
+        },
+        {
+          "key": "intussusception",
+          "zh": "腸套疊",
+          "en": "Intussusception"
+        },
+        {
+          "key": "gastric-dilatation-volvulus",
+          "zh": "胃擴張扭轉",
+          "en": "Gastric Dilatation-Volvulus (GDV)"
+        },
+        {
+          "key": "gastric-ulcer",
+          "zh": "胃潰瘍",
+          "en": "Gastric Ulcer"
+        },
+        {
+          "key": "inflammatory-bowel-disease",
+          "zh": "發炎性腸病",
+          "en": "Inflammatory Bowel Disease (IBD)"
+        },
+        {
+          "key": "hemorrhagic-gastroenteritis",
+          "zh": "出血性胃腸炎",
+          "en": "Hemorrhagic Gastroenteritis (HGE)"
+        },
+        {
+          "key": "constipation-megacolon",
+          "zh": "便秘/巨結腸",
+          "en": "Constipation/Megacolon"
+        },
+        {
+          "key": "esophageal-foreign-body",
+          "zh": "食道異物",
+          "en": "Esophageal Foreign Body"
+        },
+        {
+          "key": "exocrine-pancreatic-insufficiency",
+          "zh": "胰外分泌功能不全",
+          "en": "Exocrine Pancreatic Insufficiency (EPI)"
+        },
+        {
+          "key": "hepatic-lipidosis",
+          "zh": "肝臟脂肪沉積症",
+          "en": "Hepatic Lipidosis"
+        },
+        {
+          "key": "portosystemic-shunt",
+          "zh": "肝門脈分流",
+          "en": "Portosystemic Shunt (PSS)"
+        },
+        {
+          "key": "cholangiohepatitis",
+          "zh": "膽管肝炎",
+          "en": "Cholangiohepatitis"
+        },
+        {
+          "key": "copper-storage-hepatopathy",
+          "zh": "銅儲積性肝病",
+          "en": "Copper Storage Hepatopathy"
+        },
+        {
+          "key": "anal-sac-disease",
+          "zh": "肛門腺疾病",
+          "en": "Anal Sac Disease"
+        },
+        {
+          "key": "rectal-prolapse",
+          "zh": "直腸脫出",
+          "en": "Rectal Prolapse"
+        },
+        {
+          "key": "cholangitis",
+          "zh": "膽管炎",
+          "en": "Cholangitis/Cholangiohepatitis"
+        },
+        {
+          "key": "megacolon",
+          "zh": "巨結腸症",
+          "en": "Megacolon"
+        },
+        {
+          "key": "esophagitis",
+          "zh": "食道炎",
+          "en": "Esophagitis"
+        },
+        {
+          "key": "gastrointestinal-foreign-body",
+          "zh": "胃腸道異物",
+          "en": "Gastrointestinal Foreign Body"
+        },
+        {
+          "key": "chronic-hepatitis",
+          "zh": "慢性肝炎",
+          "en": "Chronic Hepatitis"
+        },
+        {
+          "key": "acute-hepatic-failure",
+          "zh": "急性肝衰竭",
+          "en": "Acute Hepatic Failure"
+        },
+        {
+          "key": "intestinal-obstruction",
+          "zh": "腸阻塞",
+          "en": "Intestinal Obstruction"
+        },
+        {
+          "key": "small-intestinal-bacterial-overgrowth",
+          "zh": "小腸細菌過度生長",
+          "en": "Small Intestinal Bacterial Overgrowth (SIBO)"
+        },
+        {
+          "key": "hepatic-neoplasia",
+          "zh": "肝臟腫瘤",
+          "en": "Hepatic Neoplasia"
+        },
+        {
+          "key": "gastric-neoplasia",
+          "zh": "胃腫瘤",
+          "en": "Gastric Neoplasia"
+        },
+        {
+          "key": "rectal-polyp",
+          "zh": "直腸息肉",
+          "en": "Rectal Polyp"
+        },
+        {
+          "key": "malabsorption-syndrome",
+          "zh": "吸收不良症候群",
+          "en": "Malabsorption Syndrome"
+        },
+        {
+          "key": "intestinal-perforation",
+          "zh": "腸穿孔",
+          "en": "Intestinal Perforation"
+        },
+        {
+          "key": "protein-losing-gastropathy",
+          "zh": "蛋白質流失性胃病",
+          "en": "Protein-Losing Gastropathy"
+        },
+        {
+          "key": "gastric-dilatation",
+          "zh": "胃擴張",
+          "en": "Gastric Dilatation (without Volvulus)"
+        },
+        {
+          "key": "anal-sac-adenocarcinoma",
+          "zh": "肛門腺腺癌",
+          "en": "Anal Sac Adenocarcinoma (ASACA)"
+        },
+        {
+          "key": "infectious-canine-hepatitis",
+          "zh": "犬傳染性肝炎",
+          "en": "Infectious Canine Hepatitis (ICH)"
+        },
+        {
+          "key": "feline-hepatic-lipidosis",
+          "zh": "貓肝臟脂肪變性",
+          "en": "Feline Hepatic Lipidosis"
+        },
+        {
+          "key": "congenital-megaesophagus",
+          "zh": "先天性巨食道症",
+          "en": "Congenital Megaesophagus"
+        },
+        {
+          "key": "hepatocellular-carcinoma",
+          "zh": "肝細胞癌",
+          "en": "Hepatocellular Carcinoma"
+        },
+        {
+          "key": "portosystemic-shunt-congenital",
+          "zh": "先天性肝門脈分流",
+          "en": "Congenital Portosystemic Shunt"
+        },
+        {
+          "key": "perianal-adenoma",
+          "zh": "肛周腺瘤",
+          "en": "Perianal Adenoma"
+        },
+        {
+          "key": "hepatocutaneous-syndrome",
+          "zh": "肝皮膚症候群",
+          "en": "Hepatocutaneous Syndrome"
+        },
+        {
+          "key": "anal-furunculosis",
+          "zh": "肛周瘻管",
+          "en": "Anal Furunculosis (Perianal Fistula)"
+        }
+      ]
+    },
+    "neurological": {
+      "name": "神經系統",
+      "count": 29,
+      "diseases": [
+        {
+          "key": "meningitis",
+          "zh": "腦膜炎",
+          "en": "Meningitis/Meningoencephalitis"
+        },
+        {
+          "key": "intervertebral-disc-disease",
+          "zh": "椎間盤疾病",
+          "en": "Intervertebral Disc Disease"
+        },
+        {
+          "key": "fibrocartilaginous-embolism",
+          "zh": "纖維軟骨栓塞",
+          "en": "Fibrocartilaginous Embolism (FCE)"
+        },
+        {
+          "key": "degenerative-myelopathy",
+          "zh": "退化性脊髓病變",
+          "en": "Degenerative Myelopathy"
+        },
+        {
+          "key": "idiopathic-epilepsy",
+          "zh": "原發性癲癇",
+          "en": "Idiopathic Epilepsy"
+        },
+        {
+          "key": "granulomatous-meningoencephalitis",
+          "zh": "肉芽腫性腦膜腦炎",
+          "en": "Granulomatous Meningoencephalitis (GME)"
+        },
+        {
+          "key": "necrotizing-meningoencephalitis",
+          "zh": "壞死性腦膜腦炎",
+          "en": "Necrotizing Meningoencephalitis (NME)"
+        },
+        {
+          "key": "vestibular-disease",
+          "zh": "前庭疾病",
+          "en": "Vestibular Disease"
+        },
+        {
+          "key": "hydrocephalus",
+          "zh": "腦積水",
+          "en": "Hydrocephalus"
+        },
+        {
+          "key": "syringomyelia",
+          "zh": "脊髓空洞症",
+          "en": "Syringomyelia (SM)"
+        },
+        {
+          "key": "myasthenia-gravis",
+          "zh": "重症肌無力",
+          "en": "Myasthenia Gravis"
+        },
+        {
+          "key": "cognitive-dysfunction-syndrome",
+          "zh": "認知功能障礙症候群",
+          "en": "Cognitive Dysfunction Syndrome"
+        },
+        {
+          "key": "horners-syndrome",
+          "zh": "霍納氏症候群",
+          "en": "Horner's Syndrome"
+        },
+        {
+          "key": "facial-nerve-paralysis",
+          "zh": "顏面神經麻痺",
+          "en": "Facial Nerve Paralysis"
+        },
+        {
+          "key": "trigeminal-neuritis",
+          "zh": "三叉神經炎",
+          "en": "Trigeminal Neuritis"
+        },
+        {
+          "key": "cervical-spondylomyelopathy",
+          "zh": "頸椎脊髓病變（搖擺症）",
+          "en": "Cervical Spondylomyelopathy (Wobbler Syndrome)"
+        },
+        {
+          "key": "granulomatous-meningoencephalomyelitis",
+          "zh": "肉芽腫性腦脊髓膜炎",
+          "en": "Granulomatous Meningoencephalomyelitis (GME)"
+        },
+        {
+          "key": "meningitis-arteritis",
+          "zh": "類固醇反應性腦膜炎-動脈炎",
+          "en": "Steroid-Responsive Meningitis-Arteritis (SRMA)"
+        },
+        {
+          "key": "polyneuropathy",
+          "zh": "多發性神經病變",
+          "en": "Polyneuropathy"
+        },
+        {
+          "key": "necrotizing-encephalitis",
+          "zh": "壞死性腦炎",
+          "en": "Necrotizing Encephalitis"
+        },
+        {
+          "key": "brain-tumor",
+          "zh": "腦腫瘤",
+          "en": "Brain Tumor"
+        },
+        {
+          "key": "atlantoaxial-instability",
+          "zh": "寰樞椎不穩定",
+          "en": "Atlantoaxial Instability"
+        },
+        {
+          "key": "spinal-trauma",
+          "zh": "脊椎外傷",
+          "en": "Spinal Trauma"
+        },
+        {
+          "key": "tick-paralysis",
+          "zh": "壁蝨麻痺",
+          "en": "Tick Paralysis"
+        },
+        {
+          "key": "immune-mediated-meningitis",
+          "zh": "免疫介導性腦膜炎",
+          "en": "Steroid-Responsive Meningitis-Arteritis"
+        },
+        {
+          "key": "wobbler-syndrome",
+          "zh": "搖擺症候群",
+          "en": "Wobbler Syndrome"
+        },
+        {
+          "key": "cognitive-dysfunction",
+          "zh": "認知功能障礙",
+          "en": "Cognitive Dysfunction Syndrome"
+        },
+        {
+          "key": "steroid-responsive-meningitis-arteritis",
+          "zh": "類固醇反應性腦膜炎動脈炎",
+          "en": "Steroid-Responsive Meningitis-Arteritis"
+        },
+        {
+          "key": "lumbosacral-disease",
+          "zh": "腰薦椎疾病",
+          "en": "Lumbosacral Disease"
+        }
+      ]
+    },
+    "dermatological": {
+      "name": "皮膚科",
+      "count": 25,
+      "diseases": [
+        {
+          "key": "ringworm",
+          "zh": "皮膚真菌症",
+          "en": "Dermatophytosis (Ringworm)"
+        },
+        {
+          "key": "pyoderma",
+          "zh": "膿皮症",
+          "en": "Pyoderma"
+        },
+        {
+          "key": "demodicosis",
+          "zh": "蠕形蟎症",
+          "en": "Demodicosis"
+        },
+        {
+          "key": "histiocytoma",
+          "zh": "組織細胞瘤",
+          "en": "Histiocytoma"
+        },
+        {
+          "key": "lipoma",
+          "zh": "脂肪瘤",
+          "en": "Lipoma"
+        },
+        {
+          "key": "atopic-dermatitis",
+          "zh": "異位性皮膚炎",
+          "en": "Atopic Dermatitis"
+        },
+        {
+          "key": "food-allergy-dermatitis",
+          "zh": "食物過敏性皮膚炎",
+          "en": "Cutaneous Adverse Food Reaction"
+        },
+        {
+          "key": "flea-allergy-dermatitis",
+          "zh": "跳蚤過敏性皮膚炎",
+          "en": "Flea Allergy Dermatitis"
+        },
+        {
+          "key": "malassezia-dermatitis",
+          "zh": "馬拉色菌皮膚炎",
+          "en": "Malassezia Dermatitis"
+        },
+        {
+          "key": "dermatophytosis",
+          "zh": "皮黴菌病",
+          "en": "Dermatophytosis"
+        },
+        {
+          "key": "sarcoptic-mange",
+          "zh": "疥癬",
+          "en": "Sarcoptic Mange"
+        },
+        {
+          "key": "pemphigus-foliaceus",
+          "zh": "落葉型天皰瘡",
+          "en": "Pemphigus Foliaceus"
+        },
+        {
+          "key": "lupoid-onychodystrophy",
+          "zh": "類狼瘡爪病變",
+          "en": "Symmetric Lupoid Onychodystrophy"
+        },
+        {
+          "key": "alopecia-x",
+          "zh": "X脫毛症",
+          "en": "Alopecia X"
+        },
+        {
+          "key": "acral-lick-dermatitis",
+          "zh": "肢端舔舐性皮膚炎",
+          "en": "Acral Lick Dermatitis"
+        },
+        {
+          "key": "sebaceous-adenitis",
+          "zh": "皮脂腺炎",
+          "en": "Sebaceous Adenitis"
+        },
+        {
+          "key": "otitis-externa",
+          "zh": "外耳炎",
+          "en": "Otitis Externa"
+        },
+        {
+          "key": "otitis-media-interna",
+          "zh": "中耳炎/內耳炎",
+          "en": "Otitis Media/Interna"
+        },
+        {
+          "key": "otitis-media-severe",
+          "zh": "嚴重中耳炎",
+          "en": "Severe Otitis Media"
+        },
+        {
+          "key": "allergic-contact-dermatitis",
+          "zh": "接觸性皮膚炎",
+          "en": "Allergic Contact Dermatitis"
+        },
+        {
+          "key": "otitis-interna",
+          "zh": "內耳炎",
+          "en": "Otitis Interna"
+        },
+        {
+          "key": "psychogenic-alopecia",
+          "zh": "心因性脫毛",
+          "en": "Psychogenic Alopecia"
+        },
+        {
+          "key": "otitis-externa-chronic",
+          "zh": "慢性外耳炎",
+          "en": "Chronic Otitis Externa"
+        },
+        {
+          "key": "facial-fold-dermatitis",
+          "zh": "面部皺褶皮膚炎",
+          "en": "Facial Fold Dermatitis"
+        },
+        {
+          "key": "primary-ciliary-dyskinesia",
+          "zh": "原發性纖毛運動障礙",
+          "en": "Primary Ciliary Dyskinesia"
+        }
+      ]
+    },
+    "endocrine": {
+      "name": "內分泌系統",
+      "count": 18,
+      "diseases": [
+        {
+          "key": "hyperthyroidism",
+          "zh": "甲狀腺機能亢進",
+          "en": "Hyperthyroidism"
+        },
+        {
+          "key": "hypothyroidism",
+          "zh": "甲狀腺功能低下",
+          "en": "Hypothyroidism"
+        },
+        {
+          "key": "insulinoma",
+          "zh": "胰島素瘤",
+          "en": "Insulinoma"
+        },
+        {
+          "key": "diabetes-mellitus",
+          "zh": "糖尿病",
+          "en": "Diabetes Mellitus"
+        },
+        {
+          "key": "hyperthyroidism-cat",
+          "zh": "甲狀腺功能亢進（貓）",
+          "en": "Hyperthyroidism (Feline)"
+        },
+        {
+          "key": "hypothyroidism-dog",
+          "zh": "甲狀腺功能低下（犬）",
+          "en": "Hypothyroidism (Canine)"
+        },
+        {
+          "key": "pheochromocytoma",
+          "zh": "嗜鉻細胞瘤",
+          "en": "Pheochromocytoma"
+        },
+        {
+          "key": "hyperparathyroidism",
+          "zh": "副甲狀腺功能亢進",
+          "en": "Hyperparathyroidism"
+        },
+        {
+          "key": "hypoparathyroidism",
+          "zh": "副甲狀腺功能低下",
+          "en": "Hypoparathyroidism"
+        },
+        {
+          "key": "hypersomatotropism",
+          "zh": "生長激素過多症",
+          "en": "Hypersomatotropism (Acromegaly)"
+        },
+        {
+          "key": "growth-hormone-deficiency",
+          "zh": "生長激素缺乏",
+          "en": "Growth Hormone Deficiency"
+        },
+        {
+          "key": "diabetes-insipidus",
+          "zh": "尿崩症",
+          "en": "Diabetes Insipidus"
+        },
+        {
+          "key": "hyperaldosteronism",
+          "zh": "高醛固酮症",
+          "en": "Hyperaldosteronism (Conn's Syndrome)"
+        },
+        {
+          "key": "thyroid-carcinoma",
+          "zh": "甲狀腺癌",
+          "en": "Thyroid Carcinoma"
+        },
+        {
+          "key": "adrenal-tumor",
+          "zh": "腎上腺腫瘤",
+          "en": "Adrenal Tumor"
+        },
+        {
+          "key": "diabetic-ketoacidosis",
+          "zh": "糖尿病酮酸中毒",
+          "en": "Diabetic Ketoacidosis"
+        },
+        {
+          "key": "addisons-crisis",
+          "zh": "愛迪生危機",
+          "en": "Addisonian Crisis"
+        },
+        {
+          "key": "insulinoma-cat",
+          "zh": "貓胰島素瘤",
+          "en": "Feline Insulinoma"
+        }
+      ]
+    },
+    "urinary": {
+      "name": "泌尿系統",
+      "count": 23,
+      "diseases": [
+        {
+          "key": "urolithiasis",
+          "zh": "尿路結石",
+          "en": "Urolithiasis"
+        },
+        {
+          "key": "glomerulonephritis",
+          "zh": "腎絲球腎炎",
+          "en": "Glomerulonephritis"
+        },
+        {
+          "key": "acute-kidney-injury",
+          "zh": "急性腎損傷",
+          "en": "Acute Kidney Injury"
+        },
+        {
+          "key": "chronic-kidney-disease",
+          "zh": "慢性腎臟病",
+          "en": "Chronic Kidney Disease"
+        },
+        {
+          "key": "feline-lower-urinary-tract-disease",
+          "zh": "貓下泌尿道疾病",
+          "en": "Feline Lower Urinary Tract Disease"
+        },
+        {
+          "key": "urinary-tract-infection",
+          "zh": "泌尿道感染",
+          "en": "Urinary Tract Infection"
+        },
+        {
+          "key": "pyelonephritis",
+          "zh": "腎盂腎炎",
+          "en": "Pyelonephritis"
+        },
+        {
+          "key": "polycystic-kidney-disease",
+          "zh": "多囊性腎臟病",
+          "en": "Polycystic Kidney Disease"
+        },
+        {
+          "key": "protein-losing-nephropathy",
+          "zh": "蛋白質流失性腎病",
+          "en": "Protein-Losing Nephropathy (PLN)"
+        },
+        {
+          "key": "renal-dysplasia",
+          "zh": "腎發育不良",
+          "en": "Renal Dysplasia"
+        },
+        {
+          "key": "ectopic-ureter",
+          "zh": "異位輸尿管",
+          "en": "Ectopic Ureter"
+        },
+        {
+          "key": "urethral-obstruction",
+          "zh": "尿道阻塞",
+          "en": "Urethral Obstruction"
+        },
+        {
+          "key": "bladder-tumor",
+          "zh": "膀胱腫瘤",
+          "en": "Bladder Tumor"
+        },
+        {
+          "key": "urinary-incontinence",
+          "zh": "尿失禁",
+          "en": "Urinary Incontinence"
+        },
+        {
+          "key": "hydronephrosis",
+          "zh": "腎水腫",
+          "en": "Hydronephrosis"
+        },
+        {
+          "key": "nephrotoxicity",
+          "zh": "腎毒性",
+          "en": "Nephrotoxicity"
+        },
+        {
+          "key": "gallbladder-mucocele",
+          "zh": "膽囊黏液囊腫",
+          "en": "Gallbladder Mucocele"
+        },
+        {
+          "key": "renal-cell-carcinoma",
+          "zh": "腎細胞癌",
+          "en": "Renal Cell Carcinoma (RCC)"
+        },
+        {
+          "key": "feline-idiopathic-cystitis-stress",
+          "zh": "貓特發性膀胱炎（壓力相關）",
+          "en": "Feline Idiopathic Cystitis (Stress-Related)"
+        },
+        {
+          "key": "urinary-calculi-struvite",
+          "zh": "磷酸銨鎂結石",
+          "en": "Struvite Urolithiasis"
+        },
+        {
+          "key": "urinary-calculi-oxalate",
+          "zh": "草酸鈣結石",
+          "en": "Calcium Oxalate Urolithiasis"
+        },
+        {
+          "key": "immune-mediated-glomerulonephritis",
+          "zh": "免疫介導性腎病",
+          "en": "Immune-Mediated Glomerulonephritis"
+        },
+        {
+          "key": "idiopathic-cystitis",
+          "zh": "特發性膀胱炎",
+          "en": "Idiopathic Cystitis"
+        }
+      ]
+    },
+    "reproductive": {
+      "name": "生殖系統",
+      "count": 11,
+      "diseases": [
+        {
+          "key": "pyometra",
+          "zh": "子宮蓄膿",
+          "en": "Pyometra"
+        },
+        {
+          "key": "prostatic-disease",
+          "zh": "前列腺疾病",
+          "en": "Prostatic Disease"
+        },
+        {
+          "key": "cryptorchidism",
+          "zh": "隱睪症",
+          "en": "Cryptorchidism"
+        },
+        {
+          "key": "dystocia",
+          "zh": "難產",
+          "en": "Dystocia"
+        },
+        {
+          "key": "mammary-tumor",
+          "zh": "乳腺腫瘤",
+          "en": "Mammary Tumor"
+        },
+        {
+          "key": "testicular-tumor-general",
+          "zh": "睪丸腫瘤",
+          "en": "Testicular Tumor"
+        },
+        {
+          "key": "uterine-torsion",
+          "zh": "子宮扭轉",
+          "en": "Uterine Torsion"
+        },
+        {
+          "key": "mammary-gland-hyperplasia",
+          "zh": "乳腺增生",
+          "en": "Mammary Gland Hyperplasia"
+        },
+        {
+          "key": "ovarian-remnant-syndrome",
+          "zh": "殘留卵巢症候群",
+          "en": "Ovarian Remnant Syndrome"
+        },
+        {
+          "key": "benign-prostatic-hyperplasia",
+          "zh": "良性前列腺增生",
+          "en": "Benign Prostatic Hyperplasia"
+        },
+        {
+          "key": "testicular-tumor",
+          "zh": "睪丸腫瘤",
+          "en": "Testicular Tumor"
+        }
+      ]
+    },
+    "musculoskeletal": {
+      "name": "肌肉骨骼系統",
+      "count": 25,
+      "diseases": [
+        {
+          "key": "osteosarcoma",
+          "zh": "骨肉瘤",
+          "en": "Osteosarcoma"
+        },
+        {
+          "key": "polymyositis",
+          "zh": "多發性肌炎",
+          "en": "Polymyositis"
+        },
+        {
+          "key": "osteoarthritis",
+          "zh": "退化性關節炎",
+          "en": "Osteoarthritis"
+        },
+        {
+          "key": "lens-luxation",
+          "zh": "晶體脫位",
+          "en": "Lens Luxation"
+        },
+        {
+          "key": "hip-dysplasia",
+          "zh": "髖關節發育不良",
+          "en": "Hip Dysplasia"
+        },
+        {
+          "key": "elbow-dysplasia",
+          "zh": "肘關節發育不良",
+          "en": "Elbow Dysplasia"
+        },
+        {
+          "key": "cranial-cruciate-ligament-rupture",
+          "zh": "前十字韌帶斷裂",
+          "en": "Cranial Cruciate Ligament Rupture"
+        },
+        {
+          "key": "patellar-luxation",
+          "zh": "膝蓋骨脫位",
+          "en": "Patellar Luxation"
+        },
+        {
+          "key": "panosteitis",
+          "zh": "全骨炎",
+          "en": "Panosteitis"
+        },
+        {
+          "key": "hypertrophic-osteodystrophy",
+          "zh": "肥大性骨營養不良",
+          "en": "Hypertrophic Osteodystrophy"
+        },
+        {
+          "key": "osteochondritis-dissecans",
+          "zh": "剝離性骨軟骨炎",
+          "en": "Osteochondritis Dissecans"
+        },
+        {
+          "key": "legg-calve-perthes",
+          "zh": "股骨頭無菌性壞死",
+          "en": "Legg-Calvé-Perthes Disease"
+        },
+        {
+          "key": "immune-mediated-polyarthritis",
+          "zh": "免疫介導性多發性關節炎",
+          "en": "Immune-Mediated Polyarthritis"
+        },
+        {
+          "key": "septic-arthritis",
+          "zh": "敗血性關節炎",
+          "en": "Septic Arthritis"
+        },
+        {
+          "key": "muscle-strain",
+          "zh": "肌肉拉傷",
+          "en": "Muscle Strain/Tear"
+        },
+        {
+          "key": "masticatory-muscle-myositis",
+          "zh": "咀嚼肌肌炎",
+          "en": "Masticatory Muscle Myositis"
+        },
+        {
+          "key": "fractured-tooth",
+          "zh": "牙齒骨折",
+          "en": "Tooth Fracture"
+        },
+        {
+          "key": "temporomandibular-joint-disorder",
+          "zh": "顳顎關節疾病",
+          "en": "Temporomandibular Joint Disorder"
+        },
+        {
+          "key": "immune-mediated-arthritis",
+          "zh": "免疫介導性關節炎",
+          "en": "Immune-Mediated Arthritis"
+        },
+        {
+          "key": "appendicular-osteosarcoma",
+          "zh": "四肢骨肉瘤",
+          "en": "Appendicular Osteosarcoma"
+        },
+        {
+          "key": "rheumatoid-arthritis",
+          "zh": "類風濕性關節炎",
+          "en": "Rheumatoid Arthritis"
+        },
+        {
+          "key": "tooth-fracture",
+          "zh": "牙齒斷裂",
+          "en": "Tooth Fracture"
+        },
+        {
+          "key": "masticatory-myositis",
+          "zh": "咀嚼肌肌炎",
+          "en": "Masticatory Muscle Myositis"
+        },
+        {
+          "key": "jaw-fracture",
+          "zh": "下顎骨折",
+          "en": "Jaw Fracture"
+        },
+        {
+          "key": "immune-mediated-polyarthritis-non-erosive",
+          "zh": "非侵蝕性免疫媒介性多發性關節炎",
+          "en": "Non-Erosive Immune-Mediated Polyarthritis"
+        }
+      ]
+    },
+    "ophthalmological": {
+      "name": "眼科",
+      "count": 13,
+      "diseases": [
+        {
+          "key": "glaucoma",
+          "zh": "青光眼",
+          "en": "Glaucoma"
+        },
+        {
+          "key": "cataract",
+          "zh": "白內障",
+          "en": "Cataract"
+        },
+        {
+          "key": "uveitis",
+          "zh": "葡萄膜炎",
+          "en": "Uveitis"
+        },
+        {
+          "key": "keratoconjunctivitis-sicca",
+          "zh": "乾眼症",
+          "en": "Keratoconjunctivitis Sicca (KCS)"
+        },
+        {
+          "key": "corneal-ulcer",
+          "zh": "角膜潰瘍",
+          "en": "Corneal Ulcer"
+        },
+        {
+          "key": "progressive-retinal-atrophy",
+          "zh": "進行性視網膜萎縮",
+          "en": "Progressive Retinal Atrophy"
+        },
+        {
+          "key": "cherry-eye",
+          "zh": "櫻桃眼",
+          "en": "Cherry Eye (Third Eyelid Gland Prolapse)"
+        },
+        {
+          "key": "entropion",
+          "zh": "眼瞼內翻",
+          "en": "Entropion"
+        },
+        {
+          "key": "ectropion",
+          "zh": "眼瞼外翻",
+          "en": "Ectropion"
+        },
+        {
+          "key": "pannus",
+          "zh": "角膜血管翳",
+          "en": "Pannus (Chronic Superficial Keratitis)"
+        },
+        {
+          "key": "conjunctivitis",
+          "zh": "結膜炎",
+          "en": "Conjunctivitis"
+        },
+        {
+          "key": "retinal-detachment",
+          "zh": "視網膜剝離",
+          "en": "Retinal Detachment"
+        },
+        {
+          "key": "hyphema",
+          "zh": "前房出血",
+          "en": "Hyphema"
+        }
+      ]
+    },
+    "hematological": {
+      "name": "血液系統",
+      "count": 13,
+      "diseases": [
+        {
+          "key": "imha",
+          "zh": "免疫介導性溶血性貧血",
+          "en": "Immune-Mediated Hemolytic Anemia (IMHA)"
+        },
+        {
+          "key": "polycythemia",
+          "zh": "紅血球增多症",
+          "en": "Polycythemia"
+        },
+        {
+          "key": "leukemia",
+          "zh": "白血病",
+          "en": "Leukemia"
+        },
+        {
+          "key": "multiple-myeloma",
+          "zh": "多發性骨髓瘤",
+          "en": "Multiple Myeloma"
+        },
+        {
+          "key": "feline-leukemia-virus",
+          "zh": "貓白血病病毒感染",
+          "en": "Feline Leukemia Virus (FeLV)"
+        },
+        {
+          "key": "immune-mediated-hemolytic-anemia",
+          "zh": "免疫介導性溶血性貧血",
+          "en": "Immune-Mediated Hemolytic Anemia"
+        },
+        {
+          "key": "immune-mediated-thrombocytopenia",
+          "zh": "免疫介導性血小板減少症",
+          "en": "Immune-Mediated Thrombocytopenia"
+        },
+        {
+          "key": "von-willebrand-disease",
+          "zh": "乙類血友病",
+          "en": "Von Willebrand Disease"
+        },
+        {
+          "key": "hemophilia",
+          "zh": "血友病",
+          "en": "Hemophilia"
+        },
+        {
+          "key": "anemia-of-chronic-disease",
+          "zh": "慢性病貧血",
+          "en": "Anemia of Chronic Disease"
+        },
+        {
+          "key": "aplastic-anemia",
+          "zh": "再生不良性貧血",
+          "en": "Aplastic Anemia"
+        },
+        {
+          "key": "feline-infectious-anemia",
+          "zh": "貓傳染性貧血",
+          "en": "Feline Infectious Anemia (Hemotropic Mycoplasmosis)"
+        },
+        {
+          "key": "anticoagulant-rodenticide-toxicosis",
+          "zh": "抗凝血鼠藥中毒",
+          "en": "Anticoagulant Rodenticide Toxicosis"
+        }
+      ]
+    },
+    "infectious": {
+      "name": "傳染病",
+      "count": 21,
+      "diseases": [
+        {
+          "key": "parvovirus",
+          "zh": "犬小病毒腸炎",
+          "en": "Canine Parvovirus Enteritis (CPV)"
+        },
+        {
+          "key": "leptospirosis",
+          "zh": "鉤端螺旋體症",
+          "en": "Leptospirosis"
+        },
+        {
+          "key": "ehrlichiosis",
+          "zh": "艾利希體症",
+          "en": "Ehrlichiosis"
+        },
+        {
+          "key": "anaplasmosis",
+          "zh": "乏漿體症",
+          "en": "Anaplasmosis"
+        },
+        {
+          "key": "babesiosis",
+          "zh": "乏漿體症",
+          "en": "Babesiosis"
+        },
+        {
+          "key": "toxoplasmosis",
+          "zh": "弓形蟲病",
+          "en": "Toxoplasmosis"
+        },
+        {
+          "key": "giardiasis",
+          "zh": "梨形鞭毛蟲症",
+          "en": "Giardiasis"
+        },
+        {
+          "key": "coccidia",
+          "zh": "球蟲症",
+          "en": "Coccidiosis"
+        },
+        {
+          "key": "rabies",
+          "zh": "狂犬病",
+          "en": "Rabies"
+        },
+        {
+          "key": "canine-distemper",
+          "zh": "犬瘟熱",
+          "en": "Canine Distemper"
+        },
+        {
+          "key": "kennel-cough",
+          "zh": "犬舍咳",
+          "en": "Kennel Cough (Canine Infectious Respiratory Disease Complex)"
+        },
+        {
+          "key": "feline-panleukopenia",
+          "zh": "貓泛白血球減少症",
+          "en": "Feline Panleukopenia"
+        },
+        {
+          "key": "feline-calicivirus",
+          "zh": "貓卡里西病毒感染",
+          "en": "Feline Calicivirus (FCV)"
+        },
+        {
+          "key": "feline-infectious-peritonitis",
+          "zh": "貓傳染性腹膜炎",
+          "en": "Feline Infectious Peritonitis (FIP)"
+        },
+        {
+          "key": "canine-influenza",
+          "zh": "犬流感",
+          "en": "Canine Influenza"
+        },
+        {
+          "key": "lyme-disease",
+          "zh": "萊姆病",
+          "en": "Lyme Disease (Borreliosis)"
+        },
+        {
+          "key": "rocky-mountain-spotted-fever",
+          "zh": "落磯山斑點熱",
+          "en": "Rocky Mountain Spotted Fever (RMSF)"
+        },
+        {
+          "key": "brucellosis",
+          "zh": "布氏桿菌病",
+          "en": "Brucellosis"
+        },
+        {
+          "key": "cryptococcosis",
+          "zh": "隱球菌病",
+          "en": "Cryptococcosis"
+        },
+        {
+          "key": "coccidioidomycosis",
+          "zh": "球黴菌病",
+          "en": "Coccidioidomycosis (Valley Fever)"
+        },
+        {
+          "key": "tick-borne-diseases",
+          "zh": "壁蝨傳染病",
+          "en": "Tick-Borne Diseases"
+        }
+      ]
+    },
+    "oncological": {
+      "name": "腫瘤科",
+      "count": 15,
+      "diseases": [
+        {
+          "key": "lymphoma",
+          "zh": "淋巴瘤",
+          "en": "Lymphoma"
+        },
+        {
+          "key": "melanoma",
+          "zh": "黑色素瘤",
+          "en": "Melanoma"
+        },
+        {
+          "key": "mast-cell-tumor",
+          "zh": "肥大細胞腫瘤",
+          "en": "Mast Cell Tumor (MCT)"
+        },
+        {
+          "key": "hemangiosarcoma",
+          "zh": "血管肉瘤",
+          "en": "Hemangiosarcoma (HSA)"
+        },
+        {
+          "key": "squamous-cell-carcinoma",
+          "zh": "鱗狀細胞癌",
+          "en": "Squamous Cell Carcinoma (SCC)"
+        },
+        {
+          "key": "soft-tissue-sarcoma",
+          "zh": "軟組織肉瘤",
+          "en": "Soft Tissue Sarcoma (STS)"
+        },
+        {
+          "key": "fibrosarcoma",
+          "zh": "纖維肉瘤",
+          "en": "Fibrosarcoma"
+        },
+        {
+          "key": "oral-tumor",
+          "zh": "口腔腫瘤",
+          "en": "Oral Tumor"
+        },
+        {
+          "key": "transitional-cell-carcinoma",
+          "zh": "移行細胞癌",
+          "en": "Transitional Cell Carcinoma (TCC)"
+        },
+        {
+          "key": "splenic-neoplasia",
+          "zh": "脾臟腫瘤",
+          "en": "Splenic Neoplasia"
+        },
+        {
+          "key": "mast-cell-tumor-high-grade",
+          "zh": "高惡性度肥大細胞瘤",
+          "en": "High-Grade Mast Cell Tumor"
+        },
+        {
+          "key": "injection-site-sarcoma",
+          "zh": "注射部位肉瘤",
+          "en": "Injection-Site Sarcoma"
+        },
+        {
+          "key": "transmissible-venereal-tumor",
+          "zh": "傳染性性病腫瘤",
+          "en": "Transmissible Venereal Tumor"
+        },
+        {
+          "key": "tongue-tumor",
+          "zh": "舌頭腫瘤",
+          "en": "Tongue Tumor"
+        },
+        {
+          "key": "thymic-lymphoma",
+          "zh": "胸腺淋巴瘤",
+          "en": "Thymic Lymphoma"
+        }
+      ]
+    },
+    "toxicological": {
+      "name": "毒理學",
+      "count": 15,
+      "diseases": [
+        {
+          "key": "chocolate-toxicosis",
+          "zh": "巧克力中毒",
+          "en": "Chocolate Toxicosis"
+        },
+        {
+          "key": "xylitol-toxicosis",
+          "zh": "木糖醇中毒",
+          "en": "Xylitol Toxicosis"
+        },
+        {
+          "key": "grape-raisin-toxicosis",
+          "zh": "葡萄/葡萄乾中毒",
+          "en": "Grape and Raisin Toxicosis"
+        },
+        {
+          "key": "nsaid-toxicosis",
+          "zh": "非類固醇抗發炎藥中毒",
+          "en": "NSAID Toxicosis"
+        },
+        {
+          "key": "acetaminophen-toxicosis",
+          "zh": "乙醯氨酚中毒",
+          "en": "Acetaminophen Toxicosis"
+        },
+        {
+          "key": "ethylene-glycol-toxicosis",
+          "zh": "乙二醇中毒",
+          "en": "Ethylene Glycol Toxicosis"
+        },
+        {
+          "key": "marijuana-toxicosis",
+          "zh": "大麻中毒",
+          "en": "Marijuana Toxicosis"
+        },
+        {
+          "key": "permethrin-toxicosis",
+          "zh": "除蟲菊精中毒",
+          "en": "Permethrin Toxicosis"
+        },
+        {
+          "key": "lily-toxicosis",
+          "zh": "百合中毒",
+          "en": "Lily Toxicosis"
+        },
+        {
+          "key": "organophosphate-toxicosis",
+          "zh": "有機磷中毒",
+          "en": "Organophosphate/Carbamate Toxicosis"
+        },
+        {
+          "key": "snake-envenomation",
+          "zh": "蛇咬傷中毒",
+          "en": "Snake Envenomation"
+        },
+        {
+          "key": "zinc-toxicosis",
+          "zh": "鋅中毒",
+          "en": "Zinc Toxicosis"
+        },
+        {
+          "key": "lead-toxicosis",
+          "zh": "鉛中毒",
+          "en": "Lead Toxicosis"
+        },
+        {
+          "key": "metaldehyde-toxicosis",
+          "zh": "聚乙醛中毒（蝸牛藥中毒）",
+          "en": "Metaldehyde Toxicosis"
+        },
+        {
+          "key": "blue-green-algae-toxicosis",
+          "zh": "藍綠藻中毒",
+          "en": "Blue-Green Algae Toxicosis"
+        }
+      ]
+    },
+    "immunological": {
+      "name": "免疫系統",
+      "count": 5,
+      "diseases": [
+        {
+          "key": "systemic-lupus-erythematosus",
+          "zh": "全身性紅斑狼瘡",
+          "en": "Systemic Lupus Erythematosus"
+        },
+        {
+          "key": "anaphylaxis",
+          "zh": "過敏性休克",
+          "en": "Anaphylaxis"
+        },
+        {
+          "key": "food-allergy",
+          "zh": "食物過敏",
+          "en": "Food Allergy"
+        },
+        {
+          "key": "environmental-allergy",
+          "zh": "環境過敏",
+          "en": "Environmental Allergy"
+        },
+        {
+          "key": "discoid-lupus-erythematosus",
+          "zh": "盤狀紅斑狼瘡",
+          "en": "Discoid Lupus Erythematosus"
+        }
+      ]
+    },
+    "dental": {
+      "name": "牙科/口腔",
+      "count": 10,
+      "diseases": [
+        {
+          "key": "periodontal-disease",
+          "zh": "牙周病",
+          "en": "Periodontal Disease"
+        },
+        {
+          "key": "tooth-resorption",
+          "zh": "牙齒吸收",
+          "en": "Tooth Resorption"
+        },
+        {
+          "key": "stomatitis",
+          "zh": "口炎",
+          "en": "Feline Chronic Gingivostomatitis"
+        },
+        {
+          "key": "malocclusion",
+          "zh": "咬合不正",
+          "en": "Malocclusion"
+        },
+        {
+          "key": "oral-mass-epulis",
+          "zh": "牙齦瘤",
+          "en": "Epulis/Gingival Mass"
+        },
+        {
+          "key": "eosinophilic-granuloma-complex",
+          "zh": "嗜酸性肉芽腫複合體",
+          "en": "Eosinophilic Granuloma Complex"
+        },
+        {
+          "key": "feline-orofacial-pain-syndrome",
+          "zh": "貓口面部疼痛症候群",
+          "en": "Feline Orofacial Pain Syndrome"
+        },
+        {
+          "key": "dental-abscess",
+          "zh": "牙齒膿瘍",
+          "en": "Dental Abscess"
+        },
+        {
+          "key": "eosinophilic-stomatitis",
+          "zh": "嗜酸性口炎",
+          "en": "Eosinophilic Stomatitis"
+        },
+        {
+          "key": "gingival-hyperplasia",
+          "zh": "牙齦增生",
+          "en": "Gingival Hyperplasia"
+        }
+      ]
+    },
+    "behavioral": {
+      "name": "行為學",
+      "count": 12,
+      "diseases": [
+        {
+          "key": "separation-anxiety",
+          "zh": "分離焦慮",
+          "en": "Separation Anxiety"
+        },
+        {
+          "key": "noise-phobia",
+          "zh": "噪音恐懼症",
+          "en": "Noise Phobia"
+        },
+        {
+          "key": "aggression",
+          "zh": "攻擊行為",
+          "en": "Aggression"
+        },
+        {
+          "key": "compulsive-disorder",
+          "zh": "強迫症",
+          "en": "Compulsive Disorder"
+        },
+        {
+          "key": "fear-anxiety",
+          "zh": "恐懼和焦慮",
+          "en": "Fear and Anxiety Disorders"
+        },
+        {
+          "key": "inappropriate-elimination",
+          "zh": "不當排泄",
+          "en": "Inappropriate Elimination"
+        },
+        {
+          "key": "rage-syndrome",
+          "zh": "狂暴症候群",
+          "en": "Rage Syndrome (Idiopathic Aggression)"
+        },
+        {
+          "key": "separation-anxiety-severe",
+          "zh": "嚴重分離焦慮",
+          "en": "Severe Separation Anxiety"
+        },
+        {
+          "key": "territorial-aggression",
+          "zh": "領域性攻擊行為",
+          "en": "Territorial Aggression"
+        },
+        {
+          "key": "fear-based-aggression",
+          "zh": "恐懼性攻擊行為",
+          "en": "Fear-Based Aggression"
+        },
+        {
+          "key": "inter-cat-aggression",
+          "zh": "貓間攻擊行為",
+          "en": "Inter-Cat Aggression"
+        },
+        {
+          "key": "redirected-aggression",
+          "zh": "轉向性攻擊行為",
+          "en": "Redirected Aggression"
+        }
+      ]
+    },
+    "emergency": {
+      "name": "急診/重症",
+      "count": 7,
+      "diseases": [
+        {
+          "key": "heat-stroke",
+          "zh": "熱中暑",
+          "en": "Heat Stroke"
+        },
+        {
+          "key": "splenic-torsion",
+          "zh": "脾臟扭轉",
+          "en": "Splenic Torsion"
+        },
+        {
+          "key": "hypovolemic-shock",
+          "zh": "低血容積性休克",
+          "en": "Hypovolemic Shock"
+        },
+        {
+          "key": "septic-shock",
+          "zh": "敗血性休克",
+          "en": "Septic Shock"
+        },
+        {
+          "key": "heat-stroke-severe",
+          "zh": "嚴重熱中暑",
+          "en": "Severe Heat Stroke"
+        },
+        {
+          "key": "distributive-shock",
+          "zh": "分配性休克",
+          "en": "Distributive Shock"
+        },
+        {
+          "key": "hemorrhagic-shock",
+          "zh": "出血性休克",
+          "en": "Hemorrhagic Shock"
+        }
+      ]
+    },
+    "ent": {
+      "name": "耳鼻喉",
+      "count": 6,
+      "diseases": [
+        {
+          "key": "aural-hematoma",
+          "zh": "耳血腫",
+          "en": "Aural Hematoma"
+        },
+        {
+          "key": "nasopharyngeal-polyp",
+          "zh": "鼻咽息肉",
+          "en": "Nasopharyngeal Polyp"
+        },
+        {
+          "key": "ear-mites",
+          "zh": "耳蟎",
+          "en": "Ear Mites (Otodectes cynotis)"
+        },
+        {
+          "key": "middle-ear-effusion",
+          "zh": "中耳積液",
+          "en": "Middle Ear Effusion"
+        },
+        {
+          "key": "near-drowning",
+          "zh": "溺水救治",
+          "en": "Near-Drowning"
+        },
+        {
+          "key": "nuclear-sclerosis",
+          "zh": "核性硬化",
+          "en": "Nuclear Sclerosis"
+        }
+      ]
+    },
+    "congenital": {
+      "name": "先天性疾病",
+      "count": 3,
+      "diseases": [
+        {
+          "key": "patent-ductus-arteriosus",
+          "zh": "開放性動脈導管",
+          "en": "Patent Ductus Arteriosus"
+        },
+        {
+          "key": "ventricular-septal-defect",
+          "zh": "心室中隔缺損",
+          "en": "Ventricular Septal Defect (VSD)"
+        },
+        {
+          "key": "atrial-septal-defect",
+          "zh": "心房中隔缺損",
+          "en": "Atrial Septal Defect (ASD)"
+        }
+      ]
+    },
+    "electrolyte": {
+      "name": "電解質/代謝",
+      "count": 8,
+      "diseases": [
+        {
+          "key": "hypoadrenocorticism",
+          "zh": "腎上腺皮質功能低下",
+          "en": "Hypoadrenocorticism (Addison's Disease)"
+        },
+        {
+          "key": "hyperadrenocorticism",
+          "zh": "腎上腺皮質功能亢進",
+          "en": "Hyperadrenocorticism (Cushing's Disease)"
+        },
+        {
+          "key": "hypoglycemia",
+          "zh": "低血糖症",
+          "en": "Hypoglycemia"
+        },
+        {
+          "key": "hyperglycemia",
+          "zh": "高血糖症",
+          "en": "Hyperglycemia"
+        },
+        {
+          "key": "hypercalcemia",
+          "zh": "高血鈣症",
+          "en": "Hypercalcemia"
+        },
+        {
+          "key": "hypocalcemia",
+          "zh": "低血鈣症",
+          "en": "Hypocalcemia"
+        },
+        {
+          "key": "hypokalemia",
+          "zh": "低血鉀症",
+          "en": "Hypokalemia"
+        },
+        {
+          "key": "hyperkalemia",
+          "zh": "高血鉀症",
+          "en": "Hyperkalemia"
+        }
+      ]
+    }
+  },
+  "uncategorized": [
+    {
+      "key": "protein-losing-enteropathy",
+      "zh": "蛋白質流失性腸病",
+      "en": "Protein-Losing Enteropathy (PLE)"
+    },
+    {
+      "key": "colitis",
+      "zh": "結腸炎",
+      "en": "Colitis"
+    },
+    {
+      "key": "polyradiculoneuritis",
+      "zh": "多發性神經根神經炎",
+      "en": "Polyradiculoneuritis"
+    },
+    {
+      "key": "cholelithiasis",
+      "zh": "膽結石",
+      "en": "Cholelithiasis"
+    },
+    {
+      "key": "diaphragmatic-hernia",
+      "zh": "橫膈疝氣",
+      "en": "Diaphragmatic Hernia"
+    },
+    {
+      "key": "feline-immunodeficiency-virus",
+      "zh": "貓免疫缺乏病毒感染",
+      "en": "Feline Immunodeficiency Virus (FIV)"
+    },
+    {
+      "key": "atrial-fibrillation",
+      "zh": "心房顫動",
+      "en": "Atrial Fibrillation"
+    },
+    {
+      "key": "vasculitis",
+      "zh": "血管炎",
+      "en": "Vasculitis"
+    },
+    {
+      "key": "sepsis",
+      "zh": "敗血症",
+      "en": "Sepsis"
+    },
+    {
+      "key": "cleft-palate",
+      "zh": "腭裂",
+      "en": "Cleft Palate"
+    },
+    {
+      "key": "umbilical-hernia",
+      "zh": "臍疝",
+      "en": "Umbilical Hernia"
+    },
+    {
+      "key": "pseudopregnancy",
+      "zh": "假孕",
+      "en": "Pseudopregnancy"
+    },
+    {
+      "key": "mastitis",
+      "zh": "乳腺炎",
+      "en": "Mastitis"
+    },
+    {
+      "key": "salivary-mucocele",
+      "zh": "唾液腺囊腫",
+      "en": "Salivary Mucocele"
+    },
+    {
+      "key": "vaccine-reaction",
+      "zh": "疫苗反應",
+      "en": "Vaccine Reaction"
+    },
+    {
+      "key": "transfusion-reaction",
+      "zh": "輸血反應",
+      "en": "Transfusion Reaction"
+    },
+    {
+      "key": "drug-hypersensitivity",
+      "zh": "藥物過敏",
+      "en": "Drug Hypersensitivity"
+    },
+    {
+      "key": "urticaria-angioedema",
+      "zh": "蕁麻疹",
+      "en": "Urticaria and Angioedema"
+    },
+    {
+      "key": "hypereosinophilic-syndrome",
+      "zh": "嗜酸性球增多症候群",
+      "en": "Hypereosinophilic Syndrome"
+    },
+    {
+      "key": "congenital-deafness",
+      "zh": "先天性耳聾",
+      "en": "Congenital Deafness"
+    },
+    {
+      "key": "inguinal-hernia",
+      "zh": "腹股溝疝氣",
+      "en": "Inguinal Hernia"
+    },
+    {
+      "key": "diaphragmatic-hernia-congenital",
+      "zh": "先天性橫膈疝氣",
+      "en": "Congenital Diaphragmatic Hernia"
+    },
+    {
+      "key": "pectus-excavatum",
+      "zh": "漏斗胸",
+      "en": "Pectus Excavatum"
+    },
+    {
+      "key": "persistent-right-aortic-arch",
+      "zh": "持續性右主動脈弓",
+      "en": "Persistent Right Aortic Arch"
+    },
+    {
+      "key": "evan-syndrome",
+      "zh": "乙凡氏症候群",
+      "en": "Evans Syndrome"
+    },
+    {
+      "key": "cold-agglutinin-disease",
+      "zh": "冷凝集素病",
+      "en": "Cold Agglutinin Disease"
+    },
+    {
+      "key": "smoke-inhalation",
+      "zh": "煙霧吸入傷害",
+      "en": "Smoke Inhalation Injury"
+    },
+    {
+      "key": "electrocution",
+      "zh": "觸電傷害",
+      "en": "Electrocution"
+    },
+    {
+      "key": "crush-injury",
+      "zh": "壓砸傷",
+      "en": "Crush Injury"
+    },
+    {
+      "key": "eclampsia",
+      "zh": "產後子癇（低血鈣症）",
+      "en": "Eclampsia (Puerperal Hypocalcemia)"
+    },
+    {
+      "key": "metritis",
+      "zh": "子宮炎",
+      "en": "Metritis"
+    },
+    {
+      "key": "vaginitis",
+      "zh": "陰道炎",
+      "en": "Vaginitis"
+    },
+    {
+      "key": "paraphimosis",
+      "zh": "嵌頓包皮症",
+      "en": "Paraphimosis"
+    },
+    {
+      "key": "orchitis-epididymitis",
+      "zh": "睪丸附睪炎",
+      "en": "Orchitis and Epididymitis"
+    },
+    {
+      "key": "retained-deciduous-teeth",
+      "zh": "乳牙滯留",
+      "en": "Retained Deciduous Teeth"
+    },
+    {
+      "key": "pica-coprophagia",
+      "zh": "異食癖和食糞症",
+      "en": "Pica and Coprophagia"
+    },
+    {
+      "key": "pure-red-cell-aplasia",
+      "zh": "純紅血球再生不良",
+      "en": "Pure Red Cell Aplasia"
+    },
+    {
+      "key": "hyperactivity-disorder",
+      "zh": "過動症",
+      "en": "Hyperactivity Disorder"
+    },
+    {
+      "key": "plasmacytoma",
+      "zh": "漿細胞瘤",
+      "en": "Plasmacytoma"
+    },
+    {
+      "key": "calcinosis-cutis",
+      "zh": "皮膚鈣沉積症",
+      "en": "Calcinosis Cutis"
+    },
+    {
+      "key": "tetralogy-of-fallot",
+      "zh": "法洛氏四聯症",
+      "en": "Tetralogy of Fallot"
+    },
+    {
+      "key": "galactostasis",
+      "zh": "乳汁淤積",
+      "en": "Galactostasis"
+    },
+    {
+      "key": "heatstroke",
+      "zh": "熱衰竭/中暑",
+      "en": "Heatstroke"
+    },
+    {
+      "key": "hypothermia",
+      "zh": "低體溫症",
+      "en": "Hypothermia"
+    },
+    {
+      "key": "keratitis",
+      "zh": "角膜炎",
+      "en": "Keratitis"
+    },
+    {
+      "key": "dry-socket-alveolar-osteitis",
+      "zh": "乾性齒槽炎",
+      "en": "Dry Socket (Alveolar Osteitis)"
+    },
+    {
+      "key": "uroabdomen",
+      "zh": "腹腔尿液積聚",
+      "en": "Uroabdomen"
+    },
+    {
+      "key": "hypophosphatemia",
+      "zh": "低磷血症",
+      "en": "Hypophosphatemia"
+    },
+    {
+      "key": "hyperosmolar-syndrome",
+      "zh": "高滲透壓症候群",
+      "en": "Hyperosmolar Hyperglycemic State"
+    },
+    {
+      "key": "aldosteronoma",
+      "zh": "原發性高醛固酮症",
+      "en": "Primary Hyperaldosteronism (Aldosteronoma)"
+    },
+    {
+      "key": "acromegaly",
+      "zh": "肢端肥大症",
+      "en": "Acromegaly"
+    },
+    {
+      "key": "discospondylitis",
+      "zh": "椎間盤脊椎炎",
+      "en": "Discospondylitis"
+    },
+    {
+      "key": "myelodysplastic-syndrome",
+      "zh": "骨髓增生異常症候群",
+      "en": "Myelodysplastic Syndrome"
+    }
+  ]
+}

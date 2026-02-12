@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瀏覽器診斷工具</title>
+<style>
+body {
+  font-family: "Microsoft JhengHei", sans-serif;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f5f5f5;
+}
+.diagnostic-box {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+h1 {
+  color: #2c6e49;
+  border-bottom: 3px solid #2c6e49;
+  padding-bottom: 10px;
+}
+h2 {
+  color: #4c956c;
+  margin-top: 0;
+}
+.status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.status.ok {
+  background: #d4edda;
+  color: #155724;
+}
+.status.error {
+  background: #f8d7da;
+  color: #721c24;
+}
+.status.warning {
+  background: #fff3cd;
+  color: #856404;
+}
+pre {
+  background: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 15px;
+  overflow-x: auto;
+  max-height: 400px;
+}
+.test-item {
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 4px solid #6c757d;
+  background: #f8f9fa;
+}
+.test-item.pass {
+  border-left-color: #28a745;
+}
+.test-item.fail {
+  border-left-color: #dc3545;
+}
+button {
+  background: #2c6e49;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+button:hover {
+  background: #1b4332;
+}
+#results {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+</style>
+</head>
+<body>
+
+<h1>🔍 小動物鑑別診斷系統 - 瀏覽器診斷工具</h1>
+
+<div class="diagnostic-box">
+  <h2>診斷控制</h2>
+  <button onclick="runFullDiagnostic()">▶ 執行完整診斷</button>
+  <button onclick="testRenderSidebar()">🔄 手動執行 renderSidebar()</button>
+  <button onclick="inspectElements()">🔍 檢查DOM元素</button>
+  <button onclick="clearResults()">🗑 清除結果</button>
+</div>
+
+<div class="diagnostic-box">
+  <h2>診斷結果</h2>
+  <div id="results">等待執行診斷...</div>
+</div>
+
+<script>
+let resultsDiv;
+
+function log(message, type = 'info') {
+  const timestamp = new Date().toLocaleTimeString();
+  const icon = {
+    'ok': '✅',
+    'error': '❌',
+    'warning': '⚠️',
+    'info': 'ℹ️'
+  }[type] || 'ℹ️';
+
+  resultsDiv.innerHTML += `[${timestamp}] ${icon} ${message}\n`;
+  resultsDiv.scrollTop = resultsDiv.scrollHeight;
+}
+
+function clearResults() {
+  resultsDiv.innerHTML = '';
+  log('診斷結果已清除');
+}
+
+function runFullDiagnostic() {
+  clearResults();
+  log('開始完整診斷...', 'info');
+  log('='.repeat(60), 'info');
+
+  // 1. 檢查頁面是否已載入主應用
+  log('\n第1步：檢查主頁面載入狀態', 'info');
+
+  const mainWindow = window.opener || window;
+
+  if (!mainWindow.DB) {
+    log('主頁面的 DB 物件未定義', 'error');
+    log('請確保您已打開 vet-differential-diagnosis-v2.html', 'error');
+    log('\n診斷方法：', 'info');
+    log('1. 在另一個分頁打開 vet-differential-diagnosis-v2.html', 'info');
+    log('2. 按 F12 打開開發者工具', 'info');
+    log('3. 在 Console 中輸入以下命令：', 'info');
+    log('   window.open("browser-diagnostic.html")', 'info');
+    return;
+  }
+
+  log('主頁面已載入', 'ok');
+
+  // 2. 檢查 DB 物件
+  log('\n第2步：檢查 DB 物件', 'info');
+  try {
+    const DB = mainWindow.DB;
+    log(`DB 物件存在`, 'ok');
+
+    if (DB.symptoms) {
+      log(`DB.symptoms 存在，包含 ${DB.symptoms.length} 個症狀`, 'ok');
+
+      // 列出前10個症狀
+      log('\n前10個症狀:', 'info');
+      DB.symptoms.slice(0, 10).forEach((sym, i) => {
+        log(`  ${i+1}. ${sym.zhName} (${sym.id})`, 'info');
+      });
+
+      // 檢查症狀結構
+      const firstSym = DB.symptoms[0];
+      const requiredFields = ['id', 'zhName', 'enName', 'section', 'differentials'];
+      const missingFields = requiredFields.filter(field => !firstSym[field]);
+
+      if (missingFields.length === 0) {
+        log('\n症狀資料結構完整', 'ok');
+      } else {
+        log(`\n症狀資料缺少欄位: ${missingFields.join(', ')}`, 'error');
+      }
+    } else {
+      log('DB.symptoms 不存在', 'error');
+    }
+
+    if (DB.sections) {
+      const sectionCount = Object.keys(DB.sections).length;
+      log(`DB.sections 存在，包含 ${sectionCount} 個分類`, 'ok');
+
+      log('\n分類列表:', 'info');
+      for (const [key, value] of Object.entries(DB.sections)) {
+        log(`  ${key}: ${value.name}`, 'info');
+      }
+    } else {
+      log('DB.sections 不存在', 'error');
+    }
+  } catch (error) {
+    log(`檢查 DB 物件時發生錯誤: ${error.message}`, 'error');
+  }
+
+  // 3. 檢查 DOM 元素
+  log('\n第3步：檢查 DOM 元素', 'info');
+  try {
+    const sidebar = mainWindow.document.getElementById('sidebar');
+    if (sidebar) {
+      log('sidebar 元素存在', 'ok');
+
+      const computedStyle = mainWindow.getComputedStyle(sidebar);
+      log(`  display: ${computedStyle.display}`, 'info');
+      log(`  visibility: ${computedStyle.visibility}`, 'info');
+      log(`  width: ${sidebar.offsetWidth}px`, 'info');
+      log(`  height: ${sidebar.offsetHeight}px`, 'info');
+      log(`  innerHTML length: ${sidebar.innerHTML.length} 字元`, 'info');
+
+      if (sidebar.innerHTML.length === 0) {
+        log('sidebar 內容為空！這就是問題所在。', 'error');
+      } else if (sidebar.innerHTML.length < 100) {
+        log('sidebar 內容過少，可能渲染失敗', 'warning');
+        log(`內容: ${sidebar.innerHTML.substring(0, 200)}`, 'info');
+      } else {
+        log('sidebar 有內容', 'ok');
+
+        // 計算按鈕數量
+        const buttons = sidebar.querySelectorAll('.symptom-btn');
+        log(`  找到 ${buttons.length} 個症狀按鈕`, 'info');
+
+        if (buttons.length === 0) {
+          log('未找到症狀按鈕！渲染可能失敗', 'error');
+        }
+      }
+    } else {
+      log('sidebar 元素不存在', 'error');
+    }
+
+    const mainContent = mainWindow.document.getElementById('main-content');
+    if (mainContent) {
+      log('main-content 元素存在', 'ok');
+    } else {
+      log('main-content 元素不存在', 'error');
+    }
+  } catch (error) {
+    log(`檢查 DOM 元素時發生錯誤: ${error.message}`, 'error');
+  }
+
+  // 4. 檢查狀態
+  log('\n第4步：檢查 state 物件', 'info');
+  try {
+    const state = mainWindow.state;
+    if (state) {
+      log('state 物件存在', 'ok');
+      log(`  activeSymptom: ${state.activeSymptom}`, 'info');
+      log(`  activeTab: ${state.activeTab}`, 'info');
+      log(`  speciesFilter: ${state.speciesFilter}`, 'info');
+
+      if (state.collapsedSections) {
+        const collapsedCount = Object.values(state.collapsedSections).filter(v => v).length;
+        log(`  已收合分類: ${collapsedCount}`, 'info');
+      }
+    } else {
+      log('state 物件不存在', 'error');
+    }
+  } catch (error) {
+    log(`檢查 state 物件時發生錯誤: ${error.message}`, 'error');
+  }
+
+  // 5. 檢查函數
+  log('\n第5步：檢查關鍵函數', 'info');
+  try {
+    const functions = ['renderSidebar', 'renderWelcome', 'renderSymptomDetail'];
+    functions.forEach(funcName => {
+      if (typeof mainWindow[funcName] === 'function') {
+        log(`${funcName} 函數存在`, 'ok');
+      } else {
+        log(`${funcName} 函數不存在`, 'error');
+      }
+    });
+  } catch (error) {
+    log(`檢查函數時發生錯誤: ${error.message}`, 'error');
+  }
+
+  // 6. 檢查Console錯誤
+  log('\n第6步：檢查瀏覽器Console', 'info');
+  log('請手動查看主頁面的開發者工具 Console 標籤', 'warning');
+  log('尋找紅色的錯誤訊息', 'warning');
+
+  log('\n' + '='.repeat(60), 'info');
+  log('診斷完成！', 'ok');
+  log('\n建議下一步：', 'info');
+  log('1. 如果 sidebar 內容為空，嘗試點擊「手動執行 renderSidebar()」按鈕', 'info');
+  log('2. 查看主頁面的 Console 是否有錯誤訊息', 'info');
+  log('3. 如果仍有問題，請將此診斷結果截圖回報', 'info');
+}
+
+function testRenderSidebar() {
+  clearResults();
+  log('嘗試手動執行 renderSidebar()...', 'info');
+
+  const mainWindow = window.opener || window;
+
+  if (!mainWindow.renderSidebar) {
+    log('renderSidebar 函數不存在', 'error');
+    log('請確保已打開主頁面', 'error');
+    return;
+  }
+
+  try {
+    mainWindow.renderSidebar();
+    log('renderSidebar() 執行完成', 'ok');
+
+    // 檢查結果
+    setTimeout(() => {
+      const sidebar = mainWindow.document.getElementById('sidebar');
+      if (sidebar && sidebar.innerHTML.length > 0) {
+        log(`sidebar 現在有內容了！長度: ${sidebar.innerHTML.length} 字元`, 'ok');
+        const buttons = sidebar.querySelectorAll('.symptom-btn');
+        log(`找到 ${buttons.length} 個症狀按鈕`, 'ok');
+      } else {
+        log('sidebar 仍然是空的', 'error');
+        log('可能在渲染過程中發生錯誤', 'error');
+      }
+    }, 500);
+  } catch (error) {
+    log(`執行 renderSidebar() 時發生錯誤: ${error.message}`, 'error');
+    log(`錯誤堆疊: ${error.stack}`, 'error');
+  }
+}
+
+function inspectElements() {
+  clearResults();
+  log('檢查DOM元素細節...', 'info');
+
+  const mainWindow = window.opener || window;
+  const sidebar = mainWindow.document.getElementById('sidebar');
+
+  if (!sidebar) {
+    log('sidebar 元素不存在', 'error');
+    return;
+  }
+
+  log('sidebar 元素詳細資訊:', 'info');
+  log('='.repeat(60), 'info');
+
+  // 基本資訊
+  log(`tagName: ${sidebar.tagName}`, 'info');
+  log(`id: ${sidebar.id}`, 'info');
+  log(`className: ${sidebar.className}`, 'info');
+
+  // 尺寸和位置
+  const rect = sidebar.getBoundingClientRect();
+  log(`\n位置和尺寸:`, 'info');
+  log(`  top: ${rect.top}`, 'info');
+  log(`  left: ${rect.left}`, 'info');
+  log(`  width: ${rect.width}`, 'info');
+  log(`  height: ${rect.height}`, 'info');
+  log(`  offsetWidth: ${sidebar.offsetWidth}`, 'info');
+  log(`  offsetHeight: ${sidebar.offsetHeight}`, 'info');
+
+  // 計算樣式
+  const style = mainWindow.getComputedStyle(sidebar);
+  log(`\n計算樣式:`, 'info');
+  log(`  display: ${style.display}`, 'info');
+  log(`  visibility: ${style.visibility}`, 'info');
+  log(`  opacity: ${style.opacity}`, 'info');
+  log(`  position: ${style.position}`, 'info');
+  log(`  z-index: ${style.zIndex}`, 'info');
+  log(`  overflow-y: ${style.overflowY}`, 'info');
+  log(`  background: ${style.background}`, 'info');
+
+  // 內容
+  log(`\ninnerHTML 長度: ${sidebar.innerHTML.length}`, 'info');
+  if (sidebar.innerHTML.length > 0) {
+    log(`前500字元:`, 'info');
+    log(sidebar.innerHTML.substring(0, 500), 'info');
+  } else {
+    log('innerHTML 為空！', 'error');
+  }
+
+  // 子元素
+  log(`\n子元素數量: ${sidebar.children.length}`, 'info');
+  if (sidebar.children.length > 0) {
+    log('子元素:', 'info');
+    Array.from(sidebar.children).slice(0, 5).forEach((child, i) => {
+      log(`  ${i+1}. <${child.tagName}> class="${child.className}"`, 'info');
+    });
+  }
+
+  // 症狀按鈕
+  const buttons = sidebar.querySelectorAll('.symptom-btn');
+  log(`\n症狀按鈕數量: ${buttons.length}`, buttons.length > 0 ? 'ok' : 'error');
+
+  // Section
+  const sections = sidebar.querySelectorAll('.sidebar-section');
+  log(`Section 數量: ${sections.length}`, sections.length > 0 ? 'ok' : 'error');
+}
+
+// 初始化
+window.addEventListener('DOMContentLoaded', () => {
+  resultsDiv = document.getElementById('results');
+  log('診斷工具已就緒', 'ok');
+  log('請點擊「執行完整診斷」按鈕開始', 'info');
+  log('\n如果此工具與主頁面在不同視窗，診斷可能無法正常運作', 'warning');
+  log('建議從主頁面的Console執行: window.open("browser-diagnostic.html")', 'info');
+});
+
+// 檢查是否從主頁面打開
+setTimeout(() => {
+  if (!window.opener && !window.DB) {
+    log('\n⚠️ 警告：此診斷工具似乎不是從主頁面打開的', 'warning');
+    log('為了最佳診斷效果，請：', 'info');
+    log('1. 打開 vet-differential-diagnosis-v2.html', 'info');
+    log('2. 按 F12 打開開發者工具', 'info');
+    log('3. 在 Console 輸入: window.open("browser-diagnostic.html")', 'info');
+  }
+}, 1000);
+</script>
+
+</body>
+</html>

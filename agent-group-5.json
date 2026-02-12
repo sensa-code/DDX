@@ -1,0 +1,546 @@
+{
+  "group": 5,
+  "count": 108,
+  "diseases": [
+    {
+      "id": "pericardioperitoneal-diaphragmatic-hernia",
+      "zh": "腹膜心包橫膈疝",
+      "en": "Pericardioperitoneal Diaphragmatic Hernia (PPDH)"
+    },
+    {
+      "id": "immune-complex-disease",
+      "zh": "免疫複合體疾病",
+      "en": "Immune Complex Disease (Type III Hypersensitivity)"
+    },
+    {
+      "id": "canine-leproid-granuloma",
+      "zh": "犬麻風樣肉芽腫",
+      "en": "Canine Leproid Granuloma (CLG)"
+    },
+    {
+      "id": "idiopathic-vestibular-disease-feline",
+      "zh": "貓特發性前庭疾病",
+      "en": "Feline Idiopathic Vestibular Disease"
+    },
+    {
+      "id": "pancytopenia",
+      "zh": "全血球減少症",
+      "en": "Pancytopenia"
+    },
+    {
+      "id": "reactive-thrombocytosis",
+      "zh": "反應性血小板增多症",
+      "en": "Reactive Thrombocytosis"
+    },
+    {
+      "id": "hypereosinophilic-syndrome",
+      "zh": "高嗜酸性球症候群",
+      "en": "Hypereosinophilic Syndrome (HES)"
+    },
+    {
+      "id": "meningitis-encephalitis-unknown-etiology",
+      "zh": "不明原因腦膜腦炎",
+      "en": "Meningoencephalitis of Unknown Etiology (MUE)"
+    },
+    {
+      "id": "hepatic-nodular-hyperplasia",
+      "zh": "肝結節性增生",
+      "en": "Hepatic Nodular Hyperplasia"
+    },
+    {
+      "id": "copper-associated-hepatitis",
+      "zh": "銅相關性肝炎",
+      "en": "Copper-Associated Hepatitis"
+    },
+    {
+      "id": "megaesophagus-acquired",
+      "zh": "後天性巨食道症",
+      "en": "Acquired Megaesophagus"
+    },
+    {
+      "id": "hepatocellular-carcinoma",
+      "zh": "肝細胞癌",
+      "en": "Hepatocellular Carcinoma"
+    },
+    {
+      "id": "intestinal-adenocarcinoma",
+      "zh": "腸腺癌",
+      "en": "Intestinal Adenocarcinoma"
+    },
+    {
+      "id": "apocrine-gland-adenocarcinoma",
+      "zh": "頂漿腺癌（肛囊腺癌）",
+      "en": "Apocrine Gland Adenocarcinoma of the Anal Sac"
+    },
+    {
+      "id": "basal-cell-tumor",
+      "zh": "基底細胞瘤",
+      "en": "Basal Cell Tumor"
+    },
+    {
+      "id": "ceruminous-gland-adenocarcinoma",
+      "zh": "耵聹腺腺癌",
+      "en": "Ceruminous Gland Adenocarcinoma"
+    },
+    {
+      "id": "thyroid-adenoma",
+      "zh": "甲狀腺腺瘤",
+      "en": "Thyroid Adenoma"
+    },
+    {
+      "id": "chemodectoma",
+      "zh": "化學感受器瘤",
+      "en": "Chemodectoma (Aortic/Carotid Body Tumor)"
+    },
+    {
+      "id": "mesothelioma",
+      "zh": "間皮瘤",
+      "en": "Mesothelioma"
+    },
+    {
+      "id": "hemangioma",
+      "zh": "血管瘤",
+      "en": "Hemangioma"
+    },
+    {
+      "id": "histiocytic-ulcerative-colitis",
+      "zh": "組織球性潰瘍性結腸炎",
+      "en": "Histiocytic Ulcerative Colitis"
+    },
+    {
+      "id": "salmonellosis",
+      "zh": "沙門氏菌感染",
+      "en": "Salmonellosis"
+    },
+    {
+      "id": "campylobacteriosis",
+      "zh": "曲狀桿菌感染",
+      "en": "Campylobacteriosis"
+    },
+    {
+      "id": "hemotropic-mycoplasma",
+      "zh": "嗜血性黴漿菌感染",
+      "en": "Hemotropic Mycoplasma Infection (Hemoplasma)"
+    },
+    {
+      "id": "yersiniosis",
+      "zh": "耶爾森菌感染",
+      "en": "Yersiniosis"
+    },
+    {
+      "id": "streptococcal-infection",
+      "zh": "鏈球菌感染",
+      "en": "Streptococcal Infection"
+    },
+    {
+      "id": "helicobacter-infection",
+      "zh": "螺旋桿菌感染",
+      "en": "Helicobacter Infection"
+    },
+    {
+      "id": "encephalitozoonosis",
+      "zh": "腦炎微孢子蟲感染",
+      "en": "Encephalitozoonosis"
+    },
+    {
+      "id": "canine-herpesvirus",
+      "zh": "犬疱疹病毒感染",
+      "en": "Canine Herpesvirus Infection (CHV-1)"
+    },
+    {
+      "id": "feline-coronavirus-enteric",
+      "zh": "貓腸道冠狀病毒感染",
+      "en": "Feline Enteric Coronavirus Infection (FECV)"
+    },
+    {
+      "id": "coccidiosis",
+      "zh": "球蟲症",
+      "en": "Coccidiosis"
+    },
+    {
+      "id": "bromethalin-toxicosis",
+      "zh": "溴鼠隆中毒",
+      "en": "Bromethalin Toxicosis"
+    },
+    {
+      "id": "mushroom-toxicosis",
+      "zh": "蘑菇中毒",
+      "en": "Mushroom Toxicosis"
+    },
+    {
+      "id": "macadamia-nut-toxicosis",
+      "zh": "夏威夷豆中毒",
+      "en": "Macadamia Nut Toxicosis"
+    },
+    {
+      "id": "onion-garlic-toxicosis",
+      "zh": "洋蔥大蒜中毒",
+      "en": "Onion and Garlic Toxicosis"
+    },
+    {
+      "id": "ssri-toxicosis",
+      "zh": "SSRI 血清素症候群中毒",
+      "en": "SSRI Toxicosis / Serotonin Syndrome"
+    },
+    {
+      "id": "amphetamine-toxicosis",
+      "zh": "安非他命中毒",
+      "en": "Amphetamine Toxicosis"
+    },
+    {
+      "id": "salt-toxicosis",
+      "zh": "鹽/鈉中毒",
+      "en": "Salt Toxicosis / Sodium Ion Toxicosis"
+    },
+    {
+      "id": "iron-toxicosis",
+      "zh": "鐵中毒",
+      "en": "Iron Toxicosis"
+    },
+    {
+      "id": "strychnine-toxicosis",
+      "zh": "番木鱉鹼中毒",
+      "en": "Strychnine Toxicosis"
+    },
+    {
+      "id": "permethrin-toxicosis",
+      "zh": "除蟲菊精中毒",
+      "en": "Permethrin Toxicosis"
+    },
+    {
+      "id": "status-epilepticus",
+      "zh": "癲癇重積狀態",
+      "en": "Status Epilepticus"
+    },
+    {
+      "id": "cerebellar-abiotrophy",
+      "zh": "小腦萎縮症",
+      "en": "Cerebellar Abiotrophy"
+    },
+    {
+      "id": "peripheral-neuropathy",
+      "zh": "周邊神經病變",
+      "en": "Peripheral Neuropathy"
+    },
+    {
+      "id": "lysosomal-storage-disease",
+      "zh": "溶酶體儲積症",
+      "en": "Lysosomal Storage Disease"
+    },
+    {
+      "id": "spinal-arachnoid-diverticulum",
+      "zh": "脊髓蛛網膜憩室",
+      "en": "Spinal Arachnoid Diverticulum"
+    },
+    {
+      "id": "scottie-cramp",
+      "zh": "蘇格蘭㹴痙攣症",
+      "en": "Scottie Cramp"
+    },
+    {
+      "id": "canine-distal-polyneuropathy",
+      "zh": "犬遠端多發性神經病變",
+      "en": "Canine Distal Polyneuropathy"
+    },
+    {
+      "id": "tremor-syndrome",
+      "zh": "特發性全身性震顫症候群",
+      "en": "Idiopathic Generalized Tremor Syndrome"
+    },
+    {
+      "id": "erythema-multiforme",
+      "zh": "多形性紅斑",
+      "en": "Erythema Multiforme"
+    },
+    {
+      "id": "toxic-epidermal-necrolysis",
+      "zh": "中毒性表皮壞死溶解症",
+      "en": "Toxic Epidermal Necrolysis (TEN)"
+    },
+    {
+      "id": "color-dilution-alopecia",
+      "zh": "色素稀釋性脫毛症",
+      "en": "Color Dilution Alopecia (CDA)"
+    },
+    {
+      "id": "follicular-dysplasia",
+      "zh": "毛囊發育不良",
+      "en": "Follicular Dysplasia"
+    },
+    {
+      "id": "cutaneous-vasculitis",
+      "zh": "皮膚血管炎",
+      "en": "Cutaneous Vasculitis"
+    },
+    {
+      "id": "superficial-necrolytic-dermatitis",
+      "zh": "表淺壞死性皮膚炎",
+      "en": "Superficial Necrolytic Dermatitis (SND)"
+    },
+    {
+      "id": "canine-pattern-alopecia",
+      "zh": "犬模式型脫毛症",
+      "en": "Canine Pattern Alopecia"
+    },
+    {
+      "id": "acanthosis-nigricans",
+      "zh": "黑色棘皮症",
+      "en": "Acanthosis Nigricans"
+    },
+    {
+      "id": "intertrigo",
+      "zh": "皮膚皺褶性皮膚炎",
+      "en": "Intertrigo (Skin Fold Dermatitis)"
+    },
+    {
+      "id": "corneal-sequestrum",
+      "zh": "角膜壞死斑",
+      "en": "Corneal Sequestrum"
+    },
+    {
+      "id": "corneal-dystrophy",
+      "zh": "角膜營養不良",
+      "en": "Corneal Dystrophy"
+    },
+    {
+      "id": "optic-neuritis",
+      "zh": "視神經炎",
+      "en": "Optic Neuritis"
+    },
+    {
+      "id": "chorioretinitis",
+      "zh": "脈絡膜視網膜炎",
+      "en": "Chorioretinitis"
+    },
+    {
+      "id": "episcleritis",
+      "zh": "鞏膜外層炎",
+      "en": "Episcleritis"
+    },
+    {
+      "id": "endophthalmitis",
+      "zh": "眼內炎",
+      "en": "Endophthalmitis"
+    },
+    {
+      "id": "anterior-uveitis",
+      "zh": "前葡萄膜炎",
+      "en": "Anterior Uveitis"
+    },
+    {
+      "id": "phthisis-bulbi",
+      "zh": "眼球萎縮",
+      "en": "Phthisis Bulbi"
+    },
+    {
+      "id": "eyelid-agenesis",
+      "zh": "眼瞼缺損",
+      "en": "Eyelid Agenesis (Eyelid Coloboma)"
+    },
+    {
+      "id": "mastitis",
+      "zh": "乳腺炎",
+      "en": "Mastitis"
+    },
+    {
+      "id": "vaginal-prolapse",
+      "zh": "陰道脫垂",
+      "en": "Vaginal Prolapse"
+    },
+    {
+      "id": "agalactia",
+      "zh": "無乳症",
+      "en": "Agalactia"
+    },
+    {
+      "id": "retained-placenta",
+      "zh": "胎盤滯留",
+      "en": "Retained Placenta"
+    },
+    {
+      "id": "subinvolution-placental-sites",
+      "zh": "胎盤附著部位退化不全",
+      "en": "Subinvolution of Placental Sites (SIPS)"
+    },
+    {
+      "id": "uterine-rupture",
+      "zh": "子宮破裂",
+      "en": "Uterine Rupture"
+    },
+    {
+      "id": "prostatitis",
+      "zh": "前列腺炎",
+      "en": "Prostatitis"
+    },
+    {
+      "id": "penile-neoplasia",
+      "zh": "陰莖腫瘤",
+      "en": "Penile Neoplasia"
+    },
+    {
+      "id": "aplastic-anemia",
+      "zh": "再生不良性貧血",
+      "en": "Aplastic Anemia"
+    },
+    {
+      "id": "heinz-body-anemia",
+      "zh": "乃乃氏小體溶血性貧血",
+      "en": "Heinz Body Anemia"
+    },
+    {
+      "id": "methemoglobinemia",
+      "zh": "變性血紅素血症",
+      "en": "Methemoglobinemia"
+    },
+    {
+      "id": "microangiopathic-hemolytic-anemia",
+      "zh": "微血管病性溶血性貧血",
+      "en": "Microangiopathic Hemolytic Anemia (MAHA)"
+    },
+    {
+      "id": "erythrocytosis",
+      "zh": "紅血球增多症",
+      "en": "Erythrocytosis (Polycythemia)"
+    },
+    {
+      "id": "chronic-lymphocytic-leukemia",
+      "zh": "慢性淋巴球性白血病",
+      "en": "Chronic Lymphocytic Leukemia (CLL)"
+    },
+    {
+      "id": "acute-lymphoblastic-leukemia",
+      "zh": "急性淋巴母細胞性白血病",
+      "en": "Acute Lymphoblastic Leukemia (ALL)"
+    },
+    {
+      "id": "septic-arthritis",
+      "zh": "化膿性關節炎",
+      "en": "Septic Arthritis"
+    },
+    {
+      "id": "osteomyelitis",
+      "zh": "骨髓炎",
+      "en": "Osteomyelitis"
+    },
+    {
+      "id": "bicipital-tenosynovitis",
+      "zh": "二頭肌腱鞘炎",
+      "en": "Bicipital Tenosynovitis"
+    },
+    {
+      "id": "fibrotic-myopathy",
+      "zh": "纖維性肌病",
+      "en": "Fibrotic Myopathy"
+    },
+    {
+      "id": "hypertrophic-osteopathy",
+      "zh": "肥大性骨病",
+      "en": "Hypertrophic Osteopathy (HO)"
+    },
+    {
+      "id": "luxating-shoulder",
+      "zh": "肩關節脫位",
+      "en": "Shoulder Luxation"
+    },
+    {
+      "id": "ununited-anconeal-process",
+      "zh": "肘突未癒合",
+      "en": "Ununited Anconeal Process (UAP)"
+    },
+    {
+      "id": "arrhythmogenic-rvc",
+      "zh": "致心律不整性右心室心肌病",
+      "en": "Arrhythmogenic Right Ventricular Cardiomyopathy (ARVC)"
+    },
+    {
+      "id": "cardiac-tamponade",
+      "zh": "心包填塞",
+      "en": "Cardiac Tamponade"
+    },
+    {
+      "id": "cor-pulmonale",
+      "zh": "肺心症",
+      "en": "Cor Pulmonale"
+    },
+    {
+      "id": "endocardiosis",
+      "zh": "心內膜病/退行性瓣膜病",
+      "en": "Endocardiosis (Myxomatous Mitral Valve Disease, MMVD)"
+    },
+    {
+      "id": "chronic-enteropathy",
+      "zh": "慢性腸病",
+      "en": "Chronic Enteropathy (CE)"
+    },
+    {
+      "id": "bilious-vomiting-syndrome",
+      "zh": "膽汁性嘔吐症候群",
+      "en": "Bilious Vomiting Syndrome"
+    },
+    {
+      "id": "colorectal-neoplasia",
+      "zh": "結直腸腫瘤",
+      "en": "Colorectal Neoplasia"
+    },
+    {
+      "id": "intestinal-lymphangiectasia",
+      "zh": "腸淋巴管擴張症",
+      "en": "Intestinal Lymphangiectasia"
+    },
+    {
+      "id": "clostridial-enteritis",
+      "zh": "梭菌性腸炎",
+      "en": "Clostridial Enteritis"
+    },
+    {
+      "id": "gastrointestinal-stromal-tumor",
+      "zh": "胃腸道基質瘤",
+      "en": "Gastrointestinal Stromal Tumor (GIST)"
+    },
+    {
+      "id": "cecal-inversion",
+      "zh": "盲腸內翻",
+      "en": "Cecal Inversion (Cecocolic Intussusception)"
+    },
+    {
+      "id": "renal-amyloidosis",
+      "zh": "腎澱粉樣變性",
+      "en": "Renal Amyloidosis"
+    },
+    {
+      "id": "ureteral-obstruction",
+      "zh": "輸尿管阻塞",
+      "en": "Ureteral Obstruction"
+    },
+    {
+      "id": "renal-infarction",
+      "zh": "腎梗塞",
+      "en": "Renal Infarction"
+    },
+    {
+      "id": "primary-immune-deficiency",
+      "zh": "原發性免疫缺乏症",
+      "en": "Primary Immunodeficiency Disorders"
+    },
+    {
+      "id": "heat-stroke-exertional",
+      "zh": "運動型熱射病",
+      "en": "Exertional Heat Stroke"
+    },
+    {
+      "id": "transfusion-reaction",
+      "zh": "輸血反應",
+      "en": "Transfusion Reaction"
+    },
+    {
+      "id": "drug-eruption",
+      "zh": "藥物疹/藥物不良反應",
+      "en": "Drug Eruption (Cutaneous Adverse Drug Reaction)"
+    },
+    {
+      "id": "anaphylaxis-vaccine",
+      "zh": "疫苗過敏反應",
+      "en": "Vaccine-Associated Anaphylaxis"
+    }
+  ]
+}

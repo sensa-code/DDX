@@ -1,0 +1,556 @@
+{
+  "group": 2,
+  "count": 110,
+  "diseases": [
+    {
+      "id": "chronic-rhinitis",
+      "zh": "慢性鼻炎",
+      "en": "Chronic Rhinitis"
+    },
+    {
+      "id": "ear-mites",
+      "zh": "耳疥蟲感染",
+      "en": "Ear Mites (Otodectes cynotis)"
+    },
+    {
+      "id": "aural-hematoma",
+      "zh": "耳血腫",
+      "en": "Aural Hematoma"
+    },
+    {
+      "id": "congenital-deafness",
+      "zh": "先天性耳聾",
+      "en": "Congenital Deafness"
+    },
+    {
+      "id": "laryngeal-paralysis",
+      "zh": "喉麻痺",
+      "en": "Laryngeal Paralysis"
+    },
+    {
+      "id": "inguinal-hernia",
+      "zh": "腹股溝疝氣",
+      "en": "Inguinal Hernia"
+    },
+    {
+      "id": "diaphragmatic-hernia-congenital",
+      "zh": "先天性橫膈疝氣",
+      "en": "Congenital Diaphragmatic Hernia"
+    },
+    {
+      "id": "pectus-excavatum",
+      "zh": "漏斗胸",
+      "en": "Pectus Excavatum"
+    },
+    {
+      "id": "persistent-right-aortic-arch",
+      "zh": "持續性右主動脈弓",
+      "en": "Persistent Right Aortic Arch"
+    },
+    {
+      "id": "portosystemic-shunt-congenital",
+      "zh": "先天性肝門脈分流",
+      "en": "Congenital Portosystemic Shunt"
+    },
+    {
+      "id": "systemic-lupus-erythematosus",
+      "zh": "全身性紅斑狼瘡",
+      "en": "Systemic Lupus Erythematosus"
+    },
+    {
+      "id": "discoid-lupus-erythematosus",
+      "zh": "盤狀紅斑狼瘡",
+      "en": "Discoid Lupus Erythematosus"
+    },
+    {
+      "id": "evan-syndrome",
+      "zh": "乙凡氏症候群",
+      "en": "Evans Syndrome"
+    },
+    {
+      "id": "cold-agglutinin-disease",
+      "zh": "冷凝集素病",
+      "en": "Cold Agglutinin Disease"
+    },
+    {
+      "id": "distributive-shock",
+      "zh": "分配性休克",
+      "en": "Distributive Shock"
+    },
+    {
+      "id": "cardiogenic-shock",
+      "zh": "心因性休克",
+      "en": "Cardiogenic Shock"
+    },
+    {
+      "id": "hemorrhagic-shock",
+      "zh": "出血性休克",
+      "en": "Hemorrhagic Shock"
+    },
+    {
+      "id": "smoke-inhalation",
+      "zh": "煙霧吸入傷害",
+      "en": "Smoke Inhalation Injury"
+    },
+    {
+      "id": "electrocution",
+      "zh": "觸電傷害",
+      "en": "Electrocution"
+    },
+    {
+      "id": "crush-injury",
+      "zh": "壓砸傷",
+      "en": "Crush Injury"
+    },
+    {
+      "id": "dystocia",
+      "zh": "難產",
+      "en": "Dystocia"
+    },
+    {
+      "id": "eclampsia",
+      "zh": "產後子癇（低血鈣症）",
+      "en": "Eclampsia (Puerperal Hypocalcemia)"
+    },
+    {
+      "id": "metritis",
+      "zh": "子宮炎",
+      "en": "Metritis"
+    },
+    {
+      "id": "vaginitis",
+      "zh": "陰道炎",
+      "en": "Vaginitis"
+    },
+    {
+      "id": "paraphimosis",
+      "zh": "嵌頓包皮症",
+      "en": "Paraphimosis"
+    },
+    {
+      "id": "orchitis-epididymitis",
+      "zh": "睪丸附睪炎",
+      "en": "Orchitis and Epididymitis"
+    },
+    {
+      "id": "tooth-fracture",
+      "zh": "牙齒斷裂",
+      "en": "Tooth Fracture"
+    },
+    {
+      "id": "retained-deciduous-teeth",
+      "zh": "乳牙滯留",
+      "en": "Retained Deciduous Teeth"
+    },
+    {
+      "id": "oronasal-fistula",
+      "zh": "口鼻瘻管",
+      "en": "Oronasal Fistula"
+    },
+    {
+      "id": "masticatory-myositis",
+      "zh": "咀嚼肌肌炎",
+      "en": "Masticatory Muscle Myositis"
+    },
+    {
+      "id": "territorial-aggression",
+      "zh": "領域性攻擊行為",
+      "en": "Territorial Aggression"
+    },
+    {
+      "id": "fear-based-aggression",
+      "zh": "恐懼性攻擊行為",
+      "en": "Fear-Based Aggression"
+    },
+    {
+      "id": "pica-coprophagia",
+      "zh": "異食癖和食糞症",
+      "en": "Pica and Coprophagia"
+    },
+    {
+      "id": "psychogenic-alopecia",
+      "zh": "心因性脫毛",
+      "en": "Psychogenic Alopecia"
+    },
+    {
+      "id": "nasal-tumor",
+      "zh": "鼻腔腫瘤",
+      "en": "Nasal Tumor"
+    },
+    {
+      "id": "brain-tumor",
+      "zh": "腦瘤",
+      "en": "Brain Tumor"
+    },
+    {
+      "id": "perianal-adenoma",
+      "zh": "肛周腺瘤",
+      "en": "Perianal Adenoma"
+    },
+    {
+      "id": "injection-site-sarcoma",
+      "zh": "注射部位肉瘤",
+      "en": "Injection-Site Sarcoma"
+    },
+    {
+      "id": "zinc-toxicosis",
+      "zh": "鋅中毒",
+      "en": "Zinc Toxicosis"
+    },
+    {
+      "id": "lead-toxicosis",
+      "zh": "鉛中毒",
+      "en": "Lead Toxicosis"
+    },
+    {
+      "id": "metaldehyde-toxicosis",
+      "zh": "聚乙醛中毒（蝸牛藥中毒）",
+      "en": "Metaldehyde Toxicosis"
+    },
+    {
+      "id": "blue-green-algae-toxicosis",
+      "zh": "藍綠藻中毒",
+      "en": "Blue-Green Algae Toxicosis"
+    },
+    {
+      "id": "disseminated-intravascular-coagulation",
+      "zh": "瀰漫性血管內凝血",
+      "en": "Disseminated Intravascular Coagulation"
+    },
+    {
+      "id": "pure-red-cell-aplasia",
+      "zh": "純紅血球再生不良",
+      "en": "Pure Red Cell Aplasia"
+    },
+    {
+      "id": "nasopharyngeal-stenosis",
+      "zh": "鼻咽狹窄",
+      "en": "Nasopharyngeal Stenosis"
+    },
+    {
+      "id": "tracheal-hypoplasia",
+      "zh": "氣管發育不全",
+      "en": "Tracheal Hypoplasia"
+    },
+    {
+      "id": "uterine-torsion",
+      "zh": "子宮扭轉",
+      "en": "Uterine Torsion"
+    },
+    {
+      "id": "transmissible-venereal-tumor",
+      "zh": "傳染性性病腫瘤",
+      "en": "Transmissible Venereal Tumor"
+    },
+    {
+      "id": "jaw-fracture",
+      "zh": "下顎骨折",
+      "en": "Jaw Fracture"
+    },
+    {
+      "id": "tongue-tumor",
+      "zh": "舌頭腫瘤",
+      "en": "Tongue Tumor"
+    },
+    {
+      "id": "hyperactivity-disorder",
+      "zh": "過動症",
+      "en": "Hyperactivity Disorder"
+    },
+    {
+      "id": "inter-cat-aggression",
+      "zh": "貓間攻擊行為",
+      "en": "Inter-Cat Aggression"
+    },
+    {
+      "id": "redirected-aggression",
+      "zh": "轉向性攻擊行為",
+      "en": "Redirected Aggression"
+    },
+    {
+      "id": "plasmacytoma",
+      "zh": "漿細胞瘤",
+      "en": "Plasmacytoma"
+    },
+    {
+      "id": "hepatocutaneous-syndrome",
+      "zh": "肝皮膚症候群",
+      "en": "Hepatocutaneous Syndrome"
+    },
+    {
+      "id": "calcinosis-cutis",
+      "zh": "皮膚鈣沉積症",
+      "en": "Calcinosis Cutis"
+    },
+    {
+      "id": "otitis-externa-chronic",
+      "zh": "慢性外耳炎",
+      "en": "Chronic Otitis Externa"
+    },
+    {
+      "id": "middle-ear-effusion",
+      "zh": "中耳積液",
+      "en": "Middle Ear Effusion"
+    },
+    {
+      "id": "facial-fold-dermatitis",
+      "zh": "面部皺褶皮膚炎",
+      "en": "Facial Fold Dermatitis"
+    },
+    {
+      "id": "congenital-megaesophagus",
+      "zh": "先天性巨食道症",
+      "en": "Congenital Megaesophagus"
+    },
+    {
+      "id": "tetralogy-of-fallot",
+      "zh": "法洛氏四聯症",
+      "en": "Tetralogy of Fallot"
+    },
+    {
+      "id": "primary-ciliary-dyskinesia",
+      "zh": "原發性纖毛運動障礙",
+      "en": "Primary Ciliary Dyskinesia"
+    },
+    {
+      "id": "hypoplastic-trachea",
+      "zh": "氣管發育不全",
+      "en": "Hypoplastic Trachea"
+    },
+    {
+      "id": "mammary-gland-hyperplasia",
+      "zh": "乳腺增生",
+      "en": "Mammary Gland Hyperplasia"
+    },
+    {
+      "id": "galactostasis",
+      "zh": "乳汁淤積",
+      "en": "Galactostasis"
+    },
+    {
+      "id": "feline-orofacial-pain-syndrome",
+      "zh": "貓口面部疼痛症候群",
+      "en": "Feline Orofacial Pain Syndrome"
+    },
+    {
+      "id": "eosinophilic-stomatitis",
+      "zh": "嗜酸性口炎",
+      "en": "Eosinophilic Stomatitis"
+    },
+    {
+      "id": "hypovolemic-shock",
+      "zh": "低血容積性休克",
+      "en": "Hypovolemic Shock"
+    },
+    {
+      "id": "near-drowning",
+      "zh": "溺水救治",
+      "en": "Near-Drowning"
+    },
+    {
+      "id": "heatstroke",
+      "zh": "熱衰竭/中暑",
+      "en": "Heatstroke"
+    },
+    {
+      "id": "hypothermia",
+      "zh": "低體溫症",
+      "en": "Hypothermia"
+    },
+    {
+      "id": "lens-luxation",
+      "zh": "水晶體脫位",
+      "en": "Lens Luxation"
+    },
+    {
+      "id": "nuclear-sclerosis",
+      "zh": "核性硬化",
+      "en": "Nuclear Sclerosis"
+    },
+    {
+      "id": "keratitis",
+      "zh": "角膜炎",
+      "en": "Keratitis"
+    },
+    {
+      "id": "dry-socket-alveolar-osteitis",
+      "zh": "乾性齒槽炎",
+      "en": "Dry Socket (Alveolar Osteitis)"
+    },
+    {
+      "id": "gingival-hyperplasia",
+      "zh": "牙齦增生",
+      "en": "Gingival Hyperplasia"
+    },
+    {
+      "id": "idiopathic-cystitis",
+      "zh": "特發性膀胱炎",
+      "en": "Idiopathic Cystitis"
+    },
+    {
+      "id": "uroabdomen",
+      "zh": "腹腔尿液積聚",
+      "en": "Uroabdomen"
+    },
+    {
+      "id": "hypophosphatemia",
+      "zh": "低磷血症",
+      "en": "Hypophosphatemia"
+    },
+    {
+      "id": "hyperosmolar-syndrome",
+      "zh": "高滲透壓症候群",
+      "en": "Hyperosmolar Hyperglycemic State"
+    },
+    {
+      "id": "insulinoma-cat",
+      "zh": "貓胰島素瘤",
+      "en": "Feline Insulinoma"
+    },
+    {
+      "id": "aldosteronoma",
+      "zh": "原發性高醛固酮症",
+      "en": "Primary Hyperaldosteronism (Aldosteronoma)"
+    },
+    {
+      "id": "acromegaly",
+      "zh": "肢端肥大症",
+      "en": "Acromegaly"
+    },
+    {
+      "id": "thymic-lymphoma",
+      "zh": "胸腺淋巴瘤",
+      "en": "Thymic Lymphoma"
+    },
+    {
+      "id": "splenic-torsion",
+      "zh": "脾臟扭轉",
+      "en": "Splenic Torsion"
+    },
+    {
+      "id": "ovarian-remnant-syndrome",
+      "zh": "殘留卵巢症候群",
+      "en": "Ovarian Remnant Syndrome"
+    },
+    {
+      "id": "benign-prostatic-hyperplasia",
+      "zh": "良性前列腺增生",
+      "en": "Benign Prostatic Hyperplasia"
+    },
+    {
+      "id": "testicular-tumor",
+      "zh": "睪丸腫瘤",
+      "en": "Testicular Tumor"
+    },
+    {
+      "id": "anal-furunculosis",
+      "zh": "肛周瘻管",
+      "en": "Anal Furunculosis (Perianal Fistula)"
+    },
+    {
+      "id": "immune-mediated-polyarthritis-non-erosive",
+      "zh": "非侵蝕性免疫媒介性多發性關節炎",
+      "en": "Non-Erosive Immune-Mediated Polyarthritis"
+    },
+    {
+      "id": "steroid-responsive-meningitis-arteritis",
+      "zh": "類固醇反應性腦膜炎動脈炎",
+      "en": "Steroid-Responsive Meningitis-Arteritis"
+    },
+    {
+      "id": "discospondylitis",
+      "zh": "椎間盤脊椎炎",
+      "en": "Discospondylitis"
+    },
+    {
+      "id": "atlantoaxial-instability",
+      "zh": "寰樞椎不穩定",
+      "en": "Atlantoaxial Instability"
+    },
+    {
+      "id": "lumbosacral-disease",
+      "zh": "腰薦椎疾病",
+      "en": "Lumbosacral Disease"
+    },
+    {
+      "id": "myelodysplastic-syndrome",
+      "zh": "骨髓增生異常症候群",
+      "en": "Myelodysplastic Syndrome"
+    },
+    {
+      "id": "canine-atopic-dermatitis",
+      "zh": "犬異位性皮膚炎",
+      "en": "Canine Atopic Dermatitis"
+    },
+    {
+      "id": "flea-allergy-dermatitis",
+      "zh": "跳蚤過敏性皮膚炎",
+      "en": "Flea Allergy Dermatitis"
+    },
+    {
+      "id": "cranial-cruciate-ligament-disease",
+      "zh": "前十字韌帶疾病",
+      "en": "Cranial Cruciate Ligament Disease"
+    },
+    {
+      "id": "hip-dysplasia",
+      "zh": "髖關節發育不良",
+      "en": "Hip Dysplasia"
+    },
+    {
+      "id": "patellar-luxation",
+      "zh": "髕骨脫位",
+      "en": "Patellar Luxation"
+    },
+    {
+      "id": "osteoarthritis",
+      "zh": "骨關節炎",
+      "en": "Osteoarthritis"
+    },
+    {
+      "id": "mast-cell-tumor",
+      "zh": "肥大細胞瘤",
+      "en": "Mast Cell Tumor"
+    },
+    {
+      "id": "hemangiosarcoma",
+      "zh": "血管肉瘤",
+      "en": "Hemangiosarcoma"
+    },
+    {
+      "id": "mammary-tumor",
+      "zh": "乳腺腫瘤",
+      "en": "Mammary Tumor"
+    },
+    {
+      "id": "feline-infectious-peritonitis",
+      "zh": "貓傳染性腹膜炎",
+      "en": "Feline Infectious Peritonitis"
+    },
+    {
+      "id": "feline-leukemia-virus",
+      "zh": "貓白血病病毒感染",
+      "en": "Feline Leukemia Virus Infection"
+    },
+    {
+      "id": "feline-immunodeficiency-virus",
+      "zh": "貓免疫缺陷病毒感染",
+      "en": "Feline Immunodeficiency Virus Infection"
+    },
+    {
+      "id": "canine-distemper",
+      "zh": "犬瘟熱",
+      "en": "Canine Distemper"
+    },
+    {
+      "id": "keratoconjunctivitis-sicca",
+      "zh": "乾性角結膜炎",
+      "en": "Keratoconjunctivitis Sicca"
+    },
+    {
+      "id": "corneal-ulcer",
+      "zh": "角膜潰瘍",
+      "en": "Corneal Ulcer"
+    }
+  ]
+}

@@ -1,0 +1,556 @@
+{
+  "group": 1,
+  "count": 110,
+  "diseases": [
+    {
+      "id": "imha",
+      "zh": "免疫介導性溶血性貧血",
+      "en": "Immune-Mediated Hemolytic Anemia (IMHA)"
+    },
+    {
+      "id": "pancreatitis",
+      "zh": "胰臟炎",
+      "en": "Pancreatitis"
+    },
+    {
+      "id": "hypoadrenocorticism",
+      "zh": "腎上腺皮質功能低下症",
+      "en": "Hypoadrenocorticism (Addison's Disease)"
+    },
+    {
+      "id": "hyperadrenocorticism",
+      "zh": "腎上腺皮質功能亢進症",
+      "en": "Hyperadrenocorticism (Cushing's Disease)"
+    },
+    {
+      "id": "parvovirus",
+      "zh": "犬小病毒腸炎",
+      "en": "Canine Parvovirus Enteritis (CPV)"
+    },
+    {
+      "id": "pyometra",
+      "zh": "子宮蓄膿",
+      "en": "Pyometra"
+    },
+    {
+      "id": "hyperthyroidism",
+      "zh": "甲狀腺功能亢進",
+      "en": "Hyperthyroidism"
+    },
+    {
+      "id": "hypothyroidism",
+      "zh": "甲狀腺功能低下",
+      "en": "Hypothyroidism"
+    },
+    {
+      "id": "lymphoma",
+      "zh": "淋巴瘤",
+      "en": "Lymphoma"
+    },
+    {
+      "id": "insulinoma",
+      "zh": "胰島素瘤",
+      "en": "Insulinoma"
+    },
+    {
+      "id": "hypoglycemia",
+      "zh": "低血糖症",
+      "en": "Hypoglycemia"
+    },
+    {
+      "id": "hyperglycemia",
+      "zh": "高血糖症",
+      "en": "Hyperglycemia"
+    },
+    {
+      "id": "hypercalcemia",
+      "zh": "高血鈣症",
+      "en": "Hypercalcemia"
+    },
+    {
+      "id": "hypocalcemia",
+      "zh": "低血鈣症",
+      "en": "Hypocalcemia"
+    },
+    {
+      "id": "hypokalemia",
+      "zh": "低血鉀症",
+      "en": "Hypokalemia"
+    },
+    {
+      "id": "hyperkalemia",
+      "zh": "高血鉀症",
+      "en": "Hyperkalemia"
+    },
+    {
+      "id": "leptospirosis",
+      "zh": "鉤端螺旋體症",
+      "en": "Leptospirosis"
+    },
+    {
+      "id": "ehrlichiosis",
+      "zh": "艾利希體症",
+      "en": "Ehrlichiosis"
+    },
+    {
+      "id": "anaplasmosis",
+      "zh": "乏漿體症",
+      "en": "Anaplasmosis"
+    },
+    {
+      "id": "babesiosis",
+      "zh": "乏漿體症",
+      "en": "Babesiosis"
+    },
+    {
+      "id": "toxoplasmosis",
+      "zh": "弓形蟲病",
+      "en": "Toxoplasmosis"
+    },
+    {
+      "id": "giardiasis",
+      "zh": "梨形鞭毛蟲症",
+      "en": "Giardiasis"
+    },
+    {
+      "id": "coccidia",
+      "zh": "球蟲症",
+      "en": "Coccidiosis"
+    },
+    {
+      "id": "ringworm",
+      "zh": "皮膚真菌症",
+      "en": "Dermatophytosis (Ringworm)"
+    },
+    {
+      "id": "rabies",
+      "zh": "狂犬病",
+      "en": "Rabies"
+    },
+    {
+      "id": "megaesophagus",
+      "zh": "巨食道症",
+      "en": "Megaesophagus"
+    },
+    {
+      "id": "intussusception",
+      "zh": "腸套疊",
+      "en": "Intussusception"
+    },
+    {
+      "id": "urolithiasis",
+      "zh": "尿石症",
+      "en": "Urolithiasis"
+    },
+    {
+      "id": "glomerulonephritis",
+      "zh": "腎絲球腎炎",
+      "en": "Glomerulonephritis"
+    },
+    {
+      "id": "arrhythmia",
+      "zh": "心律不整",
+      "en": "Cardiac Arrhythmia"
+    },
+    {
+      "id": "meningitis",
+      "zh": "腦膜炎",
+      "en": "Meningitis/Meningoencephalitis"
+    },
+    {
+      "id": "osteosarcoma",
+      "zh": "骨肉瘤",
+      "en": "Osteosarcoma (OSA)"
+    },
+    {
+      "id": "pyoderma",
+      "zh": "膿皮症",
+      "en": "Pyoderma"
+    },
+    {
+      "id": "glaucoma",
+      "zh": "青光眼",
+      "en": "Glaucoma"
+    },
+    {
+      "id": "cataract",
+      "zh": "白內障",
+      "en": "Cataract"
+    },
+    {
+      "id": "pneumonia",
+      "zh": "肺炎",
+      "en": "Pneumonia"
+    },
+    {
+      "id": "dilated-cardiomyopathy",
+      "zh": "擴張型心肌病",
+      "en": "Dilated Cardiomyopathy (DCM)"
+    },
+    {
+      "id": "hypertrophic-cardiomyopathy",
+      "zh": "肥厚型心肌病",
+      "en": "Hypertrophic Cardiomyopathy (HCM)"
+    },
+    {
+      "id": "mitral-valve-disease",
+      "zh": "二尖瓣疾病",
+      "en": "Mitral Valve Disease (MVD)"
+    },
+    {
+      "id": "tricuspid-valve-dysplasia",
+      "zh": "三尖瓣發育不良",
+      "en": "Tricuspid Valve Dysplasia (TVD)"
+    },
+    {
+      "id": "patent-ductus-arteriosus",
+      "zh": "開放性動脈導管",
+      "en": "Patent Ductus Arteriosus (PDA)"
+    },
+    {
+      "id": "aortic-stenosis",
+      "zh": "主動脈狹窄",
+      "en": "Aortic Stenosis (AS)"
+    },
+    {
+      "id": "pulmonic-stenosis",
+      "zh": "肺動脈狹窄",
+      "en": "Pulmonic Stenosis (PS)"
+    },
+    {
+      "id": "ventricular-septal-defect",
+      "zh": "心室中隔缺損",
+      "en": "Ventricular Septal Defect (VSD)"
+    },
+    {
+      "id": "atrial-septal-defect",
+      "zh": "心房中隔缺損",
+      "en": "Atrial Septal Defect (ASD)"
+    },
+    {
+      "id": "heartworm-disease",
+      "zh": "心絲蟲病",
+      "en": "Heartworm Disease"
+    },
+    {
+      "id": "pericardial-effusion",
+      "zh": "心包積液",
+      "en": "Pericardial Effusion"
+    },
+    {
+      "id": "infective-endocarditis",
+      "zh": "感染性心內膜炎",
+      "en": "Infective Endocarditis (IE)"
+    },
+    {
+      "id": "arterial-thromboembolism",
+      "zh": "動脈血栓栓塞",
+      "en": "Arterial Thromboembolism (ATE)"
+    },
+    {
+      "id": "systemic-hypertension",
+      "zh": "系統性高血壓",
+      "en": "Systemic Hypertension"
+    },
+    {
+      "id": "pulmonary-hypertension",
+      "zh": "肺動脈高血壓",
+      "en": "Pulmonary Hypertension (PH)"
+    },
+    {
+      "id": "intervertebral-disc-disease",
+      "zh": "椎間盤疾病",
+      "en": "Intervertebral Disc Disease (IVDD)"
+    },
+    {
+      "id": "fibrocartilaginous-embolism",
+      "zh": "纖維軟骨栓塞",
+      "en": "Fibrocartilaginous Embolism (FCE)"
+    },
+    {
+      "id": "degenerative-myelopathy",
+      "zh": "退化性脊髓病",
+      "en": "Degenerative Myelopathy (DM)"
+    },
+    {
+      "id": "idiopathic-epilepsy",
+      "zh": "特發性癲癇",
+      "en": "Idiopathic Epilepsy"
+    },
+    {
+      "id": "granulomatous-meningoencephalitis",
+      "zh": "肉芽腫性腦膜腦炎",
+      "en": "Granulomatous Meningoencephalitis (GME)"
+    },
+    {
+      "id": "necrotizing-meningoencephalitis",
+      "zh": "壞死性腦膜腦炎",
+      "en": "Necrotizing Meningoencephalitis (NME)"
+    },
+    {
+      "id": "vestibular-disease",
+      "zh": "前庭疾病",
+      "en": "Vestibular Disease"
+    },
+    {
+      "id": "hydrocephalus",
+      "zh": "水腦症",
+      "en": "Hydrocephalus"
+    },
+    {
+      "id": "syringomyelia",
+      "zh": "脊髓空洞症",
+      "en": "Syringomyelia (SM)"
+    },
+    {
+      "id": "myasthenia-gravis",
+      "zh": "重症肌無力",
+      "en": "Myasthenia Gravis (MG)"
+    },
+    {
+      "id": "polymyositis",
+      "zh": "多發性肌炎",
+      "en": "Polymyositis"
+    },
+    {
+      "id": "cognitive-dysfunction-syndrome",
+      "zh": "認知功能障礙症候群",
+      "en": "Cognitive Dysfunction Syndrome (CDS)"
+    },
+    {
+      "id": "horners-syndrome",
+      "zh": "霍納氏症候群",
+      "en": "Horner's Syndrome"
+    },
+    {
+      "id": "facial-nerve-paralysis",
+      "zh": "顏面神經麻痺",
+      "en": "Facial Nerve Paralysis"
+    },
+    {
+      "id": "trigeminal-neuritis",
+      "zh": "三叉神經炎",
+      "en": "Trigeminal Neuritis"
+    },
+    {
+      "id": "gastric-dilatation-volvulus",
+      "zh": "胃擴張扭轉",
+      "en": "Gastric Dilatation-Volvulus (GDV)"
+    },
+    {
+      "id": "gastric-ulcer",
+      "zh": "胃潰瘍",
+      "en": "Gastric Ulcer"
+    },
+    {
+      "id": "inflammatory-bowel-disease",
+      "zh": "發炎性腸病",
+      "en": "Inflammatory Bowel Disease (IBD)"
+    },
+    {
+      "id": "protein-losing-enteropathy",
+      "zh": "蛋白質流失性腸病",
+      "en": "Protein-Losing Enteropathy (PLE)"
+    },
+    {
+      "id": "hemorrhagic-gastroenteritis",
+      "zh": "出血性胃腸炎",
+      "en": "Hemorrhagic Gastroenteritis (HGE)"
+    },
+    {
+      "id": "colitis",
+      "zh": "結腸炎",
+      "en": "Colitis"
+    },
+    {
+      "id": "constipation-megacolon",
+      "zh": "便秘/巨結腸",
+      "en": "Constipation/Megacolon"
+    },
+    {
+      "id": "esophageal-foreign-body",
+      "zh": "食道異物",
+      "en": "Esophageal Foreign Body"
+    },
+    {
+      "id": "exocrine-pancreatic-insufficiency",
+      "zh": "胰外分泌功能不全",
+      "en": "Exocrine Pancreatic Insufficiency (EPI)"
+    },
+    {
+      "id": "hepatic-lipidosis",
+      "zh": "肝臟脂肪沉積症",
+      "en": "Hepatic Lipidosis"
+    },
+    {
+      "id": "portosystemic-shunt",
+      "zh": "肝門脈分流",
+      "en": "Portosystemic Shunt (PSS)"
+    },
+    {
+      "id": "cholangiohepatitis",
+      "zh": "膽管肝炎",
+      "en": "Cholangiohepatitis"
+    },
+    {
+      "id": "copper-storage-hepatopathy",
+      "zh": "銅儲積性肝病",
+      "en": "Copper Storage Hepatopathy"
+    },
+    {
+      "id": "anal-sac-disease",
+      "zh": "肛門腺疾病",
+      "en": "Anal Sac Disease"
+    },
+    {
+      "id": "rectal-prolapse",
+      "zh": "直腸脫出",
+      "en": "Rectal Prolapse"
+    },
+    {
+      "id": "acute-kidney-injury",
+      "zh": "急性腎損傷",
+      "en": "Acute Kidney Injury (AKI)"
+    },
+    {
+      "id": "chronic-kidney-disease",
+      "zh": "慢性腎臟病",
+      "en": "Chronic Kidney Disease (CKD)"
+    },
+    {
+      "id": "feline-lower-urinary-tract-disease",
+      "zh": "貓下泌尿道疾病",
+      "en": "Feline Lower Urinary Tract Disease (FLUTD)"
+    },
+    {
+      "id": "urinary-tract-infection",
+      "zh": "泌尿道感染",
+      "en": "Urinary Tract Infection (UTI)"
+    },
+    {
+      "id": "pyelonephritis",
+      "zh": "腎盂腎炎",
+      "en": "Pyelonephritis"
+    },
+    {
+      "id": "polycystic-kidney-disease",
+      "zh": "多囊性腎病",
+      "en": "Polycystic Kidney Disease (PKD)"
+    },
+    {
+      "id": "protein-losing-nephropathy",
+      "zh": "蛋白質流失性腎病",
+      "en": "Protein-Losing Nephropathy (PLN)"
+    },
+    {
+      "id": "renal-dysplasia",
+      "zh": "腎發育不良",
+      "en": "Renal Dysplasia"
+    },
+    {
+      "id": "ectopic-ureter",
+      "zh": "異位輸尿管",
+      "en": "Ectopic Ureter"
+    },
+    {
+      "id": "urethral-obstruction",
+      "zh": "尿道阻塞",
+      "en": "Urethral Obstruction"
+    },
+    {
+      "id": "bladder-tumor",
+      "zh": "膀胱腫瘤",
+      "en": "Bladder Tumor"
+    },
+    {
+      "id": "urinary-incontinence",
+      "zh": "尿失禁",
+      "en": "Urinary Incontinence"
+    },
+    {
+      "id": "prostatic-disease",
+      "zh": "前列腺疾病",
+      "en": "Prostatic Disease"
+    },
+    {
+      "id": "hydronephrosis",
+      "zh": "腎水腫",
+      "en": "Hydronephrosis"
+    },
+    {
+      "id": "nephrotoxicity",
+      "zh": "腎毒性",
+      "en": "Nephrotoxicity"
+    },
+    {
+      "id": "diabetes-mellitus",
+      "zh": "糖尿病",
+      "en": "Diabetes Mellitus"
+    },
+    {
+      "id": "hyperthyroidism-cat",
+      "zh": "甲狀腺功能亢進（貓）",
+      "en": "Hyperthyroidism (Feline)"
+    },
+    {
+      "id": "hypothyroidism-dog",
+      "zh": "甲狀腺功能低下（犬）",
+      "en": "Hypothyroidism (Canine)"
+    },
+    {
+      "id": "pheochromocytoma",
+      "zh": "嗜鉻細胞瘤",
+      "en": "Pheochromocytoma"
+    },
+    {
+      "id": "hyperparathyroidism",
+      "zh": "副甲狀腺功能亢進",
+      "en": "Hyperparathyroidism"
+    },
+    {
+      "id": "hypoparathyroidism",
+      "zh": "副甲狀腺功能低下",
+      "en": "Hypoparathyroidism"
+    },
+    {
+      "id": "hypersomatotropism",
+      "zh": "生長激素過多症",
+      "en": "Hypersomatotropism (Acromegaly)"
+    },
+    {
+      "id": "growth-hormone-deficiency",
+      "zh": "生長激素缺乏",
+      "en": "Growth Hormone Deficiency"
+    },
+    {
+      "id": "diabetes-insipidus",
+      "zh": "尿崩症",
+      "en": "Diabetes Insipidus"
+    },
+    {
+      "id": "hyperaldosteronism",
+      "zh": "高醛固酮症",
+      "en": "Hyperaldosteronism (Conn's Syndrome)"
+    },
+    {
+      "id": "thyroid-carcinoma",
+      "zh": "甲狀腺癌",
+      "en": "Thyroid Carcinoma"
+    },
+    {
+      "id": "adrenal-tumor",
+      "zh": "腎上腺腫瘤",
+      "en": "Adrenal Tumor"
+    },
+    {
+      "id": "otitis-interna",
+      "zh": "內耳炎",
+      "en": "Otitis Interna"
+    },
+    {
+      "id": "nasopharyngeal-polyp",
+      "zh": "鼻咽息肉",
+      "en": "Nasopharyngeal Polyp"
+    }
+  ]
+}

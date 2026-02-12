@@ -1,0 +1,405 @@
+{
+"immune-mediated-arthritis": {
+    "zh": "免疫介導性關節炎",
+    "en": "Immune-Mediated Arthritis",
+    "definition": "一種由免疫系統異常攻擊關節組織引起的非感染性多發性關節炎。免疫複合物沉積於滑膜導致發炎反應，造成關節腫脹、疼痛和功能障礙。",
+    "synonyms": ["免疫性關節炎", "免疫介導性多發性關節炎", "IMPA"],
+    "epidemiology": {
+        "prevalence": "少見",
+        "riskFactors": ["遺傳易感性", "慢性感染", "腫瘤", "藥物反應", "疫苗接種後"],
+        "animalGroups": ["中大型犬", "德國牧羊犬", "杜賓犬", "可卡犬", "中年犬"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["多關節腫脹", "跛行", "發熱", "食慾下降", "活動力減退", "僵硬步態"],
+        "signs": ["關節積液", "關節觸診疼痛", "對稱性關節腫脹", "淋巴結腫大", "發熱"],
+        "complications": ["關節軟骨損傷", "關節永久性損傷", "繼發性骨關節炎", "肌肉萎縮"]
+    },
+    "pathophysiology": "免疫複合物沉積於滑膜引發第III型過敏反應，活化補體系統並吸引中性粒細胞浸潤。發炎介質釋放導致滑膜增生、軟骨降解和骨侵蝕。可分為侵蝕性和非侵蝕性兩種類型。",
+    "diagnosis": {
+        "primary": ["關節液分析（非感染性發炎）", "血液學檢查", "類風濕因子檢測"],
+        "supportive": ["X光檢查", "抗核抗體檢測", "關節超音波"],
+        "differential": ["感染性關節炎", "萊姆病", "全身性紅斑狼瘡", "骨關節炎", "類風濕性關節炎"]
+    },
+    "treatment": {
+        "medical": ["Prednisolone 2-4mg/kg/day", "Azathioprine", "Cyclosporine", "Leflunomide", "Mycophenolate"],
+        "surgical": ["關節沖洗（特殊情況）"],
+        "supportive": ["體重管理", "物理治療", "關節保護補充劑", "適度運動"]
+    },
+    "prognosis": "非侵蝕性IMPA對免疫抑制治療反應良好，預後較佳。侵蝕性IMPA預後較差，可能造成永久性關節損傷。需長期用藥維持，部分病例可逐漸減藥。",
+    "pearls": ["關節液分析是診斷關鍵，需排除感染性原因", "治療前應尋找潛在病因如腫瘤或感染", "類固醇劑量需依臨床反應逐步調整"],
+    "monitoring": ["關節液分析追蹤", "CBC監測", "肝腎功能", "臨床症狀評估"],
+    "reference": "Small Animal Internal Medicine, Nelson & Couto"
+},
+"anaphylaxis": {
+    "zh": "過敏性休克",
+    "en": "Anaphylaxis",
+    "definition": "一種嚴重且可能致命的急性全身性過敏反應，由IgE介導的第I型過敏反應引起。接觸過敏原後數分鐘內發生，可導致心血管衰竭和死亡。",
+    "synonyms": ["全身性過敏反應", "急性過敏性休克", "類過敏反應"],
+    "epidemiology": {
+        "prevalence": "少見",
+        "riskFactors": ["先前過敏史", "疫苗接種", "昆蟲叮咬", "藥物注射", "食物過敏原暴露"],
+        "animalGroups": ["犬（較常見）", "貓", "任何品種和年齡"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["突發虛脫", "嘔吐", "腹瀉", "呼吸困難", "流涎", "搔癢"],
+        "signs": ["低血壓", "心搏過速", "蒼白黏膜", "休克", "蕁麻疹", "喉頭水腫"],
+        "complications": ["休克", "DIC", "多器官衰竭", "死亡", "腦缺氧損傷"]
+    },
+    "pathophysiology": "過敏原與肥大細胞和嗜鹼性球表面的IgE結合，導致細胞脫顆粒釋放大量組織胺、白三烯和其他介質。犬的主要休克器官是肝臟和腸道，貓則為肺部。血管擴張和通透性增加導致低血容量性休克。",
+    "diagnosis": {
+        "primary": ["臨床病史和症狀", "過敏原暴露史", "快速臨床惡化"],
+        "supportive": ["血壓監測", "血液氣體分析", "血清組織胺濃度"],
+        "differential": ["心因性休克", "敗血性休克", "急性心臟衰竭", "氣道異物阻塞"]
+    },
+    "treatment": {
+        "medical": ["Epinephrine 0.01-0.02mg/kg IV/IM", "Diphenhydramine", "Dexamethasone", "Famotidine"],
+        "surgical": ["氣管切開術（嚴重喉頭水腫）"],
+        "supportive": ["靜脈輸液復甦", "氧氣治療", "保溫", "心電圖監測"]
+    },
+    "prognosis": "若能及時診斷和治療，大多數病例可完全恢復。延遲治療可能導致死亡。存活後應避免再次接觸已知過敏原。",
+    "pearls": ["Epinephrine是第一線急救藥物，不應延遲給予", "犬的過敏性休克主要表現為腸胃道和肝臟症狀", "應記錄過敏原以預防復發"],
+    "monitoring": ["血壓持續監測", "心電圖", "尿量", "血氧飽和度"],
+    "reference": "Veterinary Emergency and Critical Care Medicine, Silverstein"
+},
+"vasculitis": {
+    "zh": "血管炎",
+    "en": "Vasculitis",
+    "definition": "血管壁的發炎性疾病，可由免疫介導、感染或藥物反應引起。導致血管損傷、組織缺血和壞死，可影響皮膚、腎臟及其他器官。",
+    "synonyms": ["脈管炎", "免疫介導性血管炎", "系統性血管炎"],
+    "epidemiology": {
+        "prevalence": "罕見",
+        "riskFactors": ["感染性疾病", "藥物反應", "腫瘤", "免疫疾病", "疫苗反應"],
+        "animalGroups": ["犬", "貓（較少）", "傑克羅素梗", "德國牧羊犬"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["皮膚潰瘍", "發熱", "跛行", "食慾下降", "精神沉鬱"],
+        "signs": ["耳緣壞死", "肉球潰瘍", "紫斑", "點狀出血", "皮膚梗塞", "水腫"],
+        "complications": ["組織壞死", "腎衰竭", "血栓形成", "多器官衰竭"]
+    },
+    "pathophysiology": "免疫複合物沉積於血管壁引發第III型過敏反應，或T細胞介導的第IV型反應攻擊血管內皮。補體活化和中性粒細胞浸潤導致血管壁損傷、血栓形成和組織缺血壞死。",
+    "diagnosis": {
+        "primary": ["皮膚活檢", "組織病理學檢查"],
+        "supportive": ["CBC", "生化檢查", "尿液分析", "抗核抗體檢測", "感染性疾病篩查"],
+        "differential": ["寒冷凝集素病", "DIC", "血小板減少症", "凍傷", "腫瘤"]
+    },
+    "treatment": {
+        "medical": ["Prednisolone", "Pentoxifylline", "Doxycycline", "Azathioprine", "Mycophenolate"],
+        "surgical": ["壞死組織清創"],
+        "supportive": ["傷口護理", "保溫", "營養支持", "避免寒冷"]
+    },
+    "prognosis": "預後取決於病因和受累器官。特發性血管炎對治療反應通常良好。藥物相關性血管炎停藥後可能改善。系統性血管炎預後較差。",
+    "pearls": ["皮膚活檢是診斷金標準", "需排除感染性病因如立克次體", "耳緣和肉球病變是典型表現"],
+    "monitoring": ["皮膚病變監測", "腎功能", "CBC", "尿液分析"],
+    "reference": "Muller and Kirk's Small Animal Dermatology"
+},
+"vaccine-reaction": {
+    "zh": "疫苗反應",
+    "en": "Vaccine Reaction",
+    "definition": "接種疫苗後發生的不良免疫反應，範圍從輕微的局部反應到嚴重的全身性過敏反應。大多數反應為自限性，但少數可能危及生命。",
+    "synonyms": ["疫苗不良反應", "接種後反應", "疫苗過敏"],
+    "epidemiology": {
+        "prevalence": "少見（嚴重反應罕見）",
+        "riskFactors": ["小型犬", "多種疫苗同時接種", "幼齡動物", "過敏史", "特定品種"],
+        "animalGroups": ["臘腸犬", "巴乎犬", "吉娃娃", "波士頓梗", "小型犬"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["注射部位腫脹", "發熱", "嗜睡", "食慾下降", "嘔吐", "面部水腫"],
+        "signs": ["局部疼痛", "蕁麻疹", "血管性水腫", "低血壓", "呼吸困難"],
+        "complications": ["過敏性休克", "注射部位肉瘤（貓）", "免疫介導性疾病"]
+    },
+    "pathophysiology": "疫苗成分（抗原、佐劑、穩定劑）可觸發不同類型的免疫反應。第I型過敏反應由IgE介導，在數分鐘至數小時內發生。第III型反應涉及免疫複合物沉積。第IV型為遲發性T細胞介導反應。",
+    "diagnosis": {
+        "primary": ["臨床病史", "接種時間關聯性", "症狀表現"],
+        "supportive": ["體格檢查", "過敏原檢測"],
+        "differential": ["感染性疾病", "其他過敏反應", "血管性水腫", "蟲咬反應"]
+    },
+    "treatment": {
+        "medical": ["Diphenhydramine", "Dexamethasone", "Epinephrine（嚴重反應）"],
+        "surgical": ["無"],
+        "supportive": ["觀察監測", "保溫", "靜脈輸液（休克時）"]
+    },
+    "prognosis": "大多數輕微反應可自行消退或對治療反應良好。嚴重過敏反應若及時處理預後良好。應記錄反應並調整未來接種計畫。",
+    "pearls": ["高風險動物可預先給予抗組織胺", "考慮分開接種不同疫苗", "小型犬風險較高，應特別監測"],
+    "monitoring": ["接種後觀察30分鐘", "24-48小時後追蹤", "注射部位長期監測（貓）"],
+    "reference": "AAHA Canine Vaccination Guidelines"
+},
+"transfusion-reaction": {
+    "zh": "輸血反應",
+    "en": "Transfusion Reaction",
+    "definition": "接受血液或血液製品後發生的免疫性或非免疫性不良反應。可表現為急性溶血、發熱、過敏反應或延遲性免疫反應。",
+    "synonyms": ["輸血不良反應", "輸血過敏反應", "溶血性輸血反應"],
+    "epidemiology": {
+        "prevalence": "少見",
+        "riskFactors": ["先前輸血史", "血型不合", "多次輸血", "未進行交叉配血"],
+        "animalGroups": ["犬", "貓", "曾接受輸血的動物"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["發熱", "嘔吐", "不安", "呼吸困難", "虛弱", "血尿"],
+        "signs": ["發燒", "心搏過速", "黃疸", "血紅素尿", "低血壓", "蕁麻疹"],
+        "complications": ["急性溶血", "休克", "DIC", "急性腎損傷", "死亡"]
+    },
+    "pathophysiology": "免疫性溶血反應由受血者抗體攻擊供血者紅血球引起，導致血管內或血管外溶血。非免疫性反應包括發熱性非溶血反應（白血球抗體）、過敏反應和細菌污染。貓有A、B、AB血型，B型貓對A型血有強烈天然抗體。",
+    "diagnosis": {
+        "primary": ["臨床症狀", "輸血時間關聯", "血漿顏色（溶血）"],
+        "supportive": ["PCV/TS", "Coombs試驗", "血型鑑定", "尿液分析"],
+        "differential": ["感染性疾病", "其他溶血原因", "過敏反應", "輸液反應"]
+    },
+    "treatment": {
+        "medical": ["立即停止輸血", "Diphenhydramine", "Dexamethasone", "Epinephrine（嚴重反應）"],
+        "surgical": ["無"],
+        "supportive": ["靜脈輸液", "利尿劑", "氧氣治療", "保溫"]
+    },
+    "prognosis": "輕微反應預後良好。嚴重急性溶血反應可能致命，但及時處理可提高存活率。應記錄反應類型以指導未來輸血。",
+    "pearls": ["貓的首次輸血也可能發生嚴重反應", "輸血前必須進行血型鑑定和交叉配血", "輸血期間應密切監測生命徵象"],
+    "monitoring": ["輸血期間每15分鐘監測", "體溫", "心率", "呼吸", "黏膜顏色"],
+    "reference": "Schalm's Veterinary Hematology"
+},
+"food-allergy": {
+    "zh": "食物過敏",
+    "en": "Food Allergy",
+    "definition": "對食物成分（通常為蛋白質）產生的免疫介導性不良反應。主要表現為皮膚症狀和/或胃腸道症狀，是犬貓常見的過敏性疾病之一。",
+    "synonyms": ["食物過敏性皮膚炎", "食物不良反應", "飲食過敏"],
+    "epidemiology": {
+        "prevalence": "常見",
+        "riskFactors": ["遺傳易感性", "胃腸道屏障功能障礙", "早期暴露", "特定品種"],
+        "animalGroups": ["犬", "貓", "拉布拉多", "西高地白梗", "德國牧羊犬", "暹羅貓"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["搔癢", "反覆耳炎", "舔足", "嘔吐", "腹瀉", "排氣增加"],
+        "signs": ["非季節性搔癢", "外耳炎", "肛門搔癢", "皮膚紅疹", "脫毛"],
+        "complications": ["繼發性皮膚感染", "慢性耳炎", "營養不良", "行為問題"]
+    },
+    "pathophysiology": "食物蛋白質穿過腸道屏障後被免疫系統識別為異物，產生IgE和/或細胞介導的免疫反應。常見過敏原包括牛肉、乳製品、雞肉、小麥、大豆和雞蛋。過敏原特異性IgE與肥大細胞結合，再次暴露時引發過敏反應。",
+    "diagnosis": {
+        "primary": ["食物排除試驗（8-12週）", "挑戰試驗"],
+        "supportive": ["皮膚活檢", "血清IgE檢測（可靠性有限）"],
+        "differential": ["異位性皮膚炎", "跳蚤過敏性皮膚炎", "接觸性皮膚炎", "疥癬"]
+    },
+    "treatment": {
+        "medical": ["水解蛋白飲食", "新型蛋白飲食", "止癢藥物（短期）"],
+        "surgical": ["無"],
+        "supportive": ["避免已知過敏原", "omega-3脂肪酸補充", "益生菌"]
+    },
+    "prognosis": "若能確定並避免過敏原，預後良好。需終生飲食管理。部分病例可能對多種食物過敏，管理較困難。",
+    "pearls": ["排除試驗是診斷金標準，需嚴格執行8-12週", "血清過敏原檢測不可靠，不建議作為唯一診斷依據", "常見過敏原為蛋白質而非穀物"],
+    "monitoring": ["症狀追蹤", "飲食日記", "定期皮膚評估"],
+    "reference": "Muller and Kirk's Small Animal Dermatology"
+},
+"drug-hypersensitivity": {
+    "zh": "藥物過敏",
+    "en": "Drug Hypersensitivity",
+    "definition": "對藥物或其代謝產物產生的免疫介導性不良反應。可表現為皮膚反應、血液學異常或多系統受累，嚴重者可能危及生命。",
+    "synonyms": ["藥物不良反應", "藥物過敏反應", "藥疹"],
+    "epidemiology": {
+        "prevalence": "少見",
+        "riskFactors": ["先前藥物過敏史", "多種藥物同時使用", "肝腎功能障礙", "特定品種"],
+        "animalGroups": ["犬", "貓", "杜賓犬（磺胺類）", "任何品種"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["皮疹", "搔癢", "發熱", "嘔吐", "腹瀉", "關節疼痛"],
+        "signs": ["蕁麻疹", "血管性水腫", "紅皮症", "淋巴結腫大", "黃疸"],
+        "complications": ["Stevens-Johnson症候群", "肝損傷", "腎損傷", "血液異常", "過敏性休克"]
+    },
+    "pathophysiology": "藥物可作為半抗原與蛋白質結合形成完整抗原，或藥物代謝產物直接具有免疫原性。可涉及四種類型的過敏反應：第I型（IgE介導）、第II型（細胞毒性）、第III型（免疫複合物）和第IV型（遲發性細胞介導）。",
+    "diagnosis": {
+        "primary": ["臨床病史", "藥物暴露時間關聯", "停藥後改善"],
+        "supportive": ["CBC", "生化檢查", "皮膚活檢", "藥物特異性抗體檢測"],
+        "differential": ["感染性疾病", "其他過敏反應", "自體免疫疾病", "中毒"]
+    },
+    "treatment": {
+        "medical": ["立即停用可疑藥物", "抗組織胺", "糖皮質激素", "Epinephrine（嚴重反應）"],
+        "surgical": ["無"],
+        "supportive": ["靜脈輸液", "皮膚護理", "營養支持"]
+    },
+    "prognosis": "停藥後大多數反應可逆轉。嚴重反應如Stevens-Johnson症候群預後較差。應永久避免使用致敏藥物及相關藥物。",
+    "pearls": ["杜賓犬對磺胺類藥物特別敏感", "反應可在用藥數天至數週後發生", "記錄過敏史對未來用藥安全至關重要"],
+    "monitoring": ["停藥後症狀追蹤", "CBC", "肝腎功能", "皮膚病變評估"],
+    "reference": "Plumb's Veterinary Drug Handbook"
+},
+"urticaria-angioedema": {
+    "zh": "蕁麻疹",
+    "en": "Urticaria and Angioedema",
+    "definition": "由肥大細胞脫顆粒引起的急性皮膚反應。蕁麻疹表現為皮膚風團，血管性水腫為皮下組織水腫，常影響面部。通常為第I型過敏反應。",
+    "synonyms": ["風疹塊", "血管性水腫", "風團", "蕁麻疹與血管神經性水腫"],
+    "epidemiology": {
+        "prevalence": "少見",
+        "riskFactors": ["昆蟲叮咬", "藥物", "疫苗", "食物", "植物接觸"],
+        "animalGroups": ["犬（常見）", "貓", "馬", "任何品種"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["突發皮膚腫塊", "搔癢", "面部腫脹", "不安"],
+        "signs": ["風團", "皮膚水腫", "眼瞼腫脹", "唇部腫脹", "耳廓腫脹"],
+        "complications": ["喉頭水腫", "呼吸困難", "過敏性休克"]
+    },
+    "pathophysiology": "過敏原與肥大細胞表面的IgE結合，觸發脫顆粒釋放組織胺、白三烯和其他介質。組織胺增加血管通透性，導致血漿滲出至皮膚（蕁麻疹）或皮下組織（血管性水腫）。反應通常在暴露後數分鐘至數小時內發生。",
+    "diagnosis": {
+        "primary": ["臨床表現", "病史（近期暴露）"],
+        "supportive": ["體格檢查", "過敏原檢測（慢性病例）"],
+        "differential": ["蜂窩組織炎", "血管炎", "蟲咬反應", "接觸性皮膚炎"]
+    },
+    "treatment": {
+        "medical": ["Diphenhydramine", "Dexamethasone", "Epinephrine（嚴重血管性水腫）"],
+        "surgical": ["氣管切開術（嚴重喉頭水腫）"],
+        "supportive": ["冷敷", "觀察監測", "避免再暴露"]
+    },
+    "prognosis": "急性蕁麻疹通常對治療反應良好，24-48小時內消退。血管性水腫若不影響呼吸道預後良好。需識別並避免觸發因素。",
+    "pearls": ["快速發作和消退是蕁麻疹的特徵", "面部血管性水腫需監測呼吸道", "昆蟲叮咬是犬最常見的原因"],
+    "monitoring": ["呼吸狀態", "症狀消退情況", "反覆發作的觸發因素"],
+    "reference": "Muller and Kirk's Small Animal Dermatology"
+},
+"hypereosinophilic-syndrome": {
+    "zh": "嗜酸性球增多症候群",
+    "en": "Hypereosinophilic Syndrome",
+    "definition": "以持續性嗜酸性球增多為特徵的疾病，伴有嗜酸性球組織浸潤導致的器官損傷。可能是原發性（克隆性）或繼發於其他疾病。",
+    "synonyms": ["HES", "嗜酸球增多症候群", "特發性嗜酸性球增多症"],
+    "epidemiology": {
+        "prevalence": "罕見",
+        "riskFactors": ["遺傳因素", "慢性過敏", "寄生蟲感染", "腫瘤"],
+        "animalGroups": ["貓（較常見）", "犬", "羅威納犬", "德國牧羊犬"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["嘔吐", "腹瀉", "食慾下降", "體重減輕", "咳嗽", "呼吸困難"],
+        "signs": ["肝脾腫大", "淋巴結腫大", "腸壁增厚", "皮膚病變", "發熱"],
+        "complications": ["嗜酸性球性腸炎", "嗜酸性球性肺炎", "心肌病變", "多器官衰竭"]
+    },
+    "pathophysiology": "嗜酸性球產生過多或清除減少導致血液和組織中嗜酸性球蓄積。嗜酸性球釋放毒性顆粒蛋白（主要鹼性蛋白、嗜酸性球過氧化物酶）造成組織損傷。可能涉及IL-5等細胞因子的異常產生或嗜酸性球克隆性增生。",
+    "diagnosis": {
+        "primary": ["CBC（持續性嗜酸性球增多）", "骨髓檢查", "組織活檢"],
+        "supportive": ["影像學檢查", "排除寄生蟲", "糞便檢查", "過敏原檢測"],
+        "differential": ["寄生蟲感染", "過敏性疾病", "嗜酸性球性腫瘤", "肥大細胞腫瘤"]
+    },
+    "treatment": {
+        "medical": ["Prednisolone", "Hydroxyurea", "Chlorambucil", "Imatinib（選擇性病例）"],
+        "surgical": ["無"],
+        "supportive": ["營養支持", "對症治療", "驅蟲（排除寄生蟲）"]
+    },
+    "prognosis": "預後因病因和器官受累程度而異。特發性HES通常需要長期免疫抑制治療。嚴重器官損傷者預後較差。貓的HES預後通常較差。",
+    "pearls": ["診斷前必須徹底排除寄生蟲和過敏原因", "貓的HES常涉及腸道和脾臟", "監測器官功能是長期管理的關鍵"],
+    "monitoring": ["CBC監測嗜酸性球計數", "器官功能評估", "影像學追蹤", "治療反應"],
+    "reference": "Schalm's Veterinary Hematology"
+},
+"immune-mediated-glomerulonephritis": {
+    "zh": "免疫介導性腎病",
+    "en": "Immune-Mediated Glomerulonephritis",
+    "definition": "免疫複合物沉積於腎絲球引起的發炎性腎病。導致蛋白尿、腎功能下降，是犬慢性腎病的重要原因之一。",
+    "synonyms": ["免疫複合物性腎絲球腎炎", "膜性腎病", "ICGN"],
+    "epidemiology": {
+        "prevalence": "少見",
+        "riskFactors": ["慢性感染", "腫瘤", "自體免疫疾病", "特定品種"],
+        "animalGroups": ["伯恩山犬", "軟毛小麥梗", "英國可卡", "犬", "貓"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["多飲多尿", "食慾下降", "嘔吐", "水腫", "體重減輕"],
+        "signs": ["蛋白尿", "低白蛋白血症", "腹水", "周邊水腫", "高血壓"],
+        "complications": ["腎病症候群", "血栓栓塞", "慢性腎衰竭", "高血壓性視網膜病變"]
+    },
+    "pathophysiology": "循環免疫複合物沉積於腎絲球基底膜，或原位形成免疫複合物。補體活化和發炎細胞浸潤導致腎絲球損傷。腎絲球通透性增加導致蛋白尿，長期可發展為腎絲球硬化和腎功能衰竭。",
+    "diagnosis": {
+        "primary": ["尿液分析（蛋白尿）", "尿蛋白肌酐比", "腎活檢"],
+        "supportive": ["血清生化", "血壓測量", "感染性疾病篩查", "腹部超音波"],
+        "differential": ["類澱粉沉積症", "腎絲球硬化症", "其他蛋白尿原因", "腎盂腎炎"]
+    },
+    "treatment": {
+        "medical": ["免疫抑制劑", "ACE抑制劑", "抗血栓藥物", "降壓藥", "omega-3脂肪酸"],
+        "surgical": ["無"],
+        "supportive": ["低蛋白飲食", "磷結合劑", "補充白蛋白（嚴重時）"]
+    },
+    "prognosis": "預後取決於腎活檢結果和對治療的反應。早期診斷和治療可延緩疾病進展。嚴重蛋白尿和腎功能不全者預後較差。",
+    "pearls": ["持續性蛋白尿應考慮腎絲球疾病", "需尋找並治療潛在病因", "血栓栓塞是重要的併發症"],
+    "monitoring": ["尿蛋白肌酐比", "腎功能指標", "血壓", "血清白蛋白"],
+    "reference": "Small Animal Internal Medicine, Nelson & Couto"
+},
+"rheumatoid-arthritis": {
+    "zh": "類風濕性關節炎",
+    "en": "Rheumatoid Arthritis",
+    "definition": "一種侵蝕性免疫介導性多發性關節炎，以對稱性小關節受累和關節破壞為特徵。自身抗體攻擊滑膜導致慢性發炎和骨侵蝕。",
+    "synonyms": ["RA", "類風濕關節炎", "侵蝕性多發性關節炎"],
+    "epidemiology": {
+        "prevalence": "罕見",
+        "riskFactors": ["遺傳易感性", "慢性感染"],
+        "animalGroups": ["小型犬", "玩具犬", "雪特蘭牧羊犬", "灰狗", "中年至老年犬"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["多關節腫脹", "跛行", "晨僵", "活動後改善", "食慾下降"],
+        "signs": ["對稱性關節腫脹", "小關節受累（腕、跗關節）", "關節變形", "肌肉萎縮", "發熱"],
+        "complications": ["關節脫位", "永久性關節損傷", "繼發性骨關節炎", "系統性血管炎"]
+    },
+    "pathophysiology": "自身抗體（類風濕因子）與IgG的Fc段結合形成免疫複合物，沉積於滑膜引發發炎。滑膜增生形成血管翳，侵蝕軟骨和軟骨下骨。T細胞和巨噬細胞產生促發炎細胞因子（TNF-α、IL-1、IL-6）加劇組織破壞。",
+    "diagnosis": {
+        "primary": ["X光檢查（骨侵蝕）", "關節液分析", "類風濕因子檢測"],
+        "supportive": ["抗CCP抗體", "抗核抗體", "CBC", "生化檢查"],
+        "differential": ["非侵蝕性免疫介導性關節炎", "感染性關節炎", "骨關節炎", "全身性紅斑狼瘡"]
+    },
+    "treatment": {
+        "medical": ["Prednisolone", "Leflunomide", "Azathioprine", "Cyclosporine", "金製劑"],
+        "surgical": ["關節融合術（嚴重病例）", "關節置換術"],
+        "supportive": ["物理治療", "體重管理", "關節保護", "止痛藥"]
+    },
+    "prognosis": "預後較非侵蝕性IMPA差。早期診斷和積極治療可延緩關節破壞。部分病例可能需要長期或終生治療。嚴重關節損傷者生活品質受影響。",
+    "pearls": ["X光骨侵蝕是類風濕性關節炎與IMPA的鑑別要點", "小型犬和玩具犬風險較高", "治療目標是控制發炎並預防進一步關節破壞"],
+    "monitoring": ["X光追蹤", "關節液分析", "臨床症狀評估", "藥物副作用監測"],
+    "reference": "Small Animal Internal Medicine, Nelson & Couto"
+},
+"allergic-contact-dermatitis": {
+    "zh": "接觸性皮膚炎",
+    "en": "Allergic Contact Dermatitis",
+    "definition": "皮膚直接接觸過敏原後引起的第IV型遲發性過敏反應。需要先前致敏，再次接觸時在24-72小時內出現皮膚發炎反應。",
+    "synonyms": ["過敏性接觸性皮膚炎", "接觸性過敏", "ACD"],
+    "epidemiology": {
+        "prevalence": "罕見",
+        "riskFactors": ["接觸植物", "局部藥物使用", "清潔劑暴露", "金屬接觸", "特定材質項圈"],
+        "animalGroups": ["犬", "貓（較少見）", "任何品種"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["搔癢", "皮膚紅腫", "接觸部位不適"],
+        "signs": ["紅斑", "丘疹", "水泡", "皮膚增厚", "色素沉著", "邊界清晰的病變"],
+        "complications": ["繼發感染", "慢性皮膚變化", "苔蘚化"]
+    },
+    "pathophysiology": "過敏原（半抗原）滲透皮膚並與蛋白質結合，被朗格漢斯細胞捕獲並呈遞給T細胞。致敏後的記憶T細胞在再次接觸時產生細胞介導的發炎反應，導致皮膚病變。潛伏期通常為24-72小時。",
+    "diagnosis": {
+        "primary": ["臨床病史", "病變分布模式", "斑貼試驗"],
+        "supportive": ["皮膚活檢", "排除其他皮膚病", "暴露史調查"],
+        "differential": ["刺激性接觸性皮膚炎", "異位性皮膚炎", "食物過敏", "細菌性皮膚炎"]
+    },
+    "treatment": {
+        "medical": ["局部糖皮質激素", "全身性糖皮質激素（嚴重時）", "抗組織胺"],
+        "surgical": ["無"],
+        "supportive": ["避免接觸過敏原", "保護性衣物", "屏障修復劑"]
+    },
+    "prognosis": "若能識別並避免過敏原，預後極佳。未能避免過敏原則會反覆發作。慢性病例可能導致永久性皮膚變化。",
+    "pearls": ["病變分布常與接觸部位一致", "斑貼試驗是確診方法但在動物較難執行", "常見過敏原包括植物、藥物和清潔劑"],
+    "monitoring": ["皮膚病變追蹤", "過敏原暴露記錄", "治療反應評估"],
+    "reference": "Muller and Kirk's Small Animal Dermatology"
+},
+"environmental-allergy": {
+    "zh": "環境過敏",
+    "en": "Environmental Allergy",
+    "definition": "對環境中的過敏原（如花粉、塵蟎、黴菌）產生的IgE介導性過敏反應，也稱為異位性皮膚炎。是犬第二常見的過敏性皮膚病。",
+    "synonyms": ["異位性皮膚炎", "吸入性過敏", "花粉症", "犬異位症"],
+    "epidemiology": {
+        "prevalence": "常見",
+        "riskFactors": ["遺傳易感性", "皮膚屏障功能缺陷", "城市環境", "特定品種"],
+        "animalGroups": ["法國鬥牛犬", "英國鬥牛犬", "金毛獵犬", "拉布拉多", "西高地白梗", "貓"]
+    },
+    "clinicalPresentation": {
+        "symptoms": ["搔癢", "舔足", "面部搔抓", "反覆耳炎", "打噴嚏"],
+        "signs": ["面部紅斑", "趾間紅腫", "腋下和腹股溝發炎", "慢性外耳炎", "結膜炎"],
+        "complications": ["繼發性膿皮症", "馬拉色菌感染", "慢性皮膚增厚", "自我創傷"]
+    },
+    "pathophysiology": "皮膚屏障功能缺陷允許環境過敏原滲透，刺激樹突狀細胞呈遞抗原。Th2型免疫反應導致IgE產生，肥大細胞脫顆粒釋放組織胺和發炎介質。遺傳因素影響皮膚屏障蛋白如絲聚蛋白的表達。",
+    "diagnosis": {
+        "primary": ["臨床病史和症狀", "排除其他搔癢原因", "過敏原檢測"],
+        "supportive": ["皮內過敏試驗", "血清IgE檢測", "皮膚活檢"],
+        "differential": ["食物過敏", "跳蚤過敏性皮膚炎", "疥癬", "接觸性皮膚炎"]
+    },
+    "treatment": {
+        "medical": ["Oclacitinib", "Lokivetmab", "Cyclosporine", "過敏原特異性免疫治療", "抗組織胺"],
+        "surgical": ["無"],
+        "supportive": ["頻繁洗浴", "皮膚保濕", "omega-3脂肪酸", "環境控制"]
+    },
+    "prognosis": "無法治癒但可有效控制。多模式治療效果最佳。過敏原特異性免疫治療可能提供長期改善。需終生管理。",
+    "pearls": ["異位性皮膚炎診斷前必須排除寄生蟲和感染", "JAK抑制劑和單株抗體是現代治療首選", "皮膚屏障修復是治療的重要組成部分"],
+    "monitoring": ["搔癢程度評分", "皮膚病變評估", "繼發感染監測", "藥物副作用"],
+    "reference": "Muller and Kirk's Small Animal Dermatology"
+}
+}

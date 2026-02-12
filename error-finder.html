@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<title>錯誤定位器</title>
+<style>
+body { font-family: monospace; padding: 20px; background: #1e1e1e; color: #d4d4d4; }
+.success { color: #4ec9b0; }
+.error { color: #f48771; }
+.info { color: #9cdcfe; }
+pre { background: #2d2d2d; padding: 10px; border-radius: 5px; overflow-x: auto; }
+h2 { color: #569cd6; }
+</style>
+</head>
+<body>
+<h1>🔍 JavaScript 錯誤定位器</h1>
+<div id="output"></div>
+
+<script>
+const output = document.getElementById('output');
+
+function log(msg, className = '') {
+  const div = document.createElement('div');
+  div.className = className;
+  div.textContent = msg;
+  output.appendChild(div);
+}
+
+function logHTML(html) {
+  const div = document.createElement('div');
+  div.innerHTML = html;
+  output.appendChild(div);
+}
+
+log('開始載入主檔案...', 'info');
+
+// 使用 fetch 載入檔案
+fetch('vet-differential-diagnosis-v2.html')
+  .then(response => response.text())
+  .then(html => {
+    log('✅ 檔案載入成功', 'success');
+
+    // 提取 script 內容
+    const scriptMatch = html.match(/<script>([\s\S]*?)<\/script>/);
+    if (!scriptMatch) {
+      log('❌ 找不到 <script> 標籤', 'error');
+      return;
+    }
+
+    const script = scriptMatch[1];
+    const lines = script.split('\n');
+    log(`📊 總共 ${lines.length} 行 JavaScript 代碼`, 'info');
+
+    // 嘗試執行
+    log('\n嘗試執行 JavaScript...', 'info');
+
+    try {
+      const func = new Function(script);
+      log('✅ JavaScript 語法完全正確！', 'success');
+
+      // 執行看看
+      try {
+        func();
+        log('✅ 執行成功！', 'success');
+      } catch (execError) {
+        log('⚠️ 語法正確但執行時出錯: ' + execError.message, 'info');
+      }
+
+    } catch (syntaxError) {
+      log('❌ 發現語法錯誤:', 'error');
+      log('錯誤訊息: ' + syntaxError.message, 'error');
+
+      // 嘗試從錯誤訊息提取行號
+      const match = syntaxError.stack.match(/anonymous>:(\d+):(\d+)/);
+
+      if (match) {
+        const errorLine = parseInt(match[1]) - 1; // Function() 會加上包裝
+        const errorCol = parseInt(match[2]);
+
+        log(`\n📍 錯誤位置: 第 ${errorLine} 行, 第 ${errorCol} 列`, 'error');
+
+        // 顯示錯誤附近的代碼
+        logHTML('<h2>錯誤附近的代碼:</h2>');
+        const pre = document.createElement('pre');
+        let code = '';
+
+        for (let i = Math.max(0, errorLine - 5); i < Math.min(lines.length, errorLine + 5); i++) {
+          const marker = i === errorLine ? '>>> ' : '    ';
+          const lineNum = String(i + 1).padStart(5, ' ');
+          code += `${marker}${lineNum}: ${lines[i]}\n`;
+        }
+
+        pre.textContent = code;
+        output.appendChild(pre);
+
+        // 分析錯誤類型
+        logHTML('<h2>錯誤分析:</h2>');
+
+        if (syntaxError.message.includes('Unexpected string')) {
+          log('🔍 "Unexpected string" 通常表示:', 'info');
+          log('  1. 物件屬性之間缺少逗號', 'info');
+          log('  2. 引號未正確閉合', 'info');
+          log('  3. 字串內有未轉義的引號', 'info');
+
+          // 檢查錯誤行
+          const errLine = lines[errorLine];
+          log(`\n問題行: ${errLine}`, 'info');
+
+          if (errorLine > 0) {
+            const prevLine = lines[errorLine - 1];
+            log(`前一行: ${prevLine}`, 'info');
+
+            // 檢查前一行是否缺少逗號
+            if (prevLine.trim().endsWith('}') && !prevLine.trim().endsWith('},')) {
+              log('⚠️ 可能原因: 前一行的 } 後面缺少逗號!', 'error');
+              log(`建議修復: 將第 ${errorLine} 行的 } 改為 },`, 'info');
+            }
+          }
+        }
+
+      } else {
+        log('無法從錯誤訊息中提取行號', 'error');
+        log('完整錯誤堆疊:', 'info');
+        const pre = document.createElement('pre');
+        pre.textContent = syntaxError.stack;
+        output.appendChild(pre);
+      }
+    }
+  })
+  .catch(error => {
+    log('❌ 載入檔案失敗: ' + error.message, 'error');
+    log('請確保此 HTML 檔案與 vet-differential-diagnosis-v2.html 在同一目錄', 'info');
+  });
+</script>
+
+</body>
+</html>

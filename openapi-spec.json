@@ -1,0 +1,2717 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "",
+    "title": "standard public schema",
+    "version": "14.1"
+  },
+  "host": "iizotzzzfhqswjmcotil.supabase.co:443",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [
+    "application/json",
+    "application/vnd.pgrst.object+json;nulls=stripped",
+    "application/vnd.pgrst.object+json",
+    "text/csv"
+  ],
+  "produces": [
+    "application/json",
+    "application/vnd.pgrst.object+json;nulls=stripped",
+    "application/vnd.pgrst.object+json",
+    "text/csv"
+  ],
+  "paths": {
+    "/": {
+      "get": {
+        "produces": [
+          "application/openapi+json",
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "summary": "OpenAPI description (this document)",
+        "tags": [
+          "Introspection"
+        ]
+      }
+    },
+    "/handout_history": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.patient_name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.owner_name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.species"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.medications"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.generated_at"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/order"
+          },
+          {
+            "$ref": "#/parameters/range"
+          },
+          {
+            "$ref": "#/parameters/rangeUnit"
+          },
+          {
+            "$ref": "#/parameters/offset"
+          },
+          {
+            "$ref": "#/parameters/limit"
+          },
+          {
+            "$ref": "#/parameters/preferCount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/handout_history"
+              },
+              "type": "array"
+            }
+          },
+          "206": {
+            "description": "Partial Content"
+          }
+        },
+        "tags": [
+          "handout_history"
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/body.handout_history"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/preferPost"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        },
+        "tags": [
+          "handout_history"
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.patient_name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.owner_name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.species"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.medications"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.generated_at"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "handout_history"
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.patient_name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.owner_name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.species"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.medications"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_history.generated_at"
+          },
+          {
+            "$ref": "#/parameters/body.handout_history"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "handout_history"
+        ]
+      }
+    },
+    "/search_history": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.search_history.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.query"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.results_count"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.created_at"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/order"
+          },
+          {
+            "$ref": "#/parameters/range"
+          },
+          {
+            "$ref": "#/parameters/rangeUnit"
+          },
+          {
+            "$ref": "#/parameters/offset"
+          },
+          {
+            "$ref": "#/parameters/limit"
+          },
+          {
+            "$ref": "#/parameters/preferCount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/search_history"
+              },
+              "type": "array"
+            }
+          },
+          "206": {
+            "description": "Partial Content"
+          }
+        },
+        "tags": [
+          "search_history"
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/body.search_history"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/preferPost"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        },
+        "tags": [
+          "search_history"
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.search_history.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.query"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.results_count"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.created_at"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "search_history"
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.search_history.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.query"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.results_count"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.search_history.created_at"
+          },
+          {
+            "$ref": "#/parameters/body.search_history"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "search_history"
+        ]
+      }
+    },
+    "/favorites": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.favorites.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.drug_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.note"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.created_at"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/order"
+          },
+          {
+            "$ref": "#/parameters/range"
+          },
+          {
+            "$ref": "#/parameters/rangeUnit"
+          },
+          {
+            "$ref": "#/parameters/offset"
+          },
+          {
+            "$ref": "#/parameters/limit"
+          },
+          {
+            "$ref": "#/parameters/preferCount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/favorites"
+              },
+              "type": "array"
+            }
+          },
+          "206": {
+            "description": "Partial Content"
+          }
+        },
+        "tags": [
+          "favorites"
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/body.favorites"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/preferPost"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        },
+        "tags": [
+          "favorites"
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.favorites.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.drug_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.note"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.created_at"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "favorites"
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.favorites.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.drug_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.note"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.favorites.created_at"
+          },
+          {
+            "$ref": "#/parameters/body.favorites"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "favorites"
+        ]
+      }
+    },
+    "/user_profiles": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.email"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.role"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.clinic_name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.clinic_phone"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.clinic_address"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.avatar_url"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.preferences"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.updated_at"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/order"
+          },
+          {
+            "$ref": "#/parameters/range"
+          },
+          {
+            "$ref": "#/parameters/rangeUnit"
+          },
+          {
+            "$ref": "#/parameters/offset"
+          },
+          {
+            "$ref": "#/parameters/limit"
+          },
+          {
+            "$ref": "#/parameters/preferCount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/user_profiles"
+              },
+              "type": "array"
+            }
+          },
+          "206": {
+            "description": "Partial Content"
+          }
+        },
+        "tags": [
+          "user_profiles"
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/body.user_profiles"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/preferPost"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        },
+        "tags": [
+          "user_profiles"
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.email"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.role"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.clinic_name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.clinic_phone"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.clinic_address"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.avatar_url"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.preferences"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.updated_at"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "user_profiles"
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.email"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.role"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.clinic_name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.clinic_phone"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.clinic_address"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.avatar_url"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.preferences"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.user_profiles.updated_at"
+          },
+          {
+            "$ref": "#/parameters/body.user_profiles"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "user_profiles"
+        ]
+      }
+    },
+    "/handout_templates": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.clinic_settings"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.is_default"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.updated_at"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/order"
+          },
+          {
+            "$ref": "#/parameters/range"
+          },
+          {
+            "$ref": "#/parameters/rangeUnit"
+          },
+          {
+            "$ref": "#/parameters/offset"
+          },
+          {
+            "$ref": "#/parameters/limit"
+          },
+          {
+            "$ref": "#/parameters/preferCount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/handout_templates"
+              },
+              "type": "array"
+            }
+          },
+          "206": {
+            "description": "Partial Content"
+          }
+        },
+        "tags": [
+          "handout_templates"
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/body.handout_templates"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/preferPost"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        },
+        "tags": [
+          "handout_templates"
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.clinic_settings"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.is_default"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.updated_at"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "handout_templates"
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.name"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.clinic_settings"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.is_default"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.handout_templates.updated_at"
+          },
+          {
+            "$ref": "#/parameters/body.handout_templates"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "handout_templates"
+        ]
+      }
+    },
+    "/notes": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.notes.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.drug_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.content"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.tags"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.updated_at"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/order"
+          },
+          {
+            "$ref": "#/parameters/range"
+          },
+          {
+            "$ref": "#/parameters/rangeUnit"
+          },
+          {
+            "$ref": "#/parameters/offset"
+          },
+          {
+            "$ref": "#/parameters/limit"
+          },
+          {
+            "$ref": "#/parameters/preferCount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/notes"
+              },
+              "type": "array"
+            }
+          },
+          "206": {
+            "description": "Partial Content"
+          }
+        },
+        "tags": [
+          "notes"
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/body.notes"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/preferPost"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        },
+        "tags": [
+          "notes"
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.notes.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.drug_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.content"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.tags"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.updated_at"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "notes"
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.notes.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.user_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.drug_id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.content"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.tags"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.notes.updated_at"
+          },
+          {
+            "$ref": "#/parameters/body.notes"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "notes"
+        ]
+      }
+    },
+    "/drugs": {
+      "get": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.drugs.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.name_en"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.name_zh"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.name_primary"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.trade_names"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.classification"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.formulation"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.description"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.mechanism"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.indications"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.contraindications"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.side_effects"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.interactions"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.dosage_dog"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.dosage_cat"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.warnings"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.storage"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.updated_at"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/order"
+          },
+          {
+            "$ref": "#/parameters/range"
+          },
+          {
+            "$ref": "#/parameters/rangeUnit"
+          },
+          {
+            "$ref": "#/parameters/offset"
+          },
+          {
+            "$ref": "#/parameters/limit"
+          },
+          {
+            "$ref": "#/parameters/preferCount"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "items": {
+                "$ref": "#/definitions/drugs"
+              },
+              "type": "array"
+            }
+          },
+          "206": {
+            "description": "Partial Content"
+          }
+        },
+        "tags": [
+          "drugs"
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/body.drugs"
+          },
+          {
+            "$ref": "#/parameters/select"
+          },
+          {
+            "$ref": "#/parameters/preferPost"
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created"
+          }
+        },
+        "tags": [
+          "drugs"
+        ]
+      },
+      "delete": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.drugs.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.name_en"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.name_zh"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.name_primary"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.trade_names"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.classification"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.formulation"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.description"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.mechanism"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.indications"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.contraindications"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.side_effects"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.interactions"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.dosage_dog"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.dosage_cat"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.warnings"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.storage"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.updated_at"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "drugs"
+        ]
+      },
+      "patch": {
+        "parameters": [
+          {
+            "$ref": "#/parameters/rowFilter.drugs.id"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.name_en"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.name_zh"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.name_primary"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.trade_names"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.classification"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.formulation"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.description"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.mechanism"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.indications"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.contraindications"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.side_effects"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.interactions"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.dosage_dog"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.dosage_cat"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.warnings"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.storage"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.created_at"
+          },
+          {
+            "$ref": "#/parameters/rowFilter.drugs.updated_at"
+          },
+          {
+            "$ref": "#/parameters/body.drugs"
+          },
+          {
+            "$ref": "#/parameters/preferReturn"
+          }
+        ],
+        "responses": {
+          "204": {
+            "description": "No Content"
+          }
+        },
+        "tags": [
+          "drugs"
+        ]
+      }
+    },
+    "/rpc/rag_hybrid_search": {
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "description": "Wrapper: 呼叫 rag.hybrid_search()",
+              "properties": {
+                "keyword_weight": {
+                  "format": "double precision",
+                  "type": "number"
+                },
+                "match_count": {
+                  "format": "integer",
+                  "type": "integer"
+                },
+                "query_embedding": {
+                  "format": "public.vector",
+                  "type": "string"
+                },
+                "query_text": {
+                  "format": "text",
+                  "type": "string"
+                },
+                "semantic_weight": {
+                  "format": "double precision",
+                  "type": "number"
+                }
+              },
+              "required": [
+                "query_text",
+                "query_embedding"
+              ],
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "summary": "Wrapper: 呼叫 rag.hybrid_search()",
+        "tags": [
+          "(rpc) rag_hybrid_search"
+        ]
+      }
+    },
+    "/rpc/rag_search_drug_knowledge": {
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "description": "Wrapper: 呼叫 rag.search_drug_knowledge()",
+              "properties": {
+                "drug_name": {
+                  "format": "text",
+                  "type": "string"
+                },
+                "match_count": {
+                  "format": "integer",
+                  "type": "integer"
+                },
+                "query_embedding": {
+                  "format": "public.vector",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "drug_name",
+                "query_embedding"
+              ],
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "summary": "Wrapper: 呼叫 rag.search_drug_knowledge()",
+        "tags": [
+          "(rpc) rag_search_drug_knowledge"
+        ]
+      }
+    },
+    "/rpc/show_trgm": {
+      "get": {
+        "parameters": [
+          {
+            "format": "text",
+            "in": "query",
+            "name": "",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "tags": [
+          "(rpc) show_trgm"
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "properties": {
+                "": {
+                  "format": "text",
+                  "type": "string"
+                }
+              },
+              "required": [
+                ""
+              ],
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "tags": [
+          "(rpc) show_trgm"
+        ]
+      }
+    },
+    "/rpc/rag_update_book_status": {
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "properties": {
+                "p_book_id": {
+                  "format": "text",
+                  "type": "string"
+                },
+                "p_chunk_count": {
+                  "format": "integer",
+                  "type": "integer"
+                },
+                "p_status": {
+                  "format": "text",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "p_book_id",
+                "p_status"
+              ],
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "tags": [
+          "(rpc) rag_update_book_status"
+        ]
+      }
+    },
+    "/rpc/rag_list_books": {
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "tags": [
+          "(rpc) rag_list_books"
+        ]
+      }
+    },
+    "/rpc/rag_match_documents": {
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "description": "Wrapper: 呼叫 rag.match_documents()",
+              "properties": {
+                "filter_category": {
+                  "format": "text",
+                  "type": "string"
+                },
+                "filter_species": {
+                  "format": "text",
+                  "type": "string"
+                },
+                "match_count": {
+                  "format": "integer",
+                  "type": "integer"
+                },
+                "match_threshold": {
+                  "format": "double precision",
+                  "type": "number"
+                },
+                "query_embedding": {
+                  "format": "public.vector",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "query_embedding"
+              ],
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "summary": "Wrapper: 呼叫 rag.match_documents()",
+        "tags": [
+          "(rpc) rag_match_documents"
+        ]
+      }
+    },
+    "/rpc/show_limit": {
+      "get": {
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "tags": [
+          "(rpc) show_limit"
+        ]
+      },
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "tags": [
+          "(rpc) show_limit"
+        ]
+      }
+    },
+    "/rpc/rag_get_stats": {
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "tags": [
+          "(rpc) rag_get_stats"
+        ]
+      }
+    },
+    "/rpc/rag_create_book": {
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "properties": {
+                "book_author": {
+                  "format": "text",
+                  "type": "string"
+                },
+                "book_category": {
+                  "format": "text",
+                  "type": "string"
+                },
+                "book_pages": {
+                  "format": "integer",
+                  "type": "integer"
+                },
+                "book_title": {
+                  "format": "text",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "book_title"
+              ],
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "tags": [
+          "(rpc) rag_create_book"
+        ]
+      }
+    },
+    "/rpc/rag_insert_document": {
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "properties": {
+                "doc_category": {
+                  "format": "text",
+                  "type": "string"
+                },
+                "doc_content": {
+                  "format": "text",
+                  "type": "string"
+                },
+                "doc_embedding": {
+                  "format": "public.vector",
+                  "type": "string"
+                },
+                "doc_id": {
+                  "format": "text",
+                  "type": "string"
+                },
+                "doc_metadata": {
+                  "format": "jsonb"
+                },
+                "doc_species": {
+                  "format": "text[]",
+                  "items": {
+                    "type": "string"
+                  },
+                  "type": "array"
+                },
+                "doc_title": {
+                  "format": "text",
+                  "type": "string"
+                }
+              },
+              "required": [
+                "doc_id",
+                "doc_title",
+                "doc_content"
+              ],
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "tags": [
+          "(rpc) rag_insert_document"
+        ]
+      }
+    },
+    "/rpc/rag_category_stats": {
+      "post": {
+        "parameters": [
+          {
+            "in": "body",
+            "name": "args",
+            "required": true,
+            "schema": {
+              "type": "object"
+            }
+          },
+          {
+            "$ref": "#/parameters/preferParams"
+          }
+        ],
+        "produces": [
+          "application/json",
+          "application/vnd.pgrst.object+json;nulls=stripped",
+          "application/vnd.pgrst.object+json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        },
+        "tags": [
+          "(rpc) rag_category_stats"
+        ]
+      }
+    }
+  },
+  "definitions": {
+    "handout_history": {
+      "required": [
+        "id",
+        "user_id",
+        "patient_name",
+        "medications"
+      ],
+      "properties": {
+        "id": {
+          "default": "extensions.uuid_generate_v4()",
+          "description": "Note:\nThis is a Primary Key.<pk/>",
+          "format": "uuid",
+          "type": "string"
+        },
+        "user_id": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "patient_name": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "owner_name": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "species": {
+          "format": "character varying",
+          "maxLength": 50,
+          "type": "string"
+        },
+        "medications": {
+          "format": "jsonb"
+        },
+        "generated_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "search_history": {
+      "required": [
+        "id",
+        "query"
+      ],
+      "properties": {
+        "id": {
+          "default": "extensions.uuid_generate_v4()",
+          "description": "Note:\nThis is a Primary Key.<pk/>",
+          "format": "uuid",
+          "type": "string"
+        },
+        "user_id": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "query": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "results_count": {
+          "default": 0,
+          "format": "integer",
+          "type": "integer"
+        },
+        "created_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "favorites": {
+      "required": [
+        "id",
+        "user_id",
+        "drug_id"
+      ],
+      "properties": {
+        "id": {
+          "default": "extensions.uuid_generate_v4()",
+          "description": "Note:\nThis is a Primary Key.<pk/>",
+          "format": "uuid",
+          "type": "string"
+        },
+        "user_id": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "drug_id": {
+          "description": "Note:\nThis is a Foreign Key to `drugs.id`.<fk table='drugs' column='id'/>",
+          "format": "uuid",
+          "type": "string"
+        },
+        "note": {
+          "format": "text",
+          "type": "string"
+        },
+        "created_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "user_profiles": {
+      "required": [
+        "id",
+        "email"
+      ],
+      "properties": {
+        "id": {
+          "description": "Note:\nThis is a Primary Key.<pk/>",
+          "format": "uuid",
+          "type": "string"
+        },
+        "email": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "name": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "role": {
+          "default": "free",
+          "format": "character varying",
+          "maxLength": 50,
+          "type": "string"
+        },
+        "clinic_name": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "clinic_phone": {
+          "format": "character varying",
+          "maxLength": 50,
+          "type": "string"
+        },
+        "clinic_address": {
+          "format": "text",
+          "type": "string"
+        },
+        "avatar_url": {
+          "format": "text",
+          "type": "string"
+        },
+        "preferences": {
+          "format": "jsonb"
+        },
+        "created_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        },
+        "updated_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "handout_templates": {
+      "required": [
+        "id",
+        "user_id",
+        "name",
+        "clinic_settings"
+      ],
+      "properties": {
+        "id": {
+          "default": "extensions.uuid_generate_v4()",
+          "description": "Note:\nThis is a Primary Key.<pk/>",
+          "format": "uuid",
+          "type": "string"
+        },
+        "user_id": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "name": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "clinic_settings": {
+          "format": "jsonb"
+        },
+        "is_default": {
+          "default": false,
+          "format": "boolean",
+          "type": "boolean"
+        },
+        "created_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        },
+        "updated_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "notes": {
+      "required": [
+        "id",
+        "user_id",
+        "drug_id",
+        "content"
+      ],
+      "properties": {
+        "id": {
+          "default": "extensions.uuid_generate_v4()",
+          "description": "Note:\nThis is a Primary Key.<pk/>",
+          "format": "uuid",
+          "type": "string"
+        },
+        "user_id": {
+          "format": "uuid",
+          "type": "string"
+        },
+        "drug_id": {
+          "description": "Note:\nThis is a Foreign Key to `drugs.id`.<fk table='drugs' column='id'/>",
+          "format": "uuid",
+          "type": "string"
+        },
+        "content": {
+          "format": "text",
+          "type": "string"
+        },
+        "tags": {
+          "format": "text[]",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "created_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        },
+        "updated_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    },
+    "drugs": {
+      "required": [
+        "id",
+        "name_en",
+        "name_zh",
+        "name_primary",
+        "classification",
+        "formulation"
+      ],
+      "properties": {
+        "id": {
+          "default": "extensions.uuid_generate_v4()",
+          "description": "Note:\nThis is a Primary Key.<pk/>",
+          "format": "uuid",
+          "type": "string"
+        },
+        "name_en": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "name_zh": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "name_primary": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "trade_names": {
+          "format": "text[]",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "classification": {
+          "format": "character varying",
+          "maxLength": 100,
+          "type": "string"
+        },
+        "formulation": {
+          "format": "character varying",
+          "maxLength": 100,
+          "type": "string"
+        },
+        "description": {
+          "format": "text",
+          "type": "string"
+        },
+        "mechanism": {
+          "format": "text",
+          "type": "string"
+        },
+        "indications": {
+          "format": "text[]",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "contraindications": {
+          "format": "text[]",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "side_effects": {
+          "format": "text[]",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "interactions": {
+          "format": "text[]",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "dosage_dog": {
+          "format": "jsonb"
+        },
+        "dosage_cat": {
+          "format": "jsonb"
+        },
+        "warnings": {
+          "format": "text[]",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "storage": {
+          "format": "character varying",
+          "maxLength": 255,
+          "type": "string"
+        },
+        "created_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        },
+        "updated_at": {
+          "default": "now()",
+          "format": "timestamp with time zone",
+          "type": "string"
+        }
+      },
+      "type": "object"
+    }
+  },
+  "parameters": {
+    "preferParams": {
+      "name": "Prefer",
+      "description": "Preference",
+      "required": false,
+      "in": "header",
+      "type": "string"
+    },
+    "preferReturn": {
+      "name": "Prefer",
+      "description": "Preference",
+      "required": false,
+      "enum": [
+        "return=representation",
+        "return=minimal",
+        "return=none"
+      ],
+      "in": "header",
+      "type": "string"
+    },
+    "preferCount": {
+      "name": "Prefer",
+      "description": "Preference",
+      "required": false,
+      "enum": [
+        "count=none"
+      ],
+      "in": "header",
+      "type": "string"
+    },
+    "preferPost": {
+      "name": "Prefer",
+      "description": "Preference",
+      "required": false,
+      "enum": [
+        "return=representation",
+        "return=minimal",
+        "return=none",
+        "resolution=ignore-duplicates",
+        "resolution=merge-duplicates"
+      ],
+      "in": "header",
+      "type": "string"
+    },
+    "select": {
+      "name": "select",
+      "description": "Filtering Columns",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "on_conflict": {
+      "name": "on_conflict",
+      "description": "On Conflict",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "order": {
+      "name": "order",
+      "description": "Ordering",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "range": {
+      "name": "Range",
+      "description": "Limiting and Pagination",
+      "required": false,
+      "in": "header",
+      "type": "string"
+    },
+    "rangeUnit": {
+      "name": "Range-Unit",
+      "description": "Limiting and Pagination",
+      "required": false,
+      "default": "items",
+      "in": "header",
+      "type": "string"
+    },
+    "offset": {
+      "name": "offset",
+      "description": "Limiting and Pagination",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "limit": {
+      "name": "limit",
+      "description": "Limiting and Pagination",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "body.handout_history": {
+      "name": "handout_history",
+      "description": "handout_history",
+      "required": false,
+      "in": "body",
+      "schema": {
+        "$ref": "#/definitions/handout_history"
+      }
+    },
+    "rowFilter.handout_history.id": {
+      "name": "id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_history.user_id": {
+      "name": "user_id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_history.patient_name": {
+      "name": "patient_name",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_history.owner_name": {
+      "name": "owner_name",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_history.species": {
+      "name": "species",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_history.medications": {
+      "name": "medications",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_history.generated_at": {
+      "name": "generated_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "body.search_history": {
+      "name": "search_history",
+      "description": "search_history",
+      "required": false,
+      "in": "body",
+      "schema": {
+        "$ref": "#/definitions/search_history"
+      }
+    },
+    "rowFilter.search_history.id": {
+      "name": "id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.search_history.user_id": {
+      "name": "user_id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.search_history.query": {
+      "name": "query",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.search_history.results_count": {
+      "name": "results_count",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.search_history.created_at": {
+      "name": "created_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "body.favorites": {
+      "name": "favorites",
+      "description": "favorites",
+      "required": false,
+      "in": "body",
+      "schema": {
+        "$ref": "#/definitions/favorites"
+      }
+    },
+    "rowFilter.favorites.id": {
+      "name": "id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.favorites.user_id": {
+      "name": "user_id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.favorites.drug_id": {
+      "name": "drug_id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.favorites.note": {
+      "name": "note",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.favorites.created_at": {
+      "name": "created_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "body.user_profiles": {
+      "name": "user_profiles",
+      "description": "user_profiles",
+      "required": false,
+      "in": "body",
+      "schema": {
+        "$ref": "#/definitions/user_profiles"
+      }
+    },
+    "rowFilter.user_profiles.id": {
+      "name": "id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.user_profiles.email": {
+      "name": "email",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.user_profiles.name": {
+      "name": "name",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.user_profiles.role": {
+      "name": "role",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.user_profiles.clinic_name": {
+      "name": "clinic_name",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.user_profiles.clinic_phone": {
+      "name": "clinic_phone",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.user_profiles.clinic_address": {
+      "name": "clinic_address",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.user_profiles.avatar_url": {
+      "name": "avatar_url",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.user_profiles.preferences": {
+      "name": "preferences",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.user_profiles.created_at": {
+      "name": "created_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.user_profiles.updated_at": {
+      "name": "updated_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "body.handout_templates": {
+      "name": "handout_templates",
+      "description": "handout_templates",
+      "required": false,
+      "in": "body",
+      "schema": {
+        "$ref": "#/definitions/handout_templates"
+      }
+    },
+    "rowFilter.handout_templates.id": {
+      "name": "id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_templates.user_id": {
+      "name": "user_id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_templates.name": {
+      "name": "name",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_templates.clinic_settings": {
+      "name": "clinic_settings",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_templates.is_default": {
+      "name": "is_default",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_templates.created_at": {
+      "name": "created_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.handout_templates.updated_at": {
+      "name": "updated_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "body.notes": {
+      "name": "notes",
+      "description": "notes",
+      "required": false,
+      "in": "body",
+      "schema": {
+        "$ref": "#/definitions/notes"
+      }
+    },
+    "rowFilter.notes.id": {
+      "name": "id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.notes.user_id": {
+      "name": "user_id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.notes.drug_id": {
+      "name": "drug_id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.notes.content": {
+      "name": "content",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.notes.tags": {
+      "name": "tags",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.notes.created_at": {
+      "name": "created_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.notes.updated_at": {
+      "name": "updated_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "body.drugs": {
+      "name": "drugs",
+      "description": "drugs",
+      "required": false,
+      "in": "body",
+      "schema": {
+        "$ref": "#/definitions/drugs"
+      }
+    },
+    "rowFilter.drugs.id": {
+      "name": "id",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.name_en": {
+      "name": "name_en",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.name_zh": {
+      "name": "name_zh",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.name_primary": {
+      "name": "name_primary",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.trade_names": {
+      "name": "trade_names",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.classification": {
+      "name": "classification",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.formulation": {
+      "name": "formulation",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.description": {
+      "name": "description",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.mechanism": {
+      "name": "mechanism",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.indications": {
+      "name": "indications",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.contraindications": {
+      "name": "contraindications",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.side_effects": {
+      "name": "side_effects",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.interactions": {
+      "name": "interactions",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.dosage_dog": {
+      "name": "dosage_dog",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.dosage_cat": {
+      "name": "dosage_cat",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.warnings": {
+      "name": "warnings",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.storage": {
+      "name": "storage",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.created_at": {
+      "name": "created_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    },
+    "rowFilter.drugs.updated_at": {
+      "name": "updated_at",
+      "required": false,
+      "in": "query",
+      "type": "string"
+    }
+  },
+  "externalDocs": {
+    "description": "PostgREST Documentation",
+    "url": "https://postgrest.org/en/v14/references/api.html"
+  }
+}

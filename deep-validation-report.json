@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-02-04T15:48:16.044Z",
+  "status": "PASS",
+  "issues": [],
+  "warnings": [
+    {
+      "severity": "MEDIUM",
+      "msg": "函式 performMultiSearch() 可能未定義"
+    },
+    {
+      "severity": "MEDIUM",
+      "msg": "函式 performLabSearch() 可能未定義"
+    },
+    {
+      "severity": "MEDIUM",
+      "msg": "函式 performCompositeSearch() 可能未定義"
+    },
+    {
+      "severity": "MEDIUM",
+      "msg": "函式 calculateScore() 可能未定義"
+    },
+    {
+      "severity": "MEDIUM",
+      "msg": "函式 globalSearch() 可能未定義"
+    },
+    {
+      "severity": "MEDIUM",
+      "msg": "症狀數量偏少: 1"
+    },
+    {
+      "severity": "MEDIUM",
+      "msg": "實驗室指標數量偏少: 1"
+    }
+  ]
+}

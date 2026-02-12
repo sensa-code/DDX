@@ -1,0 +1,499 @@
+{
+  "uterine-rupture": {
+    "zh": "子宮破裂",
+    "en": "Uterine Rupture",
+    "definition": "子宮壁全層或部分撕裂，導致子宮內容物（胎兒、胎盤、體液）進入腹腔。為分娩急症，常繼發於難產、過度使用催產素、外傷或子宮壁病變。未及時手術可導致腹膜炎和敗血性休克致死。",
+    "synonyms": ["子宮穿孔", "子宮撕裂"],
+    "epidemiology": {
+      "species": "犬貓均可發生",
+      "breed": "小型犬和短頭犬種（難產風險高者）",
+      "age": "任何繁殖年齡，高齡母犬風險略增",
+      "sex": "僅見於懷孕或產後母犬貓",
+      "prevalence": "罕見但致命，難產併發症中佔比低"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "急性腹部劇痛",
+        "腹部膨脹",
+        "休克徵象（心跳加速、黏膜蒼白、CRT延長）",
+        "虛弱至倒臥",
+        "陰道出血（可能量少因血液流入腹腔）",
+        "嘔吐",
+        "分娩過程突然停止",
+        "體溫下降（休克）或升高（感染）",
+        "呼吸急促"
+      ],
+      "physicalExam": [
+        "腹部觸診嚴重疼痛和防衛反應",
+        "腹部波動感（腹腔積液）",
+        "先前可觸及的胎兒輪廓消失",
+        "休克徵象：黏膜蒼白/發紺、CRT >2秒、脈搏微弱",
+        "可能觸及腹腔內游離胎兒"
+      ]
+    },
+    "pathophysiology": "子宮壁在過度擴張、缺血壞死、外傷或醫源性損傷下發生全層撕裂。催產素過量使用可導致子宮過度收縮引起破裂。子宮內容物（胎兒、羊水、血液）流入腹腔引起化學性和感染性腹膜炎。大量內出血和敗血症導致休克。",
+    "diagnosis": {
+      "primary": [
+        "臨床表現（急腹症 + 懷孕/分娩史）",
+        "腹部 X 光（腹腔內游離胎兒、腹腔積液）",
+        "腹部超音波（腹腔游離液、子宮壁不連續）",
+        "腹腔穿刺（血性液體、可能含胎便）"
+      ],
+      "differential": [
+        "子宮扭轉（uterine torsion）",
+        "脾臟破裂",
+        "腹腔內出血（其他原因）",
+        "嚴重子宮蓄膿破裂",
+        "胃擴張扭轉（GDV）"
+      ],
+      "labFindings": [
+        "CBC：貧血（急性失血）、嗜中性球增多",
+        "生化：乳酸升高、電解質異常",
+        "凝血功能：可能出現 DIC 徵兆",
+        "腹腔穿刺液：血性、含細菌或胎便"
+      ]
+    },
+    "treatment": {
+      "acute": "緊急穩定（靜脈輸液、輸血），抗休克治療，廣效抗生素，止痛。穩定後立即緊急手術探查",
+      "chronic": "術後抗生素治療 7-14 天，密集監護支持",
+      "medications": [
+        "靜脈晶體液（乳酸林格氏液）快速輸注",
+        "全血輸血或 packed RBC（嚴重貧血）",
+        "Ampicillin 22 mg/kg IV TID + Metronidazole 10 mg/kg IV BID",
+        "Fentanyl 2-5 μg/kg/h CRI（止痛）",
+        "Norepinephrine CRI（頑固性低血壓）"
+      ],
+      "surgery": "緊急剖腹探查和卵巢子宮切除術。徹底灌洗腹腔清除污染物。評估並處理腹膜炎。可能需放置腹腔引流管。"
+    },
+    "prognosis": "預後謹慎至不良，取決於發現時間和併發症嚴重度。早期手術介入存活率約 50-70%。合併 DIC 或嚴重敗血症者預後極差。胎兒存活率低。",
+    "pearls": [
+      "催產素使用必須謹慎：確認無胎兒-骨盆不相稱（FPD）後才可使用",
+      "難產持續時間越長，子宮破裂風險越高",
+      "陰道出血量少不能排除子宮破裂（血液流入腹腔）",
+      "X 光上腹腔內游離胎兒是高度特異性徵兆"
+    ],
+    "monitoring": [
+      "術後 ICU 密集監護 24-72 小時",
+      "連續血壓和心電圖監測",
+      "PCV/TS 每 4-6 小時（監測持續出血）",
+      "腹腔引流液量和性質監測"
+    ],
+    "reference": "BSAVA Manual of Canine and Feline Reproduction and Neonatology"
+  },
+  "prostatitis": {
+    "zh": "前列腺炎",
+    "en": "Prostatitis",
+    "definition": "前列腺的細菌性感染與發炎，可分為急性和慢性。急性前列腺炎為嚴重全身性感染，慢性前列腺炎症狀較隱匿。常見致病菌為大腸桿菌（E. coli），多由泌尿道上行感染引起。僅見於公犬（貓的前列腺疾病極罕見）。",
+    "synonyms": ["前列腺感染", "攝護腺炎"],
+    "epidemiology": {
+      "species": "犬（貓極罕見）",
+      "breed": "無明顯品種傾向，未結紮公犬風險顯著增高",
+      "age": "中老年公犬（>5 歲），未結紮者",
+      "sex": "僅見於公犬",
+      "prevalence": "未結紮中老年公犬中相當常見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "急性：發燒、精神沉鬱、食慾廢絕",
+        "排尿困難或疼痛性排尿",
+        "血尿或膿尿",
+        "尿道膿性或血性分泌物",
+        "排便困難或裏急後重",
+        "後肢僵硬步態",
+        "腰部或會陰部疼痛",
+        "慢性：反覆泌尿道感染",
+        "慢性：間歇性尿道分泌物"
+      ],
+      "physicalExam": [
+        "直腸觸診前列腺腫大、疼痛（急性）或不對稱（慢性）",
+        "急性病例觸診時極度疼痛",
+        "發燒（急性：39.5-41°C）",
+        "腹後部或會陰壓痛",
+        "慢性病例前列腺可能不規則或含囊腫"
+      ]
+    },
+    "pathophysiology": "細菌（主要為 E. coli）經尿道上行至前列腺，在前列腺組織內繁殖引起化膿性炎症。睾酮刺激下的前列腺增生（BPH）為細菌感染提供良好環境。急性感染可形成膿瘍，穿破入腹腔導致腹膜炎。慢性感染中細菌可藏匿於前列腺組織和分泌物中，抗生素難以穿透。",
+    "diagnosis": {
+      "primary": [
+        "直腸觸診前列腺大小、形狀和疼痛度",
+        "尿液分析和細菌培養",
+        "腹部超音波評估前列腺結構",
+        "前列腺液培養（慢性病例需第三段尿液或按摩後收集）"
+      ],
+      "differential": [
+        "良性前列腺增生（BPH）",
+        "前列腺囊腫",
+        "前列腺膿瘍",
+        "前列腺腫瘤（adenocarcinoma）",
+        "泌尿道感染（UTI）",
+        "膀胱腫瘤"
+      ],
+      "labFindings": [
+        "尿液分析：膿尿、血尿、細菌尿",
+        "尿液培養：E. coli 最常見",
+        "CBC：急性者嗜中性球增多伴左移",
+        "超音波：前列腺腫大、回音不均、可能有膿瘍腔",
+        "前列腺液細胞學：大量嗜中性球和細菌"
+      ]
+    },
+    "treatment": {
+      "acute": "靜脈廣效抗生素（可穿透前列腺者），靜脈輸液支持，止痛。急性期前列腺血管屏障被破壞，多數抗生素可穿透",
+      "chronic": "選擇能穿透前列腺屏障的脂溶性抗生素，療程 4-6 週。結紮可縮小前列腺並改善抗生素穿透",
+      "medications": [
+        "Enrofloxacin 5-20 mg/kg PO SID（首選，穿透性佳）",
+        "Trimethoprim-sulfonamide 15 mg/kg PO BID",
+        "Amoxicillin-clavulanate 12.5-25 mg/kg PO BID（急性期）",
+        "Meloxicam 0.1 mg/kg PO SID（止痛抗炎）",
+        "Finasteride 0.1-0.5 mg/kg PO SID（輔助縮小前列腺）"
+      ],
+      "surgery": "結紮術（castration）為重要輔助治療。前列腺膿瘍需手術引流或切除。大型膿瘍可行 omentalization 或 Penrose drain 放置。"
+    },
+    "prognosis": "急性前列腺炎經積極治療預後良好。慢性前列腺炎治療困難，復發率高。結紮可顯著改善預後。前列腺膿瘍手術風險較高但治癒率可接受。",
+    "pearls": [
+      "急性前列腺炎禁止用力按摩前列腺，可能導致菌血症",
+      "結紮是治療和預防前列腺疾病的最佳方法",
+      "慢性前列腺炎抗生素必須選擇脂溶性、弱鹼性藥物（如 fluoroquinolones）",
+      "前列腺膿瘍破裂是急診，需立即手術"
+    ],
+    "monitoring": [
+      "抗生素治療 1 週後複驗尿液培養",
+      "完成療程後 1 週再次尿液培養確認清除",
+      "超音波追蹤前列腺大小變化",
+      "慢性病例每 3 個月追蹤"
+    ],
+    "reference": "Blackwell's Five-Minute Veterinary Consult"
+  },
+  "penile-neoplasia": {
+    "zh": "陰莖腫瘤",
+    "en": "Penile Neoplasia",
+    "definition": "發生於公犬陰莖或包皮的腫瘤性病變。最常見類型為傳染性性病腫瘤（TVT, transmissible venereal tumor）、鱗狀上皮細胞癌（SCC）和乳頭狀瘤。TVT 為犬特有的可傳播腫瘤，經由交配或接觸傳播。",
+    "synonyms": ["陰莖腫瘤", "包皮腫瘤", "犬傳染性性病腫瘤（TVT）"],
+    "epidemiology": {
+      "species": "犬（貓極罕見）",
+      "breed": "TVT：流浪犬和未結紮犬高發。SCC：淺色皮膚犬種",
+      "age": "TVT：年輕至中年性活躍公犬。SCC：老年犬",
+      "sex": "公犬為主，TVT 公母犬均可",
+      "prevalence": "TVT 在流浪犬族群中常見，SCC 較罕見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "包皮口可見腫塊或組織突出",
+        "陰莖或包皮持續出血或血性分泌物",
+        "頻繁舔舐包皮區域",
+        "排尿困難或尿流偏移",
+        "包皮腫脹",
+        "膿性分泌物（繼發感染時）",
+        "腫塊表面潰瘍或菜花狀",
+        "體重下降（晚期或轉移者）"
+      ],
+      "physicalExam": [
+        "翻出包皮可見陰莖或包皮黏膜上腫塊",
+        "TVT：粉紅至紅色菜花狀易碎腫塊",
+        "SCC：潰瘍性或增生性硬塊",
+        "觸診腹股溝淋巴結評估轉移",
+        "腫塊觸碰易出血"
+      ]
+    },
+    "pathophysiology": "TVT 是一種自然發生的可傳播腫瘤，活腫瘤細胞經由交配或接觸直接移植到黏膜表面，具有異常染色體核型（57-59 條）。SCC 由陰莖或包皮上皮細胞惡性轉化而來，可能與慢性刺激或 papillomavirus 感染相關。乳頭狀瘤由犬乳頭瘤病毒（CPV）引起，通常為良性且可自行消退。",
+    "diagnosis": {
+      "primary": [
+        "細針穿刺抹片細胞學（TVT 有特徵性圓形細胞）",
+        "腫塊活檢組織病理學",
+        "胸腔和腹腔 X 光/超音波評估轉移",
+        "腹股溝淋巴結細針穿刺（分期）"
+      ],
+      "differential": [
+        "傳染性性病腫瘤（TVT）",
+        "鱗狀上皮細胞癌（SCC）",
+        "乳頭狀瘤（papilloma）",
+        "肥大細胞瘤（mast cell tumor）",
+        "包皮炎（balanoposthitis）",
+        "纖維肉瘤（fibrosarcoma）"
+      ],
+      "labFindings": [
+        "細胞學：TVT 為圓形細胞，胞漿含特徵性空泡",
+        "組織病理學確定腫瘤類型和分級",
+        "CBC 通常正常（除非轉移或副腫瘤症候群）",
+        "影像學排除肺轉移"
+      ]
+    },
+    "treatment": {
+      "acute": "確診後根據腫瘤類型選擇治療方案。TVT 對化療高度敏感。繼發出血可暫時加壓止血",
+      "chronic": "TVT 以化療為首選。SCC 以手術為主，可輔以放療。乳頭狀瘤多自行消退，必要時手術切除",
+      "medications": [
+        "Vincristine 0.5-0.7 mg/m² IV weekly × 4-6 次（TVT 首選）",
+        "Doxorubicin 30 mg/m² IV q3weeks（vincristine 抗性 TVT）",
+        "Piroxicam 0.3 mg/kg PO SID（SCC 輔助治療）",
+        "抗生素（繼發感染時）"
+      ],
+      "surgery": "SCC：陰莖部分或全切除術（penile amputation）和尿道造口術。乳頭狀瘤：手術切除或冷凍治療。TVT 通常不需要手術（化療反應率 >90%）。"
+    },
+    "prognosis": "TVT：vincristine 化療治癒率 >90%，預後極佳。SCC：局部控制後預後中等，轉移率依分級而異。乳頭狀瘤：預後極佳，多自行消退。",
+    "pearls": [
+      "TVT 是少數對 vincristine 單藥化療反應極好的腫瘤（治癒率 >90%）",
+      "TVT 細胞學有特徵性表現，可快速確診無需等待組織病理",
+      "SCC 早期手術切除是最佳治療，晚期轉移預後不良",
+      "年輕犬包皮腫塊首先考慮 TVT（如有交配史）和乳頭狀瘤"
+    ],
+    "monitoring": [
+      "TVT 化療每週評估腫塊大小縮小程度",
+      "完全緩解後 3 個月和 6 個月追蹤復發",
+      "SCC 術後每 2 個月胸腔 X 光篩查轉移",
+      "排尿功能評估（陰莖手術後）"
+    ],
+    "reference": "Textbook of Veterinary Internal Medicine"
+  },
+  "aplastic-anemia": {
+    "zh": "再生不良性貧血",
+    "en": "Aplastic Anemia",
+    "definition": "骨髓造血功能嚴重衰竭，導致全血球減少（貧血、白血球減少、血小板減少）。可由藥物毒性、感染、免疫介導或特發性原因引起。犬貓均可發生，為嚴重且預後不良的血液疾病。",
+    "synonyms": ["骨髓造血功能衰竭", "全血球減少症", "pancytopenia"],
+    "epidemiology": {
+      "species": "犬貓均可發生",
+      "breed": "無明顯品種傾向",
+      "age": "任何年齡，中老年犬貓較多",
+      "sex": "無性別傾向，未結紮母犬（外源性雌激素暴露風險）",
+      "prevalence": "罕見但臨床重要"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "進行性虛弱和嗜睡",
+        "運動不耐受",
+        "黏膜蒼白",
+        "自發性出血（瘀斑、瘀點、鼻出血）",
+        "牙齦出血",
+        "反覆感染和發燒",
+        "食慾下降",
+        "血尿或黑便",
+        "體重下降",
+        "呼吸急促"
+      ],
+      "physicalExam": [
+        "黏膜明顯蒼白",
+        "皮膚和黏膜瘀斑、瘀點",
+        "心跳加速（代償性）",
+        "收縮期心雜音（貧血性）",
+        "發燒（繼發感染）",
+        "脾臟通常不腫大（與白血病鑑別）"
+      ]
+    },
+    "pathophysiology": "骨髓造血幹細胞受損或被抑制，導致紅血球、白血球和血小板生成均減少。常見原因包括：藥物毒性（氯黴素、化療藥、雌激素）、犬 ehrlichiosis、犬 parvovirus、FeLV 感染、免疫介導破壞造血前驅細胞。骨髓中正常造血組織被脂肪組織取代。",
+    "diagnosis": {
+      "primary": [
+        "CBC 顯示全血球減少（三系減少）",
+        "網織紅血球計數低（非再生性貧血）",
+        "骨髓穿刺和活檢（確診：造血組織減少、脂肪取代）",
+        "排除潛在原因的系統性檢查"
+      ],
+      "differential": [
+        "骨髓腫瘤浸潤（白血病、多發性骨髓瘤）",
+        "嚴重敗血症",
+        "犬 ehrlichiosis 慢性期",
+        "FeLV 相關骨髓抑制",
+        "骨髓纖維化（myelofibrosis）",
+        "免疫介導性全血球減少"
+      ],
+      "labFindings": [
+        "CBC：嚴重非再生性貧血 + 白血球減少 + 血小板減少",
+        "網織紅血球計數 <60,000/μL",
+        "骨髓活檢：造血組織 <25%，脂肪取代",
+        "Ehrlichia/Anaplasma PCR 和抗體檢測",
+        "FeLV/FIV 檢測（貓）"
+      ]
+    },
+    "treatment": {
+      "acute": "停用所有可能致病藥物。輸血支持（packed RBC + 血小板）。廣效抗生素預防感染。治療可辨認的潛在原因",
+      "chronic": "免疫抑制治療（特發性或免疫介導）。造血生長因子。長期支持性輸血",
+      "medications": [
+        "Cyclosporine 5-10 mg/kg PO BID（免疫介導型）",
+        "Mycophenolate mofetil 10 mg/kg PO BID",
+        "Darbepoetin alfa 1 μg/kg SC q1week（刺激紅血球生成）",
+        "Filgrastim (G-CSF) 5 μg/kg SC SID（刺激白血球生成）",
+        "廣效抗生素（嗜中性球減少期間）"
+      ],
+      "surgery": "通常不適用。骨髓移植在獸醫學中尚不常規。脾臟切除術偶用於免疫介導型。"
+    },
+    "prognosis": "整體預後謹慎至不良。特發性再生不良性貧血死亡率高（>50%）。藥物引起者停藥後有恢復機會。Ehrlichia 引起者抗感染治療後可能部分恢復。免疫介導型對免疫抑制治療反應不一。",
+    "pearls": [
+      "氯黴素和雌激素是犬最常見的藥物性骨髓抑制原因",
+      "骨髓活檢是確診的金標準，不能僅靠 CBC 診斷",
+      "嗜中性球 <500/μL 時感染風險極高，需預防性抗生素",
+      "Ehrlichiosis 慢性期可表現為再生不良性貧血，需常規篩查"
+    ],
+    "monitoring": [
+      "CBC 每 3-7 天監測至穩定",
+      "體溫每日監測（嗜中性球減少期間）",
+      "出血徵兆每日評估",
+      "骨髓活檢每 4-6 週評估治療反應"
+    ],
+    "reference": "BSAVA Manual of Canine and Feline Haematology and Transfusion Medicine"
+  },
+  "heinz-body-anemia": {
+    "zh": "乃乃氏小體溶血性貧血",
+    "en": "Heinz Body Anemia",
+    "definition": "因氧化損傷導致血紅素變性沉澱形成 Heinz body（乃乃氏小體），附著於紅血球膜上造成紅血球提前被脾臟清除的溶血性貧血。貓對氧化損傷特別敏感。常見原因包括蔥屬植物（洋蔥、大蒜）攝入、對乙酰氨基酚（acetaminophen）中毒等。",
+    "synonyms": ["海因茲小體貧血", "Heinz body hemolytic anemia", "氧化性溶血性貧血"],
+    "epidemiology": {
+      "species": "犬貓均可發生，貓更敏感",
+      "breed": "犬中日本品種（Akita、Shiba Inu）因高 K+ 和低 GSH 紅血球更易受影響",
+      "age": "任何年齡",
+      "sex": "無性別傾向",
+      "prevalence": "取決於氧化劑暴露機會，洋蔥中毒在犬中並不罕見"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "虛弱和嗜睡",
+        "運動不耐受",
+        "黏膜蒼白或黃疸",
+        "紅棕色或暗色尿液（血紅素尿）",
+        "食慾下降",
+        "嘔吐（如因毒物攝入）",
+        "腹瀉",
+        "呼吸急促",
+        "心跳加速",
+        "發紺（methemoglobin 形成時）"
+      ],
+      "physicalExam": [
+        "黏膜蒼白或黃疸",
+        "心跳加速",
+        "收縮期心雜音（貧血性）",
+        "脾臟腫大（紅血球清除增加）",
+        "暗色尿液",
+        "acetaminophen 中毒貓：面部和四肢水腫"
+      ]
+    },
+    "pathophysiology": "氧化劑（如洋蔥中的 n-propyl disulfide、acetaminophen 的代謝物 NAPQI）耗盡紅血球內的還原性谷胱甘肽（GSH），導致血紅素鐵被氧化形成 methemoglobin，進一步變性沉澱為 Heinz body。Heinz body 使紅血球膜僵硬，被脾臟巨噬細胞識別並吞噬（血管外溶血）。貓的血紅素含 8 個反應性巯基（犬僅 2 個），故對氧化損傷更敏感。",
+    "diagnosis": {
+      "primary": [
+        "血液抹片新亞甲藍（NMB）染色見 Heinz body",
+        "CBC 確認再生性貧血",
+        "病史調查氧化劑暴露",
+        "血液 methemoglobin 濃度測定"
+      ],
+      "differential": [
+        "免疫介導性溶血性貧血（IMHA）",
+        "急性失血性貧血",
+        "鋅中毒",
+        "銅中毒",
+        "紅血球寄生蟲（Mycoplasma haemofelis）",
+        "磷酸激酶缺乏症"
+      ],
+      "labFindings": [
+        "CBC：再生性貧血（網織紅血球增多）",
+        "NMB 染色：紅血球表面突出的 Heinz body",
+        "血液生化：膽紅素升高（溶血）",
+        "尿液：血紅素尿、膽紅素尿",
+        "MetHb >10%（正常 <3%）"
+      ]
+    },
+    "treatment": {
+      "acute": "移除氧化劑來源，催吐（如攝入 <2 小時）和活性碳。嚴重貧血者輸血。acetaminophen 中毒給予 N-acetylcysteine",
+      "chronic": "停止氧化劑暴露後通常可自行恢復。骨髓 5-7 天內開始再生反應",
+      "medications": [
+        "N-acetylcysteine (NAC) 140 mg/kg IV loading, then 70 mg/kg q6h × 7 doses（acetaminophen 中毒）",
+        "S-adenosylmethionine (SAMe) 20 mg/kg PO SID",
+        "輸血（PCV <15% 或臨床顯著）",
+        "靜脈輸液維持腎灌注（血紅素尿時）",
+        "Vitamin C 30 mg/kg PO BID（輔助抗氧化）"
+      ],
+      "surgery": "通常不需要手術。"
+    },
+    "prognosis": "移除氧化劑來源後預後通常良好。輕至中度貧血 1-2 週可恢復。大量洋蔥攝入或 acetaminophen 中毒貓若延遲治療預後不良。MetHb >50% 有生命危險。",
+    "pearls": [
+      "貓對 acetaminophen 極度敏感，一顆 325mg 即可致命",
+      "正常貓血液中可見少量 Heinz body（<5%），不一定代表疾病",
+      "洋蔥、大蒜、韭菜、蔥均屬蔥屬植物，煮熟後仍有毒性",
+      "日本犬種（Akita）紅血球 GSH 含量低，對氧化損傷特別敏感"
+    ],
+    "monitoring": [
+      "PCV 每 12-24 小時監測至穩定",
+      "MetHb 濃度追蹤（acetaminophen 中毒）",
+      "腎功能監測（血紅素腎病風險）",
+      "網織紅血球計數評估骨髓再生反應"
+    ],
+    "reference": "Blackwell's Five-Minute Veterinary Consult"
+  },
+  "methemoglobinemia": {
+    "zh": "變性血紅素血症",
+    "en": "Methemoglobinemia",
+    "definition": "血液中 methemoglobin（MetHb）濃度異常升高的狀態。MetHb 中鐵離子被氧化為 Fe³+ 形式，無法攜帶氧氣。正常 MetHb <3%，>15% 出現臨床症狀，>50% 可致命。常見於 acetaminophen 中毒（貓）和局部麻醉劑（benzocaine）接觸。",
+    "synonyms": ["高鐵血紅蛋白血症", "MetHb 血症"],
+    "epidemiology": {
+      "species": "犬貓均可發生，貓更敏感",
+      "breed": "無明顯品種傾向",
+      "age": "任何年齡",
+      "sex": "無性別傾向",
+      "prevalence": "主要為中毒事件相關"
+    },
+    "clinicalPresentation": {
+      "symptoms": [
+        "黏膜發紺（巧克力棕色）",
+        "呼吸急促",
+        "虛弱和嗜睡",
+        "運動不耐受",
+        "心跳加速",
+        "面部和四肢水腫（acetaminophen 中毒貓）",
+        "嘔吐",
+        "精神沉鬱至昏迷",
+        "深棕色血液（抽血即可見）",
+        "死亡（MetHb >70-80%）"
+      ],
+      "physicalExam": [
+        "黏膜呈特徵性巧克力棕色（非典型發紺）",
+        "心跳加速",
+        "呼吸急促和用力呼吸",
+        "脈搏血氧飽和度讀數異常偏低（~85%固定值）",
+        "血液顏色暗棕色、暴露空氣中不變紅"
+      ]
+    },
+    "pathophysiology": "正常血紅素含 Fe²+（亞鐵），可逆性結合氧氣。氧化劑將 Fe²+ 氧化為 Fe³+（高鐵），形成 methemoglobin。MetHb 無法攜帶氧氣，且使剩餘正常血紅素的氧親和力增高（左移氧解離曲線），雙重機制導致組織缺氧。正常依賴 NADH-methemoglobin reductase 還原 MetHb，但氧化劑過量或酵素缺陷時系統飽和。",
+    "diagnosis": {
+      "primary": [
+        "臨床表現（巧克力棕色黏膜和血液）",
+        "Co-oximetry 測定 MetHb 百分比（金標準）",
+        "血液滴在白紙上暴露空氣仍為棕色（簡易測試）",
+        "病史調查氧化劑暴露"
+      ],
+      "differential": [
+        "發紺（心肺疾病）",
+        "一氧化碳中毒",
+        "嚴重貧血",
+        "硫血紅素血症（sulfhemoglobinemia）",
+        "先天性 MetHb reductase 缺乏症"
+      ],
+      "labFindings": [
+        "Co-oximetry：MetHb >10%（確診）",
+        "脈搏血氧：固定在 ~85%（不隨給氧改善）",
+        "血液氣體分析：PaO₂ 正常但 SaO₂ 降低",
+        "CBC：可能伴隨 Heinz body 形成",
+        "肝腎功能檢查（acetaminophen 肝毒性）"
+      ]
+    },
+    "treatment": {
+      "acute": "立即給氧支持。Methylene blue 為特效解毒劑（犬），但貓禁用（可加重 Heinz body）。貓以 NAC 和 vitamin C 為主。嚴重者輸血",
+      "chronic": "移除氧化劑來源後通常可恢復。監測肝腎功能（acetaminophen 中毒）",
+      "medications": [
+        "Methylene blue 1.5 mg/kg IV slowly（犬專用，貓禁用）",
+        "N-acetylcysteine (NAC) 140 mg/kg IV loading, then 70 mg/kg q6h（貓首選）",
+        "Ascorbic acid (Vitamin C) 30 mg/kg IV slowly",
+        "氧氣支持（氧氣籠或鼻導管）",
+        "輸血（MetHb >50% 或嚴重缺氧）"
+      ],
+      "surgery": "不適用。"
+    },
+    "prognosis": "及時治療預後良好。犬給予 methylene blue 後通常 30 分鐘內改善。貓因 acetaminophen 中毒若延遲治療預後不良。MetHb >70% 未治療者可致死。先天性酵素缺乏者需長期管理。",
+    "pearls": [
+      "Methylene blue 對貓禁用——會加重 Heinz body 溶血",
+      "脈搏血氧飽和度固定在 ~85% 不隨給氧改善是 MetHb 的特徵線索",
+      "血液滴紙測試：正常血液暴露空氣變鮮紅，MetHb 血液持續棕色",
+      "Acetaminophen 是貓最常見的 MetHb 原因，一顆即可致命"
+    ],
+    "monitoring": [
+      "Co-oximetry 每 1-2 小時追蹤 MetHb 濃度",
+      "肝功能每 12-24 小時（acetaminophen 肝毒性）",
+      "PCV 監測（伴隨 Heinz body 溶血時）",
+      "尿量和腎功能監測"
+    ],
+    "reference": "Textbook of Veterinary Internal Medicine"
+  }
+}
