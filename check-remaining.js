@@ -39,7 +39,11 @@ for (let i = 0; i < diseases.length; i++) {
 }
 
 console.log('Still need enrichment:', needsWork.length);
-console.log('\nNext 40:');
-needsWork.slice(0, 40).forEach((d, i) => {
-  console.log(`${i+1}. ${d.id} (${d.zh}) def:${d.defLen} patho:${d.pathoLen} prog:${d.progLen}`);
+console.log('\nAll remaining:');
+needsWork.forEach((d, i) => {
+  const flags = [];
+  if (d.defLen < 40) flags.push('D');
+  if (d.pathoLen < 50) flags.push('P');
+  if (d.progLen < 30) flags.push('R');
+  console.log(`${i+1}. ${d.id} (${d.zh}) [${flags.join(',')}] def:${d.defLen} patho:${d.pathoLen} prog:${d.progLen}`);
 });
