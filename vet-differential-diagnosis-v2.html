@@ -4002,7 +4002,7 @@ const DISEASE_INFO = {
   "arrhythmia": {
     zh: "心律不整",
     en: "Cardiac Arrhythmia",
-    definition: "心臟電氣傳導異常導致的心律異常，可分為心搏過速、過緩和不規則。",
+    definition: "心律不整是指心臟電傳導系統異常導致心跳節律、頻率或傳導路徑偏離正常竇性節律的疾病總稱。包括心搏過速（SVT、VT）、心搏過緩（竇房結病變、房室傳導阻滯）和期前收縮（APCs、VPCs）。犬常見DCM相關室性心律不整，貓以HCM相關心房顫動較多。",
     synonyms: ["心律失常", "Dysrhythmia"],
     epidemiology: {
       species: "犬貓皆可",
@@ -4014,7 +4014,7 @@ const DISEASE_INFO = {
       history: ["可能無症狀", "虛弱", "昏厥", "運動不耐", "猝死"],
       physicalExam: ["心律不規則", "脈搏虧損", "心搏過速或過緩"]
     },
-    pathophysiology: "電氣傳導異常 → 心房或心室異位興奮點 → 傳導阻斷 → 心律不整 → 血流動力學影響",
+    pathophysiology: "心律不整源於三大電生理機制：(1)自動性異常—非竇房結部位產生異位節律；(2)觸發活動—早期或延遲後去極化引發額外動作電位；(3)折返迴路—傳導路徑中存在單向阻滯和緩慢傳導形成環形激動。結構性心臟病（DCM、HCM）、電解質異常（低血鉀、低血鎂）、缺氧、藥物中毒和自主神經失衡均可誘發。嚴重室性心律不整可導致血流動力學障礙甚至猝死。",
     diagnosis: {
       overview: "ECG確診和分類",
       differentials: ["竇性心律不整（正常變異）", "病理性心律不整"],
@@ -4424,7 +4424,7 @@ const DISEASE_INFO = {
   "atopic dermatitis": {
     zh: "異位性皮膚炎",
     en: "Atopic Dermatitis",
-    definition: "遺傳傾向的過敏性皮膚病，對環境過敏原（如花粉、塵蟎）產生IgE介導的過敏反應。",
+    definition: "異位性皮膚炎是犬貓因遺傳性皮膚屏障功能缺陷和免疫調節異常，對環境過敏原（塵蟎、花粉、黴菌）產生IgE介導的過敏反應所致的慢性瘙癢性皮膚病。為犬第二常見過敏性皮膚病（僅次於跳蚤過敏），通常1-3歲首次發病，具品種易感性。",
     synonyms: ["Atopy", "環境過敏", "異位性皮炎"],
     epidemiology: {
       species: "犬較常見",
@@ -4436,7 +4436,7 @@ const DISEASE_INFO = {
       history: ["搔癢（臉、腳、腋下、腹股溝）", "季節性（可能）", "反覆性耳炎"],
       physicalExam: ["皮膚紅斑", "脫毛", "苔蘚化", "繼發感染（細菌/酵母菌）"]
     },
-    pathophysiology: "環境過敏原經皮膚進入 → IgE介導的過敏反應 → 炎症細胞浸潤 → 搔癢和皮膚損傷",
+    pathophysiology: "皮膚屏障蛋白（如filaggrin）表達缺陷→經皮水分散失增加→環境過敏原穿透受損屏障→抗原呈現細胞（Langerhans cells）攝取後活化Th2免疫反應→IL-4/IL-13促進B細胞分泌特異性IgE→IgE結合肥大細胞表面FcεRI受體→再次接觸過敏原後交聯脫顆粒→釋放組織胺、白三烯、前列腺素→血管擴張、瘙癢、紅斑。慢性期轉為Th1主導的苔蘚化病變。",
     diagnosis: {
       overview: "排除性診斷+過敏原檢測",
       differentials: ["跳蚤過敏", "食物過敏", "疥癬", "接觸性皮炎"],
@@ -4448,7 +4448,7 @@ const DISEASE_INFO = {
       acute: ["類固醇（短期）", "Oclacitinib（Apoquel）", "Lokivetmab（Cytopoint）", "繼發感染治療"],
       chronic: ["過敏原特異性免疫治療（ASIT）", "必需脂肪酸", "局部治療（藥浴、外用藥）"]
     },
-    prognosis: "終身管理但可控制。無法治癒。",
+    prognosis: "異位性皮膚炎為終身疾病，無法根治但可有效控制。多數犬在多模式治療（過敏原特異性免疫治療ASIT + oclacitinib/lokivetmab + 皮膚屏障修復）下可維持良好生活品質。季節性病例預後較全年性佳。繼發感染和耳炎需同時管理。約60-70%的犬對ASIT有良好反應。",
     pearls: ["需排除跳蚤過敏和食物過敏", "約70%有繼發感染需同時治療", "ASIT是唯一可能改變病程的治療", "Apoquel和Cytopoint比類固醇安全"],
     diagnosticAlgorithm: {
       title: "異位性皮膚炎 診斷流程",
@@ -4466,7 +4466,7 @@ const DISEASE_INFO = {
   "food allergy": {
     zh: "食物過敏",
     en: "Food Allergy/Adverse Food Reaction",
-    definition: "對食物成分（通常是蛋白質）的免疫介導性過敏反應，導致皮膚和/或消化道症狀。",
+    definition: "食物過敏是犬貓對飲食中特定蛋白質（牛肉、雞肉、乳製品、小麥、大豆等）產生免疫介導的不良反應，以非季節性瘙癢和/或消化道症狀為特徵。為犬第三常見過敏性皮膚病，約佔所有過敏性皮膚病的10-15%，任何年齡均可發病。",
     synonyms: ["食物不良反應", "飲食過敏"],
     epidemiology: {
       species: "犬貓皆可",
@@ -4478,7 +4478,7 @@ const DISEASE_INFO = {
       history: ["非季節性搔癢", "消化道症狀（嘔吐、腹瀉）", "反覆耳炎"],
       physicalExam: ["搔癢（臉、耳、腳、肛周）", "紅斑", "外耳炎", "繼發感染"]
     },
-    pathophysiology: "食物蛋白質作為過敏原 → IgE介導或非IgE介導免疫反應 → 皮膚和/或消化道炎症",
+    pathophysiology: "食物中的完整蛋白分子或大分子肽段通過受損的腸道黏膜屏障→腸相關淋巴組織（GALT）中抗原呈現→致敏T細胞和IgE產生→再次攝入相同蛋白時觸發肥大細胞脫顆粒（即刻型，I型過敏）和/或T細胞介導的遲發型反應（IV型過敏）→皮膚和消化道炎症反應。口腔耐受機制失調是核心病理。",
     diagnosis: {
       overview: "排除飲食試驗是唯一可靠診斷方法",
       differentials: ["異位性皮膚炎", "跳蚤過敏", "接觸性皮炎"],
@@ -4490,7 +4490,7 @@ const DISEASE_INFO = {
       acute: ["排除飲食試驗期間：症狀治療（止癢、抗感染）"],
       chronic: ["終身避免過敏原", "水解蛋白或新奇蛋白飲食"]
     },
-    prognosis: "嚴格飲食控制可完全緩解。",
+    prognosis: "食物過敏預後良好，前提是能正確識別並嚴格排除致敏食物。8-12週排除飲食試驗是診斷金標準。成功識別過敏原後，嚴格控制飲食可實現症狀完全緩解。約30%患犬同時患有異位性皮膚炎，需合併管理。水解蛋白飲食或新型蛋白飲食為長期管理選擇。",
     pearls: ["常見過敏原：牛肉、乳製品、雞肉、小麥", "血清食物過敏檢測不可靠", "排除試驗需嚴格執行8-12週", "約30%犬同時有異位性皮膚炎"],
     diagnosticAlgorithm: {
       title: "食物過敏 診斷流程",
@@ -4508,7 +4508,7 @@ const DISEASE_INFO = {
   "flea allergy dermatitis": {
     zh: "跳蚤過敏性皮膚炎",
     en: "Flea Allergy Dermatitis (FAD)",
-    definition: "對跳蚤唾液蛋白的過敏反應，是犬貓最常見的過敏性皮膚病。",
+    definition: "跳蚤過敏性皮膚炎（FAD）是犬貓因對跳蚤唾液中半抗原蛋白產生過敏反應所致的皮膚病，為全球犬最常見的過敏性皮膚病。僅需少量跳蚤叮咬即可引發劇烈瘙癢，典型病變集中在腰薦部和尾根部。溫暖潮濕氣候區全年發病。",
     synonyms: ["FAD", "跳蚤咬傷過敏"],
     epidemiology: {
       species: "犬貓皆常見",
@@ -4520,7 +4520,7 @@ const DISEASE_INFO = {
       history: ["強烈搔癢", "脫毛", "季節性加重（溫暖季節）"],
       physicalExam: ["犬：腰薦部、尾根、後肢脫毛、丘疹", "貓：粟粒性皮膚炎、自我誘發脫毛"]
     },
-    pathophysiology: "跳蚤叮咬注入唾液 → 過敏反應（I型和IV型）→ 強烈搔癢 → 自我創傷",
+    pathophysiology: "跳蚤唾液含15種以上過敏原蛋白→叮咬時注入皮膚→致敏動物產生特異性IgE（I型即刻過敏，15分鐘內）和IgG介導的遲發反應（IV型，24-48小時）→肥大細胞脫顆粒釋放組織胺等炎症介質→劇烈瘙癢→自我創傷（抓咬）→繼發性膿皮症和脫毛。慢性者發生苔蘚化和色素沉著。",
     diagnosis: {
       overview: "臨床表現+跳蚤/跳蚤糞便發現+對跳蚤控制反應",
       differentials: ["異位性皮膚炎", "食物過敏", "疥癬"],
@@ -4532,7 +4532,7 @@ const DISEASE_INFO = {
       acute: ["跳蚤殺滅藥（Isoxazoline類：Fluralaner、Afoxolaner）", "止癢（Apoquel、類固醇短期）", "繼發感染治療"],
       chronic: ["全年跳蚤預防", "環境控制", "所有同住動物都需預防"]
     },
-    prognosis: "嚴格跳蚤控制可完全緩解。",
+    prognosis: "嚴格控制跳蚤後預後極佳。現代長效跳蚤預防藥物（isoxazoline類如fluralaner/sarolaner，月效或三月效）可有效預防。必須對環境和所有接觸動物同時治療。繼發感染需抗菌治療。未控制跳蚤者會反覆發作並漸進惡化。",
     pearls: ["即使看不到跳蚤也可能是FAD（過敏動物1-2隻跳蚤即可誘發）", "需全年預防", "環境處理（地毯、床褥）很重要", "貓的粟粒性皮膚炎常是FAD"],
     diagnosticAlgorithm: {
       title: "跳蚤過敏性皮膚炎 診斷流程",
@@ -4550,7 +4550,7 @@ const DISEASE_INFO = {
   "pyoderma": {
     zh: "膿皮症",
     en: "Pyoderma",
-    definition: "細菌性皮膚感染，通常由葡萄球菌引起，可為表淺或深層。",
+    definition: "膿皮症是犬最常見的細菌性皮膚感染，主要由Staphylococcus pseudintermedius引起。分表淺型（毛囊炎、膿疱疹）和深層型（深層毛囊炎、蜂窩組織炎、癤腫病）。幾乎總是繼發於潛在疾病（過敏、內分泌病、免疫缺陷），單獨治療而不找原發病因易反覆發作。",
     synonyms: ["細菌性皮膚炎", "皮膚感染"],
     epidemiology: {
       species: "犬較常見",
@@ -4562,7 +4562,7 @@ const DISEASE_INFO = {
       history: ["搔癢", "皮膚病灶", "體味"],
       physicalExam: ["表淺：丘疹、膿皰、環狀鱗屑", "深層：結節、廔管、出血"]
     },
-    pathophysiology: "皮膚屏障破壞（過敏、創傷）→ 葡萄球菌（S. pseudintermedius）增殖 → 感染",
+    pathophysiology: "皮膚屏障因潛在疾病（過敏、甲狀腺功能低下、Cushing病）受損→正常皮膚菌群S. pseudintermedius伺機增殖→穿透受損表皮→毛囊感染（表淺型）或穿透真皮層（深層型）→嗜中性球浸潤形成膿疱→抓癢自我創傷加速擴散。耐甲氧西林葡萄球菌（MRSP）近年發病率上升，治療更具挑戰性。",
     diagnosis: {
       overview: "臨床表現+細胞學確認",
       differentials: ["蠕形蟲", "皮膚真菌", "自體免疫皮膚病"],
@@ -4592,7 +4592,7 @@ const DISEASE_INFO = {
   "otitis externa": {
     zh: "外耳炎",
     en: "Otitis Externa",
-    definition: "外耳道的炎症，是犬貓常見的耳部疾病。",
+    definition: "外耳炎是犬貓外耳道的急性或慢性炎症，犬發病率約10-20%。主要誘因包括過敏（異位性皮膚炎為最常見潛因）、耳道異物、內分泌病和耳道解剖特徵（垂耳、毛多、狹窄）。繼發細菌（Staphylococcus spp.、Pseudomonas spp.）和酵母菌（Malassezia pachydermatis）感染加重病情。",
     synonyms: ["耳道炎", "Ear infection"],
     epidemiology: {
       species: "犬較常見",
@@ -4604,7 +4604,7 @@ const DISEASE_INFO = {
       history: ["搔耳", "甩頭", "耳朵異味", "分泌物"],
       physicalExam: ["耳道紅腫", "分泌物（顏色、性質依病因）", "疼痛", "耳道狹窄"]
     },
-    pathophysiology: "原發因素（過敏、異物）→ 耳道環境改變 → 繼發感染（細菌、酵母菌）→ 永久性病變（慢性）",
+    pathophysiology: "主要誘因（過敏、異物、寄生蟲）破壞耳道上皮→炎症反應導致腺體增生和分泌增加→溫暖潮濕環境利於微生物增殖→繼發感染→進一步炎症和角化異常→耳道壁增厚和狹窄→分泌物積聚加重感染。慢性者耳道骨化和鈣化→不可逆狹窄→可能需要手術（全耳道切除+側鼓泡切開術TECA-LBO）。",
     diagnosis: {
       overview: "耳鏡檢查+細胞學確認病原",
       differentials: ["原發：過敏、寄生蟲、異物", "繼發：細菌、酵母菌"],
@@ -4616,7 +4616,7 @@ const DISEASE_INFO = {
       acute: ["耳道清潔", "局部藥物（依病原選擇）：抗生素、抗真菌、類固醇", "疼痛嚴重：短期全身類固醇"],
       chronic: ["治療原發因素（過敏）", "手術（嚴重慢性：TECA-LBO）"]
     },
-    prognosis: "急性預後良好。慢性、原發因素未控制者常復發。",
+    prognosis: "急性單純性外耳炎在正確治療和控制潛因後預後良好。慢性反覆性外耳炎預後取決於潛在疾病控制程度和耳道結構改變程度。Pseudomonas相關的耳炎治療較困難。嚴重耳道狹窄者可能需TECA-LBO手術，術後生活品質通常改善顯著。",
     pearls: ["多數外耳炎有潛在原因（過敏最常見）", "細胞學區分細菌vs酵母菌很重要", "耳道有桿菌考慮培養", "單側外耳炎考慮異物或腫瘤"],
     diagnosticAlgorithm: {
       title: "外耳炎 診斷流程",
@@ -4634,7 +4634,7 @@ const DISEASE_INFO = {
   "glaucoma": {
     zh: "青光眼",
     en: "Glaucoma",
-    definition: "眼壓升高導致視網膜神經節細胞和視神經損傷的眼科急症。",
+    definition: "青光眼是以眼內壓（IOP）異常升高為特徵的視神經退行性疾病，犬正常IOP為10-25 mmHg。分原發性（房水排出通道先天異常，遺傳性，Cocker Spaniel、Basset Hound好發）和續發性（葡萄膜炎、晶體脫位、眼內腫瘤阻塞房水排出）。急性發作為眼科急症。",
     synonyms: ["綠內障", "眼壓過高"],
     epidemiology: {
       species: "犬較常見",
@@ -4646,7 +4646,7 @@ const DISEASE_INFO = {
       history: ["急性疼痛", "紅眼", "視力喪失", "眼睛變大（慢性）"],
       physicalExam: ["結膜充血", "角膜水腫", "瞳孔散大且對光反應遲鈍", "眼壓升高（>25 mmHg）"]
     },
-    pathophysiology: "房水排出障礙 → 眼壓升高 → 視神經和視網膜缺血 → 不可逆視力喪失",
+    pathophysiology: "房水由睫狀體分泌→流經後房經瞳孔進入前房→從虹膜角膜角的小樑網和葡萄膜鞏膜途徑排出。排出通道阻塞（開角型：小樑網退化；閉角型：虹膜角膜角關閉；續發性：炎症碎屑或腫瘤阻塞）→房水蓄積→IOP升高→視網膜神經節細胞軸突壓迫性損傷→視神經萎縮→不可逆失明。犬急性青光眼IOP可達60-80 mmHg。",
     diagnosis: {
       overview: "眼壓測量+眼科檢查確診",
       differentials: ["葡萄膜炎（眼壓低）", "角膜疾病"],
@@ -4676,7 +4676,7 @@ const DISEASE_INFO = {
   "cataract": {
     zh: "白內障",
     en: "Cataract",
-    definition: "水晶體混濁導致視力障礙的眼科疾病。",
+    definition: "白內障是晶體蛋白（crystallin）變性混濁導致光線無法正常透過的眼科疾病，為犬最常見的致盲原因。依成因分遺傳性（最常見，Poodle、Cocker Spaniel好發）、糖尿病性（75%糖尿病犬在1年內發展白內障）、外傷性和老年性。依成熟度分初期、未成熟、成熟和過熟期。",
     synonyms: ["水晶體混濁"],
     epidemiology: {
       species: "犬較常見",
@@ -4688,7 +4688,7 @@ const DISEASE_INFO = {
       history: ["視力下降", "眼睛變白"],
       physicalExam: ["水晶體混濁", "視力障礙", "可能併發葡萄膜炎或青光眼"]
     },
-    pathophysiology: "水晶體纖維變性、蛋白質聚集 → 透明度下降 → 視力障礙",
+    pathophysiology: "晶體纖維細胞中的水溶性α-crystallin蛋白因氧化損傷、滲透壓改變或遺傳缺陷而凝聚為不溶性蛋白→光散射增加→晶體混濁。糖尿病性白內障：高血糖→晶體內山梨醇累積（醛糖還原酶途徑）→滲透壓升高→水分湧入→晶體纖維腫脹破裂→急速進展。過熟期白內障可誘發晶體源性葡萄膜炎。",
     diagnosis: {
       overview: "眼科檢查見水晶體混濁",
       differentials: ["核硬化（老年正常變化）", "水晶體脫位"],
@@ -4700,7 +4700,7 @@ const DISEASE_INFO = {
       acute: ["白內障摘除術（Phacoemulsification）+ 人工水晶體植入"],
       chronic: ["保守：控制併發症（葡萄膜炎）", "抗氧化劑（延緩進展？效果有限）"]
     },
-    prognosis: "手術成功率>90%可恢復視力。糖尿病犬白內障手術預後良好。",
+    prognosis: "手術治療（超音波乳化術+人工晶體植入）成功率85-95%，術後視力恢復良好。無手術者最終完全失明但犬適應力佳。糖尿病性白內障術前需良好血糖控制。主要併發症為術後葡萄膜炎和視網膜剝離（2-5%）。",
     pearls: ["犬糖尿病幾乎都會發展白內障", "核硬化是老年正常變化，不影響視力", "手術前需ERG確認視網膜功能", "可能併發葡萄膜炎或青光眼"],
     diagnosticAlgorithm: {
       title: "白內障 診斷流程",
@@ -4718,7 +4718,7 @@ const DISEASE_INFO = {
   "keratoconjunctivitis sicca": {
     zh: "乾眼症",
     en: "Keratoconjunctivitis Sicca (KCS)",
-    definition: "淚液分泌不足或成分異常導致的角結膜乾燥和炎症。",
+    definition: "乾眼症是因淚液水層分泌不足（Schirmer淚液試驗<15 mm/min為可疑，<10 mm/min確診）導致角膜和結膜慢性炎症的眼科疾病。犬最常見原因為免疫介導性淚腺炎（佔80%），West Highland White Terrier、Cavalier King Charles Spaniel和Pug好發。",
     synonyms: ["KCS", "乾眼症", "Dry eye"],
     epidemiology: {
       species: "犬較常見",
@@ -4730,7 +4730,7 @@ const DISEASE_INFO = {
       history: ["眼睛分泌物（黏性）", "紅眼", "眨眼頻繁", "角膜混濁"],
       physicalExam: ["結膜充血", "黏液性分泌物", "角膜血管化/色素沉著", "角膜潰瘍"]
     },
-    pathophysiology: "免疫介導性淚腺破壞（最常見）→ 淚液分泌不足 → 角膜乾燥 → 慢性角結膜炎",
+    pathophysiology: "免疫介導性淚腺炎→CD4+ T細胞浸潤並破壞淚腺腺泡→淚液水層分泌進行性減少→淚膜不穩定→角膜表面乾燥→上皮細胞壞死脫落→角膜糜爛和潰瘍→繼發細菌感染→慢性角膜血管新生和色素沉著→視力下降。黏液性眼分泌物增加是代償性杯狀細胞增生的結果。",
     diagnosis: {
       overview: "Schirmer淚液試驗確診",
       differentials: ["結膜炎其他原因", "角膜疾病"],
@@ -4742,7 +4742,7 @@ const DISEASE_INFO = {
       acute: ["Cyclosporine 0.2%或Tacrolimus 0.03%局部q12h", "人工淚液", "抗生素（感染時）"],
       chronic: ["終身免疫調節治療", "腮腺管移位術（藥物無效時）"]
     },
-    prognosis: "藥物治療反應良好（約80%）。需終身治療。",
+    prognosis: "免疫調節劑（cyclosporine 0.2% BID或tacrolimus 0.02% BID）可使約80%的犬淚液分泌改善，配合人工淚液長期管理預後良好。需終身用藥。藥物無效者可考慮腮腺導管移位術。嚴重色素沉著和角膜瘢痕為不可逆改變。早期診斷和治療對保存視力至關重要。",
     pearls: ["Cyclosporine需4-6週見效", "神經性KCS（面神經麻痺）預後較好", "藥物誘發KCS（Sulfonamides）可能可逆", "雙側常見"],
     diagnosticAlgorithm: {
       title: "乾眼症 診斷流程",
@@ -4760,7 +4760,7 @@ const DISEASE_INFO = {
   "tracheal collapse": {
     zh: "氣管塌陷",
     en: "Tracheal Collapse",
-    definition: "氣管軟骨環發育不良或退化導致的氣管塌陷，引起呼吸困難。",
+    definition: "氣管塌陷是因氣管軟骨環退化軟化導致氣管管腔在呼吸時動態塌陷的慢性進行性呼吸道疾病。中老年小型犬好發（Yorkshire Terrier、Pomeranian、Chihuahua），頸段氣管塌陷在吸氣時加重，胸段在呼氣時加重。特徵性鵝鳴樣咳嗽（goose-honk cough）。",
     synonyms: ["氣管軟化症"],
     epidemiology: {
       species: "犬（小型犬）",
@@ -4772,7 +4772,7 @@ const DISEASE_INFO = {
       history: ["慢性「鵝鳴樣」咳嗽", "運動或興奮時加重", "呼吸困難"],
       physicalExam: ["氣管敏感", "誘發咳嗽", "呼吸困難（嚴重時）"]
     },
-    pathophysiology: "氣管軟骨退化 → 氣管環扁平化 → 吸氣時頸段塌陷/呼氣時胸段塌陷 → 氣流受阻",
+    pathophysiology: "氣管軟骨環中的糖胺聚醣（glycosaminoglycan）和硫酸軟骨素含量降低→軟骨基質退化→C形軟骨環失去支撐力→氣管背側膜鬆弛下垂→管腔狹窄。吸氣時頸段氣管內負壓增大→頸段塌陷；呼氣時胸腔正壓→胸段塌陷。慢性氣道刺激→黏膜發炎→咳嗽→進一步加重塌陷（惡性循環）。肥胖加重病情。",
     diagnosis: {
       overview: "透視或內視鏡見動態塌陷",
       differentials: ["慢性支氣管炎", "心臟病", "喉麻痺"],
@@ -4784,7 +4784,7 @@ const DISEASE_INFO = {
       acute: ["止咳：Hydrocodone、Butorphanol", "支氣管擴張劑", "類固醇（短期）", "氧氣（急性發作）"],
       chronic: ["體重控制", "避免頸圈（改用胸背帶）", "避免興奮/過熱", "氣管內支架（嚴重時）"]
     },
-    prognosis: "保守治療可控制症狀。手術/支架適用於嚴重病例。進行性。",
+    prognosis: "輕中度（Grade I-II）以內科治療為主（止咳、抗發炎、減重），可長期控制症狀。重度（Grade III-IV）者考慮氣管內支架置放，但可能有支架斷裂、肉芽組織增生等併發症。合併下呼吸道塌陷（支氣管軟化）預後較差。終身管理，避免環境刺激物和過度興奮。",
     pearls: ["「鵝鳴樣」咳嗽是特徵", "肥胖顯著惡化症狀", "頸圈可誘發，改用胸背帶", "氣管支架可改善生活品質但有併發症"],
     diagnosticAlgorithm: {
       title: "氣管塌陷 診斷流程",
@@ -4802,7 +4802,7 @@ const DISEASE_INFO = {
   "brachycephalic airway syndrome": {
     zh: "短頭犬呼吸道症候群",
     en: "Brachycephalic Airway Syndrome (BAS)",
-    definition: "短頭犬種因解剖結構異常導致的上呼吸道阻塞症候群。",
+    definition: "短頭犬呼吸道症候群是一組因顱顏骨骼短縮導致上呼吸道多處解剖異常的先天性疾病綜合徵。主要病變包括鼻孔狹窄、軟顎過長、喉囊外翻和氣管發育不全。English Bulldog、French Bulldog、Pug最常見。慢性上呼吸道阻力增加可導致繼發性喉塌陷。",
     synonyms: ["BAS", "BOAS", "短吻犬症候群"],
     epidemiology: {
       species: "犬（短頭品種）",
@@ -4826,7 +4826,7 @@ const DISEASE_INFO = {
       acute: ["急性呼吸窘迫：鎮靜、氧氣、冷卻（若過熱）"],
       chronic: ["手術：鼻孔擴大術、軟顎截短術、喉囊切除術", "體重控制", "避免過熱"]
     },
-    prognosis: "手術可顯著改善。早期手術（<2歲）預後較好。",
+    prognosis: "早期手術矯正（鼻孔擴大術+軟顎切短術，理想在1-2歲）預後良好，約90%的犬臨床症狀顯著改善。延遲手術至繼發性喉塌陷發生後預後變差。術後需嚴格控制體重。極端短頭型（Bulldog）即使術後仍可能有殘餘症狀。中暑為最危險併發症，炎熱環境需特別注意。",
     pearls: ["這些品種麻醉風險較高", "熱衰竭風險高", "肥胖顯著惡化", "早期手術可預防繼發性變化"],
     diagnosticAlgorithm: {
       title: "短頭犬呼吸道症候群 診斷流程",
@@ -4846,7 +4846,7 @@ const DISEASE_INFO = {
   "laryngeal paralysis": {
     zh: "喉麻痺",
     en: "Laryngeal Paralysis",
-    definition: "喉返神經功能障礙導致杓狀軟骨無法外展，引起上呼吸道阻塞。",
+    definition: "喉麻痺是因喉返神經功能障礙導致杓狀軟骨和聲帶無法在吸氣時正常外展開啟的上呼吸道阻塞性疾病。老年大型犬最常見（Labrador Retriever 10歲以上），多為特發性（GOLPP，老年犬喉麻痺-多發性神經病變），少數繼發於頸部手術、外傷或腫瘤。",
     synonyms: ["GOLPP", "喉癱瘓"],
     epidemiology: {
       species: "犬為主",
@@ -4858,7 +4858,7 @@ const DISEASE_INFO = {
       history: ["漸進性吸氣性喘鳴", "聲音改變", "運動不耐", "咳嗽/嗆咳"],
       physicalExam: ["吸氣性喘鳴", "發紺（嚴重時）", "高體溫（呼吸功增加）"]
     },
-    pathophysiology: "喉返神經退化 → 杓狀軟骨無法外展 → 聲門狹窄 → 吸氣性阻塞",
+    pathophysiology: "喉返神經（迷走神經分支）軸突退化→環杓背側肌去神經支配→杓狀軟骨無法在吸氣時外展→聲門裂隙狹窄→吸氣性喘鳴。代償期以增加吸氣努力維持通氣→喉部黏膜水腫和發炎→氣道進一步狹窄。運動、興奮或高溫時呼吸需求增加→失代償→呼吸困難甚至窒息。GOLPP為進行性多發性神經病變，喉麻痺僅為最早表現。",
     diagnosis: {
       overview: "喉鏡檢查見杓狀軟骨運動減少或消失",
       differentials: ["氣管塌陷", "喉腫瘤", "短頭犬症候群"],
@@ -4870,7 +4870,7 @@ const DISEASE_INFO = {
       acute: ["急性發作：鎮靜、氧氣、冷卻", "氣管插管或緊急氣管造口"],
       chronic: ["杓狀軟骨側移術（Tie-back）", "避免過熱和劇烈運動"]
     },
-    prognosis: "手術後預後良好。吸入性肺炎是主要併發症。",
+    prognosis: "單側杓狀軟骨側化術（arytenoid lateralization/tie-back）成功率約90%，術後呼吸改善顯著。主要術後風險為吸入性肺炎（18-32%終身發生率），需終身小心餵食。GOLPP患犬後肢神經功能會進行性退化。未手術的嚴重病例有窒息風險。",
     pearls: ["GOLPP = Geriatric Onset Laryngeal Paralysis Polyneuropathy", "常伴隨全身性多發神經病變", "術後永久吸入性肺炎風險", "Doxapram可在診斷時增強喉運動"],
     diagnosticAlgorithm: {
       title: "喉麻痺 診斷流程",
@@ -4888,7 +4888,7 @@ const DISEASE_INFO = {
   "pneumonia": {
     zh: "肺炎",
     en: "Pneumonia",
-    definition: "肺實質的炎症，可由細菌、病毒、真菌或吸入性原因引起。",
+    definition: "肺炎是肺實質（肺泡和細支氣管）的感染性或非感染性炎症。犬貓最常見為細菌性吸入性肺炎，致病菌包括Pasteurella、Bordetella、E. coli和厭氧菌。吸入性肺炎常繼發於嘔吐、巨食道症、喉麻痺或全身麻醉後。病毒性肺炎（犬流感、犬瘟熱）可繼發細菌感染。",
     synonyms: ["肺臟發炎", "Bacterial pneumonia", "Aspiration pneumonia"],
     epidemiology: {
       species: "犬貓皆可",
@@ -4900,7 +4900,7 @@ const DISEASE_INFO = {
       history: ["咳嗽", "呼吸困難", "發燒", "厭食", "嗜睡"],
       physicalExam: ["發燒", "肺部囉音", "呼吸急促/困難", "黏液性或膿性鼻分泌物"]
     },
-    pathophysiology: "病原體或吸入物進入下呼吸道 → 肺泡和間質炎症 → 滲出液積聚 → 氣體交換障礙",
+    pathophysiology: "病原體（細菌、病毒、真菌）或吸入物（胃酸、食物）進入下呼吸道→肺泡巨噬細胞啟動先天免疫→嗜中性球浸潤→炎症介質釋放→肺泡毛細血管通透性增加→滲出液填充肺泡→氣體交換障礙→低氧血症。吸入性肺炎的胃酸直接損傷肺泡上皮（化學性肺炎），繼發細菌感染。嚴重者進展為ARDS。",
     diagnosis: {
       overview: "胸部X光見肺浸潤+臨床症狀",
       differentials: ["肺水腫", "肺腫瘤", "肺纖維化"],
@@ -4930,7 +4930,7 @@ const DISEASE_INFO = {
   "chronic bronchitis": {
     zh: "慢性支氣管炎",
     en: "Chronic Bronchitis",
-    definition: "支氣管黏膜的慢性炎症，特徵為持續咳嗽超過2個月且排除其他原因。",
+    definition: "慢性支氣管炎定義為犬連續2個月以上大部分時間有咳嗽症狀，且排除其他已知呼吸道疾病。為中老年小型犬常見的慢性下呼吸道疾病，以氣道黏膜持續性發炎、黏液分泌過多和氣道重塑為特徵。類似人類COPD但犬不與吸菸相關。",
     synonyms: ["COPD", "慢性氣管炎"],
     epidemiology: {
       species: "犬較常見",
@@ -4942,7 +4942,7 @@ const DISEASE_INFO = {
       history: ["慢性咳嗽（>2月）", "咳嗽後乾嘔", "運動不耐"],
       physicalExam: ["氣管敏感", "肺部可能正常或有囉音", "咳嗽易誘發"]
     },
-    pathophysiology: "持續刺激 → 支氣管黏膜炎症 → 黏液分泌增加 → 纖毛功能受損 → 慢性咳嗽",
+    pathophysiology: "不明原因的慢性氣道炎症→黏膜杯狀細胞增生和黏液腺肥大→黏液分泌過多→纖毛清除功能受損→黏液蓄積→咳嗽反射→氣道平滑肌肥厚和基底膜纖維化（氣道重塑）→管腔狹窄→氣流阻力增加→呼氣時動態氣道塌陷。反覆發炎-修復循環導致不可逆結構改變。常合併氣管塌陷。",
     diagnosis: {
       overview: "排除性診斷：排除心臟病、腫瘤、感染後診斷",
       differentials: ["心臟病", "氣管塌陷", "肺腫瘤", "肺炎"],
@@ -4954,7 +4954,7 @@ const DISEASE_INFO = {
       acute: ["Prednisolone 0.5-1 mg/kg PO q12h漸減", "支氣管擴張劑（Theophylline、Terbutaline）"],
       chronic: ["吸入類固醇（Fluticasone）", "環境控制（減少刺激物）", "體重管理"]
     },
-    prognosis: "可控制但無法治癒。進行性。",
+    prognosis: "慢性支氣管炎為不可逆疾病，治療目標為控制症狀和減緩進展。口服糖皮質激素（prednisolone）和吸入型支氣管擴張劑為一線治療。減重可顯著改善症狀。多數犬在適當管理下可維持可接受的生活品質數年。急性惡化期需積極治療。",
     pearls: ["需排除心臟病（尤其小型犬）", "吸入類固醇比口服副作用少", "肥胖顯著惡化症狀", "避免二手菸和空氣污染"],
     diagnosticAlgorithm: {
       title: "慢性支氣管炎 診斷流程",
@@ -4972,7 +4972,7 @@ const DISEASE_INFO = {
   "feline asthma": {
     zh: "貓哮喘",
     en: "Feline Asthma",
-    definition: "貓下呼吸道的過敏性/炎症性疾病，導致支氣管收縮和氣道阻塞。",
+    definition: "貓哮喘是貓下呼吸道的慢性嗜酸性球炎症性疾病，以可逆性支氣管收縮、氣道高反應性和黏液過度分泌為特徵。約佔貓呼吸道疾病的1-5%，2-8歲好發。暹羅貓可能有品種傾向。環境過敏原（塵蟎、貓砂粉塵、香菸煙霧、花粉）為主要誘因。",
     synonyms: ["貓支氣管炎", "Feline bronchial disease", "Allergic bronchitis"],
     epidemiology: {
       species: "貓",
@@ -4984,7 +4984,7 @@ const DISEASE_INFO = {
       history: ["咳嗽", "喘息", "呼吸困難", "開口呼吸", "症狀間歇性"],
       physicalExam: ["呼氣相喘息", "呼氣延長", "腹式呼吸", "發紺（嚴重時）"]
     },
-    pathophysiology: "過敏原吸入 → 嗜酸性球性氣道炎症 → 平滑肌收縮 → 氣道狹窄 → 氣流受阻（主要呼氣）",
+    pathophysiology: "吸入性過敏原→氣道樹突細胞攝取抗原→活化Th2免疫反應→IL-4/IL-5/IL-13分泌→嗜酸性球募集和浸潤→IgE產生→肥大細胞脫顆粒→支氣管平滑肌收縮（即刻相，數分鐘內）→4-24小時後嗜酸性球介導的遲發相炎症→氣道黏膜水腫和黏液栓形成→氣流阻塞。慢性者氣道重塑（平滑肌肥厚、基底膜增厚）。",
     diagnosis: {
       overview: "臨床表現+X光支氣管型態+排除其他原因",
       differentials: ["心絲蟲相關呼吸疾病(HARD)", "肺蟲", "肺腫瘤", "心臟病"],
@@ -4996,7 +4996,7 @@ const DISEASE_INFO = {
       acute: ["急性發作：Terbutaline 0.01 mg/kg SC/IM", "氧氣", "注射類固醇（Dexamethasone）"],
       chronic: ["吸入類固醇（Fluticasone）：首選", "或口服Prednisolone漸減", "吸入支氣管擴張劑（Albuterol）備用"]
     },
-    prognosis: "可控制但無法治癒。嚴重發作可致命。",
+    prognosis: "貓哮喘為慢性可控但不可治癒的疾病。吸入型糖皮質激素（fluticasone MDI with spacer）配合環境過敏原控制為長期管理基礎。急性發作時需注射terbutaline或短效吸入型支氣管擴張劑。多數貓在適當治療下預後良好。嚴重未控制者可發展為不可逆氣道重塑。",
     pearls: ["吸入藥物是長期治療首選", "需要專用吸入器（AeroKat等）", "減少環境過敏原很重要", "急性發作不要強迫檢查（可致命）"],
     diagnosticAlgorithm: {
       title: "貓哮喘 診斷流程",
@@ -5014,7 +5014,7 @@ const DISEASE_INFO = {
   "dilated-cardiomyopathy": {
     zh: "擴張型心肌病",
     en: "Dilated Cardiomyopathy (DCM)",
-    definition: "心肌收縮功能障礙導致心室擴張、心壁變薄、心輸出量降低的原發性心肌疾病。",
+    definition: "擴張型心肌病（DCM）是以心室擴張和收縮功能進行性下降為特徵的原發性心肌疾病，為大型犬最常見的心肌病。Doberman Pinscher、Great Dane、Irish Wolfhound有遺傳傾向。Doberman型DCM以室性心律不整和猝死為特徵，可在心臟擴張之前發生。",
     synonyms: ["DCM", "擴張性心肌病", "充血性心肌病", "Congestive Cardiomyopathy"],
     epidemiology: {
       species: "主要影響犬，貓罕見（多與牛磺酸缺乏相關）",
@@ -5153,7 +5153,7 @@ const DISEASE_INFO = {
   "mitral-valve-disease": {
     zh: "二尖瓣疾病",
     en: "Mitral Valve Disease (MVD)",
-    definition: "二尖瓣結構退化導致瓣膜閉鎖不全和逆流的慢性進行性疾病，是犬最常見的心臟病。",
+    definition: "二尖瓣退行性疾病（MMVD/MVD）是犬最常見的心臟病，佔所有犬心臟病的75%以上。因二尖瓣小葉黏液樣退化（myxomatous degeneration）導致瓣膜增厚、脫垂和關閉不全。Cavalier King Charles Spaniel幾乎100%會發展此病。ACVIM分級B1→B2→C→D指導治療。",
     synonyms: ["MVD", "MMVD", "二尖瓣黏液瘤性退化", "Myxomatous Mitral Valve Disease", "Endocardiosis", "二尖瓣閉鎖不全", "Mitral Regurgitation"],
     epidemiology: {
       species: "犬最常見，貓罕見",
@@ -5225,7 +5225,7 @@ const DISEASE_INFO = {
   "tricuspid-valve-dysplasia": {
     zh: "三尖瓣發育不良",
     en: "Tricuspid Valve Dysplasia (TVD)",
-    definition: "先天性三尖瓣結構異常導致三尖瓣閉鎖不全和右心容量超負荷的心臟畸形。",
+    definition: "三尖瓣發育不良是指三尖瓣裝置（瓣葉、腱索、乳突肌）的先天性畸形，導致三尖瓣關閉不全和右心衰竭。Labrador Retriever和其他大型犬好發，為先天性心臟病中較常見的類型之一。嚴重者可在幼年期出現右側充血性心衰（腹水、頸靜脈擴張）。",
     synonyms: ["TVD", "三尖瓣畸形", "先天性三尖瓣逆流", "Ebstein異常（嚴重形式）"],
     epidemiology: {
       species: "犬較常見，貓罕見",
@@ -5415,7 +5415,7 @@ const DISEASE_INFO = {
   "pulmonic-stenosis": {
     zh: "肺動脈狹窄",
     en: "Pulmonic Stenosis (PS)",
-    definition: "肺動脈瓣或其周圍區域狹窄導致右心室流出道阻塞的先天性心臟缺陷。",
+    definition: "肺動脈狹窄是犬第三常見的先天性心臟病，因肺動脈瓣或瓣下區域發育異常導致右心室射血阻力增加。English Bulldog、Boxer、Beagle好發。依狹窄部位分瓣膜型（最常見）、瓣下型和瓣上型。壓力梯度>80 mmHg為重度，需球囊瓣膜成形術介入。",
     synonyms: ["PS", "肺動脈瓣狹窄", "肺動脈口狹窄", "右心室流出道阻塞"],
     epidemiology: {
       species: "犬較常見，貓罕見",
@@ -5479,7 +5479,7 @@ const DISEASE_INFO = {
   "ventricular-septal-defect": {
     zh: "心室中隔缺損",
     en: "Ventricular Septal Defect (VSD)",
-    definition: "心室中隔先天性缺損導致左右心室之間存在異常通道的心臟畸形。",
+    definition: "心室中隔缺損（VSD）是犬貓常見的先天性心臟病，為左右心室之間存在異常通道。小型限制性VSD因高壓差產生特徵性右側心基底部粗糙收縮期雜音，血流動力學影響輕微。大型非限制性VSD導致左向右分流增加、肺血流量增加和左心容量超負荷，最終可能發展Eisenmenger症候群。",
     synonyms: ["VSD", "心室間隔缺損", "室間隔缺損"],
     epidemiology: {
       species: "犬貓皆可發生",
@@ -5542,7 +5542,7 @@ const DISEASE_INFO = {
   "atrial-septal-defect": {
     zh: "心房中隔缺損",
     en: "Atrial Septal Defect (ASD)",
-    definition: "心房中隔先天性缺損導致左右心房之間存在異常通道的心臟畸形。",
+    definition: "心房中隔缺損（ASD）是左右心房之間存在異常通道的先天性心臟病。犬較少見，但在某些品種（Boxer、Samoyed）有遺傳傾向。左向右分流導致右心容量超負荷和肺血流增加。小型ASD可能終身無症狀，大型ASD可導致右心衰竭和心房顫動。",
     synonyms: ["ASD", "心房間隔缺損", "房間隔缺損"],
     epidemiology: {
       species: "犬貓皆可發生，犬較常見",
@@ -5674,7 +5674,7 @@ const DISEASE_INFO = {
   "pericardial-effusion": {
     zh: "心包積液",
     en: "Pericardial Effusion",
-    definition: "心包腔內異常液體積聚，可能導致心臟壓塞和循環障礙的病理狀態。",
+    definition: "心包積液是指心包腔內液體異常蓄積，導致心臟舒張受限（心包填塞）。犬最常見原因為血管肉瘤（右心房/右心耳）、心基底部腫瘤（chemodectoma）和特發性心包炎。Golden Retriever和German Shepherd好發腫瘤性心包積液。急性心包填塞為心臟急症，需緊急心包穿刺引流。",
     synonyms: ["心包滲出液", "心包積水", "Pericardial Fluid Accumulation"],
     epidemiology: {
       species: "犬較常見，貓罕見",
@@ -5746,7 +5746,7 @@ const DISEASE_INFO = {
   "infective-endocarditis": {
     zh: "感染性心內膜炎",
     en: "Infective Endocarditis (IE)",
-    definition: "心臟瓣膜或心內膜的微生物感染，形成疣狀贅生物導致瓣膜功能障礙和全身性併發症。",
+    definition: "感染性心內膜炎是微生物（主要為細菌）感染心臟瓣膜或心內膜形成贅生物（vegetation）的嚴重疾病。犬以主動脈瓣和二尖瓣最常受累，常見致病菌包括Staphylococcus、Streptococcus、E. coli和Bartonella。中大型犬好發，常見感染源為泌尿道、口腔、皮膚和椎間盤感染。",
     synonyms: ["IE", "細菌性心內膜炎", "Bacterial Endocarditis", "心內膜炎"],
     epidemiology: {
       species: "犬較常見，貓罕見",
@@ -5815,7 +5815,7 @@ const DISEASE_INFO = {
   "arterial-thromboembolism": {
     zh: "動脈血栓栓塞",
     en: "Arterial Thromboembolism (ATE)",
-    definition: "血栓從心臟脫落並栓塞至周邊動脈，導致急性缺血的危急狀態，最常見於貓並累及後肢。",
+    definition: "動脈血栓栓塞（ATE）是血栓從心臟脫落隨動脈血流栓塞遠端動脈的急症，貓最常見於腹主動脈分叉處（鞍狀血栓）。約90%與心肌病（主要HCM）相關。表現為急性後肢癱瘓、後肢疼痛、股動脈脈搏消失和肢端發紺。為貓心臟病最嚴重的併發症之一。",
     synonyms: ["ATE", "貓主動脈血栓栓塞", "Feline Aortic Thromboembolism", "FATE", "騎跨式栓塞", "Saddle Thrombus"],
     epidemiology: {
       species: "貓最常見（與HCM相關），犬罕見",
@@ -5891,7 +5891,7 @@ const DISEASE_INFO = {
   "systemic-hypertension": {
     zh: "系統性高血壓",
     en: "Systemic Hypertension",
-    definition: "持續性動脈血壓升高，可導致靶器官損傷（眼、腎、心、腦）的病理狀態。",
+    definition: "系統性高血壓是犬貓收縮壓持續>160 mmHg的疾病。犬貓多為繼發性，貓最常見原因為慢性腎臟病（CKD）和甲狀腺功能亢進，犬常見於CKD、Cushing病和腎上腺腫瘤。高血壓可導致靶器官損傷（TOD）：眼（視網膜剝離）、腎、腦和心臟。",
     synonyms: ["高血壓", "Arterial Hypertension", "全身性高血壓"],
     epidemiology: {
       species: "犬貓皆可發生，貓較常見",
@@ -5961,7 +5961,7 @@ const DISEASE_INFO = {
   "pulmonary-hypertension": {
     zh: "肺動脈高血壓",
     en: "Pulmonary Hypertension (PH)",
-    definition: "肺動脈壓力異常升高的病理狀態，可能是原發性或繼發於心臟、肺部或血栓栓塞疾病。",
+    definition: "肺動脈高血壓（PH）是指肺動脈壓力異常升高的疾病，犬經超音波估算三尖瓣反流壓力梯度>50 mmHg為中度以上。依病因分為肺動脈性（原發性、先天左向右分流）、左心疾病相關、呼吸疾病相關（慢性支氣管炎）、血栓栓塞性和心絲蟲相關。Cavalier和West Highland好發。",
     synonyms: ["PH", "肺高壓", "Pulmonary Arterial Hypertension", "PAH"],
     epidemiology: {
       species: "犬較常見，貓罕見",
@@ -6733,7 +6733,7 @@ const DISEASE_INFO = {
   "polymyositis": {
     zh: "多發性肌炎",
     en: "Polymyositis",
-    definition: "骨骼肌的免疫介導性炎症疾病，特徵為肌肉炎症、壞死和再生，導致虛弱和肌肉萎縮。",
+    definition: "多發性肌炎是免疫介導的骨骼肌炎症性疾病，以進行性肌肉無力、肌萎縮和肌酶升高（CK/AST）為特徵。犬可為特發性或副腫瘤性（胸腺瘤相關），大型犬好發。肌肉活檢可見淋巴球和巨噬細胞浸潤。需與重症肌無力、感染性肌炎和多發性神經肌病鑑別。",
     synonyms: ["免疫介導性肌炎", "Immune-mediated Myositis", "Inflammatory Myopathy", "炎症性肌病"],
     epidemiology: {
       species: "犬較常見，貓罕見",
@@ -7178,7 +7178,7 @@ const DISEASE_INFO = {
   "gastric-ulcer": {
     zh: "胃潰瘍",
     en: "Gastric Ulcer",
-    definition: "胃黏膜缺損深達黏膜下層或更深的病變，可導致出血、穿孔等嚴重併發症。",
+    definition: "胃潰瘍是胃黏膜屏障遭破壞導致黏膜下層甚至肌層組織缺損的疾病。犬最常見原因為NSAID使用（抑制PGE2合成）、肥大細胞瘤（組織胺過度分泌）、肝臟疾病和腎衰竭（尿毒素刺激）。嘔血和黑便為特徵性表現。胃穿孔為致命性併發症需緊急手術。",
     synonyms: ["Gastric Ulceration", "胃糜爛", "Gastroduodenal Ulcer", "Peptic Ulcer"],
     epidemiology: {
       species: "犬貓皆可發生",
@@ -7322,7 +7322,7 @@ const DISEASE_INFO = {
   "protein-losing-enteropathy": {
     zh: "蛋白質流失性腸病",
     en: "Protein-Losing Enteropathy (PLE)",
-    definition: "腸道過度流失蛋白質導致低白蛋白血症的綜合症，可由多種腸道疾病引起。",
+    definition: "蛋白質流失性腸病（PLE）是一組因腸道過度流失蛋白質導致低白蛋白血症的疾病綜合徵。常見病因包括淋巴管擴張症（Yorkshire Terrier好發）、炎症性腸病（IBD）和腸道淋巴瘤。白蛋白<2.0 g/dL時易出現胸腹水和水腫。血栓栓塞是重要併發症。",
     synonyms: ["PLE", "腸道蛋白流失症", "Intestinal Protein Loss"],
     epidemiology: {
       species: "犬較常見，貓少見",
@@ -7615,7 +7615,7 @@ const DISEASE_INFO = {
   "esophageal-foreign-body": {
     zh: "食道異物",
     en: "Esophageal Foreign Body",
-    definition: "異物滯留於食道無法通過的危急狀況，可導致食道損傷、穿孔和嚴重併發症。",
+    definition: "食道異物是指骨頭、玩具、肉乾或其他物體卡在食道中無法通過的急症。最常見卡住位置為胸腔入口、心基底部和橫膈裂孔。小型犬和梗犬好發。異物壓迫超過24-48小時可導致食道壞死和穿孔，後續縱膈炎和膿胸為致命性併發症。內視鏡取出為首選治療。",
     synonyms: ["食道卡異物", "Esophageal Obstruction", "食道阻塞"],
     epidemiology: {
       species: "犬最常見，貓較少",
@@ -7689,7 +7689,7 @@ const DISEASE_INFO = {
   "exocrine-pancreatic-insufficiency": {
     zh: "胰外分泌功能不全",
     en: "Exocrine Pancreatic Insufficiency (EPI)",
-    definition: "胰臟外分泌功能不足，導致消化酶缺乏，造成營養吸收不良和消化不良的慢性疾病。",
+    definition: "胰外分泌功能不全（EPI）是因胰臟腺泡萎縮導致消化酶（脂肪酶、澱粉酶、蛋白酶）分泌嚴重不足的疾病。犬以免疫介導性胰腺腺泡萎縮為主要病因（German Shepherd好發），貓多繼發於慢性胰臟炎。特徵性表現為多食伴體重下降和大量脂肪便。cTLI<2.5 μg/L確診。",
     synonyms: ["EPI", "胰臟功能不全", "Pancreatic Insufficiency", "消化酶缺乏"],
     epidemiology: {
       species: "犬較常見，貓少見",
@@ -8124,7 +8124,7 @@ const DISEASE_INFO = {
   "rectal-prolapse": {
     zh: "直腸脫出",
     en: "Rectal Prolapse",
-    definition: "直腸黏膜或全層經肛門脫出體外的病況，可為部分（僅黏膜）或完全（全層）脫出。",
+    definition: "直腸脫出是直腸黏膜或全層經肛門向外翻出的急症，幼犬幼貓較常見。常見誘因包括嚴重腹瀉（寄生蟲、腸炎）、裡急後重（結腸炎、泌尿道阻塞）、會陰疝和直腸腫瘤。需與小腸套疊脫出（探針可沿壁插入為套疊）鑑別。輕度可保守復位，反覆者需結腸固定術。",
     synonyms: ["直腸脫垂", "Rectal Prolapse", "脫肛"],
     epidemiology: {
       species: "犬貓皆可發生",
@@ -8257,7 +8257,7 @@ const DISEASE_INFO = {
   "chronic-kidney-disease": {
     zh: "慢性腎臟病",
     en: "Chronic Kidney Disease (CKD)",
-    definition: "腎臟結構或功能異常持續超過3個月的進行性、不可逆疾病，為犬貓最常見的腎臟疾病。",
+    definition: "慢性腎臟病（CKD）是腎臟結構和功能的進行性不可逆損傷，持續超過3個月。IRIS分期依血清肌酐和SDMA分為1-4期，結合蛋白尿亞分期和血壓亞分期指導治療。為老年貓最常見疾病之一（15歲以上貓>30%），犬亦常見。早期無症狀，晚期出現多飲多尿、食慾下降和嘔吐。",
     synonyms: ["CKD", "慢性腎衰竭", "Chronic Renal Failure", "CRF", "腎功能不全"],
     epidemiology: {
       species: "貓較犬更常見",
@@ -8330,7 +8330,7 @@ const DISEASE_INFO = {
   "feline-lower-urinary-tract-disease": {
     zh: "貓下泌尿道疾病",
     en: "Feline Lower Urinary Tract Disease (FLUTD)",
-    definition: "影響貓膀胱和/或尿道的一系列疾病統稱，表現為排尿困難、血尿、頻尿等症狀。",
+    definition: "貓下泌尿道疾病（FLUTD）是影響貓膀胱和尿道的一組臨床症候群總稱，以血尿、頻尿、排尿困難和不適當排尿為特徵。最常見原因為特發性膀胱炎（FIC，佔55-69%），其次為尿路結石（15-21%）、感染（1-8%）和尿道栓子。公貓尿道阻塞為急症。",
     synonyms: ["FLUTD", "貓泌尿症候群", "FUS", "Feline Urologic Syndrome", "貓特發性膀胱炎", "FIC"],
     epidemiology: {
       species: "貓特有",
@@ -8405,7 +8405,7 @@ const DISEASE_INFO = {
   "urinary-tract-infection": {
     zh: "泌尿道感染",
     en: "Urinary Tract Infection (UTI)",
-    definition: "病原微生物（通常為細菌）在正常無菌的泌尿道內定殖並引起炎症反應的感染性疾病。",
+    definition: "泌尿道感染（UTI）是細菌（最常見E. coli，佔40-50%）侵犯泌尿系統的感染性疾病。犬雌性好發（尿道短），貓UTI較少見（<10歲貓罕見，老年貓和CKD/DM貓增加）。分簡單性UTI（無潛在疾病）和複雜性UTI（伴結構異常或免疫抑制）。尿液培養為診斷金標準。",
     synonyms: ["UTI", "膀胱炎", "Bacterial Cystitis", "尿路感染"],
     epidemiology: {
       species: "犬較貓常見",
@@ -8474,7 +8474,7 @@ const DISEASE_INFO = {
   "pyelonephritis": {
     zh: "腎盂腎炎",
     en: "Pyelonephritis",
-    definition: "腎盂和腎實質的細菌感染，為上泌尿道感染，可為急性或慢性。",
+    definition: "腎盂腎炎是細菌感染引起的腎盂和腎實質炎症，為泌尿道感染上行擴展至腎臟的嚴重併發症。最常見致病菌為E. coli。危險因子包括尿路結石、尿道導管留置、糖尿病和免疫抑制。急性型以發燒、腎區疼痛和腎腫大為特徵，慢性型可導致腎臟纖維化和CKD。",
     synonyms: ["腎臟感染", "Upper UTI", "Kidney Infection"],
     epidemiology: {
       species: "犬較貓常見",
@@ -8538,7 +8538,7 @@ const DISEASE_INFO = {
   "polycystic-kidney-disease": {
     zh: "多囊性腎病",
     en: "Polycystic Kidney Disease (PKD)",
-    definition: "以腎臟出現多個液體填充囊腫為特徵的遺傳性疾病，隨年齡進展導致腎功能喪失。",
+    definition: "多囊性腎病（PKD）是以雙側腎臟多發性囊腫進行性增大為特徵的遺傳性腎臟疾病。波斯貓和相關品種為常染色體顯性遺傳（PKD1基因突變），發病率約36-49%。犬罕見。囊腫隨年齡增大壓迫正常腎組織→腎功能進行性喪失→最終CKD。超音波可在10-16週齡偵測到囊腫。",
     synonyms: ["PKD", "多囊腎", "Polycystic Kidneys"],
     epidemiology: {
       species: "貓較常見（波斯貓及相關品種），犬少見",
@@ -8606,7 +8606,7 @@ const DISEASE_INFO = {
   "protein-losing-nephropathy": {
     zh: "蛋白質流失性腎病",
     en: "Protein-Losing Nephropathy (PLN)",
-    definition: "以腎絲球屏障功能障礙導致大量蛋白質經尿液流失為特徵的腎臟疾病。",
+    definition: "蛋白質流失性腎病（PLN）是因腎絲球基底膜損傷導致大量蛋白質經尿液流失的疾病，尿蛋白/肌酐比值UPC>2.0。犬常見原因包括免疫複合物性腎絲球腎炎、腎澱粉樣變性和遺傳性腎病（Soft-Coated Wheaten Terrier、Bernese Mountain Dog）。低白蛋白血症可導致水腫、胸腹水和血栓形成。",
     synonyms: ["PLN", "腎絲球疾病", "Glomerulonephritis", "腎絲球腎炎", "蛋白尿性腎病"],
     epidemiology: {
       species: "犬較貓常見",
@@ -8674,7 +8674,7 @@ const DISEASE_INFO = {
   "renal-dysplasia": {
     zh: "腎發育不良",
     en: "Renal Dysplasia",
-    definition: "腎臟在發育過程中出現異常分化，導致結構和功能異常的先天性疾病。",
+    definition: "腎發育不良是指腎臟在發育過程中分化異常導致的先天性腎臟疾病。病理特徵為腎臟含有不成熟的腎元（胎兒型腎小球和腎小管）、軟骨化生和纖維化。Lhasa Apso、Shih Tzu、Standard Poodle有遺傳傾向。幼犬和年輕犬出現多飲多尿和發育不良時應懷疑。",
     synonyms: ["腎發育異常", "Juvenile Nephropathy", "幼年型腎病", "Familial Nephropathy"],
     epidemiology: {
       species: "犬較常見",
@@ -8796,7 +8796,7 @@ const DISEASE_INFO = {
   "urethral-obstruction": {
     zh: "尿道阻塞",
     en: "Urethral Obstruction",
-    definition: "尿道被物理性阻塞導致無法排尿的緊急狀態，可因結石、栓子、腫瘤或功能性原因引起。",
+    definition: "尿道阻塞是指尿道被結石、結晶栓子、黏液蛋白栓子或腫瘤完全或部分堵塞導致無法排尿的泌尿急症。公貓因尿道遠端（陰莖段）極為狹窄而最常受累，為貓急診中最常見的急症之一。完全阻塞24-48小時可因高血鉀致心律不整和急性腎後性腎衰竭而致命。",
     synonyms: ["UO", "尿道梗阻", "Blocked Cat", "Urinary Obstruction", "FUO (Feline Urethral Obstruction)"],
     epidemiology: {
       species: "公貓最常見，公犬也可發生",
@@ -8864,7 +8864,7 @@ const DISEASE_INFO = {
   "bladder-tumor": {
     zh: "膀胱腫瘤",
     en: "Bladder Tumor",
-    definition: "膀胱的原發性或轉移性腫瘤，最常見為移行細胞癌(TCC)，好發於犬。",
+    definition: "膀胱腫瘤以移行上皮細胞癌（TCC/尿路上皮癌）為犬最常見的膀胱惡性腫瘤（>95%），Scottish Terrier風險為其他品種的18倍。好發於三角區（trigone），常侵犯輸尿管開口和尿道造成排尿困難。肥胖和除草劑暴露為環境風險因子。COX抑制劑piroxicam有抗腫瘤活性。",
     synonyms: ["膀胱癌", "Bladder Cancer", "移行細胞癌", "TCC", "Urothelial Carcinoma"],
     epidemiology: {
       species: "犬遠較貓常見",
@@ -8936,7 +8936,7 @@ const DISEASE_INFO = {
   "urinary-incontinence": {
     zh: "尿失禁",
     en: "Urinary Incontinence",
-    definition: "不自主排尿的狀態，可因括約肌功能不全、神經性問題或解剖異常引起。",
+    definition: "尿失禁是無意識的尿液滲漏，最常見為絕育母犬的尿道括約肌功能不全（USMI/激素反應性尿失禁），佔犬尿失禁的50-80%。大型犬和肥胖犬好發。其他原因包括先天異常（異位輸尿管）、神經性膀胱功能障礙和前列腺疾病。phenylpropanolamine (PPA)為一線治療，反應率約85%。",
     synonyms: ["UI", "小便失禁", "Involuntary Urination"],
     epidemiology: {
       species: "犬較貓常見",
@@ -9008,7 +9008,7 @@ const DISEASE_INFO = {
   "prostatic-disease": {
     zh: "前列腺疾病",
     en: "Prostatic Disease",
-    definition: "影響前列腺的各種疾病統稱，包括良性增生、感染、囊腫和腫瘤，僅見於公犬。",
+    definition: "前列腺疾病是未絕育公犬的常見泌尿生殖系統疾病。良性前列腺增生（BPH）在6歲以上未絕育公犬中>95%，為雄激素依賴性。其他前列腺疾病包括前列腺炎（急性/慢性）、前列腺囊腫（滯留囊腫和旁前列腺囊腫）、前列腺膿瘍和前列腺腺癌（不論絕育與否）。去勢為BPH的根治性治療。",
     synonyms: ["前列腺疾病", "攝護腺疾病", "Prostate Disease"],
     epidemiology: {
       species: "犬（公犬）",
@@ -9114,7 +9114,7 @@ const DISEASE_INFO = {
   "hydronephrosis": {
     zh: "腎水腫",
     en: "Hydronephrosis",
-    definition: "因尿路梗阻導致腎盂和腎盞擴張積水，長期可致腎實質萎縮和功能喪失。",
+    definition: "腎水腫是因輸尿管或腎盂出口阻塞導致尿液蓄積造成腎盂和腎盞持續擴張、腎實質萎縮的疾病。常見原因包括輸尿管結石（貓最常見）、輸尿管狹窄、腫瘤壓迫和先天性異常。單側者可長期代償無症狀，雙側者導致腎後性氮血症。超音波可見腎盂擴張和腎實質變薄。",
     synonyms: ["腎積水", "水腎", "Renal Pelvis Dilation"],
     epidemiology: {
       species: "犬貓皆可發生",
@@ -9176,7 +9176,7 @@ const DISEASE_INFO = {
   "nephrotoxicity": {
     zh: "腎毒性",
     en: "Nephrotoxicity",
-    definition: "外源性物質（藥物、毒物）或內源性物質對腎臟造成的直接損傷，導致急性腎損傷。",
+    definition: "腎毒性是指藥物、毒素或其他外源性物質對腎臟造成的直接損傷，主要影響腎小管上皮細胞。犬貓常見腎毒性物質包括NSAID、胺基糖苷類抗生素（gentamicin）、百合花（貓）、乙二醇（防凍液）和葡萄/葡萄乾。早期表現為多尿，進展為少尿/無尿型急性腎損傷。及早辨認和停止暴露是關鍵。",
     synonyms: ["腎臟中毒", "藥物性腎損傷", "Toxic Nephropathy", "Drug-induced Nephrotoxicity"],
     epidemiology: {
       species: "犬貓皆可發生",
@@ -16144,7 +16144,7 @@ const DISEASE_INFO = {
   "patellar-luxation": {
     zh: "髕骨脫位",
     en: "Patellar Luxation",
-    definition: "髕骨從股骨滑車溝中移位，可為內側或外側脫位，導致間歇性或持續性後肢跛行。",
+    definition: "髕骨脫位是指髕骨從股骨滑車溝脫出的骨科疾病，為小型犬最常見的後肢跛行原因之一。分內側脫位（最常見，小型犬佔75-80%）和外側脫位（大型犬較多）。依嚴重度分Grade I-IV：Grade I可手動脫位但自行復位，Grade IV永久脫位無法復位。Grade III-IV建議手術矯正。",
     synonyms: ["膝蓋骨脫位","髕骨脫臼","Trick Knee"],
     epidemiology: {"species":"犬較常見（小型犬內側脫位），貓偶見","age":"先天性可早期發現，臨床症狀常在成年後出現","sex":"母犬略多（1.5:1）","riskFactors":["小型犬種（貴賓、吉娃娃、約克夏、博美）","大型犬外側脫位","先天性骨骼畸形"]},
     clinicalPresentation: {"history":["間歇性跳躍式跛行（skipping gait）","突然抬腿數步後恢復正常","運動後僵硬","嚴重者持續跛行"],"physicalExam":["髕骨可手動推移（分級I-IV）","Grade I：可推出但自行復位","Grade II：可推出或自行脫位，可手動復位","Grade III：持續脫位，可手動復位但立即脫出","Grade IV：持續脫位，無法手動復位","股骨內旋（內側脫位）"]},
@@ -16216,7 +16216,7 @@ const DISEASE_INFO = {
   "hemangiosarcoma": {
     zh: "血管肉瘤",
     en: "Hemangiosarcoma",
-    definition: "起源於血管內皮細胞的高度惡性腫瘤，最常見於脾臟，轉移率極高且預後差。",
+    definition: "血管肉瘤（HSA）是起源於血管內皮細胞的高度惡性腫瘤，犬為最常受影響的物種。脾臟、右心房和皮下是三個最常見原發部位。German Shepherd和Golden Retriever好發。脾臟HSA常因腫瘤破裂引起急性腹腔出血和休克就診。全身轉移率極高（>90%），中位生存期僅3-6個月。",
     synonyms: ["HSA","血管內皮肉瘤","Angiosarcoma"],
     epidemiology: {"species":"犬較常見，貓罕見","age":"中老年犬（8-13歲）","sex":"公犬略多","riskFactors":["品種傾向（德國牧羊犬、黃金獵犬、拉布拉多）","大型犬","皮膚型與日曬暴露相關（毛髮稀疏犬）"]},
     clinicalPresentation: {"history":["急性虛脫或昏厥（脾臟腫瘤破裂出血）","間歇性虛弱（反覆少量出血自行吸收）","食慾下降","腹部膨大","運動不耐"],"physicalExam":["黏膜蒼白","心率加快","腹部觸診可及腫塊","腹腔積液（血腹）","心包積液（心臟型）","脾臟腫大","皮膚型：暗紅色皮下腫塊"]},
@@ -16360,7 +16360,7 @@ const DISEASE_INFO = {
   "keratoconjunctivitis-sicca": {
     zh: "乾性角結膜炎",
     en: "Keratoconjunctivitis Sicca",
-    definition: "淚液水層分泌不足導致的角膜和結膜慢性發炎性疾病。是犬最常見的眼表面疾病之一。",
+    definition: "乾性角結膜炎（KCS/乾眼症）是因淚液水層分泌不足導致角膜和結膜慢性發炎的眼科疾病。犬Schirmer淚液試驗（STT）<15 mm/min為可疑，<10 mm/min確診。最常見原因為免疫介導性淚腺炎，West Highland White Terrier、Cavalier King Charles Spaniel、Cocker Spaniel和Pug好發。黏液性分泌物和角膜色素沉著為特徵。",
     synonyms: ["KCS","乾眼症","Dry Eye"],
     epidemiology: {"species":"犬較常見，貓少見","age":"中老年犬，但免疫介導性可在任何年齡發生","sex":"母犬略多","riskFactors":["品種傾向（西施犬、鬥牛犬、可卡犬、巴哥、約克夏）","短頭犬種","Sulfonamide藥物使用","全身麻醉後暫時性","甲狀腺低下"]},
     clinicalPresentation: {"history":["慢性眼睛分泌物（黏液膿性）","反覆結膜炎","眼睛紅腫","頻繁眨眼或搔眼"],"physicalExam":["角膜表面無光澤乾燥","黏液膿性分泌物","結膜充血","角膜血管新生","角膜色素沉著","角膜潰瘍（繼發）","角膜混濁"]},
@@ -17339,7 +17339,7 @@ const DISEASE_INFO = {
   "pneumothorax": {
     zh: "氣胸",
     en: "Pneumothorax",
-    definition: "空氣積聚於胸膜腔內，導致肺臟塌陷和呼吸困難。可為創傷性、自發性或醫源性。",
+    definition: "氣胸是指空氣異常進入胸膜腔導致肺臟塌陷的呼吸急症。分外傷性（肋骨骨折、穿刺傷、最常見）、自發性（肺泡破裂形成肺大泡，大型深胸犬好發）和張力性（空氣只進不出，快速致命）。臨床表現為呼吸急促、呼吸困難和胸部叩診鼓音。緊急胸腔穿刺排氣為首要處置。",
     synonyms: ["胸腔積氣"],
     epidemiology: {"species":"犬貓皆可發生","age":"創傷性：任何年齡；自發性：中老年犬","sex":"無明顯性別傾向","riskFactors":["胸部創傷（車禍、咬傷）","肺部腫瘤","肺大疱或肺氣腫","氣道疾病","胸腔穿刺術後","機械通氣"]},
     clinicalPresentation: {"history":["急性呼吸困難","創傷史","突然發作的呼吸窘迫","運動不耐受","開放性胸部傷口"],"physicalExam":["呼吸困難（限制型呼吸）","心肺聽診減弱（背側）","叩診呈過度共鳴音","心搏過速","黏膜蒼白或發紺","張力性氣胸時可見頸靜脈怒張、休克","皮下氣腫（部分病例）"]},
@@ -17363,7 +17363,7 @@ const DISEASE_INFO = {
   "pyothorax": {
     zh: "膿胸",
     en: "Pyothorax",
-    definition: "胸膜腔內感染性滲出液積聚，通常為細菌感染引起的化膿性胸膜炎。",
+    definition: "膿胸是指胸膜腔內膿液蓄積的嚴重感染性疾病。貓最常見（可能與貓間咬傷相關），犬多與異物穿透或食道穿孔有關。致病菌多為混合厭氧菌和需氧菌。臨床表現為發燒、呼吸困難和全身毒血症。治療需胸管引流沖洗配合長期（4-6週）抗生素，內科治癒率約80-90%。",
     synonyms: ["化膿性胸膜炎","胸腔膿瘍","Empyema"],
     epidemiology: {"species":"犬貓皆可發生，貓可能更常見","age":"任何年齡，年輕至中年多見","sex":"未絕育公貓風險較高（打架咬傷）","riskFactors":["穿透性胸部傷口","咬傷","異物吸入（草芒）","食道穿孔","肺部感染擴散","胸腔手術後","免疫抑制"]},
     clinicalPresentation: {"history":["進行性呼吸困難","發燒","厭食和消瘦","嗜睡","近期打架或外傷史","病程數天至數週"],"physicalExam":["呼吸困難（限制型）","發燒","肺部腹側聽診減弱","叩診濁音","脫水","消瘦","黏膜蒼白","胸部傷口（部分病例）","口腔惡臭（厭氧菌）"]},
@@ -17387,7 +17387,7 @@ const DISEASE_INFO = {
   "chylothorax": {
     zh: "乳糜胸",
     en: "Chylothorax",
-    definition: "乳糜液（富含三酸甘油酯的淋巴液）積聚於胸膜腔，通常因胸管破裂或阻塞所致。",
+    definition: "乳糜胸是指富含乳糜微粒的淋巴液（乳糜）蓄積於胸膜腔的疾病。大多數犬貓為特發性，已知原因包括前縱膈腫瘤（淋巴瘤、胸腺瘤）、右心衰竭、心包疾病和胸導管損傷。Afghan Hound和暹羅貓可能有品種傾向。胸水呈乳白色，三酸甘油酯濃度高於血清為診斷依據。",
     synonyms: ["乳糜性胸腔積液"],
     epidemiology: {"species":"犬貓皆可發生","age":"犬：任何年齡；貓：老年貓較多","sex":"無明顯性別傾向","riskFactors":["阿富汗獵犬和暹羅貓有品種好發性","前縱膈腫瘤","心臟病（尤其右心衰竭）","創傷","心絲蟲病","先天性胸管異常"]},
     clinicalPresentation: {"history":["漸進性呼吸困難","咳嗽","運動不耐受","厭食","體重減輕"],"physicalExam":["呼吸困難（限制型）","肺部腹側聽診減弱","心音減弱","叩診濁音","消瘦","可能觸及前縱膈腫塊"]},
@@ -17435,7 +17435,7 @@ const DISEASE_INFO = {
   "legg-calve-perthes": {
     zh: "股骨頭無菌性壞死",
     en: "Legg-Calvé-Perthes Disease",
-    definition: "幼犬股骨頭因血供中斷導致的無菌性壞死，又稱股骨頭缺血性壞死。主要影響小型犬。",
+    definition: "股骨頭無菌性壞死（Legg-Calvé-Perthes病）是幼齡小型犬因股骨頭血液供應中斷導致股骨頭和頸部缺血性壞死的骨科疾病。Yorkshire Terrier、Poodle、West Highland White Terrier等5-8月齡小型犬好發。單側居多（85%）。疼痛性後肢跛行為主要表現。股骨頭切除術（FHO）為標準治療。",
     synonyms: ["股骨頭缺血性壞死","Avascular Necrosis of Femoral Head","LCPD"],
     epidemiology: {"species":"犬（小型犬），貓極罕見","age":"3-13月齡，多在5-8月齡發病","sex":"無明顯性別傾向","riskFactors":["小型犬種（約克夏梗、迷你貴賓、西高地白梗、曼徹斯特梗、吉娃娃）","遺傳因素（常染色體隱性遺傳）","體重<12公斤"]},
     clinicalPresentation: {"history":["漸進性後肢跛行","單側多見（約85%）","不願承重","跛行逐漸加重","髖關節活動時疼痛","病程數週至數月"],"physicalExam":["患側後肢肌肉萎縮","髖關節外展和伸展時疼痛","髖關節活動度減少","患肢縮短（塌陷後）","可能觸及骨摩擦感"]},
@@ -17459,7 +17459,7 @@ const DISEASE_INFO = {
   "panosteitis": {
     zh: "全骨炎",
     en: "Panosteitis",
-    definition: "犬的自限性骨骼疾病，以長骨骨髓腔內炎症為特徵，引起移行性跛行。",
+    definition: "全骨炎是幼齡大型犬長骨骨髓腔的自限性炎症性疾病，以急性起始的遊走性跛行為特徵。German Shepherd 5-18月齡最好發，公犬比母犬多4倍。X光可見骨髓腔內斑片狀骨質密度增加。通常在2歲前自行緩解，每次發作持續2-3週。止痛治療即可，無需手術。",
     synonyms: ["全骨炎","遊走性跛行","Eosinophilic Panosteitis","Pano"],
     epidemiology: {"species":"犬（中大型犬），貓極罕見","age":"5-18月齡，偶見於更大年齡","sex":"公犬較常見（約4:1）","riskFactors":["德國牧羊犬最常見（其他大型犬也可發生）","快速生長","高蛋白飲食","遺傳傾向"]},
     clinicalPresentation: {"history":["急性跛行","跛行可在不同肢體間移行","發燒","厭食","間歇性發作和緩解","自限性（通常2-5個月內自行緩解）"],"physicalExam":["長骨幹壓痛（深壓骨幹中段）","跛行（可能嚴重到不願承重）","發燒（39.5-40.5°C）","肌肉萎縮（受影響肢體）","前肢較後肢常見","多個肢體可同時或先後受累"]},
@@ -17483,7 +17483,7 @@ const DISEASE_INFO = {
   "fracture": {
     zh: "骨折",
     en: "Fracture",
-    definition: "骨骼連續性中斷，可為完全性或不完全性，由外力超過骨骼承受力所致。",
+    definition: "骨折是骨骼完整性遭破壞的創傷性或病理性疾病。犬貓最常見原因為交通事故和高處墜落。依骨折類型分橫斷、斜形、螺旋、粉碎和青枝骨折；依開放程度分閉鎖性和開放性（骨折端穿透皮膚）。長骨骨折（股骨、脛骨、肱骨、橈尺骨）最常見。治療以外科固定（接骨板、髓內釘、外固定架）為主。",
     synonyms: ["Bone Fracture"],
     epidemiology: {"species":"犬貓皆常見","age":"任何年齡，幼年和老年動物風險較高","sex":"無明顯性別傾向，未絕育雄性因遊蕩行為風險稍高","riskFactors":["車禍","高處墜落（貓）","玩具犬種骨骼脆弱","骨質疏鬆","營養性次發性副甲狀腺亢進","骨腫瘤（病理性骨折）","代謝性骨病"]},
     clinicalPresentation: {"history":["急性跛行或無法承重","外傷史","墜落史","突然尖叫或嗥叫","無已知外傷（病理性骨折）"],"physicalExam":["患肢疼痛和腫脹","肢體變形或縮短","骨摩擦感（Crepitus）","患肢異常活動","無法承重","軟組織腫脹和瘀傷","開放性骨折：骨外露或傷口","可能伴隨其他外傷（氣胸、腹部損傷）"]},
@@ -17696,7 +17696,7 @@ const DISEASE_INFO = {
   "grape-raisin-toxicosis": {
     zh: "葡萄/葡萄乾中毒",
     en: "Grape and Raisin Toxicosis",
-    definition: "犬攝入葡萄、葡萄乾或醋栗後引起的急性腎小管壞死和腎衰竭。",
+    definition: "葡萄/葡萄乾中毒是犬攝入葡萄、葡萄乾、醋栗或含葡萄產品後引起的潛在致命性腎毒性。毒性物質疑為酒石酸（tartaric acid），且個體易感性差異極大。中毒劑量無明確閾值。臨床表現從輕度嘔吐到致命性急性腎小管壞死和無尿型腎衰竭。早期催吐和積極靜脈輸液是關鍵。",
     synonyms: ["葡萄中毒","葡萄乾中毒"],
     epidemiology: {"species":"犬（貓和雪貂也可能受影響）","age":"任何年齡","sex":"無性別傾向","riskFactors":["接觸葡萄、葡萄乾、醋栗、含葡萄乾的食品","個體敏感性差異大（部分犬攝入後無症狀）"]},
     clinicalPresentation: {"history":["攝入葡萄或葡萄乾","嘔吐（攝入後數小時內）","腹瀉","厭食和嗜睡","少尿或無尿（腎衰竭時）","腹痛"],"physicalExam":["嘔吐（嘔吐物中可能含葡萄殘渣）","腹部觸診疼痛（腎區）","脫水","口腔潰瘍（尿毒症）","少尿或無尿","嗜睡和虛弱"]},
@@ -17792,7 +17792,7 @@ const DISEASE_INFO = {
   "snake-envenomation": {
     zh: "蛇咬傷中毒",
     en: "Snake Envenomation",
-    definition: "毒蛇咬傷犬貓後注入毒液引起的中毒症候群，臨床表現取決於蛇種和毒液類型。",
+    definition: "蛇咬傷中毒是犬貓遭毒蛇咬傷後毒液引起的全身性中毒反應。台灣常見毒蛇包括龜殼花、青竹絲（出血性毒）、眼鏡蛇和雨傘節（神經性毒）。出血性蛇毒以凝血障礙、組織壞死和腫脹為主；神經性蛇毒以神經肌肉麻痺和呼吸衰竭為主。抗蛇毒血清為特異性治療。",
     synonyms: ["蛇毒中毒","Snake Bite Envenomation","蛇咬中毒"],
     epidemiology: {"species":"犬較常見（好奇心驅使接近蛇），貓也可發生","age":"任何年齡","sex":"無性別傾向","riskFactors":["戶外活動","農村或郊區環境","好奇心強的犬","溫暖季節（蛇活動高峰）","黃昏和清晨時段"]},
     clinicalPresentation: {"history":["目擊蛇咬或懷疑蛇咬","急性腫脹（咬傷部位）","面部常見（犬探查蛇時）","嘔吐","虛弱和昏厥","症狀進展迅速"],"physicalExam":["咬傷部位腫脹、疼痛和瘀斑","穿刺傷（可能不明顯）","蝮蛇毒：局部腫脹壞死、凝血障礙、低血壓","眼鏡蛇/神經毒：瞳孔散大、肌肉麻痺、呼吸衰竭","心搏過速和低血壓","出血傾向（牙齦出血、血尿）"]},
@@ -18008,7 +18008,7 @@ const DISEASE_INFO = {
   "myocarditis": {
     zh: "心肌炎",
     en: "Myocarditis",
-    definition: "心肌的發炎性疾病，可由感染性、免疫媒介性或毒素引起，導致心肌損傷及心功能障礙。",
+    definition: "心肌炎是心肌的炎症性疾病，可由感染（Trypanosoma cruzi、Parvovirus、Borrelia）、免疫介導、毒素或特發性因素引起。犬以感染性最常見，貓較罕見。輕度者無症狀，重度者以急性心衰、心律不整或猝死為表現。心肌肌鈣蛋白（cTnI）升高有診斷價值。確定診斷需心肌活檢。",
     synonyms: ["心肌發炎","Inflammatory Cardiomyopathy"],
     epidemiology: {"species":"犬貓皆可發生","age":"任何年齡，幼犬（犬小病毒）及中年犬（免疫媒介性）較常見","sex":"無明顯性別傾向","riskFactors":["犬小病毒感染","錐蟲感染（Chagas病）","細菌性心內膜炎","免疫媒介性疾病","藥物毒性（Doxorubicin）"]},
     clinicalPresentation: {"history":["突發虛弱或昏厥","運動不耐受","呼吸困難","猝死","嘔吐腹瀉（犬小病毒時）"],"physicalExam":["心律不整","奔馬律","心雜音（二尖瓣逆流）","肺水腫聽診異常","脈搏弱","低體溫（休克）"]},
@@ -18200,7 +18200,7 @@ const DISEASE_INFO = {
   "pulmonary-contusion": {
     zh: "肺挫傷",
     en: "Pulmonary Contusion",
-    definition: "胸部鈍性創傷導致的肺實質出血和水腫，為犬貓胸部外傷最常見的併發症。",
+    definition: "肺挫傷是外傷導致肺實質出血和水腫的常見急症，為犬貓胸部創傷最常見的損傷。多見於交通事故、高處墜落和動物攻擊。外傷動能傳遞至肺泡毛細血管→血管破裂→肺泡內出血→氣體交換障礙→低氧血症。影像學改變在受傷後12-24小時最明顯。輕中度多在3-5天自行吸收。",
     synonyms: ["肺部挫傷","Lung Contusion","Lung Bruise"],
     epidemiology: {"species":"犬貓皆可發生","age":"任何年齡","sex":"無明顯性別傾向","riskFactors":["車禍","高處墜落","踢傷","胸部鈍傷"]},
     clinicalPresentation: {"history":["已知胸部外傷","呼吸困難","車禍","高處墜落","咳血"],"physicalExam":["呼吸急促","呼吸困難","肺部囉音","胸壁瘀傷","發紺","心搏過速","可能合併肋骨骨折、氣胸"]},
@@ -18773,7 +18773,7 @@ const DISEASE_INFO = {
   "spinal-fracture-luxation": {
     zh: "脊椎骨折脫位",
     en: "Spinal Fracture-Luxation",
-    definition: "脊椎骨折和/或脫位導致的脊椎結構不穩定和脊髓損傷，最常見原因為車禍創傷。",
+    definition: "脊椎骨折脫位是外傷導致脊椎骨折和/或椎體間脫位的急症，以胸腰段交界處（T11-L2）最常見（此處為活動度高/低的轉換區）。嚴重度取決於脊髓損傷程度，從輕度不全癱到深層痛覺喪失的完全癱瘓。犬貓最常見原因為交通事故。三柱理論（three-column theory）指導手術穩定的決策。",
     synonyms: ["Vertebral Fracture","Spinal Luxation","脊椎骨折","脊椎脫位"],
     epidemiology: {"species":"犬貓皆可","age":"任何年齡，年輕活動量大的動物較多","sex":"無明顯性別傾向","riskFactors":["車禍","高處墜落","被重物撞擊","骨質疏鬆（老年或代謝性骨病）","脊椎腫瘤（病理性骨折）"]},
     clinicalPresentation: {"history":["已知創傷事件","突然無法行走或後肢癱瘓","脊椎疼痛","排尿排便失控"],"physicalExam":["脊椎觸診疼痛和可能的錯位感","癱瘓或不全癱瘓（取決於損傷程度和位置）","相應脊髓節段以下的神經功能缺損","深部痛覺評估（關鍵預後指標）","膀胱功能異常","Schiff-Sherrington姿勢（胸腰段嚴重損傷）"]},
@@ -18821,7 +18821,7 @@ const DISEASE_INFO = {
   "otitis-media": {
     zh: "中耳炎",
     en: "Otitis Media",
-    definition: "中耳腔的發炎性或感染性疾病，最常繼發於慢性外耳炎，鼓膜穿孔後細菌侵入中耳。",
+    definition: "中耳炎是中耳腔（鼓室）的感染或炎症性疾病，超過50%的慢性外耳炎犬合併中耳炎。最常見為外耳炎經鼓膜蔓延而來，致病菌包括Staphylococcus、Pseudomonas和Malassezia。貓的中耳炎可繼發於鼻咽息肉或上呼吸道感染經耳咽管逆行感染。可導致周邊前庭症狀和面神經麻痺（Horner症候群）。",
     synonyms: ["Middle Ear Infection","中耳感染"],
     epidemiology: {"species":"犬貓皆可","age":"任何年齡，與慢性外耳炎相關","sex":"無明顯性別傾向","riskFactors":["慢性或反覆發作的外耳炎","垂耳犬種","耳道狹窄犬種","鼻咽息肉（貓）","過敏性皮膚病","異物"]},
     clinicalPresentation: {"history":["慢性外耳炎治療反應差","頭部傾斜","搖頭","耳朵疼痛","聽力下降","面神經麻痺"],"physicalExam":["鼓膜異常（不透明、膨出、穿孔或缺失）","外耳道分泌物","頭部傾斜向患側","Horner氏症候群（貓較常見）","面神經癱瘓（眼瞼下垂、唇下垂）","耳朵觸診疼痛"]},
