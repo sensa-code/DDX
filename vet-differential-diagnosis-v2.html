@@ -2050,6 +2050,15 @@ const DISEASE_INFO = {
     },
     prognosis: "及時治療預後良好。嚴重出血（腦、心包）預後差。",
     pearls: ["第二代滅鼠劑（brodifacoum等）作用更強、持續更久", "Vitamin K1需口服或皮下，不可靜脈（過敏反應）", "治療時間：第一代2週，第二代4-6週", "停藥後48-72h複查PT確認療程足夠"],
+    diagnosticAlgorithm: {
+      title: "抗凝血鼠藥中毒 診斷流程",
+      steps: [
+        { step: 1, action: "暴露史與出血", details: "確認鼠藥接觸史+出血傾向", findings: ["攝入抗凝血鼠藥史", "瘀青、血尿、呼吸困難"] },
+        { step: 2, action: "凝血功能", details: "PT/aPTT/ACT檢查", findings: ["PT顯著延長（最早24-48小時）", "aPTT也延長"] },
+        { step: 3, action: "PIVKA檢測", details: "維生素K拮抗蛋白檢測", findings: ["PIVKA陽性確認抗凝血效應", "凝血因子II, VII, IX, X下降"] },
+        { step: 4, action: "維生素K1治療", details: "Vitamin K1 2.5-5 mg/kg PO分次給予", findings: ["PT 48小時後複檢應正常化", "需持續治療4-6週"] }
+      ]
+    },
     monitoring: ["PT（停藥後48-72h）", "PCV/TS", "出血徵象"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2083,6 +2092,15 @@ const DISEASE_INFO = {
     },
     prognosis: "輕度中毒預後良好。嚴重心律不整或癲癇預後謹慎。",
     pearls: ["毒性：烘焙巧克力>黑巧克力>牛奶巧克力>白巧克力", "可可鹼犬LD50約100-200 mg/kg", "計算攝入量很重要", "可可鹼半衰期長（犬17.5小時），症狀可持續較久"],
+    diagnosticAlgorithm: {
+      title: "巧克力中毒 診斷流程",
+      steps: [
+        { step: 1, action: "暴露評估", details: "確認巧克力種類和攝入量", findings: ["計算甲基黃嘌呤總劑量（mg/kg）", "黑巧克力>烘焙巧克力>牛奶巧克力"] },
+        { step: 2, action: "臨床分級", details: "依劑量預測毒性等級", findings: ["可可鹼>20 mg/kg：GI症狀", ">40 mg/kg：心臟毒性風險"] },
+        { step: 3, action: "監測", details: "心電圖+血壓+神經監測", findings: ["竇性心搏過速/室性心律不整", "躁動、震顫、癲癇"] },
+        { step: 4, action: "去汙+支持治療", details: "催吐+活性碳+輸液支持", findings: ["攝入2小時內催吐效果最佳", "活性碳 1-2 g/kg PO"] }
+      ]
+    },
     monitoring: ["ECG", "心率", "體溫", "神經狀態"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2116,6 +2134,15 @@ const DISEASE_INFO = {
     },
     prognosis: "單純低血糖及時治療預後良好。發展為急性肝衰竭預後差。",
     pearls: ["低血糖劑量：>100 mg/kg", "肝毒性劑量：>500 mg/kg", "一片口香糖可含300-1500 mg木糖醇", "貓對木糖醇不敏感", "症狀可在攝入後30分鐘內出現"],
+    diagnosticAlgorithm: {
+      title: "木糖醇中毒 診斷流程",
+      steps: [
+        { step: 1, action: "暴露確認", details: "確認木糖醇攝入量和時間", findings: [">0.1 g/kg：低血糖風險", ">0.5 g/kg：肝衰竭風險"] },
+        { step: 2, action: "血糖監測", details: "每30分鐘監測血糖", findings: ["低血糖可在攝入後10-60分鐘出現", "血糖<60 mg/dL需緊急處理"] },
+        { step: 3, action: "肝功能", details: "12-24小時後追蹤肝指數", findings: ["ALT/AST急性升高", "PT延長提示肝衰竭"] },
+        { step: 4, action: "積極支持", details: "Dextrose CRI+肝保護", findings: ["Dextrose 2.5-5% CRI維持血糖", "監測72小時肝功能變化"] }
+      ]
+    },
     monitoring: ["血糖q1-2h", "肝指數每日", "凝血功能", "神經狀態"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2149,6 +2176,15 @@ const DISEASE_INFO = {
     },
     prognosis: "輕度預後良好。嚴重消化道穿孔或急性腎衰竭預後差。",
     pearls: ["Ibuprofen毒性劑量：犬>50 mg/kg，貓更低", "貓對所有NSAID都更敏感", "消化道症狀通常先出現，腎臟毒性可延遲", "不要同時使用NSAID和類固醇"],
+    diagnosticAlgorithm: {
+      title: "NSAID中毒 診斷流程",
+      steps: [
+        { step: 1, action: "暴露評估", details: "確認NSAID種類、劑量和時間", findings: ["Ibuprofen犬毒性劑量>50 mg/kg", "貓對所有NSAID極度敏感"] },
+        { step: 2, action: "腎功能+電解質", details: "BUN/Crea/電解質監測", findings: ["肌酸酐升高提示腎損傷", "高血鉀需監測"] },
+        { step: 3, action: "GI評估", details: "糞便潛血+腹部觸診", findings: ["黑便或血便", "腹部疼痛/壓痛"] },
+        { step: 4, action: "去汙+GI保護", details: "催吐+活性碳+GI保護劑", findings: ["Sucralfate+Omeprazole", "靜脈輸液維持腎灌流"] }
+      ]
+    },
     monitoring: ["BUN/Crea", "糞便顏色", "嘔吐/腹痛", "PCV/TS"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2182,6 +2218,15 @@ const DISEASE_INFO = {
     },
     prognosis: "早期治療預後良好。嚴重甲基血紅蛋白血症（>50%）預後差。",
     pearls: ["貓致死劑量僅50-100 mg/kg（一顆普拿疼即可致死）", "NAC需盡早使用（<8小時效果最佳）", "貓面部水腫是特徵表現", "犬較貓耐受但高劑量仍有肝毒性"],
+    diagnosticAlgorithm: {
+      title: "對乙醯氨基酚中毒 診斷流程",
+      steps: [
+        { step: 1, action: "暴露確認", details: "確認攝入劑量（貓極低毒性閾值）", findings: ["貓：>10 mg/kg即有毒性", "犬：>150 mg/kg"] },
+        { step: 2, action: "血液學", details: "CBC+MetHb+Heinz body", findings: ["變性血紅素血症（MetHb升高）", "Heinz body出現"] },
+        { step: 3, action: "肝功能", details: "肝酵素+膽紅素追蹤", findings: ["犬：肝毒性為主（ALT升高）", "貓：氧化損傷為主（發紺）"] },
+        { step: 4, action: "NAC解毒", details: "N-acetylcysteine 140 mg/kg IV loading", findings: ["維持劑量 70 mg/kg q6h × 7次", "SAMe作為輔助肝保護"] }
+      ]
+    },
     monitoring: ["甲基血紅蛋白水平", "肝指數", "PCV（溶血）"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2215,6 +2260,15 @@ const DISEASE_INFO = {
     },
     prognosis: "早期治療（攝入<6小時）預後較好。發展為無尿性腎衰竭預後差。",
     pearls: ["毒性劑量變異大（有犬吃1顆即中毒，有犬吃大量無事）", "葡萄乾毒性可能比葡萄更強（濃縮）", "所有類型葡萄都可能有毒", "早期積極輸液是關鍵"],
+    diagnosticAlgorithm: {
+      title: "葡萄/葡萄乾中毒 診斷流程",
+      steps: [
+        { step: 1, action: "暴露確認", details: "確認攝入葡萄/葡萄乾量", findings: ["葡萄乾毒性高於葡萄", "目前無安全劑量（個體差異大）"] },
+        { step: 2, action: "腎功能基線", details: "BUN/Crea/SDMA+尿液分析", findings: ["攝入後24-72小時腎指數升高", "尿液比重下降/蛋白尿"] },
+        { step: 3, action: "去汙", details: "催吐+活性碳（攝入6小時內）", findings: ["催吐後確認嘔出葡萄殘渣", "活性碳可減少吸收"] },
+        { step: 4, action: "積極輸液", details: "48-72小時靜脈輸液保護腎臟", findings: ["維持尿量>2 mL/kg/hr", "每12小時複檢腎功能"] }
+      ]
+    },
     monitoring: ["BUN/Crea q12-24h", "尿量", "電解質"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2248,6 +2302,15 @@ const DISEASE_INFO = {
     },
     prognosis: "6小時內治療預後較好。18小時後治療預後差。無尿超過24小時幾乎無望。",
     pearls: ["所有部分都有毒（花粉、花瓣、葉、莖）", "極少量即可致命（咬一口或舔到花粉）", "真百合和萱草最毒，和平百合毒性較低", "早期積極輸液是救命關鍵"],
+    diagnosticAlgorithm: {
+      title: "百合中毒 診斷流程",
+      steps: [
+        { step: 1, action: "暴露確認", details: "確認百合品種（真百合屬致命）", findings: ["Lilium和Hemerocallis屬對貓有腎毒性", "所有部位均有毒（花粉也危險）"] },
+        { step: 2, action: "腎功能監測", details: "每12小時追蹤BUN/Crea/電解質", findings: ["攝入後12-24小時開始氮質血症", "72小時內可進展至無尿性腎衰竭"] },
+        { step: 3, action: "緊急去汙", details: "立即催吐+活性碳+皮膚清洗", findings: ["攝入6小時內催吐", "皮膚沾染花粉需徹底沖洗"] },
+        { step: 4, action: "積極輸液", details: "48-72小時IV輸液（2-3倍維持量）", findings: ["維持良好尿量", "預後取決於治療開始時間"] }
+      ]
+    },
     monitoring: ["BUN/Crea q12-24h", "尿量（目標>1-2 mL/kg/h）", "電解質"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2281,6 +2344,15 @@ const DISEASE_INFO = {
     },
     prognosis: "單純大麻中毒預後良好。若含其他成分（edibles可能含巧克力、木糖醇）預後取決於混合物。",
     pearls: ["Edibles毒性可能比吸入更嚴重", "需詢問是否混合其他毒素", "人類尿液檢測在犬敏感性較低", "主人可能不願承認接觸史"],
+    diagnosticAlgorithm: {
+      title: "大麻中毒 診斷流程",
+      steps: [
+        { step: 1, action: "暴露史", details: "確認攝入大麻產品種類和量", findings: ["THC食用品比乾燥植物毒性高", "飼主可能不願意坦承"] },
+        { step: 2, action: "臨床特徵", details: "典型神經+泌尿症狀辨識", findings: ["共濟失調+瞳孔散大+尿失禁", "對聲音過度敏感/嗜睡"] },
+        { step: 3, action: "尿液篩檢", details: "人用THC尿液快篩（參考用）", findings: ["陽性支持診斷但非確診", "假陰性可能（代謝物不同）"] },
+        { step: 4, action: "支持治療", details: "監測+防吸入+維持體溫", findings: ["大多數24-72小時自行恢復", "嚴重案例需IV輸液和抗嘔吐"] }
+      ]
+    },
     monitoring: ["心率、體溫", "神經狀態", "生命徵象"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2314,6 +2386,15 @@ const DISEASE_INFO = {
     },
     prognosis: "早期積極治療預後良好。嚴重高體溫（>42°C）可致永久性神經損傷或死亡。",
     pearls: ["「Shake and bake」：震顫+高體溫是特徵", "高體溫是主要死因", "肌肉震顫可持續數天", "餌劑常被誤認為飼料"],
+    diagnosticAlgorithm: {
+      title: "蝸牛餌中毒 診斷流程",
+      steps: [
+        { step: 1, action: "暴露確認", details: "確認聚乙醛(metaldehyde)接觸", findings: ["攝入蝸牛餌或污染水源", "症狀可在攝入1-4小時出現"] },
+        { step: 2, action: "臨床辨識", details: "典型肌肉震顫+過熱", findings: ["全身性肌肉震顫/強直", "體溫>41°C（惡性高熱）"] },
+        { step: 3, action: "支持診斷", details: "排除其他震顫原因", findings: ["血氣：代謝性酸中毒", "排除有機磷、strychnine"] },
+        { step: 4, action: "積極冷卻+肌鬆", details: "控制震顫+降溫+輸液", findings: ["Methocarbamol 55-220 mg/kg IV", "冷水浴+IV輸液直到穩定"] }
+      ]
+    },
     monitoring: ["體溫q15-30min", "癲癇頻率", "CK", "肝腎功能"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2347,6 +2428,15 @@ const DISEASE_INFO = {
     },
     prognosis: "積極治療預後良好。多數貓在2-3天內完全恢復。",
     pearls: ["「Never use dog products on cats」", "貓的耳朵震顫是特徵表現", "Methocarbamol是首選肌肉鬆弛劑", "即使少量接觸也可能中毒"],
+    diagnosticAlgorithm: {
+      title: "除蟲菊酯中毒 診斷流程",
+      steps: [
+        { step: 1, action: "暴露確認", details: "確認高濃度除蟲菊酯接觸（尤其貓）", findings: ["犬用除蚤產品誤用於貓", "接觸後數小時出現症狀"] },
+        { step: 2, action: "臨床辨識", details: "典型肌肉震顫和癲癇", findings: ["耳部震顫→全身性震顫", "癲癇發作（嚴重案例）"] },
+        { step: 3, action: "去汙", details: "溫水+洗碗精徹底清洗", findings: ["去除皮膚殘留藥物", "避免用含除蟲菊酯的寵物洗毛精"] },
+        { step: 4, action: "控制震顫", details: "Methocarbamol+支持治療", findings: ["Methocarbamol 55-220 mg/kg IV", "大多數48-72小時恢復"] }
+      ]
+    },
     monitoring: ["震顫程度", "體溫", "癲癇", "神經狀態"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2508,6 +2598,15 @@ const DISEASE_INFO = {
     },
     prognosis: "單純關節炎預後良好。Lyme腎病預後差至無望。",
     pearls: ["大多數感染犬無臨床症狀", "Lyme腎病好發於Labrador和Golden Retriever", "疫苗可考慮用於流行區", "C6抗體陽性不代表有臨床疾病"],
+    diagnosticAlgorithm: {
+      title: "萊姆病 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "壁蝨暴露區犬隻急性跛行", findings: ["間歇性跛行+關節腫脹", "發燒+食慾下降+嗜睡"] },
+        { step: 2, action: "血清學篩檢", details: "SNAP 4Dx快篩+C6抗體", findings: ["C6抗體陽性", "區分感染和疫苗反應"] },
+        { step: 3, action: "確認性檢測", details: "Quant C6 + 尿蛋白肌酸酐比", findings: ["Quant C6 >30 U/mL提示活動感染", "UPC排除蛋白流失性腎病"] },
+        { step: 4, action: "Doxycycline治療", details: "Doxycycline 10 mg/kg PO q24h × 30天", findings: ["臨床改善通常48-72小時內", "4-6個月後複檢C6滴度"] }
+      ]
+    },
     monitoring: ["關節症狀", "UPC", "BUN/Crea（若有腎病）"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2583,6 +2682,15 @@ const DISEASE_INFO = {
     },
     prognosis: "Class 1-2預後良好。Class 3-4（心衰竭）預後謹慎。貓預後較犬差。",
     pearls: ["運動限制是治療成功的關鍵", "殺蟲後可能有肺栓塞風險", "貓的心絲蟲病可突然死亡", "預防勝於治療"],
+    diagnosticAlgorithm: {
+      title: "心絲蟲病 診斷流程",
+      steps: [
+        { step: 1, action: "抗原篩檢", details: "心絲蟲抗原快篩", findings: ["抗原陽性（偵測成蟲雌蟲）", "注意：低蟲量或純雄蟲可假陰性"] },
+        { step: 2, action: "確認+分期", details: "微絲蟲鏡檢+胸部X光", findings: ["Modified Knott's test找微絲蟲", "X光：肺動脈擴張+右心擴大"] },
+        { step: 3, action: "心臟超音波", details: "評估蟲體數量和心臟功能", findings: ["肺動脈和右心室見蟲體", "右心功能和肺動脈壓評估"] },
+        { step: 4, action: "殺蟲治療", details: "Melarsomine IM（三次注射法）", findings: ["AHS分期決定治療方案", "治療期間嚴格限制運動"] }
+      ]
+    },
     monitoring: ["運動限制遵從性", "臨床症狀", "治療後6月抗原檢測"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2616,6 +2724,15 @@ const DISEASE_INFO = {
     },
     prognosis: "輕度呼吸型可能康復。神經型預後差。死亡率可達50%以上。",
     pearls: ["神經症狀可能在全身症狀恢復後才出現", "肌陣攣是特徵性神經症狀", "疫苗可有效預防", "康復犬可能有永久神經後遺症"],
+    diagnosticAlgorithm: {
+      title: "犬瘟熱 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "未接種幼犬多系統症狀", findings: ["發燒+眼鼻分泌物+咳嗽", "嘔吐腹瀉+神經症狀"] },
+        { step: 2, action: "快速檢測", details: "CDV抗原快篩（結膜或鼻腔）", findings: ["CDV Ag SNAP陽性", "敏感度有限（陰性不能排除）"] },
+        { step: 3, action: "確認性檢測", details: "RT-PCR（血液、尿液或CSF）", findings: ["RT-PCR敏感度和特異度高", "CSF PCR確認神經型犬瘟熱"] },
+        { step: 4, action: "支持治療", details: "抗生素預防繼發感染+支持療法", findings: ["預後取決於神經受累程度", "肌陣攣為預後不良指標"] }
+      ]
+    },
     monitoring: ["神經狀態", "繼發感染", "營養狀態"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2649,6 +2766,15 @@ const DISEASE_INFO = {
     },
     prognosis: "輕度感染可康復。猛爆性肝衰竭死亡率高。「藍眼」通常可自行恢復。",
     pearls: ["「藍眼」是康復期角膜免疫反應", "疫苗使用CAV-2（交叉保護且不引起藍眼）", "康復後可長期排毒", "現已少見因疫苗普及"],
+    diagnosticAlgorithm: {
+      title: "犬傳染性肝炎 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "幼犬急性發燒+肝腫大+凝血異常", findings: ["發燒+嘔吐+腹痛", "肝臟腫大+黃疸"] },
+        { step: 2, action: "血液生化", details: "CBC+肝功能+凝血功能", findings: ["白血球減少→隨後升高", "ALT/ALP顯著升高+PT延長"] },
+        { step: 3, action: "確認性檢測", details: "血清學或PCR", findings: ["CAV-1抗體效價升高（4倍以上）", "肝臟或尿液PCR確認"] },
+        { step: 4, action: "支持治療", details: "輸液+肝保護+凝血因子", findings: ["恢復期可出現藍眼病（角膜水腫）", "1-2週自限性"] }
+      ]
+    },
     monitoring: ["肝功能", "凝血功能", "眼睛"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2682,6 +2808,15 @@ const DISEASE_INFO = {
     },
     prognosis: "單純病毒/細菌性預後良好。繼發肺炎預後取決於嚴重度。",
     pearls: ["「Bordetella疫苗」只是部分保護", "多數7-14天自癒", "氣管敏感（Tracheal pinch）陽性支持診斷", "止咳藥在有肺炎時禁忌"],
+    diagnosticAlgorithm: {
+      title: "犬舍咳 診斷流程",
+      steps: [
+        { step: 1, action: "臨床診斷", details: "典型鵝鳴樣咳嗽+犬群暴露史", findings: ["乾性陣發性咳嗽+嘔吐樣動作", "氣管觸診誘發咳嗽"] },
+        { step: 2, action: "排除併發症", details: "聽診+胸部X光", findings: ["單純上呼吸道：肺音正常", "併發肺炎：支氣管肺泡音"] },
+        { step: 3, action: "病原鑑定", details: "PCR呼吸道panel（嚴重或群發時）", findings: ["Bordetella, CIV, CPiV, CAV-2", "鑑定有助群體防疫決策"] },
+        { step: 4, action: "治療決策", details: "依嚴重度選擇支持或抗生素", findings: ["輕度：7-14天自限性", "重度/發燒：Doxycycline 5-10 mg/kg BID"] }
+      ]
+    },
     monitoring: ["呼吸狀態", "食慾", "發燒"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2715,6 +2850,15 @@ const DISEASE_INFO = {
     },
     prognosis: "持續感染貓中位存活約2-3年。死於感染或腫瘤。",
     pearls: ["約70%暴露貓可自行清除感染", "幼貓較易發展為持續感染", "與淋巴瘤、白血病高度相關", "疫苗可用於高風險貓"],
+    diagnosticAlgorithm: {
+      title: "貓白血病病毒 診斷流程",
+      steps: [
+        { step: 1, action: "抗原篩檢", details: "SNAP FeLV/FIV Combo快篩", findings: ["FeLV p27抗原ELISA陽性", "新貓入戶/疑似暴露必測"] },
+        { step: 2, action: "確認+分期", details: "IFA或PCR確認+CBC+生化", findings: ["IFA陽性=骨髓感染（持續性感染）", "IFA陰性+ELISA陽性=暫時性或早期"] },
+        { step: 3, action: "複檢", details: "30天後重複檢測確認持續感染", findings: ["兩次陽性間隔30天=持續性感染", "轉陰=暫時性感染已清除"] },
+        { step: 4, action: "併發症監測", details: "定期監測貧血、淋巴瘤和免疫抑制", findings: ["每6個月CBC+生化全套", "注意淋巴結腫大和體重變化"] }
+      ]
+    },
     monitoring: ["定期CBC", "淋巴結檢查", "體重"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2748,6 +2892,15 @@ const DISEASE_INFO = {
     },
     prognosis: "FIV陽性貓可存活多年，甚至正常壽命。死於AIDS期併發症。",
     pearls: ["比FeLV進展更慢", "許多FIV貓多年無症狀", "咬傷是主要傳播途徑", "不傳染給人類"],
+    diagnosticAlgorithm: {
+      title: "貓免疫不全病毒 診斷流程",
+      steps: [
+        { step: 1, action: "抗體篩檢", details: "SNAP FeLV/FIV Combo快篩", findings: ["FIV抗體陽性", "注意：疫苗接種後也會陽性"] },
+        { step: 2, action: "確認性檢測", details: "Western blot或proviral PCR", findings: ["Western blot確認", "PCR區分疫苗抗體和自然感染"] },
+        { step: 3, action: "免疫狀態評估", details: "CBC+CD4/CD8比值", findings: ["CD4/CD8比值反轉", "淋巴球減少提示免疫抑制進展"] },
+        { step: 4, action: "長期監測", details: "管理感染+預防併發症", findings: ["室內飼養防止傳播", "每6個月全面健檢"] }
+      ]
+    },
     monitoring: ["定期健康檢查", "口腔狀態", "體重"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2781,6 +2934,15 @@ const DISEASE_INFO = {
     },
     prognosis: "多數7-14天自癒。幼貓或免疫抑制貓可能嚴重或致命。",
     pearls: ["約80%貓URI是FHV-1或FCV", "FHV-1感染後終身潛伏", "口腔潰瘍提示FCV", "角膜樹突狀潰瘍提示FHV-1"],
+    diagnosticAlgorithm: {
+      title: "貓上呼吸道感染 診斷流程",
+      steps: [
+        { step: 1, action: "臨床診斷", details: "典型打噴嚏+眼鼻分泌物", findings: ["漿液性→膿性鼻分泌物", "結膜充血+口腔潰瘍（FCV）"] },
+        { step: 2, action: "嚴重度分級", details: "評估食慾、脫水、發燒", findings: ["輕度：食慾正常、活力好", "重度：厭食、脫水、發燒>40°C"] },
+        { step: 3, action: "病原鑑定", details: "PCR（僅群發或嚴重案例）", findings: ["FHV-1（疱疹）：角膜潰瘍常見", "FCV（杯狀）：口腔潰瘍為主"] },
+        { step: 4, action: "支持治療", details: "清潔眼鼻+營養支持+抗病毒", findings: ["FHV-1：L-Lysine有爭議/Famciclovir", "厭食>3天：警惕肝脂肪沉積"] }
+      ]
+    },
     monitoring: ["食慾", "呼吸狀態", "眼睛"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -2814,6 +2976,15 @@ const DISEASE_INFO = {
     },
     prognosis: "白血球<1000/μL預後差。及時治療存活率約50-70%。",
     pearls: ["幾乎等同於犬小病毒", "白血球減少程度是預後指標", "環境消毒困難，病毒可存活1年以上", "康復貓可排毒6週"],
+    diagnosticAlgorithm: {
+      title: "貓泛白血球減少症 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "未接種幼貓急性嘔吐+腹瀉+發燒", findings: ["出血性腹瀉+嚴重脫水", "發燒→後期可低體溫（預後差）"] },
+        { step: 2, action: "CBC", details: "完全血球計數", findings: ["白血球<2000/μL（泛白血球減少）", "淋巴球和嗜中性球同時下降"] },
+        { step: 3, action: "糞便快篩", details: "犬Parvo SNAP test用於貓", findings: ["CPV Ag快篩可用於偵測FPV", "注意：減毒活疫苗後7-14天可假陽性"] },
+        { step: 4, action: "積極支持治療", details: "IV輸液+抗嘔吐+抗生素+營養", findings: ["Maropitant止吐+Ampicillin/Metronidazole", "早期腸道營養改善預後"] }
+      ]
+    },
     monitoring: ["白血球計數", "電解質", "體溫"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3015,6 +3186,15 @@ const DISEASE_INFO = {
     },
     prognosis: "多數預後良好。肺炎死亡率約5-8%。",
     pearls: ["幾乎所有暴露犬都會感染（80%有症狀）", "H3N2比H3N8傳染性更強", "可傳染給貓", "潛伏期2-4天"],
+    diagnosticAlgorithm: {
+      title: "犬流感 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "犬群暴露後咳嗽+鼻分泌物", findings: ["持續10-21天咳嗽", "高致病株：高燒+出血性肺炎"] },
+        { step: 2, action: "病原檢測", details: "鼻腔/咽部拭子PCR", findings: ["CIV H3N2或H3N8 PCR", "發病3-7天內取樣最佳"] },
+        { step: 3, action: "血清學", details: "急性期和恢復期配對血清", findings: ["抗體效價4倍以上升高", "確認診斷但為回溯性"] },
+        { step: 4, action: "治療+隔離", details: "支持治療+嚴格隔離", findings: ["輕度：7-10天自限性", "重度：Amoxicillin/clavulanate+輸液"] }
+      ]
+    },
     monitoring: ["呼吸狀態", "體溫", "食慾"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3134,6 +3314,15 @@ const DISEASE_INFO = {
     },
     prognosis: "早期手術預後良好。腸穿孔或廣泛壞死預後差。",
     pearls: ["線狀異物特別危險（可致多處穿孔）", "貓舌下檢查線狀異物", "單張X光可能遺漏，需多張或超聲", "鈕扣電池是緊急情況"],
+    diagnosticAlgorithm: {
+      title: "消化道異物 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "急性嘔吐+食慾下降+異物攝入史", findings: ["反覆嘔吐（尤其餐後）", "年輕犬或有咀嚼異物習慣"] },
+        { step: 2, action: "腹部X光", details: "腹部正側位X光", findings: ["顯影異物直接可見", "腸梗阻徵象：腸管擴張+氣液平面"] },
+        { step: 3, action: "超音波/造影", details: "非顯影異物用超音波或造影劑", findings: ["超音波見腸管內高回聲+聲影", "造影：充填缺損或線性異物"] },
+        { step: 4, action: "治療決策", details: "內視鏡取出或手術", findings: ["胃內平滑異物→內視鏡嘗試", "腸阻塞或穿孔→手術"] }
+      ]
+    },
     monitoring: ["腹部疼痛", "嘔吐", "排便", "術後吻合口滲漏"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3209,6 +3398,15 @@ const DISEASE_INFO = {
     },
     prognosis: "積極治療預後良好（>90%存活）。可能復發。",
     pearls: ["PCV>60%但TP正常是特徵", "不同於Parvo：白血球通常正常", "輸液需求可能很大", "多數24-48小時內改善"],
+    diagnosticAlgorithm: {
+      title: "出血性胃腸炎 診斷流程",
+      steps: [
+        { step: 1, action: "臨床辨識", details: "急性出血性腹瀉+快速脫水", findings: ["果醬樣血便", "小型犬多見（Miniature Schnauzer等）"] },
+        { step: 2, action: "血容比", details: "PCV/TS檢測", findings: ["PCV顯著升高（>60%）伴TS正常/低", "血液濃縮為特徵性發現"] },
+        { step: 3, action: "排除其他原因", details: "Parvo快篩+糞檢+腹部影像", findings: ["Parvo SNAP陰性", "排除異物/腸套疊/胰臟炎"] },
+        { step: 4, action: "積極輸液", details: "IV晶體液+電解質校正", findings: ["24-48小時內通常改善", "監測PCV下降確認再水合"] }
+      ]
+    },
     monitoring: ["PCV/TS q4-8h", "水合狀態", "糞便性狀"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3242,6 +3440,15 @@ const DISEASE_INFO = {
     },
     prognosis: "治療後預後良好，但需終身管理。",
     pearls: ["GSD最常見（胰臟腺泡萎縮）", "Cobalamin缺乏常見且需補充", "粉狀胰酶比片劑效果好", "可能需要處理並存的SIBO"],
+    diagnosticAlgorithm: {
+      title: "外分泌胰臟機能不全 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "慢性腹瀉+體重減輕+食慾正常/增加", findings: ["大量脂肪便", "體重進行性減輕+毛髮差"] },
+        { step: 2, action: "TLI檢測", details: "血清Trypsin-like Immunoreactivity", findings: ["犬TLI <2.5 μg/L確診", "貓TLI <8 μg/L確診"] },
+        { step: 3, action: "併發症評估", details: "B12/葉酸/鈷胺素+小腸細菌過度生長", findings: ["B12常顯著低下（需補充）", "葉酸升高提示SIBO"] },
+        { step: 4, action: "酶替代治療", details: "胰臟酵素補充+B12注射", findings: ["每餐添加胰臟酵素粉", "B12 SC注射每週×6週→每月"] }
+      ]
+    },
     monitoring: ["體重", "糞便性狀", "Cobalamin水平"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3275,6 +3482,15 @@ const DISEASE_INFO = {
     },
     prognosis: "預後謹慎至差，尤其Yorkshire Terrier。淋巴管擴張對飲食反應較好。",
     pearls: ["Yorkshire Terrier常見且預後差", "低脂飲食對淋巴管擴張很重要", "白蛋白<1.5 g/dL有血栓風險", "需監測低鈣和低鎂"],
+    diagnosticAlgorithm: {
+      title: "蛋白流失性腸病 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "慢性腹瀉+低蛋白血症+水腫/腹水", findings: ["白蛋白<2.0 g/dL", "週邊水腫或腹水或胸水"] },
+        { step: 2, action: "排除其他原因", details: "尿蛋白+肝功能確認腸道流失", findings: ["UPC正常排除腎臟流失", "肝功能正常排除肝合成不足"] },
+        { step: 3, action: "內視鏡+活檢", details: "消化道內視鏡取黏膜活檢", findings: ["淋巴管擴張", "淋巴球-漿細胞性腸炎"] },
+        { step: 4, action: "治療", details: "免疫抑制+低脂飲食+白蛋白支持", findings: ["Prednisolone+Chlorambucil", "極低脂飲食（<15%脂肪）"] }
+      ]
+    },
     monitoring: ["白蛋白", "體重", "腹水", "Cobalamin"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3308,6 +3524,15 @@ const DISEASE_INFO = {
     },
     prognosis: "取決於病因和嚴重度。少尿性AKI預後較差。完全恢復可能需數週。",
     pearls: ["區分AKI vs CKD：腎臟大小（AKI正常或腫大）", "無尿是緊急情況", "乙二醇中毒8小時內治療是關鍵", "尿量是重要預後指標"],
+    diagnosticAlgorithm: {
+      title: "急性腎損傷 診斷流程",
+      steps: [
+        { step: 1, action: "臨床辨識", details: "急性嘔吐+無尿/少尿+腎區疼痛", findings: ["肌酸酐急性升高", "尿量減少或無尿"] },
+        { step: 2, action: "腎功能+電解質", details: "BUN/Crea/SDMA/K/Ca/P", findings: ["肌酸酐每日升高>0.3 mg/dL", "高血鉀+高磷+代謝性酸中毒"] },
+        { step: 3, action: "原因調查", details: "毒物暴露+影像+尿液分析", findings: ["超音波：腎臟腫大+腎盂擴張", "尿液：管型+糖尿+低比重"] },
+        { step: 4, action: "積極輸液+利尿", details: "IV輸液+Furosemide+治療原因", findings: ["維持尿量>1-2 mL/kg/hr", "無反應考慮透析"] }
+      ]
+    },
     monitoring: ["尿量", "BUN/Crea", "電解質", "體重"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3341,6 +3566,15 @@ const DISEASE_INFO = {
     },
     prognosis: "FIC：多數自限性但常復發。尿石/感染：治療後預後好。",
     pearls: ["年輕貓UTI罕見，FIC最常見", "鳥糞石可飲食溶解，草酸鈣不行", "應激是FIC重要誘因", "多模式環境管理很重要"],
+    diagnosticAlgorithm: {
+      title: "貓下泌尿道疾病 診斷流程",
+      steps: [
+        { step: 1, action: "臨床表現", details: "頻尿+血尿+排尿困難", findings: ["反覆進出貓砂盆", "不適當排尿+血尿"] },
+        { step: 2, action: "體檢+膀胱評估", details: "觸診膀胱+確認是否阻塞", findings: ["膀胱小而疼痛=非阻塞", "膀胱大而硬=阻塞（緊急！）"] },
+        { step: 3, action: "尿液+影像", details: "尿液分析+培養+X光/超音波", findings: ["尿液：血尿+結晶", "影像：結石?腫瘤?（>10歲需排除）"] },
+        { step: 4, action: "鑑別分類", details: "區分FIC、結石、感染、腫瘤", findings: ["<10歲+尿培養陰性=多為FIC(60-70%)", "結石+感染+腫瘤各佔<20%"] }
+      ]
+    },
     monitoring: ["症狀復發", "尿液分析", "影像追蹤（尿石）"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3458,6 +3692,15 @@ const DISEASE_INFO = {
     },
     prognosis: "BPH去勢後預後良好。前列腺癌預後差。",
     pearls: ["80%老年未絕育公犬有BPH", "前列腺炎抗生素需可穿透前列腺（Fluoroquinolones、TMS）", "前列腺腺癌可發生於絕育公犬", "絕育後4-8週前列腺縮小"],
+    diagnosticAlgorithm: {
+      title: "前列腺疾病 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "未絕育公犬排尿/排便困難", findings: ["裡急後重（排便困難）", "血尿+尿道分泌物"] },
+        { step: 2, action: "直腸觸診", details: "評估前列腺大小、對稱性、疼痛", findings: ["對稱性腫大=BPH", "不對稱/疼痛=膿瘍/腫瘤"] },
+        { step: 3, action: "影像+取樣", details: "超音波+前列腺液/FNA", findings: ["超音波：均勻vs囊性vs不均勻", "細胞學區分感染/增生/腫瘤"] },
+        { step: 4, action: "治療決策", details: "依病因選擇治療", findings: ["BPH：絕育為首選治療", "膿瘍：引流+抗生素、腫瘤：預後差"] }
+      ]
+    },
     monitoring: ["前列腺大小", "泌尿症狀", "糞便性狀"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3491,6 +3734,15 @@ const DISEASE_INFO = {
     },
     prognosis: "犬：約50%良性，50%惡性。貓：約90%惡性且較具侵襲性。腫瘤<3cm預後較好。",
     pearls: ["第一次發情前絕育可減少99%風險", "貓的乳腺腫瘤幾乎都是惡性", "腫瘤大小是重要預後因子", "常多發，需檢查所有乳腺"],
+    diagnosticAlgorithm: {
+      title: "乳腺腫瘤 診斷流程",
+      steps: [
+        { step: 1, action: "觸診評估", details: "系統性觸診所有乳腺", findings: ["記錄腫塊位置、大小、活動性", "貓乳腺腫瘤>90%為惡性"] },
+        { step: 2, action: "分期檢查", details: "胸部X光+腹部超音波+局部淋巴結", findings: ["胸部三張X光排除肺轉移", "腹部淋巴結評估"] },
+        { step: 3, action: "FNA/活檢", details: "細針穿刺或切除活檢", findings: ["細胞學初步分類", "組織病理確認型別和分級"] },
+        { step: 4, action: "手術切除", details: "依腫瘤位置選擇切除範圍", findings: ["犬：區域或半側乳腺切除", "貓：建議雙側全乳腺切除"] }
+      ]
+    },
     monitoring: ["定期胸部X光", "區域淋巴結", "新腫塊出現"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3524,6 +3776,15 @@ const DISEASE_INFO = {
     },
     prognosis: "多數良性或低度惡性，去勢後預後良好。骨髓抑制預後差。",
     pearls: ["隱睪症大幅增加腫瘤風險", "Sertoli細胞瘤最可能引起雌性化", "骨髓抑制是Sertoli細胞瘤致命併發症", "精原細胞瘤轉移風險最高（但仍低）"],
+    diagnosticAlgorithm: {
+      title: "睪丸腫瘤 診斷流程",
+      steps: [
+        { step: 1, action: "觸診發現", details: "睪丸不對稱或腫塊", findings: ["一側腫大+對側萎縮", "隱睪犬風險高13倍"] },
+        { step: 2, action: "超音波", details: "睪丸超音波評估", findings: ["實質性腫塊+血流增加", "區分Sertoli/Seminoma/Interstitial"] },
+        { step: 3, action: "內分泌評估", details: "雌激素水平+CBC", findings: ["Sertoli cell tumor：高雌激素", "骨髓抑制（全血球減少）"] },
+        { step: 4, action: "睪丸切除", details: "雙側睪丸切除+組織病理", findings: ["大多數為良性（切除可治癒）", "Sertoli cell需評估骨髓恢復"] }
+      ]
+    },
     monitoring: ["雌性化消退", "骨髓恢復", "轉移監測"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3557,6 +3818,15 @@ const DISEASE_INFO = {
     },
     prognosis: "進展緩慢。出現心衰竭後中位存活約9-12月（治療下）。",
     pearls: ["CKCS幾乎都會發展此病", "Pimobendan在B2階段即可延緩進展", "胸部X光VHS>10.5提示心臟擴大", "夜間咳嗽常是早期症狀"],
+    diagnosticAlgorithm: {
+      title: "二尖瓣疾病 診斷流程",
+      steps: [
+        { step: 1, action: "聽診發現", details: "左心尖收縮期心雜音", findings: ["心雜音分級（I-VI）", "小型老年犬最常見"] },
+        { step: 2, action: "胸部X光", details: "評估心臟大小和肺部", findings: ["VHS（椎體心臟評分）增大", "肺靜脈充血/肺水腫"] },
+        { step: 3, action: "心臟超音波", details: "評估瓣膜形態和心臟功能", findings: ["二尖瓣增厚/脫垂", "LA/Ao ratio>1.6=左心房擴大"] },
+        { step: 4, action: "ACVIM分期", details: "B1/B2/C/D分期決定治療", findings: ["B1(無重塑)：監測", "B2(重塑)→C(心衰)：開始用藥"] }
+      ]
+    },
     monitoring: ["呼吸頻率（居家監測）", "心臟超聲q6-12月", "胸部X光"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011; ACVIM Consensus 2019"
   },
@@ -3590,6 +3860,15 @@ const DISEASE_INFO = {
     },
     prognosis: "取決於原發病因和治療反應。犬MVD-CHF中位存活約9月。貓HCM-CHF約18月。",
     pearls: ["休息呼吸頻率(RRR)>40/min提示心衰竭", "Furosemide使用最低有效劑量避免腎損傷", "限鈉但不限水", "利尿劑抵抗時可加Hydrochlorothiazide"],
+    diagnosticAlgorithm: {
+      title: "充血性心衰竭 診斷流程",
+      steps: [
+        { step: 1, action: "臨床辨識", details: "呼吸急促+運動不耐受+咳嗽", findings: ["犬：夜間咳嗽+端坐呼吸", "貓：呼吸急促+張口呼吸"] },
+        { step: 2, action: "胸部X光", details: "評估心臟大小+肺野", findings: ["心臟擴大", "肺水腫（犬：背側肺葉為主）"] },
+        { step: 3, action: "NT-proBNP", details: "心臟生物標記物", findings: ["犬>900 pmol/L高度提示CHF", "貓>270 pmol/L提示心臟病"] },
+        { step: 4, action: "緊急穩定+用藥", details: "Furosemide+Pimobendan+ACEi", findings: ["Furosemide 2-4 mg/kg IV/IM（急性）", "穩定後加Pimobendan+Enalapril"] }
+      ]
+    },
     monitoring: ["RRR（居家監測）", "BUN/Crea", "電解質", "體重"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3623,6 +3902,15 @@ const DISEASE_INFO = {
     },
     prognosis: "急性期死亡率高（40-50%）。存活者中位存活2-6月。72小時內運動功能恢復預後較好。",
     pearls: ["5Ps是診斷特徵", "Clopidogrel比Aspirin更有效預防復發", "72小時內無改善預後差", "嚴重疼痛可能需考慮安樂死"],
+    diagnosticAlgorithm: {
+      title: "主動脈血栓栓塞 診斷流程",
+      steps: [
+        { step: 1, action: "臨床辨識", details: "貓急性後肢癱瘓+疼痛嚎叫", findings: ["後肢冰冷+無脈搏", "腳掌發紺+肌肉僵硬"] },
+        { step: 2, action: "5P評估", details: "Pain, Pulselessness, Pallor, Paralysis, Poikilothermia", findings: ["股動脈搏動消失", "患肢指甲切開無出血"] },
+        { step: 3, action: "心臟評估", details: "心臟超音波+NT-proBNP", findings: ["大多數有HCM或其他心肌病", "左心房自發性顯影（SEC）"] },
+        { step: 4, action: "治療決策", details: "疼痛控制+抗凝血+心臟治療", findings: ["Clopidogrel 18.75 mg/cat/day", "預後不良：30天死亡率~50%"] }
+      ]
+    },
     monitoring: ["後肢功能恢復", "疼痛管理", "心臟狀態", "復發"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3656,6 +3944,15 @@ const DISEASE_INFO = {
     },
     prognosis: "特發性：心包切除後預後良好。血管肉瘤：預後差（中位存活1-4月）。心臟基底腫瘤：較長存活。",
     pearls: ["犬心包積液最常見原因是腫瘤（尤其血管肉瘤）", "心臟填塞是緊急情況", "血性積液不一定是腫瘤", "Golden Retriever和GSD血管肉瘤風險高"],
+    diagnosticAlgorithm: {
+      title: "心包積液 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "運動不耐+腹水+頸靜脈怒張", findings: ["心音減弱（遠心音）", "Beck's triad（低血壓/怒張頸靜脈/遠心音）"] },
+        { step: 2, action: "影像", details: "X光+心臟超音波", findings: ["X光：球形心影", "超音波：心包腔無回聲液體"] },
+        { step: 3, action: "心包穿刺", details: "超音波引導心包穿刺引流", findings: ["血性液體（不凝固=慢性）", "液體細胞學+pH+PCV"] },
+        { step: 4, action: "原因調查", details: "區分腫瘤vs特發性", findings: ["血管肉瘤（右心房腫塊）", "特發性（中大型犬、反覆發作）"] }
+      ]
+    },
     monitoring: ["復發", "超聲追蹤", "腫瘤分期"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3689,6 +3986,15 @@ const DISEASE_INFO = {
     },
     prognosis: "早期修復預後極佳。未治療約60%在1歲前死於心衰竭。",
     pearls: ["連續性「機械性」雜音是診斷特徵", "早期診斷治療可治癒", "介入性關閉已成為首選", "若發展為右向左分流則無法手術"],
+    diagnosticAlgorithm: {
+      title: "開放性動脈導管 診斷流程",
+      steps: [
+        { step: 1, action: "聽診發現", details: "幼犬/貓持續性機械樣心雜音", findings: ["左心基底部連續性雜音", "「洗衣機」樣雜音（收縮+舒張）"] },
+        { step: 2, action: "胸部X光", details: "評估心臟大小和肺血管", findings: ["左心房+左心室擴大", "肺過度灌流（肺血管紋理增多）"] },
+        { step: 3, action: "心臟超音波", details: "確認導管存在和分流方向", findings: ["肺動脈內偵測到連續性紊亂血流", "左→右分流（典型PDA）"] },
+        { step: 4, action: "手術/介入", details: "導管結紮或ACDO裝置", findings: ["手術結紮（傳統方法）", "經導管ACDO封堵（微創）"] }
+      ]
+    },
     monitoring: ["術後超聲", "殘餘分流", "心臟功能"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3766,6 +4072,15 @@ const DISEASE_INFO = {
     },
     prognosis: "多數可控制但無法治癒。約20-30%為難治性。壽命可接近正常。",
     pearls: ["第一次發作不一定需要治療", "治療目標是減少發作頻率和嚴重度，不是完全消除", "Phenobarbital需監測血藥濃度和肝功能", "不要突然停藥"],
+    diagnosticAlgorithm: {
+      title: "特發性癲癇 診斷流程",
+      steps: [
+        { step: 1, action: "發作描述", details: "詳細記錄發作型態和頻率", findings: ["全身性強直-陣攣發作", "發作年齡1-5歲+發作間期正常"] },
+        { step: 2, action: "排除代謝原因", details: "CBC+生化+血糖+膽酸+NH3", findings: ["血液學全部正常", "排除低血糖/肝腦病變/電解質異常"] },
+        { step: 3, action: "排除結構性原因", details: "腦部MRI+CSF分析", findings: ["MRI正常（排除腫瘤/腦炎）", "CSF正常（排除感染/發炎）"] },
+        { step: 4, action: "抗癲癇治療", details: "選擇AED開始治療", findings: ["犬首選：Phenobarbital或Levetiracetam", "貓首選：Levetiracetam或Phenobarbital"] }
+      ]
+    },
     monitoring: ["發作頻率日記", "Phenobarbital血藥濃度", "肝功能"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3799,6 +4114,15 @@ const DISEASE_INFO = {
     },
     prognosis: "特發性：預後良好，2-4週改善，可能殘留輕微頭歪斜。中樞性：取決於病因。",
     pearls: ["周邊vs中樞：本體感覺正常＝周邊", "老犬特發性前庭疾病很常見且預後好", "中耳炎引起的需長期抗生素", "貓要考慮息肉或中耳炎"],
+    diagnosticAlgorithm: {
+      title: "前庭疾病 診斷流程",
+      steps: [
+        { step: 1, action: "神經學定位", details: "區分中樞vs週邊前庭", findings: ["週邊：頭歪+水平眼振+無意識缺損", "中樞：垂直眼振+姿態反應異常+意識改變"] },
+        { step: 2, action: "耳鏡+影像", details: "耳鏡檢查+鼓室泡X光/CT", findings: ["週邊：中/內耳感染、息肉", "中樞：腦幹MRI必要"] },
+        { step: 3, action: "實驗室", details: "甲狀腺功能+CBC+生化", findings: ["老年犬：排除甲狀腺低下", "貓：排除鼻咽息肉"] },
+        { step: 4, action: "治療+觀察", details: "依原因治療+支持療法", findings: ["特發性前庭（老犬）：2-3週自限性", "中耳感染：6-8週抗生素"] }
+      ]
+    },
     monitoring: ["臨床症狀改善", "神經學檢查追蹤"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3874,6 +4198,15 @@ const DISEASE_INFO = {
     },
     prognosis: "有深部痛覺預後良好（約85%恢復行走）。無深部痛覺預後較差。多數4-6週內明顯改善。",
     pearls: ["特徵：急性發作、非進行性、不對稱、無脊椎疼痛", "和IVDD鑑別：FCE無脊椎疼痛", "大型犬、活動時發作支持診斷", "物理治療是恢復關鍵"],
+    diagnosticAlgorithm: {
+      title: "纖維軟骨栓塞 診斷流程",
+      steps: [
+        { step: 1, action: "臨床特徵", details: "運動中急性非進行性脊髓症狀", findings: ["突然發作→6-12小時內穩定", "通常不對稱+無疼痛"] },
+        { step: 2, action: "神經學定位", details: "確定病變脊髓節段", findings: ["常見T3-L3或L4-S3節段", "上運動/下運動神經元徵象"] },
+        { step: 3, action: "MRI", details: "脊髓MRI（確診需要）", findings: ["T2WI：脊髓實質內高信號", "與一個椎間盤對應位置"] },
+        { step: 4, action: "物理治療", details: "積極復健+時間", findings: ["大多數2-6週內改善", "深層痛覺保留者預後良好"] }
+      ]
+    },
     monitoring: ["神經功能恢復", "物理治療進度"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3907,6 +4240,15 @@ const DISEASE_INFO = {
     },
     prognosis: "約30%可自發緩解。局灶型預後好於全身型。巨食道症併發吸入性肺炎預後差。",
     pearls: ["反流/巨食道症是最常見表現", "運動後加重、休息後改善是特徵", "要篩檢胸腺瘤", "先天性MG無抗體，需電生理診斷"],
+    diagnosticAlgorithm: {
+      title: "重症肌無力 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "運動性虛弱+巨食道+反覆誤嚥", findings: ["運動後加重、休息後改善", "局部型：巨食道+面部無力"] },
+        { step: 2, action: "Tensilon test", details: "Edrophonium 0.1 mg/kg IV", findings: ["注射後肌力暫時改善", "5-10分鐘內效果消退"] },
+        { step: 3, action: "AChR抗體", details: "血清乙醯膽鹼受體抗體效價", findings: ["犬>0.6 nmol/L=陽性", "確認後天免疫介導型MG"] },
+        { step: 4, action: "治療+胸腺評估", details: "Pyridostigmine+胸腔CT", findings: ["Pyridostigmine 0.5-3 mg/kg PO q8-12h", "排除胸腺瘤（特別是貓）"] }
+      ]
+    },
     monitoring: ["肌力", "吸入性肺炎", "AChR抗體效價", "體重"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3940,6 +4282,15 @@ const DISEASE_INFO = {
     },
     prognosis: "手術後預後良好（>90%功能恢復）。約40-60%對側也會斷裂。",
     pearls: ["前抽屜試驗和脛骨推壓試驗確認不穩定", "約50%有半月板損傷", "對側韌帶也是高風險", "TPLO是大型犬首選手術"],
+    diagnosticAlgorithm: {
+      title: "前十字韌帶斷裂 診斷流程",
+      steps: [
+        { step: 1, action: "跛行評估", details: "後肢跛行+膝關節腫脹", findings: ["急性：承重困難", "慢性：間歇性跛行+肌肉萎縮"] },
+        { step: 2, action: "骨科檢查", details: "Drawer test + Tibial thrust", findings: ["前抽屜試驗陽性（膝關節前移）", "脛骨壓迫試驗陽性"] },
+        { step: 3, action: "X光", details: "膝關節X光評估", findings: ["關節積液（脂肪墊徵象消失）", "骨關節炎變化+脛骨前移"] },
+        { step: 4, action: "手術", details: "TPLO/TTA/lateral suture", findings: ["TPLO為目前首選術式", "半月板評估（同時損傷常見）"] }
+      ]
+    },
     monitoring: ["術後X光", "功能恢復", "對側監測", "體重管理"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -3973,6 +4324,15 @@ const DISEASE_INFO = {
     },
     prognosis: "保守治療可控制症狀。THR功能恢復優良。FHO功能尚可。",
     pearls: ["育種篩選可降低發病率", "體重控制非常重要", "關節保健品（葡萄糖胺、軟骨素）可輔助", "游泳是良好運動方式"],
+    diagnosticAlgorithm: {
+      title: "髖關節發育不良 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "大型犬後肢跛行+活動度下降", findings: ["兔跳式步態（幼犬）", "起立困難+運動後跛行加重"] },
+        { step: 2, action: "骨科檢查", details: "Ortolani test+後肢伸展痛", findings: ["Ortolani test陽性（關節鬆弛）", "後肢伸展觸發疼痛"] },
+        { step: 3, action: "X光分級", details: "VD骨盆X光+OFA/PennHIP", findings: ["OFA分級：Excellent→Severe", "PennHIP DI值（鬆弛度指數）"] },
+        { step: 4, action: "治療決策", details: "依年齡和嚴重度選擇", findings: ["幼犬：JPS/DPO/TPO", "成犬：FHO/THR+體重管理"] }
+      ]
+    },
     monitoring: ["X光追蹤", "疼痛管理", "功能評估", "體重"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4006,6 +4366,15 @@ const DISEASE_INFO = {
     },
     prognosis: "手術成功率>90%（Grade 1-3）。Grade 4和長期未治療預後較差。",
     pearls: ["小型犬內側脫位最常見", "Grade 1-2可能無臨床症狀", "約15-20%並發前十字韌帶斷裂", "雙側常見"],
+    diagnosticAlgorithm: {
+      title: "膝蓋骨脫位 診斷流程",
+      steps: [
+        { step: 1, action: "跛行評估", details: "間歇性後肢跛行（跳步）", findings: ["突然抬腳數步後恢復", "小型犬多為內側脫位"] },
+        { step: 2, action: "觸診分級", details: "膝蓋骨脫位分級（Grade I-IV）", findings: ["Grade I：可誘發脫位但自行復位", "Grade IV：永久脫位無法復位"] },
+        { step: 3, action: "X光", details: "膝關節X光+評估骨骼排列", findings: ["股骨溝深度", "脛骨嵴偏移程度"] },
+        { step: 4, action: "治療決策", details: "依分級選擇保守或手術", findings: ["Grade I-II無症狀：保守管理", "Grade III-IV或持續跛行：手術矯正"] }
+      ]
+    },
     monitoring: ["跛行", "關節炎進展", "術後復發"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4081,6 +4450,15 @@ const DISEASE_INFO = {
     },
     prognosis: "終身管理但可控制。無法治癒。",
     pearls: ["需排除跳蚤過敏和食物過敏", "約70%有繼發感染需同時治療", "ASIT是唯一可能改變病程的治療", "Apoquel和Cytopoint比類固醇安全"],
+    diagnosticAlgorithm: {
+      title: "異位性皮膚炎 診斷流程",
+      steps: [
+        { step: 1, action: "臨床模式", details: "搔癢+典型分布（面、耳、足、腋窩）", findings: ["1-3歲發病", "季節性或全年性搔癢"] },
+        { step: 2, action: "排除其他原因", details: "糞檢+皮膚刮片+飲食試驗", findings: ["排除體外寄生蟲（Sarcoptes等）", "嚴格食物排除試驗8-12週"] },
+        { step: 3, action: "過敏原檢測", details: "皮內試驗(IDT)或血清IgE", findings: ["IDT為金標準（麻醉下進行）", "血清IgE幫助設計免疫療法"] },
+        { step: 4, action: "多模式治療", details: "避免過敏原+免疫調節+症狀控制", findings: ["Oclacitinib/Lokivetmab快速控制", "過敏原特異性免疫療法（長期）"] }
+      ]
+    },
     monitoring: ["搔癢程度評分", "繼發感染", "藥物副作用"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4114,6 +4492,15 @@ const DISEASE_INFO = {
     },
     prognosis: "嚴格飲食控制可完全緩解。",
     pearls: ["常見過敏原：牛肉、乳製品、雞肉、小麥", "血清食物過敏檢測不可靠", "排除試驗需嚴格執行8-12週", "約30%犬同時有異位性皮膚炎"],
+    diagnosticAlgorithm: {
+      title: "食物過敏 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "非季節性搔癢+/-GI症狀", findings: ["面部、耳、足部搔癢", "同時有嘔吐/軟便（10-30%）"] },
+        { step: 2, action: "排除試驗", details: "嚴格新型蛋白/水解蛋白飲食", findings: ["8-12週嚴格排除試驗", "期間不給任何其他食物/零食"] },
+        { step: 3, action: "激發試驗", details: "逐一重新引入原食物成分", findings: ["每種蛋白引入1-2週", "症狀復發確認過敏原"] },
+        { step: 4, action: "長期飲食管理", details: "避免已確認的過敏原蛋白", findings: ["終生避免致敏蛋白", "定期評估是否發展新過敏"] }
+      ]
+    },
     monitoring: ["症狀", "飲食遵從性"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4147,6 +4534,15 @@ const DISEASE_INFO = {
     },
     prognosis: "嚴格跳蚤控制可完全緩解。",
     pearls: ["即使看不到跳蚤也可能是FAD（過敏動物1-2隻跳蚤即可誘發）", "需全年預防", "環境處理（地毯、床褥）很重要", "貓的粟粒性皮膚炎常是FAD"],
+    diagnosticAlgorithm: {
+      title: "跳蚤過敏性皮膚炎 診斷流程",
+      steps: [
+        { step: 1, action: "臨床模式", details: "腰薦部三角區搔癢+脫毛", findings: ["尾根部、後腿內側搔癢最嚴重", "犬：背側分布、貓：粟粒性皮膚炎"] },
+        { step: 2, action: "跳蚤證據", details: "梳毛+跳蚤糞便檢查", findings: ["跳蚤排泄物（黑色顆粒+水變紅）", "可能看不到成蟲（過敏犬咬除）"] },
+        { step: 3, action: "排除共病", details: "排除Sarcoptes+食物過敏", findings: ["皮膚刮片排除疥蟎", "可能與atopy並存"] },
+        { step: 4, action: "嚴格除蚤", details: "所有同居寵物+環境除蚤", findings: ["Isoxazoline類口服除蚤藥（快速殺蚤）", "環境處理+持續預防至少3個月"] }
+      ]
+    },
     monitoring: ["搔癢", "跳蚤預防遵從性"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4222,6 +4618,15 @@ const DISEASE_INFO = {
     },
     prognosis: "急性預後良好。慢性、原發因素未控制者常復發。",
     pearls: ["多數外耳炎有潛在原因（過敏最常見）", "細胞學區分細菌vs酵母菌很重要", "耳道有桿菌考慮培養", "單側外耳炎考慮異物或腫瘤"],
+    diagnosticAlgorithm: {
+      title: "外耳炎 診斷流程",
+      steps: [
+        { step: 1, action: "耳鏡檢查", details: "評估耳道和鼓膜", findings: ["耳道紅腫+分泌物", "鼓膜完整性（穿孔需注意用藥）"] },
+        { step: 2, action: "耳分泌物檢查", details: "細胞學染色", findings: ["球菌/桿菌感染", "Malassezia酵母菌感染"] },
+        { step: 3, action: "原因分析", details: "區分原發/促發/維持因子", findings: ["原發：過敏（最常見）、異物", "維持：中耳炎、耳道增生"] },
+        { step: 4, action: "治療", details: "清潔+局部+全身+治療原發病", findings: ["清潔耳道+局部抗菌/抗黴", "慢性：排除過敏並長期管理"] }
+      ]
+    },
     monitoring: ["治療反應", "復發", "進展為中耳炎"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4339,6 +4744,15 @@ const DISEASE_INFO = {
     },
     prognosis: "藥物治療反應良好（約80%）。需終身治療。",
     pearls: ["Cyclosporine需4-6週見效", "神經性KCS（面神經麻痺）預後較好", "藥物誘發KCS（Sulfonamides）可能可逆", "雙側常見"],
+    diagnosticAlgorithm: {
+      title: "乾眼症 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "黏液膿性眼分泌物+角膜病變", findings: ["反覆結膜炎不回應抗生素", "黏稠分泌物+角膜混濁/色素沉著"] },
+        { step: 2, action: "Schirmer test", details: "Schirmer淚液試驗I", findings: ["犬：<15 mm/min=低、<10 mm/min=KCS", "貓：<5 mm/min（較少見）"] },
+        { step: 3, action: "眼表評估", details: "Fluorescein染色+Rose Bengal", findings: ["角膜潰瘍（Fluorescein陽性）", "角膜新生血管/色素沉著"] },
+        { step: 4, action: "免疫調節治療", details: "Cyclosporine/Tacrolimus眼藥", findings: ["Cyclosporine 0.2% q12h長期使用", "人工淚液作為輔助（非替代）"] }
+      ]
+    },
     monitoring: ["STT", "角膜狀態", "藥物遵從性"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4372,6 +4786,15 @@ const DISEASE_INFO = {
     },
     prognosis: "保守治療可控制症狀。手術/支架適用於嚴重病例。進行性。",
     pearls: ["「鵝鳴樣」咳嗽是特徵", "肥胖顯著惡化症狀", "頸圈可誘發，改用胸背帶", "氣管支架可改善生活品質但有併發症"],
+    diagnosticAlgorithm: {
+      title: "氣管塌陷 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "小型犬鵝鳴樣咳嗽", findings: ["興奮/運動/牽繩時加重", "肥胖中老年小型犬多見"] },
+        { step: 2, action: "X光", details: "吸氣+呼氣X光", findings: ["吸氣：頸段氣管塌陷", "呼氣：胸段氣管塌陷"] },
+        { step: 3, action: "透視/內視鏡", details: "動態評估塌陷程度", findings: ["透視：即時觀察塌陷動態", "支氣管鏡：分級I-IV+取樣"] },
+        { step: 4, action: "治療", details: "醫療管理或支架置放", findings: ["減重+鎮咳+避免刺激", "Grade III-IV+藥物無效→氣管內支架"] }
+      ]
+    },
     monitoring: ["症狀頻率和嚴重度", "體重", "生活品質"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4405,6 +4828,15 @@ const DISEASE_INFO = {
     },
     prognosis: "手術可顯著改善。早期手術（<2歲）預後較好。",
     pearls: ["這些品種麻醉風險較高", "熱衰竭風險高", "肥胖顯著惡化", "早期手術可預防繼發性變化"],
+    diagnosticAlgorithm: {
+      title: "短頭犬呼吸道症候群 診斷流程",
+      steps: [
+        { step: 1, action: "品種辨識", details: "短頭犬/貓呼吸困難+打鼾", findings: ["運動不耐+打鼾+喘鳴音", "Pug, Bulldog, Persian等品種"] },
+        { step: 2, action: "解剖評估", details: "鼻孔+軟顎+喉部檢查", findings: ["鼻孔狹窄（外觀即可判斷）", "軟顎過長需麻醉下評估"] },
+        { step: 3, action: "進階評估", details: "CT/內視鏡評估呼吸道", findings: ["喉囊外翻（繼發性變化）", "氣管發育不全（Bulldog）"] },
+        { step: 4, action: "手術矯正", details: "多部位矯正手術", findings: ["鼻孔擴張+軟顎截短", "早期手術(1-2歲)預後較好"] }
+      ]
+    },
     monitoring: ["呼吸狀態", "運動耐受性", "體重"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4440,6 +4872,15 @@ const DISEASE_INFO = {
     },
     prognosis: "手術後預後良好。吸入性肺炎是主要併發症。",
     pearls: ["GOLPP = Geriatric Onset Laryngeal Paralysis Polyneuropathy", "常伴隨全身性多發神經病變", "術後永久吸入性肺炎風險", "Doxapram可在診斷時增強喉運動"],
+    diagnosticAlgorithm: {
+      title: "喉麻痺 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "老年大型犬聲音改變+吸氣困難", findings: ["吠叫聲音變弱/嘶啞", "吸氣喘鳴音+運動不耐"] },
+        { step: 2, action: "喉鏡檢查", details: "輕度鎮靜下評估杓狀軟骨運動", findings: ["杓狀軟骨吸氣時不外展", "單側或雙側麻痺"] },
+        { step: 3, action: "併發症評估", details: "甲狀腺+肌電圖+神經檢查", findings: ["排除甲狀腺低下", "GOLPP：四肢也有神經症狀"] },
+        { step: 4, action: "手術", details: "杓狀軟骨側化（tie-back）", findings: ["單側杓狀軟骨側化術", "術後注意吸入性肺炎風險"] }
+      ]
+    },
     monitoring: ["呼吸狀態", "吸入性肺炎", "神經功能"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4515,6 +4956,15 @@ const DISEASE_INFO = {
     },
     prognosis: "可控制但無法治癒。進行性。",
     pearls: ["需排除心臟病（尤其小型犬）", "吸入類固醇比口服副作用少", "肥胖顯著惡化症狀", "避免二手菸和空氣污染"],
+    diagnosticAlgorithm: {
+      title: "慢性支氣管炎 診斷流程",
+      steps: [
+        { step: 1, action: "臨床定義", details: "咳嗽>2個月+排除其他原因", findings: ["每日咳嗽+痰多", "中老年小型犬多見"] },
+        { step: 2, action: "胸部X光", details: "支氣管壁增厚+肺過度充氣", findings: ["支氣管壁增厚（甜甜圈/鐵軌徵）", "肺過度充氣+支氣管擴張"] },
+        { step: 3, action: "BAL分析", details: "支氣管肺泡灌洗液細胞學+培養", findings: ["嗜中性球或嗜酸性球增多", "排除感染（培養+藥敏）"] },
+        { step: 4, action: "長期管理", details: "抗發炎+支氣管擴張+環境控制", findings: ["Prednisolone吸入劑or口服", "Theophylline/Terbutaline支氣管擴張"] }
+      ]
+    },
     monitoring: ["咳嗽頻率", "運動耐受性", "胸部X光"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
@@ -4548,6 +4998,15 @@ const DISEASE_INFO = {
     },
     prognosis: "可控制但無法治癒。嚴重發作可致命。",
     pearls: ["吸入藥物是長期治療首選", "需要專用吸入器（AeroKat等）", "減少環境過敏原很重要", "急性發作不要強迫檢查（可致命）"],
+    diagnosticAlgorithm: {
+      title: "貓哮喘 診斷流程",
+      steps: [
+        { step: 1, action: "臨床懷疑", details: "貓反覆咳嗽+呼吸困難", findings: ["蹲坐+伸頸+張口呼吸", "呼氣延長+喘鳴音"] },
+        { step: 2, action: "胸部X光", details: "支氣管pattern+肺過度充氣", findings: ["支氣管壁增厚", "嚴重時肺葉塌陷（右中肺葉）"] },
+        { step: 3, action: "BAL", details: "支氣管肺泡灌洗液分析", findings: ["嗜酸性球>17%支持診斷", "排除心絲蟲和肺蠕蟲"] },
+        { step: 4, action: "治療", details: "吸入型類固醇+支氣管擴張", findings: ["Fluticasone MDI+AeroKat spacer", "急性：Terbutaline 0.01 mg/kg SC"] }
+      ]
+    },
     monitoring: ["呼吸頻率和努力", "發作頻率", "藥物副作用"],
     reference: "Côté E: Clinical Veterinary Advisor, 2nd Ed. Mosby, 2011"
   },
