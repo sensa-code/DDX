@@ -1,0 +1,4079 @@
+[
+  {
+    "id": "diabetic ketoacidosis",
+    "defLen": 46,
+    "pathoLen": 81,
+    "progLen": 47,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "imha",
+    "defLen": 36,
+    "pathoLen": 69,
+    "progLen": 44,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "pancreatitis",
+    "defLen": 34,
+    "pathoLen": 65,
+    "progLen": 55,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "chronic kidney disease",
+    "defLen": 43,
+    "pathoLen": 78,
+    "progLen": 84,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "hypoadrenocorticism",
+    "defLen": 36,
+    "pathoLen": 73,
+    "progLen": 29,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hyperadrenocorticism",
+    "defLen": 51,
+    "pathoLen": 63,
+    "progLen": 41,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hepatic lipidosis",
+    "defLen": 33,
+    "pathoLen": 65,
+    "progLen": 38,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "portosystemic shunt",
+    "defLen": 34,
+    "pathoLen": 55,
+    "progLen": 30,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "gastric dilatation-volvulus",
+    "defLen": 34,
+    "pathoLen": 86,
+    "progLen": 51,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "feline infectious peritonitis",
+    "defLen": 41,
+    "pathoLen": 61,
+    "progLen": 52,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "parvovirus",
+    "defLen": 37,
+    "pathoLen": 69,
+    "progLen": 37,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "pyometra",
+    "defLen": 29,
+    "pathoLen": 59,
+    "progLen": 47,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hyperthyroidism",
+    "defLen": 29,
+    "pathoLen": 51,
+    "progLen": 40,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hypothyroidism",
+    "defLen": 28,
+    "pathoLen": 58,
+    "progLen": 26,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "inflammatory bowel disease",
+    "defLen": 30,
+    "pathoLen": 52,
+    "progLen": 29,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "dilated cardiomyopathy",
+    "defLen": 22,
+    "pathoLen": 46,
+    "progLen": 39,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hypertrophic cardiomyopathy",
+    "defLen": 30,
+    "pathoLen": 66,
+    "progLen": 40,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "intervertebral disc disease",
+    "defLen": 22,
+    "pathoLen": 78,
+    "progLen": 68,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "urethral obstruction",
+    "defLen": 29,
+    "pathoLen": 70,
+    "progLen": 37,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "lymphoma",
+    "defLen": 25,
+    "pathoLen": 26,
+    "progLen": 46,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "diabetes mellitus",
+    "defLen": 25,
+    "pathoLen": 61,
+    "progLen": 39,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "insulinoma",
+    "defLen": 25,
+    "pathoLen": 40,
+    "progLen": 39,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hypoglycemia",
+    "defLen": 26,
+    "pathoLen": 43,
+    "progLen": 41,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hyperglycemia",
+    "defLen": 25,
+    "pathoLen": 43,
+    "progLen": 33,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hypercalcemia",
+    "defLen": 31,
+    "pathoLen": 40,
+    "progLen": 36,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hypocalcemia",
+    "defLen": 29,
+    "pathoLen": 33,
+    "progLen": 28,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hypokalemia",
+    "defLen": 35,
+    "pathoLen": 39,
+    "progLen": 19,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hyperkalemia",
+    "defLen": 33,
+    "pathoLen": 38,
+    "progLen": 28,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "ethylene glycol toxicosis",
+    "defLen": 31,
+    "pathoLen": 56,
+    "progLen": 40,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "rodenticide toxicosis",
+    "defLen": 28,
+    "pathoLen": 65,
+    "progLen": 23,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "chocolate toxicosis",
+    "defLen": 32,
+    "pathoLen": 49,
+    "progLen": 23,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "xylitol toxicosis",
+    "defLen": 30,
+    "pathoLen": 43,
+    "progLen": 26,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "nsaid toxicosis",
+    "defLen": 27,
+    "pathoLen": 44,
+    "progLen": 24,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "acetaminophen toxicosis",
+    "defLen": 38,
+    "pathoLen": 57,
+    "progLen": 29,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "grape raisin toxicosis",
+    "defLen": 30,
+    "pathoLen": 31,
+    "progLen": 30,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "lily toxicosis",
+    "defLen": 29,
+    "pathoLen": 39,
+    "progLen": 35,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "marijuana toxicosis",
+    "defLen": 27,
+    "pathoLen": 27,
+    "progLen": 45,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "snail bait toxicosis",
+    "defLen": 34,
+    "pathoLen": 52,
+    "progLen": 36,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "permethrin toxicosis",
+    "defLen": 24,
+    "pathoLen": 48,
+    "progLen": 23,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "leptospirosis",
+    "defLen": 44,
+    "pathoLen": 53,
+    "progLen": 34,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "ehrlichiosis",
+    "defLen": 44,
+    "pathoLen": 51,
+    "progLen": 23,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "anaplasmosis",
+    "defLen": 32,
+    "pathoLen": 47,
+    "progLen": 23,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "lyme disease",
+    "defLen": 47,
+    "pathoLen": 55,
+    "progLen": 23,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "babesiosis",
+    "defLen": 38,
+    "pathoLen": 48,
+    "progLen": 25,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "heartworm disease",
+    "defLen": 35,
+    "pathoLen": 44,
+    "progLen": 40,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "canine distemper",
+    "defLen": 38,
+    "pathoLen": 47,
+    "progLen": 28,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "infectious canine hepatitis",
+    "defLen": 29,
+    "pathoLen": 41,
+    "progLen": 31,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "kennel cough",
+    "defLen": 34,
+    "pathoLen": 41,
+    "progLen": 26,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "feline leukemia virus",
+    "defLen": 23,
+    "pathoLen": 41,
+    "progLen": 23,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "feline immunodeficiency virus",
+    "defLen": 27,
+    "pathoLen": 40,
+    "progLen": 30,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "feline upper respiratory infection",
+    "defLen": 32,
+    "pathoLen": 37,
+    "progLen": 26,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "feline panleukopenia",
+    "defLen": 31,
+    "pathoLen": 41,
+    "progLen": 30,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "toxoplasmosis",
+    "defLen": 30,
+    "pathoLen": 37,
+    "progLen": 26,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "giardiasis",
+    "defLen": 31,
+    "pathoLen": 32,
+    "progLen": 11,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "coccidia",
+    "defLen": 49,
+    "pathoLen": 31,
+    "progLen": 17,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "ringworm",
+    "defLen": 46,
+    "pathoLen": 31,
+    "progLen": 17,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "canine influenza",
+    "defLen": 35,
+    "pathoLen": 23,
+    "progLen": 18,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "rabies",
+    "defLen": 23,
+    "pathoLen": 28,
+    "progLen": 13,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "megaesophagus",
+    "defLen": 29,
+    "pathoLen": 47,
+    "progLen": 36,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "foreign body gi",
+    "defLen": 19,
+    "pathoLen": 34,
+    "progLen": 21,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "intussusception",
+    "defLen": 21,
+    "pathoLen": 41,
+    "progLen": 23,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hemorrhagic gastroenteritis",
+    "defLen": 27,
+    "pathoLen": 68,
+    "progLen": 22,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "exocrine pancreatic insufficiency",
+    "defLen": 24,
+    "pathoLen": 52,
+    "progLen": 15,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "protein losing enteropathy",
+    "defLen": 20,
+    "pathoLen": 52,
+    "progLen": 40,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "acute kidney injury",
+    "defLen": 26,
+    "pathoLen": 40,
+    "progLen": 31,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "feline lower urinary tract disease",
+    "defLen": 19,
+    "pathoLen": 37,
+    "progLen": 27,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "urolithiasis",
+    "defLen": 25,
+    "pathoLen": 29,
+    "progLen": 20,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "glomerulonephritis",
+    "defLen": 20,
+    "pathoLen": 46,
+    "progLen": 22,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "prostatic disease",
+    "defLen": 25,
+    "pathoLen": 33,
+    "progLen": 19,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "mammary tumor",
+    "defLen": 23,
+    "pathoLen": 30,
+    "progLen": 41,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "testicular tumor",
+    "defLen": 42,
+    "pathoLen": 52,
+    "progLen": 26,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "mitral valve disease",
+    "defLen": 33,
+    "pathoLen": 53,
+    "progLen": 27,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "congestive heart failure",
+    "defLen": 25,
+    "pathoLen": 60,
+    "progLen": 42,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "aortic thromboembolism",
+    "defLen": 34,
+    "pathoLen": 60,
+    "progLen": 44,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "pericardial effusion",
+    "defLen": 19,
+    "pathoLen": 42,
+    "progLen": 45,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "patent ductus arteriosus",
+    "defLen": 35,
+    "pathoLen": 47,
+    "progLen": 26,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "arrhythmia",
+    "defLen": 31,
+    "pathoLen": 43,
+    "progLen": 33,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "idiopathic epilepsy",
+    "defLen": 21,
+    "pathoLen": 32,
+    "progLen": 31,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "vestibular disease",
+    "defLen": 22,
+    "pathoLen": 40,
+    "progLen": 36,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "meningitis",
+    "defLen": 28,
+    "pathoLen": 33,
+    "progLen": 36,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "fibrocartilaginous embolism",
+    "defLen": 26,
+    "pathoLen": 38,
+    "progLen": 42,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "myasthenia gravis",
+    "defLen": 27,
+    "pathoLen": 43,
+    "progLen": 36,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "cranial cruciate ligament rupture",
+    "defLen": 29,
+    "pathoLen": 42,
+    "progLen": 32,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hip dysplasia",
+    "defLen": 27,
+    "pathoLen": 43,
+    "progLen": 28,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "patellar luxation",
+    "defLen": 27,
+    "pathoLen": 40,
+    "progLen": 39,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "osteosarcoma",
+    "defLen": 24,
+    "pathoLen": 49,
+    "progLen": 35,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "atopic dermatitis",
+    "defLen": 39,
+    "pathoLen": 42,
+    "progLen": 14,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "food allergy",
+    "defLen": 37,
+    "pathoLen": 42,
+    "progLen": 12,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "flea allergy dermatitis",
+    "defLen": 27,
+    "pathoLen": 36,
+    "progLen": 12,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "pyoderma",
+    "defLen": 26,
+    "pathoLen": 47,
+    "progLen": 34,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "otitis externa",
+    "defLen": 18,
+    "pathoLen": 45,
+    "progLen": 22,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "glaucoma",
+    "defLen": 26,
+    "pathoLen": 35,
+    "progLen": 35,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "cataract",
+    "defLen": 17,
+    "pathoLen": 28,
+    "progLen": 29,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "keratoconjunctivitis sicca",
+    "defLen": 23,
+    "pathoLen": 38,
+    "progLen": 21,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "tracheal collapse",
+    "defLen": 27,
+    "pathoLen": 40,
+    "progLen": 27,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "brachycephalic airway syndrome",
+    "defLen": 24,
+    "pathoLen": 51,
+    "progLen": 22,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "laryngeal paralysis",
+    "defLen": 28,
+    "pathoLen": 32,
+    "progLen": 20,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "pneumonia",
+    "defLen": 26,
+    "pathoLen": 40,
+    "progLen": 35,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "chronic bronchitis",
+    "defLen": 31,
+    "pathoLen": 39,
+    "progLen": 13,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "feline asthma",
+    "defLen": 29,
+    "pathoLen": 45,
+    "progLen": 17,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "dilated-cardiomyopathy",
+    "defLen": 35,
+    "pathoLen": 113,
+    "progLen": 71,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hypertrophic-cardiomyopathy",
+    "defLen": 43,
+    "pathoLen": 125,
+    "progLen": 62,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "mitral-valve-disease",
+    "defLen": 37,
+    "pathoLen": 103,
+    "progLen": 79,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "tricuspid-valve-dysplasia",
+    "defLen": 33,
+    "pathoLen": 75,
+    "progLen": 54,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "patent-ductus-arteriosus",
+    "defLen": 42,
+    "pathoLen": 130,
+    "progLen": 59,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "aortic-stenosis",
+    "defLen": 40,
+    "pathoLen": 117,
+    "progLen": 70,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "pulmonic-stenosis",
+    "defLen": 31,
+    "pathoLen": 84,
+    "progLen": 82,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "ventricular-septal-defect",
+    "defLen": 29,
+    "pathoLen": 130,
+    "progLen": 56,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "atrial-septal-defect",
+    "defLen": 29,
+    "pathoLen": 80,
+    "progLen": 54,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "heartworm-disease",
+    "defLen": 50,
+    "pathoLen": 111,
+    "progLen": 61,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "pericardial-effusion",
+    "defLen": 30,
+    "pathoLen": 111,
+    "progLen": 72,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "infective-endocarditis",
+    "defLen": 38,
+    "pathoLen": 103,
+    "progLen": 47,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "arterial-thromboembolism",
+    "defLen": 39,
+    "pathoLen": 105,
+    "progLen": 80,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "systemic-hypertension",
+    "defLen": 33,
+    "pathoLen": 79,
+    "progLen": 54,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "pulmonary-hypertension",
+    "defLen": 38,
+    "pathoLen": 121,
+    "progLen": 61,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "intervertebral-disc-disease",
+    "defLen": 45,
+    "pathoLen": 145,
+    "progLen": 114,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "fibrocartilaginous-embolism",
+    "defLen": 49,
+    "pathoLen": 94,
+    "progLen": 85,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "degenerative-myelopathy",
+    "defLen": 56,
+    "pathoLen": 106,
+    "progLen": 66,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "idiopathic-epilepsy",
+    "defLen": 43,
+    "pathoLen": 92,
+    "progLen": 82,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "granulomatous-meningoencephalitis",
+    "defLen": 50,
+    "pathoLen": 99,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "necrotizing-meningoencephalitis",
+    "defLen": 51,
+    "pathoLen": 90,
+    "progLen": 66,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "vestibular-disease",
+    "defLen": 49,
+    "pathoLen": 102,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hydrocephalus",
+    "defLen": 41,
+    "pathoLen": 97,
+    "progLen": 75,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "syringomyelia",
+    "defLen": 50,
+    "pathoLen": 113,
+    "progLen": 71,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "myasthenia-gravis",
+    "defLen": 60,
+    "pathoLen": 100,
+    "progLen": 88,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "polymyositis",
+    "defLen": 38,
+    "pathoLen": 89,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "cognitive-dysfunction-syndrome",
+    "defLen": 41,
+    "pathoLen": 92,
+    "progLen": 54,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "horners-syndrome",
+    "defLen": 43,
+    "pathoLen": 109,
+    "progLen": 72,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "facial-nerve-paralysis",
+    "defLen": 47,
+    "pathoLen": 101,
+    "progLen": 83,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "trigeminal-neuritis",
+    "defLen": 48,
+    "pathoLen": 84,
+    "progLen": 79,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "gastric-dilatation-volvulus",
+    "defLen": 44,
+    "pathoLen": 157,
+    "progLen": 88,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "gastric-ulcer",
+    "defLen": 33,
+    "pathoLen": 121,
+    "progLen": 40,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "inflammatory-bowel-disease",
+    "defLen": 54,
+    "pathoLen": 99,
+    "progLen": 77,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "protein-losing-enteropathy",
+    "defLen": 33,
+    "pathoLen": 120,
+    "progLen": 88,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hemorrhagic-gastroenteritis",
+    "defLen": 54,
+    "pathoLen": 111,
+    "progLen": 44,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "colitis",
+    "defLen": 45,
+    "pathoLen": 108,
+    "progLen": 59,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "constipation-megacolon",
+    "defLen": 43,
+    "pathoLen": 117,
+    "progLen": 57,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "esophageal-foreign-body",
+    "defLen": 34,
+    "pathoLen": 99,
+    "progLen": 66,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "exocrine-pancreatic-insufficiency",
+    "defLen": 37,
+    "pathoLen": 139,
+    "progLen": 47,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "hepatic-lipidosis",
+    "defLen": 42,
+    "pathoLen": 122,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "portosystemic-shunt",
+    "defLen": 44,
+    "pathoLen": 120,
+    "progLen": 77,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cholangiohepatitis",
+    "defLen": 55,
+    "pathoLen": 133,
+    "progLen": 76,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "copper-storage-hepatopathy",
+    "defLen": 43,
+    "pathoLen": 142,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "anal-sac-disease",
+    "defLen": 41,
+    "pathoLen": 88,
+    "progLen": 40,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "rectal-prolapse",
+    "defLen": 37,
+    "pathoLen": 76,
+    "progLen": 52,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "acute-kidney-injury",
+    "defLen": 40,
+    "pathoLen": 99,
+    "progLen": 80,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "chronic-kidney-disease",
+    "defLen": 39,
+    "pathoLen": 96,
+    "progLen": 71,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "feline-lower-urinary-tract-disease",
+    "defLen": 36,
+    "pathoLen": 97,
+    "progLen": 54,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "urinary-tract-infection",
+    "defLen": 38,
+    "pathoLen": 77,
+    "progLen": 30,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "pyelonephritis",
+    "defLen": 28,
+    "pathoLen": 70,
+    "progLen": 44,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "polycystic-kidney-disease",
+    "defLen": 36,
+    "pathoLen": 89,
+    "progLen": 58,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "protein-losing-nephropathy",
+    "defLen": 31,
+    "pathoLen": 94,
+    "progLen": 47,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "renal-dysplasia",
+    "defLen": 31,
+    "pathoLen": 86,
+    "progLen": 39,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "ectopic-ureter",
+    "defLen": 40,
+    "pathoLen": 86,
+    "progLen": 42,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "urethral-obstruction",
+    "defLen": 39,
+    "pathoLen": 80,
+    "progLen": 53,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "bladder-tumor",
+    "defLen": 33,
+    "pathoLen": 72,
+    "progLen": 54,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "urinary-incontinence",
+    "defLen": 32,
+    "pathoLen": 207,
+    "progLen": 44,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "prostatic-disease",
+    "defLen": 35,
+    "pathoLen": 204,
+    "progLen": 54,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "hydronephrosis",
+    "defLen": 32,
+    "pathoLen": 82,
+    "progLen": 62,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "nephrotoxicity",
+    "defLen": 37,
+    "pathoLen": 0,
+    "progLen": 76,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "diabetes-mellitus",
+    "defLen": 48,
+    "pathoLen": 138,
+    "progLen": 80,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hyperthyroidism-cat",
+    "defLen": 40,
+    "pathoLen": 115,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hypothyroidism-dog",
+    "defLen": 40,
+    "pathoLen": 114,
+    "progLen": 45,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "pheochromocytoma",
+    "defLen": 54,
+    "pathoLen": 84,
+    "progLen": 56,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hyperparathyroidism",
+    "defLen": 56,
+    "pathoLen": 112,
+    "progLen": 38,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "hypoparathyroidism",
+    "defLen": 53,
+    "pathoLen": 93,
+    "progLen": 32,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hypersomatotropism",
+    "defLen": 50,
+    "pathoLen": 92,
+    "progLen": 49,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "growth-hormone-deficiency",
+    "defLen": 43,
+    "pathoLen": 113,
+    "progLen": 49,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "diabetes-insipidus",
+    "defLen": 54,
+    "pathoLen": 126,
+    "progLen": 52,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "hyperaldosteronism",
+    "defLen": 64,
+    "pathoLen": 89,
+    "progLen": 51,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "thyroid-carcinoma",
+    "defLen": 48,
+    "pathoLen": 101,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "adrenal-tumor",
+    "defLen": 54,
+    "pathoLen": 87,
+    "progLen": 58,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "otitis-interna",
+    "defLen": 68,
+    "pathoLen": 172,
+    "progLen": 103,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "nasopharyngeal-polyp",
+    "defLen": 74,
+    "pathoLen": 140,
+    "progLen": 105,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "chronic-rhinitis",
+    "defLen": 91,
+    "pathoLen": 166,
+    "progLen": 100,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "ear-mites",
+    "defLen": 99,
+    "pathoLen": 156,
+    "progLen": 102,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "aural-hematoma",
+    "defLen": 83,
+    "pathoLen": 160,
+    "progLen": 98,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "inguinal-hernia",
+    "defLen": 88,
+    "pathoLen": 151,
+    "progLen": 60,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "diaphragmatic-hernia-congenital",
+    "defLen": 89,
+    "pathoLen": 155,
+    "progLen": 98,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "pectus-excavatum",
+    "defLen": 78,
+    "pathoLen": 123,
+    "progLen": 75,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "distributive-shock",
+    "defLen": 79,
+    "pathoLen": 181,
+    "progLen": 96,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cardiogenic-shock",
+    "defLen": 75,
+    "pathoLen": 152,
+    "progLen": 88,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hemorrhagic-shock",
+    "defLen": 76,
+    "pathoLen": 166,
+    "progLen": 83,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "smoke-inhalation",
+    "defLen": 96,
+    "pathoLen": 209,
+    "progLen": 93,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "electrocution",
+    "defLen": 82,
+    "pathoLen": 186,
+    "progLen": 109,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "crush-injury",
+    "defLen": 94,
+    "pathoLen": 174,
+    "progLen": 102,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "metritis",
+    "defLen": 94,
+    "pathoLen": 196,
+    "progLen": 76,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "vaginitis",
+    "defLen": 94,
+    "pathoLen": 193,
+    "progLen": 82,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "paraphimosis",
+    "defLen": 92,
+    "pathoLen": 196,
+    "progLen": 75,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "oronasal-fistula",
+    "defLen": 93,
+    "pathoLen": 148,
+    "progLen": 82,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "masticatory-myositis",
+    "defLen": 91,
+    "pathoLen": 152,
+    "progLen": 101,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "territorial-aggression",
+    "defLen": 96,
+    "pathoLen": 172,
+    "progLen": 91,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "nasal-tumor",
+    "defLen": 98,
+    "pathoLen": 168,
+    "progLen": 108,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "perianal-adenoma",
+    "defLen": 98,
+    "pathoLen": 183,
+    "progLen": 86,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "nasopharyngeal-stenosis",
+    "defLen": 93,
+    "pathoLen": 149,
+    "progLen": 116,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "tracheal-hypoplasia",
+    "defLen": 86,
+    "pathoLen": 210,
+    "progLen": 96,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "uterine-torsion",
+    "defLen": 90,
+    "pathoLen": 175,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "jaw-fracture",
+    "defLen": 87,
+    "pathoLen": 158,
+    "progLen": 98,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "inter-cat-aggression",
+    "defLen": 92,
+    "pathoLen": 222,
+    "progLen": 95,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "otitis-externa-chronic",
+    "defLen": 99,
+    "pathoLen": 251,
+    "progLen": 125,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "congenital-megaesophagus",
+    "defLen": 87,
+    "pathoLen": 166,
+    "progLen": 97,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "galactostasis",
+    "defLen": 78,
+    "pathoLen": 178,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "feline-orofacial-pain-syndrome",
+    "defLen": 96,
+    "pathoLen": 197,
+    "progLen": 100,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hypovolemic-shock",
+    "defLen": 87,
+    "pathoLen": 136,
+    "progLen": 87,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "near-drowning",
+    "defLen": 90,
+    "pathoLen": 159,
+    "progLen": 92,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "heatstroke",
+    "defLen": 92,
+    "pathoLen": 137,
+    "progLen": 97,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hypothermia",
+    "defLen": 104,
+    "pathoLen": 164,
+    "progLen": 53,
+    "defThin": false,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "lens-luxation",
+    "defLen": 94,
+    "pathoLen": 224,
+    "progLen": 101,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "nuclear-sclerosis",
+    "defLen": 85,
+    "pathoLen": 184,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "keratitis",
+    "defLen": 90,
+    "pathoLen": 196,
+    "progLen": 119,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "dry-socket-alveolar-osteitis",
+    "defLen": 89,
+    "pathoLen": 156,
+    "progLen": 79,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "idiopathic-cystitis",
+    "defLen": 99,
+    "pathoLen": 185,
+    "progLen": 97,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "insulinoma-cat",
+    "defLen": 80,
+    "pathoLen": 190,
+    "progLen": 101,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "aldosteronoma",
+    "defLen": 80,
+    "pathoLen": 183,
+    "progLen": 112,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "acromegaly",
+    "defLen": 89,
+    "pathoLen": 203,
+    "progLen": 107,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "thymic-lymphoma",
+    "defLen": 90,
+    "pathoLen": 198,
+    "progLen": 91,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "splenic-torsion",
+    "defLen": 97,
+    "pathoLen": 185,
+    "progLen": 105,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "steroid-responsive-meningitis-arteritis",
+    "defLen": 95,
+    "pathoLen": 229,
+    "progLen": 118,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "canine-atopic-dermatitis",
+    "defLen": 52,
+    "pathoLen": 123,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "flea-allergy-dermatitis",
+    "defLen": 42,
+    "pathoLen": 68,
+    "progLen": 39,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "cranial-cruciate-ligament-disease",
+    "defLen": 54,
+    "pathoLen": 66,
+    "progLen": 71,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "hip-dysplasia",
+    "defLen": 42,
+    "pathoLen": 72,
+    "progLen": 59,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "patellar-luxation",
+    "defLen": 36,
+    "pathoLen": 75,
+    "progLen": 85,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "osteoarthritis",
+    "defLen": 41,
+    "pathoLen": 95,
+    "progLen": 56,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "mast-cell-tumor",
+    "defLen": 43,
+    "pathoLen": 96,
+    "progLen": 82,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "hemangiosarcoma",
+    "defLen": 34,
+    "pathoLen": 93,
+    "progLen": 73,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "mammary-tumor",
+    "defLen": 45,
+    "pathoLen": 82,
+    "progLen": 90,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "feline-infectious-peritonitis",
+    "defLen": 45,
+    "pathoLen": 92,
+    "progLen": 81,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "feline-leukemia-virus",
+    "defLen": 54,
+    "pathoLen": 108,
+    "progLen": 80,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "feline-immunodeficiency-virus",
+    "defLen": 45,
+    "pathoLen": 100,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "canine-distemper",
+    "defLen": 60,
+    "pathoLen": 98,
+    "progLen": 75,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "keratoconjunctivitis-sicca",
+    "defLen": 38,
+    "pathoLen": 115,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "corneal-ulcer",
+    "defLen": 47,
+    "pathoLen": 128,
+    "progLen": 70,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "brachycephalic-obstructive-airway-syndrome",
+    "defLen": 50,
+    "pathoLen": 124,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "tracheal-collapse",
+    "defLen": 42,
+    "pathoLen": 97,
+    "progLen": 78,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "feline-asthma",
+    "defLen": 45,
+    "pathoLen": 92,
+    "progLen": 62,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "periodontal-disease",
+    "defLen": 48,
+    "pathoLen": 129,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "chocolate-toxicosis",
+    "defLen": 50,
+    "pathoLen": 138,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "anticoagulant-rodenticide-toxicosis",
+    "defLen": 60,
+    "pathoLen": 119,
+    "progLen": 61,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "congestive-heart-failure",
+    "defLen": 50,
+    "pathoLen": 103,
+    "progLen": 95,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "pleural-effusion",
+    "defLen": 40,
+    "pathoLen": 124,
+    "progLen": 89,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "anaphylaxis",
+    "defLen": 51,
+    "pathoLen": 130,
+    "progLen": 63,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "food-allergy",
+    "defLen": 52,
+    "pathoLen": 113,
+    "progLen": 79,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "sarcoptic-mange",
+    "defLen": 69,
+    "pathoLen": 99,
+    "progLen": 43,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "hot-spot",
+    "defLen": 44,
+    "pathoLen": 95,
+    "progLen": 36,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "elbow-dysplasia",
+    "defLen": 90,
+    "pathoLen": 142,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "melanoma",
+    "defLen": 72,
+    "pathoLen": 122,
+    "progLen": 83,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "squamous-cell-carcinoma",
+    "defLen": 57,
+    "pathoLen": 114,
+    "progLen": 91,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "soft-tissue-sarcoma",
+    "defLen": 65,
+    "pathoLen": 124,
+    "progLen": 82,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "feline-herpesvirus",
+    "defLen": 61,
+    "pathoLen": 124,
+    "progLen": 95,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "feline-calicivirus",
+    "defLen": 61,
+    "pathoLen": 124,
+    "progLen": 86,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "feline-panleukopenia",
+    "defLen": 70,
+    "pathoLen": 138,
+    "progLen": 77,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "kennel-cough",
+    "defLen": 90,
+    "pathoLen": 162,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hookworm",
+    "defLen": 116,
+    "pathoLen": 167,
+    "progLen": 51,
+    "defThin": false,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "roundworm",
+    "defLen": 101,
+    "pathoLen": 188,
+    "progLen": 48,
+    "defThin": false,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "uveitis",
+    "defLen": 72,
+    "pathoLen": 134,
+    "progLen": 69,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cherry-eye",
+    "defLen": 50,
+    "pathoLen": 108,
+    "progLen": 61,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "entropion",
+    "defLen": 55,
+    "pathoLen": 142,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "progressive-retinal-atrophy",
+    "defLen": 61,
+    "pathoLen": 151,
+    "progLen": 79,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "immune-mediated-thrombocytopenia",
+    "defLen": 60,
+    "pathoLen": 155,
+    "progLen": 85,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "von-willebrand-disease",
+    "defLen": 82,
+    "pathoLen": 168,
+    "progLen": 72,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "gallbladder-mucocele",
+    "defLen": 55,
+    "pathoLen": 155,
+    "progLen": 69,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "intestinal-foreign-body",
+    "defLen": 61,
+    "pathoLen": 134,
+    "progLen": 92,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "gastric-foreign-body",
+    "defLen": 53,
+    "pathoLen": 110,
+    "progLen": 70,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "feline-chronic-gingivostomatitis",
+    "defLen": 95,
+    "pathoLen": 139,
+    "progLen": 79,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "feline-tooth-resorption",
+    "defLen": 75,
+    "pathoLen": 183,
+    "progLen": 61,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "conjunctivitis",
+    "defLen": 63,
+    "pathoLen": 145,
+    "progLen": 46,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "pemphigus-foliaceus",
+    "defLen": 49,
+    "pathoLen": 85,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "seborrhea",
+    "defLen": 45,
+    "pathoLen": 85,
+    "progLen": 56,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "malassezia-dermatitis",
+    "defLen": 60,
+    "pathoLen": 89,
+    "progLen": 50,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "aspiration-pneumonia",
+    "defLen": 45,
+    "pathoLen": 91,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "pneumothorax",
+    "defLen": 36,
+    "pathoLen": 105,
+    "progLen": 56,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "pyothorax",
+    "defLen": 30,
+    "pathoLen": 160,
+    "progLen": 75,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "chylothorax",
+    "defLen": 36,
+    "pathoLen": 115,
+    "progLen": 76,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "osteochondritis-dissecans",
+    "defLen": 42,
+    "pathoLen": 102,
+    "progLen": 63,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "legg-calve-perthes",
+    "defLen": 38,
+    "pathoLen": 93,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "panosteitis",
+    "defLen": 31,
+    "pathoLen": 99,
+    "progLen": 47,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "fracture",
+    "defLen": 32,
+    "pathoLen": 93,
+    "progLen": 88,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "canine-influenza",
+    "defLen": 89,
+    "pathoLen": 144,
+    "progLen": 55,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "feline-chlamydiosis",
+    "defLen": 47,
+    "pathoLen": 89,
+    "progLen": 49,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "canine-brucellosis",
+    "defLen": 54,
+    "pathoLen": 100,
+    "progLen": 54,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "tapeworm",
+    "defLen": 71,
+    "pathoLen": 105,
+    "progLen": 60,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "whipworm",
+    "defLen": 41,
+    "pathoLen": 123,
+    "progLen": 41,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "flea-infestation",
+    "defLen": 69,
+    "pathoLen": 110,
+    "progLen": 54,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "xylitol-toxicosis",
+    "defLen": 40,
+    "pathoLen": 118,
+    "progLen": 68,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "nsaid-toxicosis",
+    "defLen": 64,
+    "pathoLen": 131,
+    "progLen": 59,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "grape-raisin-toxicosis",
+    "defLen": 28,
+    "pathoLen": 114,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "lily-toxicosis",
+    "defLen": 53,
+    "pathoLen": 118,
+    "progLen": 66,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "ethylene-glycol-toxicosis",
+    "defLen": 45,
+    "pathoLen": 121,
+    "progLen": 84,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "acetaminophen-toxicosis",
+    "defLen": 58,
+    "pathoLen": 143,
+    "progLen": 62,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "snake-envenomation",
+    "defLen": 35,
+    "pathoLen": 129,
+    "progLen": 86,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "sepsis-sirs",
+    "defLen": 67,
+    "pathoLen": 141,
+    "progLen": 98,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hepatic-tumor",
+    "defLen": 45,
+    "pathoLen": 89,
+    "progLen": 70,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "splenic-tumor",
+    "defLen": 58,
+    "pathoLen": 85,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "pulmonary-neoplasia",
+    "defLen": 51,
+    "pathoLen": 92,
+    "progLen": 79,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "anal-sac-adenocarcinoma",
+    "defLen": 57,
+    "pathoLen": 90,
+    "progLen": 66,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "histiocytic-sarcoma",
+    "defLen": 46,
+    "pathoLen": 95,
+    "progLen": 58,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "meningioma",
+    "defLen": 54,
+    "pathoLen": 82,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "right-sided-heart-failure",
+    "defLen": 41,
+    "pathoLen": 90,
+    "progLen": 62,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "myocarditis",
+    "defLen": 39,
+    "pathoLen": 93,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "restrictive-cardiomyopathy",
+    "defLen": 47,
+    "pathoLen": 113,
+    "progLen": 61,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "sick-sinus-syndrome",
+    "defLen": 56,
+    "pathoLen": 103,
+    "progLen": 50,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "obesity",
+    "defLen": 50,
+    "pathoLen": 116,
+    "progLen": 75,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hepatic-encephalopathy",
+    "defLen": 48,
+    "pathoLen": 100,
+    "progLen": 69,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hyperlipoproteinemia",
+    "defLen": 57,
+    "pathoLen": 111,
+    "progLen": 70,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "pulmonary-edema",
+    "defLen": 42,
+    "pathoLen": 104,
+    "progLen": 72,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "pulmonary-thromboembolism",
+    "defLen": 43,
+    "pathoLen": 93,
+    "progLen": 69,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "pulmonary-contusion",
+    "defLen": 33,
+    "pathoLen": 96,
+    "progLen": 60,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "feline-upper-respiratory-infection",
+    "defLen": 57,
+    "pathoLen": 141,
+    "progLen": 68,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "feline-triaditis",
+    "defLen": 42,
+    "pathoLen": 108,
+    "progLen": 53,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "chronic-hepatitis",
+    "defLen": 41,
+    "pathoLen": 105,
+    "progLen": 72,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "acute-hepatic-failure",
+    "defLen": 48,
+    "pathoLen": 102,
+    "progLen": 82,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "septic-peritonitis",
+    "defLen": 51,
+    "pathoLen": 111,
+    "progLen": 94,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "gastritis",
+    "defLen": 50,
+    "pathoLen": 120,
+    "progLen": 66,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "dietary-indiscretion",
+    "defLen": 43,
+    "pathoLen": 93,
+    "progLen": 54,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "feline-mycoplasma",
+    "defLen": 73,
+    "pathoLen": 189,
+    "progLen": 86,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "lyme-disease",
+    "defLen": 70,
+    "pathoLen": 126,
+    "progLen": 80,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hemophilia",
+    "defLen": 53,
+    "pathoLen": 105,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "anemia-of-chronic-disease",
+    "defLen": 51,
+    "pathoLen": 102,
+    "progLen": 47,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "iron-deficiency-anemia",
+    "defLen": 46,
+    "pathoLen": 113,
+    "progLen": 72,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cardiopulmonary-arrest",
+    "defLen": 42,
+    "pathoLen": 109,
+    "progLen": 79,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "bite-wound",
+    "defLen": 52,
+    "pathoLen": 139,
+    "progLen": 68,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "vehicular-trauma",
+    "defLen": 42,
+    "pathoLen": 118,
+    "progLen": 68,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "acute-abdomen",
+    "defLen": 40,
+    "pathoLen": 136,
+    "progLen": 80,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "high-rise-syndrome",
+    "defLen": 53,
+    "pathoLen": 150,
+    "progLen": 76,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cryptorchidism",
+    "defLen": 44,
+    "pathoLen": 168,
+    "progLen": 59,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "pseudopregnancy",
+    "defLen": 64,
+    "pathoLen": 120,
+    "progLen": 52,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "prostatic-abscess",
+    "defLen": 45,
+    "pathoLen": 126,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "nephrotic-syndrome",
+    "defLen": 51,
+    "pathoLen": 165,
+    "progLen": 76,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "polyradiculoneuritis",
+    "defLen": 76,
+    "pathoLen": 134,
+    "progLen": 82,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "wobbler-syndrome",
+    "defLen": 49,
+    "pathoLen": 143,
+    "progLen": 89,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "spinal-fracture-luxation",
+    "defLen": 36,
+    "pathoLen": 153,
+    "progLen": 81,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "salivary-mucocele",
+    "defLen": 50,
+    "pathoLen": 121,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "otitis-media",
+    "defLen": 37,
+    "pathoLen": 130,
+    "progLen": 86,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cleft-palate",
+    "defLen": 40,
+    "pathoLen": 135,
+    "progLen": 75,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "perineal-hernia",
+    "defLen": 51,
+    "pathoLen": 136,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "umbilical-hernia",
+    "defLen": 56,
+    "pathoLen": 134,
+    "progLen": 68,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "skin-mass-lipoma",
+    "defLen": 48,
+    "pathoLen": 142,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cutaneous-histiocytoma",
+    "defLen": 56,
+    "pathoLen": 146,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "sebaceous-adenoma",
+    "defLen": 45,
+    "pathoLen": 115,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "miliary-dermatitis",
+    "defLen": 67,
+    "pathoLen": 155,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "canine-coronavirus",
+    "defLen": 100,
+    "pathoLen": 140,
+    "progLen": 55,
+    "defThin": false,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "infectious-canine-hepatitis",
+    "defLen": 80,
+    "pathoLen": 139,
+    "progLen": 91,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "contact-dermatitis",
+    "defLen": 105,
+    "pathoLen": 149,
+    "progLen": 57,
+    "defThin": false,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "alopecia-x",
+    "defLen": 96,
+    "pathoLen": 174,
+    "progLen": 58,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "angular-limb-deformity",
+    "defLen": 87,
+    "pathoLen": 169,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hypertrophic-osteodystrophy",
+    "defLen": 84,
+    "pathoLen": 152,
+    "progLen": 64,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "ectropion",
+    "defLen": 77,
+    "pathoLen": 166,
+    "progLen": 66,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "distichiasis",
+    "defLen": 92,
+    "pathoLen": 150,
+    "progLen": 58,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "retinal-detachment",
+    "defLen": 86,
+    "pathoLen": 195,
+    "progLen": 77,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "sudden-acquired-retinal-degeneration",
+    "defLen": 91,
+    "pathoLen": 220,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "proptosis",
+    "defLen": 74,
+    "pathoLen": 166,
+    "progLen": 121,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "obstructive-shock",
+    "defLen": 79,
+    "pathoLen": 182,
+    "progLen": 86,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "marijuana-toxicosis",
+    "defLen": 98,
+    "pathoLen": 218,
+    "progLen": 75,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "organophosphate-toxicosis",
+    "defLen": 84,
+    "pathoLen": 263,
+    "progLen": 77,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "pregnancy-toxemia",
+    "defLen": 91,
+    "pathoLen": 174,
+    "progLen": 72,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "mesenteric-volvulus",
+    "defLen": 85,
+    "pathoLen": 179,
+    "progLen": 90,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "otitis-externa-acute",
+    "defLen": 90,
+    "pathoLen": 238,
+    "progLen": 70,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "transitional-cell-carcinoma",
+    "defLen": 90,
+    "pathoLen": 192,
+    "progLen": 99,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "plague",
+    "defLen": 123,
+    "pathoLen": 284,
+    "progLen": 55,
+    "defThin": false,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "sebaceous-adenitis",
+    "defLen": 48,
+    "pathoLen": 72,
+    "progLen": 62,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "eosinophilic-granuloma-complex",
+    "defLen": 74,
+    "pathoLen": 90,
+    "progLen": 53,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "uveodermatologic-syndrome",
+    "defLen": 82,
+    "pathoLen": 85,
+    "progLen": 71,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "dermatomyositis",
+    "defLen": 64,
+    "pathoLen": 79,
+    "progLen": 61,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "sterile-nodular-panniculitis",
+    "defLen": 60,
+    "pathoLen": 87,
+    "progLen": 65,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "zinc-responsive-dermatosis",
+    "defLen": 70,
+    "pathoLen": 96,
+    "progLen": 58,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "canine-juvenile-cellulitis",
+    "defLen": 76,
+    "pathoLen": 77,
+    "progLen": 57,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "acral-lick-dermatitis",
+    "defLen": 70,
+    "pathoLen": 118,
+    "progLen": 69,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "vasculitis",
+    "defLen": 62,
+    "pathoLen": 82,
+    "progLen": 68,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "allergic-rhinitis",
+    "defLen": 64,
+    "pathoLen": 104,
+    "progLen": 63,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "pannus",
+    "defLen": 68,
+    "pathoLen": 77,
+    "progLen": 63,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "iris-melanoma",
+    "defLen": 62,
+    "pathoLen": 98,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "retrobulbar-abscess",
+    "defLen": 57,
+    "pathoLen": 103,
+    "progLen": 72,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "orbital-tumor",
+    "defLen": 57,
+    "pathoLen": 90,
+    "progLen": 81,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "anterior-lens-luxation",
+    "defLen": 52,
+    "pathoLen": 108,
+    "progLen": 82,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "feline-eosinophilic-keratitis",
+    "defLen": 69,
+    "pathoLen": 100,
+    "progLen": 61,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "eyelid-tumor",
+    "defLen": 59,
+    "pathoLen": 109,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "neonatal-isoerythrolysis",
+    "defLen": 61,
+    "pathoLen": 109,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "fading-puppy-kitten-syndrome",
+    "defLen": 77,
+    "pathoLen": 172,
+    "progLen": 89,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "swimmer-puppy-syndrome",
+    "defLen": 63,
+    "pathoLen": 113,
+    "progLen": 80,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "tooth-root-abscess",
+    "defLen": 60,
+    "pathoLen": 111,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "esophageal-stricture",
+    "defLen": 59,
+    "pathoLen": 121,
+    "progLen": 87,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "gastroesophageal-reflux",
+    "defLen": 61,
+    "pathoLen": 111,
+    "progLen": 79,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "megacolon-feline",
+    "defLen": 73,
+    "pathoLen": 126,
+    "progLen": 90,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "atrial-fibrillation",
+    "defLen": 75,
+    "pathoLen": 181,
+    "progLen": 102,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "supraventricular-tachycardia",
+    "defLen": 95,
+    "pathoLen": 171,
+    "progLen": 84,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "ventricular-tachycardia",
+    "defLen": 95,
+    "pathoLen": 142,
+    "progLen": 104,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "third-degree-av-block",
+    "defLen": 82,
+    "pathoLen": 172,
+    "progLen": 98,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "constrictive-pericarditis",
+    "defLen": 76,
+    "pathoLen": 163,
+    "progLen": 90,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "polycythemia-vera",
+    "defLen": 88,
+    "pathoLen": 143,
+    "progLen": 92,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "multiple-myeloma",
+    "defLen": 76,
+    "pathoLen": 197,
+    "progLen": 99,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "thymoma",
+    "defLen": 77,
+    "pathoLen": 154,
+    "progLen": 107,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "chondrosarcoma",
+    "defLen": 66,
+    "pathoLen": 130,
+    "progLen": 105,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hyperviscosity-syndrome",
+    "defLen": 89,
+    "pathoLen": 195,
+    "progLen": 111,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "amyloidosis",
+    "defLen": 95,
+    "pathoLen": 185,
+    "progLen": 109,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cerebellar-hypoplasia",
+    "defLen": 89,
+    "pathoLen": 178,
+    "progLen": 104,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "canine-chronic-bronchitis",
+    "defLen": 79,
+    "pathoLen": 159,
+    "progLen": 87,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "eosinophilic-bronchopneumopathy",
+    "defLen": 95,
+    "pathoLen": 206,
+    "progLen": 101,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "pulmonary-fibrosis",
+    "defLen": 83,
+    "pathoLen": 153,
+    "progLen": 109,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "diaphragmatic-hernia-traumatic",
+    "defLen": 69,
+    "pathoLen": 171,
+    "progLen": 157,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "fanconi-syndrome",
+    "defLen": 87,
+    "pathoLen": 199,
+    "progLen": 116,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hypernatremia",
+    "defLen": 91,
+    "pathoLen": 192,
+    "progLen": 97,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hyponatremia",
+    "defLen": 81,
+    "pathoLen": 178,
+    "progLen": 107,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hypermagnesemia",
+    "defLen": 94,
+    "pathoLen": 116,
+    "progLen": 86,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hypomagnesemia",
+    "defLen": 83,
+    "pathoLen": 165,
+    "progLen": 69,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hypervitaminosis-d",
+    "defLen": 81,
+    "pathoLen": 264,
+    "progLen": 116,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hepatocellular-carcinoma",
+    "defLen": 88,
+    "pathoLen": 108,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "intestinal-adenocarcinoma",
+    "defLen": 80,
+    "pathoLen": 118,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "basal-cell-tumor",
+    "defLen": 85,
+    "pathoLen": 129,
+    "progLen": 60,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "ceruminous-gland-adenocarcinoma",
+    "defLen": 88,
+    "pathoLen": 102,
+    "progLen": 70,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "thyroid-adenoma",
+    "defLen": 77,
+    "pathoLen": 113,
+    "progLen": 82,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "chemodectoma",
+    "defLen": 97,
+    "pathoLen": 122,
+    "progLen": 73,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "mesothelioma",
+    "defLen": 73,
+    "pathoLen": 121,
+    "progLen": 73,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hemangioma",
+    "defLen": 95,
+    "pathoLen": 123,
+    "progLen": 48,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "campylobacteriosis",
+    "defLen": 100,
+    "pathoLen": 119,
+    "progLen": 47,
+    "defThin": false,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "yersiniosis",
+    "defLen": 121,
+    "pathoLen": 166,
+    "progLen": 43,
+    "defThin": false,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "streptococcal-infection",
+    "defLen": 124,
+    "pathoLen": 203,
+    "progLen": 57,
+    "defThin": false,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "coccidiosis",
+    "defLen": 139,
+    "pathoLen": 195,
+    "progLen": 55,
+    "defThin": false,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "erythema-multiforme",
+    "defLen": 92,
+    "pathoLen": 133,
+    "progLen": 78,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "toxic-epidermal-necrolysis",
+    "defLen": 78,
+    "pathoLen": 145,
+    "progLen": 73,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "color-dilution-alopecia",
+    "defLen": 74,
+    "pathoLen": 134,
+    "progLen": 66,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "follicular-dysplasia",
+    "defLen": 88,
+    "pathoLen": 130,
+    "progLen": 74,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cutaneous-vasculitis",
+    "defLen": 84,
+    "pathoLen": 129,
+    "progLen": 62,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "superficial-necrolytic-dermatitis",
+    "defLen": 84,
+    "pathoLen": 137,
+    "progLen": 76,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "canine-pattern-alopecia",
+    "defLen": 95,
+    "pathoLen": 143,
+    "progLen": 44,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "acanthosis-nigricans",
+    "defLen": 99,
+    "pathoLen": 118,
+    "progLen": 55,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "intertrigo",
+    "defLen": 71,
+    "pathoLen": 134,
+    "progLen": 58,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "corneal-sequestrum",
+    "defLen": 81,
+    "pathoLen": 135,
+    "progLen": 70,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "corneal-dystrophy",
+    "defLen": 88,
+    "pathoLen": 139,
+    "progLen": 87,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "optic-neuritis",
+    "defLen": 72,
+    "pathoLen": 135,
+    "progLen": 97,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "chorioretinitis",
+    "defLen": 74,
+    "pathoLen": 154,
+    "progLen": 93,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "endophthalmitis",
+    "defLen": 75,
+    "pathoLen": 173,
+    "progLen": 80,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "anterior-uveitis",
+    "defLen": 76,
+    "pathoLen": 160,
+    "progLen": 93,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "phthisis-bulbi",
+    "defLen": 87,
+    "pathoLen": 163,
+    "progLen": 75,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "eyelid-agenesis",
+    "defLen": 83,
+    "pathoLen": 144,
+    "progLen": 73,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "mastitis",
+    "defLen": 123,
+    "pathoLen": 87,
+    "progLen": 48,
+    "defThin": false,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "vaginal-prolapse",
+    "defLen": 60,
+    "pathoLen": 82,
+    "progLen": 46,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": true
+  },
+  {
+    "id": "agalactia",
+    "defLen": 82,
+    "pathoLen": 119,
+    "progLen": 59,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "retained-placenta",
+    "defLen": 79,
+    "pathoLen": 116,
+    "progLen": 39,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "subinvolution-placental-sites",
+    "defLen": 85,
+    "pathoLen": 126,
+    "progLen": 59,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": true
+  },
+  {
+    "id": "uterine-rupture",
+    "defLen": 83,
+    "pathoLen": 97,
+    "progLen": 67,
+    "defThin": true,
+    "pathoThin": true,
+    "progThin": false
+  },
+  {
+    "id": "prostatitis",
+    "defLen": 99,
+    "pathoLen": 121,
+    "progLen": 61,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "aplastic-anemia",
+    "defLen": 79,
+    "pathoLen": 124,
+    "progLen": 88,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "chronic-lymphocytic-leukemia",
+    "defLen": 76,
+    "pathoLen": 148,
+    "progLen": 91,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "acute-lymphoblastic-leukemia",
+    "defLen": 92,
+    "pathoLen": 120,
+    "progLen": 81,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "bicipital-tenosynovitis",
+    "defLen": 73,
+    "pathoLen": 115,
+    "progLen": 92,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "hypertrophic-osteopathy",
+    "defLen": 77,
+    "pathoLen": 128,
+    "progLen": 72,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "luxating-shoulder",
+    "defLen": 97,
+    "pathoLen": 124,
+    "progLen": 79,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "arrhythmogenic-rvc",
+    "defLen": 98,
+    "pathoLen": 157,
+    "progLen": 81,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cor-pulmonale",
+    "defLen": 80,
+    "pathoLen": 168,
+    "progLen": 100,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "endocardiosis",
+    "defLen": 83,
+    "pathoLen": 236,
+    "progLen": 143,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "bilious-vomiting-syndrome",
+    "defLen": 92,
+    "pathoLen": 147,
+    "progLen": 66,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  },
+  {
+    "id": "cecal-inversion",
+    "defLen": 98,
+    "pathoLen": 126,
+    "progLen": 75,
+    "defThin": true,
+    "pathoThin": false,
+    "progThin": false
+  }
+]
