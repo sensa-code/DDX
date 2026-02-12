@@ -1,0 +1,326 @@
+{
+  "duplicates": [
+    {
+      "remove": "chronic kidney disease",
+      "keep": "chronic-kidney-disease",
+      "zh": "慢性腎臟病"
+    },
+    {
+      "remove": "hepatic lipidosis",
+      "keep": "hepatic-lipidosis",
+      "zh": "肝臟脂肪沉積症"
+    },
+    {
+      "remove": "portosystemic shunt",
+      "keep": "portosystemic-shunt",
+      "zh": "肝門脈分流"
+    },
+    {
+      "remove": "gastric dilatation-volvulus",
+      "keep": "gastric-dilatation-volvulus",
+      "zh": "胃擴張扭轉"
+    },
+    {
+      "remove": "feline infectious peritonitis",
+      "keep": "feline-infectious-peritonitis",
+      "zh": "貓傳染性腹膜炎"
+    },
+    {
+      "remove": "inflammatory bowel disease",
+      "keep": "inflammatory-bowel-disease",
+      "zh": "發炎性腸病"
+    },
+    {
+      "remove": "dilated cardiomyopathy",
+      "keep": "dilated-cardiomyopathy",
+      "zh": "擴張型心肌病"
+    },
+    {
+      "remove": "hypertrophic cardiomyopathy",
+      "keep": "hypertrophic-cardiomyopathy",
+      "zh": "肥厚型心肌病"
+    },
+    {
+      "remove": "intervertebral disc disease",
+      "keep": "intervertebral-disc-disease",
+      "zh": "椎間盤疾病"
+    },
+    {
+      "remove": "urethral obstruction",
+      "keep": "urethral-obstruction",
+      "zh": "尿道阻塞"
+    },
+    {
+      "remove": "diabetes mellitus",
+      "keep": "diabetes-mellitus",
+      "zh": "糖尿病"
+    },
+    {
+      "remove": "ethylene glycol toxicosis",
+      "keep": "ethylene-glycol-toxicosis",
+      "zh": "乙二醇中毒"
+    },
+    {
+      "remove": "chocolate toxicosis",
+      "keep": "chocolate-toxicosis",
+      "zh": "巧克力中毒"
+    },
+    {
+      "remove": "xylitol toxicosis",
+      "keep": "xylitol-toxicosis",
+      "zh": "木糖醇中毒"
+    },
+    {
+      "remove": "nsaid toxicosis",
+      "keep": "nsaid-toxicosis",
+      "zh": "非類固醇抗發炎藥中毒"
+    },
+    {
+      "remove": "acetaminophen toxicosis",
+      "keep": "acetaminophen-toxicosis",
+      "zh": "乙醯胺酚中毒"
+    },
+    {
+      "remove": "grape raisin toxicosis",
+      "keep": "grape-raisin-toxicosis",
+      "zh": "葡萄/葡萄乾中毒"
+    },
+    {
+      "remove": "lily toxicosis",
+      "keep": "lily-toxicosis",
+      "zh": "百合中毒"
+    },
+    {
+      "remove": "marijuana toxicosis",
+      "keep": "marijuana-toxicosis",
+      "zh": "大麻中毒"
+    },
+    {
+      "remove": "permethrin toxicosis",
+      "keep": "permethrin-toxicosis",
+      "zh": "除蟲菊精中毒"
+    },
+    {
+      "remove": "lyme disease",
+      "keep": "lyme-disease",
+      "zh": "萊姆病"
+    },
+    {
+      "remove": "heartworm disease",
+      "keep": "heartworm-disease",
+      "zh": "心絲蟲病"
+    },
+    {
+      "remove": "canine distemper",
+      "keep": "canine-distemper",
+      "zh": "犬瘟熱"
+    },
+    {
+      "remove": "infectious canine hepatitis",
+      "keep": "infectious-canine-hepatitis",
+      "zh": "犬傳染性肝炎"
+    },
+    {
+      "remove": "kennel cough",
+      "keep": "kennel-cough",
+      "zh": "犬傳染性呼吸道疾病"
+    },
+    {
+      "remove": "feline leukemia virus",
+      "keep": "feline-leukemia-virus",
+      "zh": "貓白血病病毒感染"
+    },
+    {
+      "remove": "feline immunodeficiency virus",
+      "keep": "feline-immunodeficiency-virus",
+      "zh": "貓免疫缺陷病毒感染"
+    },
+    {
+      "remove": "feline upper respiratory infection",
+      "keep": "feline-upper-respiratory-infection",
+      "zh": "貓上呼吸道感染"
+    },
+    {
+      "remove": "feline panleukopenia",
+      "keep": "feline-panleukopenia",
+      "zh": "貓泛白血球減少症"
+    },
+    {
+      "remove": "canine influenza",
+      "keep": "canine-influenza",
+      "zh": "犬流感"
+    },
+    {
+      "remove": "hemorrhagic gastroenteritis",
+      "keep": "hemorrhagic-gastroenteritis",
+      "zh": "出血性胃腸炎"
+    },
+    {
+      "remove": "exocrine pancreatic insufficiency",
+      "keep": "exocrine-pancreatic-insufficiency",
+      "zh": "胰外分泌功能不全"
+    },
+    {
+      "remove": "protein losing enteropathy",
+      "keep": "protein-losing-enteropathy",
+      "zh": "蛋白質流失性腸病"
+    },
+    {
+      "remove": "acute kidney injury",
+      "keep": "acute-kidney-injury",
+      "zh": "急性腎損傷"
+    },
+    {
+      "remove": "feline lower urinary tract disease",
+      "keep": "feline-lower-urinary-tract-disease",
+      "zh": "貓下泌尿道疾病"
+    },
+    {
+      "remove": "prostatic disease",
+      "keep": "prostatic-disease",
+      "zh": "前列腺疾病"
+    },
+    {
+      "remove": "mammary tumor",
+      "keep": "mammary-tumor",
+      "zh": "乳腺腫瘤"
+    },
+    {
+      "remove": "testicular tumor",
+      "keep": "testicular-tumor",
+      "zh": "睪丸腫瘤"
+    },
+    {
+      "remove": "mitral valve disease",
+      "keep": "mitral-valve-disease",
+      "zh": "二尖瓣疾病"
+    },
+    {
+      "remove": "congestive heart failure",
+      "keep": "congestive-heart-failure",
+      "zh": "充血性心力衰竭"
+    },
+    {
+      "remove": "pericardial effusion",
+      "keep": "pericardial-effusion",
+      "zh": "心包積液"
+    },
+    {
+      "remove": "patent ductus arteriosus",
+      "keep": "patent-ductus-arteriosus",
+      "zh": "開放性動脈導管"
+    },
+    {
+      "remove": "idiopathic epilepsy",
+      "keep": "idiopathic-epilepsy",
+      "zh": "特發性癲癇"
+    },
+    {
+      "remove": "vestibular disease",
+      "keep": "vestibular-disease",
+      "zh": "前庭疾病"
+    },
+    {
+      "remove": "fibrocartilaginous embolism",
+      "keep": "fibrocartilaginous-embolism",
+      "zh": "纖維軟骨栓塞"
+    },
+    {
+      "remove": "myasthenia gravis",
+      "keep": "myasthenia-gravis",
+      "zh": "重症肌無力"
+    },
+    {
+      "remove": "hip dysplasia",
+      "keep": "hip-dysplasia",
+      "zh": "髖關節發育不良"
+    },
+    {
+      "remove": "patellar luxation",
+      "keep": "patellar-luxation",
+      "zh": "髕骨脫位"
+    },
+    {
+      "remove": "food allergy",
+      "keep": "food-allergy",
+      "zh": "食物過敏"
+    },
+    {
+      "remove": "flea allergy dermatitis",
+      "keep": "flea-allergy-dermatitis",
+      "zh": "跳蚤過敏性皮膚炎"
+    },
+    {
+      "remove": "keratoconjunctivitis sicca",
+      "keep": "keratoconjunctivitis-sicca",
+      "zh": "乾性角結膜炎"
+    },
+    {
+      "remove": "tracheal collapse",
+      "keep": "tracheal-collapse",
+      "zh": "氣管塌陷"
+    },
+    {
+      "remove": "laryngeal paralysis",
+      "keep": "laryngeal-paralysis",
+      "zh": "喉麻痺"
+    },
+    {
+      "remove": "feline asthma",
+      "keep": "feline-asthma",
+      "zh": "貓哮喘"
+    }
+  ],
+  "renameToHyphen": [
+    {
+      "from": "diabetic ketoacidosis",
+      "to": "diabetic-ketoacidosis",
+      "zh": "糖尿病酮酸中毒"
+    },
+    {
+      "from": "rodenticide toxicosis",
+      "to": "rodenticide-toxicosis",
+      "zh": "滅鼠劑中毒"
+    },
+    {
+      "from": "snail bait toxicosis",
+      "to": "snail-bait-toxicosis",
+      "zh": "蝸牛餌劑中毒"
+    },
+    {
+      "from": "foreign body gi",
+      "to": "foreign-body-gi",
+      "zh": "消化道異物"
+    },
+    {
+      "from": "aortic thromboembolism",
+      "to": "aortic-thromboembolism",
+      "zh": "主動脈血栓栓塞"
+    },
+    {
+      "from": "cranial cruciate ligament rupture",
+      "to": "cranial-cruciate-ligament-rupture",
+      "zh": "前十字韌帶斷裂"
+    },
+    {
+      "from": "atopic dermatitis",
+      "to": "atopic-dermatitis",
+      "zh": "異位性皮膚炎"
+    },
+    {
+      "from": "otitis externa",
+      "to": "otitis-externa",
+      "zh": "外耳炎"
+    },
+    {
+      "from": "brachycephalic airway syndrome",
+      "to": "brachycephalic-airway-syndrome",
+      "zh": "短頭犬呼吸道症候群"
+    },
+    {
+      "from": "chronic bronchitis",
+      "to": "chronic-bronchitis",
+      "zh": "慢性支氣管炎"
+    }
+  ]
+}
