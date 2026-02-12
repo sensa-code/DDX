@@ -22443,6 +22443,26 @@ function renderDiseaseIntegrationView(searchTerm) {
         </div>
       </div>
       ` : ''}
+
+      <!-- 參考文獻 -->
+      ${diseaseInfo.references && diseaseInfo.references.length > 0 ? `
+      <div style="background:#fafafa; border-radius:8px; padding:0.8rem; margin-top:0.8rem; border:1px solid #e0e0e0;">
+        <h4 style="margin:0 0 0.5rem 0; color:#546e7a; font-size:0.85rem; display:flex; align-items:center; gap:0.4rem;">
+          📖 參考文獻 <span style="font-size:0.7rem; color:#90a4ae;">(${diseaseInfo.references.length})</span>
+        </h4>
+        <ol style="margin:0; padding-left:1.5rem; font-size:0.78rem; line-height:1.7; color:#455a64;">
+          ${diseaseInfo.references.map(r => `
+            <li style="margin-bottom:0.3rem;">
+              ${r.authors ? r.authors + '. ' : ''}${r.title}${r.journal ? '. <em>' + r.journal + '</em>' : ''}${r.year ? ' (' + r.year + ')' : ''}${r.doi ? '. <a href="https://doi.org/' + r.doi + '" target="_blank" rel="noopener" style="color:#1976d2; text-decoration:none;">DOI</a>' : ''}${r.pmid ? ' <a href="https://pubmed.ncbi.nlm.nih.gov/' + r.pmid + '/" target="_blank" rel="noopener" style="color:#1976d2; text-decoration:none;">PubMed</a>' : ''}${r.url ? ' <a href="' + r.url + '" target="_blank" rel="noopener" style="color:#1976d2; text-decoration:none;">🔗</a>' : ''}
+            </li>
+          `).join('')}
+        </ol>
+      </div>
+      ` : (diseaseInfo.reference ? `
+      <div style="margin-top:0.8rem; font-size:0.75rem; color:#90a4ae;">
+        📖 ${diseaseInfo.reference}
+      </div>
+      ` : '')}
     </div>
     `;
   }
